@@ -1,0 +1,157 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+header,footer,article,section,hgroup,nav,figure {
+	display: block;
+}
+
+body {
+	background-color: #212629;
+}
+
+a img {
+	border:none;
+}
+
+h1 {
+  color: #fff;
+}
+
+/* --- Header --- */
+
+header {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	margin: -150px 0 0 -185px;
+	width: 330px;
+	height: 121px;
+	background: url("images/logo.png");
+}
+
+/* --- Address --- */
+
+address {
+	position:absolute;
+	top: 0;
+	right: 0;
+	text-align: right;
+	margin: 30px 30px 0 0;
+	color: #ccc;
+}
+
+/* --- Footer --- */
+
+footer {
+  position: absolute;
+  bottom: 30px;
+  left: 50%;
+  width: 219px;
+  height: 300px;
+  background: url("images/zeno.png");
+  margin: 0 0 0 -109px;
+}
+
+/* --- Section --- */
+
+section {
+	position:absolute;
+	bottom: 0;
+	left: 0;
+	margin: 0 0 30px 30px;
+}
+
+section ul {
+  list-style: none;
+  text-align: left;
+  color: #999;
+}
+
+section a {
+  color: #999;
+  text-decoration: none;
+}
+
+section a:hover {
+  color: #ccc;
+}
+
+/* --- Nav --- */
+
+nav {
+  position:absolute;
+  bottom: 0;
+  right: 0;
+  margin: 0 30px 30px 0;
+}
+
+nav h1 {
+  margin-left: 35px;
+}
+
+nav ul {
+	list-style: none;
+	text-align: right;
+}
+
+nav a {
+	color: #999;
+	text-decoration: none;
+}
+
+nav a:hover {
+	color: #ccc;
+}
+
+/* --- Aside --- */
+
+#facebook { background-image:url("images/facebook.png"); }
+#twitter { background-image:url("images/twitter.png"); }
+#linkedin { background-image:url("images/linkedin.png"); }
+
+#social {
+  position:absolute;
+  top: 0;
+  left: 0;
+  margin: 30px 0 0 30px;
+}
+
+  #social ul {
+    list-style: none; 
+    font-size: 16px; 
+  }
+
+    #social ul li { 
+    	display:inline; 
+    	float:left; 
+    	background-repeat:no-repeat; 
+    }
+
+      #social ul li a {
+        display:block;
+        width:48px; 
+        height:48px; 
+        padding-right:10px; 
+        position:relative; 
+        text-decoration:none;
+      }
+
+        #social ul li a strong {
+          font-weight:normal; 
+        	position:absolute; 
+        	left:20px; top:-1px; 
+        	color:#fff;
+        	padding:3px;
+        	z-index:9999;
+        	text-shadow:1px 1px 0 rgba(0, 0, 0, 0.75);
+        	background-color:rgba(0, 0, 0, 0.7);
+        	-moz-border-radius:3px;
+        	-moz-box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+        	-webkit-border-radius:3px;
+        	-webkit-box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+        	border-radius:3px;
+        	box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+        	opacity: 0;
+        }

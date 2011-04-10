@@ -25,5 +25,4 @@ $(document).ready(function()
 				top: "-1px"
 			}, 300);
 	});
-	
 });

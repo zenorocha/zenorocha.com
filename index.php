@@ -5,7 +5,7 @@
     
     <meta name="google-site-verification" content="DwDsBtBq3ZDrIXddUG5ZUyXUd6c8-NqDWSmlezXB4GA" />
 
-    <title>zeno rocha - v2.4.2</title>
+    <title>zeno rocha - v2.4.3</title>
         
     <meta charset="utf-8" />
     <meta name="author" content="Zeno Rocha" />
@@ -17,10 +17,10 @@
     <![endif]-->
     
     <script type="text/javascript"> // <![CDATA[
-	if ((navigator.userAgent.indexOf('iPhone') != -1) || (navigator.userAgent.indexOf('iPod') != -1) || (navigator.userAgent.indexOf('iPad') != -1)) {
-		document.location = "http://m.zenorocha.com";
-	} // ]]>
-	</script>
+  	if ((navigator.userAgent.indexOf('iPhone') != -1) || (navigator.userAgent.indexOf('iPod') != -1) || (navigator.userAgent.indexOf('iPad') != -1)) {
+  		document.location = "http://m.zenorocha.com";
+  	} // ]]>
+  	</script>
 
     <link rel="stylesheet" type="text/css" href="style.css" />
         
@@ -32,12 +32,8 @@
     </script>
         
     <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js"></script>
+    <script src="js/anim.js"></script>
     <script src="js/social-hover.js"></script>
-    
-    <!-- <script type="text/javascript" src="js/redirection_mobile.min.js"></script>
-    <script type="text/javascript">
-      SA.redirection_mobile ({param:"isDefault", mobile_prefix : "m", cookie_hours : "1" });
-    </script> -->
 		    
   </head>
   
@@ -45,7 +41,10 @@
 
     <div id="page">
         
-      <header></header>
+      <header>
+        <img src="images/zenorocha.png" alt="zeno rocha" id="zenorocha" />
+        <img src="images/webdeveloper.png" alt="web developer" id="webdeveloper" />
+      </header>
 
       <aside id="social">
         <ul>
@@ -56,31 +55,30 @@
       </aside>
             
       <address>
-        <p>+55 21 8108.9727<br/>
-        <span style="color: #999;">contato@zenorocha.com</span></p>
+        <p id="tel">+55 21 8108.9727</p>
+        <p id="email">contato@zenorocha.com</p>
       </address>
             
       <nav>
-        <h1>recent works</h1>
+        <h1 id="recent">recent works</h1>
         
         <ul>
-          <li><a target="_blank" href="http://www.shop126.com.br/">shop126.com.br &lt;</a></li>
-          <li><a target="_blank" href="http://guerraepaz.org.br/">guerraepaz.org.br &lt;</a></li>
-          <li><a target="_blank" href="http://grao.arq.br/">grao.arq.br &lt;</a></li>
-          <li><a target="_blank" href="http://safarirecrutamento.com.br/">safarirecrutamento.com.br &lt;</a></li>
-          <li><a target="_blank" href="http://coordenadascariocas.com.br/">coordenadascariocas.com.br &lt;</a></li>
-          <li><a target="_blank" href="http://nuts4nuts.co.uk/">nuts4nuts.co.uk &lt;</a></li>
-          <li><a target="_blank" href="http://www.parquedaliberdade.org/">parquedaliberdade.org &lt;</a></li>
-          <li><a target="_blank" href="http://mariliamisailidis.com.br/">mariliamisailidis.com.br &lt;</a></li>
-          <li><a target="_blank" href="http://ricolins.com/">ricolins.com &lt;</a></li>
-          <li><a target="_blank" href="http://taina3.com.br/">taina3.com.br &lt;</a></li>
-          <li><a target="_blank" href="http://www.brasiltemjeito.org/">brasiltemjeito.org &lt;</a></li>
-          <li><a target="_blank" href="http://antoniarodrigues.com.br/">antoniarodrigues.com.br &lt;</a></li>
+          <?php
+      
+            include 'php/jsonProjects.php';
+            
+            $projetos = json_decode($jsonProjects);
+            
+            for ($i = 0; $i <= sizeof($projetos -> item); $i++) {
+              echo '<li><a target="_blank" href="' . $projetos -> item[$i] -> url . '">' . $projetos -> item[$i] -> name . ' &lt;</a></li>';
+            }
+            
+          ?>
         </ul>
       </nav>
             
       <section>
-        <h1>about me</h1>
+        <h1 id="aboutme">about me</h1>
         
         <ul>
           <li>&gt; 20 year-old brazilian</li>
@@ -88,7 +86,7 @@
           <li>&gt; based in rio de janeiro</li>
           <li>&gt; <a target="_blank" href="http://www.uniriotec.br/~sitebsi/index.php?option=com_content&view=category&layout=blog&id=34&Itemid=27">information systems student</a></li>
           <!-- <li>&gt; <a target="_blank" href="http://caosdesign.com.br">web developer at Caos! Design</a></li> -->
-          <li>&gt; <a target="_blank" href="http://www.petrobras.com.br/pt/">java developer at Petrobras Research Center</a></li>
+          <li>&gt; <a target="_blank" href="http://www.petrobras.com.br/pt/">junior programmer at Petrobras</a></li>
         </ul>
       </section>
             

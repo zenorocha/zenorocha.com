@@ -17,6 +17,11 @@ a img {
 
 h1 {
   color: #fff;
+  opacity: 0;
+}
+
+#recent {
+  text-align: right;
 }
 
 /* --- Header --- */
@@ -27,9 +32,21 @@ header {
 	left: 50%;
 	margin: -150px 0 0 -185px;
 	width: 330px;
-	height: 121px;
-	background: url("images/logo.png");
+	height: 116px;
 }
+
+#webdeveloper {
+  margin-top: 20px;
+  float: left;
+  opacity: 0;
+}
+
+#zenorocha {
+  margin-top: -20px;
+  float: left;
+  opacity: 0;
+}
+
 
 /* --- Address --- */
 
@@ -38,10 +55,20 @@ address {
 	top: 0;
 	right: 0;
 	text-align: right;
-	margin: 30px 30px 0 0;
+	margin: 30px 20px 0 0;
 	color: #ccc;
 }
 
+#tel, #email {
+	/*margin-right: 20px;*/
+	opacity: 0;
+}
+
+#email {
+	margin-top: -20px;
+	color: #999;
+}
+	
 /* --- Footer --- */
 
 footer {
@@ -51,7 +78,8 @@ footer {
   width: 219px;
   height: 300px;
   background: url("images/zeno.png");
-  margin: 0 0 0 -109px;
+  margin: 0 0 0 -130px;
+  opacity: 0;
 }
 
 /* --- Section --- */
@@ -60,13 +88,22 @@ section {
 	position:absolute;
 	bottom: 0;
 	left: 0;
-	margin: 0 0 30px 30px;
+	margin: 0 0 30px 0px;
 }
 
 section ul {
   list-style: none;
   text-align: left;
   color: #999;
+}
+
+section ul li {
+	opacity: 0;
+	margin-left: 20px;	
+}
+
+#aboutme {
+	margin-left: 30px;
 }
 
 section a {
@@ -82,18 +119,22 @@ section a:hover {
 
 nav {
   position:absolute;
-  bottom: 0;
+  bottom: 10px;
   right: 0;
-  margin: 0 30px 30px 0;
 }
 
 nav h1 {
-  margin-left: 35px;
+  margin-right: 30px;
 }
 
 nav ul {
 	list-style: none;
 	text-align: right;
+}
+
+nav ul li {
+	opacity: 0;
+	margin-right: 20px;
 }
 
 nav a {
@@ -127,6 +168,7 @@ nav a:hover {
     	display:inline; 
     	float:left; 
     	background-repeat:no-repeat; 
+		  opacity: 0;
     }
 
       #social ul li a {

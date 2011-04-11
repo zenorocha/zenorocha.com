@@ -87,7 +87,7 @@ $(document).ready(function()
   function onFinishWorkAnim(){
     
     $('footer').delay(150).animate({
-      marginLeft: "-107px",
+      marginLeft: "-115px",
       opacity: 1
       }, 500, function() {
     });

@@ -1,5 +1,5 @@
-$(document).ready(function()
-{
+$(document).ready(function() {
+  
   var i = 1;
   var j = 1;
   
@@ -8,12 +8,12 @@ $(document).ready(function()
   
   var startDelay = 600;
   
-  $('#webdeveloper').animate({
-      marginTop: "-20px",
+  $('h2').animate({
+      marginTop: "0px",
       opacity: 1
   }, 500);
   
-  $('#zenorocha').animate({
+  $('h1').animate({
       marginTop: "0px",
       opacity: 1
   }, 500);
@@ -24,7 +24,7 @@ $(document).ready(function()
     
     $('#facebook').delay(startDelay).animate({ opacity: 1 }, 300);
     $('#twitter').delay(startDelay + 150).animate({ opacity: 1 }, 300);
-    $('#linkedin').delay(startDelay + 300).animate({ opacity: 1 }, 300);
+    $('#github').delay(startDelay + 300).animate({ opacity: 1 }, 300);
     
     $('#tel').delay(startDelay + 450).animate({
       opacity: 1

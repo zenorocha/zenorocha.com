@@ -1,5 +1,5 @@
-$(document).ready(function()
-{
+(function($) {
+	
 	$("#social ul li").hover(function() { // Mouse over
 		$(this)
 			.stop().fadeTo(500, 1)
@@ -25,4 +25,5 @@ $(document).ready(function()
 				top: "-1px"
 			}, 300);
 	});
-});
+	
+})(jQuery);

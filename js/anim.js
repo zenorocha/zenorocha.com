@@ -1,4 +1,4 @@
-$(document).ready(function() {
+(function($) {
   
   var i = 1;
   var j = 1;
@@ -6,7 +6,7 @@ $(document).ready(function() {
   var aboutSize = 5;
   var workSize = 12;
   
-  var startDelay = 600;
+  var startDelay = 100;
   
   $('h2').animate({
       marginTop: "0px",
@@ -94,4 +94,4 @@ $(document).ready(function() {
     
   }
 	
-});
+})(jQuery);

@@ -7,5 +7,5 @@ Contact:      contato@zenorocha.com
 
 /* SITE */
 Tech:	      HTML5, CSS3, jQuery
-Software:	  Aptana Studio 3
+Software:     Aptana Studio 3
 Language:     Brazilian Portuguese (PT-BR)

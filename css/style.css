@@ -13,10 +13,17 @@
 body {
 	font-family: 'ChunkFive', Helvetica, sans-serif;
 	background-color: #212629;
-	filter: alpha(opacity=100); /* internet explorer */
 }
 /*::-moz-selection{ background:#212629; color:#fff; }
 ::selection { background:#212629; color:#fff; }*/ 
+
+/* --- IE Bug Fix --- */
+
+.ie h1, .ie h2, .ie h3, .ie #webdeveloper, .ie #zenorocha, .ie #tel, .ie #email, .ie footer, .ie nav ul li, .ie section ul li, .ie #social ul li  {
+  filter: alpha(opacity=100) !important;
+  opacity: 1 !important;  
+}
+
 
 /* --- Typography --- */
 

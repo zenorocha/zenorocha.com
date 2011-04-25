@@ -1,5 +1,12 @@
 <!doctype html>
-<html lang="pt-br">
+
+  <!--[if !IE]> 
+    <html lang="pt-BR">    
+  <![endif]-->
+  
+  <!--[if IE]> 
+    <html class="ie" lang="pt-BR">    
+  <![endif]-->
   
   <head>
 
@@ -11,7 +18,7 @@
     <meta name="keywords" content="zeno, zeno rocha, zeno rocha bueno netto, unirio, freelance, freelancer, informatica, webdesign, programacao, caos design, caos! design, curitiba, rio de janeiro, sistemas de informacao, cenpes, petrobras, centro de pesquisas e desenvolvimento da petrobras," />
         
     <!--[if IE]>
-	<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>        
+      <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>        
     <![endif]-->
     
     <script type="text/javascript"> // <![CDATA[
@@ -19,6 +26,8 @@
   		document.location = "http://m.zenorocha.com";
   	} // ]]>
   	</script>
+  	
+  	<script src="js/libs/modernizr-1.6.min.js"></script>
 
     <link rel="stylesheet" href="css/reset.css?v=2">
     <link rel="stylesheet" href="css/style.css?v=2">
@@ -26,20 +35,15 @@
     <script src="js/libs/head.load.min.js"></script>
     
     <script>
-    	head.js("js/libs/modernizr-1.6.min.js", "js/libs/jquery-1.4.2.min.js", "js/load-projects.js", "js/random-zeno.js", "js/anim.js", "js/social-hover.js");
-	</script>
+    	head.js("js/libs/jquery-1.4.2.min.js", "js/load-projects.js", "js/random-zeno.js");
+	  </script>
     
-    <!-- <script src="js/libs/modernizr-1.6.min.js"></script>
-    <script src="js/libs/jquery-1.4.2.min.js"></script>
+    <!--[if !IE]> 
+      
+    <![endif]-->
     
-    <script src="js/load-projects.js"></script>
-    <script src="js/random-zeno.js"></script> -->
-    
-    <!--[if !IE]>
-	<script src="js/anim.js"></script>
-    <!--<![endif]
-    
-    <script src="js/social-hover.js"></script> -->
+    <script src="js/anim.js"></script>
+      <script src="js/social-hover.js"></script>
 
   </head>
   

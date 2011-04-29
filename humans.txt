@@ -15,5 +15,5 @@ Software:     Aptana Studio 3
 
 /* THANKS */
 
-Pedro Segreto, Marcelo Alt and Afonso Praça.
+Pedro Segreto, Marcelo Alt and Afonso Praca.
 Those who taught me and guided me to be the professional I am today.

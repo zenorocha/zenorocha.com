@@ -110,6 +110,7 @@ footer {
   height: 300px;
   margin: 0 0 0 -140px;
   opacity: 0;
+  background-image:url("../img/zeno/zeno-html5.png");
 }
 
 /* --- Section --- */

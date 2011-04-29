@@ -1,11 +1,19 @@
 humanstxt.org - Share this idea =D
 
 /* TEAM */
+
 Developer:    Zeno Rocha
+E-mail:       contato@zenorocha.com
 Twitter:      @zenorocha
-Contact:      contato@zenorocha.com
+
 
 /* SITE */
-Tech:	      HTML5, CSS3, jQuery
+
+Tech:	      HTML5, CSS3 and jQuery
 Software:     Aptana Studio 3
-Language:     Brazilian Portuguese (PT-BR)
+
+
+/* THANKS */
+
+Pedro Segreto, Marcelo Alt and Afonso Praça.
+Those who taught me and guided me to be the professional I am today.

@@ -19,7 +19,7 @@ body {
 
 /* --- IE Bug Fix --- */
 
-.ie h1, .ie h2, .ie h3, .ie #webdeveloper, .ie #zenorocha, .ie #tel, .ie #email, .ie footer, .ie nav ul li, .ie section ul li, .ie #social ul li  {
+.ie h1, .ie h2, .ie h3, .ie #webdeveloper, .ie #zenorocha, .ie #tel, .ie #also, .ie #url, .ie #email, .ie footer, .ie nav ul li, .ie section ul li, .ie #social ul li  {
   filter: alpha(opacity=100) !important;
   opacity: 1 !important;  
 }
@@ -90,13 +90,28 @@ address {
 	font-style: normal;
 }
 
-#tel, #email {
-	/*margin-right: 20px;*/
+#tel, #email, #also, #url {
 	opacity: 0;
 }
 
-#email {
-	/*margin-top: -20px;*/
+/* --- Blog --- */
+
+#blog {
+	position: absolute;
+	top: 0;
+	left: 50%;
+	margin: 30px 0 0 -185px;
+	text-align: center;
+	color: #ccc;
+	width: 330px;
+	height: 116px;
+}
+
+#blog a {
+	text-decoration: none;
+}
+
+.cinza-claro {
 	color: #999;
 }
 	

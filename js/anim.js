@@ -47,9 +47,6 @@
       }, 300, function() {
       workAnim();
     });
-    
-    
-
   }
   
   function aboutAnim(){
@@ -90,6 +87,17 @@
       marginLeft: "-115px",
       opacity: 1
       }, 500, function() {
+		  
+		  $('#also').animate({
+		      marginTop: "0px",
+		      opacity: 1
+		  }, 500);
+		  
+		  $('#url').animate({
+		      marginTop: "0px",
+		      opacity: 1
+		  }, 500);
+		  
     });
     
   }

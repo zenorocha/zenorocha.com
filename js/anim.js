@@ -4,7 +4,7 @@
   var j = 1;
   
   var aboutSize = 5;
-  var workSize = 12;
+  var workSize = 13;
   
   var startDelay = 100;
   

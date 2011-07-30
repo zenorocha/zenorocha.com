@@ -1,10 +1,14 @@
 {
 	"project": [
-		{
+	{
+          "name": "jqueryboilerplate.com",
+          "url":  "http://jqueryboilerplate.com/"
+        },		
+	{
           "name": "beerblogging.org",
           "url":  "http://beerblogging.org/"
         },	
-		{
+	{
           "name": "shop126.com.br",
           "url":  "http://www.shop126.com.br/"
         },

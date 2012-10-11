@@ -1,0 +1,1 @@
+rsync -avz -e ssh ./ omnes@bolkens.dreamhost.com:~/zenorocha.com -v

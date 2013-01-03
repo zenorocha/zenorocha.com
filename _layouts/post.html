@@ -1,0 +1,46 @@
+{% include header.html %}
+	
+	{% include masthead_inner.html %}
+	
+	<div class="container">
+		
+		<div id="content" class="post">
+	
+		{% if page.link %}
+		<h1 class="linktitle"><a href="{{ page.link }}">{{ page.title }}</a></h1>
+		<p class="date">{{ page.date | date:"%B %e, %Y" }}</p>
+		{% else %}
+		<h1 class="posttitle">{{ page.title }}</h1>
+		<p class="date articledate">{{ page.date | date:"%B %e, %Y" }}</p>
+		{% endif %}
+	
+		{{ content }}
+		
+		{% if site.commentlinks %}
+		<p class="comments">Got a comment? @me on
+
+			{% if site.twitter-username %}
+			<a href="http://twitter.com/{{ site.twitter-username }}">Twitter</a>
+			{% endif %}
+			
+			{% if site.twitter-username and site.adn-username %}
+			or
+			{% endif %}
+			
+			{% if site.adn-username %}
+			<a href="https://alpha.app.net/{{ site.adn-username }}">App.net</a>
+			{% endif %}
+		
+		</p>
+		{% endif %}
+		
+		<!-- Tweet button -->
+		<div class="tweet">
+		<a href="https://twitter.com/share" class="twitter-share-button" data-size="large" data-count="none" data-dnt="true">Tweet</a>
+		<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+		</div>
+		
+		</div> <!-- /content -->
+	</div> <!-- /container -->
+
+{% include footer.html %}

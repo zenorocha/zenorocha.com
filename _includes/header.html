@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8"/>
+	
+	<title>{% if page.title %}{{ page.title }} &mdash;{% endif %} {{ site.name }}</title>
+
+	{% if site.feedburnerurl %}
+	<link rel="alternate" type="application/rss+xml" href="{{ site.feedburnerurl }}">
+	{% else %}
+	<link rel="alternate" type="application/rss+xml" href="{{ site.baseurl }}feed">
+	{% endif %}
+	<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+	<link rel="stylesheet" href="{{ site.baseurl }}assets/normalize.css" type="text/css" />
+	<link rel="stylesheet" href="{{ site.baseurl }}assets/styles.css" type="text/css" />
+	<link rel="shortcut icon" href="{{ site.baseurl }}assets/avatar.ico" type="image/x-icon" />
+	
+	<link rel="apple-touch-icon-precomposed" href="{{ site.baseurl }}assets/avatar.jpg"/>
+	
+	<meta name="description" content="{{ site.description }}" />
+	
+	<!-- TypeKit -->
+	<script type="text/javascript" src="//use.typekit.net/jpi6yvh.js"></script>
+	<script type="text/javascript">try{Typekit.load();}catch(e){}</script>
+	
+	<!-- jQuery -->
+	<script type='text/javascript' src='http://ajax.googleapis.com/ajax/libs/jquery/1.4/jquery.min.js'></script>
+	
+	<!-- Responsive menu -->
+	<script type='text/javascript' src='{{ site.baseurl }}assets/menu.js'></script>
+	
+	<!-- jQuery Markdown Footnotes -->
+	<script type='text/javascript' src='{{ site.baseurl }}assets/jquery.markdownFootnotes.js'></script>
+	
+	<!-- Active nav class -->
+	<script type='text/javascript' src='{{ site.baseurl }}assets/activenav.js'></script>
+	
+	<!-- Modernizr adding css classes -->
+	<script type='text/javascript' src='{{ site.baseurl }}assets/modernizr_css_classes.js'></script>
+
+</head>
+<body{% if page.class %} class="{{ page.class }}"{% endif %}>

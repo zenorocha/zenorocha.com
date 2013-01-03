@@ -1,0 +1,1 @@
+Source for my Jekyll managed, personal site. See [andytaylor.me/colophon](http://andytaylor.me/colophon) for further details.

@@ -1,0 +1,17 @@
+<ul id="pagenav">
+	<li><a href="{{ site.baseurl }}">Weblog</a></li>
+	<li><a href="{{ site.baseurl }}archive">Archive</a></li>
+	<li><a href="{{ site.baseurl }}about">About</a></li>
+	<li><a href="{{ site.baseurl }}projects">Projects</a></li>
+	{% if site.feedburnerurl %}
+	<li><a href="{{ site.feedburnerurl }}" class="rss">RSS Feed</a></li>
+	{% else %}
+	<li><a href="{{ site.baseurl }}feed" class="rss">RSS Feed</a></li>
+	{% endif %}
+	{% if site.twitter-username %}
+	<li><a href="http://twitter.com/{{ site.twitter-username }}" class="twitter">Twitter</a></li>
+	{% endif %}
+	{% if site.adn-username %}
+	<li><a href="https://alpha.app.net/{{ site.adn-username }}" class="adn">App.net</a></li>
+	{% endif %}
+</ul>

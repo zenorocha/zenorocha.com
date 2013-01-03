@@ -1,1 +1,0 @@
-* Mudar a estrutura de URLs (sem .html no fim)

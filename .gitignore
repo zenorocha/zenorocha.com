@@ -1,3 +1,5 @@
-*.esproj
+.DS_Store
 _site
-working-files
+_publish.sh
+_posts/drafts
+TODO.md

@@ -1,18 +1,18 @@
 safe:        false
-auto:        false
-server:      false
+auto:        true
+server:      true
 server_port: 4000
 baseurl:     /
 url: http://localhost:4000
 
-name: Andy Taylor
-description: Words and Projects
-url: http://andytaylor.me
-domain: andytaylor.me
+name: Zeno Rocha
+description: Front-end Engineer
+url: http://zenorocha.com
+domain: zenorocha.com
 commentlinks: true
-twitter-username: andytlr
-adn-username: ataylor
-feedburnerurl: http://feeds.feedburner.com/andytaylor
+twitter-username: zenorocha
+adn-username: zenorocha
+feedburnerurl: http://feeds.feedburner.com/zenorocha
 google-analytics-tracking-id: UA-5104693-2
 
 source:      .
@@ -23,8 +23,9 @@ future:      true
 lsi:         false
 pygments:    false
 markdown:    maruku
+# permalink:   /:title
 permalink:   pretty
-paginate:    10
+paginate: 6
 
 maruku:
   use_tex:    false
@@ -42,7 +43,7 @@ kramdown:
   entity_output: as_char
   toc_levels: 1..6
   use_coderay: false
-  
+
   coderay:
     coderay_wrap: div
     coderay_line_numbers: inline

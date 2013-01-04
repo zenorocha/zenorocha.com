@@ -1,9 +1,41 @@
 <div id="masthead">
-		<div class="avatarwrapper">
+
+    <!-- <div class="avatarwrapper">
 			<a href="{{ site.baseurl }}"><img src="{{ site.baseurl }}assets/avatar.jpg" alt="{{ site.name }}" /></a>
-		</div>
-		<h1 class="sitetitle"><a href="{{ site.baseurl }}" class="sitetitle">{{ site.name }}</a></h1>
-		{% include description.html %}
-		<hr />
-		{% include pagenav.html %}
+		</div> -->
+
+  <a href="{{ site.baseurl }}">
+    <img id="zeno-illustration" src="{{ site.baseurl }}assets/img/zeno-html5-4.png" alt="Zeno Rocha's Illustration" />
+  </a>
+
+  <hr style="margin-top: 10px" />
+
+  <h1 class="sitetitle">
+    <a href="{{ site.baseurl }}" class="sitetitle">{{ site.name }}</a>
+  </h1>
+  <p class="description">{{ site.description }}</p>
+
+	<hr />
+
+	<ul id="pagenav">
+    <li><a href="{{ site.baseurl }}blog">Blog</a></li>
+    <li><a href="{{ site.baseurl }}talks">Talks</a></li>
+    <li><a href="{{ site.baseurl }}projects">Projects</a></li>
+  </ul>
+
+  <!-- <hr />
+  <ul id="pagenav">
+    <li><a href="{{ site.baseurl }}">Weblog</a></li>
+    <li><a href="{{ site.baseurl }}archive">Archive</a></li>
+    <li><a href="{{ site.baseurl }}about">About</a></li>
+    <li><a href="{{ site.baseurl }}projects">Projects</a></li>
+    {% if site.feedburnerurl %}
+    <li><a href="{{ site.feedburnerurl }}" class="rss">RSS Feed</a></li>
+    {% else %}
+    <li><a href="{{ site.baseurl }}feed" class="rss">RSS Feed</a></li>
+    {% endif %}
+    {% if site.twitter-username %}
+    <li><a href="http://twitter.com/{{ site.twitter-username }}" class="twitter">Twitter</a></li>
+    {% endif %}
+  </ul> -->
 </div> <!--/masthead-->

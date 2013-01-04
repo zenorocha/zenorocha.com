@@ -8,27 +8,19 @@
 
 		{% if page.link %}
 		<h1 class="linktitle"><a href="{{ page.link }}">{{ page.title }}</a></h1>
-		<p class="date">{{ page.date | date:"%B %e, %Y" }}</p>
+		<p class="date">{{ page.date | date:"%d/%m/%Y" }}</p>
 		{% else %}
 		<h1 class="posttitle">{{ page.title }}</h1>
-		<p class="date articledate">{{ page.date | date:"%B %e, %Y" }}</p>
+		<p class="date articledate">{{ page.date | date:"%d/%m/%Y" }}</p>
 		{% endif %}
 
 		{{ content }}
 
 		{% if site.commentlinks %}
-		<p class="comments">Got a comment? @me on
+		<p class="comments">Tem um comentário? @zenorocha no
 
 			{% if site.twitter-username %}
 			<a href="http://twitter.com/{{ site.twitter-username }}">Twitter</a>
-			{% endif %}
-
-			{% if site.twitter-username and site.adn-username %}
-			or
-			{% endif %}
-
-			{% if site.adn-username %}
-			<a href="https://alpha.app.net/{{ site.adn-username }}">App.net</a>
 			{% endif %}
 
 		</p>

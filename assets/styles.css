@@ -28,7 +28,7 @@
 }
 
 body {
-	font-family: "ff-tisa-web-pro", Georgia, serif;
+	font-family: 'Droid Serif', Georgia, serif;
 	font-size: 16px;
 	margin: 0;
 	padding: 0;
@@ -69,9 +69,11 @@ p a,
 .about #content a,
 .projects #content a,
 ol a,
-ul a
+ul a,
+h1 a,
+h2 a
 {
-	border-bottom: 1px solid #00d2be;
+	border-bottom: 1px solid #03b4d1;
 }
 
 p a:hover,
@@ -80,13 +82,15 @@ p a:hover,
 .about #content a:hover,
 .projects #content a:hover,
 ol a:hover,
-ul a:hover
+ul a:hover,
+h1 a:hover,
+h2 a:hover
 {
 	border-bottom: 1px solid #dadada;
 }
 
 .linktitle a {
-	border-bottom: 2px solid #00d2be;
+	border-bottom: 2px solid #03b4d1;
 	line-height: 1.6em;
 }
 
@@ -103,12 +107,12 @@ ul a:hover
 }
 
 a[rev=footnote], sup a {
-	color: #00d2be;
+	color: #03b4d1;
 	border: none;
 }
 
 .infin {
-	color: #00d2be;
+	color: #03b4d1;
 	font-family: sans-serif;
 	border: none !important;
 	margin-left: 5px;
@@ -147,7 +151,7 @@ pre code {
 }
 
 blockquote {
-	border-left: 7px solid #00d2be;
+	border-left: 7px solid #03b4d1;
 	padding-left: 14px;
 	margin: 0;
 }
@@ -231,7 +235,7 @@ sup a[rel="footnote"] {
 
 #masthead {
 	padding: 15px 0;
-	background: #00bdab url(texture.jpg) fixed;
+	background: #0297af url(texture-3.jpg) fixed;
 	color: #fff;
 }
 
@@ -331,17 +335,17 @@ ul#pagenav li a.adn {
 		background: url('chevron_2x.png') no-repeat right center;
 		background-size: 16px 16px;
 	}
-	
+
 	ul#pagenav li a.rss {
 		background: url('rss_2x.png') no-repeat right center;
 		background-size: 16px 16px;
 	}
-	
+
 	ul#pagenav li a.twitter {
 		background: url('twitter_2x.png') no-repeat right center;
 		background-size: 16px 16px;
 	}
-	
+
 	ul#pagenav li a.adn {
 		background: url('adn_2x.png') no-repeat right center;
 		background-size: 16px 16px;
@@ -375,8 +379,10 @@ h1.sitetitle, h2.sitetitle {
 }
 
 .sitetitle {
-	font-size: 28px;
-	font-style: italic;
+	font-size: 34px;
+	font-family: 'ChunkFive', Helvetica, sans-serif;
+	text-transform: lowercase;
+	font-weight: 100;
 	display: block;
 	border: none;
 	color: #fff;
@@ -471,7 +477,7 @@ p.pagination .newer, p.pagination .older {
 
 p.pagination a.newer, p.pagination a.older {
 	border: 1px solid #fff;
-	background: #00d2be;
+	background: #03b4d1;
 }
 
 p.pagination a.newer:hover, p.pagination a.older:hover {
@@ -576,12 +582,12 @@ figcaption {
 }
 
 ::-moz-selection {
-	background: #00bdab;
+	background: #03b4d1;
 	color: #fff;
 }
 
 ::selection {
-	background: #00bdab;
+	background: #03b4d1;
 	color: #fff;
 }
 
@@ -593,29 +599,29 @@ figcaption {
 /*Medium size*/
 
 @media only screen and (min-width:600px) {
-	
+
 	body {
 		font-size: 18px;
 		line-height: 1.8em;
 	}
-	
+
 	.container {
 		padding: 0;
 		width: 75%;
 		margin: 10px auto;
 	}
-	
+
 	#masthead {
 		text-align: center;
 		padding: 30px 0;
 		position: static !important;
 	}
-	
+
 	body {
 		padding: 0;
 		margin-top: 0 !important;
 	}
-	
+
 	#masthead hr {
 		display: block;
 		height: 1px;
@@ -625,26 +631,26 @@ figcaption {
 		background: rgba(255,255,255,0.4);
 		margin: 20px auto;
 	}
-	
+
 	a.sitetitle {
 		position: static;
 		padding-top: 10px !important;
 	}
-	
+
 	.description {
 		display: block;
-		color: #fff;
-		margin-top: 5px !important;
+		color: rgba(255, 255, 255, 0.7);
+		margin-top: 0px !important;
 	}
-	
+
 	h1.sitetitle, h2.sitetitle, .description {
 		margin-left: 0;
 	}
-	
+
 	h1.sitetitle a, h2.sitetitle a {
 		display: block;
 	}
-	
+
 	#masthead .avatarwrapper {
 		padding-top: 3px;
 		background: #000;
@@ -659,62 +665,62 @@ figcaption {
 		-moz-box-shadow: 0 2px rgba(255, 255, 255, 0.4);
 		box-shadow: 0 2px rgba(255, 255, 255, 0.4);
 	}
-	
+
 	#masthead img {
 		display: inline;
-		width: 100px;
+		/*width: 100px;
 		height: 100px;
 		-webkit-border-radius: 1000px;
 		-moz-border-radius: 1000px;
-		border-radius: 1000px;
+		border-radius: 1000px;*/
 	}
-	
-	#masthead img:hover {
+
+	/*#masthead img:hover {
 		-webkit-filter: grayscale(100%);
 		-moz-filter: grayscale(100%);
 		-ms-filter: grayscale(100%);
 		-o-filter: grayscale(100%);
 		filter: grayscale(100%);
-	}
-	
+	}*/
+
 	.archivelist {
 		padding-left: 30px;
 	}
-	
+
 	.googlesearch {
 		display: inline;
 	}
-	
+
 	blockquote {
 		padding-left: 20px;
 	}
-	
+
 	.about #content p:first-of-type {
 		font-size: 32px;
 		line-height: 48px;
 		margin-top: 0;
 	}
-	
+
 	.js ul#pagenav {
 		display: block;
 	}
-	
+
 	ul#pagenav {
 		font-size: 16px;
 	}
-	
+
 	ul#pagenav li {
 		margin: 0 8px;
 		display: inline;
 	}
-	
+
 	ul#pagenav li a {
 		display: inline;
 		padding: 0;
 		border: none;
 		background: none !important;
 	}
-	
+
 	ul#pagenav li a:hover {
 		color: #a6efe8;
 	}
@@ -726,28 +732,28 @@ figcaption {
 	ul#pagenav li a.active:after {
 		content: '';
 	}
-	
+
 	.menubutton {
 		display: none;
 	}
-	
+
 	.linktitle {
 		font-size: 24px;
 	}
-	
+
 	.posttitle {
 		font-size: 32px;
 	}
-	
+
 	figure {
 		width: 120%;
 		margin-left: -10%;
 	}
-	
+
 	p[data-pullquote] {
 		display: block;
 	}
-	
+
 	p[data-pullquote]:before {
 		content: attr(data-pullquote);
 		float: right;
@@ -759,15 +765,15 @@ figcaption {
 		font-size: 22px;
 		font-style: italic;
 		text-align: left;
-		color: #00d2be;
+		color: #03b4d1;
 	}
-	
+
 	p.pull-left[data-pullquote]:before {
 		float: left !important;
 		margin: 0 30px 0.5em -5%;
 		text-align: right;
 	}
-	
+
 	a[title]:hover:before, abbr[title]:hover:before {
 		content: attr(title);
 		position: fixed;
@@ -786,13 +792,13 @@ figcaption {
 		-moz-border-radius: 3px;
 		border-radius: 3px;
 	}
-	
+
 }
 
 /*Standard size*/
 
 @media only screen and (min-width:900px) {
-	
+
 	#masthead {
 		position: fixed !important;
 		top: 0;
@@ -801,12 +807,12 @@ figcaption {
 		width: 25% !important;
 		height: 100%;
 	}
-	
+
 	#masthead hr {
 		width: 60%;
 		max-width: 190px;
 	}
-	
+
 	.home #masthead {
 		-webkit-animation-name: slidein;
 		-webkit-animation-duration: 1s;
@@ -821,7 +827,7 @@ figcaption {
 		animation-iteration-count: 1;
 		animation-timing-function: ease-in-out;
 	}
-	
+
 	.container {
 		width: 75%;
 		position: absolute;
@@ -829,27 +835,27 @@ figcaption {
 		right: 0;
 		margin-top: 80px;
 	}
-	
+
 	#content {
 		margin: 0 auto;
 		padding: 0 0 80px 0;
 		width: 80%;
 		max-width: 640px;
 	}
-	
+
 	ul#pagenav li {
 		margin: 0;
 		display: block;
 	}
-	
+
 	.infin {
 		color: #dadada;
 	}
 
 	.post:hover .infin {
-		color: #00d2be;
+		color: #03b4d1;
 	}
-	
+
 	figure {
 		width: 100%;
 		margin-left: 0;
@@ -883,7 +889,7 @@ figcaption {
 	.posttitle {
 		font-size: 48px;
 	}
-	
+
 	.linktitle {
 		font-size: 27px;
 	}
@@ -891,7 +897,7 @@ figcaption {
 	#content {
 		max-width: 800px;
 	}
-	
+
 }
 
 @media only screen and (-webkit-min-device-pixel-ratio: 2) {

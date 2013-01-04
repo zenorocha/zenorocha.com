@@ -13,15 +13,15 @@
 		  {% unless post.draft %}
 		    <li class="post">
 		    {% if post.link %}
-		    <h2 class="linktitle"><a href="{{ post.link }}">{{ post.title }}</a>&nbsp;<a href="{{ post.url }}" title="Permanent link to: '{{ post.title }}'" class="infin">&infin;</a></h2>
+		    <h2 class="linktitle"><a href="{{ post.link }}">{{ post.title }}</a>&nbsp;<a href="{{ post.url }}" class="infin">&infin;</a></h2>
 		    {% else %}
 		    <h2 class="posttitle"><a href="{{ BASE_PATH }}{{ post.url }}" class="articletitle">{{ post.title }}</a></h2>
-			<p class="date articledate">{{ post.date | date:"%B %e, %Y" }}</p>
+			<p class="date articledate">{{ post.date | date:"%d/%m/%Y" }}</p>
 		    {% endif %}
 
 		    {% if post.excerpt %}
 		    {{ post.excerpt | markdownify }}
-		    <p><a href="{{ BASE_PATH }}{{ post.url }}">Read article ({{ post.content | number_of_words }} words)</a></p>
+		    <p><a href="{{ BASE_PATH }}{{ post.url }}">Continue lendo &gt;</a></p>
 		    {% else %}
 		    {{ post.content }}
 		    {% endif %}
@@ -35,21 +35,21 @@
 		{% if paginator.previous_page %}
 
 			{% if paginator.previous_page == 1 %}
-			<a class="newer" href="/">Newer</a>
+			<a class="newer" href="/">Próxima</a>
 
 			{% else %}
-			<a class="newer" href="/page{{paginator.previous_page}}">Newer</a>
+			<a class="newer" href="/page{{paginator.previous_page}}">Próxima</a>
 			{% endif %}
 
-			{% else %}
-			<span class="newer">Newer</span>
-			{% endif %}
-
-		<span>Page {{paginator.page}} of {{paginator.total_pages}}</span>
-		{% if paginator.next_page %}
-		<a class="older" href="/page{{paginator.next_page}}">Older</a>
 		{% else %}
-		<span class="older">Older</span>
+		<span class="newer">Próxima</span>
+		{% endif %}
+
+		<span>Página {{paginator.page}} de {{paginator.total_pages}}</span>
+		{% if paginator.next_page %}
+		<a class="older" href="/page{{paginator.next_page}}">Anterior</a>
+		{% else %}
+		<span class="older">Anterior</span>
 		{% endif %}
 		</p>
 

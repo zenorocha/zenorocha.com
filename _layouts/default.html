@@ -15,13 +15,13 @@
 		    {% if post.link %}
 		    <h2 class="linktitle"><a href="{{ post.link }}">{{ post.title }}</a>&nbsp;<a href="{{ post.url }}" class="infin">&infin;</a></h2>
 		    {% else %}
-		    <h2 class="posttitle"><a href="{{ BASE_PATH }}{{ post.url }}" class="articletitle">{{ post.title }}</a></h2>
+		    <h2 class="posttitle"><a href="{{ site.baseurl }}{{ post.url }}" class="articletitle">{{ post.title }}</a></h2>
 			<p class="date articledate">{{ post.date | date:"%d/%m/%Y" }}</p>
 		    {% endif %}
 
 		    {% if post.excerpt %}
 		    {{ post.excerpt | markdownify }}
-		    <p><a href="{{ BASE_PATH }}{{ post.url }}">Continue lendo &gt;</a></p>
+		    <p><a href="{{ site.baseurl }}{{ post.url }}">Continue lendo &gt;</a></p>
 		    {% else %}
 		    {{ post.content }}
 		    {% endif %}

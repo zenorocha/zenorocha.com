@@ -1,7 +1,6 @@
 ---
 layout: page
-title: About
-class: about
+class: home
 ---
 
 <!-- <img id="zeno-illustration" src="{{ site.baseurl }}assets/img/zeno-html5.png" alt="Zeno Rocha's Illustration" /> -->

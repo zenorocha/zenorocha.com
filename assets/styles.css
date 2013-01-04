@@ -66,7 +66,7 @@ a:hover {
 
 p a,
 .archivelist a,
-.about #content a,
+.home #content a,
 .projects #content a,
 ol a,
 ul a,
@@ -79,7 +79,7 @@ h2 a
 p a:hover,
 .archivelist a:hover,
 .archivelist a:visited,
-.about #content a:hover,
+.home #content a:hover,
 .projects #content a:hover,
 ol a:hover,
 ul a:hover,
@@ -216,16 +216,16 @@ sup a[rel="footnote"] {
 	padding-left: 0;
 }
 
-#archive h2, .about #content h2, .projects #content h2 {
+#archive h2, .home #content h2, .projects #content h2 {
 	font-size: 20px;
 	margin-bottom: 0;
 }
 
-.about .posttitle {
+.home .posttitle {
 	display: none;
 }
 
-.about #content p:first-of-type {
+.home #content p:first-of-type {
 	margin-top: 0;
 }
 
@@ -695,7 +695,7 @@ figcaption {
 		padding-left: 20px;
 	}
 
-	.about #content p:first-of-type {
+	.home #content p:first-of-type {
 		font-size: 32px;
 		line-height: 48px;
 		margin-top: 0;
@@ -876,7 +876,7 @@ figcaption {
 
 @media only screen and (min-width:2000px) {
 
-	.about #content p:first-of-type {
+	.home #content p:first-of-type {
 		font-size: 48px;
 		line-height: 57px;
 	}

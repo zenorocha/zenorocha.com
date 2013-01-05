@@ -32,8 +32,7 @@ body {
 	font-size: 16px;
 	margin: 0;
 	padding: 0;
-/*	-webkit-font-smoothing: antialiased;*/
-	text-rendering: optimizeLegibility;
+	/*text-rendering: optimizeLegibility;*/
 	color: #333;
 	background: #fbfbfb url(texture-white.jpg) fixed;
 }
@@ -194,7 +193,7 @@ fieldset {
 
 .post img {
 	border: 4px double #DADADA;
-	padding: 4px;
+	padding: 2px;
 }
 
 .footnotes {
@@ -271,12 +270,12 @@ sup a[rel="footnote"] {
 }
 
 ul#pagenav {
-	margin-top: 5px !important;
 	padding: 0 20px;
 }
 
 .js ul#pagenav {
 	display: none;
+	margin-top: 15px;
 }
 
 .menubutton {
@@ -348,6 +347,10 @@ ul#pagenav li a.adn {
 
 .social-links li {
   float: left;
+  /*-webkit-transition: all 0.5s ease;
+	-moz-transition: all 0.5s ease;
+	-o-transition: all 0.5s ease;
+	transition: all 0.5s ease;*/
 }
 
 .social-links li a {
@@ -360,6 +363,21 @@ ul#pagenav li a.adn {
   text-indent: -9000px;
   position: relative;
   border: none;
+}
+
+.social-links li:nth-child(2n+2):hover {
+	-webkit-transform: rotate(5deg);
+	-moz-transform: rotate(5deg);
+	-o-transform: rotate(5deg);
+	transform: rotate(5deg);
+}
+
+.social-links li:nth-child(2n+1):hover {
+	-webkit-transform: rotate(-5deg);
+	-moz-transform: rotate(-5deg);
+	-o-transform: rotate(-5deg);
+	-ms-transform: rotate(-5deg);
+	transform: rotate(-5deg);
 }
 
 .social-links li .social-rss { background-position: 0px 0px; }
@@ -395,7 +413,7 @@ h1.sitetitle, h2.sitetitle {
 }
 
 .sitetitle {
-	font-size: 34px;
+	font-size: 36px;
 	font-family: 'ChunkFive', Helvetica, sans-serif;
 	text-transform: lowercase;
 	font-weight: 100;
@@ -403,6 +421,7 @@ h1.sitetitle, h2.sitetitle {
 	border: none;
 	color: #fff;
 	-webkit-font-smoothing: antialiased;
+	text-shadow: 0 1px 0 rgba(0,0,0,.1);
 }
 
 a.sitetitle {
@@ -684,9 +703,12 @@ figcaption {
 	}
 
 	.description {
+		width: 230px;
 		display: block;
 		color: rgba(255, 255, 255, 0.7);
-		margin-top: 0px !important;
+		padding: 0 0 10px;
+		margin: 0 auto !important;
+		border-bottom: 1px solid rgba(255, 255, 255, 0.2);
 	}
 
 	h1.sitetitle, h2.sitetitle, .description {
@@ -695,21 +717,6 @@ figcaption {
 
 	h1.sitetitle a, h2.sitetitle a {
 		display: block;
-	}
-
-	#masthead .avatarwrapper {
-		padding-top: 3px;
-		background: #000;
-		background: rgba(0, 0, 0, 0.6);
-		display: inline-block;
-		width: 106px;
-		height: 103px;
-		-webkit-border-radius: 1000px;
-		-moz-border-radius: 1000px;
-		border-radius: 1000px;
-		-webkit-box-shadow: 0 2px rgba(255, 255, 255, 0.4);
-		-moz-box-shadow: 0 2px rgba(255, 255, 255, 0.4);
-		box-shadow: 0 2px rgba(255, 255, 255, 0.4);
 	}
 
 	#masthead img {
@@ -852,11 +859,7 @@ figcaption {
 		left: 0;
 		width: 25% !important;
 		height: 100%;
-	}
-
-	#masthead hr {
-		width: 60%;
-		max-width: 190px;
+		box-shadow: inset -30px -10px 80px 0 rgba(0,0,0,.2), inset -10px -10px 20px 0 rgba(0,0,0,.15), 1px 0 0 0 white;
 	}
 
 	.home #masthead {

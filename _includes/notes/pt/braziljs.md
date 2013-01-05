@@ -1,0 +1,1 @@
+**BrazilJS Foundation** é uma fundação sem fins lucrativos com a missão de mover e unir a comunidade em torno do JavaScript no Brasil &mdash; [Website](http://braziljs.org) | [Twitter](http://twitter.com/braziljs) | [Facebook](http://facebook.com/braziljs)

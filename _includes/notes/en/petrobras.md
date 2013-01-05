@@ -1,0 +1,1 @@
+**Petrobras** is a multinational energy corporation headquartered in Rio de Janeiro, Brazil. It is the largest company in the Southern Hemisphere by market capitalization and the largest in Latin America measured by 2011 revenues &mdash; [Website](http://www.petrobras.com.br/) | [Facebook](http://www.facebook.com/petrobras) | [Wikipedia](http://en.wikipedia.org/wiki/Petrobras)

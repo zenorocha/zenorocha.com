@@ -1,0 +1,1 @@
+**Zone of Front-enders** (or just ZOFE) is a podcast presented by me and [Daniel Filho](http://danielfilho.info/) in portuguese. We usually talk about web development, front-end, etc &mdash; [Website](http://zofe.com.br) | [Twitter](http://twitter.com/zofepod) | [Facebook](http://facebook.com/zofepod)

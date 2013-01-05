@@ -22,7 +22,7 @@ future:      true
 lsi:         false
 pygments:    false
 markdown:    maruku
-permalink:   pretty
+permalink:   /:title
 paginate: 6
 
 maruku:

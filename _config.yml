@@ -23,7 +23,7 @@ lsi:         false
 pygments:    false
 markdown:    maruku
 permalink:   /:title
-paginate: 6
+paginate: 5
 
 maruku:
   use_tex:    false

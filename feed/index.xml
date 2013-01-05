@@ -1,0 +1,29 @@
+---
+layout: nil
+---
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <id>http://zenorocha.com/blog</id>
+  <title>Blog - Zeno Rocha</title>
+  <icon>http://zenorocha.com/favicon.ico</icon>
+  <updated>{{ site.time | date_to_xmlschema }}</updated>
+  <link href="http://zenorocha.com/feed/index.xml" rel="self" />
+  <link href="http://zenorocha.com/blog" />
+  {% for post in site.posts limit:10 %}
+  {% if post.layout == 'post' %}
+  <entry>
+    <id>http://zenorocha.com{{ post.id }}</id>
+    <title>{{ post.title | strip_html }}</title>
+    <updated>{{ post.date | date_to_xmlschema }}</updated>
+    <link href="http://zenorocha.com/blog{{ post.url }}" />
+    <author>
+      <name>Zeno Rocha</name>
+      <uri>http://zenorocha.com/</uri>
+    </author>
+    <content type="html">
+      {{ post.content | replace: "src='/assets/", "src='http://zenorocha.com/assets/" | xml_escape }}
+    </content>
+  </entry>
+  {% endif %}
+  {% endfor %}
+</feed>

@@ -1,0 +1,101 @@
+---
+layout: post
+title: Social Media APIs - Parte II
+oldUrl: http://blog.zenorocha.com/post/5286872626/social-media-apis-parte-ii
+---
+
+{% excerpt %}
+<p><img src="http://media.zenorocha.com/social-media-2.png"/></p>
+
+<p>Dando continuidade a série sobre as APIs das redes sociais, vamos conhecer hoje o que os serviços do <a href="https://foursquare.com" target="_blank">Foursquare</a> e do <a href="http://twitter.com/" target="_blank">Twitter</a> tem a nos oferecer.</p>
+{% endexcerpt %}
+
+<hr><h2>Foursquare API</h2>
+
+<p><strong><img src="http://media.zenorocha.com/foursquare-logo.jpg" alt="Foursquare - Logo" width="500" align="middle" height="250"/></strong></p>
+
+<p><span> </span></p>
+
+<p><span>Pessoalmente, aposto muito em redes sociais baseadas em geolocalização, elas tem se tornado cada vez mais </span><span>realidade, e não modismo. <a href="http://playfoursquare.s3.amazonaws.com/infographic/foursquare_2010.png" target="_blank">Em nível internacional isso é mais que uma realidade</a>, já aqui no Brasil o gradual barateamento dos aparelhos celulares e sua conexão com a internet, tem levado mais e mais pessoas a acessarem a internet pelo celular, possibilitando assim a utilização de um serviço como esse.</span></p>
+
+<p><span>Mas vamos deixar pra outro post minha opinião sobre mobilidade e redes sociais que usam geolocalização, vamos focar na API que o maior serviço do mercado nessa área oferece pra gente.</span></p>
+
+<p>Atualmente a API do Foursquare encontra-se na sua segunda versão, focando na velocidade e facilidade na obtenção dos dados. Recentemente eles abandonaram o suporte ao <a href="http://blog.zenorocha.com/post/4594116227/xml-pra-que-conheca-o-json-e-o-yaml" target="_blank">XML</a> para tornar seu servidor mais eficiente, e passaram a usar o <a href="http://blogs.sitepoint.com/oauth-explained-with-foursquar/" target="_blank">OAuth2</a> para tornar a conexão com o Foursquare mais fácil e segura quando feita por meio de aplicativos de terceiros, além de adicionar recursos muito solicitados como histórico/popularidade de locais.</p>
+
+<p><span>Dessa série sobre as APIs de redes sociais, essa é a única que eu ainda não utilizei comercialmente em algum projeto, mas como todo bom serviço, </span>percebe-se que eles também capricharam na <a href="https://developer.foursquare.com/docs/index_docs.html" target="_blank">documentação</a>. </p>
+
+<p>Segundo eles, a nova API dá ao desenvolvedor acesso a todos os dados usados pelos aplicativos móveis da rede social. Além disso, permite que o profissional integre checkins aos aplicativos, construa ferramentas para ajudar o usuário a utilizar ou a visualizar seu histórico, entre outras coisas.</p>
+
+<p>Por exemplo, você pode obter diversas informações sobre o usuário como badges, checkins e amigos. Ou se preferir pode buscar as informações das chamadas <em>Venues</em>, buscando por exemplo, as pessoas que estão em determinado local nesse instante. Enfim, dá uma olhada lá que eu tenho certeza que vai achar a funcionalidade que mais se adequada a sua necessidade.</p>
+
+<p>Destaca-se também uma interessante interface chamada <a href="https://developer.foursquare.com/docs/explore.html" target="_blank">Explorer</a>, onde você pode testar todas as requisições direto do site deles. E será com ela que vamos exemplificar a obtenção de informações básicas de um usuário.</p>
+
+<blockquote>
+
+<p>Exemplo: <a href="https://api.foursquare.com/v2/users/" target="_blank">https://api.foursquare.com/v2/users/</a><strong>self</strong></p>
+
+</blockquote>
+
+<pre class="prettyprint lang-js">{<br/>      user: {<br/><br/>         id: "1514606",<br/>         firstName: "Zeno",<br/>         lastName: "Rocha",<br/>         gender: "male",<br/>         homeCity: "Rio de Janeiro, RJ",<br/><br/>         contact: {<br/>            phone: "2181089727",<br/>            email: "zno.rocha@gmail.com",<br/>            twitter: "zenorocha"<br/>         }<br/><br/>     badges: {<br/>        count: 3<br/>     }</pre>
+
+<p><strong>OBS: </strong>Toda e qualquer requisição necessita de um número de token para ser autorizada.</p>
+
+<p><em>Mais informações:</em> <a href="https://developer.foursquare.com/" target="_blank"><a href="https://developer.foursquare.com" target="_blank">https://developer.foursquare.com</a></a></p>
+
+<p><em>Veja também:</em> <a href="http://mashable.com/2010/08/19/facebook-places-api/" target="_blank">API</a> do <strong><a href="http://www.facebook.com/places/" target="_blank">Facebook Places</a></strong>, serviço que vem conquistando uma boa fatia desse mercado.</p>
+
+<hr><h2>Twitter API</h2>
+
+<p><img src="http://media.zenorocha.com/twitter.jpg"/></p>
+
+<p>O Twitter é uma aplicação que dispensa qualquer discurso, portanto vamos logo ao que interessa. O serviço<span> põe à nossa disposição três APIs diferente. Uma chamada de </span><span>&#8220;Streaming API&#8221; e as outras duas </span><span>são &#8220;REST APIs&#8221;, ou seja, </span><span>funcionam por HTTP onde você acessa a partir de URLs que devolvem conteúdos em formatos distintos.</span><span> Bem similar a maioria que vimos até agora. As aplicações baseadas nisso poderão usar as três API distintas, combinando-as para realizar seus objetivos.</span></p>
+
+<p>O uso das APIs do Twitter é limitado, por isso suas aplicações não podem se conectar à um número indeterminado de vezes para solicitar qualquer coisa. Caso queira continuar na &#8220;whitelist&#8221;, terá que seguir os seguintes limites técnicos:</p>
+
+<ul><li><span><strong>Mensagem Direta</strong>: 250 por dia.</span></li>
+
+<li><span><strong>Atualizações</strong>: 1.000 por dia. O limite diário de atualização é dividido em intervalos de meia hora. Retweets são contados como atualizações.</span></li>
+
+<li><span><strong>Seguindo</strong>: O limite técnico diário de seguir é 1.000 contas por dia. T</span>enha em mente que este é um limite técnico, existem regras adicionais que proíbem comportamento excessivo. </li>
+
+</ul><p>No entanto, as solicitações às vezes se contam dependendo do IP do sistema que conecta com Twitter e às vezes dependendo da conta de usuário que está solicitando um recurso, por isso estes limites podem variar entre cada usuário. Há também outros limites de uso do API, baseados nos limites de paginação das buscas que se possam realizar, ou seja, que limitam os resultados de busca de status de um usuário ou as referências de uma palavra-chave nos post públicos.</p>
+
+<p>Deixando de lado os limitações, vamos a um exemplo simples de acesso de dados da API.</p>
+
+<blockquote>
+
+<p>Exemplo: <a><a href="http://api.twitter.com/1/users/show.json?screen_name=" target="_blank">http://api.twitter.com/1/users/show.json?screen_name=</a><strong>nomedousuario</strong></a></p>
+
+</blockquote>
+
+<pre class="prettyprint lang-js">{
+
+   "profile_background_color":"212629",
+
+   "description":"web developer",
+
+   "screen_name":"zenorocha",
+
+   "geo_enabled":true,
+
+   "profile_background_image_url":"http://goo.gl/oaies",
+
+   "location":"Rio | Brasil",
+
+   "statuses_count":3488,
+
+   "followers_count":15311,
+
+   "profile_link_color":"141617",
+
+   "name":"Zeno Rocha",
+
+   "profile_image_url":"http://goo.gl/wCIcX"
+
+}</pre>
+
+<p>E isso daqui é só trecinho das informações que eles lhe fornecem com essa chamada específica, já pensou na quantidade de aplicações iradas que dá pra fazer com elas?</p>
+
+<p><em>Mais informações:</em> <a href="http://dev.twitter.com/doc" target="_blank"><a href="http://dev.twitter.com/doc" target="_blank">http://dev.twitter.com/doc</a></a></p>
+
+<hr><p>Em breve vou abordar as APIs do Youtube e Flickr, fique ligado!</p>

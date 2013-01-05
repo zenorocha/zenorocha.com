@@ -21,3 +21,36 @@ a[rev="footnote"], sup a {
   font-weight: normal;
   font-style: normal;
 }
+
+/* Social */
+
+.social-links {
+  position: absolute;
+  top: 10px;
+  right: 25px;
+  padding: 0px;
+  height: 34px;
+  list-style: none;
+}
+
+.social-links li {
+  float: left;
+}
+
+.social-links li a {
+  display: block;
+  width: 34px;
+  height: 34px;
+  outline: none;
+  margin: 0 4px;
+  background: transparent url(../img/social-links.png) no-repeat;
+  text-indent: -9000px;
+  position: relative;
+  border: none;
+}
+
+.social-links li .social-rss { background-position: 0px 0px; }
+.social-links li .social-email { background-position: -42px 0px; }
+.social-links li .social-twitter { background-position: -84px 0px; }
+.social-links li .social-facebook { background-position: -126px 0px; }
+.social-links li .social-github { background-position: -168px 0px; }

@@ -192,6 +192,11 @@ fieldset {
  	list-style-type: disc;
  }
 
+.post img {
+	border: 4px double #DADADA;
+	padding: 4px;
+}
+
 .footnotes {
  	font-size: 16px;
 	line-height: 1.6em;
@@ -330,27 +335,38 @@ ul#pagenav li a.adn {
 	background: url('adn.png') no-repeat right center;
 }
 
-@media only screen and (max-width: 500px) and (-webkit-min-device-pixel-ratio: 2) {
-	ul#pagenav li a {
-		background: url('chevron_2x.png') no-repeat right center;
-		background-size: 16px 16px;
-	}
+/* Social */
 
-	ul#pagenav li a.rss {
-		background: url('rss_2x.png') no-repeat right center;
-		background-size: 16px 16px;
-	}
-
-	ul#pagenav li a.twitter {
-		background: url('twitter_2x.png') no-repeat right center;
-		background-size: 16px 16px;
-	}
-
-	ul#pagenav li a.adn {
-		background: url('adn_2x.png') no-repeat right center;
-		background-size: 16px 16px;
-	}
+.social-links {
+  width: 210px;
+  height: 34px;
+  display: block;
+  margin: 0 auto 35px;
+  padding: 0;
+  list-style: none;
 }
+
+.social-links li {
+  float: left;
+}
+
+.social-links li a {
+  display: block;
+  width: 34px;
+  height: 34px;
+  outline: none;
+  margin: 0 4px;
+  background: transparent url(img/social-links.png) no-repeat;
+  text-indent: -9000px;
+  position: relative;
+  border: none;
+}
+
+.social-links li .social-rss { background-position: 0px 0px; }
+.social-links li .social-email { background-position: -42px 0px; }
+.social-links li .social-twitter { background-position: -84px 0px; }
+.social-links li .social-facebook { background-position: -126px 0px; }
+.social-links li .social-github { background-position: -168px 0px; }
 
 ul#pagenav li a.active {
 	background: none !important;
@@ -513,7 +529,7 @@ ul#pagenav, .sitetitle {
 }
 
 #content {
-	padding-bottom: 40px;
+	padding-bottom: 10px;
 }
 
 .footnoteContent {
@@ -596,7 +612,37 @@ figcaption {
 	margin-bottom: 30px;
 }
 
-/*Medium size*/
+/* Mobile */
+
+@media only screen and (max-width: 500px) and (-webkit-min-device-pixel-ratio: 2) {
+
+	ul#pagenav li a {
+		background: url('chevron_2x.png') no-repeat right center;
+		background-size: 16px 16px;
+	}
+
+	ul#pagenav li a.rss {
+		background: url('rss_2x.png') no-repeat right center;
+		background-size: 16px 16px;
+	}
+
+	ul#pagenav li a.twitter {
+		background: url('twitter_2x.png') no-repeat right center;
+		background-size: 16px 16px;
+	}
+
+	ul#pagenav li a.adn {
+		background: url('adn_2x.png') no-repeat right center;
+		background-size: 16px 16px;
+	}
+
+	.social-links {
+
+  }
+
+}
+
+/* Tablets */
 
 @media only screen and (min-width:600px) {
 
@@ -795,7 +841,7 @@ figcaption {
 
 }
 
-/*Standard size*/
+/* Standard Desktop */
 
 @media only screen and (min-width:900px) {
 
@@ -861,7 +907,16 @@ figcaption {
 		margin-left: 0;
 	}
 
+	.social-links {
+		position: absolute;
+		top: 25px;
+		right: 20px;
+		margin: 0px;
+	}
+
 }
+
+/* Large screens */
 
 @media only screen and (min-width:1200px) {
 
@@ -872,7 +927,7 @@ figcaption {
 
 }
 
-/*Large screen*/
+/* Fucking Large screens */
 
 @media only screen and (min-width:2000px) {
 
@@ -901,8 +956,8 @@ figcaption {
 }
 
 @media only screen and (-webkit-min-device-pixel-ratio: 2) {
-#infscr-loading img {
-	width: 12px;
-	height: 12px;
-}
+	#infscr-loading img {
+		width: 12px;
+		height: 12px;
+	}
 }

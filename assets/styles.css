@@ -32,7 +32,6 @@ body {
 	font-size: 16px;
 	margin: 0;
 	padding: 0;
-	/*text-rendering: optimizeLegibility;*/
 	color: #333;
 	background: #fbfbfb url(texture-white.jpg) fixed;
 }
@@ -963,4 +962,8 @@ figcaption {
 		width: 12px;
 		height: 12px;
 	}
+}
+
+.talks h1 {
+	font-size: 32px;
 }

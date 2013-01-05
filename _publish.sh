@@ -1,1 +1,0 @@
-sudo jekyll --no-auto --no-server && rsync -avz -e ssh ./_site/ omnes@warren.dreamhost.com:~/zenorocha.com -v

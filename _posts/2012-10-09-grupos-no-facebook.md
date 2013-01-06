@@ -1,6 +1,7 @@
 ---
 layout: post
 title: A descentralização de conteúdo nos Grupos do Facebook
+oldUrl: http://blog.zenorocha.com/grupos-no-facebook.html
 ---
 
 <p><img src="http://blog.zenorocha.com/assets/img/posts/grupos-facebook.jpg"/></p>

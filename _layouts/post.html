@@ -16,15 +16,9 @@
 
 		{{ content }}
 
-		{% if site.commentlinks %}
-		<p class="comments">Tem um comentário? @zenorocha no
+		{% include disqus.html %}
 
-			{% if site.twitter-username %}
-			<a href="http://twitter.com/{{ site.twitter-username }}">Twitter</a>
-			{% endif %}
-
-		</p>
-		{% endif %}
+		<a rel="author" class="hide" href="https://profiles.google.com/zno.rocha">Zeno Rocha</a>
 
 		<!-- Tweet button -->
 		<div class="tweet">

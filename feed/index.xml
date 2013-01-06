@@ -15,7 +15,7 @@ layout: nil
     <id>http://zenorocha.com{{ post.id }}</id>
     <title>{{ post.title | strip_html }}</title>
     <updated>{{ post.date | date_to_xmlschema }}</updated>
-    <link href="http://zenorocha.com/blog{{ post.url }}" />
+    <link href="http://zenorocha.com{{ post.url }}" />
     <author>
       <name>Zeno Rocha</name>
       <uri>http://zenorocha.com/</uri>

@@ -6,7 +6,7 @@ baseurl:     /
 url: http://localhost:4000
 
 name: Zeno Rocha
-description: A Front-end Engineer who lives in Rio and works for an awesome company based in LA :)
+description: A front-end engineer who lives in Rio and works for an awesome company based in LA :)
 url: http://zenorocha.com
 domain: zenorocha.com
 commentlinks: true

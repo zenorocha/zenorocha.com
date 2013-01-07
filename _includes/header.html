@@ -24,25 +24,28 @@
 	<link rel="alternate" type="application/rss+xml" href="{{ site.feedburnerurl }}">
 
 	<!-- CSS -->
-	<link rel="stylesheet" href="{{ site.baseurl }}assets/normalize.css" type="text/css" />
-	<link rel="stylesheet" href="{{ site.baseurl }}assets/styles.css" type="text/css" />
-	<link rel="stylesheet" href="{{ site.baseurl }}assets/css/custom.css" type="text/css" />
-	<link rel="stylesheet" href="{{ site.baseurl }}assets/css/projects.css" type="text/css" />
+	<link rel="stylesheet" href="{{ site.baseurl }}assets/css/normalize.css" type="text/css" />
+	<link rel="stylesheet" href="{{ site.baseurl }}assets/css/main.css" type="text/css" />
 
 	<!-- jQuery -->
 	<script type='text/javascript' src='http://ajax.googleapis.com/ajax/libs/jquery/1.4/jquery.min.js'></script>
 
+	<!-- Syntax Highlight -->
+	<link rel="stylesheet" type="text/css" href="http://media.zenorocha.com/pretiffy.css"></link>
+	<script src="http://media.zenorocha.com/pretiffy.js"></script>
+	<script src="http://media.zenorocha.com/pretiffy-lang-css.js"></script>
+
 	<!-- Responsive menu -->
-	<script type='text/javascript' src='{{ site.baseurl }}assets/menu.js'></script>
+	<script src='{{ site.baseurl }}assets/menu.js'></script>
 
 	<!-- jQuery Markdown Footnotes -->
-	<script type='text/javascript' src='{{ site.baseurl }}assets/jquery.markdownFootnotes.js'></script>
+	<script src='{{ site.baseurl }}assets/jquery.markdownFootnotes.js'></script>
 
 	<!-- Active nav class -->
-	<script type='text/javascript' src='{{ site.baseurl }}assets/activenav.js'></script>
+	<script src='{{ site.baseurl }}assets/activenav.js'></script>
 
 	<!-- Modernizr adding css classes -->
-	<script type='text/javascript' src='{{ site.baseurl }}assets/modernizr_css_classes.js'></script>
+	<script src='{{ site.baseurl }}assets/modernizr_css_classes.js'></script>
 
 </head>
-<body{% if page.class %} class="{{ page.class }}"{% endif %}>
+<body{% if page.class %} class="{{ page.class }}"{% endif %} onload="prettyPrint()">

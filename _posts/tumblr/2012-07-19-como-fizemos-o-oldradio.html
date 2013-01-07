@@ -23,13 +23,9 @@ oldUrl: http://blog.zenorocha.com/post/27569632629/como-fizemos-o-oldradio
 <p>Para criar a marcação HTML do Old Radio, o Bernard De Luna seguiu o mesmo conceito de modularização. Ou seja, seguindo heranças de profundidades entre os itens, estilização baseada em classes e não em heranças, e por fim, nome de classes focadas nas funcionalidades reais. A ideia foi seguir a mesma estratégia usada para a criação do <a href="https://developer.mozilla.org/pt-BR/demosdetail/pure-css3-homer" target="_blank">Homer Simpsons</a>. Para ilustrar isso, segue o código de como foi feito a chave de desligar e ligar o rádio:</p>
 
 <pre class="prettyprint lang-css">&lt;div class="power"&gt;
-
-    &lt;span class="on-off active"&gt;
-
-        &lt;a href="#" title="on / off"&gt;&lt;span&gt;on / off&lt;/span&gt;&lt;/a&gt;
-
-    &lt;/span&gt;
-
+  &lt;span class="on-off active"&gt;
+    &lt;a href="#" title="on / off"&gt;&lt;span&gt;on / off&lt;/span&gt;&lt;/a&gt;
+  &lt;/span&gt;
 &lt;/div&gt;
 
 </pre>
@@ -48,11 +44,7 @@ oldUrl: http://blog.zenorocha.com/post/27569632629/como-fizemos-o-oldradio
 
 <p>Para fazer a textura de madeira, utilizamos a seguinte expressão:</p>
 
-<pre class="prettyprint lang-css">repeating-linear-gradient(-90deg, <br/>rgba(0,0,0,0.1),
-
-rgba(0,0,0,0.1) 1px,
-
-transparent 3px);</pre>
+<pre class="prettyprint lang-css">repeating-linear-gradient(-90deg, <br/>rgba(0,0,0,0.1), rgba(0,0,0,0.1) 1px, transparent 3px);</pre>
 
 <p>Ainda é uma renderização bastante bugada em browsers, mas mesmo com pequenas distorções ou o que renderizar, daria um ruído no marrom, mantendo a impressão da madeira desejada.</p>
 

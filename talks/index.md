@@ -2,6 +2,7 @@
 layout: page
 title: Talks
 class: talks
+description: List of all presentations
 ---
 
 Here you can find all my presentation slides and also know where you can find me in the future.

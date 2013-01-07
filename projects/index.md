@@ -2,9 +2,10 @@
 layout: page
 title: Projects
 class: projects
+description: Some of the most popular projects that I've been working recently.
 ---
 
-Some of the projects that I've been working recently.
+Some of the most popular projects that I've been working recently.
 
 <a href="http://braziljs.org/" class="view view-first">
   <img src="{{ site.baseurl }}assets/img/projects/braziljs.jpg" />

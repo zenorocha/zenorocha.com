@@ -12,7 +12,7 @@
 	<!-- Facebook -->
 	<meta property="og:title" content="{% if page.title %}{{ page.title }} &mdash;{% endif %} {{ site.name }}"/>
 	<meta property="og:site_name" content="Zeno Rocha"/>
-	<meta property="og:url" content="{{ site.url }}{{ page.url }}"/>
+	<meta property="og:url" content="{{ site.url }}{% if page.url != 'index.html' %}{{ page.url }}{% endif %}"/>
 	<meta property="og:image" content="{{ site.url }}/assets/img/fb-share.jpg"/>
 	<meta property="og:type" content="{% if page.layout == 'post' %}article{% else %}blog{% endif %}"/>
 	<meta property="og:description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}"/>

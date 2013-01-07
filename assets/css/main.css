@@ -970,3 +970,109 @@ figcaption {
 .talks h1 {
 	font-size: 32px;
 }
+
+/*#zeno-illustration {
+  position: absolute;
+  bottom: 160px;
+  left: 80px;
+}*/
+
+#zeno-illustration {
+  margin-left: 40px;
+}
+
+a[rev="footnote"], sup a {
+  border: none !important;
+}
+
+/* --- Font --- */
+
+@font-face {
+  font-family: 'ChunkFive';
+  src: url('../font/Chunkfive.eot');
+  src: local('ChunkFive Regular'), local('ChunkFive'), url('../font/Chunkfive.woff') format('woff'), url('../font/Chunkfive.svg#ChunkFive') format('svg'), url('../font/Chunkfive.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* --- Video Border --- */
+
+.video-wrap {
+  position: relative;
+  padding-bottom: 56.25%;
+  padding-top: 30px;
+  height: 0;
+  overflow: hidden;
+  margin-bottom: 18px;
+}
+
+.video-wrap iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 96%;
+  height: 96%;
+  padding: 1%;
+  border: 1px solid #DBDBDB !important;
+  background: #E9E9E9;
+  border-radius: 6px;
+}
+
+/* Download-Fork Buttons */
+
+.demo-download {
+  width: 320px;
+  margin: 15px auto;
+}
+
+.demo-download a {
+  border: none !important;
+}
+
+.demo-download img {
+  border: none !important;
+  padding: 0 !important;
+  background: none !important;
+  border-radius: 0 !important;
+  width: auto !important;
+}
+
+.view {
+   width: 280px;
+   height: 200px;
+   margin: 10px;
+   float: left;
+   border: 10px solid #fff !important;
+   overflow: hidden;
+   position: relative;
+   text-align: center;
+   -webkit-box-shadow: 1px 1px 2px #e6e6e6;
+   -moz-box-shadow: 1px 1px 2px #e6e6e6;
+   box-shadow: 1px 1px 2px #e6e6e6;
+   background: #fff no-repeat center center;
+   display: block;
+}
+.view .content {
+   width: 280px;
+   height: 200px;
+   position: absolute;
+   overflow: hidden;
+   top: 0;
+   left: 0;
+}
+.view img {
+   display: block;
+   position: relative;
+   -webkit-filter: hue-rotate(0deg);
+
+}
+.view-first img {
+   -webkit-transition: all 0.3s linear;
+   -moz-transition: all 0.3s linear;
+   -o-transition: all 0.3s linear;
+   transition: all 0.3s linear;
+}
+
+.view-first:hover img {
+   -webkit-filter: hue-rotate(90deg);
+}

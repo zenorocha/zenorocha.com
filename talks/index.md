@@ -74,7 +74,7 @@ Here you can find all my presentation slides and also know where you can find me
 * *Where:* Maringá, PR - Brazil
 * *Presentation:* [O que eu aprendi em 3 anos como dev front-end](http://talks.zenorocha.com/2012/frontinmaringa/)
 
-## [II SouWebPel](www.facebook.com/groups/souwebpel/)
+## [II SouWebPel](http://souwebpel.com.br/)
 * *When:* September, 29
 * *Where:* Pelotas, RS - Brazil
 * *Presentation:* [Como fugir do feijão com arroz usando Canvas, SVG e WebGL](http://talks.zenorocha.com/2012/souwebpel/)

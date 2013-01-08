@@ -33,7 +33,7 @@ body {
 	margin: 0;
 	padding: 0;
 	color: #333;
-	background: #fbfbfb url(texture-white.jpg) fixed;
+	background: #fbfbfb url(../img/texture-white.jpg) fixed;
 }
 
 .container {
@@ -241,7 +241,7 @@ sup a[rel="footnote"] {
 
 #masthead {
 	padding: 15px 0;
-	background: #0297af url(texture-3.jpg) fixed;
+	background: #0297af url(../img/texture.jpg) fixed;
 	color: #fff;
 }
 
@@ -320,20 +320,20 @@ ul#pagenav li a {
 	padding: 8px 0;
 	border-bottom: 1px solid #fff;
 	border-bottom: 1px solid rgba(255,255,255,0.2);
-	background: url('chevron.png') no-repeat right center;
+	background: url('../img/chevron.png') no-repeat right center;
 	color: #fff;
 }
 
 ul#pagenav li a.rss {
-	background: url('rss.png') no-repeat right center;
+	background: url('../img/rss.png') no-repeat right center;
 }
 
 ul#pagenav li a.twitter {
-	background: url('twitter.png') no-repeat right center;
+	background: url('../img/twitter.png') no-repeat right center;
 }
 
 ul#pagenav li a.adn {
-	background: url('adn.png') no-repeat right center;
+	background: url('../img/adn.png') no-repeat right center;
 }
 
 /* Social */
@@ -361,7 +361,7 @@ ul#pagenav li a.adn {
   height: 34px;
   outline: none;
   margin: 0 4px;
-  background: transparent url(img/social-links.png) no-repeat;
+  background: transparent url(../img/social-links.png) no-repeat;
   text-indent: -9000px;
   position: relative;
   border: none;
@@ -638,22 +638,22 @@ figcaption {
 @media only screen and (max-width: 500px) and (-webkit-min-device-pixel-ratio: 2) {
 
 	ul#pagenav li a {
-		background: url('chevron_2x.png') no-repeat right center;
+		background: url('../img/chevron_2x.png') no-repeat right center;
 		background-size: 16px 16px;
 	}
 
 	ul#pagenav li a.rss {
-		background: url('rss_2x.png') no-repeat right center;
+		background: url('../img/rss_2x.png') no-repeat right center;
 		background-size: 16px 16px;
 	}
 
 	ul#pagenav li a.twitter {
-		background: url('twitter_2x.png') no-repeat right center;
+		background: url('../img/twitter_2x.png') no-repeat right center;
 		background-size: 16px 16px;
 	}
 
 	ul#pagenav li a.adn {
-		background: url('adn_2x.png') no-repeat right center;
+		background: url('../img/adn_2x.png') no-repeat right center;
 		background-size: 16px 16px;
 	}
 

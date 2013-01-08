@@ -6,7 +6,6 @@ layout: nil
   <id>http://zenorocha.com/blog</id>
   <title>Blog - Zeno Rocha</title>
   <icon>http://zenorocha.com/favicon.ico</icon>
-  <updated>{{ site.time | date_to_xmlschema }}</updated>
   <link href="http://zenorocha.com/feed/index.xml" rel="self" />
   <link href="http://zenorocha.com/blog" />
   {% for post in site.posts limit:10 %}

@@ -22,7 +22,7 @@ That was pretty nice for my ego, but let me explain what this ranking means for 
 
 The first thing is, I'm not better than anyone.
 
-Just because I made 100 commits more than Linus, it doesn't make me a better contributor than him. Actually I could do 10,000 commits more than he and I would still not being a better contributor than him.
+Just because I made 100 commits more than Linus, it doesn’t make me a better contributor than him. Actually I could do 10,000 commits more than him and I would still not being a better contributor.
 
 The only thing that these numbers shows is: those people on the list put a lot of effort on open source using Github.
 

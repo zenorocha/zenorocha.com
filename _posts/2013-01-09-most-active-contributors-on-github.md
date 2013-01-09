@@ -42,6 +42,8 @@ That's why you have to break your tasks into sub tasks. It seems like a basic th
 
 ## 1st place
 
+![OctoTJ](/assets/img/posts/octotj.jpg)
+
 If I had to guess who's going to be in the top of this list, that would be TJ ([@visionmedia](http://github.com/visionmedia)).
 
 He's doing an incredible job in the NodeJS community, so congratulations man, you deserve it :)

@@ -47,5 +47,3 @@ That's why you have to break your tasks into sub tasks. It seems like a basic th
 If I had to guess who's going to be in the top of this list, that would be TJ ([@visionmedia](http://github.com/visionmedia)).
 
 He's doing an incredible job in the NodeJS community, so congratulations man, you deserve it :)
-
-<div class="video-wrap"><iframe src="http://www.youtube.com/embed/wxDBF3OOaRA" frameborder="0"></iframe></div>

@@ -4,13 +4,15 @@ title: "I'm the #50 most active contributor on Github, so what?"
 description: "Today, Paul Miller released a list of the "Most active GitHub users". People started to talk about it and suddenly I received a lot of congratulations messages for being the #50 most active contributor on Github. I was pretty surprised, since there's almost 3 million users on Github and even because Linus Torvalds, creator of Linux, was behind me! That was pretty nice for my ego, but let me explain what this ranking means for real."
 ---
 
-Today, Paul Miller released a list of the ["Most active GitHub users"](https://gist.github.com/2657075).
+{% excerpt %}
+Today, Paul Miller released a nice list of the ["Most active GitHub users"](https://gist.github.com/2657075).
 
 People started to talk about it and suddenly I received a lot of congratulations messages for being the #50 most active contributor on Github.
 
-I was pretty surprised, since there's almost 3 million users on Github and even because [Linus Torvalds](http://en.wikipedia.org/wiki/Linus_Torvalds), creator of Linux, was behind me!
+I was pretty surprised, since there's almost 2 million users on Github and even because [Linus Torvalds](http://en.wikipedia.org/wiki/Linus_Torvalds), creator of Linux, was behind me!
 
-That was pretty nice for my ego, but let me explain what this ranking means for real.
+That was pretty nice for my ego, but let me explain what this ranking means for me.
+{% endexcerpt %}
 
 ## Quantity != Quality
 

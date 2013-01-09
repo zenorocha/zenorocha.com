@@ -21,7 +21,13 @@
 
 		    {% if post.excerpt %}
 		    {{ post.excerpt | markdownify }}
-		    <p><a href="{{ post.url }}"><strong>Continue lendo&#8230;</strong></a></p>
+		    <p><a href="{{ post.url }}">
+		    	{% if post.language == "en" %}
+		    	<strong>Continue reading&#8230;</strong>
+		    	{% else %}
+		    	<strong>Continue lendo&#8230;</strong>
+		    	{% endif %}
+		    </a></p>
 		    {% else %}
 		    {{ post.content }}
 		    {% endif %}

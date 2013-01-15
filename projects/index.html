@@ -1,0 +1,25 @@
+---
+layout: page
+title: Projects
+class: projects
+description: Some of the most popular projects that I've been working recently.
+---
+
+<link rel="stylesheet" href="{{ site.baseurl }}assets/css/projects.css">
+
+<p>Some of the most popular projects that I've created recently.</p>
+
+<div>
+  <div class="github-repos" data-repo="jquery-boilerplate/boilerplate"></div>
+  <div class="github-repos" data-repo="zenorocha/diveintohtml5"></div>
+  <div class="github-repos" data-repo="braziljs/conf-boilerplate"></div>
+  <div class="github-repos" data-repo="zenorocha/hub.me"></div>
+  <div class="github-repos" data-repo="zenorocha/beerblogging"></div>
+  <div class="github-repos" data-repo="braziljs/foundation"></div>
+</div>
+
+<script src="{{ site.baseurl }}assets/js/jquery.github.repos.min.js"></script>
+
+<script>
+  $('.github-repos').githubRepos();
+</script>

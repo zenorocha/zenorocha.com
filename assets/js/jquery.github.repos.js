@@ -49,10 +49,14 @@
     Plugin.prototype.init = function () {
 
       var self = this;
-      var cached = sessionStorage.getItem('gh-repos:' + this.repo);
+      var cached;
 
       // Attempt to get cached repo data
-      if (window.sessionStorage && (cached != null)) {
+      if (window.sessionStorage) {
+        cached = sessionStorage.getItem('gh-repos:' + this.repo);
+      }
+
+      if (cached != null) {
         self.applyTemplate(JSON.parse(cached));
       }
       else {
@@ -77,11 +81,8 @@
               }
 
             }
-
           }
         });
-
-
 
       }
 
@@ -91,7 +92,7 @@
 
       var self = this;
       var date = new Date(repo.pushed_at);
-      var pushed_at = date.getMonth() + '/' + date.getDate() + '/' + date.getFullYear();
+      var pushed_at = date.getDate() + '/' + (date.getMonth() + 1) + '/' + date.getFullYear();
 
       var $widget = $(' \
         <div class="github-box">  \

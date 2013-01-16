@@ -363,6 +363,7 @@ ul#pagenav li a.adn {
   text-indent: -9000px;
   position: relative;
   border: none;
+  overflow: hidden;
 }
 
 .social-links li:nth-child(2n+2):hover {

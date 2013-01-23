@@ -9,7 +9,7 @@ Here you can find all the projects that I did.
 
 # ~ 2013
 
-* [jQuery Github Repos](http://zenorocha.github.com/jquery-github-repos/)
+* [jQuery Github](http://zenorocha.github.com/jquery-github/)
 
 # ~ 2012
 

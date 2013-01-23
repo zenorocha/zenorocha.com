@@ -6,10 +6,9 @@
   <li><a class="social-rss" href="http://feeds.feedburner.com/zenorocha">RSS Feed</a></li>
 </ul>
 
-{% if site.google-analytics-tracking-id %}
 <script type="text/javascript">
   var _gaq = _gaq || [];
-  _gaq.push(['_setAccount', '{{ site.google-analytics-tracking-id }}']);
+  _gaq.push(['_setAccount', 'UA-4114546-2']);
   _gaq.push(['_trackPageview']);
 
   (function() {
@@ -18,7 +17,6 @@
     var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
   })();
 </script>
-{% endif %}
 
 <!-- jQuery Infinite Scrolling -->
 <script type='text/javascript' src='{{ site.baseurl }}assets/js/jquery.infinitescroll.min.js'></script>

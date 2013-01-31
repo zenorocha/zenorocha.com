@@ -10,11 +10,7 @@ Here you can find all my presentation slides and also know where you can find me
 # Comming next!
 ---
 
-## [Campus Party](http://www.campus-party.com.br/2013/index.html)
-* *When:* January, 28 - 2013
-* *Where:* São Paulo, SP - Brazil
-
-## BeagaJS
+## [BeagaJS](http://www.beagajs.com.br/)
 * *When:* March, 02 - 2013
 * *Where:* Belo Horizonte, MG - Brazil
 
@@ -25,6 +21,14 @@ Here you can find all my presentation slides and also know where you can find me
 ## [FEEC BR](http://www.feecbr.com.br/pt/)
 * *When:* August, 24 - 2013
 * *Where:* Salvador, BA - Brazil
+
+# ~ 2013
+---
+
+## [Campus Party](http://www.campus-party.com.br/2013/index.html)
+* *When:* January, 28 - 2013
+* *Where:* São Paulo, SP - Brazil
+* *Presentation:* [Layouts Responsivos](http://www.slideshare.net/bernarddeluna/pdf-apresentacaolayoutsresponsivos)
 
 # ~ 2012
 ---

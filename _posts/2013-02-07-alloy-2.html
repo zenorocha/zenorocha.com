@@ -1,0 +1,91 @@
+---
+layout: post
+title: "Alloy UI 2.0"
+description: ""
+---
+
+{% excerpt %}
+
+<img src="/assets/img/posts/reintroducing-alloy.jpg" alt="alloyui.com">
+
+<p><em><a href="http://www.liferay.com/web/eduardo.lundgren/blog/-/blogs/reintroducing-alloyui-or-meet-alloy-2-0-">Read in English.</a></em></p>
+
+<p>Lembro quando estava fazendo a entrevista para entrar na Liferay e Eduardo disse: <em>"Zeno, quero que o Alloy tenha a tua cara"</em>, eu lembro bem dessa frase porque foi uma das coisas que me fez entrar na empresa.</p>
+
+<p>Me demitir da Globo não seria fácil, mas eu tinha a oportunidade de transformar um produto usado por mais de 350.000 pessoas no mundo através do <a href="http://www.liferay.com/products/liferay-portal/overview">Liferay Portal</a> em uma coisa ainda mais legal.</p>
+
+<p>Depois de muito trabalho, fizemos o lançamento do preview release nessa segunda-feira, desde então já tivemos mais de 30.000 pageviews em só 3 dias e isso é só o começo amigo.</p>
+
+{% endexcerpt %}
+
+<h2>O que é?</h2>
+
+<p>Antes de contar o que foi feito, vamos primeiro contextualizar quem ainda não conhece esse negócio.</p>
+
+<p>O AlloyUI é um framework open source de componentes de interface que nasceu em 2009 depois de um trabalho conjunto de Nate Cavanaugh, Eduardo Lundgren e o time da Yahoo!</p>
+
+<p>Por anos o Alloy foi usado e conhecido como o framework JavaScript por trás do Liferay Portal. Isso foi muito bom, porque ajudou o projeto a crescer bastante, mas ao mesmo tempo restringiu a determinada audiência.</p>
+
+<p>Nós agora queremos mudar a abordagem, queremos que o projeto seja reconhecido como um framework JavaScript poderoso e usado por projetos muito legais, incluindo o Liferay Portal.</p>
+
+<p>Isso pode parecer uma mudança pequena, mas não é. Nós não estamos apenas fazendo o release de uma nova versão, nós estamos repensando toda nossa engenharia, comunicação e aproximação da comunidade como um projeto open source.</p>
+
+<h2>Quais são as novidades?</h2>
+
+<h3>Novo site</h3>
+
+<p>Primeiro, nós fizemos um <a href="http://alloyui.com/">site completamente novo</a> \o/</p>
+
+<p>É sexy e tem vários novos exemplos/tutoriais. Nós decidimos preservar o <a href="http://alloyui.com/api/">API Docs</a> e <a href="http://alloyui.com/rosetta-stone/">Rosetta Stone</a> porque eles continuam boas fontes de conhecimento.</p>
+
+<p>O site foi criado usando um gerador estático em NodeJS e toda documentação está escrita em Markdown.</p>
+
+<p>Se você quiser ajudar a melhorar o site, por favor consulte o <a href="https://github.com/liferay/alloyui.com">código fonte no Github</a> (e <a href="https://github.com/liferay/alloyui.com/pull/86">lembre de usar GIFs</a> :P).</p>
+
+<h3>Look &amp; Feel</h3>
+
+<p>O Alloy foi construído por engenheiros, mas engenheiros não são focados em design, certo? Por isso decidimos utilizar o look &amp; feel do <a href="http://twitter.github.com/bootstrap/">Twitter Bootstrap</a>, o projeto mais popular no Github hoje em dia.</p>
+
+<h3>Comunicação</h3>
+
+<p>Adicionamos mais canais de comunicação, então agora você pode nos encontar no <a href="http://www.liferay.com/community/forums/-/message_boards/category/8409523">Liferay Forums</a>, <a href="https://groups.google.com/forum/?fromgroups#!forum/alloyui">Google Groups</a> e <a href="http://stackoverflow.com/questions/tagged/alloy-ui">Stack Overflow</a>.</p>
+
+<h3>Build mais rápido</h3>
+
+<p>Nós usamos <a href="http://ant.apache.org/">Ant</a> por um bom tempo, mas o tempo passa e novas build tools vão surgindo. Então nós estamos substituindo para o <a href="https://github.com/yui/shifter">Shifter</a> e <a href="https://github.com/liferay/yogi-alloy">Yogi</a>, dois projetos irados feitos pelos nossos amigos na Yahoo!</p>
+
+<h3>CDN</h3>
+
+<p>AlloyUI agora está hospedado em uma CDN muito rápida, então agora você pode usar facilmente adicionando essa url <code>http://cdn.alloyui.com/2.0.0pr1/aui/aui-min.js</code> na sua tag <code>&lt;script&gt;</code>.</p>
+
+<h3>Download mais rápido</h3>
+
+<p>A última versão do repositório do Alloy tinha quase 800mb, agora para baixar o Alloy 2.0 são menos de 10mb!</p>
+
+<h3>Menos Componentes</h3>
+
+<p>A última versão do AlloyUI tinha 73 componentes, para esse primeiro release temos só 20 componentes.</p>
+
+<h2>Por que usar o Alloy?</h2>
+
+<p>Muita gente pergunta por que deveriam investir seu tempo no Alloy? Ou por que não usar o jQuery com seu gigantesco ecossistema de plugins?</p>
+
+<p>O lance é o seguinte, manipulação de DOM é só o topo do iceberg quando estamos lidando com aplicações modernas e de alta escalabilidade. Você provavelmente vai utilizar uma biblioteca para templates (como Mustache/Handlebars), outra para carregamento modular (como RequireJS/HeadJS), outra para estruturação MVC (como Backbone/Ember), outra para componentes de UI (como jQueryUI/ExtJS) e por aí vai.</p>
+
+<p>Bom, o Alloy vem com todas essas coisas juntas. Então não tem confusão entre bibliotecas, só uma API uniforme que deixa sua vida mais fácil. É construído com base no YUI3, um projeto da Yahoo! e é mantido pelos engenheiros da Liferay.</p>
+
+<p>Enfim, nós não viemos para competir com o jQuery, só queremos continuar ajudando a comunidade JavaScript e em especial aqueles que trabalham com aplicações enterprise de grande escala.</p>
+
+<h2>Próximos passos?</h2>
+
+<p>Nós vamos continuar adicionando novos componentes, documentando e aprimorando o site. Mas o mais importante, nós queremos ouvir o que vocês acham disso. Então fique à vontade para deixar seu comentário nesse post ou entre em contato através do <a href="http://www.liferay.com/community/forums/-/message_boards/category/8409523">Liferay Forums</a> ou <a href="https://groups.google.com/forum/?fromgroups#!forum/alloyui">Google Groups</a>.</p>
+
+<h2>Quer saber mais?</h2>
+
+<p>Dia 19 de fevereiro vou apresentar tudo ao vivo no <a href="http://www.liferay.com/events/web-events">AlloyUI LIVE Session</a>.</p>
+
+<h2>Obrigado :)</h2>
+
+<p>Isso não seria possível sem a ajuda Eduardo Lundgren que merece todo o crédito na construção dessa nova versão, além de Nate Cavanaugh e Brian Chan que acreditaram na ideia.</p>
+
+<p>Também Marc Lundgren, Ethan Bustad, Robert Frampton e Patrick Armitage que ajudaram insanamente na criação dos exemplos e tutoriais para o site. E finalmente Bernard De Luna, Briza Bueno, Djalma Araújo e todos meus coworkers do escritório brasileiro pelo apoio.</p>

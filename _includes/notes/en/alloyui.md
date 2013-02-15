@@ -1,0 +1,1 @@
+**AlloyUI** is a JavaScript framework built on top of YUI3 that provides a simple API for building high scalable applications &mdash; [Website](http://alloyui.com/) | [Github](http://github.com/liferay/alloy-ui) | [Twitter](http://twitter.com/alloyui)

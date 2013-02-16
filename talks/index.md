@@ -14,6 +14,10 @@ Here you can find all my presentation slides and also know where you can find me
 * *When:* March, 02 - 2013
 * *Where:* Belo Horizonte, MG - Brazil
 
+## [Olhó SEO](http://www.olhoseo.com.br/2013/)
+* *When:* May, 3 - 2013
+* *Where:* Florianópolis, SC - Brazil
+
 ## [FEEC BR](http://www.feecbr.com.br/pt/)
 * *When:* May, 25 - 2013
 * *Where:* Fortaleza, CE - Brazil

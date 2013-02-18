@@ -14,6 +14,10 @@ Here you can find all my presentation slides and also know where you can find me
 * *When:* March, 02 - 2013
 * *Where:* Belo Horizonte, MG - Brazil
 
+## [JAX](http://jax.de/)
+* *When:* April, 23 - 2013
+* *Where:* Mainz - Germany
+
 ## [Olhó SEO](http://www.olhoseo.com.br/2013/)
 * *When:* May, 3 - 2013
 * *Where:* Florianópolis, SC - Brazil
@@ -25,6 +29,10 @@ Here you can find all my presentation slides and also know where you can find me
 ## [FEEC BR](http://www.feecbr.com.br/pt/)
 * *When:* August, 24 - 2013
 * *Where:* Salvador, BA - Brazil
+
+## Liferay Dev Con
+* *When:* October, 9 - 2013
+* *Where:* Berlin - Germany
 
 # ~ 2013
 ---

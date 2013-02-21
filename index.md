@@ -3,7 +3,7 @@ layout: page
 class: home
 ---
 
-Hello! I'm *Zeno Rocha*, a front-end engineer who lives in *Rio* and works for an awesome company based in *LA* :)
+Hi, I'm *Zeno*. I am a 22 year old front-end engineer who lives in *Rio* and works for an awesome company based in *LA* :)
 
 Also a **co-founder** of <a rel="footnote" href="#fn:1">BrazilJS Foundation</a>[^1], **consultant mentor** at <a rel="footnote" href="#fn:2">Papaya Ventures</a>[^2], **host** on <a rel="footnote" href="#fn:3">Zone of Front-enders</a>[^3], **student** of Information Systems at <a rel="footnote" href="#fn:4">UNIRIO</a>[^4].
 

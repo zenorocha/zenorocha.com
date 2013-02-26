@@ -11,39 +11,52 @@ Here you can find all my presentation slides and also know where you can find me
 ---
 
 ## [BeagaJS](http://www.beagajs.com.br/)
-* *When:* March, 02 - 2013
+* *When:* March, 02
 * *Where:* Belo Horizonte, MG - Brazil
 
+## [RioJS](http://riojs.org/)
+* *When:* March, 09
+* *Where:* Rio de Janeiro, RJ - Brazil
+
+## [HTML5 Dev Conf](http://html5devconf.com/)
+* *When:* April, 01
+* *Where:* San Francisco, CA - USA
+
 ## [JAX](http://jax.de/)
-* *When:* April, 23 - 2013
+* *When:* April, 23
 * *Where:* Mainz - Germany
 
 ## [Olhó SEO](http://www.olhoseo.com.br/2013/)
-* *When:* May, 3 - 2013
+* *When:* May, 3
 * *Where:* Florianópolis, SC - Brazil
 
 ## [FEEC BR](http://www.feecbr.com.br/pt/)
-* *When:* May, 25 - 2013
+* *When:* May, 25
 * *Where:* Fortaleza, CE - Brazil
 
 ## [FEEC BR](http://www.feecbr.com.br/pt/)
-* *When:* August, 24 - 2013
+* *When:* August, 24
 * *Where:* Salvador, BA - Brazil
 
 ## Liferay Dev Con
-* *When:* October, 9 - 2013
+* *When:* October, 9
 * *Where:* Berlin - Germany
 
 # ~ 2013
 ---
 
 ## [Campus Party](http://www.campus-party.com.br/2013/index.html)
-* *When:* January, 28 - 2013
+* *When:* January, 28
 * *Where:* São Paulo, SP - Brazil
 * *Presentation:* [Layouts Responsivos](http://www.slideshare.net/bernarddeluna/pdf-apresentacaolayoutsresponsivos)
 
 # ~ 2012
 ---
+
+## Liferay Retreat
+* *When:* December, 10
+* *Where:* Los Angeles, CA - USA
+* *Presentation:* [Alloy UI: Past, Present & Future](http://talks.zenorocha.com/2012/new-alloy-website/)
 
 ## [DevFest Brasil](http://www.devfest.com.br/)
 * *When:* November, 30

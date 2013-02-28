@@ -158,10 +158,10 @@ Here you can find all my presentation slides and also know where you can find me
 * *Where:* Rio de Janeiro, RJ - Brazil
 * *Presentation:* [CSS Sucks!](http://talks.zenorocha.com/2012/frontinrio/)
 
-## [JSConf Latin America](http://jsconf.com.ar)
+## [JSConf Argentina](http://jsconf.com.ar)
 * *When:* May, 19
 * *Where:* Buenos Aires - Argentina
-* *Presentation:* [How to use Canvas, SVG and WebGL without a time machine](http://talks.zenorocha.com/2012/jsconf/)
+* *Presentation:* [How to use Canvas, SVG and WebGL without a time machine](http://talks.zenorocha.com/2012/jsconf/) - [Video](http://blip.tv/jsconfar/zeno_rocha-6279969)
 
 ## [PernambucoJS](http://www.pernambucojs.com/)
 * *When:* April, 21

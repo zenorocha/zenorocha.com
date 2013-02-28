@@ -131,7 +131,7 @@ Here you can find all my presentation slides and also know where you can find me
 ## [QCon](http://qconsp.com/)
 * *When:* August, 04
 * *Where:* São Paulo, SP - Brazil
-* *Presentation:* [Mitos do Front-end](http://talks.zenorocha.com/2012/qconsp/)
+* *Presentation:* [Mitos do Front-end](http://talks.zenorocha.com/2012/qconsp/) - [Video](http://www.infoq.com/br/presentations/mitos-desenvolvimento-frontend)
 
 ## [FISL](http://softwarelivre.org/fisl13/)
 * *When:* July, 25

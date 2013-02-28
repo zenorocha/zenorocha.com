@@ -48,7 +48,7 @@ Here you can find all my presentation slides and also know where you can find me
 ## [Campus Party](http://www.campus-party.com.br/2013/index.html)
 * *When:* January, 28
 * *Where:* São Paulo, SP - Brazil
-* *Presentation:* [Layouts Responsivos](http://www.slideshare.net/bernarddeluna/pdf-apresentacaolayoutsresponsivos)
+* *Presentation:* [Layouts Responsivos](http://www.slideshare.net/bernarddeluna/pdf-apresentacaolayoutsresponsivos) - [Video](http://www.youtube.com/watch?v=ty7zj37gaBI)
 
 # ~ 2012
 ---

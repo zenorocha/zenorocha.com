@@ -133,7 +133,7 @@ Here you can find all my presentation slides and also know where you can find me
 * *Where:* São Paulo, SP - Brazil
 * *Presentation:* [Mitos do Front-end](http://talks.zenorocha.com/2012/qconsp/) - [Video](http://www.infoq.com/br/presentations/mitos-desenvolvimento-frontend)
 
-## [FISL](http://softwarelivre.org/fisl13/)
+## [FISL](http://softwarelivre.org/fisl13/) - [Video](http://www.youtube.com/watch?v=ukjHPwg74ik)
 * *When:* July, 25
 * *Where:* Porto Alegre, RS - Brazil
 * *Presentation:* [Como fugir do feijão com arroz usando Canvas, SVG e WebGL](http://talks.zenorocha.com/2012/fisl/)

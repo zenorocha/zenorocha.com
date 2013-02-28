@@ -66,7 +66,7 @@ Here you can find all my presentation slides and also know where you can find me
 ## [Conexão Kinghost](http://www.conexaokinghost.com.br/)
 * *When:* November, 29
 * *Where:* Porto Alegre, RS - Brazil
-* *Presentation:* [Surpresa!](http://www.slideshare.net/bernarddeluna/surpresa-15160517)
+* *Presentation:* [Surpresa!](http://www.slideshare.net/bernarddeluna/surpresa-15160517) - [Video](http://www.youtube.com/watch?v=66RjQmQg30Y)
 
 ## [Ideais Cowabunga](http://ideais-cowabunga.eventbrite.com/)
 * *When:* November, 13

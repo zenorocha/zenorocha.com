@@ -81,7 +81,7 @@ Here you can find all my presentation slides and also know where you can find me
 ## [Front in Sampa](http://www.frontinsampa.com.br/)
 * *When:* November, 03
 * *Where:* São Paulo, SP - Brazil
-* *Presentation:* [Surpresa!](http://www.slideshare.net/bernarddeluna/surpresa-15160517)
+* *Presentation:* [Surpresa!](http://www.slideshare.net/bernarddeluna/surpresa-15160517) - [Video](http://www.youtube.com/watch?v=SOgriWRiefs)
 
 ## [Front in Maceió](http://frontinmaceio.com.br/)
 * *When:* October, 27

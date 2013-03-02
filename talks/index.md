@@ -48,7 +48,7 @@ Here you can find all my presentation slides and also know where you can find me
 ## [Campus Party](http://www.campus-party.com.br/2013/index.html)
 * *When:* January, 28
 * *Where:* São Paulo, SP - Brazil
-* *Presentation:* [Layouts Responsivos](http://www.slideshare.net/bernarddeluna/pdf-apresentacaolayoutsresponsivos) - [Video](http://www.youtube.com/watch?v=ty7zj37gaBI)
+* *Presentation:* [Layouts Responsivos](http://www.slideshare.net/bernarddeluna/pdf-apresentacaolayoutsresponsivos) ([Video](http://www.youtube.com/watch?v=ty7zj37gaBI))
 
 # ~ 2012
 ---
@@ -66,7 +66,7 @@ Here you can find all my presentation slides and also know where you can find me
 ## [Conexão Kinghost](http://www.conexaokinghost.com.br/)
 * *When:* November, 29
 * *Where:* Porto Alegre, RS - Brazil
-* *Presentation:* [Surpresa!](http://www.slideshare.net/bernarddeluna/surpresa-15160517) - [Video](http://www.youtube.com/watch?v=66RjQmQg30Y)
+* *Presentation:* [Surpresa!](http://www.slideshare.net/bernarddeluna/surpresa-15160517) ([Video](http://www.youtube.com/watch?v=66RjQmQg30Y))
 
 ## [Ideais Cowabunga](http://ideais-cowabunga.eventbrite.com/)
 * *When:* November, 13
@@ -81,7 +81,7 @@ Here you can find all my presentation slides and also know where you can find me
 ## [Front in Sampa](http://www.frontinsampa.com.br/)
 * *When:* November, 03
 * *Where:* São Paulo, SP - Brazil
-* *Presentation:* [Surpresa!](http://www.slideshare.net/bernarddeluna/surpresa-15160517) - [Video](http://www.youtube.com/watch?v=SOgriWRiefs)
+* *Presentation:* [Surpresa!](http://www.slideshare.net/bernarddeluna/surpresa-15160517) ([Video](http://www.youtube.com/watch?v=SOgriWRiefs))
 
 ## [Front in Maceió](http://frontinmaceio.com.br/)
 * *When:* October, 27
@@ -131,12 +131,12 @@ Here you can find all my presentation slides and also know where you can find me
 ## [QCon](http://qconsp.com/)
 * *When:* August, 04
 * *Where:* São Paulo, SP - Brazil
-* *Presentation:* [Mitos do Front-end](http://talks.zenorocha.com/2012/qconsp/) - [Video](http://www.infoq.com/br/presentations/mitos-desenvolvimento-frontend)
+* *Presentation:* [Mitos do Front-end](http://talks.zenorocha.com/2012/qconsp/) ([Video](http://www.infoq.com/br/presentations/mitos-desenvolvimento-frontend))
 
-## [FISL](http://softwarelivre.org/fisl13/) - [Video](http://www.youtube.com/watch?v=ukjHPwg74ik)
+## [FISL](http://softwarelivre.org/fisl13/)
 * *When:* July, 25
 * *Where:* Porto Alegre, RS - Brazil
-* *Presentation:* [Como fugir do feijão com arroz usando Canvas, SVG e WebGL](http://talks.zenorocha.com/2012/fisl/)
+* *Presentation:* [Como fugir do feijão com arroz usando Canvas, SVG e WebGL](http://talks.zenorocha.com/2012/fisl/) ([Video](http://www.youtube.com/watch?v=ukjHPwg74ik))
 
 ## [Front in BH](http://frontinbh.com.br/)
 * *When:* July, 14
@@ -161,7 +161,7 @@ Here you can find all my presentation slides and also know where you can find me
 ## [JSConf Argentina](http://jsconf.com.ar)
 * *When:* May, 19
 * *Where:* Buenos Aires - Argentina
-* *Presentation:* [How to use Canvas, SVG and WebGL without a time machine](http://talks.zenorocha.com/2012/jsconf/) - [Video](http://blip.tv/jsconfar/zeno_rocha-6279969)
+* *Presentation:* [How to use Canvas, SVG and WebGL without a time machine](http://talks.zenorocha.com/2012/jsconf/) ([Video](http://blip.tv/jsconfar/zeno_rocha-6279969))
 
 ## [PernambucoJS](http://www.pernambucojs.com/)
 * *When:* April, 21

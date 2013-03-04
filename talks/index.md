@@ -10,10 +10,6 @@ Here you can find all my presentation slides and also know where you can find me
 # Comming next!
 ---
 
-## [BeagaJS](http://www.beagajs.com.br/)
-* *When:* March, 02
-* *Where:* Belo Horizonte, MG - Brazil
-
 ## [RioJS](http://riojs.org/)
 * *When:* March, 09
 * *Where:* Rio de Janeiro, RJ - Brazil
@@ -44,6 +40,15 @@ Here you can find all my presentation slides and also know where you can find me
 
 # ~ 2013
 ---
+
+## [BeagaJS](http://www.beagajs.com.br/)
+* *When:* March, 02
+* *Where:* Belo Horizonte, MG - Brazil
+
+## [Liferay LIVE Sessions](http://www.liferay.com/events/web-events)
+* *When:* February, 19
+* *Where:* Interwebs
+* *Presentation:* [Reintroducing AlloyUI](http://talks.zenorocha.com/2013/alloy-webinar/) ([Video](http://www.liferay.com/video?title=video-web-event-introducing-alloy-2-0))
 
 ## [Campus Party](http://www.campus-party.com.br/2013/index.html)
 * *When:* January, 28

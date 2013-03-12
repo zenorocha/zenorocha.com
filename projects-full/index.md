@@ -9,8 +9,9 @@ Here you can find all the projects that I did.
 
 # ~ 2013
 
-* [Sobrinho Manifesto](http://sobrinhomanifesto.com.br)
-* [alloyui.com](http://alloyui.com)
+* [Browser Diet](http://browserdiet.com/)
+* [Sobrinho Manifesto](http://sobrinhomanifesto.com.br/)
+* [alloyui.com](http://alloyui.com/)
 * [jQuery Github](http://zenorocha.github.com/jquery-github/)
 
 # ~ 2012

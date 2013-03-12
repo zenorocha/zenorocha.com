@@ -10,10 +10,6 @@ Here you can find all my presentation slides and also know where you can find me
 # Comming next!
 ---
 
-## [RioJS](http://riojs.org/)
-* *When:* March, 09
-* *Where:* Rio de Janeiro, RJ - Brazil
-
 ## [HTML5 Dev Conf](http://html5devconf.com/)
 * *When:* April, 01
 * *Where:* San Francisco, CA - USA
@@ -40,6 +36,11 @@ Here you can find all my presentation slides and also know where you can find me
 
 # ~ 2013
 ---
+
+## [RioJS](http://riojs.org/)
+* *When:* March, 09
+* *Where:* Rio de Janeiro, RJ - Brazil
+* *Presentation:* [Como Perder Peso (no browser)](https://speakerdeck.com/zenorocha/como-perder-peso-no-browser/)
 
 ## [BeagaJS](http://www.beagajs.com.br/)
 * *When:* March, 02

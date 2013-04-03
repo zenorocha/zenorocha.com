@@ -10,14 +10,6 @@ Here you can find all my presentation slides and also know where you can find me
 # Comming next!
 ---
 
-## [File Games Rio](http://www.oifuturo.org.br/evento/file-games-rio-2013/)
-* *When:* March, 26
-* *Where:* Rio de Janeiro, RJ - Brazil
-
-## [HTML5 Dev Conf](http://html5devconf.com/)
-* *When:* April, 01
-* *Where:* San Francisco, CA - USA
-
 ## [JAX](http://jax.de/)
 * *When:* April, 23
 * *Where:* Mainz - Germany
@@ -40,6 +32,15 @@ Here you can find all my presentation slides and also know where you can find me
 
 # ~ 2013
 ---
+
+## [HTML5 Dev Conf](http://html5devconf.com/)
+* *When:* April, 01
+* *Where:* San Francisco, CA - USA
+* *Presentation:* [Augmented Reality in JavaScript](https://speakerdeck.com/zenorocha/augmented-reality-in-javascript)
+
+## [File Games Rio](http://www.oifuturo.org.br/evento/file-games-rio-2013/)
+* *When:* March, 26
+* *Where:* Rio de Janeiro, RJ - Brazil
 
 ## [RioJS](http://riojs.org/)
 * *When:* March, 09

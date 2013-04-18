@@ -84,7 +84,7 @@ Here you can find all my presentation slides and also know where you can find me
 ## [DevFest Brasil](http://www.devfest.com.br/)
 * *When:* November, 30
 * *Where:* São Paulo, SP - Brazil
-* *Presentation:* [Realidade aumentada com JavaScript](http://talks.zenorocha.com/2012/devfest)
+* *Presentation:* [Realidade aumentada com JavaScript](http://talks.zenorocha.com/2012/devfest) ([Video](http://www.infoq.com/br/presentations/realidade-aumentada-html5))
 
 ## [Conexão Kinghost](http://www.conexaokinghost.com.br/)
 * *When:* November, 29

@@ -18,6 +18,14 @@ Here you can find all my presentation slides and also know where you can find me
 * *When:* May, 3
 * *Where:* Florianópolis, SC - Brazil
 
+## [SeCoT](http://www.secot.com.br/)
+* *When:* May, 6
+* *Where:* Sorocaba, SP - Brazil
+
+## [WWW 2013](http://www2013.org/)
+* *When:* May, 13
+* *Where:* Rio de Janeiro, RJ - Brazil
+
 ## [FEEC BR](http://www.feecbr.com.br/pt/)
 * *When:* May, 25
 * *Where:* Fortaleza, CE - Brazil
@@ -26,7 +34,7 @@ Here you can find all my presentation slides and also know where you can find me
 * *When:* August, 24
 * *Where:* Salvador, BA - Brazil
 
-## Liferay Dev Con
+## [Liferay Dev Con](http://www.liferay.com/europe2013)
 * *When:* October, 9
 * *Where:* Berlin - Germany
 

@@ -30,6 +30,10 @@ Here you can find all my presentation slides and also know where you can find me
 * *When:* May, 25
 * *Where:* Fortaleza, CE - Brazil
 
+## [Front in BH](http://www.frontinbh.com.br/)
+* *When:* August, 3
+* *Where:* Belo Horizonte, MG - Brazil
+
 ## [FEEC BR](http://www.feecbr.com.br/pt/)
 * *When:* August, 24
 * *Where:* Salvador, BA - Brazil

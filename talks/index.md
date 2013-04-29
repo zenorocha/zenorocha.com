@@ -10,10 +10,6 @@ Here you can find all my presentation slides and also know where you can find me
 # Comming next!
 ---
 
-## [JAX](http://jax.de/)
-* *When:* April, 23
-* *Where:* Mainz - Germany
-
 ## [Olhó SEO](http://www.olhoseo.com.br/2013/)
 * *When:* May, 3
 * *Where:* Florianópolis, SC - Brazil
@@ -44,6 +40,11 @@ Here you can find all my presentation slides and also know where you can find me
 
 # ~ 2013
 ---
+
+## [JAX](http://jax.de/)
+* *When:* April, 23
+* *Where:* Mainz - Germany
+* *Presentation:* [How to create JavaScript apps for Java portals](https://speakerdeck.com/zenorocha/how-to-create-javascript-apps-for-java-portals) | [Getting started with YUI3 and AlloyUI](https://speakerdeck.com/zenorocha/getting-started-with-yui3-and-alloyui)
 
 ## [HTML5 Dev Conf](http://html5devconf.com/)
 * *When:* April, 01

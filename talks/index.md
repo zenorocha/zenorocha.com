@@ -10,10 +10,6 @@ Here you can find all my presentation slides and also know where you can find me
 # Comming next!
 ---
 
-## [Olhó SEO](http://www.olhoseo.com.br/2013/)
-* *When:* May, 3
-* *Where:* Florianópolis, SC - Brazil
-
 ## [SeCoT](http://www.secot.com.br/)
 * *When:* May, 6
 * *Where:* Sorocaba, SP - Brazil
@@ -48,6 +44,11 @@ Here you can find all my presentation slides and also know where you can find me
 
 # ~ 2013
 ---
+
+## [Olhó SEO](http://www.olhoseo.com.br/2013/)
+* *When:* May, 3
+* *Where:* Florianópolis, SC - Brazil
+* *Presentation:* [Como Perder Peso (no browser)](https://speakerdeck.com/zenorocha/como-perder-peso-no-browser/)
 
 ## [JAX](http://jax.de/)
 * *When:* April, 23

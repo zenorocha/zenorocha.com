@@ -34,6 +34,14 @@ Here you can find all my presentation slides and also know where you can find me
 * *When:* August, 24
 * *Where:* Salvador, BA - Brazil
 
+## [QCon](http://qconsp.com/)
+* *When:* August, 30
+* *Where:* São Paulo, SP - Brazil
+
+## [Front in Aracaju](http://www.frontinaracaju.com.br/)
+* *When:* August, 31
+* *Where:* Aracaju, SE - Brazil
+
 ## [Liferay Dev Con](http://www.liferay.com/europe2013)
 * *When:* October, 9
 * *Where:* Berlin - Germany

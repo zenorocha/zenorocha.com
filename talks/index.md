@@ -10,10 +10,6 @@ Here you can find all my presentation slides and also know where you can find me
 # Comming next!
 ---
 
-## [SeCoT](http://www.secot.com.br/)
-* *When:* May, 6
-* *Where:* Sorocaba, SP - Brazil
-
 ## [WWW 2013](http://www2013.org/)
 * *When:* May, 13
 * *Where:* Rio de Janeiro, RJ - Brazil
@@ -44,6 +40,11 @@ Here you can find all my presentation slides and also know where you can find me
 
 # ~ 2013
 ---
+
+## [SeCoT](http://www.secot.com.br/)
+* *When:* May, 6
+* *Where:* Sorocaba, SP - Brazil
+* *Presentation:* [O que eu aprendi em 4 anos como dev front-end](http://talks.zenorocha.com/2013/secot/)
 
 ## [Olhó SEO](http://www.olhoseo.com.br/2013/)
 * *When:* May, 3

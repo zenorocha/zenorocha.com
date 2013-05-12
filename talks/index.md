@@ -11,20 +11,12 @@ Here you can find all my presentation slides and also know where you can find me
 ---
 
 ## [WWW 2013](http://www2013.org/)
-* *When:* May, 13
+* *When:* May, 17
 * *Where:* Rio de Janeiro, RJ - Brazil
-
-## [FEEC BR](http://www.feecbr.com.br/pt/)
-* *When:* May, 25
-* *Where:* Fortaleza, CE - Brazil
 
 ## [Front in BH](http://www.frontinbh.com.br/)
 * *When:* August, 3
 * *Where:* Belo Horizonte, MG - Brazil
-
-## [FEEC BR](http://www.feecbr.com.br/pt/)
-* *When:* August, 24
-* *Where:* Salvador, BA - Brazil
 
 ## [QCon](http://qconsp.com/)
 * *When:* August, 30
@@ -37,6 +29,14 @@ Here you can find all my presentation slides and also know where you can find me
 ## [Liferay Dev Con](http://www.liferay.com/europe2013)
 * *When:* October, 9
 * *Where:* Berlin - Germany
+
+## [FEEC BR](http://www.feecbr.com.br/pt/)
+* *When:* October, 19
+* *Where:* Fortaleza, CE - Brazil
+
+## [FEEC BR](http://www.feecbr.com.br/pt/)
+* *When:* October, 26
+* *Where:* Salvador, BA - Brazil
 
 # ~ 2013
 ---

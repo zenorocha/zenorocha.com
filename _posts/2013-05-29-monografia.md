@@ -1,18 +1,19 @@
 ---
 layout: post
 title: "A performance nos principais sites do governo brasileiro"
-description: "Depois de 4 anos estudando como um condenado, finalmente me formei! E como em
-todo final de curso, também tive que enfrentar a tal da monografia."
+description: "Depois de 4 anos estudando como um condenado, finalmente me formei!
+E como em todo final de curso, também tive que enfrentar a tal da monografia."
 ---
 
 {% excerpt %}
 
 Depois de 4 anos estudando como um condenado, finalmente me formei! E como em
-todo final de curso, também tive que enfrentar a tal da monografia. Por conta de
-todas as viagens para palestrar, projetos open source para manter e as tarefas
-diárias do trabalho para lidar, não tive muito tempo para me dedicar a monografia
-do jeito que eu queria. Mesmo assim acho que o resultado ficou bem legal e
-muito relevante, por isso gostaria de compartilhar com vocês.
+todo final de curso, também tive que enfrentar a tal da monografia.
+
+Por conta de todas as viagens para palestrar, projetos open source para manter
+e as tarefas diárias do trabalho para lidar, não tive muito tempo para me dedicar
+a monografia do jeito que eu queria. Mesmo assim acho que o resultado ficou bem
+legal e muito relevante, por isso gostaria de compartilhar com vocês.
 
 {% endexcerpt %}
 

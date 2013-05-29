@@ -1,7 +1,8 @@
 ---
 layout: post
 title: "A performance nos principais sites do governo brasileiro"
-description: ""
+description: "Depois de 4 anos estudando como um condenado, finalmente me formei! E como em
+todo final de curso, também tive que enfrentar a tal da monografia."
 ---
 
 {% excerpt %}
@@ -13,9 +14,9 @@ diárias do trabalho para lidar, não tive muito tempo para me dedicar a monogra
 do jeito que eu queria. Mesmo assim acho que o resultado ficou bem legal e
 muito relevante, por isso gostaria de compartilhar com vocês.
 
-<img alt="Colação de Grau" src="/assets/img/posts/monografia.jpg" />
-
 {% endexcerpt %}
+
+<img alt="Colação de Grau" src="/assets/img/posts/monografia.jpg" />
 
 ## Tema
 
@@ -77,7 +78,7 @@ Rank | Site                                    | Requisições
 
 Esses são só alguns dos problemas, fique à vontade para ler o material inteiro: [Técnicas para melhoria de performance em aplicações web no lado do cliente](http://zno.io/PGbf).
 
-Nenhum dos portais mais acessados do governo brasileiro obteve um resultado bom. A maioria nem sequer apresenta uma performance satisfatória, o que é muito preocupante pois serviços públicos deveriam ser os primeiros a oferecer qualidade no acesso de suas páginas web. Como diria David Cheriton:
+ Nenhum dos portais mais acessados do governo brasileiro obteve um resultado bom. A maioria nem sequer apresenta uma performance satisfatória, o que é muito preocupante pois serviços públicos deveriam ser os primeiros a oferecer qualidade no acesso de suas páginas web. Como diria David Cheriton:
 
 > "Se é rápido e feio, as pessoas vão usá-lo e odiá-lo. Se é lento, elas não vão usá-lo."
 

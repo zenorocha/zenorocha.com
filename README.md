@@ -12,7 +12,9 @@ Utilizo o [Jekyll](http://jekyllrb.com/), um static generator em Ruby, para cria
 
 2. Uma vez tendo instalado essas dependências, abra o terminal e instale o [Jekyll](http://jekyllrb.com/) através do comando:
 
+    ```
     gem install jekyll
+    ```
 
 3. Agora clone o projeto:
 

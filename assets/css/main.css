@@ -68,7 +68,8 @@ p a,
 ol a,
 ul a,
 h1 a,
-h2 a
+h2 a,
+table a
 {
 	border-bottom: 1px solid #03b4d1;
 }
@@ -80,7 +81,8 @@ p a:hover,
 ol a:hover,
 ul a:hover,
 h1 a:hover,
-h2 a:hover
+h2 a:hover,
+table a:hover
 {
 	border-bottom: 1px solid #dadada;
 }
@@ -1074,4 +1076,88 @@ a[rev="footnote"], sup a {
 
 .view-first:hover img {
    -webkit-filter: hue-rotate(90deg);
+}
+
+/* Ordered List */
+
+ol {
+	counter-reset: item;
+}
+
+ol li {
+	display: block;
+}
+
+ol li p {
+	display: inline-block;
+	margin: 5px 0;
+}
+
+ol li:before {
+	content: counters(item, ".") " ";
+	counter-increment: item;
+}
+
+/* Table */
+
+table {
+  font-size: 15.988px;
+}
+table th,
+table td {
+  padding: 8px 25px;
+  border-top: 2px solid #eef0f0;
+  text-align: center !important;
+}
+table th {
+  color: #526476;
+  padding-bottom: 14px;
+}
+table i[class*="fui-"] {
+  vertical-align: baseline;
+  font-size: 20px;
+}
+table .checkbox,
+table .radio {
+  margin-bottom: 0;
+  margin-left: -9px;
+}
+table .checkbox.no-label,
+table .radio.no-label {
+  padding-left: 0;
+}
+table .selected-row > td {
+  background-color: #f2fbfa;
+}
+table img {
+  vertical-align: top;
+}
+
+table tbody > tr:nth-child(even) > td,
+table tbody > tr.selected-row > td,
+table tbody > tr:nth-child(even) > th,
+table tbody > tr.selected-row > th {
+  background-color: #f9fafb;
+}
+table tbody > tr:nth-child(odd) > td,
+table tbody > tr:nth-child(odd) > th {
+  background-color: transparent;
+}
+
+table tbody tr.success > td {
+  background-color: #ecfaf2;
+  border-color: #d5f5e3;
+}
+table tbody tr.error > td,
+table tbody tr.danger > td {
+  background-color: #fdefed;
+  border-color: #fadbd8;
+}
+table tbody tr.warning > td {
+  background-color: #fefae9;
+  border-color: #faecb0;
+}
+table tbody tr.info > td {
+  background-color: #edf6fc;
+  border-color: #d6eaf8;
 }

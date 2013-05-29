@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "A performance nos principais sites do governo brasileiro"
+title: "A performance dos principais sites do governo brasileiro"
 description: "Depois de 4 anos estudando como um condenado, finalmente me formei!
 E como em todo final de curso, também tive que enfrentar a tal da monografia."
 ---

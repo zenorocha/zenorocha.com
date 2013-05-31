@@ -10,10 +10,6 @@ Here you can find all my presentation slides and also know where you can find me
 # Comming next!
 ---
 
-## [WWW 2013](http://www2013.org/)
-* *When:* May, 17
-* *Where:* Rio de Janeiro, RJ - Brazil
-
 ## [Front in BH](http://www.frontinbh.com.br/)
 * *When:* August, 3
 * *Where:* Belo Horizonte, MG - Brazil
@@ -40,6 +36,10 @@ Here you can find all my presentation slides and also know where you can find me
 
 # ~ 2013
 ---
+
+## [WWW 2013](http://www2013.org/)
+* *When:* May, 17
+* *Where:* Rio de Janeiro, RJ - Brazil
 
 ## [SeCoT](http://www.secot.com.br/)
 * *When:* May, 6

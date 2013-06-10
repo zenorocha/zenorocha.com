@@ -10,6 +10,10 @@ Here you can find all my presentation slides and also know where you can find me
 # Comming next!
 ---
 
+## [Encatec](http://www.encatec.com.br/)
+* *When:* June, 14
+* *Where:* São Mateus, ES - Brazil
+
 ## [Front in BH](http://www.frontinbh.com.br/)
 * *When:* August, 3
 * *Where:* Belo Horizonte, MG - Brazil

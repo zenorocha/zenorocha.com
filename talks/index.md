@@ -14,6 +14,10 @@ Here you can find all my presentation slides and also know where you can find me
 * *When:* June, 14
 * *Where:* São Mateus, ES - Brazil
 
+## [Front in Bahia](http://www.frontinbahia.com.br/)
+* *When:* July, 27
+* *Where:* Salvador, BA - Brazil
+
 ## [Front in BH](http://www.frontinbh.com.br/)
 * *When:* August, 3
 * *Where:* Belo Horizonte, MG - Brazil

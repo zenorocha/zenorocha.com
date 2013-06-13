@@ -1161,3 +1161,7 @@ table tbody tr.info > td {
   background-color: #edf6fc;
   border-color: #d6eaf8;
 }
+
+pre {
+	font-size: 15px !important;
+}

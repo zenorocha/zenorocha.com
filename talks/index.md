@@ -42,6 +42,10 @@ Here you can find all my presentation slides and also know where you can find me
 * *When:* October, 19
 * *Where:* Fortaleza, CE - Brazil
 
+## [Liferay Symposium North America](https://www.liferay.com/web/northamerica2013)
+* *When:* October, 20
+* *Where:* San Francisco - USA
+
 ## [FEEC BR](http://www.feecbr.com.br/pt/)
 * *When:* October, 26
 * *Where:* Salvador, BA - Brazil

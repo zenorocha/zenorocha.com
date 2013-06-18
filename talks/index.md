@@ -10,10 +10,6 @@ Here you can find all my presentation slides and also know where you can find me
 # Comming next!
 ---
 
-## [Encatec](http://www.encatec.com.br/)
-* *When:* June, 14
-* *Where:* São Mateus, ES - Brazil
-
 ## [Front in Bahia](http://www.frontinbahia.com.br/)
 * *When:* July, 27
 * *Where:* Salvador, BA - Brazil
@@ -52,6 +48,10 @@ Here you can find all my presentation slides and also know where you can find me
 
 # ~ 2013
 ---
+
+## [Encatec](http://www.encatec.com.br/)
+* *When:* June, 14
+* *Where:* São Mateus, ES - Brazil
 
 ## [WWW 2013](http://www2013.org/)
 * *When:* May, 17

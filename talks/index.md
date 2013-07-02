@@ -34,7 +34,7 @@ Here you can find all my presentation slides and also know where you can find me
 * *When:* September, 19
 * *Where:* Rio de Janeiro, RJ - Brazil
 
-## [Liferay Dev Con](http://www.liferay.com/europe2013)
+## [Liferay Dev Con](http://www.liferay.com/devcon2013)
 * *When:* October, 9
 * *Where:* Berlin - Germany
 

@@ -18,6 +18,10 @@ Here you can find all my presentation slides and also know where you can find me
 * *When:* August, 3
 * *Where:* Belo Horizonte, MG - Brazil
 
+## [BrazilJS](http://braziljs.com.br/)
+* *When:* August, 22
+* *Where:* Porto Alegre, RS - Brazil
+
 ## [QCon](http://qconsp.com/)
 * *When:* August, 30
 * *Where:* São Paulo, SP - Brazil

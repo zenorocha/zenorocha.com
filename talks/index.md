@@ -142,7 +142,7 @@ Here you can find all my presentation slides and also know where you can find me
 ## [RCuritiba](http://rcuritiba.com.br/)
 * *When:* October, 12-15
 * *Where:* Curitiba, PR - Brazil
-* *Presentation:* [Arte digital na web: onde começar?](http://talks.zenorocha.com/2012/rcuritiba/)
+* *Presentation:* [Arte digital na web: onde começar?](http://talks.zenorocha.com/2012/rcuritiba/) ([Video](http://www.youtube.com/watch?v=V8QZMO8rr8g))
 
 ## [Front in Maringá](http://www.frontinmaringa.com.br/)
 * *When:* October, 06

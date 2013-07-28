@@ -10,13 +10,17 @@ Here you can find all my presentation slides and also know where you can find me
 # Comming next!
 ---
 
-## [Front in Bahia](http://www.frontinbahia.com.br/)
-* *When:* July, 27
-* *Where:* Salvador, BA - Brazil
-
 ## [Front in BH](http://www.frontinbh.com.br/)
 * *When:* August, 3
 * *Where:* Belo Horizonte, MG - Brazil
+
+## [Coding on Weekend](http://codingonweekend.com.br/)
+* *When:* August, 10
+* *Where:* Rio de Janeiro, RJ - Brazil
+
+## [Coding on Weekend](http://codingonweekend.com.br/)
+* *When:* August, 17
+* *Where:* São Paulo, RJ - Brazil
 
 ## [BrazilJS](http://braziljs.com.br/)
 * *When:* August, 22
@@ -29,6 +33,10 @@ Here you can find all my presentation slides and also know where you can find me
 ## [Front in Aracaju](http://www.frontinaracaju.com.br/)
 * *When:* August, 31
 * *Where:* Aracaju, SE - Brazil
+
+## [Coding on Weekend](http://codingonweekend.com.br/)
+* *When:* September, 7
+* *Where:* Belo Horizonte, MG - Brazil
 
 ## [Dev Brasil](http://rioinfo.com.br/dev-brasil/)
 * *When:* September, 19
@@ -44,6 +52,10 @@ Here you can find all my presentation slides and also know where you can find me
 
 # ~ 2013
 ---
+
+## [Front in Bahia](http://www.frontinbahia.com.br/)
+* *When:* July, 27
+* *Where:* Salvador, BA - Brazil
 
 ## [Encatec](http://www.encatec.com.br/)
 * *When:* June, 14

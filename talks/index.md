@@ -56,10 +56,7 @@ Here you can find all my presentation slides and also know where you can find me
 ## [Front in Bahia](http://www.frontinbahia.com.br/)
 * *When:* July, 27
 * *Where:* Salvador, BA - Brazil
-
-## [Encatec](http://www.encatec.com.br/)
-* *When:* June, 14
-* *Where:* São Mateus, ES - Brazil
+* *Presentation:* [O que eu aprendi em 4 anos como dev front-end](http://talks.zenorocha.com/2013/frontinbahia/)
 
 ## [WWW 2013](http://www2013.org/)
 * *When:* May, 17

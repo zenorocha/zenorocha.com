@@ -46,6 +46,10 @@ Here you can find all my presentation slides and also know where you can find me
 * *When:* October, 9
 * *Where:* Berlin - Germany
 
+## [Liferay Symposium Spain](http://www.liferay.com/web/spain2013)
+* *When:* October, 16
+* *Where:* Madrid - Spain
+
 ## [Liferay Symposium North America](https://www.liferay.com/web/northamerica2013)
 * *When:* October, 20
 * *Where:* San Francisco - USA

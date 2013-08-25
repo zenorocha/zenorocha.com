@@ -10,22 +10,6 @@ Here you can find all my presentation slides and also know where you can find me
 # Comming next!
 ---
 
-## [Front in BH](http://www.frontinbh.com.br/)
-* *When:* August, 3
-* *Where:* Belo Horizonte, MG - Brazil
-
-## [Coding on Weekend](http://codingonweekend.com.br/)
-* *When:* August, 10
-* *Where:* Rio de Janeiro, RJ - Brazil
-
-## [Coding on Weekend](http://codingonweekend.com.br/)
-* *When:* August, 17
-* *Where:* São Paulo, RJ - Brazil
-
-## [BrazilJS](http://braziljs.com.br/)
-* *When:* August, 22
-* *Where:* Porto Alegre, RS - Brazil
-
 ## [QCon](http://qconsp.com/)
 * *When:* August, 30
 * *Where:* São Paulo, SP - Brazil
@@ -56,6 +40,23 @@ Here you can find all my presentation slides and also know where you can find me
 
 # ~ 2013
 ---
+
+## [BrazilJS](http://braziljs.com.br/)
+* *When:* August, 22
+* *Where:* Porto Alegre, RS - Brazil
+* *Presentation:* [Um futuro chamado Web Components](https://speakerdeck.com/zenorocha/um-futuro-chamado-web-components)
+
+## [Coding on Weekend](http://codingonweekend.com.br/)
+* *When:* August, 17
+* *Where:* São Paulo, RJ - Brazil
+
+## [Coding on Weekend](http://codingonweekend.com.br/)
+* *When:* August, 10
+* *Where:* Rio de Janeiro, RJ - Brazil
+
+## [Front in BH](http://www.frontinbh.com.br/)
+* *When:* August, 3
+* *Where:* Belo Horizonte, MG - Brazil
 
 ## [Front in Bahia](http://www.frontinbahia.com.br/)
 * *When:* July, 27

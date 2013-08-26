@@ -36,11 +36,11 @@ Here you can find all my presentation slides and also know where you can find me
 
 ## [Liferay Symposium North America](https://www.liferay.com/web/northamerica2013)
 * *When:* October, 20
-* *Where:* San Francisco - USA
+* *Where:* San Francisco, CA - USA
 
 ## [JS.everywhere](http://www.jseverywhere.org/)
 * *When:* October, 25
-* *Where:* San Francisco - USA
+* *Where:* San Francisco, CA - USA
 
 # ~ 2013
 ---
@@ -52,7 +52,7 @@ Here you can find all my presentation slides and also know where you can find me
 
 ## [Coding on Weekend](http://codingonweekend.com.br/)
 * *When:* August, 17
-* *Where:* São Paulo, RJ - Brazil
+* *Where:* São Paulo, SP - Brazil
 
 ## [Coding on Weekend](http://codingonweekend.com.br/)
 * *When:* August, 10
@@ -189,7 +189,7 @@ Here you can find all my presentation slides and also know where you can find me
 
 ## [Front in Porto Alegre](http://abradirs.com.br/frontinpoa/)
 * *When:* August, 18
-* *Where:* Porto Alegre, SP - Brazil
+* *Where:* Porto Alegre, RS - Brazil
 * *Presentation:* [CSS Sucks!](http://talks.zenorocha.com/2012/frontinpoa/)
 
 ## [QCon](http://qconsp.com/)

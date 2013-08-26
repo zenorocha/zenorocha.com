@@ -38,6 +38,10 @@ Here you can find all my presentation slides and also know where you can find me
 * *When:* October, 20
 * *Where:* San Francisco - USA
 
+## [JS.everywhere](http://www.jseverywhere.org/)
+* *When:* October, 25
+* *Where:* San Francisco - USA
+
 # ~ 2013
 ---
 

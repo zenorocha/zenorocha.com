@@ -22,6 +22,10 @@ Here you can find all my presentation slides and also know where you can find me
 * *When:* September, 7
 * *Where:* Belo Horizonte, MG - Brazil
 
+## [iMasters InterCon](http://intercon.imasters.com.br/dev/android/)
+* *When:* September, 14
+* *Where:* São Paulo, SP - Brazil
+
 ## [Dev Brasil](http://rioinfo.com.br/dev-brasil/)
 * *When:* September, 19
 * *Where:* Rio de Janeiro, RJ - Brazil

@@ -10,14 +10,6 @@ Here you can find all my presentation slides and also know where you can find me
 # Comming next!
 ---
 
-## [QCon](http://qconsp.com/)
-* *When:* August, 30
-* *Where:* São Paulo, SP - Brazil
-
-## [Front in Aracaju](http://www.frontinaracaju.com.br/)
-* *When:* August, 31
-* *Where:* Aracaju, SE - Brazil
-
 ## [Coding on Weekend](http://codingonweekend.com.br/)
 * *When:* September, 7
 * *Where:* Belo Horizonte, MG - Brazil
@@ -25,10 +17,6 @@ Here you can find all my presentation slides and also know where you can find me
 ## [iMasters InterCon](http://intercon.imasters.com.br/dev/android/)
 * *When:* September, 14
 * *Where:* São Paulo, SP - Brazil
-
-## [Dev Brasil](http://rioinfo.com.br/dev-brasil/)
-* *When:* September, 19
-* *Where:* Rio de Janeiro, RJ - Brazil
 
 ## [Liferay Dev Con](http://www.liferay.com/devcon2013)
 * *When:* October, 9
@@ -48,6 +36,16 @@ Here you can find all my presentation slides and also know where you can find me
 
 # ~ 2013
 ---
+
+## [Front in Aracaju](http://www.frontinaracaju.com.br/)
+* *When:* August, 31
+* *Where:* Aracaju, SE - Brazil
+* *Presentation:* [O que eu aprendi em 4 anos como dev front-end](http://talks.zenorocha.com/2013/frontinaracaju/)
+
+## [QCon](http://qconsp.com/)
+* *When:* August, 30
+* *Where:* São Paulo, SP - Brazil
+* *Presentation:* [HTML5 APIs para Mobile](https://speakerdeck.com/zenorocha/html5-apis-para-mobile)
 
 ## [BrazilJS](http://braziljs.com.br/)
 * *When:* August, 22

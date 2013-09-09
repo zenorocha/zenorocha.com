@@ -22,7 +22,7 @@ Todo processo de revisão foi uma grande novidade para mim, ainda mais por ser u
 
 ## [Open Web Platform](http://www.brasport.com.br/informatica-e-tecnologia/programacao-br-2-3-4-5-6/open-web-platform.html)
 
-Outro livro igualmente incrível, dessa vez em língua portuguesa, é o *Open Web Platform*. Esse projeto tocado por alguns dinossauros da web brasileira como [Clécio Bachini](http://www.soyuz.com.br/), [Fábio Flatschart](http://www.flatschart.com/) e [Cesar Cusin](http://www.cusin.com.br/) trás uma série de textos relevantes as tecnologias que estão mudando a web.
+Outro livro igualmente incrível, dessa vez em língua portuguesa, é o *Open Web Platform*. Esse projeto tocado por alguns dinossauros da web brasileira como [Clécio Bachini](http://www.soyuz.com.br/), [Fábio Flatschart](http://www.flatschart.com/) e [Cesar Cusin](http://www.cusin.com.br/) trás uma série de textos relevantes sobre as tecnologias que estão mudando a web.
 
 Um desses textos é de minha autoria e se chama *"Os profissionais mais sortudos do mundo"* :)
 

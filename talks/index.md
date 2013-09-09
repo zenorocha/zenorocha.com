@@ -10,10 +10,6 @@ Here you can find all my presentation slides and also know where you can find me
 # Comming next!
 ---
 
-## [Coding on Weekend](http://codingonweekend.com.br/)
-* *When:* September, 7
-* *Where:* Belo Horizonte, MG - Brazil
-
 ## [iMasters InterCon](http://intercon.imasters.com.br/dev/android/)
 * *When:* September, 14
 * *Where:* São Paulo, SP - Brazil
@@ -36,6 +32,10 @@ Here you can find all my presentation slides and also know where you can find me
 
 # ~ 2013
 ---
+
+## [Coding on Weekend](http://codingonweekend.com.br/)
+* *When:* September, 7
+* *Where:* Belo Horizonte, MG - Brazil
 
 ## [Front in Aracaju](http://www.frontinaracaju.com.br/)
 * *When:* August, 31

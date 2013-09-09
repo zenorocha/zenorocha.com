@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 'JavaScript & NodeJS Snippets for Sublime Text'
+title: 'JavaScript &amp; NodeJS Snippets for Sublime Text'
 link: 'https://github.com/zenorocha/sublime-snippets-js'
 ---
 

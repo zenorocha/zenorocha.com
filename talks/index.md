@@ -10,10 +10,6 @@ Here you can find all my presentation slides and also know where you can find me
 # Comming next!
 ---
 
-## [iMasters InterCon](http://intercon.imasters.com.br/dev/android/)
-* *When:* September, 14
-* *Where:* São Paulo, SP - Brazil
-
 ## [Liferay Dev Con](http://www.liferay.com/devcon2013)
 * *When:* October, 9
 * *Where:* Berlin - Germany
@@ -32,6 +28,11 @@ Here you can find all my presentation slides and also know where you can find me
 
 # ~ 2013
 ---
+
+## [iMasters InterCon](http://intercon.imasters.com.br/dev/android/)
+* *When:* September, 14
+* *Where:* São Paulo, SP - Brazil
+* *Presentation:* [HTML5 APIs para Mobile](https://speakerdeck.com/zenorocha/html5-apis-para-mobile) ([Video](http://www.youtube.com/watch?v=ncYj9Z8LwNM))
 
 ## [Coding on Weekend](http://codingonweekend.com.br/)
 * *When:* September, 7

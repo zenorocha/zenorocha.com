@@ -14,6 +14,10 @@ Here you can find all my presentation slides and also know where you can find me
 * *When:* October, 9
 * *Where:* Berlin - Germany
 
+## [HelsinkiJS](http://helsinkijs.org/)
+* *When:* October, 14
+* *Where:* Helsinki - Finland
+
 ## [Liferay Symposium Spain](http://www.liferay.com/web/spain2013)
 * *When:* October, 16
 * *Where:* Madrid - Spain

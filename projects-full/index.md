@@ -9,6 +9,10 @@ Here you can find all the projects that I did.
 
 # ~ 2013
 
+* [Workflow Collection for Alfred App](https://github.com/zenorocha/alfred-workflows)
+* [Custom Elements](http://customelements.io/)
+* [JavaScript & NodeJS Snippets for Sublime Text](https://sublime.wbond.net/packages/JavaScript%20&%20NodeJS%20Snippets)
+* [Yeoman Generator for FirefoxOS](https://github.com/zenorocha/generator-firefox-os)
 * [Browser Diet](http://browserdiet.com/)
 * [Sobrinho Manifesto](http://sobrinhomanifesto.com.br/)
 * [alloyui.com](http://alloyui.com/)

@@ -79,7 +79,7 @@ Rank | Site                                    | Requisições
 
 Esses são só alguns dos problemas, fique à vontade para ler o material inteiro: [Técnicas para melhoria de performance em aplicações web no lado do cliente](http://zno.io/PGbf).
 
- Nenhum dos portais mais acessados do governo brasileiro obteve um resultado bom. A maioria nem sequer apresenta uma performance satisfatória, o que é muito preocupante pois serviços públicos deveriam ser os primeiros a oferecer qualidade no acesso de suas páginas web. Como diria David Cheriton:
+Nenhum dos portais mais acessados do governo brasileiro obteve um resultado bom. A maioria nem sequer apresenta uma performance satisfatória, o que é muito preocupante pois serviços públicos deveriam ser os primeiros a oferecer qualidade no acesso de suas páginas web. Como diria David Cheriton:
 
 > "Se é rápido e feio, as pessoas vão usá-lo e odiá-lo. Se é lento, elas não vão usá-lo."
 

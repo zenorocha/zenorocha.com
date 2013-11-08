@@ -12,21 +12,21 @@ I use [Jekyll](http://jekyllrb.com/), a static generator in Ruby, to create this
 
 2. Once installed these dependencies, open up the terminal and install [Jekyll](http://jekyllrb.com/) with the following command:
 
-    ```
-    gem install jekyll
-    ```
+  ```
+  gem install jekyll
+  ```
 
 3. Now clone the project:
-    
-    git clone git@github.com:zenorocha/zenorocha.com.git
+
+  git clone git@github.com:zenorocha/zenorocha.com.git
 
 4. Navigate to the project folder:
-    
-    cd zenorocha.com
+
+  cd zenorocha.com
 
 5. And finally run:
-    
-    jekyll
+
+  jekyll
 
 You'll have access to the website at `localhost:4000` :D
 

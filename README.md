@@ -12,21 +12,21 @@ Utilizo o [Jekyll](http://jekyllrb.com/), um static generator em Ruby, para cria
 
 2. Uma vez tendo instalado essas dependências, abra o terminal e instale o [Jekyll](http://jekyllrb.com/) através do comando:
 
-    ```
-    gem install jekyll
-    ```
+  ```
+  gem install jekyll
+  ```
 
 3. Agora clone o projeto:
 
-    git clone git@github.com:zenorocha/zenorocha.com.git
+  git clone git@github.com:zenorocha/zenorocha.com.git
 
 4. Depois vá para pasta do projeto:
 
-    cd zenorocha.com
+  cd zenorocha.com
 
 5. E finalmente rode:
 
-    jekyll
+  jekyll
 
 Agora você irá ver o site rodando em `localhost:4000` :D
 

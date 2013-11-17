@@ -5,8 +5,6 @@ description: "Depois de 4 anos estudando como um condenado, finalmente me formei
 E como em todo final de curso, também tive que enfrentar a tal da monografia."
 ---
 
-{% excerpt %}
-
 Depois de 4 anos estudando como um condenado, finalmente me formei! E como em
 todo final de curso, também tive que enfrentar a tal da monografia.
 
@@ -15,7 +13,7 @@ e as tarefas diárias do trabalho para lidar, não tive muito tempo para me dedi
 a monografia do jeito que eu queria. Mesmo assim acho que o resultado ficou bem
 legal e muito relevante, por isso gostaria de compartilhar com vocês.
 
-{% endexcerpt %}
+<!-- more -->
 
 <img alt="Colação de Grau" src="/assets/img/posts/monografia.jpg" />
 

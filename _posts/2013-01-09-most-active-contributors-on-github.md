@@ -5,8 +5,6 @@ description: "Today, Paul Miller released a list of the Most active GitHub users
 language: "en"
 ---
 
-{% excerpt %}
-
 ![OctoParty](/assets/img/posts/octoparty.jpg)
 
 Today, Paul Miller released a nice list of the "[Most active GitHub users](https://gist.github.com/2657075)".
@@ -16,7 +14,8 @@ People started to talk about it and suddenly I received a lot of congratulations
 I was pretty surprised, since there's almost 2 million users on Github and even because [Linus Torvalds](http://en.wikipedia.org/wiki/Linus_Torvalds), creator of Linux, was behind me!
 
 That was pretty nice for my ego, but let me explain what this ranking means for me.
-{% endexcerpt %}
+
+<!-- more -->
 
 ## Quantity != Quality
 

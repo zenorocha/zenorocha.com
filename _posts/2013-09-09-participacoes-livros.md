@@ -4,13 +4,11 @@ title: "Participação em dois novos livros"
 description: ""
 ---
 
-{% excerpt %}
-
 ![Livros](/assets/img/posts/livros.jpg)
 
 Essa semana foram lançados dois novos livros nos quais eu tive a felicidade de ajudar. Ambos abordam temáticas muito atuais e relevantes para o mercado de desenvolvimento na web e me proporcionaram uma experiência muito legal.
 
-{% endexcerpt %}
+<!-- more -->
 
 ## [Jasmine JavaScript Testing](http://www.amazon.com/Jasmine-JavaScript-Testing-ebook/dp/B00ESX15MW)
 

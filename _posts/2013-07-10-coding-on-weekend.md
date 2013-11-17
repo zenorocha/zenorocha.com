@@ -4,13 +4,11 @@ title: "Curso prático de HTML5 no Rio e São Paulo"
 description: "Depois de mais de um ano planejando um curso bacana e diferente dos convencionais do mercado, consegui junto com o Bernard De Luna chegar a um modelo inovador, que acreditamos ser ideal para você que quer aprender as novas tecnologias front-end."
 ---
 
-{% excerpt %}
-
 ![COW](/assets/img/posts/cow.jpg)
 
 Depois de mais de um ano planejando um curso bacana e diferente dos convencionais do mercado, consegui junto com o [Bernard De Luna](http://bernarddeluna.com/) chegar a um modelo inovador, que acreditamos ser ideal para você que quer aprender as novas tecnologias front-end.
 
-{% endexcerpt %}
+<!-- more -->
 
 O [Coding On Weekend](http://codingonweekend.com.br/) (COW) é um treinamento *“all day long”* com desafios práticos durante o curso. Um workshop dado por nós dois, baseado em nossas experiências nacionais e internacionais ao longo desses anos, além de palestras, projetos open-source e em trabalhos em empresas como Globo.com, Petrobras, Melt, Liferay, entre outras empresas.
 

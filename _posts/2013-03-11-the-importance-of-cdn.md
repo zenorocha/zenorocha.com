@@ -5,13 +5,11 @@ description: "Some weeks ago we announced the preview release of AlloyUI 2.0. On
 language: "en"
 ---
 
-{% excerpt %}
-
 *[Leia em Português.](http://imasters.com.br/desenvolvimento/a-importancia-de-uma-cdn/)*
 
 Some weeks ago we announced the preview release of [AlloyUI 2.0](http://alloyui.com). One of the cool things about it is that now we have a pretty new [CDN (Content Delivery Network)](http://en.wikipedia.org/wiki/Content_delivery_network). So instead of downloading AlloyUI to use in your local environment, you just to need copy and paste this line of code and start using it.
 
-{% endexcerpt %}
+<!-- more -->
 
 <pre class="prettyprint lang-html">
 &lt;script src="http://cdn.alloyui.com/2.0.0pr2/aui/aui-min.js"&gt;&lt;/script&gt;

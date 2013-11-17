@@ -1,7 +1,4 @@
 safe:        false
-auto:        true
-server:      true
-server_port: 4000
 baseurl:     /
 url: http://localhost:4000
 
@@ -17,6 +14,7 @@ google-analytics-tracking-id: UA-4114546-2
 source:      .
 destination: ./_site
 plugins:     ./_plugins
+paginate_path: 'blog/page:num'
 
 future:      true
 lsi:         false
@@ -49,3 +47,5 @@ kramdown:
     coderay_tab_width: 4
     coderay_bold_every: 10
     coderay_css: style
+
+excerpt_separator: "<!-- more -->"

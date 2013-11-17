@@ -7,8 +7,6 @@ produtividade muito boa no terminal. Só que uma coisinha sempre me irritava,
 a autocorreção."
 ---
 
-{% excerpt %}
-
 Desde o [ano passado](http://zenorocha.com/meu-ambiente-de-trabalho-em-7-itens/)
 estive usando [ZSH](http://en.wikipedia.org/wiki/Z_shell) como shell ao invés
 do [Bash](http://pt.wikipedia.org/wiki/Bash), nativo do Mac OSx. Graças ao
@@ -17,7 +15,7 @@ produtividade muito boa no terminal.
 
 Só que uma coisinha sempre me irritava, a autocorreção.
 
-{% endexcerpt %}
+<!-- more -->
 
 <pre class="prettyprint">git clone git@github.com:zenorocha/diveintohtml5.git
 zsh: correct 'clone' to 'clones' [nyae]? n

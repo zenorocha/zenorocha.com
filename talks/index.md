@@ -7,7 +7,7 @@ description: List of all presentations
 
 Here you can find all my presentation slides and also know where you can find me in the future.
 
-# Comming next!
+# Coming next!
 ---
 
 ## [Liferay Dev Con](http://www.liferay.com/devcon2013)

@@ -7,31 +7,12 @@ description: List of all presentations
 
 Here you can find all my presentation slides and also know where you can find me in the future.
 
-# Coming next!
+# ~ 2013
 ---
 
 ## [Liferay Dev Con](http://www.liferay.com/devcon2013)
 * *When:* October, 9
 * *Where:* Berlin - Germany
-
-## [HelsinkiJS](http://helsinkijs.org/)
-* *When:* October, 14
-* *Where:* Helsinki - Finland
-
-## [Liferay Symposium Spain](http://www.liferay.com/web/spain2013)
-* *When:* October, 16
-* *Where:* Madrid - Spain
-
-## [Liferay Symposium North America](https://www.liferay.com/web/northamerica2013)
-* *When:* October, 20
-* *Where:* San Francisco, CA - USA
-
-## [JS.everywhere](http://www.jseverywhere.org/)
-* *When:* October, 25
-* *Where:* San Francisco, CA - USA
-
-# ~ 2013
----
 
 ## [iMasters InterCon](http://intercon.imasters.com.br/dev/android/)
 * *When:* September, 14

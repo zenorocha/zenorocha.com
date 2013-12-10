@@ -7,6 +7,12 @@ description: List of all presentations
 
 Here you can find all my presentation slides and also know where you can find me in the future.
 
+# Coming next!
+
+## [HTML5 LA](http://www.meetup.com/HTML5LA/events/154229662/)
+* *When:* December, 16
+* *Where:* Los Angeles, CA - USA
+
 # ~ 2013
 ---
 

@@ -9,12 +9,16 @@ Here you can find all my presentation slides and also know where you can find me
 
 # Coming next!
 
-## [HTML5 LA](http://www.meetup.com/HTML5LA/events/154229662/)
-* *When:* December, 16
-* *Where:* Los Angeles, CA - USA
+## [Campus Party](http://www.campus-party.com.br/2014/index.html)
+* *When:* January, 30
+* *Where:* São Paulo, SP - Brazil
 
 # ~ 2013
 ---
+
+## [HTML5 LA](http://www.meetup.com/HTML5LA/events/154229662/)
+* *When:* December, 16
+* *Where:* Los Angeles, CA - USA
 
 ## [Liferay Dev Con](http://www.liferay.com/devcon2013)
 * *When:* October, 9

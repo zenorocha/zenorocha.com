@@ -13,12 +13,24 @@ Here you can find all my presentation slides and also know where you can find me
 * *When:* January, 30
 * *Where:* São Paulo, SP - Brazil
 
+## [Coding on Weekend](http://codingonweekend.com.br/)
+* *When:* February, 8
+* *Where:* Maceió, AL - Brazil
+
+# ~ 2014
+---
+
+## [Coding on Weekend](http://codingonweekend.com.br/)
+* *When:* January, 8
+* *Where:* Belo Horizonte, MG - Brazil
+
 # ~ 2013
 ---
 
 ## [HTML5 LA](http://www.meetup.com/HTML5LA/events/154229662/)
 * *When:* December, 16
 * *Where:* Los Angeles, CA - USA
+* *Presentation:* [A future called Web Components](https://speakerdeck.com/zenorocha/a-future-called-web-components)
 
 ## [Liferay Dev Con](http://www.liferay.com/devcon2013)
 * *When:* October, 9

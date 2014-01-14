@@ -13,9 +13,9 @@ Here you can find all my presentation slides and also know where you can find me
 * *When:* January, 30
 * *Where:* São Paulo, SP - Brazil
 
-## [Coding on Weekend](http://codingonweekend.com.br/)
-* *When:* February, 8
-* *Where:* Maceió, AL - Brazil
+## [Liferay São Paulo Meetup](http://www.meetup.com/Liferay-Sao-Paulo-User-Group/events/159837172/)
+* *When:* January, 30
+* *Where:* São Paulo, SP - Brazil
 
 # ~ 2014
 ---

@@ -35,6 +35,7 @@ Here you can find all my presentation slides and also know where you can find me
 ## [Liferay Dev Con](http://www.liferay.com/devcon2013)
 * *When:* October, 9
 * *Where:* Berlin - Germany
+* *Presentation:* Liferay UI Revolution ([Video](http://www.youtube.com/watch?v=uLwISoh0qxQ))
 
 ## [iMasters InterCon](http://intercon.imasters.com.br/dev/android/)
 * *When:* September, 14

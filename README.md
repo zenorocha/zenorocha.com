@@ -89,3 +89,7 @@ Armazena de forma fácil a maior parte das configurações da aplicação.
 ## Créditos
 
 Inspirado por Andy Taylor.
+
+## Licença
+
+[MIT License](http://zenorocha.mit-license.org/) © Zeno Rocha

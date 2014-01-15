@@ -83,3 +83,7 @@ It's the file responsible for all application sections.
 ## Credits
 
 Inspired by Andy Taylor.
+
+## License
+
+[MIT License](http://zenorocha.mit-license.org/) © Zeno Rocha

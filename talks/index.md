@@ -247,3 +247,16 @@ Here you can find all my presentation slides and also know where you can find me
 * *When:* January, 21
 * *Where:* Belo Horizonte, MG - Brazil
 * *Presentation:* [Como usar HTML5 sem uma máquina do tempo](http://talks.zenorocha.com/2012/beagajs/)
+
+# ~ 2011
+---
+
+## [Front in Rio](http://frontinrio.com.br)
+* *When:* June, 18
+* *Where:* Rio de Janeiro, RJ - Brazil
+* *Presentation:* HTML5 Boilerplate
+
+## [FSLDC](http://forumsoftwarelivre.com.br/2011/)
+* *When:* June, 4
+* *Where:* Duque de Caxias, RJ - Brazil
+* *Presentation:* HTML5

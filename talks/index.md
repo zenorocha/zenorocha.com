@@ -5,7 +5,7 @@ class: talks
 description: List of all presentations
 ---
 
-Here you can find all my presentation slides and also know where you can find me in the future.
+Here you can find all my presentation slides/videos and also know where you can find me in the future.
 
 # Coming next!
 
@@ -36,6 +36,8 @@ Here you can find all my presentation slides and also know where you can find me
 
 # ~ 2013
 ---
+
+18 talks and 3 workshops in 12 different cities.
 
 ## [HTML5 LA](http://www.meetup.com/HTML5LA/events/154229662/)
 * *When:* December, 16
@@ -137,6 +139,8 @@ Here you can find all my presentation slides and also know where you can find me
 
 # ~ 2012
 ---
+
+24 talks in 13 different cities.
 
 ## Liferay Retreat
 * *When:* December, 10
@@ -260,6 +264,8 @@ Here you can find all my presentation slides and also know where you can find me
 
 # ~ 2011
 ---
+
+And suddenly I started to give presentations.
 
 ## [Front in Rio](http://frontinrio.com.br)
 * *When:* June, 18

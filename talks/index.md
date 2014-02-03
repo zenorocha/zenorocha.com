@@ -9,16 +9,26 @@ Here you can find all my presentation slides and also know where you can find me
 
 # Coming next!
 
+## [Coding on Weekend](http://codingonweekend.com.br/)
+* *When:* February, 22
+* *Where:* São Paulo, SP - Brazil
+
+## [Coding on Weekend](http://codingonweekend.com.br/)
+* *When:* March, 15
+* *Where:* Maceió, AL - Brazil
+
+# ~ 2014
+---
+
 ## [Campus Party](http://www.campus-party.com.br/2014/index.html)
 * *When:* January, 30
 * *Where:* São Paulo, SP - Brazil
+* *Presentation:* [Como empreender em... você!](http://www.slideshare.net/zenorocha/keynote-30756562) ([Video](http://www.youtube.com/watch?v=S6APevEo2Yw))
 
 ## [Liferay São Paulo Meetup](http://www.meetup.com/Liferay-Sao-Paulo-User-Group/events/159837172/)
 * *When:* January, 30
 * *Where:* São Paulo, SP - Brazil
-
-# ~ 2014
----
+* *Presentation:* [Liferay UI (R)evolution](http://www.slideshare.net/zenorocha/liferay-ui-revolution)
 
 ## [Coding on Weekend](http://codingonweekend.com.br/)
 * *When:* January, 8
@@ -35,7 +45,7 @@ Here you can find all my presentation slides and also know where you can find me
 ## [Liferay Dev Con](http://www.liferay.com/devcon2013)
 * *When:* October, 9
 * *Where:* Berlin - Germany
-* *Presentation:* Liferay UI Revolution ([Video](http://www.youtube.com/watch?v=uLwISoh0qxQ))
+* *Presentation:* [Liferay UI (R)evolution](http://www.slideshare.net/zenorocha/liferay-ui-revolution) ([Video](http://www.youtube.com/watch?v=uLwISoh0qxQ))
 
 ## [iMasters InterCon](http://intercon.imasters.com.br/dev/android/)
 * *When:* September, 14

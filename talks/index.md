@@ -13,14 +13,22 @@ Here you can find all my presentation slides/videos and also know where you can 
 * *When:* February, 22
 * *Where:* São Paulo, SP - Brazil
 
+## [JSConf UY](http://lanyrd.com/2014/jsconfuy/)
+* *When:* March, 14
+* *Where:* Montevideo - Uruguay
+
 ## [Coding on Weekend](http://codingonweekend.com.br/)
-* *When:* March, 15
+* *When:* March, 22
 * *Where:* Maceió, AL - Brazil
+
+## [Front Trends](http://lanyrd.com/2014/fronttrends/)
+* *When:* May, 7
+* *Where:* Warsaw - Poland
 
 # ~ 2014
 ---
 
-## [Campus Party](http://www.campus-party.com.br/2014/index.html)
+## [Campus Party](http://lanyrd.com/2014/cpbr7/)
 * *When:* January, 30
 * *Where:* São Paulo, SP - Brazil
 * *Presentation:* [Como empreender em... você!](http://www.slideshare.net/zenorocha/keynote-30756562) ([Video](http://www.youtube.com/watch?v=S6APevEo2Yw))
@@ -39,17 +47,17 @@ Here you can find all my presentation slides/videos and also know where you can 
 
 18 talks and 3 workshops in 12 different cities.
 
-## [HTML5 LA](http://www.meetup.com/HTML5LA/events/154229662/)
+## [HTML5 LA](http://lanyrd.com/2013/html5-los-angeles-2/)
 * *When:* December, 16
 * *Where:* Los Angeles, CA - USA
 * *Presentation:* [A future called Web Components](https://speakerdeck.com/zenorocha/a-future-called-web-components)
 
-## [Liferay Dev Con](http://www.liferay.com/devcon2013)
+## [Liferay Dev Con](http://lanyrd.com/2013/liferay-dev-con/)
 * *When:* October, 9
 * *Where:* Berlin - Germany
 * *Presentation:* [Liferay UI (R)evolution](http://www.slideshare.net/zenorocha/liferay-ui-revolution) ([Video](http://www.youtube.com/watch?v=uLwISoh0qxQ))
 
-## [iMasters InterCon](http://intercon.imasters.com.br/dev/android/)
+## [iMasters InterCon](http://lanyrd.com/2013/imasters-intercon-android/)
 * *When:* September, 14
 * *Where:* São Paulo, SP - Brazil
 * *Presentation:* [HTML5 APIs para Mobile](https://speakerdeck.com/zenorocha/html5-apis-para-mobile) ([Video](http://www.youtube.com/watch?v=ncYj9Z8LwNM))
@@ -58,20 +66,20 @@ Here you can find all my presentation slides/videos and also know where you can 
 * *When:* September, 7
 * *Where:* Belo Horizonte, MG - Brazil
 
-## [Front in Aracaju](http://www.frontinaracaju.com.br/)
+## [Front in Aracaju](http://lanyrd.com/2013/frontinaracaju/)
 * *When:* August, 31
 * *Where:* Aracaju, SE - Brazil
 * *Presentation:* [O que eu aprendi em 4 anos como dev front-end](http://talks.zenorocha.com/2013/frontinaracaju/)
 
-## [QCon](http://qconsp.com/)
+## [QCon](http://lanyrd.com/2013/qconsp/)
 * *When:* August, 30
 * *Where:* São Paulo, SP - Brazil
-* *Presentation:* [HTML5 APIs para Mobile](https://speakerdeck.com/zenorocha/html5-apis-para-mobile)
+* *Presentation:* [HTML5 APIs para Mobile](https://speakerdeck.com/zenorocha/html5-apis-para-mobile) ([Video](http://www.infoq.com/br/presentations/html5-api-mobile))
 
-## [BrazilJS](http://braziljs.com.br/)
+## [BrazilJS](http://lanyrd.com/2013/braziljs/)
 * *When:* August, 22
 * *Where:* Porto Alegre, RS - Brazil
-* *Presentation:* [Um futuro chamado Web Components](https://speakerdeck.com/zenorocha/um-futuro-chamado-web-components)
+* *Presentation:* [Um futuro chamado Web Components](https://speakerdeck.com/zenorocha/um-futuro-chamado-web-components) ([Video](http://www.youtube.com/watch?v=7Q0-E_rZ_Cc))
 
 ## [Coding on Weekend](http://codingonweekend.com.br/)
 * *When:* August, 17
@@ -85,7 +93,7 @@ Here you can find all my presentation slides/videos and also know where you can 
 * *When:* August, 3
 * *Where:* Belo Horizonte, MG - Brazil
 
-## [Front in Bahia](http://www.frontinbahia.com.br/)
+## [Front in Bahia](http://lanyrd.com/2013/front-in-bahia/)
 * *When:* July, 27
 * *Where:* Salvador, BA - Brazil
 * *Presentation:* [O que eu aprendi em 4 anos como dev front-end](http://talks.zenorocha.com/2013/frontinbahia/)
@@ -94,7 +102,7 @@ Here you can find all my presentation slides/videos and also know where you can 
 * *When:* May, 17
 * *Where:* Rio de Janeiro, RJ - Brazil
 
-## [SeCoT](http://www.secot.com.br/)
+## [SeCoT](http://lanyrd.com/2013/v-semana-de-computacao-e-tecnologia/)
 * *When:* May, 6
 * *Where:* Sorocaba, SP - Brazil
 * *Presentation:* [O que eu aprendi em 4 anos como dev front-end](http://talks.zenorocha.com/2013/secot/)
@@ -104,12 +112,12 @@ Here you can find all my presentation slides/videos and also know where you can 
 * *Where:* Florianópolis, SC - Brazil
 * *Presentation:* [Como Perder Peso (no browser)](https://speakerdeck.com/zenorocha/como-perder-peso-no-browser/)
 
-## [JAX](http://jax.de/)
+## [JAX](http://lanyrd.com/2013/jax/)
 * *When:* April, 23
 * *Where:* Mainz - Germany
 * *Presentation:* [How to create JavaScript apps for Java portals](https://speakerdeck.com/zenorocha/how-to-create-javascript-apps-for-java-portals) | [Getting started with YUI3 and AlloyUI](https://speakerdeck.com/zenorocha/getting-started-with-yui3-and-alloyui)
 
-## [HTML5 Dev Conf](http://html5devconf.com/)
+## [HTML5 Dev Conf](http://lanyrd.com/2013/html5devconf-spring/)
 * *When:* April, 01
 * *Where:* San Francisco, CA - USA
 * *Presentation:* [Augmented Reality in JavaScript](https://speakerdeck.com/zenorocha/augmented-reality-in-javascript)
@@ -118,12 +126,12 @@ Here you can find all my presentation slides/videos and also know where you can 
 * *When:* March, 26
 * *Where:* Rio de Janeiro, RJ - Brazil
 
-## [RioJS](http://riojs.org/)
+## [RioJS](http://lanyrd.com/2013/riojs/)
 * *When:* March, 09
 * *Where:* Rio de Janeiro, RJ - Brazil
 * *Presentation:* [Como Perder Peso (no browser)](https://speakerdeck.com/zenorocha/como-perder-peso-no-browser/)
 
-## [BeagaJS](http://www.beagajs.com.br/)
+## [BeagaJS](http://lanyrd.com/2013/beagajs/)
 * *When:* March, 02
 * *Where:* Belo Horizonte, MG - Brazil
 
@@ -132,7 +140,7 @@ Here you can find all my presentation slides/videos and also know where you can 
 * *Where:* Interwebs
 * *Presentation:* [Reintroducing AlloyUI](http://talks.zenorocha.com/2013/alloy-webinar/) ([Video](http://www.liferay.com/video?title=video-web-event-introducing-alloy-2-0))
 
-## [Campus Party](http://www.campus-party.com.br/2013/index.html)
+## [Campus Party](http://lanyrd.com/2013/campus-party-brasil/)
 * *When:* January, 28
 * *Where:* São Paulo, SP - Brazil
 * *Presentation:* [Layouts Responsivos](http://www.slideshare.net/bernarddeluna/pdf-apresentacaolayoutsresponsivos) ([Video](http://www.youtube.com/watch?v=ty7zj37gaBI))
@@ -167,12 +175,12 @@ Here you can find all my presentation slides/videos and also know where you can 
 * *Where:* Rio de Janeiro, RJ - Brazil
 * *Presentation:* [Realidade aumentada com JavaScript](http://talks.zenorocha.com/2012/simonsen/)
 
-## [Front in Sampa](http://www.frontinsampa.com.br/)
+## [Front in Sampa](http://lanyrd.com/2012/frontinsampa/)
 * *When:* November, 03
 * *Where:* São Paulo, SP - Brazil
 * *Presentation:* [Surpresa!](http://www.slideshare.net/bernarddeluna/surpresa-15160517) ([Video](http://www.youtube.com/watch?v=SOgriWRiefs))
 
-## [Front in Maceió](http://frontinmaceio.com.br/)
+## [Front in Maceió](http://lanyrd.com/2012/frontinmaceio/)
 * *When:* October, 27
 * *Where:* Maceió, AL - Brazil
 * *Presentation:* [O que eu aprendi em 3 anos como dev front-end](http://talks.zenorocha.com/2012/frontinmaceio/)
@@ -247,17 +255,17 @@ Here you can find all my presentation slides/videos and also know where you can 
 * *Where:* Rio de Janeiro, RJ - Brazil
 * *Presentation:* [CSS Sucks!](http://talks.zenorocha.com/2012/frontinrio/)
 
-## [JSConf Argentina](http://jsconf.com.ar)
+## [JSConf Argentina](http://lanyrd.com/2012/jsconf-argentina/)
 * *When:* May, 19
 * *Where:* Buenos Aires - Argentina
 * *Presentation:* [How to use Canvas, SVG and WebGL without a time machine](http://talks.zenorocha.com/2012/jsconf/) ([Video](http://blip.tv/jsconfar/zeno_rocha-6279969))
 
-## [PernambucoJS](http://www.pernambucojs.com/)
+## [PernambucoJS](http://lanyrd.com/2012/pernambucojs/)
 * *When:* April, 21
 * *Where:* Recife, PE - Brazil
 * *Presentation:* [Como fugir do feijão com arroz usando Canvas, SVG e WebGL](http://talks.zenorocha.com/2012/pernambucojs/)
 
-## [BeagaJS](http://bhjs.com.br/)
+## [BeagaJS](http://lanyrd.com/2012/beagajs/)
 * *When:* January, 21
 * *Where:* Belo Horizonte, MG - Brazil
 * *Presentation:* [Como usar HTML5 sem uma máquina do tempo](http://talks.zenorocha.com/2012/beagajs/)

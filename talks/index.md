@@ -25,6 +25,10 @@ Here you can find all my presentation slides/videos and also know where you can 
 * *When:* May, 7
 * *Where:* Warsaw - Poland
 
+## [ScotlandJS](http://lanyrd.com/2014/scotjs2014/)
+* *When:* May, 9
+* *Where:* Edinburgh - Scotland
+
 # ~ 2014
 ---
 
@@ -89,7 +93,7 @@ Here you can find all my presentation slides/videos and also know where you can 
 * *When:* August, 10
 * *Where:* Rio de Janeiro, RJ - Brazil
 
-## [Front in BH](http://www.frontinbh.com.br/)
+## [Front in BH](http://lanyrd.com/2013/frontinbh/)
 * *When:* August, 3
 * *Where:* Belo Horizonte, MG - Brazil
 
@@ -185,7 +189,7 @@ Here you can find all my presentation slides/videos and also know where you can 
 * *Where:* Maceió, AL - Brazil
 * *Presentation:* [O que eu aprendi em 3 anos como dev front-end](http://talks.zenorocha.com/2012/frontinmaceio/)
 
-## [W3C Conference - Web.br 2012](http://conferenciaweb.w3c.br/)
+## [W3C Conference - Web.br 2012](http://lanyrd.com/2012/webbr2012/)
 * *When:* October, 18-20
 * *Where:* São Paulo, SP - Brazil
 * *Presentation:* [Realidade aumentada com JavaScript](http://talks.zenorocha.com/2012/w3c/)
@@ -195,7 +199,7 @@ Here you can find all my presentation slides/videos and also know where you can 
 * *Where:* Curitiba, PR - Brazil
 * *Presentation:* [Arte digital na web: onde começar?](http://talks.zenorocha.com/2012/rcuritiba/) ([Video](http://www.youtube.com/watch?v=V8QZMO8rr8g))
 
-## [Front in Maringá](http://www.frontinmaringa.com.br/)
+## [Front in Maringá](http://lanyrd.com/2012/frontinmaringa/)
 * *When:* October, 06
 * *Where:* Maringá, PR - Brazil
 * *Presentation:* [O que eu aprendi em 3 anos como dev front-end](http://talks.zenorocha.com/2012/frontinmaringa/)
@@ -235,7 +239,7 @@ Here you can find all my presentation slides/videos and also know where you can 
 * *Where:* Porto Alegre, RS - Brazil
 * *Presentation:* [Como fugir do feijão com arroz usando Canvas, SVG e WebGL](http://talks.zenorocha.com/2012/fisl/) ([Video](http://www.youtube.com/watch?v=ukjHPwg74ik))
 
-## [Front in BH](http://frontinbh.com.br/)
+## [Front in BH](http://lanyrd.com/2012/frontinbh/)
 * *When:* July, 14
 * *Where:* Belo Horizonte, MG - Brazil
 * *Presentation:* [CSS Sucks!](http://talks.zenorocha.com/2012/frontinbh/)

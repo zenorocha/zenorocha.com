@@ -9,17 +9,9 @@ Here you can find all my presentation slides/videos and also know where you can 
 
 # Coming next!
 
-## [Coding on Weekend](http://codingonweekend.com.br/)
-* *When:* February, 22
-* *Where:* São Paulo, SP - Brazil
-
-## [JSConf UY](http://lanyrd.com/2014/jsconfuy/)
-* *When:* March, 14
-* *Where:* Montevideo - Uruguay
-
-## [Coding on Weekend](http://codingonweekend.com.br/)
-* *When:* March, 22
-* *Where:* Maceió, AL - Brazil
+## [Polymer at SFHTML5](bit.ly/sfhtml5-polymer)
+* *When:* April, 30
+* *Where:* San Francisco, CA - USA
 
 ## [Front Trends](http://lanyrd.com/2014/fronttrends/)
 * *When:* May, 7
@@ -31,6 +23,19 @@ Here you can find all my presentation slides/videos and also know where you can 
 
 # ~ 2014
 ---
+
+
+## [Coding on Weekend](http://codingonweekend.com.br/)
+* *When:* March, 22
+* *Where:* Maceió, AL - Brazil
+
+## [JSConf UY](http://lanyrd.com/2014/jsconfuy/)
+* *When:* March, 14
+* *Where:* Montevideo - Uruguay
+
+## [Coding on Weekend](http://codingonweekend.com.br/)
+* *When:* February, 22
+* *Where:* São Paulo, SP - Brazil
 
 ## [Campus Party](http://lanyrd.com/2014/cpbr7/)
 * *When:* January, 30

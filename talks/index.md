@@ -9,7 +9,7 @@ Here you can find all my presentation slides/videos and also know where you can 
 
 # Coming next!
 
-## [Polymer at SFHTML5](bit.ly/sfhtml5-polymer)
+## [Polymer at SFHTML5](http://bit.ly/sfhtml5-polymer)
 * *When:* April, 30
 * *Where:* San Francisco, CA - USA
 
@@ -24,7 +24,6 @@ Here you can find all my presentation slides/videos and also know where you can 
 # ~ 2014
 ---
 
-
 ## [Coding on Weekend](http://codingonweekend.com.br/)
 * *When:* March, 22
 * *Where:* Maceió, AL - Brazil
@@ -32,6 +31,7 @@ Here you can find all my presentation slides/videos and also know where you can 
 ## [JSConf UY](http://lanyrd.com/2014/jsconfuy/)
 * *When:* March, 14
 * *Where:* Montevideo - Uruguay
+* *Presentation:* [A future called Web Components](https://speakerdeck.com/zenorocha/a-future-called-web-components)
 
 ## [Coding on Weekend](http://codingonweekend.com.br/)
 * *When:* February, 22

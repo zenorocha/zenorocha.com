@@ -7,12 +7,18 @@ description: List of all projects
 
 Here you can find all the projects that I did.
 
+# ~ 2014
+
+* [Element Boilerplate](https://github.com/webcomponents/element-boilerplate)
+
 # ~ 2013
 
+* [JavaScript & NodeJS Snippets for Sublime Text](https://atom.io/packages/javascript-snippets)
 * [Dracula Theme](http://zenorocha.github.io/dracula-theme/)
 * [Workflow Collection for Alfred App](https://github.com/zenorocha/alfred-workflows)
 * [Custom Elements](http://customelements.io/)
 * [JavaScript & NodeJS Snippets for Sublime Text](https://sublime.wbond.net/packages/JavaScript%20&%20NodeJS%20Snippets)
+* [NodeGH](http://nodegh.io/)
 * [Yeoman Generator for FirefoxOS](https://github.com/zenorocha/generator-firefox-os)
 * [Browser Diet](http://browserdiet.com/)
 * [Sobrinho Manifesto](http://sobrinhomanifesto.com.br/)

@@ -21,8 +21,17 @@ Here you can find all my presentation slides/videos and also know where you can 
 * *When:* May, 9
 * *Where:* Edinburgh - Scotland
 
+## [Amsterdam Front-End Dev Meetup](http://www.meetup.com/Amsterdam-Front-End-Dev-Meetup/events/176568352/)
+* *When:* May, 12
+* *Where:* Amsterdam - Netherlands
+
 # ~ 2014
 ---
+
+## [16º Encontro Locaweb](http://eventos.locaweb.com.br/16o-encontro-locaweb-de-profissionais-de-internet-curitiba/)
+* *When:* April, 10
+* *Where:* Curitiba, PR - Brazil
+* *Presentation:* [Como empreender em... você!](http://www.slideshare.net/zenorocha/keynote-30756562)
 
 ## [Coding on Weekend](http://codingonweekend.com.br/)
 * *When:* March, 22

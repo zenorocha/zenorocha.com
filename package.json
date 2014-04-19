@@ -1,9 +1,5 @@
 {
-  "name": "zenorocha.com",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/zenorocha/zenorocha.com.git"
-  },
+  "private": true,
   "devDependencies": {
     "grunt": "0.4.1",
     "grunt-lintspaces": "0.2.203"

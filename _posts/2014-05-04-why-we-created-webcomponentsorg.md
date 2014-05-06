@@ -11,13 +11,13 @@ It all started 7 months ago in October, 2013 with a new organization on GitHub c
 
 <!-- more -->
 
-As time passed by, more and more people started to get really excited about it and [Eric Bieldman](https://twitter.com/ebidel) was doing a great job highlighting all these [community content around Web Components in a Gist](https://gist.github.com/ebidel/6314025).
+As time passed by, more and more people started to get really excited about it and [Eric Bidelman](https://twitter.com/ebidel) was doing a great job highlighting all these [community content around Web Components in a Gist](https://gist.github.com/ebidel/6314025).
 
 However, we believed that for Web Components to truly succeed, it was important that web developers strive to make their components interoperable among frameworks and easily discoverable. Polymer was doing well in the role of pioneering and evangelizing those best practices, but it was becoming clear that formalizing them in a more neutral place will be strategically important.
 
 ## Getting our hands dirty
 
-We were a bunch of developers with limited resources, so we started to develop yourselfs. First, [Addy Osmani](https://twitter.com/addyosmani) put together something simple based on the setup over on [yeoman.io](http://yeoman.io/) using [Jekyll](http://jekyllrb.com/) and [Redcarpet](https://github.com/vmg/redcarpet). The idea was a compiled wiki that anyone could come in and edit but members of the site team needed to approve the changes in order for them to go live.
+We were a bunch of developers with limited resources, so we started to develop ourselfs. First, [Addy Osmani](https://twitter.com/addyosmani) put together something simple based on the setup over on [yeoman.io](http://yeoman.io/) using [Jekyll](http://jekyllrb.com/) and [Redcarpet](https://github.com/vmg/redcarpet). The idea was a compiled wiki that anyone could come in and edit but members of the site team needed to approve the changes in order for them to go live.
 
 ![Pre-alpha Version](/assets/img/posts/wcorg-prealpha.jpg)
 
@@ -62,6 +62,6 @@ I just got back from San Francisco after oficially launching it at [SFHTML5](htt
 
 [![Presenting at SFHTML5](/assets/img/posts/wcorg-launch.jpg)](https://www.youtube.com/watch?feature=player_detailpage&v=mN7IAaRdi_k#t=8697)
 
-Each day I believe more that to achieve great things you need great people next you. This project wouldn't exist with the help of many people that you may not see in the [commit history](https://github.com/webcomponents/webcomponents.github.io/graphs/contributors) but had a really big influence like [Addy Osmani](https://twitter.com/addyosmani), [Alex Komoroske](https://twitter.com/jkomoros), [Bernard De Luna](https://twitter.com/bernarddeluna), [Briza Bueno](https://twitter.com/brizabueno), [Ciro Nunes](https://twitter.com/cironunesdev), [Daniel Buchner](https://twitter.com/csuwildcat), [Eduardo Lundgren](https://twitter.com/eduardolundgren), [Eric Bieldman](https://twitter.com/ebidel), [Luan Muniz](https://twitter.com/lluanmuniz), [Pascal Precht](https://twitter.com/PascalPrecht), [Rob Dodson](https://twitter.com/rob_dodson), and [Sindre Sorhus](https://twitter.com/sindresorhus).
+Each day I believe more that to achieve great things you need great people next you. This project wouldn't exist with the help of many people that you may not see in the [commit history](https://github.com/webcomponents/webcomponents.github.io/graphs/contributors) but had a really big influence like [Addy Osmani](https://twitter.com/addyosmani), [Alex Komoroske](https://twitter.com/jkomoros), [Bernard De Luna](https://twitter.com/bernarddeluna), [Briza Bueno](https://twitter.com/brizabueno), [Ciro Nunes](https://twitter.com/cironunesdev), [Daniel Buchner](https://twitter.com/csuwildcat), [Eduardo Lundgren](https://twitter.com/eduardolundgren), [Eric Bidelman](https://twitter.com/ebidel), [Luan Muniz](https://twitter.com/lluanmuniz), [Pascal Precht](https://twitter.com/PascalPrecht), [Rob Dodson](https://twitter.com/rob_dodson), and [Sindre Sorhus](https://twitter.com/sindresorhus).
 
 Thank you so much guys for all support you've been providing.

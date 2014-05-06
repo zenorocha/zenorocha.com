@@ -58,7 +58,7 @@ After months thinking and discussing this project, I'm really glad that it's fin
 
 [![Website](/assets/img/posts/wcorg.jpg)](http://webcomponents.org/)
 
-I just got back from San Francisco after oficially launching it at [SFHTML5](http://www.meetup.com/sfhtml5/events/169452272/) and now I'm in a plane from Salvador (Brazil) to Warsaw (Poland) where three presentations wait for me in Europe. We still have lots of things to do but it's a honor to show this project to people all over the world.
+I just got back from San Francisco after officialy launching it at [SFHTML5](http://www.meetup.com/sfhtml5/events/169452272/) and now I'm in a plane from Salvador (Brazil) to Warsaw (Poland) where three presentations wait for me in Europe. We still have lots of things to do but it's a honor to show this project to people all over the world.
 
 [![Presenting at SFHTML5](/assets/img/posts/wcorg-launch.jpg)](https://www.youtube.com/watch?feature=player_detailpage&v=mN7IAaRdi_k#t=8697)
 

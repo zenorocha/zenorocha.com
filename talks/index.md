@@ -7,26 +7,28 @@ description: List of all presentations
 
 Here you can find all my presentation slides/videos and also know where you can find me in the future.
 
-# Coming next!
-
-## [Polymer at SFHTML5](http://bit.ly/sfhtml5-polymer)
-* *When:* April, 30
-* *Where:* San Francisco, CA - USA
-
-## [Front Trends](http://lanyrd.com/2014/fronttrends/)
-* *When:* May, 7
-* *Where:* Warsaw - Poland
-
-## [ScotlandJS](http://lanyrd.com/2014/scotjs2014/)
-* *When:* May, 9
-* *Where:* Edinburgh - Scotland
+# ~ 2014
+---
 
 ## [Amsterdam Front-End Dev Meetup](http://www.meetup.com/Amsterdam-Front-End-Dev-Meetup/events/176568352/)
 * *When:* May, 12
 * *Where:* Amsterdam - Netherlands
+* *Presentation:* [A future called Web Components](https://speakerdeck.com/zenorocha/a-future-called-web-components)
 
-# ~ 2014
----
+## [ScotlandJS](http://lanyrd.com/2014/scotjs2014/)
+* *When:* May, 9
+* *Where:* Edinburgh - Scotland
+* *Presentation:* [A future called Web Components](https://speakerdeck.com/zenorocha/a-future-called-web-components)
+
+## [Front Trends](http://lanyrd.com/2014/fronttrends/)
+* *When:* May, 7
+* *Where:* Warsaw - Poland
+* *Presentation:* [A future called Web Components](https://speakerdeck.com/zenorocha/a-future-called-web-components)
+
+## [Polymer at SFHTML5](http://bit.ly/sfhtml5-polymer)
+* *When:* April, 30
+* *Where:* San Francisco, CA - USA
+* *Presentation:* [Web Components: a chance to create the future](https://speakerdeck.com/zenorocha/web-components-a-chance-to-create-the-future) ([Video](https://www.youtube.com/watch?v=JUzjr1bIRUg))
 
 ## [16º Encontro Locaweb](http://eventos.locaweb.com.br/16o-encontro-locaweb-de-profissionais-de-internet-curitiba/)
 * *When:* April, 10

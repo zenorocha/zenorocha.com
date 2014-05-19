@@ -9,6 +9,7 @@ Here you can find all the projects that I did.
 
 # ~ 2014
 
+* [Web Components - Chrome Extension](https://chrome.google.com/webstore/detail/web-components/filcobblndaenakhejinpjdblekilpgn)
 * [WebComponents.org](http://webcomponents.org)
 * [Generator Element](https://github.com/webcomponents/generator-element)
 * [Hello World Element](https://github.com/webcomponents/hello-world-element)

@@ -7,15 +7,12 @@ description: List of all presentations
 
 Here you can find all my presentation slides/videos and also know where you can find me in the future.
 
-# Coming next!
+# ~ 2014
 ---
 
 ## [Codelab: Chrome DevTools](http://www.meetup.com/GDG-SP/events/183995162/)
 * *When:* May, 28
 * *Where:* São Paulo, SP - Brazil
-
-# ~ 2014
----
 
 ## [Amsterdam Front-End Dev Meetup](http://www.meetup.com/Amsterdam-Front-End-Dev-Meetup/events/176568352/)
 * *When:* May, 12

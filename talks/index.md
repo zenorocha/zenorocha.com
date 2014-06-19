@@ -22,7 +22,7 @@ Here you can find all my presentation slides/videos and also know where you can 
 ## [ScotlandJS](http://lanyrd.com/2014/scotjs2014/)
 * *When:* May, 9
 * *Where:* Edinburgh - Scotland
-* *Presentation:* [A future called Web Components](https://speakerdeck.com/zenorocha/a-future-called-web-components)
+* *Presentation:* [A future called Web Components](https://speakerdeck.com/zenorocha/a-future-called-web-components) ([Video](http://vimeo.com/96477903))
 
 ## [Front Trends](http://lanyrd.com/2014/fronttrends/)
 * *When:* May, 7

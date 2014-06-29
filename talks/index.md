@@ -27,7 +27,7 @@ Here you can find all my presentation slides/videos and also know where you can 
 ## [Front Trends](http://lanyrd.com/2014/fronttrends/)
 * *When:* May, 7
 * *Where:* Warsaw - Poland
-* *Presentation:* [A future called Web Components](https://speakerdeck.com/zenorocha/a-future-called-web-components)
+* *Presentation:* [A future called Web Components](https://speakerdeck.com/zenorocha/a-future-called-web-components) ([Video](http://vimeo.com/97308701))
 
 ## [Polymer at SFHTML5](http://bit.ly/sfhtml5-polymer)
 * *When:* April, 30

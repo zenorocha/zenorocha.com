@@ -99,7 +99,7 @@ you.
 
 Any other company could be angry because I wasn't working for a long time,
 worried about the hospital bill or simply didn't care at all. But not Liferay.
-They did much more than I could expect and for that I'll be always graceful.
+They did much more than I could expect and for that I'll be always grateful.
 
 ![](https://www.liferay.com/documents/14644916/0/zeno-hospital.jpg/a3296a91-1d14-4ff1-a42a-69478cb413a0?t=1404867664739)
 

@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "What I learned in 2 years at Liferay"
-description: ""
+description: "Seems like yesterday when I decided to move from this huge company based in Rio to this not-so-well-known company based in LA. That was not an easy decision, but I'm glad I made it. Now, two years after that day, here I am to share some of the things I learned."
 language: "en"
 ---
 
@@ -10,6 +10,8 @@ to this not-so-well-known company based in LA. That was not an easy decision,
 but I'm glad I made it.
 
 Now, two years after that day, here I am to share some of the things I learned.
+
+![My first retreat](https://www.liferay.com/documents/14644916/0/1st-retreat.jpg/93c26158-8fa4-4539-b716-cf2e38259e80?t=1404915107096)
 
 <!-- more -->
 
@@ -46,7 +48,7 @@ By leading Liferay's EVP (Employee Volunteer Program) committee in Latin America
 
 Being part of initiatives like that is just incredible.
 
-![](https://www.liferay.com/documents/14644916/0/a2.jpg/c3c84c8e-b9d1-4b29-916c-94b4b4b08ff6?t=1402939301460)
+![EVP initiative in Brazil](https://www.liferay.com/documents/14644916/0/a2.jpg/c3c84c8e-b9d1-4b29-916c-94b4b4b08ff6?t=1402939301460)
 
 ## The mentoring cascade
 
@@ -101,6 +103,6 @@ Any other company could be angry because I wasn't working for a long time,
 worried about the hospital bill or simply didn't care at all. But not Liferay.
 They did much more than I could expect and for that I'll be always grateful.
 
-![](https://www.liferay.com/documents/14644916/0/zeno-hospital.jpg/a3296a91-1d14-4ff1-a42a-69478cb413a0?t=1404867664739)
+![Zeno and his sister in the hospital](https://www.liferay.com/documents/14644916/0/zeno-hospital.jpg/a3296a91-1d14-4ff1-a42a-69478cb413a0?t=1404867664739)
 
 Thanks you guys, it's been two wonderful years :)

@@ -7,6 +7,13 @@ description: List of all presentations
 
 Here you can find all my presentation slides/videos and also know where you can find me in the future.
 
+# Coming next!
+---
+
+## [TDC - The Developers Conference](http://www.thedevelopersconference.com.br/#saopaulo)
+* *When:* August, 05
+* *Where:* São Paulo, SP - Brazil
+
 # ~ 2014
 ---
 

@@ -43,21 +43,21 @@
     {% if paginator.previous_page %}
 
       {% if paginator.previous_page == 1 %}
-      <a class="newer" href="/blog">Anterior</a>
+      <a class="newer" href="/blog">Previous</a>
 
       {% else %}
-      <a class="newer" href="/blog/page{{paginator.previous_page}}">Anterior</a>
+      <a class="newer" href="/blog/page{{paginator.previous_page}}">Previous</a>
       {% endif %}
 
     {% else %}
-    <span class="newer">Anterior</span>
+    <span class="newer">Previous</span>
     {% endif %}
 
     <span>Página {{paginator.page}} de {{paginator.total_pages}}</span>
     {% if paginator.next_page %}
-    <a class="older" href="/blog/page{{paginator.next_page}}">Próxima</a>
+    <a class="older" href="/blog/page{{paginator.next_page}}">Next</a>
     {% else %}
-    <span class="older">Próxima</span>
+    <span class="older">Next</span>
     {% endif %}
     </p>
 

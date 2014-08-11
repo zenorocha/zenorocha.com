@@ -462,7 +462,6 @@ h1.sitetitle a, h2.sitetitle a {
 	margin: 0 auto;
 	font-weight: normal;
 	letter-spacing: 0.1em;
-	line-height: 1em;
 }
 
 /*.post .posttitle:before {

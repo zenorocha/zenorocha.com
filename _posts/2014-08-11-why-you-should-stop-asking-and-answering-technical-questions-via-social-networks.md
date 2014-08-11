@@ -5,7 +5,7 @@ description: "When you start giving talks, creating open source projects, publis
 language: "en"
 ---
 
-*Originally published in [iMasters](http://imasters.com.br/gerencia-de-ti/mercado/por-que-voce-deveria-parar-de-fazerresponder-perguntas-tecnicas-via-redes-sociais/)*
+*Read in portuguese on [iMasters](http://imasters.com.br/gerencia-de-ti/mercado/por-que-voce-deveria-parar-de-fazerresponder-perguntas-tecnicas-via-redes-sociais/)*
 
 When you start giving talks, creating open source projects, publishing articles or simply showing your work to the world, little by little people start to consider you as a reference on that particular subject. And when these people have doubts, it is you whom they search for. After all, you are the one who understands more about it (which in many cases is not true).
 

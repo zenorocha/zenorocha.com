@@ -10,12 +10,34 @@ Here you can find all my presentation slides/videos and also know where you can 
 # Coming next!
 ---
 
-## [TDC - The Developers Conference](http://www.thedevelopersconference.com.br/#saopaulo)
-* *When:* August, 05
+## [Liferay Symposium - North America](http://www.liferay.com/web/northamerica2014)
+* *When:* October, 05
+* *Where:* Boston, MA - USA
+
+## [Liferay Symposium - Europe](http://www.liferay.com/web/spain2014)
+* *When:* October, 22
+* *Where:* Madrid - Spain
+
+## [Liferay DevCon](https://www.liferay.com/web/devcon2014)
+* *When:* November, 05
+* *Where:* Darmstadt - Germany
+
+## Liferay Symposium - Latin America
+* *When:* November, 11
 * *Where:* São Paulo, SP - Brazil
 
 # ~ 2014
 ---
+
+## [TDC - The Developers Conference](http://www.thedevelopersconference.com.br/#saopaulo)
+* *When:* August, 05
+* *Where:* São Paulo, SP - Brazil
+* *Presentation:* [Tracking.js: Uma nova dimensão](https://speakerdeck.com/zenorocha/tracking-dot-js-uma-nova-dimensao)
+
+## [Front in Aracaju](http://www.frontinaracaju.com.br/)
+* *When:* August, 02
+* *Where:* Aracaju, SE - Brazil
+* *Presentation:* [Tracking.js: Uma nova dimensão](https://speakerdeck.com/zenorocha/tracking-dot-js-uma-nova-dimensao)
 
 ## [Codelab: Chrome DevTools](http://www.meetup.com/GDG-SP/events/183995162/)
 * *When:* May, 28

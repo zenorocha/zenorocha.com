@@ -13,15 +13,22 @@
       {% unless post.draft %}
         <li class="post">
         {% if post.link %}
-        <h2 class="linktitle"><a href="{{ post.link }}">{{ post.title }}</a>&nbsp;<a href="{{ post.url }}" class="infin">&infin;</a></h2>
+          <h2 class="linktitle">
+            <a href="{{ post.link }}">{{ post.title }}</a>&nbsp;
+            <a href="{{ post.url }}" class="infin">&infin;</a>
+          </h2>
+        {% elsif post.quote %}
+          <p class="date articledate">{{ post.date | date:"%d/%m/%Y" }}</p>
         {% else %}
-        <h2 class="posttitle"><a href="{{ post.url }}" class="articletitle">{{ post.title }}</a></h2>
-      <p class="date articledate">{{ post.date | date:"%d/%m/%Y" }}</p>
+          <h2 class="posttitle">
+            <a href="{{ post.url }}" class="articletitle">{{ post.title }}</a>
+          </h2>
+          <p class="date articledate">{{ post.date | date:"%d/%m/%Y" }}</p>
         {% endif %}
 
         {% if post.excerpt %}
-        {{ post.excerpt | markdownify }}
-          {% if post.nomore != true %}
+          {{ post.excerpt | markdownify }}
+          {% unless post.nomore or post.quote %}
           <p><a href="{{ post.url }}">
             {% if post.language == "en" %}
             <strong>Continue reading&#8230;</strong>
@@ -29,9 +36,9 @@
             <strong>Continue lendo&#8230;</strong>
             {% endif %}
           </a></p>
-          {% endif %}
+          {% endunless %}
         {% else %}
-        {{ post.content }}
+          {{ post.content }}
         {% endif %}
         </li>
       {% endunless %}

@@ -75,7 +75,7 @@ Here you can find all my presentation slides/videos and also know where you can 
 ## [JSConf UY](http://lanyrd.com/2014/jsconfuy/)
 * *When:* March, 14
 * *Where:* Montevideo - Uruguay
-* *Presentation:* [A future called Web Components](https://speakerdeck.com/zenorocha/a-future-called-web-components)
+* *Presentation:* [A future called Web Components](https://speakerdeck.com/zenorocha/a-future-called-web-components) ([Video](https://www.youtube.com/watch?v=TKYjzQ0T1q0))
 
 ## [Coding on Weekend](http://codingonweekend.com.br/)
 * *When:* February, 22

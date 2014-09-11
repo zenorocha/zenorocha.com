@@ -18,6 +18,10 @@ Here you can find all my presentation slides/videos and also know where you can 
 * *When:* October, 22
 * *Where:* Madrid - Spain
 
+## [JS.LA](http://js.la)
+* *When:* October, 30
+* *Where:* Los Angeles, CA - USA
+
 ## [Liferay DevCon](https://www.liferay.com/web/devcon2014)
 * *When:* November, 05
 * *Where:* Darmstadt - Germany

@@ -26,7 +26,7 @@ Here you can find all my presentation slides/videos and also know where you can 
 * *When:* November, 05
 * *Where:* Darmstadt - Germany
 
-## Liferay Symposium - Latin America
+## [Liferay Symposium - Latin America](http://www.liferay.com/web/brazil2014)
 * *When:* November, 11
 * *Where:* São Paulo, SP - Brazil
 

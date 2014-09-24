@@ -31,7 +31,7 @@ I use [Jekyll](http://jekyllrb.com/), a static generator in Ruby, to create this
 5. And finally run:
 
   ```sh
-  $ jekyll server
+  $ jekyll server --watch
   ```
 
 You'll have access to the website at `localhost:4000` :D

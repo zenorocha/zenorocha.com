@@ -33,6 +33,10 @@ Here you can find all my presentation slides/videos and also know where you can 
 # ~ 2014
 ---
 
+## [W3C Web.br](http://conferenciaweb.w3c.br/)
+* *When:* September, 25
+* *Where:* São Paulo, SP - Brazil
+
 ## [TDC - The Developers Conference](http://www.thedevelopersconference.com.br/#saopaulo)
 * *When:* August, 05
 * *Where:* São Paulo, SP - Brazil

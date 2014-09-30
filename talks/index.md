@@ -14,6 +14,10 @@ Here you can find all my presentation slides/videos and also know where you can 
 * *When:* October, 05
 * *Where:* Boston, MA - USA
 
+## [HTML5 LA](http://www.meetup.com/HTML5LA/events/210157532/)
+* *When:* October, 10
+* *Where:* Los Angeles, CA - USA
+
 ## [Liferay Symposium - Europe](http://www.liferay.com/web/spain2014)
 * *When:* October, 22
 * *Where:* Madrid - Spain

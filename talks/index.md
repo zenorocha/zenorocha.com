@@ -10,17 +10,13 @@ Here you can find all my presentation slides/videos and also know where you can 
 # Coming next!
 ---
 
-## [Liferay Symposium - North America](http://www.liferay.com/web/northamerica2014)
-* *When:* October, 05
-* *Where:* Boston, MA - USA
-
-## [HTML5 LA](http://www.meetup.com/HTML5LA/events/210157532/)
-* *When:* October, 10
-* *Where:* Los Angeles, CA - USA
-
 ## [Liferay Symposium - Europe](http://www.liferay.com/web/spain2014)
 * *When:* October, 22
 * *Where:* Madrid - Spain
+
+## [SanDiego.js](http://www.meetup.com/sandiegojs/events/209916642/)
+* *When:* October, 28
+* *Where:* San Diego, CA - USA
 
 ## [JS.LA](http://js.la)
 * *When:* October, 30
@@ -37,6 +33,16 @@ Here you can find all my presentation slides/videos and also know where you can 
 # ~ 2014
 ---
 
+## [HTML5 LA](http://www.meetup.com/HTML5LA/events/210157532/)
+* *When:* October, 10
+* *Where:* Los Angeles, CA - USA
+* *Presentation:* [Tracking.js](https://speakerdeck.com/zenorocha/tracking-dot-js)
+
+## [Liferay Symposium - North America](http://www.liferay.com/web/northamerica2014)
+* *When:* October, 05
+* *Where:* Boston, MA - USA
+* *Presentation:* [Liferay + Wearables](http://www.slideshare.net/zenorocha/liferay-wearables-39939452)
+
 ## [W3C Web.br](http://conferenciaweb.w3c.br/)
 * *When:* September, 25
 * *Where:* São Paulo, SP - Brazil
@@ -44,12 +50,12 @@ Here you can find all my presentation slides/videos and also know where you can 
 ## [TDC - The Developers Conference](http://www.thedevelopersconference.com.br/#saopaulo)
 * *When:* August, 05
 * *Where:* São Paulo, SP - Brazil
-* *Presentation:* [Tracking.js: Uma nova dimensão](https://speakerdeck.com/zenorocha/tracking-dot-js-uma-nova-dimensao)
+* *Presentation:* [Tracking.js: Uma nova dimensão](http://www.slideshare.net/zenorocha/trackingjs)
 
 ## [Front in Aracaju](http://www.frontinaracaju.com.br/)
 * *When:* August, 02
 * *Where:* Aracaju, SE - Brazil
-* *Presentation:* [Tracking.js: Uma nova dimensão](https://speakerdeck.com/zenorocha/tracking-dot-js-uma-nova-dimensao)
+* *Presentation:* [Tracking.js: Uma nova dimensão](http://www.slideshare.net/zenorocha/trackingjs)
 
 ## [Codelab: Chrome DevTools](http://www.meetup.com/GDG-SP/events/183995162/)
 * *When:* May, 28

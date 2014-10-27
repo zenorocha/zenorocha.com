@@ -16,4 +16,4 @@ entender como todo esse lance de programação funcionava.
 Eu não tinha pretensão nenhuma em ser um ninja-rockstar-whatever nessa área. Eu
 só gostava de estudar e depois compartilhar o que eu aprendia. Simples assim...
 
-*[Continue lendo...](https://medium.com/@zenorocha/ser-popular-e-uma-merda-b739836e4407)*
+**[Continue lendo...](https://medium.com/@zenorocha/ser-popular-e-uma-merda-b739836e4407)**

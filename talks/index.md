@@ -10,10 +10,6 @@ Here you can find all my presentation slides/videos and also know where you can 
 # Coming next!
 ---
 
-## [Liferay Symposium - Europe](http://www.liferay.com/web/spain2014)
-* *When:* October, 22
-* *Where:* Madrid - Spain
-
 ## [SanDiego.js](http://www.meetup.com/sandiegojs/events/209916642/)
 * *When:* October, 28
 * *Where:* San Diego, CA - USA
@@ -33,6 +29,12 @@ Here you can find all my presentation slides/videos and also know where you can 
 # ~ 2014
 ---
 
+## [Liferay Symposium Spain](http://www.liferay.com/web/spain2014)
+* *When:* October, 22
+* *Where:* Madrid - Spain
+* *Social Media:* [Storify](https://storify.com/zenorocha/liferay-spain-symposium-2014)
+* *Presentations:* [Liferay + Wearables](http://www.slideshare.net/zenorocha/liferay-wearables-39939452) and [The Future of Web Development](http://www.slideshare.net/zenorocha/future-of-web-development)
+
 ## [HTML5 LA](http://www.meetup.com/HTML5LA/events/210157532/)
 * *When:* October, 10
 * *Where:* Los Angeles, CA - USA
@@ -41,7 +43,7 @@ Here you can find all my presentation slides/videos and also know where you can 
 ## [Liferay Symposium - North America](http://www.liferay.com/web/northamerica2014)
 * *When:* October, 05
 * *Where:* Boston, MA - USA
-* *Presentation:* [Liferay + Wearables](http://www.slideshare.net/zenorocha/liferay-wearables-39939452)
+* *Presentations:* [Liferay + Wearables](http://www.slideshare.net/zenorocha/liferay-wearables-39939452) and [The Future of Web Development](http://www.slideshare.net/zenorocha/future-of-web-development)
 
 ## [W3C Web.br](http://conferenciaweb.w3c.br/)
 * *When:* September, 25

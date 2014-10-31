@@ -10,14 +10,6 @@ Here you can find all my presentation slides/videos and also know where you can 
 # Coming next!
 ---
 
-## [SanDiego.js](http://www.meetup.com/sandiegojs/events/209916642/)
-* *When:* October, 28
-* *Where:* San Diego, CA - USA
-
-## [JS.LA](http://js.la)
-* *When:* October, 30
-* *Where:* Los Angeles, CA - USA
-
 ## [Liferay DevCon](https://www.liferay.com/web/devcon2014)
 * *When:* November, 05
 * *Where:* Darmstadt - Germany
@@ -29,20 +21,38 @@ Here you can find all my presentation slides/videos and also know where you can 
 # ~ 2014
 ---
 
+18 talks and 4 workshops in 15 different cities.
+
+## [JS.LA](http://js.la)
+* *When:* October, 30
+* *Where:* Los Angeles, CA - USA
+* *Attendees:* ≈70
+* *Social Media:* [Participation summary](https://storify.com/zenorocha/2014-10-30-jsla)
+* *Presentation:* [A future called Web Components](https://speakerdeck.com/zenorocha/a-future-called-web-components)
+
+## [SanDiego.js](http://www.meetup.com/sandiegojs/events/209916642/)
+* *When:* October, 28
+* *Where:* San Diego, CA - USA
+* *Attendees:* ≈40
+* *Social Media:* [Participation summary](https://storify.com/zenorocha/2014-10-28-sandiegojs)
+* *Presentation:* [A future called Web Components](https://speakerdeck.com/zenorocha/a-future-called-web-components)
+
 ## [Liferay Symposium Spain](http://www.liferay.com/web/spain2014)
 * *When:* October, 22
 * *Where:* Madrid - Spain
-* *Social Media:* [Storify](https://storify.com/zenorocha/liferay-spain-symposium-2014)
+* *Social Media:* [Participation summary](https://storify.com/zenorocha/2014-10-22-liferay-spain-symposium)
 * *Presentations:* [Liferay + Wearables](http://www.slideshare.net/zenorocha/liferay-wearables-39939452) and [The Future of Web Development](http://www.slideshare.net/zenorocha/future-of-web-development)
 
 ## [HTML5 LA](http://www.meetup.com/HTML5LA/events/210157532/)
 * *When:* October, 10
 * *Where:* Los Angeles, CA - USA
+* *Attendees:* ≈30
 * *Presentation:* [Tracking.js](https://speakerdeck.com/zenorocha/tracking-dot-js)
 
 ## [Liferay Symposium - North America](http://www.liferay.com/web/northamerica2014)
 * *When:* October, 05
 * *Where:* Boston, MA - USA
+* *Attendees:* ≈510
 * *Presentations:* [Liferay + Wearables](http://www.slideshare.net/zenorocha/liferay-wearables-39939452) and [The Future of Web Development](http://www.slideshare.net/zenorocha/future-of-web-development)
 
 ## [W3C Web.br](http://conferenciaweb.w3c.br/)
@@ -54,18 +64,26 @@ Here you can find all my presentation slides/videos and also know where you can 
 * *Where:* São Paulo, SP - Brazil
 * *Presentation:* [Tracking.js: Uma nova dimensão](http://www.slideshare.net/zenorocha/trackingjs)
 
+## [Coding on Weekend](http://codingonweekend.com.br/)
+* *When:* August, 30
+* *Where:* Rio de Janeiro, RJ - Brazil
+* *Attendees:* ≈20
+
 ## [Front in Aracaju](http://www.frontinaracaju.com.br/)
 * *When:* August, 02
 * *Where:* Aracaju, SE - Brazil
+* *Attendees:* ≈230
 * *Presentation:* [Tracking.js: Uma nova dimensão](http://www.slideshare.net/zenorocha/trackingjs)
 
 ## [Codelab: Chrome DevTools](http://www.meetup.com/GDG-SP/events/183995162/)
 * *When:* May, 28
 * *Where:* São Paulo, SP - Brazil
+* *Attendees:* ≈60
 
 ## [Amsterdam Front-End Dev Meetup](http://www.meetup.com/Amsterdam-Front-End-Dev-Meetup/events/176568352/)
 * *When:* May, 12
 * *Where:* Amsterdam - Netherlands
+* *Attendees:* ≈110
 * *Presentation:* [A future called Web Components](https://speakerdeck.com/zenorocha/a-future-called-web-components)
 
 ## [ScotlandJS](http://lanyrd.com/2014/scotjs2014/)
@@ -86,18 +104,22 @@ Here you can find all my presentation slides/videos and also know where you can 
 ## [16º Encontro Locaweb](http://eventos.locaweb.com.br/16o-encontro-locaweb-de-profissionais-de-internet-curitiba/)
 * *When:* April, 10
 * *Where:* Curitiba, PR - Brazil
+* *Attendees:* ≈250
 * *Presentation:* [Como empreender em... você!](http://www.slideshare.net/zenorocha/keynote-30756562)
 
 ## [Coding on Weekend](http://codingonweekend.com.br/)
 * *When:* March, 22
 * *Where:* Maceió, AL - Brazil
+* *Attendees:* ≈20
 
 ## [JSConf UY](http://lanyrd.com/2014/jsconfuy/)
 * *When:* March, 14
 * *Where:* Montevideo - Uruguay
+* *Attendees:* ≈350
 * *Presentation:* [A future called Web Components](https://speakerdeck.com/zenorocha/a-future-called-web-components) ([Video](https://www.youtube.com/watch?v=TKYjzQ0T1q0))
 
 ## [Coding on Weekend](http://codingonweekend.com.br/)
+* *Attendees:* ≈20
 * *When:* February, 22
 * *Where:* São Paulo, SP - Brazil
 
@@ -109,11 +131,13 @@ Here you can find all my presentation slides/videos and also know where you can 
 ## [Liferay São Paulo Meetup](http://www.meetup.com/Liferay-Sao-Paulo-User-Group/events/159837172/)
 * *When:* January, 30
 * *Where:* São Paulo, SP - Brazil
+* *Attendees:* ≈15
 * *Presentation:* [Liferay UI (R)evolution](http://www.slideshare.net/zenorocha/liferay-ui-revolution)
 
 ## [Coding on Weekend](http://codingonweekend.com.br/)
 * *When:* January, 8
 * *Where:* Belo Horizonte, MG - Brazil
+* *Attendees:* ≈20
 
 # ~ 2013
 ---
@@ -138,10 +162,12 @@ Here you can find all my presentation slides/videos and also know where you can 
 ## [Coding on Weekend](http://codingonweekend.com.br/)
 * *When:* September, 7
 * *Where:* Belo Horizonte, MG - Brazil
+* *Attendees:* ≈20
 
 ## [Front in Aracaju](http://lanyrd.com/2013/frontinaracaju/)
 * *When:* August, 31
 * *Where:* Aracaju, SE - Brazil
+* *Attendees:* ≈240
 * *Presentation:* [O que eu aprendi em 4 anos como dev front-end](http://talks.zenorocha.com/2013/frontinaracaju/)
 
 ## [QCon](http://lanyrd.com/2013/qconsp/)
@@ -157,14 +183,17 @@ Here you can find all my presentation slides/videos and also know where you can 
 ## [Coding on Weekend](http://codingonweekend.com.br/)
 * *When:* August, 17
 * *Where:* São Paulo, SP - Brazil
+* *Attendees:* ≈20
 
 ## [Coding on Weekend](http://codingonweekend.com.br/)
 * *When:* August, 10
 * *Where:* Rio de Janeiro, RJ - Brazil
+* *Attendees:* ≈20
 
 ## [Front in BH](http://lanyrd.com/2013/frontinbh/)
 * *When:* August, 3
 * *Where:* Belo Horizonte, MG - Brazil
+* *Attendees:* ≈420
 
 ## [Front in Bahia](http://lanyrd.com/2013/front-in-bahia/)
 * *When:* July, 27
@@ -236,14 +265,17 @@ Here you can find all my presentation slides/videos and also know where you can 
 ## [Conexão Kinghost](http://www.conexaokinghost.com.br/)
 * *When:* November, 29
 * *Where:* Porto Alegre, RS - Brazil
+* *Attendees:* ≈240
 * *Presentation:* [Surpresa!](http://www.slideshare.net/bernarddeluna/surpresa-15160517) ([Video](http://www.youtube.com/watch?v=66RjQmQg30Y))
 
 ## [Ideais Cowabunga](http://ideais-cowabunga.eventbrite.com/)
 * *When:* November, 13
 * *Where:* Rio de Janeiro, RJ - Brazil
+* *Attendees:* ≈20
 * *Presentation:* [Como usar HTML5 sem uma máquina do tempo](http://talks.zenorocha.com/2012/ideais)
 
 ## [IV ETS - Encontro de Tecnologia Simonsen](http://www.simonsen.br/ets/base.php?inscricao=programacao)
+* *Attendees:* ≈180
 * *When:* November, 10
 * *Where:* Rio de Janeiro, RJ - Brazil
 * *Presentation:* [Realidade aumentada com JavaScript](http://talks.zenorocha.com/2012/simonsen/)
@@ -256,6 +288,7 @@ Here you can find all my presentation slides/videos and also know where you can 
 ## [Front in Maceió](http://lanyrd.com/2012/frontinmaceio/)
 * *When:* October, 27
 * *Where:* Maceió, AL - Brazil
+* *Attendees:* ≈220
 * *Presentation:* [O que eu aprendi em 3 anos como dev front-end](http://talks.zenorocha.com/2012/frontinmaceio/)
 
 ## [W3C Conference - Web.br 2012](http://lanyrd.com/2012/webbr2012/)
@@ -287,6 +320,7 @@ Here you can find all my presentation slides/videos and also know where you can 
 * *When:* August, 24
 * *Where:* São Paulo, SP - Brazil
 * *Presentation:* [Canvas, SVG e WebGL](http://talks.zenorocha.com/2012/tablelessconf/)
+* *Attendees:* ≈170
 
 ## [TDC - The Developers Conference](http://www.thedevelopersconference.com.br/#florianopolis)
 * *When:* August, 25
@@ -311,6 +345,7 @@ Here you can find all my presentation slides/videos and also know where you can 
 ## [Front in BH](http://lanyrd.com/2012/frontinbh/)
 * *When:* July, 14
 * *Where:* Belo Horizonte, MG - Brazil
+* *Attendees:* ≈360
 * *Presentation:* [CSS Sucks!](http://talks.zenorocha.com/2012/frontinbh/)
 
 ## [TDC - The Developers Conference](http://www.thedevelopersconference.com.br/#saopaulo)
@@ -326,6 +361,7 @@ Here you can find all my presentation slides/videos and also know where you can 
 ## [Front in Rio](http://frontinrio.com.br)
 * *When:* June, 02
 * *Where:* Rio de Janeiro, RJ - Brazil
+* *Attendees:* ≈200
 * *Presentation:* [CSS Sucks!](http://talks.zenorocha.com/2012/frontinrio/)
 
 ## [JSConf Argentina](http://lanyrd.com/2012/jsconf-argentina/)
@@ -336,24 +372,45 @@ Here you can find all my presentation slides/videos and also know where you can 
 ## [PernambucoJS](http://lanyrd.com/2012/pernambucojs/)
 * *When:* April, 21
 * *Where:* Recife, PE - Brazil
+* *Attendees:* ≈220
 * *Presentation:* [Como fugir do feijão com arroz usando Canvas, SVG e WebGL](http://talks.zenorocha.com/2012/pernambucojs/)
 
 ## [BeagaJS](http://lanyrd.com/2012/beagajs/)
 * *When:* January, 21
 * *Where:* Belo Horizonte, MG - Brazil
+* *Attendees:* ≈130
 * *Presentation:* [Como usar HTML5 sem uma máquina do tempo](http://talks.zenorocha.com/2012/beagajs/)
 
 # ~ 2011
 ---
 
-And suddenly I started to give presentations.
+3 talks in 2 different cities.
 
 ## [Front in Rio](http://frontinrio.com.br)
 * *When:* June, 18
 * *Where:* Rio de Janeiro, RJ - Brazil
-* *Presentation:* HTML5 Boilerplate
+* *Attendees:* ≈140
+* *Presentation:* [Desbravando o HTML5 Boilerplate](http://www.slideshare.net/zenorocha/desbravando-o-html5-boilerplate)
 
 ## [FSLDC](http://forumsoftwarelivre.com.br/2011/)
 * *When:* June, 4
 * *Where:* Duque de Caxias, RJ - Brazil
-* *Presentation:* HTML5
+* *Attendees:* ≈150
+* *Presentation:* [HTML5](http://www.slideshare.net/zenorocha/html-5-5273640)
+
+## [13º Encontro Locaweb](http://forumsoftwarelivre.com.br/2011/)
+* *When:* June, 4
+* *Where:* Rio de Janeiro, RJ - Brazil
+* *Attendees:* ≈50
+* *Presentation:* [Criando projetos robustos com HTML5](http://www.slideshare.net/zenorocha/construindo-projetos-robustos-em-html5)
+
+# ~ 2010
+---
+
+And suddenly I started to give presentations...
+
+## V Convescote Caos!
+* *When:* August, 10
+* *Where:* Rio de Janeiro, RJ - Brazil
+* *Attendees:* ≈15
+* *Presentation:* [Wordpress](http://www.slideshare.net/zenorocha/wordpress-4948450)

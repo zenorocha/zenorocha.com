@@ -7,21 +7,22 @@ description: List of all presentations
 
 Here you can find all my presentation slides/videos and also know where you can find me in the future.
 
-# Coming next!
+# ~ 2014
 ---
 
-## [Liferay DevCon](https://www.liferay.com/web/devcon2014)
-* *When:* November, 05
-* *Where:* Darmstadt - Germany
+19 talks and 4 workshops in 15 different cities.
+
+## Google Developer Expert Summit
+* *When:* November, 17
+* *Where:* Mountain View, CA - USA
 
 ## [Liferay Symposium - Latin America](http://www.liferay.com/web/brazil2014)
 * *When:* November, 11
 * *Where:* São Paulo, SP - Brazil
 
-# ~ 2014
----
-
-18 talks and 4 workshops in 15 different cities.
+## [Liferay DevCon](https://www.liferay.com/web/devcon2014)
+* *When:* November, 05
+* *Where:* Darmstadt - Germany
 
 ## [JS.LA](http://js.la)
 * *When:* October, 30

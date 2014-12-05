@@ -10,26 +10,38 @@ Here you can find all my presentation slides/videos and also know where you can 
 # ~ 2014
 ---
 
-19 talks and 4 workshops in 15 different cities.
+21 talks and 4 workshops in 18 different cities and 8 different countries.
 
-## Google Developer Expert Summit
+## [Cal Poly IWDSA](http://www.iwdsa.org/)
+* *When:* November, 26
+* *Where:* Pomona, CA - USA
+* *Attendees:* ≈30
+* *Presentation:* [How to invest in... you!](https://speakerdeck.com/zenorocha/how-to-invest-in-dot-dot-dot-you)
+
+## [Google Developer Expert Summit](https://developers.google.com/experts/)
 * *When:* November, 17
 * *Where:* Mountain View, CA - USA
+* *Attendees:* ≈100
+* *Presentation:* [Why people don't care about your new open source project](https://speakerdeck.com/zenorocha/why-nobody-cares-about-your-new-open-source-project)
 
 ## [Liferay Symposium - Latin America](http://www.liferay.com/web/brazil2014)
 * *When:* November, 11
 * *Where:* São Paulo, SP - Brazil
+* *Attendees:* ≈220
+* *Presentations:* [Liferay + Wearables](http://www.slideshare.net/zenorocha/liferay-wearables-39939452) and [The Future of Web Development](http://www.slideshare.net/zenorocha/future-of-web-development)
 
 ## [Liferay DevCon](https://www.liferay.com/web/devcon2014)
 * *When:* November, 05
 * *Where:* Darmstadt - Germany
+* *Attendees:* ≈310
+* *Presentations:* [Liferay + Wearables](http://www.slideshare.net/zenorocha/liferay-wearables-39939452) ([Video](https://www.youtube.com/watch?v=gSKodfN7O9s)) and [The Future of Web Development](http://www.slideshare.net/zenorocha/future-of-web-development) ([Video](https://www.youtube.com/watch?v=nxXNTJgFbRA))
 
 ## [JS.LA](http://js.la)
 * *When:* October, 30
 * *Where:* Los Angeles, CA - USA
 * *Attendees:* ≈70
 * *Social Media:* [Participation summary](https://storify.com/zenorocha/2014-10-30-jsla)
-* *Presentation:* [A future called Web Components](https://speakerdeck.com/zenorocha/a-future-called-web-components)
+* *Presentation:* [A future called Web Components](https://speakerdeck.com/zenorocha/a-future-called-web-components) ([Video](https://vimeo.com/111191562))
 
 ## [SanDiego.js](http://www.meetup.com/sandiegojs/events/209916642/)
 * *When:* October, 28
@@ -41,6 +53,7 @@ Here you can find all my presentation slides/videos and also know where you can 
 ## [Liferay Symposium Spain](http://www.liferay.com/web/spain2014)
 * *When:* October, 22
 * *Where:* Madrid - Spain
+* *Attendees:* ≈270
 * *Social Media:* [Participation summary](https://storify.com/zenorocha/2014-10-22-liferay-spain-symposium)
 * *Presentations:* [Liferay + Wearables](http://www.slideshare.net/zenorocha/liferay-wearables-39939452) and [The Future of Web Development](http://www.slideshare.net/zenorocha/future-of-web-development)
 
@@ -59,6 +72,8 @@ Here you can find all my presentation slides/videos and also know where you can 
 ## [W3C Web.br](http://conferenciaweb.w3c.br/)
 * *When:* September, 25
 * *Where:* São Paulo, SP - Brazil
+* *Attendees:* ≈460
+* *Presentation:* [ZOFE ao vivo](https://speakerdeck.com/zenorocha/a-future-called-web-components) ([Video](https://www.youtube.com/watch?v=YWbHcx5970g))
 
 ## [TDC - The Developers Conference](http://www.thedevelopersconference.com.br/#saopaulo)
 * *When:* August, 05
@@ -90,16 +105,19 @@ Here you can find all my presentation slides/videos and also know where you can 
 ## [ScotlandJS](http://lanyrd.com/2014/scotjs2014/)
 * *When:* May, 9
 * *Where:* Edinburgh - Scotland
+* *Attendees:* ≈160
 * *Presentation:* [A future called Web Components](https://speakerdeck.com/zenorocha/a-future-called-web-components) ([Video](http://vimeo.com/96477903))
 
 ## [Front Trends](http://lanyrd.com/2014/fronttrends/)
 * *When:* May, 7
 * *Where:* Warsaw - Poland
+* *Attendees:* ?
 * *Presentation:* [A future called Web Components](https://speakerdeck.com/zenorocha/a-future-called-web-components) ([Video](http://vimeo.com/97308701))
 
 ## [Polymer at SFHTML5](http://bit.ly/sfhtml5-polymer)
 * *When:* April, 30
 * *Where:* San Francisco, CA - USA
+* *Attendees:* ?
 * *Presentation:* [Web Components: a chance to create the future](https://speakerdeck.com/zenorocha/web-components-a-chance-to-create-the-future) ([Video](https://www.youtube.com/watch?v=JUzjr1bIRUg))
 
 ## [16º Encontro Locaweb](http://eventos.locaweb.com.br/16o-encontro-locaweb-de-profissionais-de-internet-curitiba/)
@@ -127,6 +145,7 @@ Here you can find all my presentation slides/videos and also know where you can 
 ## [Campus Party](http://lanyrd.com/2014/cpbr7/)
 * *When:* January, 30
 * *Where:* São Paulo, SP - Brazil
+* *Attendees:* ?
 * *Presentation:* [Como empreender em... você!](http://www.slideshare.net/zenorocha/keynote-30756562) ([Video](http://www.youtube.com/watch?v=S6APevEo2Yw))
 
 ## [Liferay São Paulo Meetup](http://www.meetup.com/Liferay-Sao-Paulo-User-Group/events/159837172/)

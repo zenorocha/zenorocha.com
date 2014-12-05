@@ -232,7 +232,7 @@ Here you can find all my presentation slides/videos and also know where you can 
 ## [SeCoT](http://lanyrd.com/2013/v-semana-de-computacao-e-tecnologia/)
 * *When:* May, 6
 * *Where:* Sorocaba, SP - Brazil
-* *Presentation:* [O que eu aprendi em 4 anos como dev front-end](http://talks.zenorocha.com/2013/secot/)
+* *Presentation:* [O que eu aprendi em 4 anos como dev front-end](http://talks.zenorocha.com/2013/secot/) ([Video](https://www.youtube.com/watch?v=qo_k5xppvTI))
 
 ## [Olhó SEO](http://www.olhoseo.com.br/2013/)
 * *When:* May, 3
@@ -242,7 +242,8 @@ Here you can find all my presentation slides/videos and also know where you can 
 ## [JAX](http://lanyrd.com/2013/jax/)
 * *When:* April, 23
 * *Where:* Mainz - Germany
-* *Presentation:* [How to create JavaScript apps for Java portals](https://speakerdeck.com/zenorocha/how-to-create-javascript-apps-for-java-portals) | [Getting started with YUI3 and AlloyUI](https://speakerdeck.com/zenorocha/getting-started-with-yui3-and-alloyui)
+* *Presentation:* [How to create JavaScript apps for Java portals](https://speakerdeck.com/zenorocha/how-to-create-javascript-apps-for-java-portals)
+* *Presentation:* [Getting started with YUI3 and AlloyUI](https://speakerdeck.com/zenorocha/getting-started-with-yui3-and-alloyui)
 
 ## [HTML5 Dev Conf](http://lanyrd.com/2013/html5devconf-spring/)
 * *When:* April, 01
@@ -371,7 +372,7 @@ Here you can find all my presentation slides/videos and also know where you can 
 * *When:* July, 14
 * *Where:* Belo Horizonte, MG - Brazil
 * *Attendees:* ≈360
-* *Presentation:* [CSS Sucks!](http://talks.zenorocha.com/2012/frontinbh/)
+* *Presentation:* [CSS Sucks!](http://talks.zenorocha.com/2012/frontinbh/) ([Video](https://www.youtube.com/watch?v=E7FQCHBicO0))
 
 ## [TDC - The Developers Conference](http://www.thedevelopersconference.com.br/#saopaulo)
 * *When:* July, 04
@@ -409,7 +410,13 @@ Here you can find all my presentation slides/videos and also know where you can 
 # ~ 2011
 ---
 
-3 talks in 2 different cities.
+4 talks. 1 country in 4 different cities.
+
+## [Sampa.JS](http://lanyrd.com/2011/sampajs/)
+* *When:* November, 19
+* *Where:* São Paulo, SP - Brazil
+* *Attendees:* ≈40
+* *Presentation:* [Como usar HTML5 sem uma máquina do tempo](http://www.slideshare.net/zenorocha/desbravando-o-html5-boilerplate) ([Video](https://www.youtube.com/watch?v=7u4Rcc955fU))
 
 ## [Front in Rio](http://frontinrio.com.br)
 * *When:* June, 18

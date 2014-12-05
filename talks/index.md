@@ -10,7 +10,7 @@ Here you can find all my presentation slides/videos and also know where you can 
 # ~ 2014
 ---
 
-21 talks and 4 workshops in 18 different cities and 8 different countries.
+21 talks and 4 workshops. 18 different cities in 8 different countries.
 
 ## [Cal Poly IWDSA](http://www.iwdsa.org/)
 * *When:* November, 26
@@ -28,34 +28,37 @@ Here you can find all my presentation slides/videos and also know where you can 
 * *When:* November, 11
 * *Where:* São Paulo, SP - Brazil
 * *Attendees:* ≈220
-* *Presentations:* [Liferay + Wearables](http://www.slideshare.net/zenorocha/liferay-wearables-39939452) and [The Future of Web Development](http://www.slideshare.net/zenorocha/future-of-web-development)
+* *Presentation:* [Liferay + Wearables](http://www.slideshare.net/zenorocha/liferay-wearables-39939452)
+* *Presentation:* [The Future of Web Development](http://www.slideshare.net/zenorocha/future-of-web-development)
 
 ## [Liferay DevCon](https://www.liferay.com/web/devcon2014)
 * *When:* November, 05
 * *Where:* Darmstadt - Germany
 * *Attendees:* ≈310
-* *Presentations:* [Liferay + Wearables](http://www.slideshare.net/zenorocha/liferay-wearables-39939452) ([Video](https://www.youtube.com/watch?v=gSKodfN7O9s)) and [The Future of Web Development](http://www.slideshare.net/zenorocha/future-of-web-development) ([Video](https://www.youtube.com/watch?v=nxXNTJgFbRA))
+* *Presentation:* [Liferay + Wearables](http://www.slideshare.net/zenorocha/liferay-wearables-39939452) ([Video](https://www.youtube.com/watch?v=gSKodfN7O9s))
+* *Presentation:* [The Future of Web Development](http://www.slideshare.net/zenorocha/future-of-web-development) ([Video](https://www.youtube.com/watch?v=nxXNTJgFbRA))
 
 ## [JS.LA](http://js.la)
 * *When:* October, 30
 * *Where:* Los Angeles, CA - USA
 * *Attendees:* ≈70
-* *Social Media:* [Participation summary](https://storify.com/zenorocha/2014-10-30-jsla)
 * *Presentation:* [A future called Web Components](https://speakerdeck.com/zenorocha/a-future-called-web-components) ([Video](https://vimeo.com/111191562))
+* *Social Media:* [Storify](https://storify.com/zenorocha/2014-10-30-jsla)
 
 ## [SanDiego.js](http://www.meetup.com/sandiegojs/events/209916642/)
 * *When:* October, 28
 * *Where:* San Diego, CA - USA
 * *Attendees:* ≈40
-* *Social Media:* [Participation summary](https://storify.com/zenorocha/2014-10-28-sandiegojs)
 * *Presentation:* [A future called Web Components](https://speakerdeck.com/zenorocha/a-future-called-web-components)
+* *Social Media:* [Storify](https://storify.com/zenorocha/2014-10-28-sandiegojs)
 
 ## [Liferay Symposium Spain](http://www.liferay.com/web/spain2014)
 * *When:* October, 22
 * *Where:* Madrid - Spain
 * *Attendees:* ≈270
-* *Social Media:* [Participation summary](https://storify.com/zenorocha/2014-10-22-liferay-spain-symposium)
-* *Presentations:* [Liferay + Wearables](http://www.slideshare.net/zenorocha/liferay-wearables-39939452) and [The Future of Web Development](http://www.slideshare.net/zenorocha/future-of-web-development)
+* *Presentation:* [Liferay + Wearables](http://www.slideshare.net/zenorocha/liferay-wearables-39939452)
+* *Presentation:* [The Future of Web Development](http://www.slideshare.net/zenorocha/future-of-web-development)
+* *Social Media:* [Storify](https://storify.com/zenorocha/2014-10-22-liferay-spain-symposium)
 
 ## [HTML5 LA](http://www.meetup.com/HTML5LA/events/210157532/)
 * *When:* October, 10
@@ -67,7 +70,8 @@ Here you can find all my presentation slides/videos and also know where you can 
 * *When:* October, 05
 * *Where:* Boston, MA - USA
 * *Attendees:* ≈510
-* *Presentations:* [Liferay + Wearables](http://www.slideshare.net/zenorocha/liferay-wearables-39939452) and [The Future of Web Development](http://www.slideshare.net/zenorocha/future-of-web-development)
+* *Presentation:* [Liferay + Wearables](http://www.slideshare.net/zenorocha/liferay-wearables-39939452)
+* *Presentation:* [The Future of Web Development](http://www.slideshare.net/zenorocha/future-of-web-development)
 
 ## [W3C Web.br](http://conferenciaweb.w3c.br/)
 * *When:* September, 25
@@ -78,6 +82,7 @@ Here you can find all my presentation slides/videos and also know where you can 
 ## [TDC - The Developers Conference](http://www.thedevelopersconference.com.br/#saopaulo)
 * *When:* August, 05
 * *Where:* São Paulo, SP - Brazil
+* *Attendees:* ≈300
 * *Presentation:* [Tracking.js: Uma nova dimensão](http://www.slideshare.net/zenorocha/trackingjs)
 
 ## [Coding on Weekend](http://codingonweekend.com.br/)
@@ -111,13 +116,13 @@ Here you can find all my presentation slides/videos and also know where you can 
 ## [Front Trends](http://lanyrd.com/2014/fronttrends/)
 * *When:* May, 7
 * *Where:* Warsaw - Poland
-* *Attendees:* ?
+* *Attendees:* ≈250
 * *Presentation:* [A future called Web Components](https://speakerdeck.com/zenorocha/a-future-called-web-components) ([Video](http://vimeo.com/97308701))
 
 ## [Polymer at SFHTML5](http://bit.ly/sfhtml5-polymer)
 * *When:* April, 30
 * *Where:* San Francisco, CA - USA
-* *Attendees:* ?
+* *Attendees:* ≈700
 * *Presentation:* [Web Components: a chance to create the future](https://speakerdeck.com/zenorocha/web-components-a-chance-to-create-the-future) ([Video](https://www.youtube.com/watch?v=JUzjr1bIRUg))
 
 ## [16º Encontro Locaweb](http://eventos.locaweb.com.br/16o-encontro-locaweb-de-profissionais-de-internet-curitiba/)
@@ -138,14 +143,14 @@ Here you can find all my presentation slides/videos and also know where you can 
 * *Presentation:* [A future called Web Components](https://speakerdeck.com/zenorocha/a-future-called-web-components) ([Video](https://www.youtube.com/watch?v=TKYjzQ0T1q0))
 
 ## [Coding on Weekend](http://codingonweekend.com.br/)
-* *Attendees:* ≈20
 * *When:* February, 22
 * *Where:* São Paulo, SP - Brazil
+* *Attendees:* ≈20
 
 ## [Campus Party](http://lanyrd.com/2014/cpbr7/)
 * *When:* January, 30
 * *Where:* São Paulo, SP - Brazil
-* *Attendees:* ?
+* *Attendees:* ≈150
 * *Presentation:* [Como empreender em... você!](http://www.slideshare.net/zenorocha/keynote-30756562) ([Video](http://www.youtube.com/watch?v=S6APevEo2Yw))
 
 ## [Liferay São Paulo Meetup](http://www.meetup.com/Liferay-Sao-Paulo-User-Group/events/159837172/)
@@ -162,7 +167,7 @@ Here you can find all my presentation slides/videos and also know where you can 
 # ~ 2013
 ---
 
-18 talks and 3 workshops in 12 different cities.
+18 talks and 3 workshops. 12 different cities in 3 different countries.
 
 ## [HTML5 LA](http://lanyrd.com/2013/html5-los-angeles-2/)
 * *When:* December, 16
@@ -270,7 +275,7 @@ Here you can find all my presentation slides/videos and also know where you can 
 # ~ 2012
 ---
 
-24 talks in 13 different cities.
+24 talks. 13 different cities in 3 different countries.
 
 ## Liferay Retreat
 * *When:* December, 10

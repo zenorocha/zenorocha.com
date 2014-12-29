@@ -9,6 +9,10 @@ Here you can find all the projects that I did.
 
 # ~ 2014
 
+* [Senna](https://github.com/zenorocha/voice-elements)
+* [trackingjs.com](http://trackingjs.com/)
+* [Voice Elements](https://github.com/zenorocha/voice-elements)
+* [JavaScript & NodeJS Snippets for Atom](https://github.com/zenorocha/atom-javascript-snippets)
 * [Web Components - Chrome Extension](https://chrome.google.com/webstore/detail/web-components/filcobblndaenakhejinpjdblekilpgn)
 * [WebComponents.org](http://webcomponents.org)
 * [Generator Element](https://github.com/webcomponents/generator-element)

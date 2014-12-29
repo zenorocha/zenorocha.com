@@ -56,8 +56,8 @@ Here you can find all my presentation slides/videos and also know where you can 
 * *When:* October, 22
 * *Where:* Madrid - Spain
 * *Attendees:* ≈270
-* *Presentation:* [Liferay + Wearables](http://www.slideshare.net/zenorocha/liferay-wearables-39939452)
-* *Presentation:* [The Future of Web Development](http://www.slideshare.net/zenorocha/future-of-web-development)
+* *Presentation:* [Liferay + Wearables](http://www.slideshare.net/zenorocha/liferay-wearables-39939452) ([Video](https://www.youtube.com/watch?v=f9-wG8zvYM4))
+* *Presentation:* [The Future of Web Development](http://www.slideshare.net/zenorocha/future-of-web-development) ([Video](https://www.youtube.com/watch?v=dPDTshkh5IE))
 * *Social Media:* [Storify](https://storify.com/zenorocha/2014-10-22-liferay-spain-symposium)
 
 ## [HTML5 LA](http://www.meetup.com/HTML5LA/events/210157532/)
@@ -116,7 +116,7 @@ Here you can find all my presentation slides/videos and also know where you can 
 ## [Front Trends](http://lanyrd.com/2014/fronttrends/)
 * *When:* May, 7
 * *Where:* Warsaw - Poland
-* *Attendees:* ≈250
+* *Attendees:* ≈480
 * *Presentation:* [A future called Web Components](https://speakerdeck.com/zenorocha/a-future-called-web-components) ([Video](http://vimeo.com/97308701))
 
 ## [Polymer at SFHTML5](http://bit.ly/sfhtml5-polymer)

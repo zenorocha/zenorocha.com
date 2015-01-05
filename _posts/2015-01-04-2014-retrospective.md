@@ -1,13 +1,15 @@
 ---
 layout: post
 title: "&lt;/2014&gt;"
-description: ""
+description: "I love this part of the year, after all a new year is a new beginning, right? It's now a tradition: every year I try to list the things I've done (2011, 2012, 2013), this is a reminder to identify what decisions worked well and what was a disaster. For me, it's also the time to ask myself: 'Where do I wanna get in my career?' and after some thought into that comes the second question: 'What am I doing right now to achieve that?'"
 language: "en"
 ---
 
 I love this part of the year, after all a new year is a new beginning, right?
 
-It's now a tradition: every year I try to list the things I've done ([2011](http://zenorocha.com/entao-e-natal-e-ano-novo-tambem/), [2012](http://zenorocha.com/my-way/), [2013](http://zenorocha.com/o-que-eu-espero-para-2014/)), this is a reminder to identify what decisions worked well and what was a disaster. For me, it's also the time to ask myself: "Where do I wanna get in my career?" and after some thought into that comes the second question: "What I'm doing right now to achieve that?"
+It's now a tradition: every year I try to list the things I've done ([2011](http://zenorocha.com/entao-e-natal-e-ano-novo-tambem/), [2012](http://zenorocha.com/my-way/), [2013](http://zenorocha.com/o-que-eu-espero-para-2014/)), this is a reminder to identify what decisions worked well and what was a disaster. For me, it's also the time to ask myself: "Where do I wanna get in my career?" and after some thought into that comes the second question: "What am I doing right now to achieve that?"
+
+<!-- more -->
 
 2014 was the year when I officially made the shift towards a Developer Advocate career. I've been doing that for the past years but now it's official. Because of that, this year's selfish retrospective is going to be focused in the highlights and some numbers related to that.
 
@@ -16,8 +18,6 @@ It's now a tradition: every year I try to list the things I've done ([2011](http
 * [Podcasts](#2014-podcasts)
 * [Projects](#2014-projects)
 * [Videos](#2014-videos)
-
-<!-- more -->
 
 <h2 style="text-align: center;" id="2014-talks">Talks</h2>
 
@@ -156,5 +156,7 @@ I don't always record screencasts but when I do I try to do as polished as possi
 * **2014:** [Chrome DevTools](https://www.youtube.com/playlist?list=PLiGzvgwA5Gmgnq5vPjJxW52hDiX3ndL53) - 41,786 views
 
 <h2 style="text-align: center;">What's next?</h2>
+
+[Hard work](https://twitter.com/zenorocha/status/502005181161410561).
 
 2014 was amazing and I'm sure 2015 will bring even more exciting stuff. Thank you for reading and being a part of all this.

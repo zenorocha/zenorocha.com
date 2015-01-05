@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Why you should stop asking & answering technical questions via social networks"
+title: "Why you should stop asking &amp; answering technical questions via social networks"
 description: "When you start giving talks, creating open source projects, publishing articles or simply showing your work to the world, little by little people start to consider you as a reference on that particular subject..."
 language: "en"
 ---

@@ -7,6 +7,13 @@ description: List of all presentations
 
 Here you can find all my presentation slides/videos and also know where you can find me in the future.
 
+# Coming next!
+---
+
+## [Web Waves](http://webwvs.com/)
+* *When:* April, 11
+* *Where:* Tunis, Tunisia
+
 # ~ 2014
 ---
 

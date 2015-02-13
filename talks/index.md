@@ -14,6 +14,14 @@ Here you can find all my presentation slides/videos and also know where you can 
 * *When:* April, 11
 * *Where:* Tunis, Tunisia
 
+## [Chicago HTML5](http://www.meetup.com/chicago-html5/events/220468715/)
+* *When:* May, 12
+* *Where:* Chicago, IL - USA
+
+## [Polymer Workshop - Fresno College](http://www.fresnocitycollege.edu/)
+* *When:* June, 29 - July, 3
+* *Where:* Fresno, CA - USA
+
 # ~ 2014
 ---
 

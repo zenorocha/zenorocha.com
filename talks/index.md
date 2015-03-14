@@ -22,6 +22,10 @@ Here you can find all my presentation slides/videos and also know where you can 
 * *When:* June, 29 - July, 3
 * *Where:* Fresno, CA - USA
 
+## [MidwestJS](http://midwestjs.com/)
+* *When:* August, 12 - August, 14
+* *Where:* Minneapolis, MN - USA
+
 # ~ 2014
 ---
 

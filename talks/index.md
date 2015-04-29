@@ -10,21 +10,28 @@ Here you can find all my presentation slides/videos and also know where you can 
 # Coming next!
 ---
 
-## [Web Waves](http://webwvs.com/)
-* *When:* April, 11
-* *Where:* Tunis, Tunisia
-
 ## [Chicago HTML5](http://www.meetup.com/chicago-html5/events/220468715/)
 * *When:* May, 12
 * *Where:* Chicago, IL - USA
 
-## [Polymer Workshop - Fresno College](http://www.fresnocitycollege.edu/)
+## [Fresno City College](http://www.fresnocitycollege.edu/)
 * *When:* June, 29 - July, 3
 * *Where:* Fresno, CA - USA
 
 ## [MidwestJS](http://midwestjs.com/)
 * *When:* August, 12 - August, 14
 * *Where:* Minneapolis, MN - USA
+
+# ~ 2015
+---
+
+## [Smashing Conf](http://smashingconf.com/)
+* *When:* April, 27
+* *Where:* Los Angeles, CA - USA
+
+## [University of California, Riverside](http://acm.cs.ucr.edu/)
+* *When:* April, 17
+* *Where:* Riverside, CA - USA
 
 # ~ 2014
 ---

@@ -10,11 +10,7 @@ Here you can find all my presentation slides/videos and also know where you can 
 # Coming next!
 ---
 
-## [Chicago HTML5](http://www.meetup.com/chicago-html5/events/220468715/)
-* *When:* May, 12
-* *Where:* Chicago, IL - USA
-
-## [Fresno City College](http://www.fresnocitycollege.edu/)
+## [Summer Bootcamp](http://summerwebbootcamp.com/)
 * *When:* June, 29 - July, 3
 * *Where:* Fresno, CA - USA
 
@@ -25,9 +21,17 @@ Here you can find all my presentation slides/videos and also know where you can 
 # ~ 2015
 ---
 
+## [Chicago HTML5](http://www.meetup.com/chicago-html5/events/220468715/)
+* *When:* May, 12
+* *Where:* Chicago, IL - USA
+* *Presentation:* [A future called Web Components](https://speakerdeck.com/zenorocha/a-future-called-web-components)
+* *Coverage:* [Storify](https://storify.com/zenorocha/chicago-html5-may-2015)
+
 ## [Smashing Conf](http://smashingconf.com/)
 * *When:* April, 27
 * *Where:* Los Angeles, CA - USA
+* *Presentation:* [Crazy computer vision stuff in the browser](https://speakerdeck.com/zenorocha/crazy-computer-vision-stuff-in-the-browser)
+* *Coverage:* [Storify](https://storify.com/zenorocha/smashing-conf-april-2015)
 
 ## [University of California, Riverside](http://acm.cs.ucr.edu/)
 * *When:* April, 17
@@ -69,14 +73,14 @@ Here you can find all my presentation slides/videos and also know where you can 
 * *Where:* Los Angeles, CA - USA
 * *Attendees:* ≈70
 * *Presentation:* [A future called Web Components](https://speakerdeck.com/zenorocha/a-future-called-web-components) ([Video](https://vimeo.com/111191562))
-* *Social Media:* [Storify](https://storify.com/zenorocha/2014-10-30-jsla)
+* *Coverage:* [Storify](https://storify.com/zenorocha/jsla-october-2014)
 
 ## [SanDiego.js](http://www.meetup.com/sandiegojs/events/209916642/)
 * *When:* October, 28
 * *Where:* San Diego, CA - USA
 * *Attendees:* ≈40
 * *Presentation:* [A future called Web Components](https://speakerdeck.com/zenorocha/a-future-called-web-components)
-* *Social Media:* [Storify](https://storify.com/zenorocha/2014-10-28-sandiegojs)
+* *Coverage:* [Storify](https://storify.com/zenorocha/sandiegojs-october-2014)
 
 ## [Liferay Symposium Spain](http://www.liferay.com/web/spain2014)
 * *When:* October, 22
@@ -84,7 +88,7 @@ Here you can find all my presentation slides/videos and also know where you can 
 * *Attendees:* ≈270
 * *Presentation:* [Liferay + Wearables](http://www.slideshare.net/zenorocha/liferay-wearables-39939452) ([Video](https://www.youtube.com/watch?v=f9-wG8zvYM4))
 * *Presentation:* [The Future of Web Development](http://www.slideshare.net/zenorocha/future-of-web-development) ([Video](https://www.youtube.com/watch?v=dPDTshkh5IE))
-* *Social Media:* [Storify](https://storify.com/zenorocha/2014-10-22-liferay-spain-symposium)
+* *Coverage:* [Storify](https://storify.com/zenorocha/liferay-spain-symposium-october-2014)
 
 ## [HTML5 LA](http://www.meetup.com/HTML5LA/events/210157532/)
 * *When:* October, 10

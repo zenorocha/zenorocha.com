@@ -10,16 +10,32 @@ Here you can find all my presentation slides/videos and also know where you can 
 # Coming next!
 ---
 
-## [Summer Bootcamp](http://summerwebbootcamp.com/)
-* *When:* June, 29 - July, 3
-* *Where:* Fresno, CA - USA
+## [Nordic.JS](http://nordicjs.com/)
+* *When:* September, 10
+* *Where:* Stockholm - Sweden
 
-## [MidwestJS](http://midwestjs.com/)
-* *When:* August, 12 - August, 14
-* *Where:* Minneapolis, MN - USA
+## [Liferay Devcon](https://www.liferay.com/devcon)
+* *When:* October, 8
+* *Where:* Darmstadt - Germany
+
+## Liferay Symposium - North America
+* *When:* November, 16
+* *Where:* Chicago, IL - USA
+
+## ECO TI
+* *When:* November, 26
+* *Where:* Londrina, PR - Brazil
+
+## Liferay Symposium - South America
+* *When:* December, 2
+* *Where:* São Paulo, SP - Brazil
 
 # ~ 2015
 ---
+
+## [Summer Bootcamp](http://summerwebbootcamp.com/)
+* *When:* June, 29 - July, 3
+* *Where:* Fresno, CA - USA
 
 ## [Chicago HTML5](http://www.meetup.com/chicago-html5/events/220468715/)
 * *When:* May, 12

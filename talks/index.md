@@ -33,6 +33,11 @@ Here you can find all my presentation slides/videos and also know where you can 
 # ~ 2015
 ---
 
+## [Google Developer Group LA](http://www.meetup.com/gdg-la/)
+* *When:* July, 16
+* *Where:* Los Angeles, CA - USA
+* *Presentation:* [A future called Web Components](https://speakerdeck.com/zenorocha/a-future-called-web-components) ([Video](https://www.youtube.com/watch?v=FAguNB2Z3QU))
+
 ## [Summer Bootcamp](http://summerwebbootcamp.com/)
 * *When:* June, 29 - July, 3
 * *Where:* Fresno, CA - USA

@@ -10,15 +10,11 @@ Here you can find all my presentation slides/videos and also know where you can 
 # Coming next!
 ---
 
-## [Nordic.JS](http://nordicjs.com/)
-* *When:* September, 10
-* *Where:* Stockholm - Sweden
-
-## [Liferay Devcon](https://www.liferay.com/devcon)
+## [Liferay Devcon](https://www.liferay.com/web/events2015/devcon)
 * *When:* October, 8
 * *Where:* Darmstadt - Germany
 
-## Liferay Symposium - North America
+## [Liferay Symposium - North America](https://www.liferay.com/web/events2015/northamerica)
 * *When:* November, 16
 * *Where:* Chicago, IL - USA
 
@@ -26,12 +22,17 @@ Here you can find all my presentation slides/videos and also know where you can 
 * *When:* November, 26
 * *Where:* Londrina, PR - Brazil
 
-## Liferay Symposium - South America
+## [Liferay Symposium - South America](https://www.liferay.com/web/events2015/brazil)
 * *When:* December, 2
 * *Where:* São Paulo, SP - Brazil
 
 # ~ 2015
 ---
+
+## [Nordic.JS](http://nordicjs.com/)
+* *When:* September, 10
+* *Where:* Stockholm - Sweden
+* *Coverage:* [Storify](https://storify.com/zenorocha/nordic-js-september-2015)
 
 ## [Google Developer Group LA](http://www.meetup.com/gdg-la/)
 * *When:* July, 16

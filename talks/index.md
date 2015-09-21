@@ -14,6 +14,10 @@ Here you can find all my presentation slides/videos and also know where you can 
 * *When:* October, 8
 * *Where:* Darmstadt - Germany
 
+## [Devfest Fresno](http://devfest.gdgfresno.com/)
+* *When:* October, 17
+* *Where:* Fresno, CA - USA
+
 ## [Liferay Symposium - North America](https://www.liferay.com/web/events2015/northamerica)
 * *When:* November, 16
 * *Where:* Chicago, IL - USA
@@ -32,6 +36,7 @@ Here you can find all my presentation slides/videos and also know where you can 
 ## [Nordic.JS](http://nordicjs.com/)
 * *When:* September, 10
 * *Where:* Stockholm - Sweden
+* *Presentation:* [Crazy computer vision stuff in the browser](https://speakerdeck.com/zenorocha/crazy-computer-vision-stuff-in-the-browser) ([Video](https://www.youtube.com/watch?v=2NWssETxsPw))
 * *Coverage:* [Storify](https://storify.com/zenorocha/nordic-js-september-2015)
 
 ## [Google Developer Group LA](http://www.meetup.com/gdg-la/)

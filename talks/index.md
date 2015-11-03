@@ -10,21 +10,9 @@ Here you can find all my presentation slides/videos and also know where you can 
 # Coming next!
 ---
 
-## [Liferay Devcon](https://www.liferay.com/web/events2015/devcon)
-* *When:* October, 8
-* *Where:* Darmstadt - Germany
-
-## [Devfest Fresno](http://devfest.gdgfresno.com/)
-* *When:* October, 17
-* *Where:* Fresno, CA - USA
-
 ## [Liferay Symposium - North America](https://www.liferay.com/web/events2015/northamerica)
 * *When:* November, 16
 * *Where:* Chicago, IL - USA
-
-## ECO TI
-* *When:* November, 26
-* *Where:* Londrina, PR - Brazil
 
 ## [Liferay Symposium - South America](https://www.liferay.com/web/events2015/brazil)
 * *When:* December, 2
@@ -32,6 +20,18 @@ Here you can find all my presentation slides/videos and also know where you can 
 
 # ~ 2015
 ---
+
+## [Devfest LA](http://devfest.gdgla.org/)
+* *When:* October, 24
+* *Where:* Los Angeles, CA - USA
+
+## [Devfest Fresno](http://devfest.gdgfresno.com/)
+* *When:* October, 17
+* *Where:* Fresno, CA - USA
+
+## [Liferay Devcon](https://www.liferay.com/web/events2015/devcon)
+* *When:* October, 8
+* *Where:* Darmstadt - Germany
 
 ## [Nordic.JS](http://nordicjs.com/)
 * *When:* September, 10

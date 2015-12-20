@@ -7,7 +7,7 @@ link: "http://webcomponents.org/articles/end-of-first-quarter-2015/"
 nomore: true
 ---
 
-![End of first quarter 2015](http://webcomponents.org/img/stories/end-of-first-quarter-2015.jpg)
+![End of first quarter 2015](/assets/img/posts/end-of-first-quarter-2015.jpg)
 
 WebComponents.org is a community project. We truly believe that in order for something to be fully embraced by the community, it needs to be transparent. Starting from now, we're going to share statistics that are often not publicized by other open source projects.
 

@@ -7,7 +7,7 @@ link: "http://webcomponents.org/articles/end-of-second-quarter-2015/"
 nomore: true
 ---
 
-![End of second quarter 2015](http://webcomponents.org/img/stories/end-of-second-quarter-2015.jpg)
+![End of second quarter 2015](/assets/img/posts/end-of-second-quarter-2015.jpg)
 
 In the [past article](http://webcomponents.org/articles/end-of-first-quarter-2015), we saw some numbers from the first quarter. That was nice because we could see exactly what was happening on each channel: [Site](http://webcomponents.org/), [GitHub](https://github.com/webcomponents/webcomponents.github.io), and [Twitter](https://twitter.com/web_components/).
 

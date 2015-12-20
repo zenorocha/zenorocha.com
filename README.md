@@ -1,4 +1,4 @@
-# [zenorocha.com](http://zenorocha.com)
+# [zenorocha.com](https://zenorocha.com)
 
 My personal website where I talk about front-end development like HTML5, CSS3 and JavaScript.
 

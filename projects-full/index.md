@@ -7,6 +7,17 @@ description: List of all projects
 
 Here you can find all the projects that I did.
 
+# ~ 2015
+
+* [Dracula](http://zenorocha.github.io/dracula-theme/)
+* [Clipboard.js](http://clipboardjs.com/)
+* [Select](https://www.npmjs.com/package/select)
+* [Delegate](https://www.npmjs.com/package/delegate)
+* [Good Listener](https://www.npmjs.com/package/good-listener)
+* [CustomElements.io](http://customelements.io/)
+* [Launchpad](http://liferay.io/)
+* [Metal.js](http://metaljs.com/)
+
 # ~ 2014
 
 * [Senna](https://github.com/zenorocha/voice-elements)

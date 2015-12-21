@@ -17,6 +17,8 @@ Here you can find all my presentation slides/videos and also know where you can 
 # ~ 2015
 ---
 
+11 talks and 1 workshop. 7 different cities in 4 different countries.
+
 ## [Liferay Symposium - South America](https://www.liferay.com/web/events2015/brazil)
 * *When:* December, 2
 * *Where:* São Paulo, SP - Brazil
@@ -28,6 +30,10 @@ Here you can find all my presentation slides/videos and also know where you can 
 ## [Devfest LA](http://devfest.gdgla.org/)
 * *When:* October, 24
 * *Where:* Los Angeles, CA - USA
+
+## FIAP DevDay
+* *When:* October, 20
+* *Where:* São Paulo, SP - Brazil
 
 ## [Devfest Fresno](http://devfest.gdgfresno.com/)
 * *When:* October, 17

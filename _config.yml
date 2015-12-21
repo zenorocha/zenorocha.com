@@ -18,8 +18,8 @@ paginate_path: 'blog/page:num'
 
 future:      true
 lsi:         false
-pygments:    false
-markdown:    maruku
+highlighter: pygments
+markdown:    kramdown
 permalink:   /:title
 paginate: 5
 

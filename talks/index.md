@@ -10,16 +10,20 @@ Here you can find all my presentation slides/videos and also know where you can 
 # Coming next!
 ---
 
-## [Liferay Symposium - North America](https://www.liferay.com/web/events2015/northamerica)
-* *When:* November, 16
-* *Where:* Chicago, IL - USA
+## [Jazoon](http://jazoon.com/)
+* *When:* April, 8
+* *Where:* Bern - Switzerland
+
+# ~ 2015
+---
 
 ## [Liferay Symposium - South America](https://www.liferay.com/web/events2015/brazil)
 * *When:* December, 2
 * *Where:* São Paulo, SP - Brazil
 
-# ~ 2015
----
+## [Liferay Symposium - North America](https://www.liferay.com/web/events2015/northamerica)
+* *When:* November, 16
+* *Where:* Chicago, IL - USA
 
 ## [Devfest LA](http://devfest.gdgla.org/)
 * *When:* October, 24

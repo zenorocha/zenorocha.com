@@ -338,34 +338,48 @@ ul#pagenav li a.adn {
 
 /* Social */
 
+
 .social-links {
-  width: 210px;
-  height: 34px;
-  display: block;
-  margin: 0 auto 35px;
-  padding: 0;
-  list-style: none;
+	height: 34px;
+	list-style: none;
+	margin: 0 auto;
+	padding: 0;
+	width: 220px
 }
 
 .social-links li {
-  float: left;
-  /*-webkit-transition: all 0.5s ease;
-	-moz-transition: all 0.5s ease;
-	-o-transition: all 0.5s ease;
-	transition: all 0.5s ease;*/
+	display:inline-block;
+	*display:inline;
+	zoom:1;
 }
 
 .social-links li a {
-  display: block;
-  width: 34px;
-  height: 34px;
-  outline: none;
-  margin: 0 4px;
-  background: transparent url(../img/social-links.png) no-repeat;
-  text-indent: -9000px;
-  position: relative;
-  border: none;
-  overflow: hidden;
+	background-color: #3790A4;
+	border-radius: 99px;
+	-webkit-border-radius: 99px;
+	-moz-border-radius: 99px;
+	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-ms-box-sizing: border-box;
+	-o-box-sizing: border-box;
+	color: #ffffff;
+	display: block;
+	font-family: 'si';
+	font-size: 20px;
+	font-style: normal;
+	font-weight: 400;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	height: 34px;
+	line-height: 35px;
+	margin-right: 5px;
+	overflow: hidden;
+	text-align: center;
+	text-decoration: none;
+	position: relative;
+	width: 34px;
+	z-index: 1;
 }
 
 .social-links li:nth-child(2n+2):hover {
@@ -383,11 +397,21 @@ ul#pagenav li a.adn {
 	transform: rotate(-5deg);
 }
 
-.social-links li .social-rss { background-position: 0px 0px; }
-.social-links li .social-email { background-position: -42px 0px; }
-.social-links li .social-twitter { background-position: -84px 0px; }
-.social-links li .social-facebook { background-position: -126px 0px; }
-.social-links li .social-github { background-position: -168px 0px; }
+.social-twitter:before {
+	content: 'a';
+}
+.social-facebook:before {
+	content: 'b';
+}
+.social-github:before {
+	content: 'Q';
+}
+.social-email:before {
+	content: '<';
+}
+.social-rss:before {
+	content: ',';
+}
 
 ul#pagenav li a.active {
 	background: none !important;
@@ -994,6 +1018,26 @@ a[rev="footnote"], sup a {
   font-weight: normal;
   font-style: normal;
 }
+
+@font-face {
+	font-family: 'si';
+	src: url('../font/socicon.eot');
+	src: url('../font/socicon.eot?#iefix') format('embedded-opentype'),
+	url('../font/socicon.woff') format('woff'),
+	url('../font/socicon.ttf') format('truetype'),
+	url('../font/socicon.svg#icomoonregular') format('svg');
+	font-weight: normal;
+	font-style: normal;
+
+}
+
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+	@font-face {
+		font-family:si;
+		src: url(../font/socicon.svg) format(svg);
+	}
+}
+
 
 /* --- Video Border --- */
 

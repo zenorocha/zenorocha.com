@@ -15,45 +15,55 @@ Here you can find all my presentation slides/videos and also know where you can 
 ## [Liferay Symposium - South America](https://www.liferay.com/web/events2015/brazil)
 * *When:* December, 2
 * *Where:* São Paulo, SP - Brazil
+* *Attendees:* ≈340
 
 ## [Liferay Symposium - North America](https://www.liferay.com/web/events2015/northamerica)
 * *When:* November, 16
 * *Where:* Chicago, IL - USA
+* *Attendees:* ≈600
 
 ## [Devfest LA](http://devfest.gdgla.org/)
 * *When:* October, 24
 * *Where:* Los Angeles, CA - USA
+* *Attendees:* ≈50
 
 ## FIAP DevDay
 * *When:* October, 20
 * *Where:* São Paulo, SP - Brazil
+* *Attendees:* ≈30
 
 ## [Devfest Fresno](http://devfest.gdgfresno.com/)
 * *When:* October, 17
 * *Where:* Fresno, CA - USA
+* *Attendees:* ≈50
 
 ## [Liferay Devcon](https://www.liferay.com/web/events2015/devcon)
 * *When:* October, 8
 * *Where:* Darmstadt - Germany
+* *Attendees:* ≈300
 
 ## [Nordic.JS](http://nordicjs.com/)
 * *When:* September, 10
 * *Where:* Stockholm - Sweden
 * *Presentation:* [Crazy computer vision stuff in the browser](https://speakerdeck.com/zenorocha/crazy-computer-vision-stuff-in-the-browser) ([Video](https://www.youtube.com/watch?v=2NWssETxsPw))
+* *Attendees:* ≈300
 * *Coverage:* [Storify](https://storify.com/zenorocha/nordic-js-september-2015)
 
 ## [Google Developer Group LA](http://www.meetup.com/gdg-la/)
 * *When:* July, 16
 * *Where:* Los Angeles, CA - USA
+* *Attendees:* ≈80
 * *Presentation:* [A future called Web Components](https://speakerdeck.com/zenorocha/a-future-called-web-components) ([Video](https://www.youtube.com/watch?v=FAguNB2Z3QU))
 
 ## [Summer Bootcamp](http://summerwebbootcamp.com/)
 * *When:* June, 29 - July, 3
 * *Where:* Fresno, CA - USA
+* *Attendees:* ≈20
 
 ## [Chicago HTML5](http://www.meetup.com/chicago-html5/events/220468715/)
 * *When:* May, 12
 * *Where:* Chicago, IL - USA
+* *Attendees:* ≈80
 * *Presentation:* [A future called Web Components](https://speakerdeck.com/zenorocha/a-future-called-web-components)
 * *Coverage:* [Storify](https://storify.com/zenorocha/chicago-html5-may-2015)
 
@@ -61,11 +71,13 @@ Here you can find all my presentation slides/videos and also know where you can 
 * *When:* April, 27
 * *Where:* Los Angeles, CA - USA
 * *Presentation:* [Crazy computer vision stuff in the browser](https://speakerdeck.com/zenorocha/crazy-computer-vision-stuff-in-the-browser)
+* *Attendees:* ≈200
 * *Coverage:* [Storify](https://storify.com/zenorocha/smashing-conf-april-2015)
 
 ## [University of California, Riverside](http://acm.cs.ucr.edu/)
 * *When:* April, 17
 * *Where:* Riverside, CA - USA
+* *Attendees:* ≈30
 
 # ~ 2014
 ---

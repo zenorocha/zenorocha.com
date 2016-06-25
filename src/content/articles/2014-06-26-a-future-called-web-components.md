@@ -1,0 +1,21 @@
+---
+title: "A future called Web Components"
+description: "During this year I've been doing talks about Web Components in many places. This one was special because it was in my first time in Warsaw, Poland on this really awesome event called Front Trends."
+language: "en"
+---
+
+<p>During this year I've been doing talks about Web Components in many places. This one was special because it was in my first time in Warsaw, Poland on this really awesome event called <a href="http://2014.front-trends.com/">Front Trends</a>.</p>
+
+<p>Slides are now available on <a href="https://speakerdeck.com/zenorocha/a-future-called-web-components">SpeakerDeck</a> and the video is on Vimeo.</p>
+
+<div class="video-wrap">
+  <iframe src="http://player.vimeo.com/video/97308701" frameborder="0" allowfullscreen="true">
+  </iframe>
+</div>
+
+<!-- more -->
+
+<div class="video-wrap">
+  <iframe src="http://player.vimeo.com/video/96197683" frameborder="0" allowfullscreen="true">
+  </iframe>
+</div>

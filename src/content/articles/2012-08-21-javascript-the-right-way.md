@@ -1,0 +1,34 @@
+---
+title: JavaScript the Right Way
+oldUrl: http://blog.zenorocha.com/post/29927205539/javascript-the-right-way
+---
+
+<p><img src="http://media.tumblr.com/tumblr_m93xteQeai1qe3219.jpg"/></p>
+
+<p>Um problema que a comunidade PHP tem enfrentado nos últimos anos é a quantidade de tutoriais desatualizados que acabam propagando entre os iniciantes más práticas de desenvolvimento e códigos cheios de bug.</p>
+
+<p>Algumas semanas atrás compartilharam por aí um projeto chamado <a href="http://www.phptherightway.com/" target="_blank">PHP: The Right Way</a> que vem justamente para amenizar essa situação.</p>
+
+<p>Esse cenário não se difere muito na comunidade JavaScript. Tanto que após conhecer esse projeto, o <a href="http://oliveirawilliam.wordpress.com/" target="_blank">William Oliveira</a> puxou essa excelente iniciativa para preparar um guia equivalente só que para o JavaScript.</p>
+
+<!-- more -->
+
+<p>Dá só uma olhada:</p>
+
+<blockquote>
+
+<p><a href="http://jstherightway.com/" target="_blank">jstherightway.com</a></p>
+
+</blockquote>
+
+<p>Essa iniciativa marca o primeiro apoio da <a href="http://braziljs.org" target="_blank">BrazilJS Foundation</a> em um projeto open source, que também conta com o apoio de outras marcas como <a href="http://apiki.com/">Apiki</a> e <a href="http://imasters.com.br/">iMasters</a>.</p>
+
+<p>Tudo isso começou há pouco tempo e qualquer ajuda será bem-vinda. Por isso sinta-se convidado para participar desse projeto lá no nosso Github.</p>
+
+<blockquote>
+
+<p><a href="http://github.com/braziljs/js-the-right-way" target="_blank">github.com/braziljs/js-the-right-way</a></p>
+
+</blockquote>
+
+<p>E é isso! Vamos continuar fomentando o front-end por aí e mostrando todo o potencial que o Brasil tem.</p>

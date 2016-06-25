@@ -1,0 +1,11 @@
+---
+title: JSConf Argentina
+oldUrl: http://blog.zenorocha.com/post/28437122681/on-may-20th-i-made-a-presentation-introducing
+---
+
+<div class="video-wrap">
+  <iframe src="http://blip.tv/play/AYL_pwUC.html?p=1" frameborder="0" allowfullscreen="true">
+  </iframe>
+</div>
+
+<p>On May 20th, I made a presentation <a href="http://talks.zenorocha.com/jsconf/" target="_blank">Introducing Canvas, SVG &amp; WebGL</a> at <a href="http://jsconf.com.ar" target="_blank">JSConf Latin America</a>. I also wrote <a href="/relato-jsconfar" target="_blank">an article (in portuguese)</a> telling how was my experience in Argentina. Well, now the video is online! \o/ </p>

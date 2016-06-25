@@ -1,0 +1,122 @@
+---
+title: Conversores de Flash em HTML5 e a disputa entre Google e Adobe
+oldUrl: http://blog.zenorocha.com/post/7503734229/conversores-de-flash-em-html5-e-a-disputa-entre-google
+---
+
+<p><img src="http://media.tumblr.com/tumblr_lnvzxjaOFe1qe3219.jpg"/></p>
+
+<p>Um dos recentes lançamentos da Google reavivou a briguinha Flash vs HTML5. Seu nome é <a href="http://swiffy.googlelabs.com/" target="_blank">Swiffy </a>e é mais um que entra pra galeria dos conversores de Flash para HTML5, <span>abrindo inúmeras possibilidades para dispositivos móveis</span>.</p>
+
+<p>Entenda como funcionam esses conversores e se vale mesmo a pena usá-los hoje.</p>
+
+<!-- more -->
+
+<hr><h2>Google Swiffy</h2>
+
+<p><img src="http://media.tumblr.com/tumblr_lnw1ljf6Td1qe3219.jpg"/></p>
+
+<p>Junto com a recente maré de lançamentos da Google que trouxeram diversas novidades como <a href="https://plus.google.com" target="_blank">Google+</a>, veio também o <a href="http://swiffy.googlelabs.com/" target="_blank">Swiffy</a>. A ferramenta, disponível no Google Labs, está em fase de testes, mas já converte arquivos SWF 8 e ActionScript 2.0 para rodar em navegadores que aceitam HMTL 5.</p>
+
+<p>A Google disponibilizou algumas demonstrações de arquivos convertidos pela ferramenta.</p>
+
+<p><strong>Animação original em Flash</strong></p>
+
+<div class="video-wrap">
+  <iframe src="http://www.youtube.com/embed/http://swiffy.googlelabs.com/gallery/example4.swf" frameborder="0" allowfullscreen="true">
+  </iframe>
+</div>
+
+<p><strong>Animação convertida com Swiffy</strong></p>
+
+<p>
+  <iframe class="video-wrap" src="http://swiffy.googlelabs.com/gallery/example4_swiffy.html" width="500" height="300">
+  </iframe>
+</p>
+
+<p>Surpreendente não? E olha que esse é apenas um dos exemplos disponíveis na <a href="http://swiffy.googlelabs.com/gallery.html" target="_blank">galeria</a> dos caras. </p>
+
+<p>Mas que tal testarmos com algo &#8220;real&#8221;, porque certamente esses arquivos foram feitos sob medida pela equipe de desenvolvimento para uma conversão perfeita.</p>
+
+<p>Pra isso queria escolher alguma coisa legal, quem sabe um exemplo do <a href="http://www.box2dflash.org/" target="_blank">Box2D</a>.</p>
+
+<p>
+  <iframe class="video-wrap" src="http://labs.zenorocha.com/conversor/swf/box2d.swf" width="500" height="276">
+  </iframe>
+</p>
+
+<p>Porém, vamos tirando o cavalinho da chuva porque o conversor só funciona com arquivos feitos em ActionScript 3 e não AS2. Portanto, decidi montar um exemplo simples e que atendesse todos os pré-requisitos mínimos para uma boa conversão.</p>
+
+<p>
+  <iframe class="video-wrap" src="http://labs.zenorocha.com/conversor/swf/torpedo.swf" width="500" height="450">
+  </iframe>
+</p>
+
+<p>E&#8230;tam tam tam&#8230;</p>
+
+<p>O tão esperado resultado.</p>
+
+<p>
+  <iframe class="video-wrap" src="http://labs.zenorocha.com/conversor/swf/torpedo.html" width="500" height="450">
+  </iframe>
+</p>
+
+<p>Longe de estar satisfatório certo?</p>
+
+<p>Além disso, esse conversor da Google está mais para um conversor de SWF em WebKit do que outra coisa.</p>
+
+<p>O que eu quero dizer é que mesmo se sua conversão tiver funcionado 100% (o que não foi meu caso), ainda sim você terá que abrir seu HTML5 gerado no Chrome ou no Safari. </p>
+
+<hr><h2>Adobe Wallaby</h2>
+
+<p><img src="http://media.tumblr.com/tumblr_lnw1arknKr1qe3219.jpg"/></p>
+
+<p>Demonstrada numa conferência da empresa no ano passado, a Adobe liberou para o público em março a ferramenta <a target="_blank" href="http://labs.adobe.com/technologies/wallaby/">Wallaby</a>, pioneira na conversão de arquivos no formato .fla para páginas usando HTML5.</p>
+
+<p>Seu algoritmo foca em reutilizar partes de um arquivo Flash no HTML onde o código produzido possa ser editado pelo usuário. Diferentemente do Swiffy que gera um formato eficiente para as máquinas, porém torna extremamente difícil sua edição.</p>
+
+<p>Confira <a href="http://my.adobe.acrobat.com/p46197453?launcher=false&amp;fcsContent=true&amp;pbMode=normal" target="_blank">aqui</a> o vídeo de introdução da ferramenta feito pelo pessoal da adobe.</p>
+
+<p>Agora vamos ao que interessa, nosso teste de conversão.</p>
+
+<p><span>Pra começar, outro ponto que difere a ferramenta da Google para essa é justamente o tipo de entrada da conversão. Enquanto, o <strong>Swiffy</strong> usa arquivos .swf, o <strong>Wallaby </strong>utiliza arquivos .fla.</span></p>
+
+<p>Lembrando que estes arquivos .fla devem ser gerados apenas na versão CS5 do Flash.</p>
+
+<p><span><img src="http://media.tumblr.com/tumblr_lo6pe7o8FB1qe3219.jpg"/></span></p>
+
+<p>Para o teste com a ferramenta da Adobe utilizei aquele mesmo jogo acima do Torpedo.</p>
+
+<p>
+  <iframe class="video-wrap" src="http://labs.zenorocha.com/conversor/swf/wallaby.html" width="500" height="450">
+  </iframe>
+</p>
+
+<p>É&#8230;nada muito legal certo?</p>
+
+<p>Além disso, outra característica que difere ao Swiffy é quanto a plataforma. O <strong>Wallaby </strong>não roda no navegador, é preciso baixar o software que só está disponível para sistemas operacionais Mac ou Windows. Ou seja, nós usuários Linux nos demos mal novamente.</p>
+
+<ul class="iconmarker-16x16 stamp-fileinfo"><li><a href="http://download.macromedia.com/pub/labs/wallaby/wallaby_p1_mac_030811.dmg" target="_blank">Download Wallaby para Mac</a> (DMG, 29.6&#160;MB)</li>
+
+<li><a href="http://download.macromedia.com/pub/labs/wallaby/wallaby_p1_win_030811.exe" target="_blank">Download Wallaby para Windows</a> (EXE, 13.5&#160;MB)</li>
+
+</ul><hr><h2>Adobe vs Google</h2>
+
+<p>E quem ganha essa briga no fim das contas?</p>
+
+<p>Você, eu, todos nós (principalmente os reféns do Steve Jobs).<br/>A web cresce com aplicações mais ricas e interativas em dispositivos móveis.</p>
+
+<p>Mas por favor, não caia nesse papinho sensacionalista de que agora a Google se aliou a Apple para acabar a Adobe, assim como eu <a href="http://appadvice.com/appnn/2011/06/google-now-helping-apple-kill-adobe-flash-once-and-for-all" target="_blank">vi em alguns blogs por ai</a>.</p>
+
+<p>Tudo o que a Google faz tem um objetivo bem claro por trás. Nesse caso, o interesse nesse tipo de ferramenta, busca claramente levar seus anúncios do Google Adsense para atingir um maior público que utiliza dispositivos móveis, gerando assim mais $$$. Ponto final.</p>
+
+<hr><h2>Conclusão</h2>
+
+<p>Assim que a notícia de um conversor de Flash em HTML5 surge, todo entusiasta de HTML5 pensa: &#8220;Wow, agora sim o Flash morre de vez!&#8221;</p>
+
+<p>Take it easy, brothaa.</p>
+
+<p>Por mais que esses conversores mostrem exemplos incríveis, a realidade está longe de ser eficaz no âmbito comercial. Pelo menos hoje, diria até que está longe de ser no mínimo aceitável.</p>
+
+<p>De qualquer forma, o primeiro passo foi dado e agora só nós resta esperar pelo desenvolvimento dessas ferramentas. Até porque não se pode julgar muito ferramentas em fase de desenvolvimento.</p>
+
+<p>E você já utilizou alguma dessas ferramentas? O que acha dessa história toda?</p>

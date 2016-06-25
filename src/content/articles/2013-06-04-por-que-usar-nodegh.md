@@ -1,0 +1,15 @@
+---
+title: "Por que usar o Node GH?"
+description: "Ontem eu e Eduardo Lundgren lançamos um novo projeto open source chamado Node GH. Se você é heavy user de GitHub como eu, não deixe de conferir esse vídeo para entender como funciona."
+---
+
+<p>Ontem eu e <a href="http://twitter.com/eduardolundgren">Eduardo Lundgren</a>
+  lançamos um novo projeto open source chamado <a href="http://nodegh.io/">Node
+  GH</a>. Se você é heavy user de GitHub como eu, não deixe de conferir esse
+  vídeo para entender como funciona.</p>
+
+<div class="video-wrap">
+  <iframe src="http://www.youtube.com/embed/DaE98OR85rs">
+  </iframe>
+</div>
+

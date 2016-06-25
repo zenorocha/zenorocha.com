@@ -1,0 +1,28 @@
+---
+title: BrazilJS Weekly
+oldUrl: http://blog.zenorocha.com/post/30099307477/braziljs-weekly
+---
+
+<p><img src="http://media.tumblr.com/tumblr_m99x24Vquc1qe3219.jpg"/></p>
+
+<p>Hoje muita gente acordou com novidade em suas caixas de email, foi a primeira edição da <a href="http://braziljs.org/weekly/1.html" target="_blank">BrazilJS Weekly</a> \o/</p>
+
+<p>Inspirado nesse modelo semanal de compilação de conteúdo, resolvemos trazer para o público cadastrado na <a href="http://braziljs.org/" target="_blank">BrazilJS Foundation</a>, o que acontece de melhor no Brasil quando o assunto é JavaScript, seja front-end ou back-end.</p>
+
+<!-- more -->
+
+<p>Se você não recebeu, confira a versão <a href="http://braziljs.org/weekly/1.html" target="_blank">online</a>.</p>
+
+<p>E se deseja receber as próximas edições, é só se cadastrar no site da <a href="http://braziljs.org" target="_blank">BrazilJS Foundation</a>.</p>
+
+<h2>Como funciona?</h2>
+
+<p>Toda semana vamos sair à procura dos melhores artigos, das melhores bibliotecas ou ferramentas, dos melhores vídeos de palestras, dos melhores eventos e das melhores vagas de emprego que estão rolando por aí.</p>
+
+<p>Não vai ser fácil, vamos precisar da ajuda de todos vocês nesse trabalho de garimpo, portanto fiquem à vontade para enviar links e sugestões no <a href="http://twitter.com/braziljs" target="_blank">Twitter</a>, <a href="http://facebook.com/braziljs" target="_blank">Facebook</a> ou <a href="https://groups.google.com/forum/?fromgroups#!forum/braziljs-foundation" target="_blank">Lista de email</a>.</p>
+
+<h2>E aí, gostaram?</h2>
+
+<p>Sabemos que tem muita coisa para melhorar ainda, por isso gostaríamos de ouvir o seu feedback. Como podemos melhorar? Gostou do projeto?</p>
+
+<p>Lembrando também que o código, como sempre, está no <a href="http://github.com/braziljs/weekly" target="_blank">Github</a> e aberto para contribuições.</p>

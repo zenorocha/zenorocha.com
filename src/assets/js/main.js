@@ -1,13 +1,28 @@
 document.addEventListener('DOMContentLoaded', function() {
-  initNavbar();
-  fixHeroHeight();
+  var app = senna.dataAttributeHandler.getApp();
+  app.on('endNavigate', navigate);
+
+  navigate();
 });
+
+function navigate() {
+  initNavbar();
+  trackPageViews();
+  fixHeroHeight();
+}
 
 // Keeps the primary navigation in close proximity to the user
 // by fixing it when scrolling up and disappearing when scrolling down
+var headroom;
+
 function initNavbar() {
   var header = document.querySelector('.site-header');
-  var headroom  = new Headroom(header, {
+
+  if (headroom) {
+    headroom.destroy();
+  }
+
+  headroom = new Headroom(header, {
     offset: 0,
     tolerance: 10,
     classes: {
@@ -22,6 +37,15 @@ function initNavbar() {
   });
 
   headroom.init();
+}
+
+// Since Google Analytics only tracks page loads, we need to send a page view
+// event every time Senna navigates to another page
+function trackPageViews() {
+  if (ga) {
+    ga('set', 'page', event.path);
+    ga('send', 'pageview');
+  }
 }
 
 // Converts hero image's height to pixels in order

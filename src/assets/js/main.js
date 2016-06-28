@@ -1,15 +1,15 @@
 document.addEventListener('DOMContentLoaded', function() {
   var app = senna.dataAttributeHandler.getApp();
-  app.on('endNavigate', navigate);
 
-  navigate();
-});
+  app.on('endNavigate', function(event) {
+    initNavbar();
+    fixHeroHeight();
+    trackPageViews(event);
+  });
 
-function navigate() {
   initNavbar();
-  trackPageViews();
   fixHeroHeight();
-}
+});
 
 // Keeps the primary navigation in close proximity to the user
 // by fixing it when scrolling up and disappearing when scrolling down
@@ -41,7 +41,7 @@ function initNavbar() {
 
 // Since Google Analytics only tracks page loads, we need to send a page view
 // event every time Senna navigates to another page
-function trackPageViews() {
+function trackPageViews(event) {
   if (ga) {
     ga('set', 'page', event.path);
     ga('send', 'pageview');

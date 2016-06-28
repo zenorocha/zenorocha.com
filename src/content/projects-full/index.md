@@ -1,15 +1,18 @@
 ---
-layout: page
-title: Projects / Full List
-class: all-projects
-description: List of all projects
+layout: article.html
+title: Projects
+tagline: Work. Hobby. Same thing.
+image: /assets/images/computer-opt.jpg
 ---
 
-Here you can find all the projects that I did.
+# 2016
 
-# ~ 2015
+* [Browser Calories](http://browserdiet.com/calories)
+* [DevSpace](http://devspace.io)
 
-* [Dracula](http://zenorocha.github.io/dracula-theme/)
+# 2015
+
+* [Dracula](http://draculatheme.com/)
 * [Clipboard.js](http://clipboardjs.com/)
 * [Select](https://www.npmjs.com/package/select)
 * [Delegate](https://www.npmjs.com/package/delegate)
@@ -18,7 +21,7 @@ Here you can find all the projects that I did.
 * [Launchpad](http://liferay.io/)
 * [Metal.js](http://metaljs.com/)
 
-# ~ 2014
+# 2014
 
 * [Senna](https://github.com/zenorocha/voice-elements)
 * [trackingjs.com](http://trackingjs.com/)
@@ -34,7 +37,7 @@ Here you can find all the projects that I did.
 * [X-Tag Boilerplate](https://github.com/webcomponents/x-tag-boilerplate)
 * [Polymer Boilerplate](https://github.com/webcomponents/polymer-boilerplate)
 
-# ~ 2013
+# 2013
 
 * [JavaScript & NodeJS Snippets for Sublime Text](https://atom.io/packages/javascript-snippets)
 * [Dracula Theme](http://zenorocha.github.io/dracula-theme/)
@@ -48,7 +51,7 @@ Here you can find all the projects that I did.
 * [alloyui.com](http://alloyui.com/)
 * [jQuery Github](http://zenorocha.github.com/jquery-github/)
 
-# ~ 2012
+# 2012
 
 * [Conf Boilerplate](http://confboilerplate.com/)
 * [trackingjs.com](http://trackingjs.com/)
@@ -57,7 +60,7 @@ Here you can find all the projects that I did.
 * [Santos pelo Mundo](http://estatico.globoesporte.globo.com/santos-pelo-mundo/)
 * [Santos 100 anos](http://estatico.globoesporte.globo.com/santos-em-10-decadas/)
 
-# ~ 2011
+# 2011
 
 * [Messi vs Neymar](http://globoesporte.globo.com/futebol/mundial-de-clubes/messi-vs-neymar.html)
 * [Corinthians](http://globoesporte.globo.com/futebol/times/corinthians/timaocampeao.html)
@@ -67,7 +70,7 @@ Here you can find all the projects that I did.
 * [BeerBlogging](http://beerblogging.org/)
 * Shop 126 - Winter 2011
 
-# ~ 2010
+# 2010
 
 * [Grão Arquitetura](http://www.grao.arq.br/)
 * [Guerra e Paz](http://www.guerraepaz.org.br/)
@@ -84,7 +87,7 @@ Here you can find all the projects that I did.
 * Shop 126 - Winter 2010
 * [Mosaico Mantiqueira](http://www.mosaicomantiqueira.org.br/)
 
-# ~ 2009
+# 2009
 
 * [Brasil tem jeito](http://brasiltemjeito.org/)
 * [Antonia Rodrigues](http://www.antoniarodrigues.com.br/)

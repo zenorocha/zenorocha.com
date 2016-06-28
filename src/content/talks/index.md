@@ -1,14 +1,29 @@
 ---
-layout: page
+layout: article.html
 title: Talks
-class: talks
-description: List of all presentations
+tagline: 9 countries. 52 talks.
+image: /assets/images/map-opt.jpg
 ---
 
 Here you can find all my presentation slides/videos and also know where you can find me in the future.
 
-# ~ 2015
----
+Want me to speak at your event? Send a message to <a href="mailto:hi@zenorocha.com">hi@zenorocha.com</a> :)
+
+# 2016
+
+## [Nation.js](http://nationjs.com/)
+* *When:* September, 16
+* *Where:* Washington - USA
+
+## [Liferay Symposium - North America](https://web.liferay.com/web/events2016/northamerica/)
+* *When:* September, 26
+* *Where:* Chicago, IL - USA
+
+## [Liferay DevCon](https://web.liferay.com/web/events2016/devcon/)
+* *When:* November, 14
+* *Where:* Darmstadt - Germany
+
+# 2015
 
 11 talks and 1 workshop. 7 different cities in 4 different countries.
 
@@ -79,8 +94,7 @@ Here you can find all my presentation slides/videos and also know where you can 
 * *Where:* Riverside, CA - USA
 * *Attendees:* ≈30
 
-# ~ 2014
----
+# 2014
 
 21 talks and 4 workshops. 18 different cities in 8 different countries.
 
@@ -236,8 +250,7 @@ Here you can find all my presentation slides/videos and also know where you can 
 * *Where:* Belo Horizonte, MG - Brazil
 * *Attendees:* ≈20
 
-# ~ 2013
----
+# 2013
 
 18 talks and 3 workshops. 12 different cities in 3 different countries.
 
@@ -345,8 +358,7 @@ Here you can find all my presentation slides/videos and also know where you can 
 * *Where:* São Paulo, SP - Brazil
 * *Presentation:* [Layouts Responsivos](http://www.slideshare.net/bernarddeluna/pdf-apresentacaolayoutsresponsivos) ([Video](http://www.youtube.com/watch?v=ty7zj37gaBI))
 
-# ~ 2012
----
+# 2012
 
 24 talks. 13 different cities in 3 different countries.
 
@@ -479,8 +491,7 @@ Here you can find all my presentation slides/videos and also know where you can 
 * *Attendees:* ≈130
 * *Presentation:* [Como usar HTML5 sem uma máquina do tempo](http://talks.zenorocha.com/2012/beagajs/)
 
-# ~ 2011
----
+# 2011
 
 4 talks. 1 country in 4 different cities.
 
@@ -508,8 +519,7 @@ Here you can find all my presentation slides/videos and also know where you can 
 * *Attendees:* ≈50
 * *Presentation:* [Criando projetos robustos com HTML5](http://www.slideshare.net/zenorocha/construindo-projetos-robustos-em-html5)
 
-# ~ 2010
----
+# 2010
 
 And suddenly I started to give presentations...
 

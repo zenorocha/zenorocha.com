@@ -63,7 +63,7 @@ twitterwidget {
   text-decoration: none;
   letter-spacing: 2px;
   padding: 10px 20px;
-  font-family: 'Neuzeit Grotesk Bold';
+  font-family: 'Neuzeit Grotesk Bold', sans-serif;
 }
 
 .top .site-nav {
@@ -299,7 +299,7 @@ svg {
 }
 
 .post-title {
-  font-family: 'Poppins Bold';
+  font-family: 'Poppins Bold', sans-serif;
   text-align: center;
 }
 
@@ -323,7 +323,7 @@ svg {
 .post-subtitle {
   color: #fff;
   font-size: 16px;
-  font-family: 'Poppins Light';
+  font-family: 'Poppins Light', sans-serif;
   font-weight: 300;
   text-transform: uppercase;
   text-align: center;

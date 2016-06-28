@@ -1,7 +1,7 @@
 ---
 title: "Layouts Responsivos na Campus Party 2013"
 description: "Há 3 anos atrás peguei um ônibus até São Paulo para acampar no evento mais gigantesco que já tinha ido, foi uma experiência muito legal. Essa semana eu voltei, só que dessa vez para palestrar."
-image: /assets/img/posts/cpbr6.jpg
+image: /img/posts/cpbr6.jpg
 slug: layouts-responsivos
 ---
 
@@ -27,7 +27,7 @@ Caso queira consultar os slides, aqui estão eles.
 
 Vale destacar que fruto dessa palestra, também nasceu um experimento, o [Responsive Sanfona](http://html5-pro.com/sanfona/)!
 
-[Responsive Sanfona](/assets/img/posts/responsive-sanfona.jpg)
+[Responsive Sanfona](/img/posts/responsive-sanfona.jpg)
 
 ## Referências
 

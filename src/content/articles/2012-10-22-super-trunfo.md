@@ -1,6 +1,6 @@
 ---
 title: 'Super Trunfo - Um case de Dados Abertos'
-image: /assets/img/posts/super-trunfo.jpg
+image: /img/posts/super-trunfo.jpg
 slug: super-trunfo
 ---
 
@@ -41,7 +41,7 @@ O problema é que nenhum dos dois tinha experiência com a obtenção de Dados A
 
 Viramos diversas noites desenvolvendo e enfim chegamos ao resultado!
 
-[![](/assets/img/posts/super-trunfo-sc.jpg)](http://apps.facebook.com/super-trunfo)
+[![](/img/posts/super-trunfo-sc.jpg)](http://apps.facebook.com/super-trunfo)
 
 Depois foi subir no palco e apresentar o case na conferência.
 

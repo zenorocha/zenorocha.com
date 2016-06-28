@@ -4,7 +4,7 @@ description: "WebComponents.org is a community project. We truly believe that in
 language: "en"
 link: "http://webcomponents.org/articles/end-of-first-quarter-2015/"
 nomore: true
-image: /assets/img/posts/end-of-first-quarter-2015.jpg
+image: /img/posts/end-of-first-quarter-2015.jpg
 slug: wcorg-end-of-first-quarter
 ---
 

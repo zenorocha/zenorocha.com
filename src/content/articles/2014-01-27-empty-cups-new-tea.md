@@ -2,7 +2,7 @@
 title: "Empty Cup, New Tea"
 description: "Since I joined GitHub on Sep 14, 2010 I've been creating open source projects like there's no tomorrow. Several of them ended up being very easy to maintain but there are few which requires tons of energy. Some of those projects are very important to the community and, in the last few months, I didn't have time enough to take care of them the way they deserve. So I needed to fix that."
 language: "en"
-image: /assets/images/new-tea.jpg
+image: /images/new-tea.jpg
 slug: empty-cups-new-tea
 ---
 
@@ -27,7 +27,7 @@ review pull requests and implement new stuff. And here I am to announce them.
 
 ## [Browser Diet](http://browserdiet.com)
 
-![Browser Diet](/assets/img/posts/browser-diet.jpg)
+![Browser Diet](/img/posts/browser-diet.jpg)
 
 [Browser Diet](http://browserdiet.com) is a very special project for me, perhaps
 the most important that I led last year. It's now translated to 7 different
@@ -41,7 +41,7 @@ He's a passionated developer and I'm sure he'll take good care of it.
 
 ## [Conf Boilerplate](http://braziljs.github.io/conf-boilerplate)
 
-![Conf Boilerplate](/assets/img/posts/confb.jpg)
+![Conf Boilerplate](/img/posts/confb.jpg)
 
 When I first started this project with [Bernard De
 Luna](https://github.com/bernarddeluna/), we wanted to provide the easiest
@@ -54,7 +54,7 @@ Emer](https://github.com/jcemer) will handle that.
 
 ## [jQuery Boilerplate](http://jqueryboilerplate.com)
 
-![jQuery Boilerplate](/assets/img/posts/jqbp.jpg)
+![jQuery Boilerplate](/img/posts/jqbp.jpg)
 
 Oh, my first open source experience. [jQuery
 Boilerplate](http://jqueryboilerplate.com) taught so many things, which makes
@@ -69,7 +69,7 @@ level.
 
 ## [BrazilJS.org](http://braziljs.org)
 
-![BrazilJS.org](/assets/img/posts/braziljsorg.jpg)
+![BrazilJS.org](/img/posts/braziljsorg.jpg)
 
 Another project that needs attention is BrazilJS Foundation's website. Whenever
 you want to find out about what front-end events will happen in Brazil, that's

@@ -2,7 +2,7 @@
 title: "Chromebook: First Impressions"
 description: "Recently I received a special gift for BrazilJS Foundation from the hands of Renato Mangini, Developer Relations at Google, a Chromebook. The computer is extremely fast and the operation system is different from all I ever used. So today I'm here to tell my first impressions about it."
 language: "en"
-image: /assets/img/posts/chromebook.jpg
+image: /img/posts/chromebook.jpg
 ---
 
 _[Leia em Português.](http://imasters.com.br/tecnologia/gadgets/chromebook-primeiras-impressoes/)_
@@ -30,7 +30,7 @@ I travel a lot, so when I think about buying a laptop there are two items on my 
 
 The keyboard has some extra buttons that shows how this OS is focusing on web. There are buttons to go back in a browser history, go forward and refresh a page. Besides them, there is search button where we usually see a _caps lock_ button. Touchpad doesnt't present nothing new.
 
-![Chromebook - Keyboard](/assets/img/posts/chromebook-keyboard.jpg)
+![Chromebook - Keyboard](/img/posts/chromebook-keyboard.jpg)
 
 ## Operation System
 
@@ -40,7 +40,7 @@ Google developed a specific OS to run on those Chromebook called ChromeOS and no
 
 Once you turn on your computer you realize how booting is extremely fast, around 5 seconds. Then is time to login using your Google Account. As soon as you're authenticated all your history at Google's products are imported. Anyone can log in any Chromebook and have access to your entire environment the way it was in the case of breaking, dropping in the river, a car passing over, forgetting on taxi, etc..
 
-![Chromebook - Login](/assets/img/posts/chromebook-login.jpg)
+![Chromebook - Login](/img/posts/chromebook-login.jpg)
 
 ### File System
 
@@ -51,7 +51,7 @@ They tried to make things easier on the entire OS and it couldn't be different f
 
 And that's it!
 
-![Chromebook - Filesystem](/assets/img/posts/chromebook-filesystem.jpg)
+![Chromebook - Filesystem](/img/posts/chromebook-filesystem.jpg)
 
 The HD has only 16GB, while Google Drive offers 100GB free. A bet that in the future you will not have more files on your machine, everything will be in the cloud.
 
@@ -65,7 +65,7 @@ What also impresses is how all Google services are interconnected. If you need t
 
 If something is missing just go to [Chrome Web Store](https://chrome.google.com/webstore?hl=pt-br).
 
-![Chromebook - WebApps](/assets/img/posts/chromebook-webapps.jpg)
+![Chromebook - WebApps](/img/posts/chromebook-webapps.jpg)
 
 ## Conclusion
 

@@ -4,7 +4,7 @@ description: "In a world where you can create your own tag and distribute it wit
 language: "en"
 link: "https://medium.com/@zenorocha/discoverability-for-web-components-72ce29f128b2"
 nomore: true
-image: /assets/img/posts/discoverability-for-web-components.png
+image: /img/posts/discoverability-for-web-components.png
 ---
 
 In a world where you can create your own `<awesome-button>` tag and distribute it with a simple `<link rel="import" href="awesome-button.html">`, a whole range of options for composability and reusability emerges.

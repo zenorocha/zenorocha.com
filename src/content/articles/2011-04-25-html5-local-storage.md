@@ -1,6 +1,6 @@
 ---
 title: HTML5 - Local Storage
-image: /assets/images/html5.jpg
+image: /images/html5.jpg
 ---
 
 <!-- <p class="demo-download"><a href="http://labs.zenorocha.com/html5/local-storage/" target="_blank"><img class="botao" src="http://media.tumblr.com/tumblr_lk325lvHwF1qe3219.png"/></a> <a href="https://github.com/zenorocha/HTML5-Local-Storage" target="_blank"><img class="botao" src="http://media.tumblr.com/tumblr_lk325u7HMG1qe3219.png"/></a></p> -->

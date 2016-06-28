@@ -1,6 +1,6 @@
 ---
 title: "2015: The year I moved to California"
-image: /assets/images/ikea-opt.jpg
+image: /images/ikea-opt.jpg
 ---
 
 Moving to another country means starting a life from zero. I knew that before getting myself into it, but you only realize how hard it is when you actually do it.
@@ -57,7 +57,7 @@ Surprisingly enough, the most impactful piece of text I wrote this year was not 
 
 However, my favorite one was written couple weeks ago, just before New Year's. It's called ["What are you waiting for?"](https://medium.com/@zenorocha/what-are-you-waiting-for-46037938837a) and took me months to put that thought on paper.
 
-![Zeno in Yosemite](/assets/img/posts/2015-post.jpg)
+![Zeno in Yosemite](/img/posts/2015-post.jpg)
 
 ### Stats
 
@@ -78,19 +78,19 @@ That worked pretty well but I just can't stop creating new things :P
 
 Super proud of what we accomplished not only in terms of UI but also in terms of infrastructure. *[Read more about this launch](https://blog.customelements.io/discoverability-for-web-components-72ce29f128b2#.jhli9xh57).*
 
-![CustomElements.io](/assets/img/posts/2015-customelements.jpg)
+![CustomElements.io](/img/posts/2015-customelements.jpg)
 
 **[Clipboard.js](http://clipboardjs.com)**, launched in September.
 
 By far the most popular project I made this year. Widely praised and adopted by huge players like Bootstrap 4. *[Read more about this launch](https://medium.com/@zenorocha/how-did-clipboard-js-get-5000-stars-in-a-few-days-2b2248ba7bd8#.jvdey5bpu).*
 
-![Logo: clipboardjs.com](/assets/img/posts/2015-clipboard.jpg)
+![Logo: clipboardjs.com](/img/posts/2015-clipboard.jpg)
 
 **[Dracula Theme](http://zenorocha.github.io/dracula-theme/)**, redesigned in October.
 
 A little piece built during Halloween.
 
-![Logo: dracula theme](/assets/img/posts/2015-dracula.jpg)
+![Logo: dracula theme](/img/posts/2015-dracula.jpg)
 
 ### Stats
 

@@ -3,7 +3,7 @@ title: 'Dive into HTML5: 100% traduzido!'
 link: 'http://www.maujor.com/blog/2012/12/02/dive-into-html5-100-traduzido/'
 ---
 
-<!-- <p><a href="http://www.maujor.com/blog/2012/12/02/dive-into-html5-100-traduzido/"><img src="/assets/img/posts/diveintohtml5-traduzido.jpg"/></a></p> -->
+<!-- <p><a href="http://www.maujor.com/blog/2012/12/02/dive-into-html5-100-traduzido/"><img src="/img/posts/diveintohtml5-traduzido.jpg"/></a></p> -->
 
 *Publicado originalmente no blog do Maujor.*
 

@@ -2,7 +2,7 @@
 layout: article.html
 title: Projects
 tagline: Work. Hobby. Same thing.
-image: /assets/images/computer-opt.jpg
+image: /images/computer-opt.jpg
 ---
 
 # 2016

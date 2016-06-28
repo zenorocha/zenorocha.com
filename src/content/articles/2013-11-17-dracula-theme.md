@@ -2,7 +2,7 @@
 title: 'Dracula Theme'
 link: 'http://zenorocha.github.io/dracula-theme/'
 language: 'en'
-image: /assets/img/posts/dracula-sublime.png
+image: /img/posts/dracula-sublime.png
 ---
 
 I always wanted to create my own Sublime Text theme... now I finally have it! And I would love to

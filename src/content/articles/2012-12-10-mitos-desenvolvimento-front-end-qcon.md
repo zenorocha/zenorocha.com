@@ -1,7 +1,7 @@
 ---
 title: 'Palestra - Mitos do desenvolvimento front-end'
 link: 'http://www.infoq.com/br/presentations/mitos-desenvolvimento-frontend'
-image: /assets/img/posts/mitos.jpg
+image: /img/posts/mitos.jpg
 slug: mitos-desenvolvimento-front-end-qcon
 ---
 

@@ -1,6 +1,6 @@
 ---
 title: What are you waiting for?
-image: /assets/images/what-are-you-waiting-for-opt.jpg
+image: /images/what-are-you-waiting-for-opt.jpg
 ---
 
 One characteristic that is present in most of us is to never be satisfied with life. Just look around, from the poorest to the richest, there is always something to be accomplished or something to complain.

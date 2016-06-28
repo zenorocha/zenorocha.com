@@ -1,7 +1,7 @@
 ---
 title: "Curso prático de HTML5 no Rio e São Paulo"
 description: "Depois de mais de um ano planejando um curso bacana e diferente dos convencionais do mercado, consegui junto com o Bernard De Luna chegar a um modelo inovador, que acreditamos ser ideal para você que quer aprender as novas tecnologias front-end."
-image: /assets/img/posts/cow.jpg
+image: /img/posts/cow.jpg
 slug: coding-on-weekend
 ---
 

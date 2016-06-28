@@ -1,6 +1,6 @@
 ---
 title: BlackBerry Jam Session
-image: /assets/img/posts/bb-jamsession.jpg
+image: /img/posts/bb-jamsession.jpg
 ---
 
 Aqui estou eu, novamente contando sobre as experiências que tenho vivido por aí. Dessa vez vou voltar algumas semanas atrás no tempo para falar do primeiro Hackathon de verdade que eu participei. Digo "primeiro de verdade" porque nos outros eu não competi, fiquei só conversando com o pessoal.
@@ -13,7 +13,7 @@ Foi o [BlackBerry Jam Session #5](http://blackberryjamsessions.com/2012/10/04/ri
 
 A brincadeira começou um dia antes do evento em si. Apesar de ter ganho o aparelho BlackBerry 10 Dev Alpha algumas semanas antes do Hackathon, não tive tempo sequer de ligar ele direito e como bom brasileiro deixei tudo para última hora.
 
-![](/assets/img/posts/bb-devalpha.jpg)
+![](/img/posts/bb-devalpha.jpg)
 
 O dia anterior ao Hackathon foi importante para configurar o ambiente de desenvolvimento e tudo mais que fosse necessário para que não se perdesse horas valiosas do dia seguinte configurando ambiente ao invés de desenvolver o produto.
 
@@ -31,11 +31,11 @@ No fim, ainda era preciso fazer uma apresentação de apenas 3 minutos demonstra
 
 Conseguimos levar o prêmio de melhor game!
 
-![](/assets/img/posts/bb-time.jpg)
+![](/img/posts/bb-time.jpg)
 
 Nosso time focou em entregar algo funcional e passível de ser publicado na loja de aplicativos naquele curto espaço de tempo. Conseguimos e de quebra nos divertimos muito fazendo esse joguinho em HTML5\. O resultado vocês podem conferir clicando na imagem abaixo.
 
-<p><a href="http://html5-pro.com/black-wings/"><img src="/assets/img/posts/bb-wings.jpg"/></a></p>
+<p><a href="http://html5-pro.com/black-wings/"><img src="/img/posts/bb-wings.jpg"/></a></p>
 
 ## Próximos passos
 

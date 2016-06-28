@@ -3,7 +3,7 @@ module.exports = {
   destination: 'dist',
   assets: {
     source: 'src/assets',
-    destination: './assets'
+    destination: '.'
   },
   filemetadata: [
     {

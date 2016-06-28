@@ -2,7 +2,7 @@
 title: "Why did I create Browser Diet?"
 description: "We developers talk a lot about HTML5, CSS3, EcmaScript 6 news that we almost forget to talk about other things that are also very important, but aren't as novelty just like web performance. After a huge effort, we finally launched a community-driven performance guide called browserdiet.com and today I'm here to share my experience leading this awesome project."
 language: "en"
-image: /assets/images/browserdiet.jpg
+image: /images/browserdiet.jpg
 slug: browser-diet
 ---
 
@@ -58,7 +58,7 @@ slug: browser-diet
 
 <p><em>PS: My <a href="https://speakerdeck.com/zenorocha/como-perder-peso-no-browser/">slides are also online</a> for those who weren't there.</em></p>
 
-<script async class="speakerdeck-embed" data-id="31ed55c06ab8013086e822000a8f982b" data-ratio="1.33333333333333" src="//speakerdeck.com/assets/embed.js"></script>
+<script async class="speakerdeck-embed" data-id="31ed55c06ab8013086e822000a8f982b" data-ratio="1.33333333333333" src="//speakerdeck.com/embed.js"></script>
 
 <h2>Conclusion?</h2>
 

@@ -1,7 +1,7 @@
 ---
 title: "Segredos do Chrome DevTools"
 description: "Conheça a série de 10 vídeos que vai te transformar em um ninja em DevTools"
-image: /assets/images/devtools.jpg
+image: /images/devtools.jpg
 slug: devtools-series
 ---
 

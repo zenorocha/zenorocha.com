@@ -6,7 +6,7 @@ Chrome Summit for approximately 200 people in Mountain View and fortunately all
 presentations were recorded, so I picked some of my favorite ones to share with
 you today."
 language: "en"
-image: /assets/img/posts/chrome-dev-summit.jpg
+image: /img/posts/chrome-dev-summit.jpg
 ---
 
 Last month I had the opportunity to be in the best event I've ever attended. [Peter Lubbers](https://twitter.com/peterlubbers) and his team made an incridible job organizing the first [Chrome Dev Summit](http://developer.chrome.com/devsummit) for approximately 200 people in Mountain View and fortunately all presentations were recorded, so I picked some of my favorite ones to share with you today.

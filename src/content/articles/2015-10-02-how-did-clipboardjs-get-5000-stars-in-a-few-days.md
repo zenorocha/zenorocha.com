@@ -4,7 +4,7 @@ description: "On Monday I open sourced a SUPER simple 'Copy to Clipboard' librar
 language: "en"
 link: "https://medium.com/@zenorocha/how-did-clipboard-js-get-5000-stars-in-a-few-days-2b2248ba7bd8"
 nomore: true
-image: /assets/img/posts/clipboard-5k.jpg
+image: /img/posts/clipboard-5k.jpg
 ---
 
 On Monday I open sourced a SUPER simple [Copy to Clipboard library](https://clipboardjs.com/).

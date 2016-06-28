@@ -2,7 +2,7 @@
 title: "I'm the #50 most active contributor on Github, so what?"
 description: "Today, Paul Miller released a list of the Most active GitHub users. People started to talk about it and suddenly I received a lot of congratulations messages for being the #50 most active contributor on Github. I was pretty surprised, since there's almost 3 million users on Github and even because Linus Torvalds, creator of Linux, was behind me! That was pretty nice for my ego, but let me explain what this ranking means for real."
 language: "en"
-image: /assets/img/posts/octoparty.jpg
+image: /img/posts/octoparty.jpg
 slug: most-active-contributors-on-github
 ---
 
@@ -40,7 +40,7 @@ That's why you have to break your tasks into sub tasks. It seems like a basic th
 
 ## 1st place
 
-![OctoTJ](/assets/img/posts/octotj.jpg)
+![OctoTJ](/img/posts/octotj.jpg)
 
 If I had to guess who's going to be in the top of this list, that would be TJ ([@visionmedia](http://github.com/visionmedia)).
 

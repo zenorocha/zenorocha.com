@@ -7,7 +7,7 @@ most active contributor on GitHub, contributed to HTML5Please and Yeoman, and is
 creator of BrowserDiet and Wormz. We chatted to him to find out more..."
 link: 'http://www.creativebloq.com/netmag/zeno-rocha-talks-github-web-components-and-coding-live-stage-21410625'
 language: "en"
-image: /assets/img/posts/netawards-interview.jpg
+image: /img/posts/netawards-interview.jpg
 slug: netmag-awards-interview
 ---
 

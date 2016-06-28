@@ -1,7 +1,7 @@
 ---
 title: "Participação em dois novos livros"
 description: "Essa semana foram lançados dois novos livros nos quais eu tive a felicidade de ajudar. Ambos abordam temáticas muito atuais e relevantes para o mercado de desenvolvimento na web e me proporcionaram uma experiência muito legal."
-image: /assets/img/posts/livros.jpg
+image: /img/posts/livros.jpg
 slug: participacoes-livros
 ---
 

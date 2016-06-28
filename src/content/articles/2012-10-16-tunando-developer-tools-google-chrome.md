@@ -1,6 +1,6 @@
 ---
 title: 'Tunando o Developer Tools do Google Chrome'
-image: /assets/img/posts/monokai.jpg
+image: /img/posts/monokai.jpg
 slug: tunando-developer-tools-google-chrome
 ---
 

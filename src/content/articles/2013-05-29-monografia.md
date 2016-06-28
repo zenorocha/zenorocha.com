@@ -15,7 +15,7 @@ legal e muito relevante, por isso gostaria de compartilhar com vocês.
 
 <!-- more -->
 
-[Colação de Grau](/assets/img/posts/monografia.jpg)
+[Colação de Grau](/img/posts/monografia.jpg)
 
 ## Tema
 

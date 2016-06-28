@@ -4,7 +4,7 @@ description: "In the past article, we saw some numbers from the first quarter. T
 language: "en"
 link: "http://webcomponents.org/articles/end-of-second-quarter-2015/"
 nomore: true
-image: /assets/img/posts/end-of-second-quarter-2015.jpg
+image: /img/posts/end-of-second-quarter-2015.jpg
 slug: wcorg-end-of-second-quarter
 ---
 

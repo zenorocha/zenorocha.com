@@ -1,98 +1,82 @@
 ---
 title: HTML5 - Async Scripts
-oldUrl: http://blog.zenorocha.com/post/10361104170/html5-async-scripts
+image: http://media.tumblr.com/tumblr_lrovdkNq881qe3219.jpg
 ---
 
-<p><img src="http://media.tumblr.com/tumblr_lrovdkNq881qe3219.jpg"/></p>
+<!-- <p class="demo-download"><a href="http://labs.zenorocha.com/html5/script" target="_blank"><img class="botao" src="http://media.tumblr.com/tumblr_lk325lvHwF1qe3219.png"/></a> <a href="https://github.com/zenorocha/HTML5-Script" target="_blank"><img class="botao" src="http://media.tumblr.com/tumblr_lk325u7HMG1qe3219.png"/></a> -->
 
-<p class="demo-download"><a href="http://labs.zenorocha.com/html5/script" target="_blank"><img class="botao" src="http://media.tumblr.com/tumblr_lk325lvHwF1qe3219.png"/></a> <a href="https://github.com/zenorocha/HTML5-Script" target="_blank"><img class="botao" src="http://media.tumblr.com/tumblr_lk325u7HMG1qe3219.png"/></a></p>
+O volume de mudanças que a [nova especificação do HTML](http://www.w3.org/TR/html5/scripting-1.html#attr-script-async) propõe para tag `<script>` é pequeno, mas chama atenção por resolver antigos problemas de performance.
 
-<p>O volume de mudanças que a <a href="http://www.w3.org/TR/html5/scripting-1.html#attr-script-async" target="_blank">nova especificação do HTML</a> propõe para tag &lt;script&gt; é pequeno, mas chama atenção por resolver antigos problemas de performance.</p>
+Nesse artigo vamos entender quais são esses problemas e dar uma passada geral nas mudanças que o HTML5 propõe para essa tag.
 
-<p>Nesse artigo vamos entender quais são esses problemas e dar uma passada geral nas mudanças que o HTML5 propõe para essa tag.</p>
+<!--more-->
 
-<!-- more -->
+## type
 
-<hr><h2>type</h2>
+Pra começar, lembra do famoso _type=text/javascript_?
 
-<p>Pra começar, lembra do famoso <em>type=text/javascript</em>?</p>
+Então, pode esquecer ele. A declaração desse [MIME type](http://pt.wikipedia.org/wiki/MIME) antes obrigatório no HTML4, se tornou opcional no HTML5, isso é claro, se você utilizar javascript ali dentro.
 
-<p>Então, pode esquecer ele. A declaração desse <a href="http://pt.wikipedia.org/wiki/MIME" target="_blank">MIME type</a> antes obrigatório no HTML4, se tornou opcional no HTML5, isso é claro, se você utilizar javascript ali dentro.</p>
+## language
 
-<hr><h2>language</h2>
+O antigo atributo _language,_ ainda visto em sistemas legados, agora está depreciado devido a nunca ter se tornado um padrão de fato.
 
-<p><span>O antigo atributo <em>language,</em> ainda visto em sistemas legados, agora está depreciado devido a nunca ter se tornado um padrão de fato.</span></p>
+## O velho problema de performance dos scripts
 
-<p><span> </span></p>
+Quaisquer arquivos javascript quando carregados utilizando a tag `<script>` são bloqueantes por natureza.
 
-<hr><h2>O velho problema de performance dos scripts</h2>
+Enquanto é feito o download e execução do script todo o processo de parser do DOM é bloqueado, impedindo a renderização do resto da página. E olha que isso se aplicada a cada tag de script contida na página.
 
-<p>Quaisquer arquivos javascript quando carregados utilizando a tag &lt;script&gt; são bloqueantes por natureza.</p>
+A [especificação do HTTP/1.1](http://www.w3.org/Protocols/rfc2616/rfc2616-sec8.html#sec8.1.4) diz que os navegadores não devem proceder com downloads de mais de 2 componentes em paralelo por host.
 
-<p>Enquanto é feito o download e execução do script todo o processo de parser do DOM é bloqueado, impedindo a renderização do resto da página. E olha que isso se aplicada a cada tag de script contida na página.</p>
+Uma famosa técnica de otimização de velocidade é servir imagens em múltiplos hosts, assim você consegue mais de dois downloads ocorrendo em paralelo. Entretanto, quando se trata de script o browser não irá iniciar nenhum outro download, enquanto o script é baixado, mesmo que em hosts diferentes.
 
-<p>A <a href="http://www.w3.org/Protocols/rfc2616/rfc2616-sec8.html#sec8.1.4" target="_blank">especificação do HTTP/1.1</a> diz que os navegadores não devem proceder com downloads de mais de 2 componentes em paralelo por host.</p>
+Navegadores antigos, fazem o carregamento dos scripts um após o outro, veja como funciona no Firefox 3.0.
 
-<p>Uma famosa técnica de otimização de velocidade é servir imagens em múltiplos hosts, assim você consegue mais de dois downloads ocorrendo em paralelo. Entretanto, quando se trata de script o browser não irá iniciar nenhum outro download, enquanto o script é baixado, mesmo que em hosts diferentes.</p>
+![](http://media.tumblr.com/tumblr_lrq5znRVSb1qe3219.gif)
 
-<p>Navegadores antigos, fazem o carregamento dos scripts um após o outro, veja como funciona no Firefox 3.0.</p>
+Alguns browsers já fazem downloads em paralelo, mas o problema de renderização persiste.
 
-<p><img src="http://media.tumblr.com/tumblr_lrq5znRVSb1qe3219.gif"/></p>
+## async & defer
 
-<p>Alguns browsers já fazem downloads em paralelo, mas o problema de renderização persiste.</p>
+Os atributos booleanos _async_ e _defer_ vêm para gerenciar exatamente esse tipo de problema. Ou seja, scripts bloqueantes nunca mais.
 
-<p><span> </span></p>
+Para facilitar o entendimento, vou explicar como seria o funcionamento na prática de cada uma dessas linhas:
 
-<hr><h2>async &amp; defer</h2>
+```
+<script src="exemplo.js"></script>
+```
 
-<p>Os atributos booleanos <em>async</em> e <em>defer</em> vêm para gerenciar exatamente esse tipo de problema. Ou seja, scripts bloqueantes nunca mais.</p>
+A página aguarda o script terminar de carregar antes de continuar sua renderização e sua execução é feita imediatamente após. Isso pode aumentar significativamente o tempo de carregamento da página.
 
-<p><span>Para facilitar o entendimento, vou explicar como seria o funcionamento na prática de cada uma dessas linhas:</span></p>
+```
+<script async src="exemplo.js"></script>
+```
 
-<pre class="prettyprint lang-html">&lt;script src="exemplo.js"&gt;&lt;/script&gt;</pre>
+O download do script é feito de forma assíncrona enquanto o processo de renderização da página continua a ser feito. O script é executado depois que o download estiver completo.
 
-<p>A página aguarda o script terminar de carregar antes de continuar sua renderização e sua execução é feita imediatamente após. Isso pode aumentar significativamente o tempo de carregamento da página.</p>
+```
+<script defer src="exemplo.js"></script>
+```
 
-<pre class="prettyprint lang-html">&lt;script async src="exemplo.js"&gt;&lt;/script&gt;</pre>
+Assim como o exemplo acima, o download do script é feito de forma assíncrona. Mas sua execução se dá apenas quando todo o processo de renderização estiver concluído.
 
-<p>O download do script é feito de forma assíncrona enquanto o processo de renderização da página continua a ser feito. O script é executado depois que o download estiver completo.</p>
+```
+<script async defer src="exemplo.js"></script>
+```
 
-<pre class="prettyprint lang-html">&lt;script defer src="exemplo.js"&gt;&lt;/script&gt;</pre>
+Nesse caso, o _async_ prevalece e o _defer_ é ignorado. Isso possibilita que os desenvolvedores possam usar _async_ em browsers que o suportam, mas proporciona um fallback com _defer_ para os browsers que não suportam o _async_.
 
-<p>Assim como o exemplo acima, o download do script é feito de forma assíncrona. Mas sua execução se dá apenas quando todo o processo de renderização estiver concluído.</p>
+## Compatibilidade
 
-<pre class="prettyprint lang-html">&lt;script async defer src="exemplo.js"&gt;&lt;/script&gt;</pre>
+[![](http://media.tumblr.com/tumblr_lroul8WafP1qe3219.jpg)](http://caniuse.com/script-async) A implementação do atributo _async_ continua lenta em alguns navegadores. A Microsoft, por exemplo, só [anunciou o suporte para este atributo na versão 10](http://msdn.microsoft.com/en-us/ie/hh272905) que nem foi lançada ainda. Melhor do que o Opera que nem previsão de suporte oferece. [![](http://media.tumblr.com/tumblr_lroundIovj1qe3219.jpg)](http://caniuse.com/script-defer) Já para o atributo _defer_ a história é outra, sua implementação pela Microsoft é antiga e outros players têm se adaptado há pouco tempo.
 
-<p>Nesse caso, o <em>async</em> prevalece e o <em>defer</em> é ignorado. Isso possibilita que os desenvolvedores possam usar <em>async</em> em browsers que o suportam, mas proporciona um fallback com <em>defer</em> para os browsers que não suportam o <em>async</em>.</p>
+## Conclusão
 
-<p><span> </span></p>
+Com essa possibilidade de carregar scripts de forma assíncrona, seria a morte dos famosos _script loaders_, como [HeadJS](http://headjs.com/) e o [LABjs](http://labjs.com/)? Essa é uma questão interessante, pois eles chegaram no mercado justamente com o intuito de resolver o problema dos scripts bloqueantes, mas sua permanência ainda deve continuar por um bom tempo. Primeiro por conta do suporte precário de alguns browsers para essas propriedades e segundo porque eles propõe outras funcionalidades bem interessantes. Por exemplo, alguns já combinam todos seus scripts em um só, assim apenas uma requisição HTTP é feita ao servidor, outros possibilitam controles de dependência. O fato é que, acabando ou não com os _scripts loaders_, esses atributos por mais simples que pareçam vão proporcionar aplicações com muito mais performance para todos nós. HTML5 sem javascript, é como assistir o Tom sem o Jerry, por isso que uma forma otimizada de fazer seu carregamento se mostra tão relevante. 
 
-<hr><h2>Compatibilidade</h2>
+## Referências
 
-<p><a href="http://caniuse.com/script-async" target="_blank"><img src="http://media.tumblr.com/tumblr_lroul8WafP1qe3219.jpg"/></a></p>
-
-<p>A implementação do atributo <em>async</em> continua lenta em alguns navegadores. A Microsoft, por exemplo, só <a href="http://msdn.microsoft.com/en-us/ie/hh272905" target="_blank">anunciou o suporte para este atributo na versão 10</a> que nem foi lançada ainda. Melhor do que o Opera que nem previsão de suporte oferece.</p>
-
-<p><a href="http://caniuse.com/script-defer" target="_blank"><img src="http://media.tumblr.com/tumblr_lroundIovj1qe3219.jpg"/></a></p>
-
-<p>Já para o atributo <em>defer</em> a história é outra, sua implementação pela Microsoft é antiga e outros players têm se adaptado há pouco tempo.</p>
-
-<hr><h2>Conclusão</h2>
-
-<p>Com essa possibilidade de carregar scripts de forma assíncrona, seria a morte dos famosos <em>script loaders</em>, como <a href="http://headjs.com/" target="_blank">HeadJS</a> e o <a href="http://labjs.com/" target="_blank">LABjs</a>?</p>
-
-<p>Essa é uma questão interessante, pois eles chegaram no mercado justamente com o intuito de resolver o problema dos scripts bloqueantes, mas sua permanência ainda deve continuar por um bom tempo.</p>
-
-<p>Primeiro por conta do suporte precário de alguns browsers para essas propriedades e segundo porque eles propõe outras funcionalidades bem interessantes. Por exemplo, alguns já combinam todos seus scripts em um só, assim apenas uma requisição HTTP é feita ao servidor, outros possibilitam controles de dependência.</p>
-
-<p>O fato é que, acabando ou não com os <em>scripts loaders</em>, esses atributos por mais simples que pareçam vão proporcionar aplicações com muito mais performance para todos nós. HTML5 sem javascript, é como assistir o Tom sem o Jerry, por isso que uma forma otimizada de fazer seu carregamento se mostra tão relevante. </p>
-
-<hr><h2>Referências</h2>
-
-<ul><li><a href="http://developer.yahoo.com/performance/rules.html" target="_blank">Best Practices for Speeding Up Your Web Site - Yahoo Developer Network</a></li>
-
-<li><a href="http://www.webkit.org/blog/1395/running-scripts-in-webkit/" target="_blank">Running Scripts in WebKit - The WebKit Open Source Project</a></li>
-
-<li><a href="http://code.google.com/intl/en/speed/index.html" target="_blank">Let&#8217;s make the web faster - Google Code</a></li>
-
-</ul>
+* [Best Practices for Speeding Up Your Web Site - Yahoo Developer Network](http://developer.yahoo.com/performance/rules.html)
+* [Running Scripts in WebKit - The WebKit Open Source Project](http://www.webkit.org/blog/1395/running-scripts-in-webkit/)
+* [Let’s make the web faster - Google Code](http://code.google.com/intl/en/speed/index.html)

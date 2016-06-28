@@ -1,49 +1,48 @@
 ---
 title: A vida além do jQuery - Tech Talk
-oldUrl: http://blog.zenorocha.com/post/29872945048/a-vida-alem-do-jquery-tech-talk
+image: http://media.tumblr.com/tumblr_m8t5ikct1b1qe3219.jpg
+slug: a-vida-alem-do-jquery
 ---
 
-<p><img src="http://media.tumblr.com/tumblr_m8t5ikct1b1qe3219.jpg"/></p>
+Quando anunciei minha vinda para Recife, muita gente veio me perguntar se eu vinha pra algum evento ou algo do tipo.
 
-<p>Quando anunciei minha vinda para Recife, muita gente veio me perguntar se eu vinha pra algum evento ou algo do tipo.</p>
-
-<p>Isso me despertou para a carência de alguma iniciativa de reunir a comunidade local. Tanto que a última coisa que tinha movimentado bastante foi o <a href="http://pernambucojs.com" target="_blank">PernambucoJS</a>, em abril, e de lá pra cá nada muito relevante rolou por aqui.</p>
+Isso me despertou para a carência de alguma iniciativa de reunir a comunidade local. Tanto que a última coisa que tinha movimentado bastante foi o [PernambucoJS](http://pernambucojs.com), em abril, e de lá pra cá nada muito relevante rolou por aqui.
 
 <!-- more -->
 
-<p>A convite de um pessoal daqui cheguei até visitar os alunos da faculdade Unibratec e hoje acabo de voltar de uma visita aos alunos da Marista.</p>
+A convite de um pessoal daqui cheguei até visitar os alunos da faculdade Unibratec e hoje acabo de voltar de uma visita aos alunos da Marista.
 
-<p>Mas como estou estudando <a href="http://yuilibrary.com" target="_blank">YUI</a> ultimamente, resolvi puxar algo para reunir os desenvolvedores e discutir esse assunto de forma mais aprofundada.</p>
+Mas como estou estudando [YUI](http://yuilibrary.com) ultimamente, resolvi puxar algo para reunir os desenvolvedores e discutir esse assunto de forma mais aprofundada.
 
-<p>Assim que divulgamos o <a href="http://www.facebook.com/events/274730295965383/" target="_blank">evento no Facebook</a> notamos o grande interesse, tanto que precisamos dividir em dois dias e recorrer ao <a href="http://eventick.com.br/a-vida-alem-do-jquery-16-08" target="_blank">EventTick</a> para gerenciar os convidados.</p>
+Assim que divulgamos o [evento no Facebook](http://www.facebook.com/events/274730295965383/) notamos o grande interesse, tanto que precisamos dividir em dois dias e recorrer ao [EventTick](http://eventick.com.br/a-vida-alem-do-jquery-16-08) para gerenciar os convidados.
 
-<p>A repercussão extrapolou o Brasil e parou até no blog dos caras da Yahoo!</p>
+A repercussão extrapolou o Brasil e parou até no blog dos caras da Yahoo!
 
-<p><a href="http://www.yuiblog.com/blog/2012/08/15/yui-tech-talks-at-liferay-brasil-this-week/" target="_blank"><img src="http://media.tumblr.com/tumblr_m92pywt3sT1qe3219.jpg"/></a></p>
+[![](http://media.tumblr.com/tumblr_m92pywt3sT1qe3219.jpg)](http://www.yuiblog.com/blog/2012/08/15/yui-tech-talks-at-liferay-brasil-this-week/)
 
-<p>A seguir você pode conferir essa Tech Talk dividida em três partes.</p>
+A seguir você pode conferir essa Tech Talk dividida em três partes.
 
-<p>A primeira parte eu dou um panorama rápido do desenvolvimento front-end, na segunda Djalma Araújo (<a href="http://twitter.com/djalmaaraujo" target="_blank">@djalmaaraujo</a>) dá uma introdução ao <a href="http://yuilibrary.com" target="_blank">YUI3</a> e a terceira parte Eduardo Lundgren (<a href="http://twitter.com/eduardolundgren" target="_blank">@eduardolundgren</a>) conta como desenvolver um projeto com <a href="http://yuilibrary.com" target="_blank">YUI3</a>.</p>
+A primeira parte eu dou um panorama rápido do desenvolvimento front-end, na segunda Djalma Araújo ([@djalmaaraujo](http://twitter.com/djalmaaraujo)) dá uma introdução ao [YUI3](http://yuilibrary.com) e a terceira parte Eduardo Lundgren ([@eduardolundgren](http://twitter.com/eduardolundgren)) conta como desenvolver um projeto com [YUI3](http://yuilibrary.com).
 
-<p><em>OBS: Para melhor visualização recomendo colocar em HD.</em></p>
+_OBS: Para melhor visualização recomendo colocar em HD._
 
-<div class="video-wrap">
+<div class="iframe-wrap">
   <iframe src="http://www.youtube.com/embed/k212frcMVcU" frameborder="0" allowfullscreen="true">
   </iframe>
 </div>
 
-<div class="video-wrap">
+<div class="iframe-wrap">
   <iframe src="http://www.youtube.com/embed/CdXQbEE_eaQ" frameborder="0" allowfullscreen="true">
   </iframe>
 </div>
 
-<div class="video-wrap">
+<div class="iframe-wrap">
   <iframe src="http://www.youtube.com/embed/S2-hulIt3FU" frameborder="0" allowfullscreen="true">
   </iframe>
 </div>
 
-<p>O resultado foi excelente, deu pra conhecer vários profissionais excelentes e que estão mudando o cenário de tecnologia do nordeste, comer muita pizza e de quebra aprender mais JavaScript!</p>
+O resultado foi excelente, deu pra conhecer vários profissionais excelentes e que estão mudando o cenário de tecnologia do nordeste, comer muita pizza e de quebra aprender mais JavaScript!
 
-<p><img src="http://media.tumblr.com/tumblr_m9363g5e3g1qe3219.jpg"/></p>
+![](http://media.tumblr.com/tumblr_m9363g5e3g1qe3219.jpg)
 
-<p>Fico na torcida para que dessa possam surgir outras iniciativas. Até a próxima!</p>
+Fico na torcida para que dessa possam surgir outras iniciativas. Até a próxima!

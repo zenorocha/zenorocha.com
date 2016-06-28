@@ -1,7 +1,8 @@
 ---
-title: "&lt;/2014&gt;"
+title: "</2014>"
 description: "I love this part of the year, after all a new year is a new beginning, right? It's now a tradition: every year I try to list the things I've done (2011, 2012, 2013), this is a reminder to identify what decisions worked well and what was a disaster. For me, it's also the time to ask myself: 'Where do I wanna get in my career?' and after some thought into that comes the second question: 'What am I doing right now to achieve that?'"
 language: "en"
+slug: 2014-retrospective
 ---
 
 I love this part of the year, after all a new year is a new beginning, right?
@@ -28,7 +29,7 @@ I've been trying more to measure the impact of everything I do. One important ad
 
 Since 2014 was the Web Component year for me, I can only choose a talk about that same topic. Presented in San Francisco on April, *'Web Components: a chance to create the future'* was the shortest but most impactul talk I gave this year both in quantitative and qualitative terms. A 14-minute video with almost 10 thousand views on YouTube so far.
 
-<div class="video-wrap">
+<div class="iframe-wrap">
   <iframe src="http://www.youtube.com/embed/JUzjr1bIRUg">
   </iframe>
 </div>
@@ -141,7 +142,7 @@ One of the nice things about being a [Google Developer Expert](https://developer
 
 Because of that, we had this idea to create a video series about [Chrome DevTools](https://developer.chrome.com/devtools) in Portuguese. This project was by far one of the things that consumed more energy in a short period of time. I had to create the whole content by myself in a week and we took a whole day to record it.
 
-<div class="video-wrap">
+<div class="iframe-wrap">
   <iframe src="//www.youtube.com/embed/videoseries?list=PLiGzvgwA5Gmgnq5vPjJxW52hDiX3ndL53">
   </iframe>
 </div>

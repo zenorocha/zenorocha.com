@@ -4,15 +4,20 @@ description: "A brief comparison between inline events and event listeners."
 language: "en"
 link: "https://medium.com/@zenorocha/javascript-event-handlers-280ed3cc5631"
 nomore: true
+image: https://d262ilb51hltx0.cloudfront.net/max/2000/1*YFpuPRRHd0pMRXXhGxlIIA.jpeg
 ---
 
 Have you ever wondered what's the difference between this:
 
-<pre class="prettyprint lang-html">elem.onclick = function(e) {}</pre>
+```
+elem.onclick = function(e) {}
+```
 
 …and this:
 
-<pre class="prettyprint lang-js">elem.addEventListener('click', function(e) {});</pre>
+```
+elem.addEventListener('click', function(e) {});
+```
 
 They do the same thing, right? First listen for a click event, then execute a callback function. In fact, they're slightly different.
 

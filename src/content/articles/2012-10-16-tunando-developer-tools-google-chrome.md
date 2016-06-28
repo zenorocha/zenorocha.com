@@ -1,16 +1,15 @@
 ---
 title: 'Tunando o Developer Tools do Google Chrome'
-oldUrl: http://blog.zenorocha.com/tunando-developer-tools-google-chrome.html
+image: /assets/img/posts/monokai.jpg
+slug: tunando-developer-tools-google-chrome
 ---
 
-<p><img src="/assets/img/posts/monokai.jpg"/></p>
+_Publicado originalmente no Tableless._
 
-<p><em>Publicado originalmente no Tableless.</em></p>
+Uma coisa muito comum entre os programadores é a vontade de customizar as coisas. Trocar o syntax highlight do seu editor de código preferido é uma coisa muito comum e legal de se fazer, já que você passa o dia inteiro olhando para aquilo, é bom ver algo que goste.
 
-<p>Uma coisa muito comum entre os programadores é a vontade de customizar as coisas. Trocar o syntax highlight do seu editor de código preferido é uma coisa muito comum e legal de se fazer, já que você passa o dia inteiro olhando para aquilo, é bom ver algo que goste.</p>
+Só que outra coisa que também passamos muito tempo do nosso dia é o Developer Tools dos nossos navegadores, seja o Firebug no Firefox, Dragonfly no Opera ou o do próprio Chrome. Já pensou se pudéssemos bagunçar eles também?
 
-<p>Só que outra coisa que também passamos muito tempo do nosso dia é o Developer Tools dos nossos navegadores, seja o Firebug no Firefox, Dragonfly no Opera ou o do próprio Chrome. Já pensou se pudéssemos bagunçar eles também?</p>
+Hoje vou ensinar como fazer isso muito rapidamente no Developer Tools do Google Chrome!
 
-<p>Hoje vou ensinar como fazer isso muito rapidamente no Developer Tools do Google Chrome!</p>
-
-<p><a href="http://tableless.com.br/tunando-o-developer-tools-do-google-chrome/" target="_blank">Continue lendo&#8230;</a></p>
+[Continue lendo…](http://tableless.com.br/tunando-o-developer-tools-do-google-chrome/)

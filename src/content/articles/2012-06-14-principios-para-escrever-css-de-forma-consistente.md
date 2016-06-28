@@ -1,12 +1,10 @@
 ---
 title: Princípios para escrever CSS de forma consistente
-oldUrl: http://blog.zenorocha.com/post/25094143614/principios-para-escrever-css-de-forma-consistente
+image: http://media.tumblr.com/tumblr_m5m6htslm61qe3219.jpg
 ---
 
-<p><span><img src="http://media.tumblr.com/tumblr_m5m6htslm61qe3219.jpg"/></span></p>
+_Publicado originalmente no Tableless._
 
-<p><em>Publicado originalmente no Tableless.</em></p>
+Um problema muito comum quando trabalhamos em equipe é a inconsistência no estilo de codificação. Uns preferem colocar as propriedades do CSS em uma única linha, outros não. Uns gostam de colocar espaço depois dos dois-pontos, outros não. No fim, acaba tudo uma zona. São muitos desenvolvedores, escrevendo de formas totalmente distintas, o que prejudica qualquer tipo de manutenção ou evolução do código.
 
-<p><span>Um problema muito comum quando trabalhamos em equipe é a inconsistência no estilo de codificação. Uns preferem colocar as propriedades do CSS em uma única linha, outros não. Uns gostam de colocar espaço depois dos dois-pontos, outros não. No fim, acaba tudo uma zona. São muitos desenvolvedores, escrevendo de formas totalmente distintas, o que prejudica qualquer tipo de manutenção ou evolução do código.</span></p>
-
-<p><a href="http://tableless.com.br/principios-para-escrever-css-de-forma-consistente/" target="_blank">Continue lendo&#8230;</a></p>
+[Continue lendo…](http://tableless.com.br/principios-para-escrever-css-de-forma-consistente/)

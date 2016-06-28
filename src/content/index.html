@@ -1,0 +1,68 @@
+---
+layout: article.html
+tagline: Born to create & share.
+image: /assets/images/home-opt.jpg
+---
+
+<p>Hi, I'm Zeno Rocha, a front-end engineer from Brazil who lives in Los Angeles. Before moving to California, I worked at <a href="https://en.wikipedia.org/wiki/Rede_Globo">Globo</a> and <a href="https://en.wikipedia.org/wiki/Petrobras">Petrobras</a>, now I'm working as a developer advocate at <a href="https://en.wikipedia.org/wiki/Liferay">Liferay, Inc</a>. I’m also a <a href="https://developers.google.com/experts/people/zeno-rocha">developer expert</a> at Google, <a href="/talks">conference speaker</a> and <a href="/projects">open source enthusiastic</a>.</p>
+
+<h1>Recent Articles</h1>
+
+<ul class="article-list">
+  {{#each collections.homeArticles}}
+    {{#unless isQuote }}
+      <li class="article-item">
+        <a class="article-link" href="/{{ path }}">
+          <span class="article-title">{{ title }}</span>
+          <span class="article-date">{{ date }}</span>
+        </a>
+      </li>
+    {{/unless}}
+  {{/each}}
+</ul>
+
+<h1>Upcoming Talks</h1>
+
+<ul class="article-list">
+  <li class="article-item">
+    <a class="article-link" href="http://nationjs.com/">
+      <span class="article-title">Nation.js</span>
+      <span class="article-date">Sep, 16 2016</span>
+    </a>
+  </li>
+  <li class="article-item">
+    <a class="article-link" href="https://web.liferay.com/web/events2016/northamerica/">
+      <span class="article-title">Liferay North America Symposium</span>
+      <span class="article-date">Sep, 26 2016</span>
+    </a>
+  </li>
+  <li class="article-item">
+    <a class="article-link" href="https://web.liferay.com/web/events2016/devcon/">
+      <span class="article-title">Liferay DevCon</span>
+      <span class="article-date">Nov, 14 2016</span>
+    </a>
+  </li>
+</ul>
+
+<h1>Latest Projects</h1>
+
+<ul class="article-list">
+  <li class="article-item">
+    <a class="article-link" href="https://browserdiet.com/calories/">
+      <span class="article-title">Browser Calories</span>
+      <span class="article-date">May 16, 2016</span>
+    </a>
+  </li>
+  <li class="article-item">
+    <a class="article-link" href="https://devspace.io/">
+      <span class="article-title">DevSpace</span>
+      <span class="article-date">Mar 16, 2016</span>
+    </a>
+  </li>
+  <li class="article-item">
+    <a class="article-link" href="https://clipboardjs.com/">
+      <span class="article-title">Clipboard.js</span>
+      <span class="article-date">Sep 15, 2015</span>
+    </a>
+  </li>
+</ul>

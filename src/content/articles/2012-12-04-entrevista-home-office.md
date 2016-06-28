@@ -1,7 +1,7 @@
 ---
 title: 'Entrevista - Trabalhe em casa'
 link: 'http://www.clubecolombo.com.br/revista/trabalhe-em-casa/'
-oldUrl: http://blog.zenorocha.com/entrevista-home-office.html
+slug: entrevista-home-office
 ---
 
 <!-- <p><a href="http://www.clubecolombo.com.br/revista/trabalhe-em-casa/"><img src="/assets/img/posts/entrevista-colombo.jpg"/></a></p> -->

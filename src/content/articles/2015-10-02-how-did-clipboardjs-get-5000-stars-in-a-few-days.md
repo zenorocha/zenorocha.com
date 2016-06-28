@@ -4,13 +4,12 @@ description: "On Monday I open sourced a SUPER simple 'Copy to Clipboard' librar
 language: "en"
 link: "https://medium.com/@zenorocha/how-did-clipboard-js-get-5000-stars-in-a-few-days-2b2248ba7bd8"
 nomore: true
+image: /assets/img/posts/clipboard-5k.jpg
 ---
 
-![Cover](/assets/img/posts/clipboard-5k.jpg)
+On Monday I open sourced a SUPER simple [Copy to Clipboard library](https://clipboardjs.com/).
 
-On Monday I open sourced a SUPER simple [*Copy to Clipboard* library](https://clipboardjs.com/).
-
-[Everybody went crazy](#).
+[Everybody went crazy](https://twitter.com/search?f=tweets&vertical=default&q=clipboard.js&src=typd).
 
 Today is Friday and there are more than 5,000 stars on that GitHub repository.
 

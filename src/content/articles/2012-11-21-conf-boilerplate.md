@@ -1,10 +1,10 @@
 ---
 title: 'Apresentando o Conf Boilerplate'
 link: 'http://braziljs.org/blog/apresentando-o-confboilerplate/'
-oldUrl: http://blog.zenorocha.com/conf-boilerplate.html
+slug: conf-boilerplate
 ---
 
-<div class="video-wrap">
+<div class="iframe-wrap">
   <iframe src="http://www.youtube.com/embed/EI99oZI3nKY" frameborder="0" allowfullscreen="true">
   </iframe>
 </div>
@@ -18,12 +18,12 @@ oldUrl: http://blog.zenorocha.com/conf-boilerplate.html
   </a>
 </p>
 
-<p><em>Publicado originalmente no BrazilJS.</em></p>
+*Publicado originalmente no BrazilJS.*
 
-<p>Um dos objetivos da BrazilJS Foundation é ajudar os organizadores a concretizarem seus eventos.</p>
+Um dos objetivos da BrazilJS Foundation é ajudar os organizadores a concretizarem seus eventos.
 
-<p>Nós realmente acreditamos que por trás desses encontros regionais, muito conhecimento pode ser gerado e compartilhado de uma maneira incrível.</p>
+Nós realmente acreditamos que por trás desses encontros regionais, muito conhecimento pode ser gerado e compartilhado de uma maneira incrível.
 
-<p>Por isso, queremos fazer de tudo para facilitar a vida desses caras que ralam tanto para fazer um evento acontecer.</p>
+Por isso, queremos fazer de tudo para facilitar a vida desses caras que ralam tanto para fazer um evento acontecer.
 
-<p><a href="http://braziljs.org/blog/apresentando-o-confboilerplate/"><strong>Continue lendo</strong>&#8230;</a></p>
+[**Continue lendo**…](http://braziljs.org/blog/apresentando-o-confboilerplate/)

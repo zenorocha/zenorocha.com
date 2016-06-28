@@ -1,17 +1,16 @@
 ---
 title: 'Bye Zen Coding, Bem-vindo Emmet!'
-oldUrl: http://blog.zenorocha.com/bye-zen-coding-bem-vindo-emmet.html
 ---
 
-<div class="video-wrap">
+<div class="iframe-wrap">
   <iframe src="http://www.youtube.com/embed/_ljpbbqYyWo" frameborder="0" allowfullscreen="true">
   </iframe>
 </div>
 
-<p><em>Publicado originalmente no Tableless.</em></p>
+*Publicado originalmente no Tableless.*
 
-<p>Durante anos os ninjas do front-end utilizaram o Zen Coding para produzir seus sites e aplicativos de uma maneira muito mais rápida que os pobres seres humanos normais.</p>
+Durante anos os ninjas do front-end utilizaram o Zen Coding para produzir seus sites e aplicativos de uma maneira muito mais rápida que os pobres seres humanos normais.
 
-<p>Agora um novo plugin vem para o substituir e dar ainda mais agilidade no desenvolvimento de HTML e CSS.</p>
+Agora um novo plugin vem para o substituir e dar ainda mais agilidade no desenvolvimento de HTML e CSS.
 
-<p><a href="http://tableless.com.br/bye-zen-coding-bem-vindo-emmet/" target="_blank">Continue lendo&#8230;</a></p>
+[Continue lendo…](http://tableless.com.br/bye-zen-coding-bem-vindo-emmet/)

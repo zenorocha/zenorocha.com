@@ -1,67 +1,61 @@
 ---
 title: "Layouts Responsivos na Campus Party 2013"
 description: "Há 3 anos atrás peguei um ônibus até São Paulo para acampar no evento mais gigantesco que já tinha ido, foi uma experiência muito legal. Essa semana eu voltei, só que dessa vez para palestrar."
+image: /assets/img/posts/cpbr6.jpg
+slug: layouts-responsivos
 ---
 
-<img src="/assets/img/posts/cpbr6.jpg" alt="Zeno e Bernard na Campus Party 2013">
+Há 3 anos atrás peguei um ônibus até São Paulo para acampar no evento mais gigantesco que já tinha ido, foi uma experiência muito legal.
 
-<p>Há 3 anos atrás peguei um ônibus até São Paulo para acampar no evento mais gigantesco que já tinha ido, foi uma experiência muito legal.</p>
-
-<p>Essa semana eu voltei, só que dessa vez para palestrar.</p>
+Essa semana eu voltei, só que dessa vez para palestrar.
 
 <!-- more -->
 
-<p>O assunto foi RWD e novamente para apresentar tive ao meu lado <a href="http://bernarddeluna.com">Bernard De Luna</a>. A palestra foi gravada e você pode conferir agora!</p>
+O assunto foi RWD e novamente para apresentar tive ao meu lado [Bernard De Luna](http://bernarddeluna.com). A palestra foi gravada e você pode conferir agora!
 
-<div class="video-wrap">
+<div class="iframe-wrap">
   <iframe src="http://www.youtube.com/embed/ty7zj37gaBI">
   </iframe>
 </div>
 
-<p>Caso queira consultar os slides, aqui estão eles.</p>
+Caso queira consultar os slides, aqui estão eles.
 
-<div class="video-wrap">
+<div class="iframe-wrap">
   <iframe src="http://www.slideshare.net/slideshow/embed_code/16259493">
   </iframe>
 </div>
 
-<p>Vale destacar que fruto dessa palestra, também nasceu um experimento, o <a href="http://html5-pro.com/sanfona/">Responsive Sanfona</a>!</p>
+Vale destacar que fruto dessa palestra, também nasceu um experimento, o [Responsive Sanfona](http://html5-pro.com/sanfona/)!
 
-<img src="/assets/img/posts/responsive-sanfona.jpg" alt="Responsive Sanfona">
+[Responsive Sanfona](/assets/img/posts/responsive-sanfona.jpg)
 
-<h2>Referências</h2>
+## Referências
 
-<p>Alguns dias depois do evento recebi um e-mail super legal do João Stein destacando outras referências que não abordamos na nossa palestra, portanto gostaria de compartilhar com vocês também.</p>
+Alguns dias depois do evento recebi um e-mail super legal do João Stein destacando outras referências que não abordamos na nossa palestra, portanto gostaria de compartilhar com vocês também.
 
-<h3>Pessoas</h3>
+### Pessoas
 
-<ul>
-  <li><a href="https://twitter.com/brad_frost">Brad Frost</a></li>
-  <li><a href="https://twitter.com/lukew">Luke Wroblewski</a></li>
-  <li><a href="https://twitter.com/Malarkey">Andy Clarke</a></li>
-  <li><a href="https://twitter.com/chriscoyier">Chris Coyier</a></li>
-  <li><a href="https://twitter.com/davatron5000">Dave Rupert</a></li>
-  <li><a href="https://twitter.com/adactio">Jeremy Keith</a></li>
-</ul>
+* [Brad Frost](https://twitter.com/brad_frost)
+* [Luke Wroblewski](https://twitter.com/lukew)
+* [Andy Clarke](https://twitter.com/Malarkey)
+* [Chris Coyier](https://twitter.com/chriscoyier)
+* [Dave Rupert](https://twitter.com/davatron5000)
+* [Jeremy Keith](https://twitter.com/adactio)
 
-<h3>Livros</h3>
+### Livros
 
-<ul>
-  <li><a href="http://www.abookapart.com/products/mobile-first">Mobile First por Luke Wroblewski</a></li>
-  <li><a href="http://www.abookapart.com/products/responsive-web-design">Responsive Web Design por Ethan Marcotte</a></li>
-  <li><a href="https://shop.smashingmagazine.com/the-mobile-book-deluxe-bundle.html">The Mobile Book por Smashing Magazine</a></li>
-  <li><a href="http://www.casadocodigo.com.br/products/livro-web-design-responsivo">Web Design Responsivo por Tárcio Zemel</a></li>
-  <li><a href="http://www.implementingresponsivedesign.com/">Implementing Responsive Design por Tim Kadlec</a></li>
-</ul>
+* [Mobile First por Luke Wroblewski](http://www.abookapart.com/products/mobile-first)
+* [Responsive Web Design por Ethan Marcotte](http://www.abookapart.com/products/responsive-web-design)
+* [The Mobile Book por Smashing Magazine](https://shop.smashingmagazine.com/the-mobile-book-deluxe-bundle.html)
+* [Web Design Responsivo por Tárcio Zemel](http://www.casadocodigo.com.br/products/livro-web-design-responsivo)
+* [Implementing Responsive Design por Tim Kadlec](http://www.implementingresponsivedesign.com/)
 
-<h3>Sites</h3>
+### Sites
 
-<ul>
-  <li><a href="http://responsivedesignweekly.com/">Responsive Weekly</a></li>
-  <li><a href="http://bradfrost.github.com/this-is-responsive/">This Is Responsive</a></li>
-  <li><a href="http://www.scoop.it/t/gonzodesign">RWD curated by Gonzo Design</a></li>
-</ul>
+* [Responsive Weekly](http://responsivedesignweekly.com/)
+* [This Is Responsive](http://bradfrost.github.com/this-is-responsive/)
+* [RWD curated by Gonzo Design](http://www.scoop.it/t/gonzodesign)
 
-<p>E é isso, espero que tenham gostado tanto da apresentação quanto do experimento, qualquer feedback é sempre bem-vindo.</p>
+E é isso, espero que tenham gostado tanto da apresentação quanto do experimento, qualquer feedback é sempre bem-vindo.
 
-<p>Nos vemos na próxima!</p>
+Nos vemos na próxima!

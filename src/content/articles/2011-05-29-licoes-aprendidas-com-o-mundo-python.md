@@ -1,36 +1,62 @@
 ---
 title: Lições aprendidas com o mundo Python
-oldUrl: http://blog.zenorocha.com/post/5980782573/licoes-aprendidas-com-o-mundo-python
+image: /assets/images/python.jpg
 ---
 
-<p><img src="http://media.tumblr.com/tumblr_llxvbbUVlu1qe3219.png"/></p>
+Eu adoro participar de eventos de tecnologia (você já deve ter percebido isso inclusive), uma das coisas que eu mais gosto é o contato com programadores de outras linguagens e que vivenciam filosofias completamente diferentes das suas.
 
-<p>Eu adoro participar de eventos de tecnologia (você já deve ter percebido isso inclusive), uma das coisas que eu mais gosto é o contato com programadores de outras linguagens e que vivenciam filosofias completamente diferentes das suas.</p>
-
-<p>Apesar de não programar nada em <strong><a href="http://www.python.org/" target="_blank">Python</a></strong>, já estive e ainda <strong><a href="https://github.com/zenorocha/beerblogging" target="_blank">estou envolvido em alguns projetos em Python</a></strong>, e é engraçado ver como os pythonistas encaram as coisas de forma diferente na hora de resolver seus problemas.</p>
+Apesar de não programar nada em **[Python](http://www.python.org/)**, já estive e ainda **[estou envolvido em alguns projetos em Python](https://github.com/zenorocha/beerblogging)**, e é engraçado ver como os pythonistas encaram as coisas de forma diferente na hora de resolver seus problemas.
 
 <!-- more -->
 
-<p>Não lembro ao certo como, mas acabei chegando ao <strong><a href="http://www.python.org/dev/peps/pep-0020/" target="_blank">&#8220;The Zen of Python&#8221;</a></strong> e achei legal compartilhar com vocês. Nada mais é do que uma série de filosofias escritas pelo criador da linguagem Python. Um texto interessante de se conhecer ainda mais para quem não é do mundo Python como eu.</p>
+Não lembro ao certo como, mas acabei chegando ao **[“The Zen of Python”](http://www.python.org/dev/peps/pep-0020/)** e achei legal compartilhar com vocês. Nada mais é do que uma série de filosofias escritas pelo criador da linguagem Python. Um texto interessante de se conhecer ainda mais para quem não é do mundo Python como eu.
 
-<blockquote>
+## The Zen of Python, by Tim Peters
 
-<p><strong><em>The Zen of Python, by Tim Peters</em></strong></p>
+> Beautiful is better than ugly.<br>
+> Explicit is better than implicit.<br>
+> Simple is better than complex.<br>
+> Complex is better than complicated.<br>
+> Flat is better than nested.<br>
+> Sparse is better than dense.<br>
+> Readability counts.<br>
+> Special cases aren’t special enough to break the rules.<br>
+> Although practicality beats purity.<br>
+> Errors should never pass silently.<br>
+> Unless explicitly silenced.<br>
+> In the face of ambiguity, refuse the temptation to guess.<br>
+> There should be one— and preferably only one —obvious way to do it.<br>
+> Although that way may not be obvious at first unless you’re Dutch.<br>
+> Now is better than never.<br>
+> Although never is often better than *right* now.<br>
+> If the implementation is hard to explain, it’s a bad idea.<br>
+> If the implementation is easy to explain, it may be a good idea.<br>
+> Namespaces are one honking great idea — let’s do more of those!<br>
 
-<p><em>Beautiful is better than ugly.</em><br/><em> Explicit is better than implicit.</em><br/><em> Simple is better than complex.</em><br/><em> Complex is better than complicated.</em><br/><em> Flat is better than nested.</em><br/><em> Sparse is better than dense.</em><br/><em> Readability counts.</em><br/><em> Special cases aren&#8217;t special enough to break the rules.</em><br/><em> Although practicality beats purity.</em><br/><em> Errors should never pass silently.</em><br/><em> Unless explicitly silenced.</em><br/><em> In the face of ambiguity, refuse the temptation to guess.</em><br/><em> There should be one&#8212; and preferably only one &#8212;obvious way to do it.</em><br/><em> Although that way may not be obvious at first unless you&#8217;re Dutch.</em><br/><em> Now is better than never.</em><br/><em> Although never is often better than *right* now.</em><br/><em> If the implementation is hard to explain, it&#8217;s a bad idea.</em><br/><em> If the implementation is easy to explain, it may be a good idea.</em><br/><em>Namespaces are one honking great idea &#8212; let&#8217;s do more of those!</em></p>
+Em português:
 
-</blockquote>
+## O Zen do Python, por Tim Peters
 
-<p><span>Em português:</span></p>
+> Bonito é melhor que feio.<br>
+> Explícito é melhor que implícito.<br>
+> Simples é melhor que complexo.<br>
+> Complexo é melhor que complicado.<br>
+> Linear é melhor do que aninhado.<br>
+> Esparso é melhor que denso.<br>
+> Legibilidade conta.<br>
+> Casos especiais não são especiais o bastante para quebrar as regras.<br>
+> Ainda que praticidade vença a pureza.<br>
+> Erros nunca devem passar silenciosamente.<br>
+> A menos que sejam explicitamente silenciados.<br>
+> Diante da ambigüidade, recuse a tentação de adivinhar.<br>
+> Deveria haver um — e preferencialmente só um — modo óbvio para fazer algo.<br>
+> Embora esse modo possa não ser óbvio a princípio a menos que você seja holandês.<br>
+> Agora é melhor que nunca.<br>
+> Embora nunca freqüentemente seja melhor que *já*.<br>
+> Se a implementação é difícil de explicar, é uma má idéia.<br>
+> Se a implementação é fácil de explicar, pode ser uma boa idéia.<br>
+> Namespaces são uma grande idéia — vamos ter mais dessas!<br>
 
-<blockquote>
+São filosofias extremamente simples e que podem soar óbvias, não é?
 
-<p><strong><em>O Zen do Python, por Tim Peters</em></strong></p>
-
-<p><em>Bonito é melhor que feio.</em><br/><em>Explícito é melhor que implícito.</em><br/><em>Simples é melhor que complexo.</em><br/><em>Complexo é melhor que complicado.</em><br/><em>Linear é melhor do que aninhado.</em><br/><em>Esparso é melhor que denso.</em><br/><em>Legibilidade conta.</em><br/><em>Casos especiais não são especiais o bastante para quebrar as regras.</em><br/><em>Ainda que praticidade vença a pureza.</em><br/><em>Erros nunca devem passar silenciosamente.</em><br/><em>A menos que sejam explicitamente silenciados.</em><br/><em>Diante da ambigüidade, recuse a tentação de adivinhar.</em><br/><em>Deveria haver um — e preferencialmente só um — modo óbvio para fazer algo.</em><br/><em>Embora esse modo possa não ser óbvio a princípio a menos que você seja holandês.</em><br/><em>Agora é melhor que nunca.</em><br/><em>Embora nunca freqüentemente seja melhor que *já*.</em><br/><em>Se a implementação é difícil de explicar, é uma má idéia.</em><br/><em>Se a implementação é fácil de explicar, pode ser uma boa idéia.</em><br/><em>Namespaces são uma grande idéia — vamos ter mais dessas!</em></p>
-
-</blockquote>
-
-<p>São filosofias extremamente simples e que podem soar óbvias, não é?</p>
-
-<p>Mas porque será que mesmo parecendo tão óbvias, existimos em não aplicá-las?</p>
+Mas porque será que mesmo parecendo tão óbvias, existimos em não aplicá-las?

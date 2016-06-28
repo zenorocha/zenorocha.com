@@ -1,151 +1,128 @@
 ---
 title: Senhoras e senhores, apresento-lhes Wormz
-oldUrl: http://blog.zenorocha.com/post/9928625468/senhoras-e-senhores-apresento-lhes-wormz
+image: http://media.tumblr.com/tumblr_lr5yzobIBN1qe3219.jpg
 ---
 
-<p><img src="http://media.tumblr.com/tumblr_lr5yzobIBN1qe3219.jpg"/></p>
+<!-- <p class="demo-download"><a href="http://html5-pro.com/wormz/" target="_blank"><img src="http://media.tumblr.com/tumblr_lk325lvHwF1qe3219.png" class="botao"/></a> <a href="https://github.com/HTML5-Pro/wormz/" target="_blank"><img src="http://media.tumblr.com/tumblr_lk325u7HMG1qe3219.png" class="botao"/></a></p> -->
 
-<p class="demo-download"><a href="http://html5-pro.com/wormz/" target="_blank"><img src="http://media.tumblr.com/tumblr_lk325lvHwF1qe3219.png" class="botao"/></a> <a href="https://github.com/HTML5-Pro/wormz/" target="_blank"><img src="http://media.tumblr.com/tumblr_lk325u7HMG1qe3219.png" class="botao"/></a></p>
+Ontem foi o lançamento oficial do projeto [Wormz](http://html5-pro.com/wormz/), um experimento em canvas que eu e Zanoni Miranda estivemos trabalhando nos últimos dias.
 
-<p>Ontem foi o lançamento oficial do projeto <a href="http://html5-pro.com/wormz/" target="_blank">Wormz</a>, um experimento em canvas que eu e Zanoni Miranda estivemos trabalhando nos últimos dias.</p>
+É com muita felicidade que entramos para lista dos primeiros brasileiros a figurar no [Chrome Experiments](http://www.chromeexperiments.com/detail/wormz/), a galeria da [Google](http://www.chromeexperiments.com/about/) com os melhores experimentos feitos em HTML5 de todo o mundo.
 
-<p>É com muita felicidade que entramos para lista dos primeiros brasileiros a figurar no <a href="http://www.chromeexperiments.com/detail/wormz/" target="_blank">Chrome Experiments</a>, a galeria da <a href="http://www.chromeexperiments.com/about/" target="_blank">Google</a> com os melhores experimentos feitos em HTML5 de todo o mundo.</p>
-
-<p>Muitas foram as lições aprendidas durante esse processo e pretendo apresentar aqui alguns detalhes técnicos por trás desse projeto e as motivações em cada tomada de decisão.</p>
+Muitas foram as lições aprendidas durante esse processo e pretendo apresentar aqui alguns detalhes técnicos por trás desse projeto e as motivações em cada tomada de decisão.
 
 <!-- more -->
 
-<p>Abaixo, você pode ver uma pequena demonstração em vídeo do que é possível fazer com ele.  </p>
+Abaixo, você pode ver uma pequena demonstração em vídeo do que é possível fazer com ele.
 
-<div class="video-wrap">
+<div class="iframe-wrap">
   <iframe src="http://www.youtube.com/embed/acc10Cb5V0o" frameborder="0" allowfullscreen="true">
   </iframe>
 </div>
 
-<hr><h2>jQuery</h2>
+## jQuery
 
-<blockquote>
+> Se jQuery torna tudo tão fácil, por que vocês codificaram tudo em Javascript puro?
 
-<p>Se jQuery torna tudo tão fácil, por que vocês codificaram tudo em Javascript puro?</p>
+Essa resposta é simples, **desempenho**. Para um algoritmo dessa complexidade o requisito desempenho é simplesmente crucial. Ter escrito toda sua lógica em jQuery poderia ter levado menos tempo, porém no final seu uso significa mais processamento e, portanto, mais demora.
 
-</blockquote>
+Falando em desempenho, o [Tiago Veloso](http://tiagoveloso.com/) fez uns testes bem legais utilizando as versões atualizadas dos canais beta de cada navegador - ou seja, Google Chrome 15.0.874.54 beta-m e Firefox 8.0.
 
-<p>Essa resposta é simples, <strong>desempenho</strong>. Para um algoritmo dessa complexidade o requisito desempenho é simplesmente crucial. Ter escrito toda sua lógica em jQuery poderia ter levado menos tempo, porém no final seu uso significa mais processamento e, portanto, mais demora.</p>
+E, por incrível que pareça, o Firefox se saiu bem melhor. Com ele a CPU ficou em 12-13% rodando bem fluido, enquanto que no Chrome ia lá pra 17% com 5 FPS ou menos. 
 
-<p>Falando em desempenho, o <a href="http://tiagoveloso.com/" target="_blank">Tiago Veloso</a> fez uns testes bem legais utilizando as versões atualizadas dos canais beta de cada navegador - ou seja, Google Chrome 15.0.874.54 beta-m e Firefox 8.0.</p>
+Mais detalhes [nesse post](http://www.facebook.com/zenorocha/posts/100363310073976) e nos screenshots abaixo:
 
-<p>E, por incrível que pareça, o Firefox se saiu bem melhor. Com ele a CPU ficou em 12-13% rodando bem fluido, enquanto que no Chrome ia lá pra 17% com 5 FPS ou menos. </p>
+Chrome: [](http://bit.ly/ocqYbp)[http://bit.ly/ocqYbp](http://bit.ly/ocqYbp) - [](http://bit.ly/nlI9fp)[http://bit.ly/nlI9fp](http://bit.ly/nlI9fp)
+Firefox: [](http://bit.ly/pELXgT)[http://bit.ly/pELXgT](http://bit.ly/pELXgT) - [](http://bit.ly/p85qkH)[http://bit.ly/p85qkH](http://bit.ly/p85qkH)
 
-<p>Mais detalhes <a href="http://www.facebook.com/zenorocha/posts/100363310073976" target="_blank">nesse post</a> e nos screenshots abaixo:</p>
+## HTML5
 
-<p>Chrome: <a href="http://bit.ly/ocqYbp" target="_blank"><a href="http://bit.ly/ocqYbp" target="_blank">http://bit.ly/ocqYbp</a></a> - <a href="http://bit.ly/nlI9fp" target="_blank"><a href="http://bit.ly/nlI9fp" target="_blank">http://bit.ly/nlI9fp</a></a><br/>Firefox: <a href="http://bit.ly/pELXgT" target="_blank"><a href="http://bit.ly/pELXgT" target="_blank">http://bit.ly/pELXgT</a></a> - <a href="http://bit.ly/p85qkH" target="_blank"><a href="http://bit.ly/p85qkH" target="_blank">http://bit.ly/p85qkH</a></a></p>
+> Que funcionalidades do HTML5 vocês exploram nesse projeto?
 
-<h2>HTML5</h2>
+Já que estávamos fazendo algo em HTML5, resolvemos ir além do canvas e utilizar algumas coisas que seriam úteis para aprimorar a experiência do usuário.
 
-<blockquote>
+No canto esquerdo, criamos um slider para que o usuário possa interagir com o experimento mudando de cor, aumentando a velocidade e etc. Para essa interface utilizamos um dos [novos tipos de input chamado range](http://diveintohtml5.org/forms.html#type-range).
 
-<p>Que funcionalidades do HTML5 vocês exploram nesse projeto?</p>
+![](http://media.tumblr.com/tumblr_lr63c9bWtR1qe3219.jpg)Sua aparência nativa nos atendia muito bem em navegadores [webkit](http://pt.wikipedia.org/wiki/WebKit), mas no Firefox era muito inferior. O que acabou nos motivando a utilizar um plugin chamado [jQuery Tools Range Input](http://flowplayer.org/tools/rangeinput/). Após algumas mudanças visuais e refatorações no core do plugin conseguimos chegar nesse visual.
 
-</blockquote>
+![](http://media.tumblr.com/tumblr_lr64hhhvvx1qe3219.jpg)No canto direito, criamos uma lista das imagens que, de tempos em tempos, se revezam no ambiente em que a mágica acontece.
 
-<p>Já que estávamos fazendo algo em HTML5, resolvemos ir além do canvas e utilizar algumas coisas que seriam úteis para aprimorar a experiência do usuário.</p>
+A ideia aqui foi aumentar ainda mais a interatividade do usuário com o experimento, possibilitando que ele adicione suas próprias imagens. Isso tudo na forma mais intuitiva possível, arrastando do seu desktop para o navegador.
 
-<p>No canto esquerdo, criamos um slider para que o usuário possa interagir com o experimento mudando de cor, aumentando a velocidade e etc. Para essa interface utilizamos um dos <a href="http://diveintohtml5.org/forms.html#type-range" target="_blank">novos tipos de input chamado range</a>.</p>
+Para reproduzir esse tipo de interação nativamente utilizamos a [File API](http://dev.w3.org/2006/webapi/FileAPI/) e a [Drag and Drop API](http://html5doctor.com/native-drag-and-drop/).
 
-<p><img src="http://media.tumblr.com/tumblr_lr63c9bWtR1qe3219.jpg" align="left"/>Sua aparência nativa nos atendia muito bem em navegadores <a href="http://pt.wikipedia.org/wiki/WebKit" target="_blank">webkit</a>, mas no Firefox era muito inferior. O que acabou nos motivando a utilizar um plugin chamado <a href="http://flowplayer.org/tools/rangeinput/" target="_blank">jQuery Tools Range Input</a>. Após algumas mudanças visuais e refatorações no core do plugin conseguimos chegar nesse visual.</p>
+A flexibilidade de criar novos atributos no estilo **data-*** também se destacam não só nesse projeto, mas em muitos que estou desenvolvendo hoje. Talvez esteja na hora de falar sobre ele aqui no blog inclusive.
 
-<p><img src="http://media.tumblr.com/tumblr_lr64hhhvvx1qe3219.jpg" align="left"/>No canto direito, criamos uma lista das imagens que, de tempos em tempos, se revezam no ambiente em que a mágica acontece.</p>
+## Compatibilidade
 
-<p>A ideia aqui foi aumentar ainda mais a interatividade do usuário com o experimento, possibilitando que ele adicione suas próprias imagens. Isso tudo na forma mais intuitiva possível, arrastando do seu desktop para o navegador.</p>
+> O Internet Explorer 8 é o navegador mais usado em todo o planeta segundo o [W3Counter](http://www.w3counter.com/globalstats.php) e o fato é que a tag <canvas> não é suportada nele. Ainda bem que existe o [ExplorerCanvas](http://code.google.com/p/explorercanvas/) que resolve esse problema.
+>
+> Então, por que vocês não utilizaram esse recurso?
 
-<p>Para reproduzir esse tipo de interação nativamente utilizamos a <a href="http://dev.w3.org/2006/webapi/FileAPI/" target="_blank">File API</a> e a <a href="http://html5doctor.com/native-drag-and-drop/" target="_blank">Drag and Drop API</a>.</p>
+Fiz alguns testes de desempenho com isso e os resultados foram satisfatórios.
 
-<p>A flexibilidade de criar novos atributos no estilo <strong>data-* </strong>também se destacam não só nesse projeto, mas em muitos que estou desenvolvendo hoje. Talvez esteja na hora de falar sobre ele aqui no blog inclusive.</p>
+Mas dessa vez, não tem nada a ver com desempenho.
 
-<h2>Compatibilidade</h2>
+Eu, como desenvolvedor web, me sinto com a missão constante de evangelizar o uso de browsers modernos para as pessoas, até porque os dois lados ganham com isso.
 
-<blockquote>
+Pela característica experimental desse projeto, optamos por apresentar uma mensagem que incentivasse esse usuário que não possui um navegador com suporte nativo para esse novo elemento do HTML5, a utilizar um browser mais moderno.
 
-<p>O Internet Explorer 8 é o navegador mais usado em todo o planeta segundo o <a href="http://www.w3counter.com/globalstats.php" target="_blank">W3Counter</a> e o fato é que a tag &lt;canvas&gt; não é suportada nele. Ainda bem que existe o <a href="http://code.google.com/p/explorercanvas/" target="_blank">ExplorerCanvas</a> que resolve esse problema.</p>
+![](http://media.tumblr.com/tumblr_lr5zzzK4Lt1qe3219.jpg)
 
-<p>Então, por que vocês não utilizaram esse recurso?</p>
+## Detecção
 
-</blockquote>
+> E como é feita a detecção desse usuário que não possui suporte?
 
-<p>Fiz alguns testes de desempenho com isso e os resultados foram satisfatórios.</p>
+Usando o famoso [Modernizr](http://www.modernizr.com/), é claro. Só que dessa vez com muito mais objetividade. Seu novo [build customizável](http://www.modernizr.com/download/) abriu portas para um uso muito mais eficaz e nosso case explicita bem isso.
 
-<p>Mas dessa vez, não tem nada a ver com desempenho.</p>
+Perceba que se você baixar toda a biblioteca, terá que importar um arquivo com tamanho de 42kb. E para prover outro tipo de conteúdo poderia usar o [Yepnope.js](http://yepnopejs.com/) que já está incorporado na biblioteca. Assim eu codificaria algo do tipo:
 
-<p>Eu, como desenvolvedor web, me sinto com a missão constante de evangelizar o uso de browsers modernos para as pessoas, até porque os dois lados ganham com isso.</p>
+```
+yepnope({
+  test: Modernizr.canvas,
+  yep: 'js/wormz.js',
+  nope: 'js/polyfill.js'
+});
+```
 
-<p>Pela característica experimental desse projeto, optamos por apresentar uma mensagem que incentivasse esse usuário que não possui um navegador com suporte nativo para esse novo elemento do HTML5, a utilizar um browser mais moderno.</p>
+O que seria muito aceitável, mas por quê não ir direto ao ponto?
 
-<p><img src="http://media.tumblr.com/tumblr_lr5zzzK4Lt1qe3219.jpg"/></p>
+Ok, eu poderia esquecer a biblioteca e ter escrito eu mesmo esse teste de funcionalidade, mas não queria perder tempo com isso, foi aí que o build customizável entra. Já que meu projeto só aborda o uso da tag `<canvas>` posso configurar a biblioteca para que apenas as linhas desse tipo de detecção específico estejam lá.
 
-<h2>Detecção</h2>
+E além do mais, não preciso do yepnope pra isso. Você pode habilitar a criação de classes css no seu html, assim fica fácil pra tratar isso no CSS.
 
-<blockquote>
+```
+.no-canvas #canvas {
+  background: url(../img/polyfill.jpg) no-repeat 10px 10px;
+}
+```
 
-<p>E como é feita a detecção desse usuário que não possui suporte?</p>
+No fritar dos ovos, ao invés de importar 42kb de código, só importo 2.7kb agora.
 
-</blockquote>
+## HTML5-Pro
 
-<p>Usando o famoso <a href="http://www.modernizr.com/" target="_blank">Modernizr</a>, é claro. Só que dessa vez com muito mais objetividade. Seu novo <a href="http://www.modernizr.com/download/" target="_blank">build customizável</a> abriu portas para um uso muito mais eficaz e nosso case explicita bem isso.</p>
+> E o que vocês vão fazer em seguida?
 
-<p>Perceba que se você baixar toda a biblioteca, terá que importar um arquivo com tamanho de 42kb. E para prover outro tipo de conteúdo poderia usar o <a href="http://yepnopejs.com/" target="_blank">Yepnope.js</a> que já está incorporado na biblioteca. Assim eu codificaria algo do tipo:</p>
+<strike>A mesma coisa que fazemos todos os dias, tentar dominar o mundo :P</strike>
 
-<pre class="prettyprint lang-js">yepnope({
+A ideia é fazer do [HTML5-Pro](http://html5-pro.com%5D) um time que, atráves de projetos criativos, procura explorar o máximo que esse novo padrão pode oferecer.
 
-     test: Modernizr.canvas,
+Já estamos com outras ideias em desenvolvimento e se você curte spoilers é só chegar no [nosso Github](https://github.com/HTML5-Pro/).
 
-     yep: 'js/wormz.js',
+## Feedback
 
-     nope: 'js/polyfill.js'
+O volume de visitas têm sido assustador nesses últimos dias e o feedback igualmente bom.
 
-});</pre>
+![](http://media.tumblr.com/tumblr_lsd5qzTbat1qe3219.jpg)
 
-<p>O que seria muito aceitável, mas por quê não ir direto ao ponto?</p>
+[Hakim Hattab](http://hakim.se/), um dos desenvolvedores responsáveis pelo famoso projeto [20 Things I Learned About Browsers and the Web](http://hakim.se/) também comentou.
 
-<p>Ok, eu poderia esquecer a biblioteca e ter escrito eu mesmo esse teste de funcionalidade, mas não queria perder tempo com isso, foi aí que o build customizável entra. Já que meu projeto só aborda o uso da tag &lt;canvas&gt; posso configurar a biblioteca para que apenas as linhas desse tipo de detecção específico estejam lá.</p>
+![](http://media.tumblr.com/tumblr_lsd5qnmQXf1qe3219.jpg)
 
-<p>E além do mais, não preciso do yepnope pra isso. Você pode habilitar a criação de classes css no seu html, assim fica fácil pra tratar isso no CSS.</p>
+Além desses meio enigmáticos…
 
-<pre class="prettyprint lang-css">.no-canvas #canvas {
+![](http://media.tumblr.com/tumblr_lsd5qbi0611qe3219.jpg)
 
-    background: url(../img/polyfill.jpg) no-repeat 10px 10px;
+E você, gostou do experimento? Tem outras perguntas sobre ele?
 
-}</pre>
-
-<p>No fritar dos ovos, ao invés de importar 42kb de código, só importo 2.7kb agora.</p>
-
-<h2>HTML5-Pro</h2>
-
-<blockquote>
-
-<p>E o que vocês vão fazer em seguida?</p>
-
-</blockquote>
-
-<p><strike>A mesma coisa que fazemos todos os dias, tentar dominar o mundo :P</strike></p>
-
-<p>A ideia é fazer do <a href="http://html5-pro.com%5D" target="_blank">HTML5-Pro</a> um time que, atráves de projetos criativos, procura explorar o máximo que esse novo padrão pode oferecer.</p>
-
-<p>Já estamos com outras ideias em desenvolvimento e se você curte spoilers é só chegar no <a href="https://github.com/HTML5-Pro/" target="_blank">nosso Github</a>.</p>
-
-<h2>Feedback</h2>
-
-<p>O volume de visitas têm sido assustador nesses últimos dias e o feedback igualmente bom.</p>
-
-<p><img src="http://media.tumblr.com/tumblr_lsd5qzTbat1qe3219.jpg"/></p>
-
-<p><a href="http://hakim.se/" target="_blank">Hakim Hattab</a>, um dos desenvolvedores responsáveis pelo famoso projeto <a href="http://hakim.se/" target="_blank">20 Things I Learned About Browsers and the Web</a> também comentou.</p>
-
-<p><img src="http://media.tumblr.com/tumblr_lsd5qnmQXf1qe3219.jpg"/></p>
-
-<p>Além desses meio enigmáticos&#8230;</p>
-
-<p><img src="http://media.tumblr.com/tumblr_lsd5qbi0611qe3219.jpg"/></p>
-
-<p>E você, gostou do experimento? Tem outras perguntas sobre ele?</p>
-
-<p>Fique a vontade para interagir aqui.</p>
+Fique a vontade para interagir aqui.

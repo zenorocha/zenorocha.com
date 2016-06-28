@@ -1,9 +1,9 @@
 ---
 title: "Curso prático de HTML5 no Rio e São Paulo"
 description: "Depois de mais de um ano planejando um curso bacana e diferente dos convencionais do mercado, consegui junto com o Bernard De Luna chegar a um modelo inovador, que acreditamos ser ideal para você que quer aprender as novas tecnologias front-end."
+image: /assets/img/posts/cow.jpg
+slug: coding-on-weekend
 ---
-
-![COW](/assets/img/posts/cow.jpg)
 
 Depois de mais de um ano planejando um curso bacana e diferente dos convencionais do mercado, consegui junto com o [Bernard De Luna](http://bernarddeluna.com/) chegar a um modelo inovador, que acreditamos ser ideal para você que quer aprender as novas tecnologias front-end.
 
@@ -21,4 +21,3 @@ Para comemorar esse lançamento, um desconto de R$ 50,00. Corra, pois são pouca
 
 * **Desconto para o COW RJ:** 2omgM2vd
 * **Desconto para o COW SP:** 6TIGdnYu
-

@@ -2,6 +2,7 @@
 title: "A performance dos principais sites do governo brasileiro"
 description: "Depois de 4 anos estudando como um condenado, finalmente me formei!
 E como em todo final de curso, também tive que enfrentar a tal da monografia."
+slug: monografia
 ---
 
 Depois de 4 anos estudando como um condenado, finalmente me formei! E como em
@@ -14,7 +15,7 @@ legal e muito relevante, por isso gostaria de compartilhar com vocês.
 
 <!-- more -->
 
-<img alt="Colação de Grau" src="/assets/img/posts/monografia.jpg" />
+[Colação de Grau](/assets/img/posts/monografia.jpg)
 
 ## Tema
 

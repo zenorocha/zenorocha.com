@@ -1,14 +1,12 @@
 ---
 title: Front-end Made in Brazil
-oldUrl: http://blog.zenorocha.com/post/26995115768/front-end-made-in-brazil
+image: http://media.tumblr.com/tumblr_m70fjsYuJe1qe3219.jpg
 ---
 
-<p><img src="http://media.tumblr.com/tumblr_m70fjsYuJe1qe3219.jpg"/></p>
+A [Revista Wide](http://www.revistawide.com.br/) desse mês (_edição 91 de jul/ago_) trouxe uma matéria muito legal sobre o estado atual do mercado de trabalho do desenvolvedor front-end.
 
-<p>A <a href="http://www.revistawide.com.br/" target="_blank">Revista Wide</a> desse mês (<em>edição 91 de jul/ago</em>) trouxe uma matéria muito legal sobre o estado atual do mercado de trabalho do desenvolvedor front-end.</p>
+Eles juntaram a experiência de excelentes profissionais da área como os amigos Davidson Fellipe ([@davidsonfellipe](http://twitter.com/davidsonfellipe)) da Globo.com e o Felipe Silva ([@felipe_silva](http://twitter.com/felipe_silva)) do New York Times para falar sobre esse assunto. 
 
-<p>Eles juntaram a experiência de excelentes profissionais da área como os amigos Davidson Fellipe (<a href="http://twitter.com/davidsonfellipe" target="_blank">@davidsonfellipe</a>) da Globo.com e o Felipe Silva (<a href="http://twitter.com/felipe_silva" target="_blank">@felipe_silva</a>) do New York Times para falar sobre esse assunto. </p>
+Recomendo a leitura, pois acho que retrata a vida de muitos profissionais que já estão inseridos nessa realidade e quem sabe pode servir de inspiração para muitos outros que não estão e que volta e meia me procuram para tirar dúvidas sobre o que esse profissional faz realmente.
 
-<p>Recomendo a leitura, pois acho que retrata a vida de muitos profissionais que já estão inseridos nessa realidade e quem sabe pode servir de inspiração para muitos outros que não estão e que volta e meia me procuram para tirar dúvidas sobre o que esse profissional faz realmente.</p>
-
-<p><a href="http://www.revistawide.com.br/downloads/91/Wide91Pdf1.pdf" target="_blank">Continue lendo&#8230;</a></p>
+[Continue lendo…](http://www.revistawide.com.br/downloads/91/Wide91Pdf1.pdf)

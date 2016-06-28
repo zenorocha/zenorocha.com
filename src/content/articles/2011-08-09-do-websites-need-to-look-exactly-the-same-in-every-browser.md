@@ -1,6 +1,6 @@
 ---
+isQuote: true
 title: Do websites need to look exactly the same in every browser?
-oldUrl: http://blog.zenorocha.com/post/8702592952/do-websites-need-to-look-exactly-the-same-in-every
 ---
 
 <p>

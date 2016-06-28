@@ -1,7 +1,6 @@
 ---
 title: "2015: The year I moved to California"
-description: "Moving to another country means starting a life from zero. I knew that before getting myself into it, but you only realize how hard it is when you actually do it."
-language: "en"
+image: /assets/images/ikea-opt.jpg
 ---
 
 Moving to another country means starting a life from zero. I knew that before getting myself into it, but you only realize how hard it is when you actually do it.
@@ -34,7 +33,7 @@ As I said before, moving to a new country is not an easy task. That's why I deci
 
 My favorite talk this year was at [Nordic.js](http://nordicjs.com/) in Stockholm. The event was pretty well organized and I had tons of fun at the [ping pong party](https://twitter.com/nordicjs/status/642021437725913088).
 
-<div class="video-wrap">
+<div class="iframe-wrap">
   <iframe src="//www.youtube.com/embed/2NWssETxsPw">
   </iframe>
 </div>
@@ -58,7 +57,7 @@ Surprisingly enough, the most impactful piece of text I wrote this year was not 
 
 However, my favorite one was written couple weeks ago, just before New Year's. It's called ["What are you waiting for?"](https://medium.com/@zenorocha/what-are-you-waiting-for-46037938837a) and took me months to put that thought on paper.
 
-<img src="/assets/img/posts/2015-post.jpg" alt="Zeno in Yosemite">
+![Zeno in Yosemite](/assets/img/posts/2015-post.jpg)
 
 ### Stats
 
@@ -79,25 +78,19 @@ That worked pretty well but I just can't stop creating new things :P
 
 Super proud of what we accomplished not only in terms of UI but also in terms of infrastructure. *[Read more about this launch](https://blog.customelements.io/discoverability-for-web-components-72ce29f128b2#.jhli9xh57).*
 
-<a href="http://customelements.io">
-  <img src="/assets/img/posts/2015-customelements.jpg" alt="Logo: sennajs.com">
-</a>
+![CustomElements.io](/assets/img/posts/2015-customelements.jpg)
 
 **[Clipboard.js](http://clipboardjs.com)**, launched in September.
 
 By far the most popular project I made this year. Widely praised and adopted by huge players like Bootstrap 4. *[Read more about this launch](https://medium.com/@zenorocha/how-did-clipboard-js-get-5000-stars-in-a-few-days-2b2248ba7bd8#.jvdey5bpu).*
 
-<a href="http://clipboardjs.com">
-  <img src="/assets/img/posts/2015-clipboard.jpg" alt="Logo: clipboardjs.com">
-</a>
+![Logo: clipboardjs.com](/assets/img/posts/2015-clipboard.jpg)
 
 **[Dracula Theme](http://zenorocha.github.io/dracula-theme/)**, redesigned in October.
 
 A little piece built during Halloween.
 
-<a href="http://zenorocha.github.io/dracula-theme/">
-  <img src="/assets/img/posts/2015-dracula.jpg" alt="Logo: dracula theme">
-</a>
+![Logo: dracula theme](/assets/img/posts/2015-dracula.jpg)
 
 ### Stats
 

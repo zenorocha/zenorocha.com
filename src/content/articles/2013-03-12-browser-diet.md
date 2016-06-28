@@ -2,9 +2,9 @@
 title: "Why did I create Browser Diet?"
 description: "We developers talk a lot about HTML5, CSS3, EcmaScript 6 news that we almost forget to talk about other things that are also very important, but aren't as novelty just like web performance. After a huge effort, we finally launched a community-driven performance guide called browserdiet.com and today I'm here to share my experience leading this awesome project."
 language: "en"
+image: /assets/images/browserdiet.jpg
+slug: browser-diet
 ---
-
-<img alt="Browser Diet" src="/assets/img/posts/browser-diet.jpg" />
 
 <p><em><a href="http://tableless.com.br/como-perder-peso-no-browser/">Leia em português.</a></em></p>
 

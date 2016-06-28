@@ -1,102 +1,101 @@
 ---
 title: JSConf Argentina - Um relato da minha primeira palestra fora do Brasil
-oldUrl: http://blog.zenorocha.com/post/23716311770/jsconf-argentina-um-relato-da-minha-primeira-palestra
+image: http://media.tumblr.com/tumblr_m4j7ztkXu91qe3219.jpg
+slug: relato-jsconfar
 ---
 
-<p><a href="http://jsconf.com.ar/" target="_blank"><img src="http://media.tumblr.com/tumblr_m4j7ztkXu91qe3219.jpg"/></a></p>
+Pense numa semana corrida! Sabe aquelas em que você precisa entregar um projeto na empresa e outro trabalho na faculdade?
 
-<p>Pense numa semana corrida! Sabe aquelas em que você precisa entregar um projeto na empresa e outro trabalho na faculdade?</p>
+Então, foi assim que começou a minha, e que fecharia com o evento no sábado em Buenos Aires. Ainda faltava preparar os slides e me preparar para dar aquela que seria minha primeira palestra inteira em inglês.
 
-<p>Então, foi assim que começou a minha, e que fecharia com o evento no sábado em Buenos Aires. Ainda faltava preparar os slides e me preparar para dar aquela que seria minha primeira palestra inteira em inglês.</p>
-
-<p>A missão era muito importante, representar o Brasil em um evento mundialmente conhecido, que chegava em sua primeira edição aqui na América Latina e que contaria com figuras importante do universo de desenvolvimento JavaScript, entre eles Jacob Thornton (<a href="https://twitter.com/fat" target="_blank">@fat</a>) criador do Twitter Bootstrap, Isaac Z. Schlueter (<a href="https://twitter.com/izs" target="_blank">@izs</a>) criador do NPM e atual líder do projeto Node.JS, Mike Taylor (<a href="https://twitter.com/#!/miketaylr" target="_blank">@miketaylr</a>) evangelista da Opera e muitas outras.</p>
+A missão era muito importante, representar o Brasil em um evento mundialmente conhecido, que chegava em sua primeira edição aqui na América Latina e que contaria com figuras importante do universo de desenvolvimento JavaScript, entre eles Jacob Thornton ([@fat](https://twitter.com/fat)) criador do Twitter Bootstrap, Isaac Z. Schlueter ([@izs](https://twitter.com/izs)) criador do NPM e atual líder do projeto Node.JS, Mike Taylor ([@miketaylr](https://twitter.com/#!/miketaylr)) evangelista da Opera e muitas outras.
 
 <!-- more -->
 
-<p><a href="http://jsconf.com.ar/" target="_blank"><img src="http://media.tumblr.com/tumblr_m4j8mxWMLX1qe3219.jpg"/></a></p>
+[![](http://media.tumblr.com/tumblr_m4j8mxWMLX1qe3219.jpg)](http://jsconf.com.ar/)
 
-<p>Madrugada vem, madruga vai e os slides começavam a sair, mas o que me deixava inseguro mesmo era o fato de ter que palestrar em inglês, não que o meu inglês fosse péssimo, o problema é que ensinar algo em outra língua se mostrava cada vez mais difícil do que eu imaginava. </p>
+Madrugada vem, madruga vai e os slides começavam a sair, mas o que me deixava inseguro mesmo era o fato de ter que palestrar em inglês, não que o meu inglês fosse péssimo, o problema é que ensinar algo em outra língua se mostrava cada vez mais difícil do que eu imaginava. 
 
-<p><img src="http://media.tumblr.com/tumblr_m4j8wnLFVW1qe3219.jpg"/></p>
+![](http://media.tumblr.com/tumblr_m4j8wnLFVW1qe3219.jpg)
 
-<p>Abre parênteses. Aquela semana também era o lançamento de Diablo 3, só se falava nisso! Não que eu seja um viciado em games, já joguei e muito na adolescência, hoje não mais, só que a tentação era grande.</p>
+Abre parênteses. Aquela semana também era o lançamento de Diablo 3, só se falava nisso! Não que eu seja um viciado em games, já joguei e muito na adolescência, hoje não mais, só que a tentação era grande.
 
-<p>Aliás, por que perder tempo estudando, preparando material e treinando para alguma coisa que eu não estava me divertindo ou sequer ganhando dinheiro? Eu poderia ter passado a semana inteira jogando ou trabalhando em um freela.</p>
+Aliás, por que perder tempo estudando, preparando material e treinando para alguma coisa que eu não estava me divertindo ou sequer ganhando dinheiro? Eu poderia ter passado a semana inteira jogando ou trabalhando em um freela.
 
-<p>Pois é, poderia, mas não, resolvi pegar o tempo que eu tenho e gastá-lo me dedicando em alguma coisa que eu sinto recompensado por fazer, nem tudo é sobre dinheiro.</p>
+Pois é, poderia, mas não, resolvi pegar o tempo que eu tenho e gastá-lo me dedicando em alguma coisa que eu sinto recompensado por fazer, nem tudo é sobre dinheiro.
 
-<p>Infelizmente nunca gostei de medicina, mas se eu pudesse de alguma forma ajudar os outros com o que eu faço estaria feliz. Com esse lance das palestras eu não consigo salvar a vida de ninguém, mas faço o máximo para tentar ensinar e inspirar as pessoas, nem sempre consigo mas é o que eu tento.</p>
+Infelizmente nunca gostei de medicina, mas se eu pudesse de alguma forma ajudar os outros com o que eu faço estaria feliz. Com esse lance das palestras eu não consigo salvar a vida de ninguém, mas faço o máximo para tentar ensinar e inspirar as pessoas, nem sempre consigo mas é o que eu tento.
 
-<p>Você tem 24 horas no seu dia, assim como todo mundo, saiba como usar.</p>
+Você tem 24 horas no seu dia, assim como todo mundo, saiba como usar.
 
-<div class="video-wrap">
+<div class="iframe-wrap">
   <iframe src="http://www.youtube.com/embed/relato-jsconfar.html" frameborder="0" allowfullscreen="true">
   </iframe>
 </div>
 
-<p>Parênteses fechado, chega o dia da viagem. Passo a madrugada terminando os slides e a manhã correndo para colocar no ar a <a href="http://estatico.globoesporte.globo.com/linha-do-tempo/" target="_blank">Linha do tempo do Brasileirão</a> no globoesporte.com.</p>
+Parênteses fechado, chega o dia da viagem. Passo a madrugada terminando os slides e a manhã correndo para colocar no ar a [Linha do tempo do Brasileirão](http://estatico.globoesporte.globo.com/linha-do-tempo/) no globoesporte.com.
 
-<p>Chego no aeroporto, me dou conta que esqueci o passaporte. Perco o voo e o ânimo. Lá se vai uma grana violenta para comprar outra passagem e, o pior, a chance de conhecer o pessoal no <em>Speaker&#8217;s Dinner</em> que rolaria no dia anterior ao evento.</p>
+Chego no aeroporto, me dou conta que esqueci o passaporte. Perco o voo e o ânimo. Lá se vai uma grana violenta para comprar outra passagem e, o pior, a chance de conhecer o pessoal no _Speaker’s Dinner_ que rolaria no dia anterior ao evento.
 
-<h2>Enfim, Argentina.</h2>
+## Enfim, Argentina.
 
-<p><img src="http://media.tumblr.com/tumblr_m4j8x1YIQ31qe3219.jpg"/></p>
+![](http://media.tumblr.com/tumblr_m4j8x1YIQ31qe3219.jpg)
 
-<p>O lugar escolhido para o evento foi o <em>Centro Metropolitano de Diseño</em> em Buenos Aires. Nunca vi uma estrutura tão boa para um evento. Entre um <em>coffee break</em> e outro, duas trilhas abordavam os temas mais atuais que envolviam o mundo JavaScript.</p>
+O lugar escolhido para o evento foi o _Centro Metropolitano de Diseño_ em Buenos Aires. Nunca vi uma estrutura tão boa para um evento. Entre um _coffee break_ e outro, duas trilhas abordavam os temas mais atuais que envolviam o mundo JavaScript.
 
-<p>No primeiro dia as palestras que mais se destacaram foram do Mike Taylor (<a href="https://twitter.com/#!/miketaylr" target="_blank">@miketaylr</a>) da Opera falando sobre o <a href="https://developer.mozilla.org/en/DOM/window.navigator" target="_blank">objeto navigator</a> (<a href="http://miketaylr.com/pres/jsconfar/shower/" target="_blank">slides aqui</a>), Luz Caballero (<a href="https://twitter.com/#!/gerbille" target="_blank">@gerbille</a>) também da Opera falando sobre WebGL (<a href="http://www.slideshare.net/gerbille/webgl-para-javascripters" target="_blank">slides aqui</a>) e Nicolás Garcia (<a href="https://twitter.com/#!/philogb" target="_blank">@philogb</a>) do Twitter falando sobre visualização gráfica (<a href="http://www.slideshare.net/philogb/javascript-para-graficos-y-visualizacion-de-datos" target="_blank">slides aqui</a>) de dados. Engraçado que a Luz e o Nicolás foram as pessoas que mais trocamos ideia no evento sem mesmo saber que iriam palestrar, tudo isso graças ao Mike que nos apresentou eles mais cedo.</p>
+No primeiro dia as palestras que mais se destacaram foram do Mike Taylor ([@miketaylr](https://twitter.com/#!/miketaylr)) da Opera falando sobre o [objeto navigator](https://developer.mozilla.org/en/DOM/window.navigator) ([slides aqui](http://miketaylr.com/pres/jsconfar/shower/)), Luz Caballero ([@gerbille](https://twitter.com/#!/gerbille)) também da Opera falando sobre WebGL ([slides aqui](http://www.slideshare.net/gerbille/webgl-para-javascripters)) e Nicolás Garcia ([@philogb](https://twitter.com/#!/philogb)) do Twitter falando sobre visualização gráfica ([slides aqui](http://www.slideshare.net/philogb/javascript-para-graficos-y-visualizacion-de-datos)) de dados. Engraçado que a Luz e o Nicolás foram as pessoas que mais trocamos ideia no evento sem mesmo saber que iriam palestrar, tudo isso graças ao Mike que nos apresentou eles mais cedo.
 
-<p>Já no segundo dia, o evento começou com a que foi pra mim a melhor palestra do evento, Jacob Thornton (<a href="https://twitter.com/fat" target="_blank">@fat</a>) do Twitter falou sobre acessibilidade de uma forma muito descontraída e usando como exemplo o projeto no qual é autor, o Twitter Bootstrap (<a href="https://speakerdeck.com/u/fat/p/borges" target="_blank">slides aqui</a>).</p>
+Já no segundo dia, o evento começou com a que foi pra mim a melhor palestra do evento, Jacob Thornton ([@fat](https://twitter.com/fat)) do Twitter falou sobre acessibilidade de uma forma muito descontraída e usando como exemplo o projeto no qual é autor, o Twitter Bootstrap ([slides aqui](https://speakerdeck.com/u/fat/p/borges)).
 
-<p>O que mais me chamou atenção no evento inteiro e me colocou para refletir foi essa singela frase que ele usou em um dos seus slides.</p>
+O que mais me chamou atenção no evento inteiro e me colocou para refletir foi essa singela frase que ele usou em um dos seus slides.
 
-<p><a href="http://wordsbyf.at/2012/05/21/jsconf-argentina-2012/" target="_blank"><img src="http://media.tumblr.com/tumblr_m4ja81ScE01qe3219.jpg"/></a></p>
+[![](http://media.tumblr.com/tumblr_m4ja81ScE01qe3219.jpg)](http://wordsbyf.at/2012/05/21/jsconf-argentina-2012/)
 
-<p>Também muito descontraída foi a palestra do Max Odgen (<a href="https://twitter.com/#!/maxogden" target="_blank">@maxogden</a>), a última do evento, falando sobre sua experiência utilizando HTML5 na construção de apps para iOS.</p>
+Também muito descontraída foi a palestra do Max Odgen ([@maxogden](https://twitter.com/#!/maxogden)), a última do evento, falando sobre sua experiência utilizando HTML5 na construção de apps para iOS.
 
-<h2>É chegada a hora.</h2>
+## É chegada a hora.
 
-<p>Mas antes disso, um pouco antes do final do segundo dia, teve minha a minha palestra. Depois de toda a odisséia para chegar ali, era chegada a hora de representar.</p>
+Mas antes disso, um pouco antes do final do segundo dia, teve minha a minha palestra. Depois de toda a odisséia para chegar ali, era chegada a hora de representar.
 
-<p>Sala cheia, público super receptivo as brincadeiras e atentos ao conteúdo (<a href="http://talks.zenorocha.com/jsconf/" target="_blank">slides aqui</a>).</p>
+Sala cheia, público super receptivo as brincadeiras e atentos ao conteúdo ([slides aqui](http://talks.zenorocha.com/jsconf/)).
 
-<p><img src="http://media.tumblr.com/tumblr_m4j90idYAt1qe3219.jpg"/></p>
+![](http://media.tumblr.com/tumblr_m4j90idYAt1qe3219.jpg)
 
-<p>Exceto na hora em que eu resolvi fazer isso&#8230;</p>
+Exceto na hora em que eu resolvi fazer isso…
 
-<p><img height="777" src="http://media.tumblr.com/tumblr_m4jyo4kMnC1qe3219.jpg" width="500"/></p>
+![](http://media.tumblr.com/tumblr_m4jyo4kMnC1qe3219.jpg)
 
-<p>HAHAHAHAHA!</p>
+HAHAHAHAHA!
 
-<p><a href="https://twitter.com/mmednik/status/204309435391295488" target="_blank"><img src="http://media.tumblr.com/tumblr_m4jacwlSd81qe3219.jpg"/></a></p>
+[![](http://media.tumblr.com/tumblr_m4jacwlSd81qe3219.jpg)](https://twitter.com/mmednik/status/204309435391295488)
 
-<p>Brincadeiras à parte, foi tudo muito legal, o feedback positivo e a missão cumprida.</p>
+Brincadeiras à parte, foi tudo muito legal, o feedback positivo e a missão cumprida.
 
-<p><a href="https://twitter.com/jsconfar/statuses/202898792800980992" target="_blank"><img src="http://media.tumblr.com/tumblr_m4ja8bMqc71qe3219.jpg"/></a></p>
+[![](http://media.tumblr.com/tumblr_m4ja8bMqc71qe3219.jpg)](https://twitter.com/jsconfar/statuses/202898792800980992)
 
-<p><a href="https://twitter.com/palamago/status/204307720764010497" target="_blank"><img src="http://media.tumblr.com/tumblr_m4jaaoqxRB1qe3219.jpg"/></a></p>
+[![](http://media.tumblr.com/tumblr_m4jaaoqxRB1qe3219.jpg)](https://twitter.com/palamago/status/204307720764010497)
 
-<p><a href="https://twitter.com/dcaliri/status/204307039604838400" target="_blank"><img src="http://media.tumblr.com/tumblr_m4jafsXrVJ1qe3219.jpg"/></a></p>
+[![](http://media.tumblr.com/tumblr_m4jafsXrVJ1qe3219.jpg)](https://twitter.com/dcaliri/status/204307039604838400)
 
-<p><a href="http://www.nodejs.es/excelente-sintesis-jsconfar-zeno-rocha/" target="_blank">&#8220;Excelente síntesis de JSConfar por Zeno Rocha&#8221; - NodeJS en español</a></p>
+[“Excelente síntesis de JSConfar por Zeno Rocha” - NodeJS en español](http://www.nodejs.es/excelente-sintesis-jsconfar-zeno-rocha/)
 
-<p>E não teria como eu terminar esse relato sem citar esses caras, que me apoiaram muito durante os dias por lá e me passaram a confiança pra chegar lá na frente de todo mundo e  mandar bem.</p>
+E não teria como eu terminar esse relato sem citar esses caras, que me apoiaram muito durante os dias por lá e me passaram a confiança pra chegar lá na frente de todo mundo e  mandar bem.
 
-<p><img src="http://media.tumblr.com/tumblr_m4jaxgUNUk1qe3219.jpg"/></p>
+![](http://media.tumblr.com/tumblr_m4jaxgUNUk1qe3219.jpg)
 
-<p>Da esquerda para direita. Eu, Giovanni Keppelen (<a href="https://twitter.com/#!/keppelen" target="_blank">@keppelen</a>) do Peixe Urbano (RJ), Flávio Silva (<a href="https://twitter.com/#!/flaviosil" target="_blank">@flaviosil</a>) também do Peixe Urbano (RJ), Jaydson Gomes (<a href="https://twitter.com/#!/jaydson" target="_blank">@jaydson</a>) do Terra (RS) e Helder Santana (<a href="https://twitter.com/#!/helder" target="_blank">@helder</a>) da Dafiti (SP).</p>
+Da esquerda para direita. Eu, Giovanni Keppelen ([@keppelen](https://twitter.com/#!/keppelen)) do Peixe Urbano (RJ), Flávio Silva ([@flaviosil](https://twitter.com/#!/flaviosil)) também do Peixe Urbano (RJ), Jaydson Gomes ([@jaydson](https://twitter.com/#!/jaydson)) do Terra (RS) e Helder Santana ([@helder](https://twitter.com/#!/helder)) da Dafiti (SP).
 
-<h2>Bônus</h2>
+## Bônus
 
-<p>No fim, ainda conseguimos puxar alguns dos palestrantes mais sinistros do evento para mandar uma mensagem para os desenvolvedores brasileiros. Tem até legenda em português ao clicar no botão CC. </p>
+No fim, ainda conseguimos puxar alguns dos palestrantes mais sinistros do evento para mandar uma mensagem para os desenvolvedores brasileiros. Tem até legenda em português ao clicar no botão CC. 
 
-<p>Confere aí porque as dicas são valiosas.</p>
+Confere aí porque as dicas são valiosas.
 
-<div class="video-wrap">
+<div class="iframe-wrap">
   <iframe src="http://www.youtube.com/embed/wxDBF3OOaRA" frameborder="0" allowfullscreen="true">
   </iframe>
 </div>
 
-<h2>E é isso!</h2>
+## E é isso!
 
-<p>Se você chegou até aqui, espero que tenha valido de alguma coisa essa história. Nos vemos na próxima! Ah, dia 2 de junho tem o <a href="http://frontinrio.com.br" target="_blank">Front in Rio</a>. Aparece lá ;)</p>
+Se você chegou até aqui, espero que tenha valido de alguma coisa essa história. Nos vemos na próxima! Ah, dia 2 de junho tem o [Front in Rio](http://frontinrio.com.br). Aparece lá ;)

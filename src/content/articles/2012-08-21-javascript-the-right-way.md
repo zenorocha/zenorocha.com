@@ -1,34 +1,24 @@
 ---
 title: JavaScript the Right Way
-oldUrl: http://blog.zenorocha.com/post/29927205539/javascript-the-right-way
+image: http://media.tumblr.com/tumblr_m93xteQeai1qe3219.jpg
 ---
 
-<p><img src="http://media.tumblr.com/tumblr_m93xteQeai1qe3219.jpg"/></p>
+Um problema que a comunidade PHP tem enfrentado nos últimos anos é a quantidade de tutoriais desatualizados que acabam propagando entre os iniciantes más práticas de desenvolvimento e códigos cheios de bug.
 
-<p>Um problema que a comunidade PHP tem enfrentado nos últimos anos é a quantidade de tutoriais desatualizados que acabam propagando entre os iniciantes más práticas de desenvolvimento e códigos cheios de bug.</p>
+Algumas semanas atrás compartilharam por aí um projeto chamado [PHP: The Right Way](http://www.phptherightway.com/) que vem justamente para amenizar essa situação.
 
-<p>Algumas semanas atrás compartilharam por aí um projeto chamado <a href="http://www.phptherightway.com/" target="_blank">PHP: The Right Way</a> que vem justamente para amenizar essa situação.</p>
-
-<p>Esse cenário não se difere muito na comunidade JavaScript. Tanto que após conhecer esse projeto, o <a href="http://oliveirawilliam.wordpress.com/" target="_blank">William Oliveira</a> puxou essa excelente iniciativa para preparar um guia equivalente só que para o JavaScript.</p>
+Esse cenário não se difere muito na comunidade JavaScript. Tanto que após conhecer esse projeto, o [William Oliveira](http://oliveirawilliam.wordpress.com/) puxou essa excelente iniciativa para preparar um guia equivalente só que para o JavaScript.
 
 <!-- more -->
 
-<p>Dá só uma olhada:</p>
+Dá só uma olhada:
 
-<blockquote>
+> [jstherightway.com](http://jstherightway.com/)
 
-<p><a href="http://jstherightway.com/" target="_blank">jstherightway.com</a></p>
+Essa iniciativa marca o primeiro apoio da [BrazilJS Foundation](http://braziljs.org) em um projeto open source, que também conta com o apoio de outras marcas como [Apiki](http://apiki.com/) e [iMasters](http://imasters.com.br/).
 
-</blockquote>
+Tudo isso começou há pouco tempo e qualquer ajuda será bem-vinda. Por isso sinta-se convidado para participar desse projeto lá no nosso Github.
 
-<p>Essa iniciativa marca o primeiro apoio da <a href="http://braziljs.org" target="_blank">BrazilJS Foundation</a> em um projeto open source, que também conta com o apoio de outras marcas como <a href="http://apiki.com/">Apiki</a> e <a href="http://imasters.com.br/">iMasters</a>.</p>
+> [github.com/braziljs/js-the-right-way](http://github.com/braziljs/js-the-right-way)
 
-<p>Tudo isso começou há pouco tempo e qualquer ajuda será bem-vinda. Por isso sinta-se convidado para participar desse projeto lá no nosso Github.</p>
-
-<blockquote>
-
-<p><a href="http://github.com/braziljs/js-the-right-way" target="_blank">github.com/braziljs/js-the-right-way</a></p>
-
-</blockquote>
-
-<p>E é isso! Vamos continuar fomentando o front-end por aí e mostrando todo o potencial que o Brasil tem.</p>
+E é isso! Vamos continuar fomentando o front-end por aí e mostrando todo o potencial que o Brasil tem.

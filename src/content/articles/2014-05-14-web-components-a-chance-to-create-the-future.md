@@ -4,11 +4,11 @@ description: "Two weeks ago I was in San Francisco for SFHTML5. This meetup was 
 language: "en"
 ---
 
-<p>Two weeks ago I was in San Francisco for <a href="http://www.meetup.com/sfhtml5/events/169452272/">SFHTML5</a>. This meetup was all about Polymer and I gave a talk called <em>"Web Components: a chance to create the future"</em>.</p>
+Two weeks ago I was in San Francisco for [SFHTML5](http://www.meetup.com/sfhtml5/events/169452272/). This meetup was all about Polymer and I gave a talk called _"Web Components: a chance to create the future"_.
 
-<p>Slides are now available on <a href="https://speakerdeck.com/zenorocha/web-components-a-chance-to-create-the-future">SpeakerDeck</a> and the video is on YouTube.</p>
+Slides are now available on [SpeakerDeck](https://speakerdeck.com/zenorocha/web-components-a-chance-to-create-the-future) and the video is on YouTube.
 
-<div class="video-wrap">
+<div class="iframe-wrap">
   <iframe src="http://www.youtube.com/embed/JUzjr1bIRUg">
   </iframe>
 </div>

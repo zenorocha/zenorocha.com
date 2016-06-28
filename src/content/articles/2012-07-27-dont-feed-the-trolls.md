@@ -1,31 +1,29 @@
 ---
 title: Don't Feed the Trolls
-oldUrl: http://blog.zenorocha.com/post/28106562920/dont-feed-the-trolls
+image: http://media.tumblr.com/tumblr_m7szr6LDPt1qe3219.jpg
 ---
 
-<p><img src="http://media.tumblr.com/tumblr_m7szr6LDPt1qe3219.jpg"/></p>
+Tem sido cada vez maior o volume de pessoas que eu tenho lidado no dia-a-dia, seja em eventos, por email pessoal, grupos no facebook, issues no github, listas de email e tal.
 
-<p>Tem sido cada vez maior o volume de pessoas que eu tenho lidado no dia-a-dia, seja em eventos, por email pessoal, grupos no facebook, issues no github, listas de email e tal.</p>
+Em geral, muita gente bem intencionada, querendo realmente tirar dúvidas sobre linguagem X ou contribuir com ideias para projeto Y.
 
-<p>Em geral, muita gente bem intencionada, querendo realmente tirar dúvidas sobre linguagem X ou contribuir com ideias para projeto Y.</p>
+Só que nem sempre é assim. Um dos desafios mais delicados é lidar com aquelas pessoas que fazem justamente o contrário.
 
-<p>Só que nem sempre é assim. Um dos desafios mais delicados é lidar com aquelas pessoas que fazem justamente o contrário.</p>
-
-<p>Por isso, me identifiquei muito com uma fala rápida da Nicole Sullivan na Fluent Conf em São Francisco que aborda justamente isso e resolvi compartilhar com vocês.</p>
+Por isso, me identifiquei muito com uma fala rápida da Nicole Sullivan na Fluent Conf em São Francisco que aborda justamente isso e resolvi compartilhar com vocês.
 
 <!-- more -->
 
-<div class="video-wrap">
+<div class="iframe-wrap">
   <iframe src="http://www.youtube.com/embed/ulNSlES1Fds" frameborder="0" allowfullscreen="true">
   </iframe>
 </div>
 
-<p>Esse assunto é interessante e nos coloca muito pra refletir.</p>
+Esse assunto é interessante e nos coloca muito pra refletir.
 
-<p>Penso em quantas vezes já não recebi um issue de dúvida do jQuery Boilerplate ou uma revisão que precisava fazer do Dive into HTML5 e pensei: &#8220;agora estou ocupado, depois respondo isso&#8221;. Mas basta vir alguém trollar, reclamar ou ofender pessoalmente que você pára tudo o que estiver fazendo para responder o cara.</p>
+Penso em quantas vezes já não recebi um issue de dúvida do jQuery Boilerplate ou uma revisão que precisava fazer do Dive into HTML5 e pensei: “agora estou ocupado, depois respondo isso”. Mas basta vir alguém trollar, reclamar ou ofender pessoalmente que você pára tudo o que estiver fazendo para responder o cara.
 
-<p>Enfim, é realmente algo a se pensar, avaliar suas próprias atitudes e decisões antes mesmo de tomá-las. Até porque a responsabilidade tem se tornado cada vez maior.</p>
+Enfim, é realmente algo a se pensar, avaliar suas próprias atitudes e decisões antes mesmo de tomá-las. Até porque a responsabilidade tem se tornado cada vez maior.
 
-<p>Por fim, já diziam as paredes do Rio, meu amigo Leo Balter e meu novo papel de parede do computador. O segredo é:</p>
+Por fim, já diziam as paredes do Rio, meu amigo Leo Balter e meu novo papel de parede do computador. O segredo é:
 
-<p><img src="http://media.tumblr.com/tumblr_m7sxvx6vf41qe3219.jpg"/></p>
+![](http://media.tumblr.com/tumblr_m7sxvx6vf41qe3219.jpg)

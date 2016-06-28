@@ -1,9 +1,11 @@
 ---
 title: "Segredos do Chrome DevTools"
 description: "Conheça a série de 10 vídeos que vai te transformar em um ninja em DevTools"
+image: /assets/images/devtools.jpg
+slug: devtools-series
 ---
 
-<div class="video-wrap">
+<div class="iframe-wrap">
   <iframe src="//www.youtube.com/embed/videoseries?list=PLiGzvgwA5Gmgnq5vPjJxW52hDiX3ndL53">
   </iframe>
 </div>
@@ -21,3 +23,10 @@ A chegada do famigerado [Firebug](http://getfirebug.com/) há alguns anos atrás
 Nessa série oficial da *Google*, **gravada em português e produzida por brasileiros**, você vai ver em 10 vídeos como tirar proveito do Chrome DevTools para manipular elementos no DOM, identificar memory leaks, debugar código JavaScript, emular dispositivos móveis, otimizar o waterfall de requisições, e muito mais.
 
 Se você se interessa por produtividade e qualidade no desenvolvimento de aplicações web, não deixe de assistir todos os vídeos!
+
+## Bonus
+
+<div class="iframe-wrap">
+  <iframe src="//www.youtube.com/embed/JKEb-QmThJ0">
+  </iframe>
+</div>

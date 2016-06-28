@@ -1,6 +1,6 @@
 ---
-title: Introducing HTML11. The future, today
-oldUrl: http://blog.zenorocha.com/post/5344849472/introducing-html11-the-future-today-via
+isQuote: true
+title: Introducing HTML11
 ---
 
 <p><img src="http://24.media.tumblr.com/tumblr_ljmhp2ZJ6O1qedkdbo3_500.jpg"/></p>

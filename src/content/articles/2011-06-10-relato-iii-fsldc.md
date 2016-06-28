@@ -1,90 +1,82 @@
 ---
 title: Relato - III FSLDC
-oldUrl: http://blog.zenorocha.com/post/6396817050/relato-iii-fsldc
+image: http://media.tumblr.com/tumblr_lmi7zscD5Z1qe3219.png
 ---
 
-<p><img src="http://media.tumblr.com/tumblr_lmi7zscD5Z1qe3219.png"/></p>
+Nesse último sábado, dia 04 de junho, rolou um evento de destaque no cenário do software livre do estado do Rio de Janeiro. Foi o III Fórum de Software Livre de Duque de Caxias que reuniu mais de 300 pessoas, dentre elas algumas personalidades como [Rasmus Ledorf](http://pt.wikipedia.org/wiki/Rasmus_Lerdorf), criador do [PHP](http://br.php.net/) e [Jon “Maddog” Hall](http://pt.wikipedia.org/wiki/Jon_Hall), Diretor Executivo da [Linux Internacional](http://pt.wikipedia.org/wiki/Linux_International).
 
-<p>Nesse último sábado, dia 04 de junho, rolou um evento de destaque no cenário do software livre do estado do Rio de Janeiro. Foi o III Fórum de Software Livre de Duque de Caxias que reuniu mais de 300 pessoas, dentre elas algumas personalidades como <a href="http://pt.wikipedia.org/wiki/Rasmus_Lerdorf" target="_blank">Rasmus Ledorf</a>, criador do <a href="http://br.php.net/" target="_blank">PHP</a> e <a href="http://pt.wikipedia.org/wiki/Jon_Hall" target="_blank">Jon &#8220;Maddog&#8221; Hall</a>, Diretor Executivo da <a href="http://pt.wikipedia.org/wiki/Linux_International" target="_blank">Linux Internacional</a>.</p>
-
-<p>Confira logo mais como foi o evento e os bastidores da minha primeira palestra fora da capital do Rio de Janeiro :D</p>
+Confira logo mais como foi o evento e os bastidores da minha primeira palestra fora da capital do Rio de Janeiro :D
 
 <!-- more -->
 
-<p><img src="http://media.tumblr.com/tumblr_lmi8axgz1n1qe3219.jpg"/></p>
+![](http://media.tumblr.com/tumblr_lmi8axgz1n1qe3219.jpg)
 
-<p>Dando início a programação do dia ninguém mais do que <a href="http://pt.wikipedia.org/wiki/Jon_Hall" target="_blank">Jon &#8220;Maddog&#8221; Hall</a>. Queridíssimo por todos da comunidade open source contagiou o público com o seu carisma.</p>
+Dando início a programação do dia ninguém mais do que [Jon “Maddog” Hall](http://pt.wikipedia.org/wiki/Jon_Hall). Queridíssimo por todos da comunidade open source contagiou o público com o seu carisma.
 
-<p>Há dois 2 anos atrás, ouvi pela primeira vez uma palestra sua no <a href="http://2009.enecomp.org.br/" target="_blank">ENECOMP</a> (Encontro Nacional de Estudantes de Computação) que rolou em Curitiba. Dessa vez o assunto foi o mesmo, o <a href="http://www.projectcaua.org/" target="_blank">Projeto Cauã</a>. O legal foi ver que mesmo depois de todo esse tempo ele continua muito empenhado no projeto.</p>
+Há dois 2 anos atrás, ouvi pela primeira vez uma palestra sua no [ENECOMP](http://2009.enecomp.org.br/) (Encontro Nacional de Estudantes de Computação) que rolou em Curitiba. Dessa vez o assunto foi o mesmo, o [Projeto Cauã](http://www.projectcaua.org/). O legal foi ver que mesmo depois de todo esse tempo ele continua muito empenhado no projeto.
 
-<p><img src="http://media.tumblr.com/tumblr_lmi9a17TC31qe3219.jpg"/></p>
+![](http://media.tumblr.com/tumblr_lmi9a17TC31qe3219.jpg)
 
-<p>Dizem que a jornada, muita vezes, é mais importante do que o destino.</p>
+Dizem que a jornada, muita vezes, é mais importante do que o destino.
 
-<p>Por isso antes de contar como foi o resultado da minha palestra, vou contar os bastidores de como fui parar lá na frente dessas pessoas.</p>
+Por isso antes de contar como foi o resultado da minha palestra, vou contar os bastidores de como fui parar lá na frente dessas pessoas.
 
-<p>Assim que saiu a programação oficial do evento e vi que meu nome constava por lá pensei: &#8220;Por que não montar uma palestra sobre HTML5&#160;em HTML5?&#8221;</p>
+Assim que saiu a programação oficial do evento e vi que meu nome constava por lá pensei: “Por que não montar uma palestra sobre HTML5 em HTML5?”
 
-<p>A ideia era boa mas como todo bom palestrante, não tive muito tempo para prepará-la, o que me levou a passar a madrugada de sexta para sábado preparando tudo. Para os exemplos em HTML5 me baseei no famoso <a href="http://slides.html5rocks.com" target="_blank">HTML5Rocks</a> e assim fui montando tudo ao longo da madrugada.</p>
+A ideia era boa mas como todo bom palestrante, não tive muito tempo para prepará-la, o que me levou a passar a madrugada de sexta para sábado preparando tudo. Para os exemplos em HTML5 me baseei no famoso [HTML5Rocks](http://slides.html5rocks.com) e assim fui montando tudo ao longo da madrugada.
 
-<p>Às 5:20h da manhã fiz meu último commit no Github e então me deitei por 40 minutos enquanto fazia deploy dos arquivos para o servidor. Acordei às 6h e comecei a me arrumar para a viagem até Duque de Caxias.</p>
+Às 5:20h da manhã fiz meu último commit no Github e então me deitei por 40 minutos enquanto fazia deploy dos arquivos para o servidor. Acordei às 6h e comecei a me arrumar para a viagem até Duque de Caxias.
 
-<p>Cheguei no centro da cidade às 7h para me juntar aos outros palestrantes em uma van reservada para o nosso transporte até o evento. Às 8h já estavamos no Hotel Mont Blanc, onde já havia uma fila grande para o credenciamento.</p>
+Cheguei no centro da cidade às 7h para me juntar aos outros palestrantes em uma van reservada para o nosso transporte até o evento. Às 8h já estavamos no Hotel Mont Blanc, onde já havia uma fila grande para o credenciamento.
 
-<p>Até que finalmente às 11h da manhã, chegava a hora da minha apresentação.</p>
+Até que finalmente às 11h da manhã, chegava a hora da minha apresentação.
 
-<p>No mesmo horário tinham palestras excelentes no outros auditórios, como a do <a href="http://www.rodrigopadula.com/" target="_blank">Rodrigo Padula</a>, membro da <a href="http://foundation.gnome.org/" target="_blank">GNOME Foundation</a> e da <a href="http://mozillabrasil.org.br" target="_blank">Comunidade Mozilla Brasil</a>, que falava sobre a Mozilla, Firefox e a OpenWeb. E a do <a href="http://br.linkedin.com/in/dteruel" target="_blank">Domingos Teruel</a> vindo direto de São Paulo, que falava sobre <a href="http://www.slideshare.net/mingomax/taxonomias-e-tipos-de-contedos-com-wordpress-3" target="_blank">Wordpress</a>. Mesmo assim a palestra teve um público ótimo e a sala ficou cheia.</p>
+No mesmo horário tinham palestras excelentes no outros auditórios, como a do [Rodrigo Padula](http://www.rodrigopadula.com/), membro da [GNOME Foundation](http://foundation.gnome.org/) e da [Comunidade Mozilla Brasil](http://mozillabrasil.org.br), que falava sobre a Mozilla, Firefox e a OpenWeb. E a do [Domingos Teruel](http://br.linkedin.com/in/dteruel) vindo direto de São Paulo, que falava sobre [Wordpress](http://www.slideshare.net/mingomax/taxonomias-e-tipos-de-contedos-com-wordpress-3). Mesmo assim a palestra teve um público ótimo e a sala ficou cheia.
 
-<p>Pessoalmente acho que foi bem legal, o feedback depois da apresentação também foi positivo e acho que consegui passar minha ideia pro pessoal.</p>
+Pessoalmente acho que foi bem legal, o feedback depois da apresentação também foi positivo e acho que consegui passar minha ideia pro pessoal.
 
-<p>Se você perdeu, pode ver os slides no endereço <a href="http://labs.zenorocha.com/html5/slides" target="_blank">labs.zenorocha.com/html5/slides</a> (use as setas do teclado para passar de slide). E se você foi, outros feedbacks são muito bem-vindos nos comentários :)</p>
+Se você perdeu, pode ver os slides no endereço [labs.zenorocha.com/html5/slides](http://labs.zenorocha.com/html5/slides) (use as setas do teclado para passar de slide). E se você foi, outros feedbacks são muito bem-vindos nos comentários :)
 
-<p><img src="http://media.tumblr.com/tumblr_lmk4bfWcMG1qe3219.jpg"/></p>
+![](http://media.tumblr.com/tumblr_lmk4bfWcMG1qe3219.jpg)
 
-<p>Sai da minha apresentação e peguei o fimzinho de um <a href="http://dojorio.wordpress.com/" target="_blank">Dojo</a> comandado pelo <a href="http://www.bernardofontes.net/blog/" target="_blank">Bernardo Fontes</a> (<a href="http://twitter.com/#!/bbfontes" target="_blank">@bbfontes</a>) que, mais cedo, tinha dado sua palestra &#8220;Aprenda a programar, pergunte-me como.&#8221;</p>
+Sai da minha apresentação e peguei o fimzinho de um [Dojo](http://dojorio.wordpress.com/) comandado pelo [Bernardo Fontes](http://www.bernardofontes.net/blog/) ([@bbfontes](http://twitter.com/#!/bbfontes)) que, mais cedo, tinha dado sua palestra “Aprenda a programar, pergunte-me como.”
 
-<p>Depois voltamos do almoço e entramos direto para uma palestra sobre sistemas embarcados com <a href="http://www.eluaproject.net/" target="_blank">eLua</a>, um projeto bem legal idealizado pelo pessoal da <a href="http://www.puc-rio.br/index.html" target="_blank">PUC-RJ</a>. Bom para lembrar que existe mundo além do famoso <a href="http://www.arduino.cc/" target="_blank">Arduino</a>.</p>
+Depois voltamos do almoço e entramos direto para uma palestra sobre sistemas embarcados com [eLua](http://www.eluaproject.net/), um projeto bem legal idealizado pelo pessoal da [PUC-RJ](http://www.puc-rio.br/index.html). Bom para lembrar que existe mundo além do famoso [Arduino](http://www.arduino.cc/).
 
-<p>Aí começou um mesa redonda bem interessante sobre Modelos de Negócio em Software Livre e Código Aberto. Pessoal de alto nível desmistificando toda essa história de que não dá pra ganhar dinheiro com software livre.</p>
+Aí começou um mesa redonda bem interessante sobre Modelos de Negócio em Software Livre e Código Aberto. Pessoal de alto nível desmistificando toda essa história de que não dá pra ganhar dinheiro com software livre.
 
-<p>Mais tarde, o <a href="http://www.rodrigocarvalho.blog.br/" target="_blank">Rodrigo Carvalho</a> mostrou ferramentas muito legais na sua palestra sobre Integração Contínua com Software Livre. E também peguei o finalzinho da palestra sobre Shell Script do <a href="http://pt.wikipedia.org/wiki/Julio_Cezar_Neves" target="_blank">Júlio Cézar Neves</a>, da qual me arrependi muito de não ter ido depois de ver o pessoal aplaudindo de pé ao fim da apresentação.</p>
+Mais tarde, o [Rodrigo Carvalho](http://www.rodrigocarvalho.blog.br/) mostrou ferramentas muito legais na sua palestra sobre Integração Contínua com Software Livre. E também peguei o finalzinho da palestra sobre Shell Script do [Júlio Cézar Neves](http://pt.wikipedia.org/wiki/Julio_Cezar_Neves), da qual me arrependi muito de não ter ido depois de ver o pessoal aplaudindo de pé ao fim da apresentação.
 
-<p>Depois uma das melhores palestras do evento, Tatiana Al-Chueyr (<a href="http://twitter.com/#!/tati_alchueyr" target="_blank">@taty_alchueyr</a>) da Globo.com fez um <em>hands-on</em> de desenvolvimento de aplicativos para Android com Python. Deu até vontade de comprar um Android depois disso.</p>
+Depois uma das melhores palestras do evento, Tatiana Al-Chueyr ([@taty_alchueyr](http://twitter.com/#!/tati_alchueyr)) da Globo.com fez um _hands-on_ de desenvolvimento de aplicativos para Android com Python. Deu até vontade de comprar um Android depois disso.
 
-<p><img src="http://media.tumblr.com/tumblr_lmi99jb43K1qe3219.jpg" alt="Rasmus Lerdorf - Criador do PHP"/></p>
+![Rasmus Lerdorf - Criador do PHP](http://media.tumblr.com/tumblr_lmi99jb43K1qe3219.jpg)
 
-<p>Pra fechar, a tão esperada palestra do <a href="http://pt.wikipedia.org/wiki/Rasmus_Lerdorf" target="_blank">Rasmus Ledorf</a>, criador do <a href="http://br.php.net/" target="_blank">PHP</a>.</p>
+Pra fechar, a tão esperada palestra do [Rasmus Ledorf](http://pt.wikipedia.org/wiki/Rasmus_Lerdorf), criador do [PHP](http://br.php.net/).
 
-<p>A sala estava completamente lotada e a apresentação melhor do que eu esperava. Ele contou da sua trajetória desde a criação do PHP até as novidades para a próxima versão. Sabia que a trajetória dele, depois de ter saído da faculdade, começou aqui no Brasil trabalhando em uma empresa de Porto Alegre? </p>
+A sala estava completamente lotada e a apresentação melhor do que eu esperava. Ele contou da sua trajetória desde a criação do PHP até as novidades para a próxima versão. Sabia que a trajetória dele, depois de ter saído da faculdade, começou aqui no Brasil trabalhando em uma empresa de Porto Alegre? 
 
-<p><img src="http://media.tumblr.com/tumblr_lmicbu9fYC1qe3219.png"/></p>
+![](http://media.tumblr.com/tumblr_lmicbu9fYC1qe3219.png)
 
-<p>Você pode conferir todos os slides em: <a href="http://talks.php.net/show/fsldc" target="_blank">talks.php.net/show/fsldc</a></p>
+Você pode conferir todos os slides em: [talks.php.net/show/fsldc](http://talks.php.net/show/fsldc)
 
-<hr><p>Para finalizar gostaria de parabenizar o Alessandro Silva, organizador do evento pela ótima organização e também mandar meu muito obrigado por ter me proporcionado essa realização pessoal de ter palestrado no mesmo evento que ninguém mais que o criador do PHP e o diretor executivo da Linux Internacional. Valeu cara!</p>
+Para finalizar gostaria de parabenizar o Alessandro Silva, organizador do evento pela ótima organização e também mandar meu muito obrigado por ter me proporcionado essa realização pessoal de ter palestrado no mesmo evento que ninguém mais que o criador do PHP e o diretor executivo da Linux Internacional. Valeu cara!
 
-<p>Confira <a href="http://forumsoftwarelivre.com.br/2011/arquivos/Programa02062011.pdf" target="_blank">aqui</a> toda a programação que rolou no evento.</p>
+Confira [aqui](http://forumsoftwarelivre.com.br/2011/arquivos/Programa02062011.pdf) toda a programação que rolou no evento.
 
-<blockquote>
+> _“…Gostaria de agradecer a todos pela disponibilidade e por terem aceito o convite de participar do III FSLDC, um evento que é muito mais do que um momento para discussão sobre o Software Livre, mas um avanço no que diz respeito a realização de de eventos dessa natureza e dessa importância em regiões da baixada fluminense…”_
+>
+> **- Alessandro Silva, organizador do evento.**
 
-<p><em>&#8220;&#8230;Gostaria de agradecer a todos pela disponibilidade e por terem aceito o convite de participar do III FSLDC, um evento que é muito mais do que um momento para discussão sobre o Software Livre, mas um avanço no que diz respeito a realização de de eventos dessa natureza e dessa importância em regiões da baixada fluminense&#8230;&#8221;</em></p>
+**Próxima missão:** [Front in Rio 2011!](http://www.frontinrio.com.br)
 
-<p><strong>- Alessandro Silva, organizador do evento.</strong></p>
+Dia 18/06 na Urca, nos vemos lá!
 
-</blockquote>
+![](http://media.tumblr.com/tumblr_lmlfnwXTBp1qe3219.png)
 
-<hr><p><strong>Próxima missão:</strong> <a href="http://www.frontinrio.com.br" target="_blank">Front in Rio 2011!</a></p>
+## Veja também
 
-<p>Dia 18/06 na Urca, nos vemos lá!</p>
+*   [III FSLDC - Mais um grande evento fora da capital carioca - por Rodrigo Carvalho](http://www.rodrigocarvalho.blog.br/iii-fsldc-mais-um-grande-evento-fora-da-capital-carioca/)
+*   [III Fórum de Software Livre de Duque de Caxias - por Eliane Domingos](http://eliane-domingos.blogspot.com/2011/06/04-de-junho-de-2011-duque-de-caxias.html)
+*   [Relato III FSLDC - Fórum de Software Livre de Duque de Caxias - por Thiago Belem](http://blog.thiagobelem.net/relato-iii-fsldc-forum-de-software-livre-de-duque-de-caixas/)
 
-<p><img src="http://media.tumblr.com/tumblr_lmlfnwXTBp1qe3219.png"/></p>
-
-<hr><h2>Veja também</h2>
-
-<ul><li><a href="http://www.rodrigocarvalho.blog.br/iii-fsldc-mais-um-grande-evento-fora-da-capital-carioca/" target="_blank">III FSLDC - Mais um grande evento fora da capital carioca - por Rodrigo Carvalho</a></li>
-
-<li><a href="http://eliane-domingos.blogspot.com/2011/06/04-de-junho-de-2011-duque-de-caxias.html" target="_blank">III Fórum de Software Livre de Duque de Caxias - por Eliane Domingos</a></li>
-
-<li><a href="http://blog.thiagobelem.net/relato-iii-fsldc-forum-de-software-livre-de-duque-de-caixas/" target="_blank">Relato III FSLDC - Fórum de Software Livre de Duque de Caxias - por Thiago Belem</a></li>
-
-</ul><p>Foi ao evento também? Conta aí o que achou :)</p>
+Foi ao evento também? Conta aí o que achou :)

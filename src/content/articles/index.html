@@ -1,0 +1,19 @@
+---
+layout: article.html
+title: Articles
+tagline: Stories. Updates. Guides.
+image: /assets/images/pen-opt.jpg
+---
+
+<ul class="article-list">
+  {{#each collections.articles}}
+    {{#unless isQuote }}
+      <li class="article-item">
+        <a class="article-link" href="/{{ path }}">
+          <span class="article-title">{{ title }}</span>
+          <span class="article-date">{{ date }}</span>
+        </a>
+      </li>
+    {{/unless}}
+  {{/each}}
+</ul>

@@ -1,15 +1,14 @@
 ---
 title: 'Dive into HTML5: 100% traduzido!'
 link: 'http://www.maujor.com/blog/2012/12/02/dive-into-html5-100-traduzido/'
-oldUrl: http://blog.zenorocha.com/dive-into-html5-traduzido.html
 ---
 
 <!-- <p><a href="http://www.maujor.com/blog/2012/12/02/dive-into-html5-100-traduzido/"><img src="/assets/img/posts/diveintohtml5-traduzido.jpg"/></a></p> -->
 
-<p><em>Publicado originalmente no blog do Maujor.</em></p>
+*Publicado originalmente no blog do Maujor.*
 
-<p>Em 18 de outubro de 2011, Zeno Rocha escreveu um artigo chamado: <a href="/era-uma-vez-uma-referencia-chamada-dive-into-html5">“Era uma vez uma referência chamada Dive into HTML5…“</a>, onde contava sobre o súbito abandono de <a href="http://en.wikipedia.org/wiki/Mark_Pilgrim_(software_developer)">Mark Pilgrim</a> da internet.</p>
+Em 18 de outubro de 2011, Zeno Rocha escreveu um artigo chamado: [“Era uma vez uma referência chamada Dive into HTML5…“](/era-uma-vez-uma-referencia-chamada-dive-into-html5), onde contava sobre o súbito abandono de [Mark Pilgrim](http://en.wikipedia.org/wiki/Mark_Pilgrim_(software_developer)) da internet.
 
-<p>E foi nesse dia que o Zeno decidiu iniciar o processo de tradução da versão online do livro para português e veio contar para nós um pouquinho desse projeto, criando o texto a seguir que é de sua autoria e que eu publico com grande prazer.</p>
+E foi nesse dia que o Zeno decidiu iniciar o processo de tradução da versão online do livro para português e veio contar para nós um pouquinho desse projeto, criando o texto a seguir que é de sua autoria e que eu publico com grande prazer.
 
-<p><a href="http://www.maujor.com/blog/2012/12/02/dive-into-html5-100-traduzido/"><strong>Continue lendo&#8230;</strong></a></p>
+[**Continue lendo…**](http://www.maujor.com/blog/2012/12/02/dive-into-html5-100-traduzido/)

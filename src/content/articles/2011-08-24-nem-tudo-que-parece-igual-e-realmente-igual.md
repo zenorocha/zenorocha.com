@@ -1,92 +1,75 @@
 ---
 title: Nem tudo que parece igual é realmente igual...
-oldUrl: http://blog.zenorocha.com/post/9341076546/nem-tudo-que-parece-igual-e-realmente-igual
+image: http://media.tumblr.com/tumblr_lq9if2Mh5J1qe3219.jpg
 ---
 
-<p><img src="http://media.tumblr.com/tumblr_lq9if2Mh5J1qe3219.jpg"/></p>
-
-<p>Por ser uma linguagem fracamente tipada, uma coisa que confunde muita gente que está começando com Javascript são os operadores de comparação.</p>
+Por ser uma linguagem fracamente tipada, uma coisa que confunde muita gente que está começando com Javascript são os operadores de comparação.
 
 <!-- more -->
 
-<pre class="prettyprint lang-js">var zero = "0";
-
-
+```
+var zero = "0";
 
 if (zero == 0) {
-
-    // será que entra aqui?
-
+  // será que entra aqui?
 }
-
-
 
 if (zero === 0) {
-
-    // ou aqui?
-
+  // ou aqui?
 }
+```
 
-</pre>
+O símbolo "igual" possui três papéis diferentes nesse exemplo.
 
-<p>O símbolo &#8220;igual&#8221; possui três papéis diferentes nesse exemplo.</p>
+Primeiramente, ele é responsável por uma atribuição de valor na variável zero.
 
-<p>Primeiramente, ele é responsável por uma atribuição de valor na variável zero.</p>
+```
+var zero = "0";
+```
 
-<pre class="prettyprint lang-js">var zero = "0";</pre>
+Até aqui nenhuma novidade, continua parecido com a maioria das outras linguagens.
 
-<p>Até aqui nenhuma novidade, continua parecido com a maioria das outras linguagens.</p>
+Contudo, quando o assunto é comparação precisamos ter um olhar mais atento, pois podemos ter uma comparação comum (==) ou uma comparação estrita (===).
 
-<p>Contudo, quando o assunto é comparação precisamos ter um olhar mais atento, pois podemos ter uma comparação comum (==) ou uma comparação estrita (===).</p>
+```
+if (zero == 0) {
+  // será que entra aqui?
+  // entra sim xD
+}
+```
 
-<pre class="prettyprint lang-js">if (zero == 0) {
+O que acontece aqui é que, como a variável *zero* recebeu um valor do tipo string, antes de executar a comparação propriamente dita, será preciso uma conversão para um tipo numérico, por isso o resultado da comparação é verdadeiro.
 
-    // será que entra aqui?
+```
+if (zero === 0) {
+  // ou será que entra aqui?
+  // entra não :(
+}
+```
 
-    // entra sim xD
+Agora se a comparação for estrita, nenhuma conversão será feita sem que você mesmo tenha definido isso, portanto o resultado da comparação é falso já que uma string não é igual a um valor numérico.
 
-}</pre>
+Na dúvida, saiba que:
 
-<p>O que acontece aqui é que, como a variável <em>zero</em> recebeu um valor do tipo string, antes de executar a comparação propriamente dita, será preciso uma conversão para um tipo numérico, por isso o resultado da comparação é verdadeiro.</p>
+* Duas strings são estritamente iguais quando possuem a mesma sequência de caracteres em suas respectivas posições e o mesmo tamanho.
+* Dois números são estritamente iguais quando são numericamente iguais (_ohh! sério mesmo?_). Já o Nan não é igual a nada, nem mesmo igual ao próprio Nan. Zeros positivos e negativos são iguais.
+* Dois booleanos são estritamente iguais se ambos são somente verdadeiros ou se ambos são somente falsos (_nossa, que novidade_).
+* Dois objetos são estritamente iguais quando ambos se referenciam ao mesmo objeto.
+* Tipos nulos e indefinidos são iguais, porém não estritamente.
 
-<pre class="prettyprint lang-js">if (zero === 0) {
+## Operador de igualdade
 
-    // ou será que entra aqui?
+![](http://media.tumblr.com/tumblr_lq9ktrs14y1qe3219.jpg)
 
-    // entra não :(
+## Operador de igualdade estrita
 
-}</pre>
+![](http://media.tumblr.com/tumblr_lq9ktg6aXi1qe3219.jpg)
 
-<p>Agora se a comparação for estrita, nenhuma conversão será feita sem que você mesmo tenha definido isso, portanto o resultado da comparação é falso já que uma string não é igual a um valor numérico.</p>
+## Conclusão
 
-<p>Na dúvida, saiba que:</p>
+Pelo sim, pelo não, use sempre o operador de comparação estrita. Se uma conversão de tipo precisa ser feita, deixe isso explícito #ficadica.
 
-<ul><li>Duas strings são estritamente iguais quando possuem a mesma sequência de caracteres em suas respectivas posições e o mesmo tamanho.</li>
+## Referências
 
-<li>Dois números são estritamente iguais quando são numericamente iguais (<em>ohh! sério mesmo?</em>). Já o Nan não é igual a nada, nem mesmo igual ao próprio Nan. Zeros positivos e negativos são iguais.</li>
-
-<li>Dois booleanos são estritamente iguais se ambos são somente verdadeiros ou se ambos são somente falsos (<em>nossa, que novidade</em>).</li>
-
-<li>Dois objetos são estritamente iguais quando ambos se referenciam ao mesmo objeto.</li>
-
-<li>Tipos nulos e indefinidos são iguais, porém não estritamente.</li>
-
-</ul><hr><h2>Operador de igualdade</h2>
-
-<p><img src="http://media.tumblr.com/tumblr_lq9ktrs14y1qe3219.jpg"/></p>
-
-<hr><h2>Operador de igualdade estrita</h2>
-
-<p><img src="http://media.tumblr.com/tumblr_lq9ktg6aXi1qe3219.jpg"/></p>
-
-<hr><h2>Conclusão</h2>
-
-<p>Pelo sim, pelo não, use sempre o operador de comparação estrita. Se uma conversão de tipo precisa ser feita, deixe isso explícito #ficadica.</p>
-
-<hr><h2>Referências</h2>
-
-<ul><li><a href="http://bonsaiden.github.com/JavaScript-Garden/" target="_blank">Javascript Garden</a></li>
-
-<li><a href="https://developer.mozilla.org/en/JavaScript" target="_blank">Mozilla Developer Network (MDN)</a></li>
-
-</ul>
+* [Javascript Garden](http://bonsaiden.github.com/JavaScript-Garden/)
+* [Mozilla Developer Network (MDN)](https://developer.mozilla.org/en/JavaScript)

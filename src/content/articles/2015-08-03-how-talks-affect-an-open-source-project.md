@@ -4,9 +4,8 @@ description: "Good documentation, readable code, great performance, intuitive AP
 language: "en"
 link: "https://medium.com/developer-relations/how-talks-affect-an-open-source-project-e4dd1db81a6d"
 nomore: true
+image: https://d262ilb51hltx0.cloudfront.net/max/2000/1*KfBPYaP7396Dk23YK3FdRw.png
 ---
-
-![Cover](https://d262ilb51hltx0.cloudfront.net/max/2000/1*KfBPYaP7396Dk23YK3FdRw.png)
 
 Good documentation, readable code, great performance, intuitive APIs. These are few things that differentiates a successful open source project than just another GitHub repo that nobody cares. But what if you've done all that and still nobody is paying attention?
 

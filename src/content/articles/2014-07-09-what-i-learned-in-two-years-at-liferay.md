@@ -2,6 +2,7 @@
 title: "What I learned in 2 years at Liferay"
 description: "Seems like yesterday when I decided to move from this huge company based in Rio to this not-so-well-known company based in LA. That was not an easy decision, but I'm glad I made it. Now, two years after that day, here I am to share some of the things I learned."
 language: "en"
+slug: what-i-learned-in-two-years-at-liferay
 ---
 
 Seems like yesterday when I decided to [move from this huge company based in Rio](http://zenorocha.com/tudo-novo-de-novo/)
@@ -27,7 +28,7 @@ designers. They simply demonstrated more passion about what they were doing.
 After all, we think that learning technical skills is much easier than changing
 how someone feel about doing their work.
 
-<div class="video-wrap">
+<div class="iframe-wrap">
   <iframe src="http://www.youtube.com/embed/koU5UKUmxJw">
   </iframe>
 </div>
@@ -66,7 +67,7 @@ and so on.
 The cool thing is that I'm just one leaf of that tree, there are many other
 leaves like that spread all over the world.
 
-<div class="video-wrap">
+<div class="iframe-wrap">
   <iframe src="http://www.youtube.com/embed/gF2aUL2uNS8">
   </iframe>
 </div>

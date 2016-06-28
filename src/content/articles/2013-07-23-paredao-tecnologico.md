@@ -1,11 +1,11 @@
 ---
 title: "Paredão Tecnológico"
 description: "Laís e Anderson me colocaram no Paredão Tecnológico para responder algumas perguntas sobre web, carreira e tudo mais."
+slug: paredao-tecnologico
 ---
 
-<p>Laís e Anderson me colocaram no Paredão Tecnológico para responder algumas perguntas sobre web, carreira e tudo mais.</p>
+Laís e Anderson me colocaram no Paredão Tecnológico para responder algumas perguntas sobre web, carreira e tudo mais.
 
-<div class="video-wrap">
-  <iframe src="http://www.youtube.com/embed/6aB_flGgVNI">
-  </iframe>
+<div class="iframe-wrap">
+  <iframe src="http://www.youtube.com/embed/6aB_flGgVNI"></iframe>
 </div>

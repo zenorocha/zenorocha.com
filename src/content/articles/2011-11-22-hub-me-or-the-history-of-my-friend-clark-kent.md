@@ -1,84 +1,68 @@
 ---
 title: hub.me ...or the history of my friend Clark Kent
-oldUrl: http://blog.zenorocha.com/post/13162044644/hub-me-or-the-history-of-my-friend-clark-kent
+slug: hub-me-or-the-history-of-my-friend-clark-kent
 ---
 
-<p>&#8212; If you prefer, read the portuguese version <a href="https://gist.github.com/1385464" target="_blank">here</a>.</p>
+— If you prefer, read the portuguese version [here](https://gist.github.com/1385464).
 
-<p><img id="no-border" src="http://media.tumblr.com/tumblr_luu210IMt81qe3219.jpg"/></p>
+![](http://media.tumblr.com/tumblr_luu210IMt81qe3219.jpg)
 
-<p>I love Github, seriously, I really do. Also, my super coder friend Clark Kent loves too.</p>
+I love Github, seriously, I really do. Also, my super coder friend Clark Kent loves too.
 
-<p>Some weeks ago, he decided to create a new project on Github called <a href="https://github.com/clark-kent/krypton" target="_blank">Krypton</a>.</p>
+Some weeks ago, he decided to create a new project on Github called [Krypton](https://github.com/clark-kent/krypton).
 
-<p>This project is incredible and as the time passed by more and more people started watching and forking it. Awesome!</p>
+This project is incredible and as the time passed by more and more people started watching and forking it. Awesome!
 
 <!-- more -->
 
-<p>A few days after it he had an idea:</p>
+A few days after it he had an idea:
 
-<blockquote>
+> “Hey, what if I created a Github Page to make it even more popular?”
 
-<p>&#8220;Hey, what if I created a Github Page to make it even more popular?&#8221;</p>
+So he went to [pages.github.com](http://pages.github.com) and discovered that he just needed to go to Admin…
 
-</blockquote>
+![](http://media.tumblr.com/tumblr_luv2cxtXZh1qe3219.png)
 
-<p>So he went to <a href="http://pages.github.com" target="_blank">pages.github.com</a> and discovered that he just needed to go to Admin&#8230;</p>
+And check the ‘GitHub Pages’ check box.
 
-<p><img src="http://media.tumblr.com/tumblr_luv2cxtXZh1qe3219.png"/></p>
+![](http://media.tumblr.com/tumblr_luv2b5LjAU1qe3219.png)
 
-<p>And check the ‘GitHub Pages’ check box.</p>
+As every programmer, he’s a lazy guy.
 
-<p><img src="http://media.tumblr.com/tumblr_luv2b5LjAU1qe3219.png"/></p>
+So when this pop-up appeared, he just clicked on the ‘Automatic GitHub Page Generator’. Even because this generated page is already awesome and he doesn’t need to spend time coding it.
 
-<p>As every programmer, he&#8217;s a lazy guy.</p>
+![](http://media.tumblr.com/tumblr_luv2dzlLbp1qe3219.png)
 
-<p>So when this pop-up appeared, he just clicked on the ‘Automatic GitHub Page Generator’. Even because this generated page is already awesome and he doesn&#8217;t need to spend time coding it.</p>
+Cool, huh?! Now he can show to everybody his nice project at:
 
-<p><img src="http://media.tumblr.com/tumblr_luv2dzlLbp1qe3219.png"/></p>
+> [clark-kent.github.com/krypton](http://clark-kent.github.com/krypton/)
 
-<p>Cool, huh?! Now he can show to everybody his nice project at:</p>
+Days were passing and he started more and more projects on Github.
 
-<blockquote>
+Suddenly, he had a lot of nice projects and just wanted to show the world all of his work in a cool way.
 
-<p><a href="http://clark-kent.github.com/krypton/" target="_blank">clark-kent.github.com/krypton</a></p>
+So he had an epiphany:
 
-</blockquote>
+> “Hey, I can create Github Pages not just for projects but for users too!”
 
-<p>Days were passing and he started more and more projects on Github.</p>
+So he went to [pages.github.com](http://pages.github.com) again and found out that he just needed to create a repository called [clark-kent.github.com](http://clark-kent.github.com) and then push it. That’s nice, Github really rocks!
 
-<p>Suddenly, he had a lot of nice projects and just wanted to show the world all of his work in a cool way.</p>
+But Clark is a lazy guy and doesn’t have time to code his personal page, he just wants to show the world his projects, the fastest and coolest way possible, without having to code all this html/css thing, just like he did when created krypton project.
 
-<p>So he had an epiphany:</p>
+So he thought:
 
-<blockquote>
+> “There must be a Github Personal Page Generator too…”
 
-<p>&#8220;Hey, I can create Github Pages not just for projects but for users too!&#8221;</p>
+But there wasn’t =/
 
-</blockquote>
+So he gave it up. Sad history, huh?
 
-<p>So he went to <a href="http://pages.github.com" target="_blank">pages.github.com</a> again and found out that he just needed to create a repository called <a href="http://clark-kent.github.com" target="_blank">clark-kent.github.com</a> and then push it. That&#8217;s nice, Github really rocks!</p>
+Not anymore! Because now he met a project called [hub.me](http://github.com/zenorocha/hub.me/), where he shows all of his open source projects, organized by languages, with a simple and responsive layout made with HTML5 and CSS3 :)
 
-<p>But Clark is a lazy guy and doesn&#8217;t have time to code his personal page, he just wants to show the world his projects, the fastest and coolest way possible, without having to code all this html/css thing, just like he did when created krypton project.</p>
+What a happy ending!
 
-<p>So he thought:</p>
+And that’s all folks, I hope you start using hub.me too :)
 
-<blockquote>
+![](http://media.tumblr.com/tumblr_luu36opVbK1qe3219.jpg)
 
-<p>&#8220;There must be a Github Personal Page Generator too&#8230;&#8221;</p>
-
-</blockquote>
-
-<p>But there wasn&#8217;t =/</p>
-
-<p>So he gave it up. Sad history, huh?</p>
-
-<p>Not anymore! Because now he met a project called <a href="http://github.com/zenorocha/hub.me/" target="_blank">hub.me</a>, where he shows all of his open source projects, organized by languages, with a simple and responsive layout made with HTML5 and CSS3 :)</p>
-
-<p>What a happy ending!</p>
-
-<p>And that&#8217;s all folks, I hope you start using hub.me too :)</p>
-
-<p><img id="no-border" src="http://media.tumblr.com/tumblr_luu36opVbK1qe3219.jpg"/></p>
-
-<p>- <a href="http://github.com/zenorocha/hub.me/" target="_blank">hub.me</a> #ftw</p>
+- [hub.me](http://github.com/zenorocha/hub.me/) #ftw

@@ -1,59 +1,59 @@
 ---
 title: HTML5 - Canvas + Three.js
-oldUrl: http://blog.zenorocha.com/post/8931299250/html5-canvas-three-js
+image: http://media.tumblr.com/tumblr_lrou6aDK1U1qe3219.jpg
+slug: html5-canvas-three-js
 ---
 
-<p><img src="http://media.tumblr.com/tumblr_lrou6aDK1U1qe3219.jpg"/></p>
+<!-- <p class="demo-download"><a href="http://labs.zenorocha.com/html5/canvas/" target="_blank"><img src="http://media.tumblr.com/tumblr_lk325lvHwF1qe3219.png" class="botao"/></a> <a href="https://github.com/zenorocha/HTML5-Canvas" target="_blank"><img src="http://media.tumblr.com/tumblr_lk325u7HMG1qe3219.png" class="botao"/></a> -->
 
-<p class="demo-download"><a href="http://labs.zenorocha.com/html5/canvas/" target="_blank"><img src="http://media.tumblr.com/tumblr_lk325lvHwF1qe3219.png" class="botao"/></a> <a href="https://github.com/zenorocha/HTML5-Canvas" target="_blank"><img src="http://media.tumblr.com/tumblr_lk325u7HMG1qe3219.png" class="botao"/></a></p>
+Ahh o tão badalado canvas. Sempre um dos tópicos mais abordados quando o assunto é HTML5. Você já deve ter ouvido muito falar dele e, assim como eu, ter se impressionado com os [diversos experimentos](http://www.canvasdemos.com/) que surgem todos os dias pela internet.
 
-<p><span> </span></p>
+Sempre quando via um desses pensava: “Por que não criar o meu próprio experimento?” Nada de muito incrível, apenas mais uma demonstração de quão poderoso é esse novo recurso.
 
-<p>Ahh o tão badalado canvas. Sempre um dos tópicos mais abordados quando o assunto é HTML5. Você já deve ter ouvido muito falar dele e, assim como eu, ter se impressionado com os <a href="http://www.canvasdemos.com/" target="_blank">diversos experimentos</a> que surgem todos os dias pela internet.</p>
+Por isso há alguns meses eu e o Zanoni Miranda, nos juntamos, matamos algumas aulas da faculdade e criamos esse exemplo utilizando a engine [Three.js](https://github.com/mrdoob/three.js/).
 
-<p>Sempre quando via um desses pensava: &#8220;Por que não criar o meu próprio experimento?&#8221; Nada de muito incrível, apenas mais uma demonstração de quão poderoso é esse novo recurso.</p>
-
-<p>Por isso há alguns meses eu e o Zanoni Miranda, nos juntamos, matamos algumas aulas da faculdade e criamos esse exemplo utilizando a engine <a href="https://github.com/mrdoob/three.js/" target="_blank">Three.js</a>.</p>
-
-<p>E agora depois de todo esse tempo, venho compartilhar aqui com vocês o que é canvas, pra quer serve a engine <a href="https://github.com/mrdoob/three.js/" target="_blank">Three.js</a> e disponibilizar o código fonte dessa brincadeira toda.</p>
+E agora depois de todo esse tempo, venho compartilhar aqui com vocês o que é canvas, pra quer serve a engine [Three.js](https://github.com/mrdoob/three.js/) e disponibilizar o código fonte dessa brincadeira toda.
 
 <!-- more -->
 
-<h2>Canvas</h2>
+## Canvas
 
-<p>Eu gosto de pensar na tag &lt;canvas&gt; como um quadro em branco, esperando para ser pintado com um poderoso píncel chamado Javascript.</p>
+Eu gosto de pensar na tag `<canvas>` como um quadro em branco, esperando para ser pintado com um poderoso píncel chamado Javascript.
 
-<p>Mas é claro que, na verdade, é muito mais do que isso, com o canvas você consegue renderizar imagens, desenhar elementos complexos e criar animações.</p>
+Mas é claro que, na verdade, é muito mais do que isso, com o canvas você consegue renderizar imagens, desenhar elementos complexos e criar animações.
 
-<p>O que encanta mesmo com o advento do canvas é a possibilidade de fazer tudo isso sem usar qualquer plugin proprietário no seu navegador como <a href="http://get.adobe.com/br/flashplayer/" target="_blank">Flash Player</a> ou <a href="http://www.microsoft.com/getsilverlight/Get-Started/Install/Default.aspx" target="_blank">Silverlight</a>, é só HTML e Javascript.</p>
+O que encanta mesmo com o advento do canvas é a possibilidade de fazer tudo isso sem usar qualquer plugin proprietário no seu navegador como [Flash Player](http://get.adobe.com/br/flashplayer/) ou [Silverlight](http://www.microsoft.com/getsilverlight/Get-Started/Install/Default.aspx), é só HTML e Javascript.
 
-<h2>Three.js</h2>
+## Three.js
 
-<p>Se você não quer ter dor de cabeça na hora de fazer qualquer coisinha em 3D no navegador, eu sugiro que você conheça a <a href="https://github.com/mrdoob/three.js/" target="_blank">Three.js</a>.</p>
+Se você não quer ter dor de cabeça na hora de fazer qualquer coisinha em 3D no navegador, eu sugiro que você conheça a [Three.js](https://github.com/mrdoob/three.js/).
 
-<p>Uma engine criada pelo famoso <a href="http://mrdoob.com/" target="_blank">Mr.Doob</a>, um cara que desenvolve <a href="http://mrdoob.github.com/three.js/examples/webgl_materials_normalmap2.html" target="_blank">experimentos fantásticos</a> utilizando principalmente WebGL. Com essa engine você consegue criar com facilidade câmeras, objetos, materiais, cenas de iluminação e muito mais. Isso tudo podendo optar como a cena será desenhada, é só escolher Canvas, WebGL ou SVG.</p>
+Uma engine criada pelo famoso [Mr.Doob](http://mrdoob.com/), um cara que desenvolve [experimentos fantásticos](http://mrdoob.github.com/three.js/examples/webgl_materials_normalmap2.html) utilizando principalmente WebGL. Com essa engine você consegue criar com facilidade câmeras, objetos, materiais, cenas de iluminação e muito mais. Isso tudo podendo optar como a cena será desenhada, é só escolher Canvas, WebGL ou SVG.
 
-<p>Depois de procurar e não encontrar absolutamente nenhum material em português sobre essa engine, decidi ir além de mais um tutorial sobre como usar canvas criando um quadradinho e resolvi explorar os recursos do 3D.</p>
+Depois de procurar e não encontrar absolutamente nenhum material em português sobre essa engine, decidi ir além de mais um tutorial sobre como usar canvas criando um quadradinho e resolvi explorar os recursos do 3D.
 
-<h2>Exemplo</h2>
+## Exemplo
 
-<p>Para que esse post não fique gigante, apenas trechos de código serão exibidos a seguir, portanto se estiver com alguma dúvida dê uma olhada no meu <a href="https://github.com/zenorocha/HTML5-Canvas" target="_blank">repositório do github que contém o código completo</a>. </p>
+Para que esse post não fique gigante, apenas trechos de código serão exibidos a seguir, portanto se estiver com alguma dúvida dê uma olhada no meu [repositório do github que contém o código completo](https://github.com/zenorocha/HTML5-Canvas). 
 
-<p>O exemplo será bem simples, criar um cubo e interagir com ele. Tudo isso, é claro, utilizando apenas Javascript.</p>
+O exemplo será bem simples, criar um cubo e interagir com ele. Tudo isso, é claro, utilizando apenas Javascript.
 
-<p>Pra começar, vamos instanciar a câmera e definir seu posicionamento.</p>
+Pra começar, vamos instanciar a câmera e definir seu posicionamento.
 
-<pre class="prettyprint lang-js">camera = new THREE.Camera(70, canvasWidth / canvasHeight, 1, 1000);
+```
+camera = new THREE.Camera(70, canvasWidth / canvasHeight, 1, 1000);
 
 camera.position.y = 150;
 
 camera.position.z = 500;
 
-camera.target.position.y = 150;</pre>
+camera.target.position.y = 150;
+```
 
-<p>Depois vamos armazenar as cores das faces em um vetor com 6 posições e atribuir essas cores para cada uma das faces do material.</p>
+Depois vamos armazenar as cores das faces em um vetor com 6 posições e atribuir essas cores para cada uma das faces do material.
 
-<pre class="prettyprint lang-js">var arrayCor, materiais = new Array();
+```
+var arrayCor, materiais = new Array();
 
 arrayCor = [0x0092BF, 0x0092BF, 0xd9d9d9, 0xd9d9d9, 0xF14A29, 0xF14A29];
 
@@ -63,53 +63,53 @@ for (var i = 0; i &lt; 6; i++) {
 
     materiais.push( [new THREE.MeshLambertMaterial( { color: arrayCor[i] } ) ] );
 
-}</pre>
+}
+```
 
-<p>Então criamos um mesh, um grafo tridimensional que contém os vértices, faces e materiais de um objeto 3D. Aí instancio o cubo passando esse mesh e atribuindo uma posição.</p>
+Então criamos um mesh, um grafo tridimensional que contém os vértices, faces e materiais de um objeto 3D. Aí instancio o cubo passando esse mesh e atribuindo uma posição.
 
-<pre class="prettyprint lang-js">var mesh = new THREE.Cube(250, 250, 250, 1, 1, 1, materiais);
+```
+var mesh = new THREE.Cube(250, 250, 250, 1, 1, 1, materiais);
 
 
 
 cubo = new THREE.Mesh(mesh, new THREE.MeshFaceMaterial() );
 
-cubo.position.y = 150;</pre>
+cubo.position.y = 150;
+```
 
-<p>Criamos a cena e atribuimos o cubo nela.</p>
+Criamos a cena e atribuimos o cubo nela.
 
-<pre>cena = new THREE.Scene();
+```
+cena = new THREE.Scene();
 
 cena.addObject(cubo);
+```
 
-</pre>
+E também precisamos definir o objeto que vai renderizar esse canvas.
 
-<p>E também precisamos definir o objeto que vai renderizar esse canvas.</p>
-
-<pre>renderer = new THREE.CanvasRenderer();
+```
+renderer = new THREE.CanvasRenderer();
 
 renderer.setSize(canvasWidth, canvasHeight);
 
-container.appendChild( renderer.domElement );</pre>
+container.appendChild( renderer.domElement );
+```
 
-<p>Por fim, definimos que o container estará escutando pelo evento de quando o mouse está clicado e que quando esse evento for disparado chamará a função onMouseDown.</p>
+Por fim, definimos que o container estará escutando pelo evento de quando o mouse está clicado e que quando esse evento for disparado chamará a função onMouseDown.
 
-<pre class="prettyprint lang-js">container.addEventListener('mousedown', onMouseDown, false);</pre>
+```
+container.addEventListener('mousedown', onMouseDown, false);
+```
 
-<p>E agora paramos por aqui antes que esse post fique enorme, se você quiser saber mais sobre o resto das funções é só acessar o <a href="https://github.com/zenorocha/HTML5-Canvas" target="_blank">repositório do github que contém o código completo</a>. </p>
+E agora paramos por aqui antes que esse post fique enorme, se você quiser saber mais sobre o resto das funções é só acessar o [repositório do github que contém o código completo](https://github.com/zenorocha/HTML5-Canvas). 
 
-<h2>Compatibilidade</h2>
+## Compatibilidade
 
-<p><img src="http://media.tumblr.com/tumblr_lpx8vu0fgd1qe3219.jpg"/></p>
+![](http://media.tumblr.com/tumblr_lpx8vu0fgd1qe3219.jpg) Lembre-se sempre de utilizar o [Modernizr](http://Modernizr) para detectar navegadores que não possuem suporte ao canvas. Dessa vez, para informar aquelas pessoas perdidas no tempo que elas não conseguem ver esse exemplo porque seus navegadores são ruins, vamos criar um fallback bem simples. Portanto, além dele utilizar o [Modernizr](http://Modernizr), vamos utilizar também o [Yepnope](http://yepnopejs.com/) para nos auxiliar. Primeiro, testamos se o navegador tem suporte ao canvas. Caso tenha, carrego os scripts que serão responsáveis por criar essa brincadeira toda. Caso **não** tenha, carrego um css que será responsável por dizer ao nosso usuário que ele não tem suporte.
 
-<p>Lembre-se sempre de utilizar o <a href="http://Modernizr" target="_blank">Modernizr</a> para detectar navegadores que não possuem suporte ao canvas.</p>
-
-<p>Dessa vez, para informar aquelas pessoas perdidas no tempo que elas não conseguem ver esse exemplo porque seus navegadores são ruins, vamos criar um fallback bem simples.</p>
-
-<p>Portanto, além dele utilizar o <a href="http://Modernizr" target="_blank">Modernizr</a>, vamos utilizar também o <a href="http://yepnopejs.com/" target="_blank">Yepnope</a> para nos auxiliar.</p>
-
-<p>Primeiro, testamos se o navegador tem suporte ao canvas. Caso tenha, carrego os scripts que serão responsáveis por criar essa brincadeira toda. Caso <strong>não</strong> tenha, carrego um css que será responsável por dizer ao nosso usuário que ele não tem suporte.</p>
-
-<pre class="prettyprint lang-js">yepnope({
+```
+yepnope({
 
      test: Modernizr.canvas,
 
@@ -117,16 +117,13 @@ container.appendChild( renderer.domElement );</pre>
 
      nope: 'css/canvas-polyfill.css'
 
-});</pre>
+});
+```
 
-<p>E o resultado:</p>
+E o resultado:
 
-<p><img src="http://media.tumblr.com/tumblr_lpx89gb3aM1qe3219.png"/></p>
+![](http://media.tumblr.com/tumblr_lpx89gb3aM1qe3219.png) [Modernizr](http://www.modernizr.com/) e [Yepnope](http://yepnopejs.com/) formam um casal lindo, poderia fazer um post só sobre os dois, recomendo e muito o uso deles.
 
-<p><a href="http://www.modernizr.com/" target="_blank">Modernizr</a> e <a href="http://yepnopejs.com/" target="_blank">Yepnope</a> formam um casal lindo, poderia fazer um post só sobre os dois, recomendo e muito o uso deles.</p>
+## Conclusão
 
-<h2>Conclusão</h2>
-
-<p><span>Mesmo com o canvas estando em fase de especificação, ele é realmente tudo o que dizem. Ele proporciona hoje, e proporcionará ainda mais no futuro, experiências extremamente ricas que no passado só podiam ser desenvolvidas utilizando ferramentas proprietárias. E aliado ao uso da engine </span><a href="https://github.com/mrdoob/three.js/" target="_blank">Three.js</a><span> conseguimos mais desempenho e agilidade em seu desenvolvimento.</span></p>
-
-<p>Espero que tenha gostado e aproveite pra deixar suas opiniões aqui abaixo.</p>
+Mesmo com o canvas estando em fase de especificação, ele é realmente tudo o que dizem. Ele proporciona hoje, e proporcionará ainda mais no futuro, experiências extremamente ricas que no passado só podiam ser desenvolvidas utilizando ferramentas proprietárias. E aliado ao uso da engine [Three.js](https://github.com/mrdoob/three.js/) conseguimos mais desempenho e agilidade em seu desenvolvimento. Espero que tenha gostado e aproveite pra deixar suas opiniões aqui abaixo.

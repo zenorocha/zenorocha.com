@@ -1,13 +1,15 @@
 ---
 title: O futuro da web com HTML5 - Revista Wide
-oldUrl: http://blog.zenorocha.com/post/30999409520/o-futuro-da-web-com-html5-revista-wide
+image: http://media.tumblr.com/tumblr_m9tzipqmM71qe3219.jpg
+slug: o-futuro-da-web-com-html5
 ---
 
-<p><img src="http://media.tumblr.com/tumblr_m9tzipqmM71qe3219.jpg" /></p>
-<p>A nova edi&ccedil;&atilde;o da <a href="http://www.revistawide.com.br/">Revista Wide</a> tr&aacute;s uma entrevista minha falando um pouco sobre o futuro da web com HTML5.</p>
-<p>Essa &eacute; a minha primeira vez em uma revista impressa, portanto espero que voc&ecirc;s gostem =D</p>
+A nova edição da [Revista Wide](http://www.revistawide.com.br/) trás uma entrevista minha falando um pouco sobre o futuro da web com HTML5.
+
+Essa é a minha primeira vez em uma revista impressa, portanto espero que vocês gostem =D
 
 <!-- more -->
 
-<p>A&iacute; embaixo est&aacute; a capa, caso voc&ecirc; queira encontrar essa edi&ccedil;&atilde;o nas bancas.</p>
-<p><a href="http://www.revistawide.com.br/"><img src="http://media.tumblr.com/tumblr_m9wcskgbCy1qe3219.jpg" /></a></p>
+Aí embaixo está a capa, caso você queira encontrar essa edição nas bancas.
+
+[![](http://media.tumblr.com/tumblr_m9wcskgbCy1qe3219.jpg)](http://www.revistawide.com.br/)

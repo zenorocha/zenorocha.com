@@ -1,9 +1,9 @@
 ---
 title: 'Recado para o FrontInterior'
-oldUrl: http://blog.zenorocha.com/recado-para-frontinterior.html
+slug: recado-para-frontinterior
 ---
 
-<div class="video-wrap">
+<div class="iframe-wrap">
   <iframe src="http://www.youtube.com/embed/7qwpNEreMo4" frameborder="0" allowfullscreen="true">
   </iframe>
 </div>

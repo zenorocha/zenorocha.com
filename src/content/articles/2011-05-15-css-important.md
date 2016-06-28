@@ -1,43 +1,40 @@
 ---
 title: CSS !important - O melhor amigo do desenvolvedor hard-coded
-oldUrl: http://blog.zenorocha.com/post/5522606879/css-important-o-melhor-amigo-do-desenvolvedor
+slug: css-important
 ---
 
-<p><img src="http://media.tumblr.com/tumblr_ll8mw0OwXy1qe3219.jpg"/></p>
+Você está lá todo feliz codificando seu [CSS](http://pt.wikipedia.org/wiki/Cascading_Style_Sheets), quando de repente aquele parágrafo que era para estar vermelho, está verde!
 
-<p>Você está lá todo feliz codificando seu <a href="http://pt.wikipedia.org/wiki/Cascading_Style_Sheets" target="_blank">CSS</a>, quando de repente aquele parágrafo que era para estar vermelho, está verde!</p>
+Você examina sua folha de estilo e lá está declarado direitinho.
 
-<p>Você examina sua folha de estilo e lá está declarado direitinho.</p>
+```
+p { color: red; }
+```
 
-<pre class="prettyprint lang-css">p { color: red; }</pre>
+Percorre o CSS inteiro e verifica que essa regra é a última que você escreveu e também é a última a ser importada no documento.
 
-<p>Percorre o CSS inteiro e verifica que essa regra é a última que você escreveu e também é a última a ser importada no documento.</p>
-
-<p>Abre o <a href="https://addons.mozilla.org/pt-BR/firefox/addon/firebug/" target="_blank">firebug</a> e não consegue entender o porquê daquilo estar acontecendo.</p>
+Abre o [firebug](https://addons.mozilla.org/pt-BR/firefox/addon/firebug/) e não consegue entender o porquê daquilo estar acontecendo.
 
 <!-- more -->
 
-<p>Corre para o código HTML e vê que não há nenhum estilo inline declarado no parágrafo.</p>
+Corre para o código HTML e vê que não há nenhum estilo inline declarado no parágrafo.
 
-<p>Ah! Com certeza deve ser o maldito <a href="http://pt.wikipedia.org/wiki/Cache" target="_blank">cache</a> que você esqueceu de apagar! Limpa ele, mas mesmo assim o parágrafo insiste em continuar na cor verde. </p>
+Ah! Com certeza deve ser o maldito [cache](http://pt.wikipedia.org/wiki/Cache) que você esqueceu de apagar! Limpa ele, mas mesmo assim o parágrafo insiste em continuar na cor verde. 
 
-<p>O quê fazer? Se você é um pouquinho mais experiente com CSS vai partir para ignorância e utilizar a <strong><a href="http://www.maujor.com/blog/2006/08/18/declaracao-com-important/" target="_blank">técnica&#160;!important</a></strong>.</p>
+O quê fazer? Se você é um pouquinho mais experiente com CSS vai partir para ignorância e utilizar a **[técnica&#160;!important](http://www.maujor.com/blog/2006/08/18/declaracao-com-important/)**.
 
-<pre class="prettyprint lang-css">p { color: red !important; }</pre>
+```
+p { color: red !important; }
+```
 
-<p>E voilà, funcionou! E se funcionou está tudo bem, certo? Errado!</p>
+E voilà, funcionou! E se funcionou está tudo bem, certo? Errado!
 
-<p>Primeiro pare e pense na sigla CSS, Cascade Style Sheet.</p>
+Primeiro pare e pense na sigla CSS, Cascade Style Sheet.
 
-<p>O que exatamente significa uma folha de estilo <strong><a href="http://www.vanseodesign.com/css/css-specificity-inheritance-cascaade/" target="_blank">funcionar em cascata</a></strong>?</p>
+O que exatamente significa uma folha de estilo **[funcionar em cascata](http://www.vanseodesign.com/css/css-specificity-inheritance-cascaade/)**?
 
-<p>Significa que existem prioridades para aplicação de cada regra de estilo. Existe uma hierarquia que define qual propriedade deve ser aplicada em qual elemento. E para quem trabalha com CSS é preciso conhecer muito bem esses conceitos que envolvem o chamado &#8220;efeito cascata&#8221;.</p>
+Significa que existem prioridades para aplicação de cada regra de estilo. Existe uma hierarquia que define qual propriedade deve ser aplicada em qual elemento. E para quem trabalha com CSS é preciso conhecer muito bem esses conceitos que envolvem o chamado &#8220;efeito cascata&#8221;.
 
-<div class="video-wrap">
-  <iframe src="http://www.slideshare.net/slideshow/embed_code/1658158" frameborder="0" allowfullscreen="true">
-  </iframe>
-</div>
+Uma declaração de estilo com&#160;!important ignora qualquer hierarquia e prevalece sobre todas as demais, é a de mais alta prioridade. 
 
-<p>Uma declaração de estilo com&#160;!important ignora qualquer hierarquia e prevalece sobre todas as demais, é a de mais alta prioridade. </p>
-
-<p>Logo, é fácil prever que o uso excessivo dessa técnica pode causar muita dor de cabeça no futuro. Não estou dizendo que é ruim utilizar o&#160;!important, na verdade pode ser útil em diversas situações, o problema é que muitos desenvolvedores de forma preguiçosa ou simplesmente desconhecendo a precedência dos seletores, acabam por escolher esse caminho mais curto na correria dos prazos, mas que depois dificultam e muito a manutenção do código.</p>
+Logo, é fácil prever que o uso excessivo dessa técnica pode causar muita dor de cabeça no futuro. Não estou dizendo que é ruim utilizar o&#160;!important, na verdade pode ser útil em diversas situações, o problema é que muitos desenvolvedores de forma preguiçosa ou simplesmente desconhecendo a precedência dos seletores, acabam por escolher esse caminho mais curto na correria dos prazos, mas que depois dificultam e muito a manutenção do código.

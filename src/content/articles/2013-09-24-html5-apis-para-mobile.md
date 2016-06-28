@@ -7,7 +7,7 @@ description: "Está disponível o vídeo da palestra HTML5 APIs para Mobile que 
 
 <p>Os slides estão disponíveis no <a href="https://speakerdeck.com/zenorocha/html5-apis-para-mobile">SpeakerDeck</a>.</p>
 
-<div class="video-wrap">
+<div class="iframe-wrap">
   <iframe src="http://www.youtube.com/embed/ncYj9Z8LwNM">
   </iframe>
 </div>

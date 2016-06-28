@@ -1,69 +1,67 @@
 ---
 title: Relato - Geeks on Beer e Rio Agile
-oldUrl: http://blog.zenorocha.com/post/9165492743/relato-geeks-on-beer-e-rio-agile
+image: http://media.tumblr.com/tumblr_lpx7s22Si51qe3219.png
 ---
 
-<p><img src="http://media.tumblr.com/tumblr_lpx7s22Si51qe3219.png"/></p>
+Semana passada pude participar de mais dois excelentes eventos que rolaram aqui no Rio de Janeiro. O assunto, como sempre, era tecnologia, só que dessa vez, o foco não era a linguagem X ou Y.
 
-<p>Semana passada pude participar de mais dois excelentes eventos que rolaram aqui no Rio de Janeiro. O assunto, como sempre, era tecnologia, só que dessa vez, o foco não era a linguagem X ou Y.</p>
-
-<p>E sim, empreendedorismo e metodologias ágeis. Ambos excedendo minhas expectativas e se destacando por não serem mais um daqueles eventos em que você fica sentado passivamente ouvindo alguém falar, houve muita interação e participação da galera.</p>
+E sim, empreendedorismo e metodologias ágeis. Ambos excedendo minhas expectativas e se destacando por não serem mais um daqueles eventos em que você fica sentado passivamente ouvindo alguém falar, houve muita interação e participação da galera.
 
 <!-- more -->
 
-<h2>Geeks on Beer</h2>
+## Geeks on Beer
 
-<p>Depois da <a href="http://pedromarins.com/horaextra-geeks-on-beer-meet-geeks-on-a-plane/" target="_blank">famigerada primeira edição</a> do <a href="http://geeksonbeer.org/" target="_blank">Geeks on Beer</a>, organizada em tempo record para recepcionar os caras do <a href="http://geeksonaplane.com/" target="_blank">Geeks on a Plane</a>.</p>
+Depois da [famigerada primeira edição](http://pedromarins.com/horaextra-geeks-on-beer-meet-geeks-on-a-plane/) do [Geeks on Beer](http://geeksonbeer.org/), organizada em tempo record para recepcionar os caras do [Geeks on a Plane](http://geeksonaplane.com/).
 
-<p>Chegou a vez do evento recordista na quantidade cartões trocados por segundo, alcançar sua segunda edição nessa última quinta-feira, dia 11/08.</p>
+Chegou a vez do evento recordista na quantidade cartões trocados por segundo, alcançar sua segunda edição nessa última quinta-feira, dia 11/08.
 
-<p>O encontro de empreendedorismo, em forma de happy hour, reuniu desde grandes nomes do mundo de investimentos para startups, até geeks cheios de boas ideias na cabeça e disposição para convencer investidores.</p>
+O encontro de empreendedorismo, em forma de happy hour, reuniu desde grandes nomes do mundo de investimentos para startups, até geeks cheios de boas ideias na cabeça e disposição para convencer investidores.
 
-<p>Além do clima sempre descontraído, dessa vez rolaram algumas palestras, o que acabou atraindo ainda mais gente para o evento.</p>
+Além do clima sempre descontraído, dessa vez rolaram algumas palestras, o que acabou atraindo ainda mais gente para o evento.
 
-<p><img align="left" width="150" src="http://media.tumblr.com/tumblr_lq77w1ZyPU1qe3219.jpg"/></p>
+![](http://media.tumblr.com/tumblr_lq77w1ZyPU1qe3219.jpg)
 
-<h3><strong>Fabio Seixas</strong></h3>
+### **Fabio Seixas**
 
-<p>Pra começar o sócio-fundador do <a href="http://www.camiseteria.com/" target="_blank">Camiseteria</a>, iniciou com a palestra &#8220;quebrei!&#8221;. </p>
+Pra começar o sócio-fundador do [Camiseteria](http://www.camiseteria.com/), iniciou com a palestra “quebrei!”. 
 
-<p>Sempre com uma cerveja na mão, contou toda sua trajetória empreendendo e as lições que aprendeu depois de quebrar 3 empresas.</p>
+Sempre com uma cerveja na mão, contou toda sua trajetória empreendendo e as lições que aprendeu depois de quebrar 3 empresas.
 
-<div class="video-wrap">
+<div class="iframe-wrap">
   <iframe src="http://www.slideshare.net/slideshow/embed_code/8856171" frameborder="0" allowfullscreen="true">
   </iframe>
 </div>
 
-<p><img src="http://media.tumblr.com/tumblr_lq78e5Uo2M1qe3219.jpg" width="150" align="left"/></p>
+![](http://media.tumblr.com/tumblr_lq78e5Uo2M1qe3219.jpg)
 
-<h3><strong>Alex Tabor</strong></h3>
+### **Alex Tabor**
 
-<p>Depois foi a vez do CTO e sócio-fundador do <a href="http://www.peixeurbano.com.br/" target="_blank">Peixe Urbano</a>, apresentar a palestra &#8220;mandei bem!&#8221;.</p>
+Depois foi a vez do CTO e sócio-fundador do [Peixe Urbano](http://www.peixeurbano.com.br/), apresentar a palestra “mandei bem!”.
 
-<p>Contando as histórias desde primórdios da empresa, os momentos de tensão durante aquela <a href="http://idgnow.uol.com.br/internet/2011/03/31/promocao-de-cupons-a-1-centavo-derruba-site-do-peixe-urbano/" target="_blank">famosa promoção de 1 centavo</a> por produto, até chegar nos números astronômicos que o maior site de compra do coletiva atinge hoje.</p>
+Contando as histórias desde primórdios da empresa, os momentos de tensão durante aquela [famosa promoção de 1 centavo](http://idgnow.uol.com.br/internet/2011/03/31/promocao-de-cupons-a-1-centavo-derruba-site-do-peixe-urbano/) por produto, até chegar nos números astronômicos que o maior site de compra do coletiva atinge hoje.
 
-<p>Novamente, parabéns aos organizadores <a href="http://pedromarins.com" target="_blank">Pedro Marins</a> (<a href="http://twitter.com/#!/pedromarins" target="_blank">@pedromarins</a>) e <a href="http://www.beesoffice.com/site/" target="_blank">Cadu de Castro Alves</a> (<a href="http://twitter.com/#!/castroalves" target="_blank">@castroalves</a>) pelo excelente evento.</p>
+Novamente, parabéns aos organizadores [Pedro Marins](http://pedromarins.com) ([@pedromarins](http://twitter.com/#!/pedromarins)) e [Cadu de Castro Alves](http://www.beesoffice.com/site/) ([@castroalves](http://twitter.com/#!/castroalves)) pelo excelente evento.
 
-<hr><h2>Agile in Rio</h2>
+## Agile in Rio
 
-<p>Já no sábado, dia 13/08, rolou o Agile in Rio. Um encontro da comunidade <a href="http://rioagile.com.br/" target="_blank">Rio Agile</a> que aconteceu na empresa <a href="http://www.ideais.com.br/" target="_blank">Ideais</a>. </p>
+Já no sábado, dia 13/08, rolou o Agile in Rio. Um encontro da comunidade [Rio Agile](http://rioagile.com.br/) que aconteceu na empresa [Ideais](http://www.ideais.com.br/). 
 
-<p>O dia começou com um case da própria empresa, contando a experiência do uso de Scrum e Kanban aplicado na construção do maior portal de e-commerce da América Latina.</p>
+O dia começou com um case da própria empresa, contando a experiência do uso de Scrum e Kanban aplicado na construção do maior portal de e-commerce da América Latina.
 
-<p><img src="http://media.tumblr.com/tumblr_lqbsewoGtM1qe3219.jpg"/></p>
+![](http://media.tumblr.com/tumblr_lqbsewoGtM1qe3219.jpg)
 
-<p>Depois a excelente palestra do <a href="http://rafanascimento.wordpress.com/" target="_blank">Rafael Nascimento</a> (<a href="http://twitter.com/#!/rafanasil" target="_blank">@rafanasil</a>) sobre os fundamentos da agilidade. Olha fazia tempo que não assistia uma palestra tão boa, abordando pontos do <a href="http://agilemanifesto.org/iso/ptbr/" target="_blank">manifesto ágil</a> e mostrando como eles podem ajudar nos problemas do dia-a-dia no nosso trabalho.</p>
+Depois a excelente palestra do [Rafael Nascimento](http://rafanascimento.wordpress.com/) ([@rafanasil](http://twitter.com/#!/rafanasil)) sobre os fundamentos da agilidade. Olha fazia tempo que não assistia uma palestra tão boa, abordando pontos do [manifesto ágil](http://agilemanifesto.org/iso/ptbr/) e mostrando como eles podem ajudar nos problemas do dia-a-dia no nosso trabalho.
 
-<p><img src="http://media.tumblr.com/tumblr_lqbs8z1g3l1qe3219.jpg"/></p>
+![](http://media.tumblr.com/tumblr_lqbs8z1g3l1qe3219.jpg)
 
-<p>Já durante a tarde, rolou um workshop extremamente animado, onde simulamos os papéis de cliente e desenvolvedor. Onde, além de rir até não aguentar mais, aprendemos muito nas retrospectivas que aconteciam depois de cada iteração.</p>
+Já durante a tarde, rolou um workshop extremamente animado, onde simulamos os papéis de cliente e desenvolvedor. Onde, além de rir até não aguentar mais, aprendemos muito nas retrospectivas que aconteciam depois de cada iteração.
 
-<p><img src="http://media.tumblr.com/tumblr_lqbsf6Jgcb1qe3219.jpg"/></p>
+![](http://media.tumblr.com/tumblr_lqbsf6Jgcb1qe3219.jpg)
 
-<hr><h2>Participou de algum desses eventos?</h2>
+## Participou de algum desses eventos?
 
-<p>Deixe seu comentário aqui, contando o que achou!</p>
+Deixe seu comentário aqui, contando o que achou!
 
-<h2>E a próxima missão?</h2>
+## E a próxima missão?
 
-<p><a href="http://openspacerio.org/" target="_blank">VII OpenSpaceRio</a>! Que por sinal está rolando agora lá no <a href="http://portal.cefet-rj.br/" target="_blank">CEFET-RJ</a> e eu já estou atrasado, então até a próxima.</p>
+[VII OpenSpaceRio](http://openspacerio.org/)! Que por sinal está rolando agora lá no [CEFET-RJ](http://portal.cefet-rj.br/) e eu já estou atrasado, então até a próxima.

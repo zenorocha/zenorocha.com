@@ -3,12 +3,12 @@ title: "jQuery Boilerplate at TreeHouse Show"
 description: "My first open source project, jQuery Boilerplate, is featuring at
 ThreeHouse Show this week! Check it out on minute 1:40."
 language: "en"
+slug: jqbp-on-treehouse
 ---
 
-<p>My first open source project, <a href="http://jqueryboilerplate.com">jQuery Boilerplate</a>, is featuring at
-ThreeHouse Show this week! Check it out on minute <strong>1:40</strong>.</p>
+My first open source project, [jQuery Boilerplate](http://jqueryboilerplate.com), is featuring at ThreeHouse Show this week! Check it out on minute **1:40**.
 
-<div class="video-wrap">
+<div class="iframe-wrap">
   <iframe src="http://www.youtube.com/embed/zudHBOdcMdg">
   </iframe>
 </div>

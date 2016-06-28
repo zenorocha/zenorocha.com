@@ -1,15 +1,15 @@
 ---
 title: 'Entrevista - A nova experiência do HTML5'
 link: 'http://www.infoq.com/br/interviews/html5-front-end'
-oldUrl: http://blog.zenorocha.com/entrevista-qconsp.html
+slug: entrevista-qconsp
 ---
 
 <!-- <p><a href="http://www.infoq.com/br/interviews/html5-front-end" target="_blank"><img src="/assets/img/posts/entrevista-qconsp.jpg"/></a></p> -->
 
-<p><em>Publicado originalmente no InfoQ.</em></p>
+_Publicado originalmente no InfoQ._
 
-<p>Durante a conferência <a href="http://www.qconsp.com/">QCon</a> em São Paulo eu e Bernard de Luna batemos um papo bem enriquecedor sobre HTML5, SEO, XHTML, Flash, Mobile e muitas outras coisas.</p>
+Durante a conferência [QCon](http://www.qconsp.com/) em São Paulo eu e Bernard de Luna batemos um papo bem enriquecedor sobre HTML5, SEO, XHTML, Flash, Mobile e muitas outras coisas.
 
-<p>Isso tudo foi registrado pelos caras da <a href="http://www.infoq.com/br/interviews/html5-front-end">InfoQ</a> e o resultado você confere agora nesse vídeo bem legal.</p>
+Isso tudo foi registrado pelos caras da [InfoQ](http://www.infoq.com/br/interviews/html5-front-end) e o resultado você confere agora nesse vídeo bem legal.
 
-<p><a href="http://www.infoq.com/br/interviews/html5-front-end"><strong>Continue lendo&#8230;</strong></a></p>
+[**Continue lendo…**](http://www.infoq.com/br/interviews/html5-front-end)

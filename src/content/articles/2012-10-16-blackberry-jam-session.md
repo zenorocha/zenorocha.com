@@ -1,58 +1,51 @@
 ---
 title: BlackBerry Jam Session
-oldUrl: http://blog.zenorocha.com/blackberry-jam-session.html
+image: /assets/img/posts/bb-jamsession.jpg
 ---
 
-<p><img src="/assets/img/posts/bb-jamsession.jpg"/></p>
+Aqui estou eu, novamente contando sobre as experiências que tenho vivido por aí. Dessa vez vou voltar algumas semanas atrás no tempo para falar do primeiro Hackathon de verdade que eu participei. Digo "primeiro de verdade" porque nos outros eu não competi, fiquei só conversando com o pessoal.
 
-<p>Aqui estou eu, novamente contando sobre as experiências que tenho vivido por aí. Dessa vez vou voltar algumas semanas atrás no tempo para falar do primeiro Hackathon de verdade que eu participei. Digo "primeiro de verdade" porque nos outros eu não competi, fiquei só conversando com o pessoal.</p>
-
-<p>Foi o <a href="http://blackberryjamsessions.com/2012/10/04/rio-de-janeiro-brazil/?lang=pt">BlackBerry Jam Session #5</a> que rolou no Rio, uma maratona de 10 horas de programação de desenvolvimento regada a muito Redbull.</p>
+Foi o [BlackBerry Jam Session #5](http://blackberryjamsessions.com/2012/10/04/rio-de-janeiro-brazil/?lang=pt) que rolou no Rio, uma maratona de 10 horas de programação de desenvolvimento regada a muito Redbull.
 
 <!-- more -->
 
-<h2>Configurando o ambiente</h2>
+## Configurando o ambiente
 
-<p>A brincadeira começou um dia antes do evento em si. Apesar de ter ganho o aparelho BlackBerry 10 Dev Alpha algumas semanas antes do Hackathon, não tive tempo sequer de ligar ele direito e como bom brasileiro deixei tudo para última hora.</p>
+A brincadeira começou um dia antes do evento em si. Apesar de ter ganho o aparelho BlackBerry 10 Dev Alpha algumas semanas antes do Hackathon, não tive tempo sequer de ligar ele direito e como bom brasileiro deixei tudo para última hora.
 
-<p><img src="/assets/img/posts/bb-devalpha.jpg"/></p>
+![](/assets/img/posts/bb-devalpha.jpg)
 
-<p>O dia anterior ao Hackathon foi importante para configurar o ambiente de desenvolvimento e tudo mais que fosse necessário para que não se perdesse horas valiosas do dia seguinte configurando ambiente ao invés de desenvolver o produto.</p>
+O dia anterior ao Hackathon foi importante para configurar o ambiente de desenvolvimento e tudo mais que fosse necessário para que não se perdesse horas valiosas do dia seguinte configurando ambiente ao invés de desenvolver o produto.
 
-<p>E pra isso, esse <a href="http://blackberryjamsessions.com/blackberryjamsessions/getting-ready-for-the-hackathon/?lang=pt">excelente guia</a>, criado pelo <a href="http://dborba.com/">Demian Borba</a>, ajudou a dar os primeiros passos.</p>
+E pra isso, esse [excelente guia](http://blackberryjamsessions.com/blackberryjamsessions/getting-ready-for-the-hackathon/?lang=pt), criado pelo [Demian Borba](http://dborba.com/), ajudou a dar os primeiros passos.
 
-<h2>Showtime</h2>
+## Showtime
 
-<p>Assim que chegamos por lá, já definimos um time e começamos a debater as ideias. Estava recioso com relação à encontrar designers para se juntar ao time, mas por incrível que pareça estava sobrando designer.</p>
+Assim que chegamos por lá, já definimos um time e começamos a debater as ideias. Estava recioso com relação à encontrar designers para se juntar ao time, mas por incrível que pareça estava sobrando designer.
 
-<p>Redbull vai, redbull vem. Muita correria e um desafio gigantesco. Por mais que 10h possa parecer bastante tempo, na hora isso passa extremamente rápido, pois se perde muito tempo debatendo ideias, dividindo tarefas, elaborando modelo de negócios e, é claro, programando.</p>
+Redbull vai, redbull vem. Muita correria e um desafio gigantesco. Por mais que 10h possa parecer bastante tempo, na hora isso passa extremamente rápido, pois se perde muito tempo debatendo ideias, dividindo tarefas, elaborando modelo de negócios e, é claro, programando.
 
-<p>No fim, ainda era preciso fazer uma apresentação de apenas 3 minutos demonstrando o jogo!</p>
+No fim, ainda era preciso fazer uma apresentação de apenas 3 minutos demonstrando o jogo!
 
-<h2>O resultado?</h2>
+## O resultado?
 
-<p>Conseguimos levar o prêmio de melhor game!</p>
+Conseguimos levar o prêmio de melhor game!
 
-<p><img src="/assets/img/posts/bb-time.jpg"/></p>
+![](/assets/img/posts/bb-time.jpg)
 
-<p>Nosso time focou em entregar algo funcional e passível de ser publicado na loja de aplicativos naquele curto espaço de tempo. Conseguimos e de quebra nos divertimos muito fazendo esse joguinho em HTML5. O resultado vocês podem conferir clicando na imagem abaixo.</p>
+Nosso time focou em entregar algo funcional e passível de ser publicado na loja de aplicativos naquele curto espaço de tempo. Conseguimos e de quebra nos divertimos muito fazendo esse joguinho em HTML5\. O resultado vocês podem conferir clicando na imagem abaixo.
 
 <p><a href="http://html5-pro.com/black-wings/"><img src="/assets/img/posts/bb-wings.jpg"/></a></p>
 
-<p></p>
+## Próximos passos
 
-<h2>Próximos passos</h2>
+Estamos com planos para aprimorar a jogabilidade e adicionar novas funcionalidades na dinâmica do jogo como upgrade do player, chefão, etc. Não vai dar pra manter o mesmo ritmo de desenvolvimento daquele dia, mas esperamos fazer.
 
-<p>Estamos com planos para aprimorar a jogabilidade e adicionar novas funcionalidades na dinâmica do jogo como upgrade do player, chefão, etc. Não vai dar pra manter o mesmo ritmo de desenvolvimento daquele dia, mas esperamos fazer.</p>
+## Eu já fui, agora é com você!
 
-<h2>Eu já fui, agora é com você!</h2>
-
-<div class="video-wrap">
+<div class="iframe-wrap">
   <iframe src="http://www.youtube.com/embed/s41ypMtOz5I" frameborder="0" allowfullscreen="true">
   </iframe>
 </div>
 
-<p>Depois dessa incrível experiência que eles proporcionaram por lá, não podia deixar de avisar vocês que só vai rolar mais uma edição desse Hackathon aqui no Brasil. E vai ser em São Paulo, então se estiver a fim de participar, <a href="http://blackberryjamsessions.com/registre-se/?lang=pt">fica ligado aqui.</a> Eu recomendo e muito!</p>
-
-
-
+Depois dessa incrível experiência que eles proporcionaram por lá, não podia deixar de avisar vocês que só vai rolar mais uma edição desse Hackathon aqui no Brasil. E vai ser em São Paulo, então se estiver a fim de participar, [fica ligado aqui.](http://blackberryjamsessions.com/registre-se/?lang=pt) Eu recomendo e muito!

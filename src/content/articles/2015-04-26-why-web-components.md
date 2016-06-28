@@ -4,9 +4,8 @@ description: "By now, you may have heard a lot of things about Web Components. S
 language: "en"
 link: "http://webcomponents.org/articles/why-web-components/"
 nomore: true
+image: /assets/img/posts/why-web-components.jpg
 ---
-
-![Why Web Components](/assets/img/posts/why-web-components.jpg)
 
 By now, you may have heard a lot of things about Web Components. Some people say it's the promise land, others say it has been oversold.
 

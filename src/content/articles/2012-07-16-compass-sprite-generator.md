@@ -1,12 +1,10 @@
 ---
 title: Compass Sprite Generator
-oldUrl: http://blog.zenorocha.com/post/27345280207/compass-sprite-generator
+image: http://media.tumblr.com/tumblr_m79nnrcMtP1qe3219.jpg
 ---
 
-<p><img src="http://media.tumblr.com/tumblr_m79nnrcMtP1qe3219.jpg"/></p>
+Nesse último final de semana estive no [Front in BH](http://frontinbh.com.br) para falar sobre pré-processadores de CSS. Infelizmente, por problemas técnicos, não consegui mostrar uma das coisas que eu mais gosto no [Compass](http://compass-style.org).
 
-<p>Nesse último final de semana estive no <a href="http://frontinbh.com.br" target="_blank">Front in BH</a> para falar sobre pré-processadores de CSS. Infelizmente, por problemas técnicos, não consegui mostrar uma das coisas que eu mais gosto no <a href="http://compass-style.org" target="_blank">Compass</a>.</p>
+Então, resolvi escrever um post no [Tableless](http://tableless.com.br/css-sprites/) falando um pouco mais sobre o assunto e também demostrando o Sprite Generator do Compass com um [vídeo](http://www.youtube.com/watch?v=dnekMEGwuaA).
 
-<p>Então, resolvi escrever um post no <a href="http://tableless.com.br/css-sprites/" target="_blank">Tableless</a> falando um pouco mais sobre o assunto e também demostrando o Sprite Generator do Compass com um <a href="http://www.youtube.com/watch?v=dnekMEGwuaA" target="_blank">vídeo</a>.</p>
-
-<p><a href="http://tableless.com.br/css-sprites/" target="_blank">Continue lendo&#8230;</a></p>
+[Continue lendo…](http://tableless.com.br/css-sprites/)

@@ -4,6 +4,7 @@ description: "Desde o ano passado estive usando ZSH como shell ao invés
 do Bash, nativo do Mac OSx. Graças ao oh-my-zsh consegui ganhar uma
 produtividade muito boa no terminal. Só que uma coisinha sempre me irritava,
 a autocorreção."
+slug: desabilitar-autocorrecao-zsh
 ---
 
 Desde o [ano passado](http://zenorocha.com/meu-ambiente-de-trabalho-em-7-itens/)
@@ -16,15 +17,17 @@ Só que uma coisinha sempre me irritava, a autocorreção.
 
 <!-- more -->
 
-<pre class="prettyprint">git clone git@github.com:zenorocha/diveintohtml5.git
+```
+git clone git@github.com:zenorocha/diveintohtml5.git
 zsh: correct 'clone' to 'clones' [nyae]? n
-</pre>
+```
 
 Finalmente consegui desabilitar, por isso a dica de hoje vai para galera que
 também usa [ZSH](http://en.wikipedia.org/wiki/Z_shell) e não curte essa feature.
 
 Para desabilitar, basta adicionar a última linha no arquivo `~/.zshrc`.
 
-<pre class="prettyprint">source $ZSH/oh-my-zsh.sh
+```
+source $ZSH/oh-my-zsh.sh
 unsetopt correct_all
-</pre>
+```

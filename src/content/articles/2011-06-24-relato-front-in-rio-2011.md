@@ -1,135 +1,121 @@
 ---
 title: Relato - Front in Rio 2011
-oldUrl: http://blog.zenorocha.com/post/6875451311/relato-front-in-rio-2011
+image: http://media.tumblr.com/tumblr_lmlfnwXTBp1qe3219.png
 ---
 
-<p><img src="http://media.tumblr.com/tumblr_lmlfnwXTBp1qe3219.png"/></p>
+Recentemente participei de mais um evento muito legal. Foi o [Front in Rio 2011](http://frontinrio.com.br) ([@frontinrio](https://twitter.com/#!/frontinrio)), o primeiro dedicado somente ao mercado front-end em solos cariocas.
 
-<p>Recentemente participei de mais um evento muito legal. Foi o <a href="http://frontinrio.com.br" target="_blank">Front in Rio 2011</a> (<a href="https://twitter.com/#!/frontinrio" target="_blank">@frontinrio</a>), o primeiro dedicado somente ao mercado front-end em solos cariocas.</p>
+A comunidade estava carente por um evento somente dessa área. E o resultado, é claro, foi muito positivo, o evento encheu demais e teve muita repercussão, chegando até atingir um lugarzinho no [trending topics](http://twitpic.com/5dc8iy).
 
-<p>A comunidade estava carente por um evento somente dessa área. E o resultado, é claro, foi muito positivo, o evento encheu demais e teve muita repercussão, chegando até atingir um lugarzinho no <a href="http://twitpic.com/5dc8iy" target="_blank">trending topics</a>.</p>
-
-<p>Confira <a href="https://picasaweb.google.com/109083148409729757227/FrontinRio" target="_blank">nesse link</a> as fotos do evento e nesse post o que rolou por lá.</p>
+Confira [nesse link](https://picasaweb.google.com/109083148409729757227/FrontinRio) as fotos do evento e nesse post o que rolou por lá.
 
 <!-- more -->
 
-<hr><p><img src="http://media.tumblr.com/tumblr_ln9934NTHF1qe3219.xcf"/></p>
+![](http://media.tumblr.com/tumblr_ln9934NTHF1qe3219.xcf)
 
-<p>A grade aliou temas atuais com grandes nomes do mercado de front-end da capital fluminense.</p>
+A grade aliou temas atuais com grandes nomes do mercado de front-end da capital fluminense.
 
-<p>Representando o HTML5 estivemos eu e o <a href="http://www.bernarddeluna.com/" target="_blank">Bernard De Luna</a>, além do <a href="http://fellipe.com/" target="_blank">Davidson Fellipe</a> e do <a href="http://www.andrewsmedina.com" target="_blank">Andrews Medina</a> da <a href="http://globo.com" target="_blank">Globo.com</a>.</p>
+Representando o HTML5 estivemos eu e o [Bernard De Luna](http://www.bernarddeluna.com/), além do [Davidson Fellipe](http://fellipe.com/) e do [Andrews Medina](http://www.andrewsmedina.com) da [Globo.com](http://globo.com).
 
-<hr><h2>@font-face - Maujor</h2>
+## @font-face - Maujor
 
-<p><img src="http://media.tumblr.com/tumblr_lnb6lxaNnM1qe3219.jpg"/></p>
+![](http://media.tumblr.com/tumblr_lnb6lxaNnM1qe3219.jpg)
 
-<p>Abrindo o evento ninguém menos que Maurício Samy Silva, mais conhecido como <a href="http://maujor.com/blog" target="_blank">Maujor</a> (<a href="https://twitter.com/#!/maujor" target="_blank">@maujor</a>). Com sua excelente didática mostrou a técnica @font-face do CSS3, uma boa dica para os iniciantes ou pra quem não estava muito por dentro das novidades do CSS3.</p>
+Abrindo o evento ninguém menos que Maurício Samy Silva, mais conhecido como [Maujor](http://maujor.com/blog) ([@maujor](https://twitter.com/#!/maujor)). Com sua excelente didática mostrou a técnica @font-face do CSS3, uma boa dica para os iniciantes ou pra quem não estava muito por dentro das novidades do CSS3.
 
-<hr><h2>WTF Javascript - Léo Balter</h2>
+## WTF Javascript - Léo Balter
 
-<p>Infelizmente não assisti a palestra inteira, pois precisava organizar algumas coisas para a minha que seria a próxima. Mas durante o tempo que fiquei lá vi muita coisa boa.</p>
+Infelizmente não assisti a palestra inteira, pois precisava organizar algumas coisas para a minha que seria a próxima. Mas durante o tempo que fiquei lá vi muita coisa boa.
 
-<p>
-  <iframe class="video-wrap" src="http://www.slideshare.net/slideshow/embed_code/8323522" marginwidth="0" marginheight="0" width="500" frameborder="0" height="415" scrolling="no">
+<div class="iframe-wrap">
+  <iframe src="http://www.slideshare.net/slideshow/embed_code/8323522" marginwidth="0" marginheight="0" width="500" frameborder="0" height="415" scrolling="no">
   </iframe>
-</p>
+</div>
 
-<hr><h2>Desbravando o HTML5 Boilerplate - Zeno Rocha</h2>
+## Desbravando o HTML5 Boilerplate - Zeno Rocha
 
-<p><img src="http://media.tumblr.com/tumblr_ln9aopmYZ81qe3219.jpg"/></p>
+![](http://media.tumblr.com/tumblr_ln9aopmYZ81qe3219.jpg)
 
-<p>A sala estava muito cheia e meu objetivo era mostrar para aquelas pessoas interessadas em HTML5, o porquê de optar pelo HTML5 Boilerplate na hora de iniciar seus projetos, para então entender as funcionalidades por trás dele.</p>
+A sala estava muito cheia e meu objetivo era mostrar para aquelas pessoas interessadas em HTML5, o porquê de optar pelo HTML5 Boilerplate na hora de iniciar seus projetos, para então entender as funcionalidades por trás dele.
 
-<p>
-  <iframe class="video-wrap" src="http://www.slideshare.net/slideshow/embed_code/8346961" marginwidth="0" marginheight="0" width="500" frameborder="0" height="415" scrolling="no">
+<div class="iframe-wrap">
+  <iframe src="http://www.slideshare.net/slideshow/embed_code/8346961" marginwidth="0" marginheight="0" width="500" frameborder="0" height="415" scrolling="no">
   </iframe>
-</p>
+</div>
 
-<p>Acabei terminando a palestra mais cedo do que planejava, não sei se era nervosismo ou se era fome :P (já que foi no último horário antes do almoço). De qualquer forma o feedback foi ótimo e acho que consegui passar minha mensagem para a galera.</p>
+Acabei terminando a palestra mais cedo do que planejava, não sei se era nervosismo ou se era fome :P (já que foi no último horário antes do almoço). De qualquer forma o feedback foi ótimo e acho que consegui passar minha mensagem para a galera.
 
-<p><img src="http://media.tumblr.com/tumblr_ln9ap4wLyn1qe3219.jpg"/></p>
+![](http://media.tumblr.com/tumblr_ln9ap4wLyn1qe3219.jpg)
 
-<p><em>Detalhe para o único da platéia de cabelo branco, Maujor :P</em></p>
+_Detalhe para o único da platéia de cabelo branco, Maujor :P_
 
-<hr><h2>Alinhando o design às métricas e conversões - Rafael Lima</h2>
+## Alinhando o design às métricas e conversões - Rafael Lima
 
-<p>No mesmo horário só que na outra sala, <a href="http://rafael.adm.br/" target="_blank">Rafael Lima</a> (<a href="http://twitter.com/#!/rafaelp" target="_blank">@rafaelp</a>) falava sobre técnicas para aumentar as conversões do seu site.</p>
+No mesmo horário só que na outra sala, [Rafael Lima](http://rafael.adm.br/) ([@rafaelp](http://twitter.com/#!/rafaelp)) falava sobre técnicas para aumentar as conversões do seu site.
 
-<p>
-  <iframe class="video-wrap" src="http://www.slideshare.net/slideshow/embed_code/8364542" marginwidth="0" marginheight="0" width="500" frameborder="0" height="415" scrolling="no">
+<div class="iframe-wrap">
+  <iframe src="http://www.slideshare.net/slideshow/embed_code/8364542" marginwidth="0" marginheight="0" width="500" frameborder="0" height="415" scrolling="no">
   </iframe>
-</p>
+</div>
 
-<hr><h2>Seletores - Fábio Costa</h2>
+## Seletores - Fábio Costa
 
-<p>Mais tarde, um dos desenvolvedores do framework javascript <a href="http://mootools.net/" target="_blank">Mootols</a> falou sobre seletores.</p>
+Mais tarde, um dos desenvolvedores do framework javascript [Mootols](http://mootools.net/) falou sobre seletores.
 
-<p>
-  <iframe class="video-wrap" marginheight="0" marginwidth="0" src="http://www.slideshare.net/slideshow/embed_code/8348815" width="500" frameborder="0" height="415" scrolling="no">
+<div class="iframe-wrap">
+  <iframe marginheight="0" marginwidth="0" src="http://www.slideshare.net/slideshow/embed_code/8348815" width="500" frameborder="0" height="415" scrolling="no">
   </iframe>
-</p>
+</div>
 
-<hr><h2>Otimizando o carregamento de sites com jQuery – Thiago Belem</h2>
+## Otimizando o carregamento de sites com jQuery – Thiago Belem
 
-<p>Em sua primeira vez como palestrante, <a href="http://thiagobelem.net/" target="_blank">Thiago Belem</a> (<a href="http://twitter.com/#!/Tiutalk" target="_blank">@TiuTalk</a>) conseguiu lidar muito bem com o nervosismo e levantou questões muito interessantes sobre otimização de carregamento utilizando jQuery.</p>
+Em sua primeira vez como palestrante, [Thiago Belem](http://thiagobelem.net/) ([@TiuTalk](http://twitter.com/#!/Tiutalk)) conseguiu lidar muito bem com o nervosismo e levantou questões muito interessantes sobre otimização de carregamento utilizando jQuery.
 
-<p>Confira os slides em: <a href="http://dev.thiagobelem.net/otimizacao-jquery/slides/" target="_blank"><a href="http://dev.thiagobelem.net/otimizacao-jquery/slides/" target="_blank">http://dev.thiagobelem.net/otimizacao-jquery/slides/</a></a></p>
+Confira os slides em: [](http://dev.thiagobelem.net/otimizacao-jquery/slides/)[http://dev.thiagobelem.net/otimizacao-jquery/slides/](http://dev.thiagobelem.net/otimizacao-jquery/slides/)
 
-<hr><h2>Animação e jogos além do Canvas - Andrews Medina</h2>
+## Animação e jogos além do Canvas - Andrews Medina
 
-<p>Essa foi uma palestra que eu queria muito ter assistido, mas que infelizmente estava acontecendo ao mesmo tempo que a do meu amigo <a href="http://thiagobelem.net/" target="_blank">Thiago Belem</a>. De qualquer forma, <a href="http://twitter.com/#!/leolohmann/status/82812998992924674" target="_blank">vi muitos elogios dela</a> e os slides também dão uma amostra de como foi boa.</p>
+Essa foi uma palestra que eu queria muito ter assistido, mas que infelizmente estava acontecendo ao mesmo tempo que a do meu amigo [Thiago Belem](http://thiagobelem.net/). De qualquer forma, [vi muitos elogios dela](http://twitter.com/#!/leolohmann/status/82812998992924674) e os slides também dão uma amostra de como foi boa.
 
-<p>
-  <iframe class="video-wrap" marginheight="0" marginwidth="0" src="http://www.slideshare.net/slideshow/embed_code/8355676" width="500" frameborder="0" height="415" scrolling="no">
+<div class="iframe-wrap">
+  <iframe marginheight="0" marginwidth="0" src="http://www.slideshare.net/slideshow/embed_code/8355676" width="500" frameborder="0" height="415" scrolling="no">
   </iframe>
-</p>
+</div>
 
-<hr><h2>Como ser um ninja em xHTML, HTML5 e CSS3 - Bernard de Luna</h2>
+## Como ser um ninja em xHTML, HTML5 e CSS3 - Bernard de Luna
 
-<p>A última palestra do dia ficou por conta de <a href="http://www.bernarddeluna.com/" target="_blank">Bernard De Luna</a> (<a href="http://twitter.com/#!/bernarddeluna" target="_blank">@bernarddeluna</a>). De forma bem descontraída falou sobre o processo que envolve o designer e o desenvolvedor front-end. E também impressionou os iniciantes com uma ferramenta para codificar mais rápido chamada <a href="http://code.google.com/p/zen-coding/" target="_blank">Zen Coding</a>. Ele aproveitou pra expressar sua opinião (não muito favorável) ao HTML5 Boilerplate. Basicamente seu argumento foi que as pessoas usam ele sem saber e isso eu também acho errado, na verdade isso que me motivou a querer palestrar sobre esse assunto.</p>
+A última palestra do dia ficou por conta de [Bernard De Luna](http://www.bernarddeluna.com/) ([@bernarddeluna](http://twitter.com/#!/bernarddeluna)). De forma bem descontraída falou sobre o processo que envolve o designer e o desenvolvedor front-end. E também impressionou os iniciantes com uma ferramenta para codificar mais rápido chamada [Zen Coding](http://code.google.com/p/zen-coding/). Ele aproveitou pra expressar sua opinião (não muito favorável) ao HTML5 Boilerplate. Basicamente seu argumento foi que as pessoas usam ele sem saber e isso eu também acho errado, na verdade isso que me motivou a querer palestrar sobre esse assunto.
 
-<p>
-  <iframe class="video-wrap" src="http://www.slideshare.net/slideshow/embed_code/8349012" marginwidth="0" marginheight="0" width="500" frameborder="0" height="415" scrolling="no">
+<div class="iframe-wrap">
+  <iframe src="http://www.slideshare.net/slideshow/embed_code/8349012" marginwidth="0" marginheight="0" width="500" frameborder="0" height="415" scrolling="no">
   </iframe>
-</p>
+</div>
 
-<hr><h2>Canvas vs. SVG</h2>
+## Canvas vs. SVG
 
-<p>Também no último horário, <a href="http://fellipe.com/" target="_blank">Davidson Fellipe</a> (<a href="http://twitter.com/#!/davidsonfellipe" target="_blank">@davidsonfellipe</a>) mostrou as diferenças entre dois assuntos muito badalados hoje em dia, Canvas e SVG.</p>
+Também no último horário, [Davidson Fellipe](http://fellipe.com/) ([@davidsonfellipe](http://twitter.com/#!/davidsonfellipe)) mostrou as diferenças entre dois assuntos muito badalados hoje em dia, Canvas e SVG.
 
-<p>
-  <iframe class="video-wrap" src="http://www.slideshare.net/slideshow/embed_code/8354309" marginwidth="0" marginheight="0" width="500" frameborder="0" height="415" scrolling="no">
+<div class="iframe-wrap">
+  <iframe src="http://www.slideshare.net/slideshow/embed_code/8354309" marginwidth="0" marginheight="0" width="500" frameborder="0" height="415" scrolling="no">
   </iframe>
-</p>
+</div>
 
-<hr><h2>Agradecimentos</h2>
+## Agradecimentos
 
-<p>Queria deixar aqui meu agradecimento a todo esse pessoal que correu atrás e fez acontecer. Meus parabéns:</p>
+Queria deixar aqui meu agradecimento a todo esse pessoal que correu atrás e fez acontecer. Meus parabéns:
 
-<ul><li><a href="http://leobalter.net/" target="_blank">Leo Balter</a></li>
+* [Leo Balter](http://leobalter.net/)
+* [Ramon Page](http://ramonpage.com/)
+* [Andre Fonseca](http://metronus.com/blog/)
+* [Rafael Tauil](http://rafael.tauil.com.br/)
+* [Bernard de Luna](http://www.bernarddeluna.com/)
+* [Pedro Marins](http://pedromarins.com/)
+* [Cayo ‘Yogodoshi’ Medeiros](http://www.yogodoshi.com/portfolio/)
+* [Bruno Dulcetti](http://www.papodebar.com/)
 
-<li><a href="http://ramonpage.com/" target="_blank">Ramon Page</a></li>
+## Leia também
 
-<li><a href="http://metronus.com/blog/" target="_blank">Andre Fonseca</a></li>
-
-<li><a href="http://rafael.tauil.com.br/" target="_blank">Rafael Tauil</a></li>
-
-<li><a href="http://www.bernarddeluna.com/" target="_blank">Bernard de Luna</a></li>
-
-<li><a href="http://pedromarins.com/" target="_blank">Pedro Marins</a></li>
-
-<li><a href="http://www.yogodoshi.com/portfolio/" target="_blank">Cayo ‘Yogodoshi’ Medeiros</a></li>
-
-<li><a href="http://www.papodebar.com/" target="_blank">Bruno Dulcetti</a></li>
-
-</ul><hr><h2>Leia também</h2>
-
-<ul><li><a href="http://ramonpage.com/2011/06/19/missao-cumprida-front-in-rio/" target="_blank">Missão cumprida: Front in Rio<em> - por Ramon Page</em></a></li>
-
-<li><a href="http://www.klauslaube.com.br/2011/06/front-rio-2011-eu-fui/" target="_blank">Front in Rio 2011 - Eu fui!<em> - por Klaus Laube</em></a></li>
-
-<li><a href="http://blog.thiagobelem.net/relato-frontinrio-2011/" target="_blank">Relato Front in Rio 2011<em> - por Thiago Belem</em></a></li>
-
-<li><a href="http://fellipe.com/blog/relato-sobre-o-frontinrio-2011/" target="_blank">Relato sobre o Front in Rio 2011 - <em>por Davidson Fellipe</em><br/></a></li>
-
-</ul>
+* [Missão cumprida: Front in Rio _- por Ramon Page_](http://ramonpage.com/2011/06/19/missao-cumprida-front-in-rio/)
+* [Front in Rio 2011 - Eu fui! _- por Klaus Laube_](http://www.klauslaube.com.br/2011/06/front-rio-2011-eu-fui/)
+* [Relato Front in Rio 2011 _- por Thiago Belem_](http://blog.thiagobelem.net/relato-frontinrio-2011/)
+* [Relato sobre o Front in Rio 2011 - _por Davidson Fellipe_](http://fellipe.com/blog/relato-sobre-o-frontinrio-2011/)

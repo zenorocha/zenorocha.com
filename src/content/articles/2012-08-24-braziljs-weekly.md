@@ -1,28 +1,26 @@
 ---
 title: BrazilJS Weekly
-oldUrl: http://blog.zenorocha.com/post/30099307477/braziljs-weekly
+image: http://media.tumblr.com/tumblr_m99x24Vquc1qe3219.jpg
 ---
 
-<p><img src="http://media.tumblr.com/tumblr_m99x24Vquc1qe3219.jpg"/></p>
+Hoje muita gente acordou com novidade em suas caixas de email, foi a primeira edição da [BrazilJS Weekly](http://braziljs.org/weekly/1.html) \o/
 
-<p>Hoje muita gente acordou com novidade em suas caixas de email, foi a primeira edição da <a href="http://braziljs.org/weekly/1.html" target="_blank">BrazilJS Weekly</a> \o/</p>
-
-<p>Inspirado nesse modelo semanal de compilação de conteúdo, resolvemos trazer para o público cadastrado na <a href="http://braziljs.org/" target="_blank">BrazilJS Foundation</a>, o que acontece de melhor no Brasil quando o assunto é JavaScript, seja front-end ou back-end.</p>
+Inspirado nesse modelo semanal de compilação de conteúdo, resolvemos trazer para o público cadastrado na [BrazilJS Foundation](http://braziljs.org/), o que acontece de melhor no Brasil quando o assunto é JavaScript, seja front-end ou back-end.
 
 <!-- more -->
 
-<p>Se você não recebeu, confira a versão <a href="http://braziljs.org/weekly/1.html" target="_blank">online</a>.</p>
+Se você não recebeu, confira a versão [online](http://braziljs.org/weekly/1.html).
 
-<p>E se deseja receber as próximas edições, é só se cadastrar no site da <a href="http://braziljs.org" target="_blank">BrazilJS Foundation</a>.</p>
+E se deseja receber as próximas edições, é só se cadastrar no site da [BrazilJS Foundation](http://braziljs.org).
 
-<h2>Como funciona?</h2>
+## Como funciona?
 
-<p>Toda semana vamos sair à procura dos melhores artigos, das melhores bibliotecas ou ferramentas, dos melhores vídeos de palestras, dos melhores eventos e das melhores vagas de emprego que estão rolando por aí.</p>
+Toda semana vamos sair à procura dos melhores artigos, das melhores bibliotecas ou ferramentas, dos melhores vídeos de palestras, dos melhores eventos e das melhores vagas de emprego que estão rolando por aí.
 
-<p>Não vai ser fácil, vamos precisar da ajuda de todos vocês nesse trabalho de garimpo, portanto fiquem à vontade para enviar links e sugestões no <a href="http://twitter.com/braziljs" target="_blank">Twitter</a>, <a href="http://facebook.com/braziljs" target="_blank">Facebook</a> ou <a href="https://groups.google.com/forum/?fromgroups#!forum/braziljs-foundation" target="_blank">Lista de email</a>.</p>
+Não vai ser fácil, vamos precisar da ajuda de todos vocês nesse trabalho de garimpo, portanto fiquem à vontade para enviar links e sugestões no [Twitter](http://twitter.com/braziljs), [Facebook](http://facebook.com/braziljs) ou [Lista de email](https://groups.google.com/forum/?fromgroups#!forum/braziljs-foundation).
 
-<h2>E aí, gostaram?</h2>
+## E aí, gostaram?
 
-<p>Sabemos que tem muita coisa para melhorar ainda, por isso gostaríamos de ouvir o seu feedback. Como podemos melhorar? Gostou do projeto?</p>
+Sabemos que tem muita coisa para melhorar ainda, por isso gostaríamos de ouvir o seu feedback. Como podemos melhorar? Gostou do projeto?
 
-<p>Lembrando também que o código, como sempre, está no <a href="http://github.com/braziljs/weekly" target="_blank">Github</a> e aberto para contribuições.</p>
+Lembrando também que o código, como sempre, está no [Github](http://github.com/braziljs/weekly) e aberto para contribuições.

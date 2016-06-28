@@ -3,9 +3,8 @@ title: "Ser popular é uma merda."
 description: "Mas até que vale a pena."
 link: "https://medium.com/@zenorocha/ser-popular-e-uma-merda-b739836e4407"
 nomore: true
+image: /assets/img/posts/ser-popular.jpg
 ---
-
-![Cover](/assets/img/posts/ser-popular.jpg)
 
 *Publicado originalmente no Medium*
 

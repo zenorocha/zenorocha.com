@@ -1,1 +1,0 @@
-**Universidade Federal do Estado do Rio de Janeiro**, commonly known as **UNIRIO** is one of the four federally funded public universities in the state of Rio de Janeiro, Brazil &mdash; [Website](http://www.unirio.br/) | [Wikipedia](http://en.wikipedia.org/wiki/Universidade_Federal_do_Estado_do_Rio_de_Janeiro)

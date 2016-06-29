@@ -1,5 +1,5 @@
 ---
-layout: article.html
+layout: main.html
 title: Talks
 tagline: 9 countries. 52 talks.
 image: /images/map-opt.jpg

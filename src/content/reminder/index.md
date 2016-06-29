@@ -1,5 +1,5 @@
 ---
-layout: article.html
+layout: main.html
 title: Reminder
 tagline: Tick-tock. Tick-tock.
 image: /images/clock-opt.jpg

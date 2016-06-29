@@ -349,18 +349,19 @@ svg {
   padding: 0 20px;
 }
 
-.post-content,
-.project-content {
+.post-content {
   font-family: 'Proxima Nova Regular', sans-serif;
   font-size: 20px;
   line-height: 36px;
-  text-align: justify;
   color: #3b3b3b;
 }
 
-.post-content p,
-.project-content p {
+.post-content p {
   margin: 21px 0;
+}
+
+.post-article {
+  text-align: justify;
 }
 
 .post-content blockquote,

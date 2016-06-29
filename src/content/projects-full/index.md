@@ -1,5 +1,5 @@
 ---
-layout: article.html
+layout: main.html
 title: Projects
 tagline: Work. Hobby. Same thing.
 image: /images/computer-opt.jpg

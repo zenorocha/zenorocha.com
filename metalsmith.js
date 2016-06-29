@@ -7,6 +7,7 @@ const task  = process.argv[2];
 const config     = require('./config');
 const chalk      = require('chalk');
 const ghpages    = require('gh-pages');
+const path       = require('path');
 const plugins    = require('load-metalsmith-plugins')();
 const prettytime = require('pretty-hrtime');
 const metalsmith = require('metalsmith')(__dirname);
@@ -49,7 +50,13 @@ const buildCompleted = () => {
   }
 
   if (task === 'deploy') {
-    ghpages.publish(config.destination, (err) => {
+    ghpages.publish(path.join(__dirname, config.destination), {
+      branch: 'gh-pages',
+      repo: 'https://github.com/zenorocha/zenorocha.com.git',
+      logger: function(message) {
+        console.log(message);
+      }
+    }, (err) => {
       if (err) throw err;
       else buildDuration();
     });

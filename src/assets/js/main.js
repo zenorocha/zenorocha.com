@@ -1,14 +1,6 @@
+var formatLoadPath = senna.RequestScreen.prototype.formatLoadPath;
 senna.RequestScreen.prototype.formatLoadPath = function(path) {
-  var uri = new senna.Uri(path);
-
-  uri.setHostname(window.location.hostname);
-  uri.setProtocol(window.location.protocol);
-
-  if (senna.UA.isIeOrEdge && this.httpMethod === senna.RequestScreen.GET) {
-    return uri.makeUnique().toString() + '/';
-  }
-
-  return uri.toString() + '/';
+  return formatLoadPath.call(this, path) + '/';
 };
 
 document.addEventListener('DOMContentLoaded', function() {

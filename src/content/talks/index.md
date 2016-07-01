@@ -11,6 +11,10 @@ Want me to speak at your event? Send a message to <a href="mailto:hi@zenorocha.c
 
 # 2016
 
+## [Front in BH](http://frontinbh.com.br/)
+* *When:* August, 6
+* *Where:* Belo Horizonte, MG - Brazil
+
 ## [Nation.js](http://nationjs.com/)
 * *When:* September, 16
 * *Where:* Washington - USA

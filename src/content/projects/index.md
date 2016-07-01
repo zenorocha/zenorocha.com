@@ -23,7 +23,7 @@ image: /images/computer-opt.jpg
 
 # 2014
 
-* [Senna](https://github.com/zenorocha/voice-elements)
+* [Senna](http://sennajs.com)
 * [trackingjs.com](http://trackingjs.com/)
 * [Voice Elements](https://github.com/zenorocha/voice-elements)
 * [JavaScript & NodeJS Snippets for Atom](https://github.com/zenorocha/atom-javascript-snippets)

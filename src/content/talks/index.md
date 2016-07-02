@@ -1,7 +1,7 @@
 ---
 layout: main.html
 title: Talks
-tagline: 9 countries. 52 talks.
+tagline: 10 countries. 86 talks.
 image: /images/map-opt.jpg
 ---
 

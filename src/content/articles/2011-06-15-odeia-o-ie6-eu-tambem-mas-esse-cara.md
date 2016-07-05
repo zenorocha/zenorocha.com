@@ -1,5 +1,5 @@
 ---
-isQuote: true
+skip: true
 title: Odeia o IE6? Eu também, mas esse cara...
 ---
 

@@ -1,5 +1,5 @@
 ---
-isQuote: true
+skip: true
 title: "An End to Negativity by Chris Williams"
 description: "Durante esses últimos anos estive muito envolvido com comunidades e presenciei uma série de atritos desnecessários entre as pessoas. A maioria desses atritos em público e entre pessoas chave da comunidade..."
 slug: jsconfeu-chris-williams

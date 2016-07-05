@@ -6,6 +6,7 @@ link: "http://webcomponents.org/articles/end-of-second-quarter-2015/"
 nomore: true
 image: /img/posts/end-of-second-quarter-2015.jpg
 slug: wcorg-end-of-second-quarter
+skip: true
 ---
 
 In the [past article](http://webcomponents.org/articles/end-of-first-quarter-2015), we saw some numbers from the first quarter. That was nice because we could see exactly what was happening on each channel: [Site](http://webcomponents.org/), [GitHub](https://github.com/webcomponents/webcomponents.github.io), and [Twitter](https://twitter.com/web_components/).

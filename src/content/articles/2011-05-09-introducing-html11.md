@@ -1,5 +1,5 @@
 ---
-isQuote: true
+skip: true
 title: Introducing HTML11
 ---
 

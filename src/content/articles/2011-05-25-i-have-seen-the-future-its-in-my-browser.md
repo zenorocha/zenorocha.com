@@ -1,5 +1,5 @@
 ---
-isQuote: true
+skip: true
 title: I've seen the future, it's in my browser.
 authorName: My new t-shirt
 authorURL: http://html5shirt.com/

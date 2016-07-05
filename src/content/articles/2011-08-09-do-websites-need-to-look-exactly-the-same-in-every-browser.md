@@ -1,5 +1,5 @@
 ---
-isQuote: true
+skip: true
 title: Do websites need to look exactly the same in every browser?
 ---
 

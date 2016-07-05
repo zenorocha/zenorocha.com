@@ -1,6 +1,6 @@
 ---
 title: JSConf Argentina
-isQuote: true
+skip: true
 ---
 
 <div class="iframe-wrap">

@@ -27,6 +27,12 @@ twitterwidget {
   margin: 0 auto;
 }
 
+code {
+  background: rgba(0,0,0,.05);
+  font-size: 18px;
+  padding: 5px;
+}
+
 /* Navbar
    ========================================================================== */
 
@@ -360,10 +366,6 @@ svg {
   margin: 21px 0;
 }
 
-.post-article {
-  text-align: justify;
-}
-
 .post-content blockquote,
 .post-content blockquote p {
   font-family: 'Verveine Regular', sans-serif;
@@ -408,6 +410,7 @@ svg {
   font-size: 36px;
   line-height: 56px;
   margin-left: 0;
+  text-align: justify;
 }
 
 @media (min-width: 700px) {

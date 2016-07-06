@@ -1,7 +1,6 @@
 ---
 title: "The Real Secret to Productivity"
-description: "A valuable advice by DHH at RailsConf '09"
-language: "en"
+skip: true
 ---
 
 A valuable advice by [DHH](https://twitter.com/dhh) at RailsConf '09.

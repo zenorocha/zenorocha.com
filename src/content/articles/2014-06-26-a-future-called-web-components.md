@@ -1,8 +1,6 @@
 ---
 title: "A future called Web Components"
-description: "During this year I've been doing talks about Web Components in many places. This one was special because it was in my first time in Warsaw, Poland on this really awesome event called Front Trends."
-language: "en"
-image: "/images/fronttrends.jpg"
+image: "/images/fronttrends-opt.jpg"
 ---
 
 During this year I've been doing talks about Web Components in many places. This one was special because it was in my first time in Warsaw, Poland on this really awesome event called [Front Trends](http://2014.front-trends.com/).

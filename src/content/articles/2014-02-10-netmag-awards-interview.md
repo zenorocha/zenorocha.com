@@ -9,6 +9,7 @@ link: 'http://www.creativebloq.com/netmag/zeno-rocha-talks-github-web-components
 language: "en"
 image: /img/posts/netawards-interview.jpg
 slug: netmag-awards-interview
+skip: true
 ---
 
 *Originally published in NetMagazine*

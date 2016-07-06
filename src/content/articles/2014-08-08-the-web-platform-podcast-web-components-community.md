@@ -4,6 +4,7 @@ description: "Web Components are a set of emerging and rapidly changing technolo
 link: "http://thewebplatform.libsyn.com/the-web-components-community-helpful-resources"
 language: "en"
 nomore: true
+skip: true
 ---
 
 *Originally published in [The Web Platform Podcast](http://thewebplatform.libsyn.com/the-web-components-community-helpful-resources)*

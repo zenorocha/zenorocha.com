@@ -1,7 +1,6 @@
 ---
 title: "Segredos do Chrome DevTools"
-description: "Conheça a série de 10 vídeos que vai te transformar em um ninja em DevTools"
-image: /images/devtools.jpg
+image: /images/devtools-opt.jpg
 slug: devtools-series
 ---
 
@@ -9,8 +8,6 @@ slug: devtools-series
   <iframe src="//www.youtube.com/embed/videoseries?list=PLiGzvgwA5Gmgnq5vPjJxW52hDiX3ndL53">
   </iframe>
 </div>
-
-*Publicado originalmente no [Tableless](http://tableless.com.br/os-segredos-chrome-devtools/)*
 
 Nos últimos anos, as tecnologias client-side como HTML, CSS e JavaScript evoluíram de uma maneira absurda. Uma avalanche de APIs vieram com o HTML5, dezenas de novas propriedades foram adicionadas ao CSS3 e uma série de novidades chegaram no JavaScript a partir das novas especificações do ECMAScript.
 
@@ -24,7 +21,7 @@ Nessa série oficial da *Google*, **gravada em português e produzida por brasil
 
 Se você se interessa por produtividade e qualidade no desenvolvimento de aplicações web, não deixe de assistir todos os vídeos!
 
-## Bonus
+# Bonus
 
 <div class="iframe-wrap">
   <iframe src="//www.youtube.com/embed/JKEb-QmThJ0">

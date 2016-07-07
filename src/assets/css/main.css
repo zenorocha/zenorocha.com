@@ -302,6 +302,12 @@ svg {
   will-change: transform;
 }
 
+@media (max-width: 1024px) {
+  .post-image {
+    position: absolute;
+  }
+}
+
 .post-title {
   font-family: 'Poppins Bold', sans-serif;
   text-align: center;

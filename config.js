@@ -19,7 +19,7 @@ module.exports = {
       pattern: 'articles/*.md',
       sortBy: 'date',
       reverse: true,
-      limit: 35
+      limit: 65
     },
     homeArticles: {
       pattern: 'articles/*.md',

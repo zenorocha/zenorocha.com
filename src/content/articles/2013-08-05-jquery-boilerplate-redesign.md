@@ -1,6 +1,5 @@
 ---
 title: 'jQuery Boilerplate - Redesign'
-link: 'http://jqueryboilerplate.com/'
 ---
 
 After years using the same layout for jQuery Boilerplate, I've decided to completely
@@ -9,4 +8,4 @@ redesign it. The main reason was to point people not only for
 but also to its [Yeoman Generator](https://github.com/jquery-boilerplate/generator-jquery-boilerplate)
 and [jQuery Patterns](https://github.com/jquery-boilerplate/jquery-patterns) project.
 
-Check it out!
+Check it out at [jqueryboilerplate.com](http://jqueryboilerplate.com/)!

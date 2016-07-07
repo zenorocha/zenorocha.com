@@ -10,9 +10,9 @@ Some weeks ago we announced the preview release of [AlloyUI 2.0](http://alloyui.
 
 <!-- more -->
 
-<pre class="prettyprint lang-html">
-&lt;script src="http://cdn.alloyui.com/2.0.0pr2/aui/aui-min.js"&gt;&lt;/script&gt;
-</pre>
+```
+<script src="http://cdn.alloyui.com/2.0.0pr2/aui/aui-min.js"></script>
+```
 
 ## Why it's so important to use a file hosted on a CDN?
 
@@ -24,7 +24,7 @@ Let's say you are in China and your server is in Los Angeles. When you load a fi
 
 However if this file is hosted on a CDN it will be distributed across many different servers in the world. So when you make a request, it will look for the nearest server, which decreases latency time a lot.
 
-![Tradicional scheme vs CDN scheme of distribution](http://cl.ly/image/3T0C3y3I1j0U/vs.jpg)
+![Tradicional scheme vs CDN scheme of distribution](http://imasters.com.br/wp-content/uploads/2013/03/1.jpg)
 
 *Image: Traditional scheme of distribution vs CDN scheme of distribution*
 
@@ -32,11 +32,11 @@ However if this file is hosted on a CDN it will be distributed across many diffe
 
 Browsers can't handle too many parallel downloads per domain.
 
-![Not much parallel downloads](http://www.liferay.com/documents/14644916/0/1.jpg/a3b4fd89-50a4-4877-bbae-1a7b9d74ca2e?t=1362421179742)
+![Not much parallel downloads](http://imasters.com.br/wp-content/uploads/2013/03/2.jpg)
 
 That's why hosting files in different domains is a good performance tip.
 
-![Not much parallel downloads](http://www.liferay.com/documents/14644916/0/2.jpg/17f8f56e-12bf-4f83-a6a2-f1f224985bf1?t=1362421254877)
+![Not much parallel downloads](http://imasters.com.br/wp-content/uploads/2013/03/3.jpg)
 
 ### Cache
 
@@ -48,13 +48,13 @@ Let's try those performance improvements in real life. My experiment will load t
 
 **Didn't use CDN:**
 
-![Didn't use CDN](http://f.cl.ly/items/2s0n1B3N3E0E1D0B3x26/no-cdn.jpg)
+![Didn't use CDN](http://imasters.com.br/wp-content/uploads/2013/03/4.jpg)
 
 When you load [this file](http://js.liferay.com/aui/2.0.0pr2/aui/aui-min.js), that is not hosted on a CDN with a 10mb internet connection, you take 1.27 seconds with 404ms of latency.
 
 **Use CDN:**
 
-![Use CDN](http://cl.ly/image/3f310V0c3G1e/cdn.jpg)
+![Use CDN](http://imasters.com.br/wp-content/uploads/2013/03/5.jpg)
 
 But when you load [this file](http://cdn.alloyui.com/2.0.0pr2/aui/aui-min.js), that is now hosted on a CDN with the same internet connection, you take 314ms with 155ms of latency.
 

@@ -259,10 +259,14 @@ svg {
 /* Post
    ========================================================================== */
 
+.post {
+  background-color: #141618;
+}
+
 .post-header {
   background-color: #141618;
-  height: 100vh;
   min-height: 600px;
+  height: 100vh;
   width: 100%;
   display: flex;
   align-items: center;
@@ -271,37 +275,31 @@ svg {
   flex-direction: column;
 }
 
-.post-gradient {
-  background-image: linear-gradient(180deg,rgba(0, 0, 0, .7) 0, transparent 50%, transparent 90%, rgba(0, 0, 0, .7));
-  background-attachment: fixed;
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  z-index: 2;
-  top: 0;
-  left: 0;
-}
-
 .post-image {
-  background-color: black;
+  background-color: #141618;
   background-repeat: no-repeat;
   background-position: center;
-  background-attachment: fixed;
   background-size: cover;
-  position: absolute;
+  position: fixed;
+  opacity: .4;
   width: 100%;
   height: 100%;
-  opacity: .4;
   top: 0;
   left: 0;
   z-index: 1;
+  will-change: transform;
 }
 
-@media (max-width: 1024px) {
-  .post-image,
-  .post-gradient {
-    background-attachment: scroll;
-  }
+.post-image::after {
+  content: '';
+  background-image: linear-gradient(180deg,rgba(0, 0, 0, .8) 0, transparent 50%, transparent 90%, rgba(0, 0, 0, .8));
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  z-index: 2;
+  will-change: transform;
 }
 
 .post-title {
@@ -320,7 +318,7 @@ svg {
 
 .post-content .post-title {
   color: black;
-  margin: 160px auto 0;
+  margin: 90px auto 0;
   max-width: none;
   font-size: 48px;
   line-height: 60px;
@@ -350,16 +348,21 @@ svg {
 }
 
 .post-content {
-  margin: 90px auto;
-  max-width: 700px;
-  padding: 0 20px;
-}
-
-.post-content {
   font-family: 'Proxima Nova Regular', sans-serif;
   font-size: 20px;
   line-height: 36px;
   color: #3b3b3b;
+  background: white;
+  position: relative;
+  z-index: 1;
+  height: 100%;
+  padding: 90px 0;
+}
+
+.post-container {
+  margin: 0 auto;
+  max-width: 700px;
+  padding: 0 20px;
 }
 
 .post-content p {
@@ -415,7 +418,7 @@ svg {
 
 @media (min-width: 700px) {
   .post-content .post-title {
-    margin-top: 120px;
+    margin-top: 50px;
   }
 
   .post-title {

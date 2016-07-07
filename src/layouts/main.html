@@ -3,11 +3,12 @@
   <main class="post">
     <header class="post-header">
       <h1 class="post-title">{{#if tagline }}{{ tagline }}{{ else }}{{ title }}{{/if}}</h1>
-      <div class="post-gradient"></div>
       <div class="post-image" style="background-image: url({{image}})"></div>
     </header>
     <div class="post-content">
-      {{{ contents }}}
+      <div class="post-container">
+        {{{ contents }}}
+      </div>
     </div>
   </main>
 

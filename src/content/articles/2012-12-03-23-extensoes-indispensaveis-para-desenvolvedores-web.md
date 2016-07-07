@@ -1,6 +1,7 @@
 ---
 title: '23 extensões indispensáveis para desenvolvedores web'
 link: http://imasters.com.br/desenvolvimento/23-extensoes-indispensaveis-para-desenvolvedores-web
+skip: true
 ---
 
 <!-- <p><a href="http://imasters.com.br/desenvolvimento/23-extensoes-indispensaveis-para-desenvolvedores-web"><img src="/img/posts/23-extensoes.jpg"/></a></p> -->

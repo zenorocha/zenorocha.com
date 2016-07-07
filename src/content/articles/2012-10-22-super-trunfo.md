@@ -1,6 +1,5 @@
 ---
 title: 'Super Trunfo - Um case de Dados Abertos'
-image: /img/posts/super-trunfo.jpg
 slug: super-trunfo
 ---
 

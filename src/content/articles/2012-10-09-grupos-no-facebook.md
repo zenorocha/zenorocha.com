@@ -2,6 +2,7 @@
 title: A descentralização de conteúdo nos Grupos do Facebook
 image: /img/posts/grupos-facebook.jpg
 slug: grupos-no-facebook
+skip: true
 ---
 
 *Publicado originalmente em BrazilJS Foundation.*

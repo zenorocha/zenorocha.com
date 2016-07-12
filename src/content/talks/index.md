@@ -68,10 +68,10 @@ Want me to speak at your event? Send a message to <a href="mailto:hi@zenorocha.c
 * *Attendees:* ≈300
 * *Coverage:* [Storify](https://storify.com/zenorocha/nordic-js-september-2015)
 
-## [Google Developer Group LA](http://www.meetup.com/gdg-la/)
+## [Google Developer Group LA](http://www.meetup.com/gdg-la/events/223620789/)
 * *When:* July, 16
 * *Where:* Los Angeles, CA - USA
-* *Attendees:* ≈80
+* *Attendees:* ≈75
 * *Presentation:* [A future called Web Components](https://speakerdeck.com/zenorocha/a-future-called-web-components) ([Video](https://www.youtube.com/watch?v=FAguNB2Z3QU))
 
 ## [Summer Bootcamp](http://summerwebbootcamp.com/)

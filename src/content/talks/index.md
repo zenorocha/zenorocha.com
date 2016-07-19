@@ -15,6 +15,10 @@ Want me to speak at your event? Send a message to <a href="mailto:hi@zenorocha.c
 * *When:* August, 6
 * *Where:* Belo Horizonte, MG - Brazil
 
+## [NEJS Conf](https://nejsconf.com/)
+* *When:* August, 26
+* *Where:* Omaha, NE - USA
+
 ## [Nation.js](http://nationjs.com/)
 * *When:* September, 16
 * *Where:* Washington - USA

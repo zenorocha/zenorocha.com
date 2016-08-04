@@ -31,6 +31,10 @@ Want me to speak at your event? Send a message to <a href="mailto:hi@zenorocha.c
 * *When:* November, 14
 * *Where:* Darmstadt - Germany
 
+## Liferay Symposium - South America
+* *When:* November, 30
+* *Where:* São Paulo, SP - Brazil
+
 # 2015
 
 11 talks and 1 workshop. 7 different cities in 4 different countries.

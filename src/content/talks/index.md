@@ -1,7 +1,7 @@
 ---
 layout: main.html
 title: Talks
-tagline: 10 countries. 86 talks.
+tagline: 10 countries. 87 talks.
 image: /images/map-opt.jpg
 ---
 
@@ -9,11 +9,11 @@ Here you can find all my presentation slides/videos and also know where you can 
 
 Want me to speak at your event? Send a message to <a href="mailto:hi@zenorocha.com">hi@zenorocha.com</a> :)
 
-# 2016
+# Coming next!
 
-## [Front in BH](http://frontinbh.com.br/)
-* *When:* August, 6
-* *Where:* Belo Horizonte, MG - Brazil
+## [SFHTML5](http://www.meetup.com/sfhtml5/events/233029429/)
+* *When:* August, 19
+* *Where:* San Francisco, CA - USA
 
 ## [NEJS Conf](https://nejsconf.com/)
 * *When:* August, 26
@@ -34,6 +34,15 @@ Want me to speak at your event? Send a message to <a href="mailto:hi@zenorocha.c
 ## Liferay Symposium - South America
 * *When:* November, 30
 * *Where:* São Paulo, SP - Brazil
+
+# 2016
+
+## [Front in BH](http://frontinbh.com.br/)
+* *When:* August, 6
+* *Where:* Belo Horizonte, MG - Brazil
+* *Presentation:* [Web APIs que você (provavelmente) não sabia que existiam](https://speakerdeck.com/zenorocha/web-apis-que-voce-provavelmente-nao-sabia-que-existiam) ([Video](http://frontinbh.com.br/live.html))
+* *Attendees:* ≈300
+* *Coverage:* [Storify](https://storify.com/zenorocha/front-in-bh-august-2016)
 
 # 2015
 
@@ -312,7 +321,7 @@ Want me to speak at your event? Send a message to <a href="mailto:hi@zenorocha.c
 * *Where:* Rio de Janeiro, RJ - Brazil
 * *Attendees:* ≈20
 
-## [Front in BH](http://lanyrd.com/2013/frontinbh/)
+## [Front in BH](http://frontinbh.com.br/2013)
 * *When:* August, 3
 * *Where:* Belo Horizonte, MG - Brazil
 * *Attendees:* ≈420
@@ -464,7 +473,7 @@ Want me to speak at your event? Send a message to <a href="mailto:hi@zenorocha.c
 * *Where:* Porto Alegre, RS - Brazil
 * *Presentation:* [Como fugir do feijão com arroz usando Canvas, SVG e WebGL](http://talks.zenorocha.com/2012/fisl/) ([Video](http://www.youtube.com/watch?v=ukjHPwg74ik))
 
-## [Front in BH](http://lanyrd.com/2012/frontinbh/)
+## [Front in BH](http://frontinbh.com.br/2012)
 * *When:* July, 14
 * *Where:* Belo Horizonte, MG - Brazil
 * *Attendees:* ≈360

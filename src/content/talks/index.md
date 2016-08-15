@@ -1,7 +1,7 @@
 ---
 layout: main.html
 title: Talks
-tagline: 10 countries. 87 talks.
+tagline: 10 countries. 88 talks.
 image: /images/map-opt.jpg
 ---
 
@@ -31,6 +31,10 @@ Want me to speak at your event? Send a message to <a href="mailto:hi@zenorocha.c
 * *When:* September, 26
 * *Where:* Chicago, IL - USA
 
+## [UCLA's UPE](https://upe.seas.ucla.edu/)
+* *When:* October, 3
+* *Where:* Los Angeles, CA - USA
+
 ## [Liferay DevCon](https://web.liferay.com/web/events2016/devcon/)
 * *When:* November, 14
 * *Where:* Darmstadt - Germany
@@ -45,8 +49,14 @@ Want me to speak at your event? Send a message to <a href="mailto:hi@zenorocha.c
 * *When:* August, 6
 * *Where:* Belo Horizonte, MG - Brazil
 * *Presentation:* [Web APIs que você (provavelmente) não sabia que existiam](https://speakerdeck.com/zenorocha/web-apis-que-voce-provavelmente-nao-sabia-que-existiam) ([Video](http://frontinbh.com.br/live.html))
-* *Attendees:* ≈300
+* *Attendees:* ≈500
 * *Coverage:* [Storify](https://storify.com/zenorocha/front-in-bh-august-2016)
+
+## [California State Polytechnic University's SWIFT](https://calpolyswift.org/)
+* *When:* April, 19
+* *Where:* Pomona, CA - USA
+* *Attendees:* ≈30
+* *Presentation:* [How to invest in... you!](https://speakerdeck.com/zenorocha/how-to-invest-in-dot-dot-dot-you)
 
 # 2015
 
@@ -123,7 +133,7 @@ Want me to speak at your event? Send a message to <a href="mailto:hi@zenorocha.c
 
 21 talks and 4 workshops. 18 different cities in 8 different countries.
 
-## [Cal Poly IWDSA](http://www.iwdsa.org/)
+## [California State Polytechnic University's IWDSA](http://www.iwdsa.org/)
 * *When:* November, 26
 * *Where:* Pomona, CA - USA
 * *Attendees:* ≈30

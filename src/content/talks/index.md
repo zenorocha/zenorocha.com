@@ -19,6 +19,10 @@ Want me to speak at your event? Send a message to <a href="mailto:hi@zenorocha.c
 * *When:* August, 26
 * *Where:* Omaha, NE - USA
 
+## [Liferay LIVE Sessions](https://www.liferay.com/events/web-events)
+* *When:* September, 14
+* *Where:* Online
+
 ## [Nation.js](http://nationjs.com/)
 * *When:* September, 16
 * *Where:* Washington - USA
@@ -65,7 +69,7 @@ Want me to speak at your event? Send a message to <a href="mailto:hi@zenorocha.c
 
 ## FIAP DevDay
 * *When:* October, 20
-* *Where:* São Paulo, SP - Brazil
+* *Where:* Online
 * *Attendees:* ≈30
 
 ## [Devfest Fresno](http://devfest.gdgfresno.com/)
@@ -371,7 +375,7 @@ Want me to speak at your event? Send a message to <a href="mailto:hi@zenorocha.c
 
 ## [Liferay LIVE Sessions](http://www.liferay.com/events/web-events)
 * *When:* February, 19
-* *Where:* Interwebs
+* *Where:* Online
 * *Presentation:* [Reintroducing AlloyUI](http://talks.zenorocha.com/2013/alloy-webinar/) ([Video](http://www.liferay.com/video?title=video-web-event-introducing-alloy-2-0))
 
 ## [Campus Party](http://lanyrd.com/2013/campus-party-brasil/)

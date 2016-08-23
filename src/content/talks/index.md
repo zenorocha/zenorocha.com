@@ -1,7 +1,7 @@
 ---
 layout: main.html
 title: Talks
-tagline: 10 countries. 88 talks.
+tagline: 10 countries. 89 talks.
 image: /images/map-opt.jpg
 ---
 
@@ -10,10 +10,6 @@ Here you can find all my presentation slides/videos and also know where you can 
 Want me to speak at your event? Send a message to <a href="mailto:hi@zenorocha.com">hi@zenorocha.com</a> :)
 
 # Coming next!
-
-## [SFHTML5](http://www.meetup.com/sfhtml5/events/233029429/)
-* *When:* August, 19
-* *Where:* San Francisco, CA - USA
 
 ## [NEJS Conf](https://nejsconf.com/)
 * *When:* August, 26
@@ -44,6 +40,13 @@ Want me to speak at your event? Send a message to <a href="mailto:hi@zenorocha.c
 * *Where:* São Paulo, SP - Brazil
 
 # 2016
+
+## [SFHTML5](http://www.meetup.com/sfhtml5/events/233029429/)
+* *When:* August, 19
+* *Where:* San Francisco, CA - USA
+* *Presentation:* [Web APIs you (probably) didn't know existed](https://speakerdeck.com/zenorocha/web-apis-you-probably-didnt-know-existed) ([Video](https://www.youtube.com/watch?v=NCGLPp778JY))
+* *Attendees:* ≈100
+* *Coverage:* [Storify](https://storify.com/zenorocha/sfhtml5-august-2016)
 
 ## [Front in BH](http://frontinbh.com.br/)
 * *When:* August, 6

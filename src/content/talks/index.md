@@ -11,10 +11,6 @@ Want me to speak at your event? Send a message to <a href="mailto:hi@zenorocha.c
 
 # Coming next!
 
-## [NEJS Conf](https://nejsconf.com/)
-* *When:* August, 26
-* *Where:* Omaha, NE - USA
-
 ## [Liferay LIVE Sessions](https://www.liferay.com/events/web-events)
 * *When:* September, 14
 * *Where:* Online
@@ -40,6 +36,13 @@ Want me to speak at your event? Send a message to <a href="mailto:hi@zenorocha.c
 * *Where:* São Paulo, SP - Brazil
 
 # 2016
+
+## [NEJS Conf](https://nejsconf.com/)
+* *When:* August, 26
+* *Where:* Omaha, NE - USA
+* *Presentation:* [Web APIs you (probably) didn't know existed](https://speakerdeck.com/zenorocha/web-apis-you-probably-didnt-know-existed)
+* *Attendees:* ≈200
+* *Coverage:* [Storify](https://storify.com/zenorocha/nebraskajs-conference-august-2016)
 
 ## [SFHTML5](http://www.meetup.com/sfhtml5/events/233029429/)
 * *When:* August, 19

@@ -7,6 +7,7 @@ image: /images/computer-opt.jpg
 
 # 2016
 
+* [WeDeploy](http://wedeploy.com)
 * [Browser Calories](http://browserdiet.com/calories)
 * [DevSpace](http://devspace.io)
 

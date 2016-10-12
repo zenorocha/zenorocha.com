@@ -11,22 +11,6 @@ Want me to speak at your event? Send a message to <a href="mailto:hi@zenorocha.c
 
 # Coming next!
 
-## [Liferay LIVE Sessions](https://www.liferay.com/events/web-events)
-* *When:* September, 14
-* *Where:* Online
-
-## [Nation.js](http://nationjs.com/)
-* *When:* September, 16
-* *Where:* Washington - USA
-
-## [Liferay Symposium - North America](https://web.liferay.com/web/events2016/northamerica/)
-* *When:* September, 26
-* *Where:* Chicago, IL - USA
-
-## [UCLA's UPE](https://upe.seas.ucla.edu/)
-* *When:* October, 3
-* *Where:* Los Angeles, CA - USA
-
 ## [Liferay DevCon](https://web.liferay.com/web/events2016/devcon/)
 * *When:* November, 14
 * *Where:* Darmstadt - Germany
@@ -36,6 +20,18 @@ Want me to speak at your event? Send a message to <a href="mailto:hi@zenorocha.c
 * *Where:* São Paulo, SP - Brazil
 
 # 2016
+
+## [UCLA's UPE](https://upe.seas.ucla.edu/)
+* *When:* October, 3
+* *Where:* Los Angeles, CA - USA
+
+## [Liferay Symposium - North America](https://web.liferay.com/web/events2016/northamerica/)
+* *When:* September, 26
+* *Where:* Chicago, IL - USA
+
+## [Liferay LIVE Sessions](https://www.liferay.com/events/web-events)
+* *When:* September, 14
+* *Where:* Online
 
 ## [NEJS Conf](https://nejsconf.com/)
 * *When:* August, 26

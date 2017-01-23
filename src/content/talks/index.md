@@ -1,7 +1,7 @@
 ---
 layout: main.html
 title: Talks
-tagline: 10 countries. 89 talks.
+tagline: 10 countries. 96 talks.
 image: /images/map-opt.jpg
 ---
 
@@ -9,17 +9,17 @@ Here you can find all my presentation slides/videos and also know where you can 
 
 Want me to speak at your event? Send a message to <a href="mailto:hi@zenorocha.com">hi@zenorocha.com</a> :)
 
-# Coming next!
+# 2016
+
+9 talks. 8 different cities in 3 different countries.
+
+## [Liferay Symposium - South America](https://web.liferay.com/web/events2016/brazil/)
+* *When:* November, 30
+* *Where:* São Paulo, SP - Brazil
 
 ## [Liferay DevCon](https://web.liferay.com/web/events2016/devcon/)
 * *When:* November, 14
 * *Where:* Darmstadt - Germany
-
-## Liferay Symposium - South America
-* *When:* November, 30
-* *Where:* São Paulo, SP - Brazil
-
-# 2016
 
 ## [UCLA's UPE](https://upe.seas.ucla.edu/)
 * *When:* October, 3

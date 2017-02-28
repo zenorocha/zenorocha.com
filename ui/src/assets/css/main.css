@@ -261,6 +261,7 @@ svg {
 
 .post {
   background-color: #141618;
+  overflow: hidden;
 }
 
 .post-header {
@@ -328,6 +329,13 @@ svg {
   max-width: none;
   font-size: 48px;
   line-height: 60px;
+}
+
+.post-content .post-image-full {
+  margin: 20px 0;
+  margin-left: -20px;
+  max-width: initial;
+  width: 100vw;
 }
 
 .post-subtitle {
@@ -425,6 +433,18 @@ svg {
 @media (min-width: 700px) {
   .post-content .post-title {
     margin-top: 50px;
+  }
+
+  /* 
+   * Math break: 
+   *   viewport width: 100vw
+   *   .post-container width: 700px
+   *   remainder: (100vw - 700px)
+   *   want to shift the image by half of the remainder, so: (100vw - 700px) / 2
+   *   and apply it as a negative margin: -1 * (100vw - 700px) / 2)
+   */
+  .post-content .post-image-full {
+    margin-left: calc(-1 * (100vw - 700px) / 2);
   }
 
   .post-title {

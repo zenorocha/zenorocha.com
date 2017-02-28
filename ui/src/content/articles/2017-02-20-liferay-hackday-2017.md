@@ -55,9 +55,9 @@ In our [previous Hackday](https://medium.com/developer-relations/liferay-hack-da
 
 **Most Impactful Project** — *How does this changes the life of developers, employees, clients, partners, or end-users?*
 
-**Best User Experience** —* Is it easy to interact and understand? How do you feel about using such it?*
+**Best User Experience** — *Is it easy to interact and understand? How do you feel about using such it?*
 
-**Most Innovative Solution** — Co*uld this be a radical innovation or a meaningful new take on an existing product or service?*
+**Most Innovative Solution** — *Could this be a radical innovation or a meaningful new take on an existing product or service?*
 
 The winners would get a special mug and all participants would receive some nice stickers and t-shirts.
 

@@ -40,7 +40,7 @@ image: /images/computer-opt.jpg
 
 # 2013
 
-* [JavaScript & NodeJS Snippets for Sublime Text](https://atom.io/packages/javascript-snippets)
+* [JavaScript & NodeJS Snippets for Atom](https://atom.io/packages/javascript-snippets)
 * [Dracula Theme](http://zenorocha.github.io/dracula-theme/)
 * [Workflow Collection for Alfred App](https://github.com/zenorocha/alfred-workflows)
 * [Custom Elements](http://customelements.io/)

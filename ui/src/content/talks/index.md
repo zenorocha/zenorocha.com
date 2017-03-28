@@ -9,6 +9,16 @@ Here you can find all my presentation slides/videos and also know where you can 
 
 Want me to speak at your event? Send a message to <a href="mailto:hi@zenorocha.com">hi@zenorocha.com</a> :)
 
+# 2017
+
+[JSDayES](http://2017.jsday.es/)
+* *When:* May, 12
+* *Where:* Madrid - Spain
+
+[Revolution Conf](https://revolutionconf.com)
+* *When:* June, 1
+* *Where:* Virginia Beach, VA - USA
+
 # 2016
 
 9 talks. 8 different cities in 3 different countries.

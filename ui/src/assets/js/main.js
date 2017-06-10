@@ -1,8 +1,3 @@
-var formatLoadPath = senna.RequestScreen.prototype.formatLoadPath;
-senna.RequestScreen.prototype.formatLoadPath = function(path) {
-  return formatLoadPath.call(this, path) + '/';
-};
-
 document.addEventListener('DOMContentLoaded', function() {
   var app = senna.dataAttributeHandler.getApp();
 

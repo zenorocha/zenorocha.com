@@ -1,7 +1,7 @@
 ---
 layout: main.html
 title: Talks
-tagline: 10 countries. 96 talks.
+tagline: 10 countries. 99 talks.
 image: /images/map-opt.jpg
 ---
 
@@ -11,15 +11,27 @@ Want me to speak at your event? Send a message to <a href="mailto:hi@zenorocha.c
 
 # Coming next!
 
-[JS.LA](http://js.la)
-* *When:* May, 25
-* *Where:* Santa Monica, CA - USA
+[JS Experience](https://jsexperience2017.imasters.com.br/)
+* *When:* June, 23
+* *Where:* São Paulo, SP - Brazil
+
+[Liferay DevCon](https://www.liferay.com/web/events-devcon/home)
+* *When:* October, 4
+* *Where:* Amsterdam - Netherlands
+
+[Liferay North America Symposium](https://www.liferay.com/web/events-symposium-north-america/)
+* *When:* October, 16
+* *Where:* Austin, TX - USA
+
+# 2017
 
 [Revolution Conf](https://revolutionconf.com)
 * *When:* June, 1
 * *Where:* Virginia Beach, VA - USA
 
-# 2017
+[JS.LA](http://js.la)
+* *When:* May, 25
+* *Where:* Santa Monica, CA - USA
 
 [JSDayES](http://2017.jsday.es/)
 * *When:* May, 12

@@ -41,7 +41,7 @@ Tá rolando pela internet um hack que libera todos os níveis do jogo, é só co
 javascript: var i = 0; while (i&lt;=69) { localStorage.setItem('level_star_'+i,'3'); i++; } window.location.reload();
 ```
 
-Fala sério, depois de ter lido o <a href="/html5-local-storage" target="_blank">tutorial sobre HTML5 Local Storage</a> até você poderia ter escrito esse hack né?
+Fala sério, depois de ter lido o <a href="/html5-local-storage/" target="_blank">tutorial sobre HTML5 Local Storage</a> até você poderia ter escrito esse hack né?
 
 ## Referência
 

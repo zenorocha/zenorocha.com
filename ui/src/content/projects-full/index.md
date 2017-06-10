@@ -5,6 +5,11 @@ tagline: Work. Hobby. Same thing.
 image: /images/computer-opt.jpg
 ---
 
+# 2017
+
+* [Liferay Community](https://community.liferay.com/)
+* [CodeCopy](https://chrome.google.com/webstore/detail/codecopy/fkbfebkcoelajmhanocgppanfoojcdmg)
+
 # 2016
 
 * [WeDeploy](http://wedeploy.com)

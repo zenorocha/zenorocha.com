@@ -1,7 +1,7 @@
 ---
 layout: main.html
 title: Talks
-tagline: 10 countries. 99 talks.
+tagline: 10 countries. 103 talks.
 image: /images/map-opt.jpg
 ---
 
@@ -11,9 +11,13 @@ Want me to speak at your event? Send a message to <a href="mailto:hi@zenorocha.c
 
 # Coming next!
 
-[JS Experience](https://jsexperience2017.imasters.com.br/)
-* *When:* June, 23
-* *Where:* São Paulo, SP - Brazil
+[BrazilJS](https://braziljs.org/conf/)
+* *When:* August, 25
+* *Where:* Porto Alegre, RS - Brazil
+
+[BrazilJS](https://braziljs.org/conf/)
+* *When:* September, 01
+* *Where:* Fortaleza, CE - Brazil
 
 [Liferay DevCon](https://www.liferay.com/web/events-devcon/home)
 * *When:* October, 4
@@ -24,6 +28,22 @@ Want me to speak at your event? Send a message to <a href="mailto:hi@zenorocha.c
 * *Where:* Austin, TX - USA
 
 # 2017
+
+[Front in Sampa](http://www.frontinsampa.com.br/)
+* *When:* July, 1
+* *Where:* São Paulo, SP - Brazil
+
+[Meetup CSS](https://www.meetup.com/CSS-SP/events/239847887/)
+* *When:* June, 27
+* *Where:* São Paulo, SP - Brazil
+
+[JSSP](https://www.meetup.com/Javascript-SP/events/240992799/)
+* *When:* June, 26
+* *Where:* São Paulo, SP - Brazil
+
+[JS Experience](https://jsexperience2017.imasters.com.br/)
+* *When:* June, 23
+* *Where:* São Paulo, SP - Brazil
 
 [Revolution Conf](https://revolutionconf.com)
 * *When:* June, 1

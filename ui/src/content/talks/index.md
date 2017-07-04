@@ -32,18 +32,30 @@ Want me to speak at your event? Send a message to <a href="mailto:hi@zenorocha.c
 [Front in Sampa](http://www.frontinsampa.com.br/)
 * *When:* July, 1
 * *Where:* São Paulo, SP - Brazil
+* *Presentation:* [Por que ninguém se importa com seu novo projeto open source?](https://speakerdeck.com/zenorocha/por-que-ninguem-se-importa-com-seu-novo-projeto-open-source)
+* *Attendees:* ≈400
+* *Coverage:* [Twitter Moments](https://twitter.com/i/moments/881981365851275264)
 
 [Meetup CSS](https://www.meetup.com/CSS-SP/events/239847887/)
 * *When:* June, 27
 * *Where:* São Paulo, SP - Brazil
+* *Presentation:* [Como investir em... você!](https://speakerdeck.com/zenorocha/como-investir-em-dot-dot-dot-voce)
+* *Attendees:* ≈135
+* *Coverage:* [Twitter Moments](https://twitter.com/i/moments/881992781429854208)
 
 [JSSP](https://www.meetup.com/Javascript-SP/events/240992799/)
 * *When:* June, 26
 * *Where:* São Paulo, SP - Brazil
+* *Presentation:* [Criando apps fodas com WeDeploy](https://speakerdeck.com/zenorocha/criando-apps-fodas-com-wedeploy)
+* *Attendees:* ≈45
+* *Coverage:* [Twitter Moments](https://twitter.com/i/moments/881996334982512640)
 
 [JS Experience](https://jsexperience2017.imasters.com.br/)
 * *When:* June, 23
 * *Where:* São Paulo, SP - Brazil
+* *Presentation:* [Web APIs que você (provavelmente) não sabia que existiam](https://speakerdeck.com/zenorocha/web-apis-que-voce-provavelmente-nao-sabia-que-existiam-1)
+* *Attendees:* ≈1000
+* *Coverage:* [Twitter Moments](https://twitter.com/i/moments/882002829472219141)
 
 [Revolution Conf](https://revolutionconf.com)
 * *When:* June, 1

@@ -1,7 +1,7 @@
 ---
 layout: main.html
 title: Talks
-tagline: 10 countries. 103 talks.
+tagline: 10 countries. 110 talks.
 image: /images/map-opt.jpg
 ---
 
@@ -9,77 +9,99 @@ Here you can find all my presentation slides/videos and also know where you can 
 
 Want me to speak at your event? Send a message to <a href="mailto:hi@zenorocha.com">hi@zenorocha.com</a> :)
 
-# Coming next!
-
-[BrazilJS](https://braziljs.org/conf/)
-* *When:* August, 25
-* *Where:* Porto Alegre, RS - Brazil
-
-[BrazilJS](https://braziljs.org/conf/)
-* *When:* September, 01
-* *Where:* Fortaleza, CE - Brazil
-
-[Liferay DevCon](https://www.liferay.com/web/events-devcon/home)
-* *When:* October, 4
-* *Where:* Amsterdam - Netherlands
-
-[Liferay North America Symposium](https://www.liferay.com/web/events-symposium-north-america/)
-* *When:* October, 16
-* *Where:* Austin, TX - USA
-
 # 2017
 
-[Front in Sampa](http://www.frontinsampa.com.br/)
+14 talks. 8 different cities in 4 different countries.
+
+## [Liferay South America Symposium](https://www.liferay.com/web/events-symposium-brazil/)
+* *When:* November, 29
+* *Where:* São Paulo, SP - Brazil
+
+## [Liferay Spain Symposium](https://www.liferay.com/web/events-symposium-spain/)
+* *When:* October, 25
+* *Where:* Madrid - Spain
+* *Attendees:* ≈360
+* *Presentation:* [What's new in the Liferay Community](https://speakerdeck.com/zenorocha/whats-new-in-the-liferay-community)
+* *Presentation:* [Launching Liferay Projects Faster with WeDeploy](https://speakerdeck.com/zenorocha/launching-liferay-projects-faster-with-wedeploy)
+
+## [Liferay North America Symposium](https://www.liferay.com/web/events-symposium-north-america/)
+* *When:* October, 16
+* *Where:* Austin, TX - USA
+* *Attendees:* ≈450
+* *Presentation:* [Launching Liferay Projects Faster with WeDeploy](https://speakerdeck.com/zenorocha/launching-liferay-projects-faster-with-wedeploy)
+
+## [Liferay DevCon](https://www.liferay.com/web/events-devcon/home)
+* *When:* October, 4
+* *Where:* Amsterdam - Netherlands
+* *Attendees:* ≈300
+* *Presentation:* [How Liferay fits into the real of latest technologies](https://speakerdeck.com/zenorocha/how-liferay-fits-into-the-real-of-latest-technologies)
+* *Presentation:* [Launching Liferay Projects Faster with WeDeploy](https://speakerdeck.com/zenorocha/launching-liferay-projects-faster-with-wedeploy) ([Video](https://www.youtube.com/watch?v=nvH82jzlU5Y))
+
+## [BrazilJS Fortaleza](https://braziljs.org/conf/)
+* *When:* September, 01
+* *Where:* Fortaleza, CE - Brazil
+* *Attendees:* ≈400
+* *Presentation:* [Estoicismo e JavaScript](https://speakerdeck.com/zenorocha/estoicismo-e-javascript)
+
+## [BrazilJS Porto Alegre](https://braziljs.org/conf/)
+* *When:* August, 25
+* *Where:* Porto Alegre, RS - Brazil
+* *Attendees:* ≈1600
+* *Presentation:* [Estoicismo e JavaScript](https://speakerdeck.com/zenorocha/estoicismo-e-javascript)
+
+## [Front in Sampa](http://www.frontinsampa.com.br/)
 * *When:* July, 1
 * *Where:* São Paulo, SP - Brazil
-* *Presentation:* [Por que ninguém se importa com seu novo projeto open source?](https://speakerdeck.com/zenorocha/por-que-ninguem-se-importa-com-seu-novo-projeto-open-source)
 * *Attendees:* ≈400
+* *Presentation:* [Por que ninguém se importa com seu novo projeto open source?](https://speakerdeck.com/zenorocha/por-que-ninguem-se-importa-com-seu-novo-projeto-open-source)
 * *Coverage:* [Twitter Moments](https://twitter.com/i/moments/881981365851275264)
 
-[Meetup CSS](https://www.meetup.com/CSS-SP/events/239847887/)
+## [Meetup CSS](https://www.meetup.com/CSS-SP/events/239847887/)
 * *When:* June, 27
 * *Where:* São Paulo, SP - Brazil
-* *Presentation:* [Como investir em... você!](https://speakerdeck.com/zenorocha/como-investir-em-dot-dot-dot-voce)
 * *Attendees:* ≈135
+* *Presentation:* [Como investir em... você!](https://speakerdeck.com/zenorocha/como-investir-em-dot-dot-dot-voce)
 * *Coverage:* [Twitter Moments](https://twitter.com/i/moments/881992781429854208)
 
-[JSSP](https://www.meetup.com/Javascript-SP/events/240992799/)
+## [JSSP](https://www.meetup.com/Javascript-SP/events/240992799/)
 * *When:* June, 26
 * *Where:* São Paulo, SP - Brazil
-* *Presentation:* [Criando apps fodas com WeDeploy](https://speakerdeck.com/zenorocha/criando-apps-fodas-com-wedeploy)
 * *Attendees:* ≈45
+* *Presentation:* [Criando apps fodas com WeDeploy](https://speakerdeck.com/zenorocha/criando-apps-fodas-com-wedeploy)
 * *Coverage:* [Twitter Moments](https://twitter.com/i/moments/881996334982512640)
 
-[JS Experience](https://jsexperience2017.imasters.com.br/)
+## [JS Experience](https://jsexperience2017.imasters.com.br/)
 * *When:* June, 23
 * *Where:* São Paulo, SP - Brazil
-* *Presentation:* [Web APIs que você (provavelmente) não sabia que existiam](https://speakerdeck.com/zenorocha/web-apis-que-voce-provavelmente-nao-sabia-que-existiam-1)
 * *Attendees:* ≈1000
+* *Presentation:* [Web APIs que você (provavelmente) não sabia que existiam](https://speakerdeck.com/zenorocha/web-apis-que-voce-provavelmente-nao-sabia-que-existiam-1)
 * *Coverage:* [Twitter Moments](https://twitter.com/i/moments/882002829472219141)
 
-[Revolution Conf](https://revolutionconf.com)
+## [Revolution Conf](https://revolutionconf.com)
 * *When:* June, 1
 * *Where:* Virginia Beach, VA - USA
 
-[JS.LA](http://js.la)
+## [JS.LA](http://js.la)
 * *When:* May, 25
 * *Where:* Santa Monica, CA - USA
 
-[JSDayES](http://2017.jsday.es/)
+## [JSDayES](http://2017.jsday.es/)
 * *When:* May, 12
 * *Where:* Madrid - Spain
 
 # 2016
 
-9 talks. 8 different cities in 3 different countries.
+9 talks. 8 different cities in 4 different countries.
 
 ## [Liferay Symposium - South America](https://web.liferay.com/web/events2016/brazil/)
 * *When:* November, 30
 * *Where:* São Paulo, SP - Brazil
+* *Attendees:* ≈400
 
 ## [Liferay DevCon](https://web.liferay.com/web/events2016/devcon/)
 * *When:* November, 14
 * *Where:* Darmstadt - Germany
+* *Attendees:* ≈300
 
 ## [UCLA's UPE](https://upe.seas.ucla.edu/)
 * *When:* October, 3
@@ -96,22 +118,22 @@ Want me to speak at your event? Send a message to <a href="mailto:hi@zenorocha.c
 ## [NEJS Conf](https://nejsconf.com/)
 * *When:* August, 26
 * *Where:* Omaha, NE - USA
-* *Presentation:* [Web APIs you (probably) didn't know existed](https://speakerdeck.com/zenorocha/web-apis-you-probably-didnt-know-existed)
 * *Attendees:* ≈200
+* *Presentation:* [Web APIs you (probably) didn't know existed](https://speakerdeck.com/zenorocha/web-apis-you-probably-didnt-know-existed)
 * *Coverage:* [Storify](https://storify.com/zenorocha/nebraskajs-conference-august-2016)
 
 ## [SFHTML5](http://www.meetup.com/sfhtml5/events/233029429/)
 * *When:* August, 19
 * *Where:* San Francisco, CA - USA
-* *Presentation:* [Web APIs you (probably) didn't know existed](https://speakerdeck.com/zenorocha/web-apis-you-probably-didnt-know-existed) ([Video](https://www.youtube.com/watch?v=NCGLPp778JY))
 * *Attendees:* ≈100
+* *Presentation:* [Web APIs you (probably) didn't know existed](https://speakerdeck.com/zenorocha/web-apis-you-probably-didnt-know-existed) ([Video](https://www.youtube.com/watch?v=NCGLPp778JY))
 * *Coverage:* [Storify](https://storify.com/zenorocha/sfhtml5-august-2016)
 
 ## [Front in BH](http://frontinbh.com.br/)
 * *When:* August, 6
 * *Where:* Belo Horizonte, MG - Brazil
-* *Presentation:* [Web APIs que você (provavelmente) não sabia que existiam](https://speakerdeck.com/zenorocha/web-apis-que-voce-provavelmente-nao-sabia-que-existiam) ([Video](http://frontinbh.com.br/live.html))
 * *Attendees:* ≈500
+* *Presentation:* [Web APIs que você (provavelmente) não sabia que existiam](https://speakerdeck.com/zenorocha/web-apis-que-voce-provavelmente-nao-sabia-que-existiam) ([Video](http://frontinbh.com.br/live.html))
 * *Coverage:* [Storify](https://storify.com/zenorocha/front-in-bh-august-2016)
 
 ## [California State Polytechnic University's SWIFT](https://calpolyswift.org/)
@@ -385,6 +407,7 @@ Want me to speak at your event? Send a message to <a href="mailto:hi@zenorocha.c
 ## [BrazilJS](http://lanyrd.com/2013/braziljs/)
 * *When:* August, 22
 * *Where:* Porto Alegre, RS - Brazil
+* *Attendees:* ≈1000
 * *Presentation:* [Um futuro chamado Web Components](https://speakerdeck.com/zenorocha/um-futuro-chamado-web-components) ([Video](http://www.youtube.com/watch?v=7Q0-E_rZ_Cc))
 
 ## [Coding on Weekend](http://codingonweekend.com.br/)
@@ -521,13 +544,14 @@ Want me to speak at your event? Send a message to <a href="mailto:hi@zenorocha.c
 ## [BrazilJS](http://braziljs.com.br/)
 * *When:* August, 30
 * *Where:* Porto Alegre, RS - Brazil
+* *Attendees:* ≈1000
 * *Presentation:* [Como não virar um Zumbi: Kit de sobrevivência](http://talks.zenorocha.com/2012/braziljs/)
 
 ## [Tableless Conference](http://tableless.com.br/tablelessconf/)
 * *When:* August, 24
 * *Where:* São Paulo, SP - Brazil
-* *Presentation:* [Canvas, SVG e WebGL](http://talks.zenorocha.com/2012/tablelessconf/)
 * *Attendees:* ≈170
+* *Presentation:* [Canvas, SVG e WebGL](http://talks.zenorocha.com/2012/tablelessconf/)
 
 ## [TDC - The Developers Conference](http://www.thedevelopersconference.com.br/#florianopolis)
 * *When:* August, 25

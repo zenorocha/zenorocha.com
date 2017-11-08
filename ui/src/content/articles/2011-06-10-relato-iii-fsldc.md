@@ -23,7 +23,7 @@ Por isso antes de contar como foi o resultado da minha palestra, vou contar os b
 
 Assim que saiu a programação oficial do evento e vi que meu nome constava por lá pensei: “Por que não montar uma palestra sobre HTML5 em HTML5?”
 
-A ideia era boa mas como todo bom palestrante, não tive muito tempo para prepará-la, o que me levou a passar a madrugada de sexta para sábado preparando tudo. Para os exemplos em HTML5 me baseei no famoso [HTML5Rocks](http://slides.html5rocks.com) e assim fui montando tudo ao longo da madrugada.
+A ideia era boa mas como todo bom palestrante, não tive muito tempo para prepará-la, o que me levou a passar a madrugada de sexta para sábado preparando tudo. Para os exemplos em HTML5 me baseei no famoso [HTML5Rocks](https://developers.google.com/web/) e assim fui montando tudo ao longo da madrugada.
 
 Às 5:20h da manhã fiz meu último commit no Github e então me deitei por 40 minutos enquanto fazia deploy dos arquivos para o servidor. Acordei às 6h e comecei a me arrumar para a viagem até Duque de Caxias.
 

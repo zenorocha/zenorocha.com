@@ -9,6 +9,16 @@ Here you can find all my presentation slides/videos and also know where you can 
 
 Want me to speak at your event? [Send me a tweet](https://twitter.com/zenorocha) :)
 
+# 2018
+
+## [Liferay North America Symposium](https://www.liferay.com/web/events-symposium-north-america/)
+* *When:* October, 8
+* *Where:* New Orleans, LA - USA
+
+## [Liferay Italy Symposium](https://www.liferay.com/web/events-symposium-italy)
+* *When:* October, 23
+* *Where:* Milan, Italy
+
 # 2017
 
 16 talks. 8 different cities in 4 different countries.

@@ -5,6 +5,10 @@ tagline: Work. Hobby. Same thing.
 image: /images/computer-opt.jpg
 ---
 
+# 2018
+
+* [Liferay DXP Cloud](https://www.liferay.com/products/dxp-cloud)
+
 # 2017
 
 * [Liferay Community](https://community.liferay.com/)

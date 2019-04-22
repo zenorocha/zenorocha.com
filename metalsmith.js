@@ -50,10 +50,10 @@ const buildCompleted = () => {
 
   if (task === 'deploy') {
     ghpages.publish(config.destination, {
-      branch: 'wedeploy',
+      branch: 'gh-pages',
       repo: 'git@github.com:zenorocha/zenorocha.com.git'
     }, (err) => {
-      if (err) throw err;
+      if (err) console.log(err);
       else buildDuration();
     });
   }

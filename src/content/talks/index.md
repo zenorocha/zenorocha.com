@@ -2,7 +2,7 @@
 layout: main.html
 title: Talks
 tagline: 10 countries. 112 talks.
-image: /images/map-opt.jpg
+image: /images/speaking.jpg
 ---
 
 Here you can find all my presentation slides/videos and also know where you can find me in the future.

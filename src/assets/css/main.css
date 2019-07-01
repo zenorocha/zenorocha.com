@@ -148,6 +148,15 @@ code {
   margin-left: auto;
 }
 
+.nav-social a {
+  margin-left: 10px;
+}
+
+.nav-social img {
+  width: 20px;
+  height: 20px;
+}
+
 .animated {
   -webkit-animation-duration: 0.3s;
      -moz-animation-duration: 0.3s;
@@ -435,8 +444,8 @@ svg {
     margin-top: 50px;
   }
 
-  /* 
-   * Math break: 
+  /*
+   * Math break:
    *   viewport width: 100vw
    *   .post-container width: 700px
    *   remainder: (100vw - 700px)

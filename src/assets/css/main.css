@@ -64,6 +64,7 @@ code {
 }
 
 .logo {
+  transition: opacity .3s ease-in-out;
   color: white;
   font-weight: 700;
   font-size: 28px;
@@ -71,6 +72,10 @@ code {
   letter-spacing: 2px;
   padding: 10px 20px;
   font-family: 'Neuzeit Grotesk Bold', sans-serif;
+}
+
+.logo:hover {
+  opacity: .7;
 }
 
 .top .site-nav {
@@ -108,6 +113,7 @@ code {
 }
 
 .site-nav a {
+  transition: color .3s ease-in-out;
   color: #E2E6E7;
   text-decoration: none;
   text-transform: uppercase;
@@ -116,6 +122,10 @@ code {
   letter-spacing: 1.2px;
   font-size: 12px;
   padding: 14px 11px;
+}
+
+.site-nav a:hover {
+  color: white;
 }
 
 @media (min-width: 375px) {
@@ -149,7 +159,12 @@ code {
 }
 
 .nav-social a {
+  transition: opacity .3s ease-in-out;
   margin-left: 10px;
+}
+
+.nav-social a:hover {
+  opacity: .7;
 }
 
 .nav-social img {

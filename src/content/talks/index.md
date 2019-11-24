@@ -1,13 +1,31 @@
 ---
 layout: main.html
 title: Talks
-tagline: 10 countries. 112 talks.
+tagline: 11 countries. 116 talks.
 image: /images/speaking.jpg
 ---
 
 Here you can find all my presentation slides/videos and also know where you can find me in the future.
 
 Want me to speak at your event? [Send me a tweet](https://twitter.com/zenorocha) :)
+
+# 2019
+
+## [Liferay DevCon](https://www.liferay.com/web/events-devcon)
+* *When:* November, 19
+* *Where:* Mainz, Germany
+
+## [Liferay Italy Symposium](https://www.liferay.com/web/events-symposium-italy)
+* *When:* November, 13
+* *Where:* Milan, Italy
+
+## [Liferay Spain Symposium](https://www.liferay.com/web/events-symposium-spain)
+* *When:* October, 23
+* *Where:* Madrid, Spain
+
+## [Liferay France Symposium](https://www.liferay.com/web/events-symposium-france)
+* *When:* October, 9
+* *Where:* Paris, France
 
 # 2018
 

@@ -42,6 +42,7 @@ module.exports = {
     engine: 'handlebars',
     directory: 'src/layouts',
     partials: {
+      updates: '../partials/updates',
       footer: '../partials/footer',
       header: '../partials/header',
       navbar: '../partials/navbar'

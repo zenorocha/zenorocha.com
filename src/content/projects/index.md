@@ -7,6 +7,7 @@ image: /images/computer-opt.jpg
 
 # 2020
 
+* [14 Habits of Highly Productive Developers](https://14habits.com)
 * [Dracula PRO](https://draculatheme.com/pro)
 
 # 2019

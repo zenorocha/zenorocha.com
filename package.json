@@ -10,7 +10,7 @@
   "dependencies": {
     "chalk": "^1.0.0",
     "gh-pages": "^1.1.0",
-    "handlebars": "^4.0.5",
+    "handlebars": "^4.5.3",
     "load-metalsmith-plugins": "^0.1.1",
     "metalsmith": "^2.1.0",
     "metalsmith-assets": "^0.1.0",

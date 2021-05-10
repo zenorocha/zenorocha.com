@@ -1,6 +1,7 @@
 ---
 title: "Relato #13elw #edted ...e mais!"
 image: http://media.tumblr.com/tumblr_lljn2ySmfT1qe3219.png
+lang: pt-BR
 ---
 
 Essa semana tive a oportunidade de participar de dois eventos muito legais que aconteceram nos dias 19 e 21 de maio aqui no Rio de Janeiro. Se você quer saber o que rolou nesses eventos e o que ainda está para rolar, aqui é o lugar.

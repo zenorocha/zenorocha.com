@@ -1,6 +1,7 @@
 ---
 title: Front-end Made in Brazil
 image: http://media.tumblr.com/tumblr_m70fjsYuJe1qe3219.jpg
+lang: pt-BR
 ---
 
 A [Revista Wide](http://www.revistawide.com.br/) desse mês (_edição 91 de jul/ago_) trouxe uma matéria muito legal sobre o estado atual do mercado de trabalho do desenvolvedor front-end.

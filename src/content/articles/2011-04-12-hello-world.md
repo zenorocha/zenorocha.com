@@ -1,5 +1,6 @@
 ---
 title: Hello world
+lang: pt-BR
 ---
 
 Era terça-feira, dia 5 de abril.

@@ -2,6 +2,7 @@
 title: "Paredão Tecnológico"
 description: "Laís e Anderson me colocaram no Paredão Tecnológico para responder algumas perguntas sobre web, carreira e tudo mais."
 slug: paredao-tecnologico
+lang: pt-BR
 ---
 
 Laís e Anderson me colocaram no Paredão Tecnológico para responder algumas perguntas sobre web, carreira e tudo mais.

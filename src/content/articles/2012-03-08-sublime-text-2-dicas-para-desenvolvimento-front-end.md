@@ -1,5 +1,6 @@
 ---
 title: Sublime Text 2 – Dicas para Desenvolvimento Front-end
+lang: pt-BR
 ---
 
 _Publicado originalmente no Front-end Brasil._

@@ -1,6 +1,7 @@
 ---
 title: flashplayer
 image: http://media.tumblr.com/tumblr_lufz89zgIj1qe3219.jpg
+lang: pt-BR
 ---
 
 Ontem foi um dia pra lá de movimentado. Logo de manhã estava [lendo rumores](http://www.zdnet.com/blog/perlow/exclusive-adobe-ceases-development-on-mobile-browser-flash-refocuses-efforts-on-html5-updated/19226) que, durante à tarde [se tornaram oficiais](http://blogs.adobe.com/conversations/2011/11/flash-focus.html), sobre a descontinuação do [Adobe Flash Player](http://www.adobe.com/br/products/flashplayer.html) para dispositivos móveis.

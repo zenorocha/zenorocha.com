@@ -2,6 +2,7 @@
 title: HTML5 - Canvas + Three.js
 image: http://media.tumblr.com/tumblr_lrou6aDK1U1qe3219.jpg
 slug: html5-canvas-three-js
+lang: pt-BR
 ---
 
 <!-- <p class="demo-download"><a href="http://labs.zenorocha.com/html5/canvas/" target="_blank"><img src="http://media.tumblr.com/tumblr_lk325lvHwF1qe3219.png" class="botao"/></a> <a href="https://github.com/zenorocha/HTML5-Canvas" target="_blank"><img src="http://media.tumblr.com/tumblr_lk325u7HMG1qe3219.png" class="botao"/></a> -->

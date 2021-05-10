@@ -1,6 +1,7 @@
 ---
 title: 'Recado para o FrontInterior'
 slug: recado-para-frontinterior
+lang: pt-BR
 ---
 
 <div class="iframe-wrap">

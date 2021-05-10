@@ -4,6 +4,7 @@ link: 'http://www.infoq.com/br/presentations/mitos-desenvolvimento-frontend'
 image: /img/posts/mitos.jpg
 slug: mitos-desenvolvimento-front-end-qcon
 skip: true
+lang: pt-BR
 ---
 
 <p><em>Publicado originalmente no InfoQ.</em></p>

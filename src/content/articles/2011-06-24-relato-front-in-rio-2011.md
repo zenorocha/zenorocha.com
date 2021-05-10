@@ -1,6 +1,7 @@
 ---
 title: Relato - Front in Rio 2011
 image: http://media.tumblr.com/tumblr_lmlfnwXTBp1qe3219.png
+lang: pt-BR
 ---
 
 Recentemente participei de mais um evento muito legal. Foi o [Front in Rio 2011](http://frontinrio.com.br) ([@frontinrio](https://twitter.com/#!/frontinrio)), o primeiro dedicado somente ao mercado front-end em solos cariocas.

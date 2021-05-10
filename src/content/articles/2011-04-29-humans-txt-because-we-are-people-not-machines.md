@@ -1,5 +1,6 @@
 ---
 title: humans txt - Because we are people, not machines
+lang: pt-BR
 ---
 
 Qualquer um que esteja envolvido com [SEO](http://pt.wikipedia.org/wiki/SEO), [SEM](http://pt.wikipedia.org/wiki/SEM) e [Web Standards](http://pt.wikipedia.org/wiki/Web_standards), já deve ter ouvido falar do [robots.txt](http://pt.wikipedia.org/wiki/Robots.txt). Entre todas as técnicas utilizadas para um melhor posicionamento nos buscadores, esta é uma das mais utilizadas.

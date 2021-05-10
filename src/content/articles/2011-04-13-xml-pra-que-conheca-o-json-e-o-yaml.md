@@ -1,5 +1,6 @@
 ---
 title: XML pra quê? Conheça o JSON e o YAML
+lang: pt-BR
 ---
 
 Por muito tempo o XML dominou a web quando o assunto era serialização de dados. Aos poucos, outras linguagens foram se popularizando e conquistando desenvolvedores por conta das fraquezas desse padrão recomendado pela W3C.

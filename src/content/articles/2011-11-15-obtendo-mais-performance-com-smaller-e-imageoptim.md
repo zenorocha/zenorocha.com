@@ -1,6 +1,7 @@
 ---
 title: Obtendo mais performance com Smaller e ImageOptim
 image: http://media.tumblr.com/tumblr_lur5ilxg451qe3219.jpg
+lang: pt-BR
 ---
 
 Recentemente mudei de sistema operacional, passei de um Linux para um Mac OSx. E como toda mudança muitas novidades vieram, nova interface, novo editor de código, novos softwares, enfim várias coisas.

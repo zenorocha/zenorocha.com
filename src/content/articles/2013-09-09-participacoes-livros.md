@@ -4,6 +4,7 @@ description: "Essa semana foram lançados dois novos livros nos quais eu tive a 
 image: /img/posts/livros.jpg
 slug: participacoes-livros
 skip: true
+lang: pt-BR
 ---
 
 Essa semana foram lançados dois novos livros nos quais eu tive a felicidade de ajudar. Ambos abordam temáticas muito atuais e relevantes para o mercado de desenvolvimento na web e me proporcionaram uma experiência muito legal.

@@ -3,6 +3,7 @@ title: 'Entrevista - Trabalhe em casa'
 link: 'http://www.clubecolombo.com.br/revista/trabalhe-em-casa/'
 slug: entrevista-home-office
 skip: true
+lang: pt-BR
 ---
 
 <!-- <p><a href="http://www.clubecolombo.com.br/revista/trabalhe-em-casa/"><img src="/img/posts/entrevista-colombo.jpg"/></a></p> -->

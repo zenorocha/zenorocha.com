@@ -1,6 +1,7 @@
 ---
 title: "Ser popular é uma merda."
 image: /img/posts/ser-popular.jpg
+lang: pt-BR
 ---
 
 Quando eu entrei no mercado de web a única coisa que eu me importava era entender como todo esse lance de programação funcionava.

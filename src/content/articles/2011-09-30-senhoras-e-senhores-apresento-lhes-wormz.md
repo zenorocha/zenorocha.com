@@ -1,6 +1,7 @@
 ---
 title: Senhoras e senhores, apresento-lhes Wormz
 image: http://media.tumblr.com/tumblr_lr5yzobIBN1qe3219.jpg
+lang: pt-BR
 ---
 
 <!-- <p class="demo-download"><a href="http://html5-pro.com/wormz/" target="_blank"><img src="http://media.tumblr.com/tumblr_lk325lvHwF1qe3219.png" class="botao"/></a> <a href="https://github.com/HTML5-Pro/wormz/" target="_blank"><img src="http://media.tumblr.com/tumblr_lk325u7HMG1qe3219.png" class="botao"/></a></p> -->

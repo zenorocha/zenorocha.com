@@ -1,6 +1,7 @@
 ---
 skip: true
 title: Odeia o IE6? Eu também, mas esse cara...
+lang: pt-BR
 ---
 
 ![](http://25.media.tumblr.com/tumblr_lmrd8c4XkX1qedkdbo1_500.jpg)

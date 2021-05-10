@@ -1,6 +1,7 @@
 ---
 title: Don't Feed the Trolls
 image: http://media.tumblr.com/tumblr_m7szr6LDPt1qe3219.jpg
+lang: pt-BR
 ---
 
 Tem sido cada vez maior o volume de pessoas que eu tenho lidado no dia-a-dia, seja em eventos, por email pessoal, grupos no facebook, issues no github, listas de email e tal.

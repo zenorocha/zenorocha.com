@@ -2,6 +2,7 @@
 title: 'Tunando o Developer Tools do Google Chrome'
 image: /img/posts/monokai.jpg
 slug: tunando-developer-tools-google-chrome
+lang: pt-BR
 ---
 
 _Publicado originalmente no Tableless._

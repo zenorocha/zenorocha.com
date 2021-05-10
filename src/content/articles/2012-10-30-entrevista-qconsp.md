@@ -2,6 +2,7 @@
 title: 'Entrevista - A nova experiência do HTML5'
 link: 'http://www.infoq.com/br/interviews/html5-front-end'
 slug: entrevista-qconsp
+lang: pt-BR
 ---
 
 <!-- <p><a href="http://www.infoq.com/br/interviews/html5-front-end" target="_blank"><img src="/img/posts/entrevista-qconsp.jpg"/></a></p> -->

@@ -1,6 +1,7 @@
 ---
 title: HTML5 - Async Scripts
 image: http://media.tumblr.com/tumblr_lrovdkNq881qe3219.jpg
+lang: pt-BR
 ---
 
 <!-- <p class="demo-download"><a href="http://labs.zenorocha.com/html5/script" target="_blank"><img class="botao" src="http://media.tumblr.com/tumblr_lk325lvHwF1qe3219.png"/></a> <a href="https://github.com/zenorocha/HTML5-Script" target="_blank"><img class="botao" src="http://media.tumblr.com/tumblr_lk325u7HMG1qe3219.png"/></a> -->

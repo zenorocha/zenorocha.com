@@ -1,6 +1,7 @@
 ---
 title: Meu ambiente de trabalho em 7 itens
 image: http://media.tumblr.com/tumblr_m57izyNpZj1qe3219.jpg
+lang: pt-BR
 ---
 
 O Davidson Fellipe ([@davidsonfellipe](https://twitter.com/#!/davidsonfellipe)) [ressucitou](http://fellipe.com/blog/meu-ambiente-de-trabalho-em-7-itens/) a série [“Meu ambiente de trabalho em 7 itens”](https://www.google.com.br/search?q=Meu+ambiente+de+trabalho+em+7) que nasceu em 2010 com vários desenvolvedores descrevendo seu _modus operandi_ e me intimou para continuar, então aqui vamos nós!

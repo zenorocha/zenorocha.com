@@ -1,6 +1,7 @@
 ---
 title: Especial do Campeão - Globoesporte.com
 image: http://media.tumblr.com/tumblr_lvvtnqRj2g1qe3219.png
+lang: pt-BR
 ---
 
 Nesse último domingo tivemos a tão movimentada rodada final que definiria o campeão brasileiro de 2011\. Com ela também viria o lançamento do meu primeiro produto desde que entrei no [Globoesporte.com](http://globoesporte.com). 

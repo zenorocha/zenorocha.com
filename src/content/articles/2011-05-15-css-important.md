@@ -1,6 +1,7 @@
 ---
 title: CSS !important - O melhor amigo do desenvolvedor hard-coded
 slug: css-important
+lang: pt-BR
 ---
 
 Você está lá todo feliz codificando seu [CSS](http://pt.wikipedia.org/wiki/Cascading_Style_Sheets), quando de repente aquele parágrafo que era para estar vermelho, está verde!

@@ -5,6 +5,7 @@ do Bash, nativo do Mac OSx. Graças ao oh-my-zsh consegui ganhar uma
 produtividade muito boa no terminal. Só que uma coisinha sempre me irritava,
 a autocorreção."
 slug: desabilitar-autocorrecao-zsh
+lang: pt-BR
 ---
 
 Desde o [ano passado](http://zenorocha.com/meu-ambiente-de-trabalho-em-7-itens/)

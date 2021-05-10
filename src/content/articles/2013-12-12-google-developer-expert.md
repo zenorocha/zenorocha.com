@@ -1,6 +1,7 @@
 ---
 title: "O primeiro Google Developers Expert do Brasil"
 slug: google-developer-expert
+lang: pt-BR
 ---
 
 *Publicado originalmente no [Código Google](http://codigo-google.blogspot.com.br/2013/12/o-primeiro-google-developers-expert-do.html)*

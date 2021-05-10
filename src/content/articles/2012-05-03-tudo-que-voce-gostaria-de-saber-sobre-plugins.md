@@ -1,6 +1,7 @@
 ---
 title: Tudo que você gostaria de saber sobre plugins jQuery e ninguém teve paciência de explicar
 slug: tudo-que-voce-gostaria-de-saber-sobre-plugins
+lang: pt-BR
 ---
 
 _Publicado originalmente no Tableless._

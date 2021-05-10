@@ -1,6 +1,7 @@
 ---
 title: Tudo novo, de novo
 image: http://media.tumblr.com/tumblr_m6wvq4EQWG1qe3219.jpg
+lang: pt-BR
 ---
 
 Ontem foi meu primeiro dia trabalhando para uma nova empresa, a [Liferay, Inc.](http://liferay.com) Nessa transição muita gente veio me perguntar sobre os motivos de eu ter deixado a Globo, o que faz essa empresa ou o que eu vou fazer lá dentro.

@@ -1,6 +1,7 @@
 ---
 title: Compass Sprite Generator
 image: http://media.tumblr.com/tumblr_m79nnrcMtP1qe3219.jpg
+lang: pt-BR
 ---
 
 Nesse último final de semana estive no [Front in BH](http://frontinbh.com.br) para falar sobre pré-processadores de CSS. Infelizmente, por problemas técnicos, não consegui mostrar uma das coisas que eu mais gosto no [Compass](http://compass-style.org).

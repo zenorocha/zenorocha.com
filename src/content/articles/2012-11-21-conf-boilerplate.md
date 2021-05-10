@@ -2,6 +2,7 @@
 title: 'Apresentando o Conf Boilerplate'
 link: 'http://braziljs.org/blog/apresentando-o-confboilerplate/'
 slug: conf-boilerplate
+lang: pt-BR
 ---
 
 <div class="iframe-wrap">

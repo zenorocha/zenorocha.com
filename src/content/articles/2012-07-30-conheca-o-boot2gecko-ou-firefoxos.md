@@ -2,6 +2,7 @@
 title: Conheça de verdade o Boot2Gecko (ou FirefoxOS)
 image: http://media.tumblr.com/tumblr_m7zjc2fIKM1qe3219.jpg
 slug: conheca-o-boot2gecko-ou-firefoxos
+lang: pt-BR
 ---
 
 _Publicado originalmente no Tableless._

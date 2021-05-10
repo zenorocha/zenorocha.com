@@ -2,6 +2,7 @@
 title: Relato MozReps Speaker's Training + QCon
 image: http://media.tumblr.com/tumblr_m8clktuexq1qe3219.jpg
 slug: relato-mozreps-qcon
+lang: pt-BR
 ---
 
 Essa semana acabei chegando em São Paulo com mais antecedência do que eu imaginava.

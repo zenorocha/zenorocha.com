@@ -5,6 +5,7 @@ description: 'Depois de meses fora do ar, finalmente o novo repositório oficial
 image: /img/posts/new-jquery-plugins.jpg
 slug: jquery-plugins
 skip: true
+lang: pt-BR
 ---
 
 Depois de meses fora do ar, finalmente o [novo repositório oficial de plugins jQuery](http://plugins.jquery.com/) está no ar!

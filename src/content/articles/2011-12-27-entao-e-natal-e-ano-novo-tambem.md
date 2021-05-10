@@ -1,6 +1,7 @@
 ---
 title: Então é natal e ano novo também...
 image: http://media.tumblr.com/tumblr_lwu6rgQUnt1qe3219.jpg
+lang: pt-BR
 ---
 
 Sabe aquela sensação de que o ano tá acabando?

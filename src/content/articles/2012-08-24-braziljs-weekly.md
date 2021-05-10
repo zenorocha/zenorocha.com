@@ -1,6 +1,7 @@
 ---
 title: BrazilJS Weekly
 image: http://media.tumblr.com/tumblr_m99x24Vquc1qe3219.jpg
+lang: pt-BR
 ---
 
 Hoje muita gente acordou com novidade em suas caixas de email, foi a primeira edição da [BrazilJS Weekly](http://braziljs.org/weekly/1.html) \o/

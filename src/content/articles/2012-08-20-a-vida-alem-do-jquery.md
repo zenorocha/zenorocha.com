@@ -2,6 +2,7 @@
 title: A vida além do jQuery - Tech Talk
 image: http://media.tumblr.com/tumblr_m8t5ikct1b1qe3219.jpg
 slug: a-vida-alem-do-jquery
+lang: pt-BR
 ---
 
 Quando anunciei minha vinda para Recife, muita gente veio me perguntar se eu vinha pra algum evento ou algo do tipo.

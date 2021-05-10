@@ -1,6 +1,7 @@
 ---
 title: Automatizando tarefas JS com Grunt
 image: /images/grunt.jpg
+lang: pt-BR
 ---
 
 Você já parou pra pensar na quantidade de coisas que realiza repetidamente em seus projetos JavaScript?

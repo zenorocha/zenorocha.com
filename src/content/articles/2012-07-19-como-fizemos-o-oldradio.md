@@ -1,6 +1,7 @@
 ---
 title: Como fizemos o oldRadio?
 image: http://media.tumblr.com/tumblr_m6wxcmvAt21qe3219.jpg
+lang: pt-BR
 ---
 
 <!-- <p class="demo-download"><a href="https://developer.mozilla.org/pt-BR/demos/detail/old-radio/launch" target="_blank"><img class="botao" src="http://media.tumblr.com/tumblr_lk325lvHwF1qe3219.png"/></a> <a href="https://github.com/HTML5-Pro/oldRadio/" target="_blank"><img class="botao" src="http://media.tumblr.com/tumblr_lk325u7HMG1qe3219.png"/></a> -->

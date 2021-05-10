@@ -2,6 +2,7 @@
 title: "Segredos do Chrome DevTools"
 image: /images/devtools-opt.jpg
 slug: devtools-series
+lang: pt-BR
 ---
 
 <div class="iframe-wrap">

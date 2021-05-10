@@ -1,6 +1,7 @@
 ---
 title: Entendendo CoffeeScript
 image: http://media.tumblr.com/tumblr_loffq1Ym931qe3219.png
+lang: pt-BR
 ---
 
 Quem é do mundo [Ruby on Rails](http://rubyonrails.org/) já deve estar cansado de toda a polêmica acerca do [CoffeeScript](http://jashkenas.github.com/coffee-script) meses atrás. Se você não acompanhou, vou tentar resumir a história. 

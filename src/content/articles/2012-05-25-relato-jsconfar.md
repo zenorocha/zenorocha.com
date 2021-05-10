@@ -2,6 +2,7 @@
 title: JSConf Argentina - Um relato da minha primeira palestra fora do Brasil
 image: http://media.tumblr.com/tumblr_m4j7ztkXu91qe3219.jpg
 slug: relato-jsconfar
+lang: pt-BR
 ---
 
 Pense numa semana corrida! Sabe aquelas em que você precisa entregar um projeto na empresa e outro trabalho na faculdade?

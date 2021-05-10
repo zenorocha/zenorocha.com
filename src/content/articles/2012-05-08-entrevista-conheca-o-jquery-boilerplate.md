@@ -1,5 +1,6 @@
 ---
 title: Entrevista - Conheça o jQuery Boilerplate
+lang: pt-BR
 ---
 
 _Publicado originalmente no jQuery Brasil._

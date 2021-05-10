@@ -1,6 +1,7 @@
 ---
 title: 'Super Trunfo - Um case de Dados Abertos'
 slug: super-trunfo
+lang: pt-BR
 ---
 
 <!-- <p class="demo-download">

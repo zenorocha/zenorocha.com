@@ -2,6 +2,7 @@
 title: BlackBerry Jam Session
 image: /img/posts/bb-jamsession.jpg
 skip: true
+lang: pt-BR
 ---
 
 Aqui estou eu, novamente contando sobre as experiências que tenho vivido por aí. Dessa vez vou voltar algumas semanas atrás no tempo para falar do primeiro Hackathon de verdade que eu participei. Digo "primeiro de verdade" porque nos outros eu não competi, fiquei só conversando com o pessoal.

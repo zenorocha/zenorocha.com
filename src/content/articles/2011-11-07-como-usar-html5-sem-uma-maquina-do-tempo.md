@@ -1,6 +1,7 @@
 ---
 title: Como usar HTML5 sem uma máquina do tempo
 image: http://media.tumblr.com/tumblr_lu8nyhrwAl1qe3219.png
+lang: pt-BR
 ---
 
 Nesse último sábado tive o privilégio de palestrar em dois eventos irados!

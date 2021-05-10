@@ -1,6 +1,7 @@
 ---
 title: Relato - Geeks on Beer e Rio Agile
 image: http://media.tumblr.com/tumblr_lpx7s22Si51qe3219.png
+lang: pt-BR
 ---
 
 Semana passada pude participar de mais dois excelentes eventos que rolaram aqui no Rio de Janeiro. O assunto, como sempre, era tecnologia, só que dessa vez, o foco não era a linguagem X ou Y.

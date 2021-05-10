@@ -1,5 +1,6 @@
 ---
 title: Social Media APIs - Parte II
+lang: pt-BR
 ---
 
 Dando continuidade a série sobre as APIs das redes sociais, vamos conhecer hoje o que os serviços do [Foursquare](https://foursquare.com) e do [Twitter](http://twitter.com/) tem a nos oferecer.

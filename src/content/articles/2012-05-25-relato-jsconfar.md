@@ -15,7 +15,7 @@ A missão era muito importante, representar o Brasil em um evento mundialmente c
 
 [![](http://media.tumblr.com/tumblr_m4j8mxWMLX1qe3219.jpg)](http://jsconf.com.ar/)
 
-Madrugada vem, madruga vai e os slides começavam a sair, mas o que me deixava inseguro mesmo era o fato de ter que palestrar em inglês, não que o meu inglês fosse péssimo, o problema é que ensinar algo em outra língua se mostrava cada vez mais difícil do que eu imaginava. 
+Madrugada vem, madruga vai e os slides começavam a sair, mas o que me deixava inseguro mesmo era o fato de ter que palestrar em inglês, não que o meu inglês fosse péssimo, o problema é que ensinar algo em outra língua se mostrava cada vez mais difícil do que eu imaginava.
 
 ![](http://media.tumblr.com/tumblr_m4j8wnLFVW1qe3219.jpg)
 
@@ -58,7 +58,7 @@ Também muito descontraída foi a palestra do Max Odgen ([@maxogden](https://twi
 
 Mas antes disso, um pouco antes do final do segundo dia, teve minha a minha palestra. Depois de toda a odisséia para chegar ali, era chegada a hora de representar.
 
-Sala cheia, público super receptivo as brincadeiras e atentos ao conteúdo ([slides aqui](http://talks.zenorocha.com/jsconf/)).
+Sala cheia, público super receptivo as brincadeiras e atentos ao conteúdo ([slides aqui](https://github.com/zenorocha/talks/tree/master/2012/jsconf/)).
 
 ![](http://media.tumblr.com/tumblr_m4j90idYAt1qe3219.jpg)
 
@@ -88,7 +88,7 @@ Da esquerda para direita. Eu, Giovanni Keppelen ([@keppelen](https://twitter.com
 
 ## Bônus
 
-No fim, ainda conseguimos puxar alguns dos palestrantes mais sinistros do evento para mandar uma mensagem para os desenvolvedores brasileiros. Tem até legenda em português ao clicar no botão CC. 
+No fim, ainda conseguimos puxar alguns dos palestrantes mais sinistros do evento para mandar uma mensagem para os desenvolvedores brasileiros. Tem até legenda em português ao clicar no botão CC.
 
 Confere aí porque as dicas são valiosas.
 

@@ -8,4 +8,4 @@ skip: true
   </iframe>
 </div>
 
-On May 20th, I made a presentation [Introducing Canvas, SVG & WebGL](http://talks.zenorocha.com/jsconf/) at [JSConf Latin America](http://jsconf.com.ar). I also wrote [an article (in portuguese)](/relato-jsconfar) telling how was my experience in Argentina. Well, now the video is online! \o/
+On May 20th, I made a presentation [Introducing Canvas, SVG & WebGL](https://github.com/zenorocha/talks/tree/master/2012/jsconf/) at [JSConf Latin America](http://jsconf.com.ar). I also wrote [an article (in portuguese)](/relato-jsconfar) telling how was my experience in Argentina. Well, now the video is online! \o/

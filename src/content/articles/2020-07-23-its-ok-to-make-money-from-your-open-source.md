@@ -1,5 +1,6 @@
 ---
 title: It’s OK to make money from your open source
+canonical_url: "https://changelog.com/podcast/405"
 ---
 
 The new episode of the [Changelog Podcast](https://changelog.com/podcast/405) is out!

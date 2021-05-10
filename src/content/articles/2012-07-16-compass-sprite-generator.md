@@ -1,6 +1,7 @@
 ---
 title: Compass Sprite Generator
 image: http://media.tumblr.com/tumblr_m79nnrcMtP1qe3219.jpg
+canonical_url: https://tableless.com.br/css-sprites/
 lang: pt-BR
 ---
 

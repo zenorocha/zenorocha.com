@@ -1,6 +1,7 @@
 ---
 title: Design na web com CSS3
 image: http://media.tumblr.com/tumblr_ltqhb1R0tn1qe3219.jpg
+canonical_url: http://www.revistacliche.com.br/2011/10/design-na-web-com-css3/
 lang: pt-BR
 ---
 

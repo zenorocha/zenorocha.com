@@ -12,6 +12,10 @@
   <link rel="stylesheet" href="/css/highlight.css">
   <link rel="stylesheet" href="/css/senna.css">
 
+  {{#if canonical_url }}
+  <link rel="canonical" href="{{ canonical_url }}" />
+  {{/if}}
+
   <script src="/js/senna.min.js"></script>
   <script src="/js/headroom.min.js"></script>
   <script src="/js/main.js"></script>

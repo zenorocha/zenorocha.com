@@ -1,6 +1,7 @@
 ---
 title: Tudo que você gostaria de saber sobre plugins jQuery e ninguém teve paciência de explicar
 slug: tudo-que-voce-gostaria-de-saber-sobre-plugins
+canonical_url: https://tableless.com.br/tudo-que-voce-gostaria-de-saber-sobre-plugins-jquery-e-ninguem-teve-paciencia-de-explicar/
 lang: pt-BR
 ---
 
@@ -14,4 +15,4 @@ Hoje vou tentar responder as dúvidas mais frequentes, explorando as melhores pr
 
 A ideia aqui não é simplesmente mostrar como criar um plugin, mas sim como criar direito, explorando tudo o que o jQuery tem de melhor para nos oferecer.
 
-[Continue lendo…](http://tableless.com.br/tudo-que-voce-gostaria-de-saber-sobre-plugins-jquery-e-ninguem-teve-paciencia-de-explicar/)
+[Continue lendo…](https://tableless.com.br/tudo-que-voce-gostaria-de-saber-sobre-plugins-jquery-e-ninguem-teve-paciencia-de-explicar/)

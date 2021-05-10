@@ -1,5 +1,6 @@
 ---
 title: "14 Best Free Fonts for Programming"
+canonical_url: "https://draculatheme.com/blog/best-free-fonts-for-programming"
 ---
 
 We spend the entire day using code editors, terminal emulators, and other developer tools. Using a font that feels comfortable to your eyes can make a huge difference and improve your productivity.

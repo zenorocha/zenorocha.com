@@ -1,7 +1,8 @@
 ---
-title: 'Tunando o Developer Tools do Google Chrome'
+title: "Tunando o Developer Tools do Google Chrome"
 image: /img/posts/monokai.jpg
 slug: tunando-developer-tools-google-chrome
+canonical_url: https://tableless.com.br/tunando-developer-tools-google-chrome/
 lang: pt-BR
 ---
 
@@ -13,4 +14,4 @@ Só que outra coisa que também passamos muito tempo do nosso dia é o Developer
 
 Hoje vou ensinar como fazer isso muito rapidamente no Developer Tools do Google Chrome!
 
-[Continue lendo…](http://tableless.com.br/tunando-o-developer-tools-do-google-chrome/)
+[Continue lendo…](https://tableless.com.br/tunando-developer-tools-google-chrome/)

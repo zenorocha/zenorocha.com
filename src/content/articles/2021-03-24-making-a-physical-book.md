@@ -1,6 +1,7 @@
 ---
 title: Making a Physical Book
 image: /img/posts/making-a-physical-book-a.jpg
+canonical_url: "https://draculatheme.com/blog/making-a-physical-book"
 ---
 
 I can't believe this is real...

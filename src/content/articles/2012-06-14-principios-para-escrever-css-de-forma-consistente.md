@@ -1,6 +1,7 @@
 ---
 title: Princípios para escrever CSS de forma consistente
 image: http://media.tumblr.com/tumblr_m5m6htslm61qe3219.jpg
+canonical_url: https://tableless.com.br/principios-para-escrever-css-de-forma-consistente/
 lang: pt-BR
 ---
 

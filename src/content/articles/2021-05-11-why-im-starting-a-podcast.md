@@ -38,13 +38,13 @@ One day we asked ourselves: _"What if we made these conversations public?"_. And
     <figcaption class="post-image-caption">Zeno and Jonni working together (Portland, 2021)</figcaption>
 </figure>
 
-## What can I expect from this podcast?
+## What can you expect from this podcast?
 
-The idea of this podcast is to discuss a variety of topics from tooling, setups, open source, careers, working abroad, bootstraping, startups, and big tech.
+The idea of this podcast is to discuss a variety of topics from tooling, setups, open source, careers, working abroad, bootstrapping, startups, and big tech.
 
 Our goal is to interview developers, designers, CEOs, and pretty much anyone who is building modern software and adopting productive techniques in their day-to-day activities.
 
-We're starting with not one but **three episodes**. The first one is an introduction to the podcast. The second one is an interview with [Netto Farah](https://twitter.com/nettofarah), Principal Software Engineer at Segment. And the third one is an interview with [Jeff Atwood](https://twitter.com/codinghorror), the co-founder of Stack Overflow and Discourse.
+We're starting with not one but **three episodes**. The [first one](https://bytetalkpodcast.com/1) is an introduction to the podcast. The [second one](https://bytetalkpodcast.com/2) is an interview with [Netto Farah](https://twitter.com/nettofarah), Principal Software Engineer at Segment. And the [third one](https://bytetalkpodcast.com/3) is an interview with [Jeff Atwood](https://twitter.com/codinghorror), the co-founder of Stack Overflow and Discourse.
 
 <figure>
     <img src="/img/posts/why-im-starting-a-podcast-3.png" class="post-image-full" alt="ByteTalk Episode #3 / Interview with Jeff Atwood">
@@ -65,9 +65,9 @@ I feel like video adds an extra layer of authenticity, intimacy, and expression.
     <figcaption class="post-image-caption">Jonni's audio and video setup</figcaption>
 </figure>
 
-## Where can I find more information?
+## Where can you find more information?
 
-You can watch our podcast on [YouTube](https://www.youtube.com/channel/UCsQshwH9tvDddsbI-T2X-8A) or listen on [Spotify](https://open.spotify.com/show/1G9X747zxYoatabp4Qnv11), [Google Podcasts](https://podcasts.google.com/feed/aHR0cHM6Ly9mZWVkcy50cmFuc2lzdG9yLmZtL2J5dGV0YWxr), and [Amazon Music](https://music.amazon.com/podcasts/456b55ad-c213-4042-8c97-f7f726fa81bc). Apple Podcasts still being reviewed.
+You can watch our podcast on [YouTube](https://www.youtube.com/channel/UCsQshwH9tvDddsbI-T2X-8A) or listen on [Spotify](https://open.spotify.com/show/1G9X747zxYoatabp4Qnv11), [Apple Podcasts](https://podcasts.apple.com/us/podcast/bytetalk/id1566957074), [Google Podcasts](https://podcasts.google.com/feed/aHR0cHM6Ly9mZWVkcy50cmFuc2lzdG9yLmZtL2J5dGV0YWxr), and [Amazon Music](https://music.amazon.com/podcasts/456b55ad-c213-4042-8c97-f7f726fa81bc).
 
 Also, make sure to follow us on [Twitter](https://twitter.com/ByteTalkPodcast), [Instagram](https://www.instagram.com/ByteTalkPodcast/), or subscribe via [RSS](https://feeds.transistor.fm/bytetalk). That way, you won't miss new episodes.
 

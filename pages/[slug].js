@@ -11,6 +11,7 @@ function Post({ post }) {
   }
 
   const title = `${post.title} // Zeno Rocha`
+  const description = post.description || ''
   const url = `https://zenorocha.com/${post.slug}`
   const image = post.image ? `https://zenorocha.com/static${post.image}` : 'https://zenorocha.com/static/images/home-opt.jpg'
 
@@ -18,6 +19,8 @@ function Post({ post }) {
     <Head>
       <title>{title}</title>
       <meta content={title} property="og:title" />
+      <meta content={description} name="description" />
+      <meta content={description} property="og:description" />
       <meta content={url} property="og:url" />
       <meta content={image} property="og:image" />
 
@@ -35,6 +38,7 @@ export async function getStaticProps({ params }) {
     'canonical_url',
     'content',
     'date',
+    'description',
     'image',
     'lang',
     'slug',

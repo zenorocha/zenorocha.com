@@ -1,5 +1,6 @@
 ---
 title: "Relato #13elw #edted ...e mais!"
+description: "Essa semana tive a oportunidade de participar de dois eventos muito legais que aconteceram nos dias 19 e 21 de maio aqui no Rio de Janeiro. Se você quer saber o que rolou nesses eventos e o que ainda está para rolar, aqui é o lugar."
 image: http://media.tumblr.com/tumblr_lljn2ySmfT1qe3219.png
 lang: pt-BR
 date: "2011-05-23"
@@ -24,7 +25,7 @@ Almoço reunido com a galera do [#horaextra](http://horaextra.org) e então pale
 Aí então começaram as _lightning talks_. [Pedro Marins](http://pedromarins.com/) ([@pedromarins](http://twitter.com/#!/pedromarins)) abriu falando sobre o [#beerblogging](http://beerblogging.org) e depois eu falei sobre como construir projetos robustos usando HTML5, você pode conferir os slides da minha apresentação abaixo. As _lightnings_ prosseguiram, mas infelizmente tive que sair mais cedo.
 
 <div class="iframe-wrap">
-  <iframe src="http://www.slideshare.net/slideshow/embed_code/8032838" frameborder="0" allowfullscreen="true">
+  <iframe src="https://www.slideshare.net/slideshow/embed_code/8032838" frameborder="0" allowfullscreen="true">
   </iframe>
 </div>
 
@@ -34,7 +35,7 @@ Confira [aqui](http://www.locaweb.com.br/encontro/programacao.html) programaçã
 
 Esse era um evento que eu estava bem animado para participar, ano passado perdi e dessa vez não queria cometer o mesmo erro.
 
-Estava com grandes expectativas para a primeira palestra do dia com o <a href="http://leobalter.net/" target="_blank">Léo Balter</a> (<a href="http://twitter.com/leobalter" target="_blank">@leobalter</a>) que iria falar sobre HTML5 e CSS3. E é claro que as expectativas foram correspondidas, sem dúvida a melhor <a href="http://www.slideshare.net/leobalter/realize-mais-com-html-5-e-css-3-16-edted-rj" target="_blank">palestra</a> do evento. Os exemplos sobre cada nova funcionalidade foram bem legais e as referências ao <a href="http://popcornjs.org" target="_blank">popcornjs.org</a> e <a href="http://butterapp.com" target="_blank">butterapp.com</a> impressionaram.
+Estava com grandes expectativas para a primeira palestra do dia com o <a href="http://leobalter.net/" target="_blank">Léo Balter</a> (<a href="http://twitter.com/leobalter" target="_blank">@leobalter</a>) que iria falar sobre HTML5 e CSS3. E é claro que as expectativas foram correspondidas, sem dúvida a melhor <a href="https://www.slideshare.net/leobalter/realize-mais-com-html-5-e-css-3-16-edted-rj" target="_blank">palestra</a> do evento. Os exemplos sobre cada nova funcionalidade foram bem legais e as referências ao <a href="http://popcornjs.org" target="_blank">popcornjs.org</a> e <a href="http://butterapp.com" target="_blank">butterapp.com</a> impressionaram.
 
 Logo após, mais HTML5&#160;só que agora com o desenvolvedor Microsoft, <a href="http://coding4windows.wordpress.com/" target="_blank">Murilo Curti</a> (<a href="http://twitter.com/#!/Shinjir" target="_blank">@shinjir</a>). É legal ver que a Microsoft está finalmente se preocupando com seu navegador e sua compatibilidade com essas tecnologias. Também achava que só o Flash estava desenvolvendo aceleração de hardware através da GPU (<a href="http://www.dotinga.com/2011/03/woooohooo-flash-molehill-gpu-accelerated-3d/" target="_blank">mais infos nesse artigo</a>), mas descobri que o IE também está nessa (<a href="http://www.engadget.com/2009/11/20/internet-explorer-9-to-sport-gpu-acceleration-and-html5-support/" target="_blank">mais infos nesse artigo</a>).
 

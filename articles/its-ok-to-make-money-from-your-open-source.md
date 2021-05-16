@@ -1,5 +1,6 @@
 ---
 title: It’s OK to make money from your open source
+description: "The new episode of the Changelog Podcast is out! I was interviewed there and we had a great conversation about monetizing open source."
 canonical_url: "https://changelog.com/podcast/405"
 date: "2020-07-23"
 ---

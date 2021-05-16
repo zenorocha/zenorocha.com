@@ -1,5 +1,6 @@
 ---
 title: "Super Trunfo - Um case de Dados Abertos"
+description: "Política é um negócio chato. Nossa geração cresceu presenciando escândalos dos mais diversos tipos na política e com isso desacreditando e desinteressando cada vez mais."
 slug: super-trunfo
 lang: pt-BR
 date: "2012-10-22"
@@ -28,7 +29,7 @@ Analisando esse cenário eu e mais dois amigos pensamos: "E se tornássemos a po
 ## Realidade
 
 <div class="iframe-wrap">
-  <iframe src="http://www.youtube.com/embed/PfO3tAtHYsA" frameborder="0" allowfullscreen="true">
+  <iframe src="https://www.youtube.com/embed/PfO3tAtHYsA" frameborder="0" allowfullscreen="true">
   </iframe>
 </div>
 
@@ -47,7 +48,7 @@ Viramos diversas noites desenvolvendo e enfim chegamos ao resultado!
 Depois foi subir no palco e apresentar o case na conferência.
 
 <div class="iframe-wrap">
-  <iframe src="http://www.slideshare.net/slideshow/embed_code/14815770" frameborder="0" allowfullscreen="true">
+  <iframe src="https://www.slideshare.net/slideshow/embed_code/14815770" frameborder="0" allowfullscreen="true">
   </iframe>
 </div>
 

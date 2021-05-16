@@ -1,5 +1,6 @@
 ---
 title: Relato - V OpenSpace Rio
+description: "Nesse último sábado rolou a 5ª edição do OpenSpaceRio. Pra quem não conhece, o evento é uma espécie de desconferência auto-organizada, ou seja, não existe uma programação pré-definida, no início do evento as pessoas escrevem no quadro sobre o que querem falar ou ouvir, e assim se formam os assuntos que serão discutidos ao longo do dia."
 lang: pt-BR
 date: "2011-05-02"
 ---

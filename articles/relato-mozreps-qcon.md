@@ -1,5 +1,6 @@
 ---
 title: Relato MozReps Speaker's Training + QCon
+description: "Essa semana acabei chegando em São Paulo com mais antecedência do que eu imaginava. Tudo estava certo para que eu participasse da QCon no domingo. Porém, alguns dias antes, estive em Porto Alegre para o FISL (Fórum Internacional do Software Livre) e por lá conheci o Christian Heilmann (@codepo8), Principal Evangelist da Mozilla."
 image: http://media.tumblr.com/tumblr_m8clktuexq1qe3219.jpg
 slug: relato-mozreps-qcon
 lang: pt-BR

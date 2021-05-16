@@ -1,5 +1,6 @@
 ---
 title: Como fizemos o oldRadio?
+description: "Nos dois últimos eventos que nós (Zeno Rocha e Bernard de Luna) estivemos presentes (TDC 2012 em São Paulo e Front in BH em Minas Gerais), fizemos questão de apresentar nosso primeiro experimento juntos, o Old Radio, que figura hoje na galeria Mozilla Demo Studios."
 image: http://media.tumblr.com/tumblr_m6wxcmvAt21qe3219.jpg
 lang: pt-BR
 date: "2012-07-19"

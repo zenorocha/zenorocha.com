@@ -1,5 +1,6 @@
 ---
 title: "14 Best Free Fonts for Programming"
+description: "We spend the entire day using code editors, terminal emulators, and other developer tools. Using a font that feels comfortable to your eyes can make a huge difference and improve your productivity. Here's a compilation of the best free monospace fonts for coding, along with additional comments and download links."
 canonical_url: "https://draculatheme.com/blog/best-free-fonts-for-programming"
 slug: best-free-fonts-for-programming
 date: "2021-02-10"

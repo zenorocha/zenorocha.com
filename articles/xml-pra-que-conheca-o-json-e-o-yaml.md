@@ -1,5 +1,6 @@
 ---
 title: XML pra quê? Conheça o JSON e o YAML
+description: "Por muito tempo o XML dominou a web quando o assunto era serialização de dados. Aos poucos, outras linguagens foram se popularizando e conquistando desenvolvedores por conta das fraquezas desse padrão recomendado pela W3C. Enquanto isso, poderosas redes sociais, como o Twitter, foram adotando linguagens como o JSON ao fornecer dados através de suas APIs. E com isso, tomando grandes proporções no mercado."
 lang: pt-BR
 date: "2011-04-13"
 ---
@@ -20,7 +21,7 @@ Vejamos, então, um exemplo de uma estrutura de dados usando **JSON**.
 ```
 {
   "nome": "zeno rocha - blog",
-  "url": "http://zenorocha.com",
+  "url": "https://zenorocha.com",
   "posts": [
     {
       "titulo": "do it! - as simple as you can",
@@ -39,7 +40,7 @@ A mesma estrutura utilizando **YAML**:
 ```
 blog:
   nome: "zeno rocha - blog"
-  url: "http://zenorocha.com"
+  url: "https://zenorocha.com"
   post:
     titulo: "do it! - as simple as you can"
     data: "13/04/2011"

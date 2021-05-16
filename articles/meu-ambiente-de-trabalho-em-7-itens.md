@@ -1,5 +1,6 @@
 ---
 title: Meu ambiente de trabalho em 7 itens
+description: "O Davidson Fellipe (@davidsonfellipe) ressucitou a série “Meu ambiente de trabalho em 7 itens” que nasceu em 2010 com vários desenvolvedores descrevendo seu modus operandi e me intimou para continuar, então aqui vamos nós!"
 image: http://media.tumblr.com/tumblr_m57izyNpZj1qe3219.jpg
 lang: pt-BR
 date: "2012-06-06"
@@ -35,7 +36,7 @@ O [Sublime Text 2](http://www.sublimetext.com/2) é altamente extensível, cross
 
 O editor que eu mais gostava na época em que eu usava Linux era o [Aptana](http://www.aptana.com/). Também muito bom, só que absurdamente mais lento.
 
-Se você ainda não conhece o [Sublime](http://www.sublimetext.com/2), recomendo fortemente que perca alguns minutinhos vendo o [vídeo que eu gravei usando ele](http://www.youtube.com/watch?v=Ms3Vsz7Jc3A). Garanto que não vai se arrepender.
+Se você ainda não conhece o [Sublime](http://www.sublimetext.com/2), recomendo fortemente que perca alguns minutinhos vendo o [vídeo que eu gravei usando ele](https://www.youtube.com/watch?v=Ms3Vsz7Jc3A). Garanto que não vai se arrepender.
 
 ![](http://media.tumblr.com/tumblr_m573uyPZA71qe3219.png)
 

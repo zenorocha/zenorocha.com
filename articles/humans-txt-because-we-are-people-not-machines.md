@@ -1,5 +1,6 @@
 ---
 title: humans txt - Because we are people, not machines
+description: "Qualquer um que esteja envolvido com SEO, SEM e Web Standards, já deve ter ouvido falar do robots.txt. Entre todas as técnicas utilizadas para um melhor posicionamento nos buscadores, esta é uma das mais utilizadas."
 lang: pt-BR
 date: "2011-04-29"
 ---
@@ -53,6 +54,6 @@ Existem complementos que ao identificarem esse arquivo no servidor, adicionam um
 
 **[Mozilla Firefox](https://addons.mozilla.org/pt-BR/firefox/addon/humanstxt/) - [Google Chrome](https://chrome.google.com/webstore/detail/pocdghmbbodjiclginddlaimdaholhfk)**
 
-Eu já criei o **[meu](http://zenorocha.com/humans.txt)**, e você?
+Eu já criei o **[meu](https://zenorocha.com/humans.txt)**, e você?
 
 http://humanstxt.org - Compartilhe essa idéia.

@@ -1,5 +1,6 @@
 ---
 title: Maintenance Work
+description: "Have you ever noticed how much of maintenance work we do in our lives? Every year we have to do our taxes, go to the doctor, etc. Every month we have cut our hair, pay our bills, etc. Every week we have wash our clothes, clean the house, etc. Every day we have to brush our teeth, do some work, eat something, etc."
 date: "2018-04-25"
 ---
 

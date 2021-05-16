@@ -1,5 +1,6 @@
 ---
 title: "Zone of Front-Enders - Episódio #0"
+description: "E olha mais uma novidade na área! Conheçam o mais novo podcast sobre desenvolvimento front-end que eu e Daniel Filho iremos apresentar, o chamado Zone of Front-Enders com apoio da BrazilJS Foundation."
 image: /img/posts/zofe-0.png
 slug: zofe-0
 skip: true

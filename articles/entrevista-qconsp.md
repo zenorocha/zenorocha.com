@@ -1,5 +1,6 @@
 ---
 title: "Entrevista - A nova experiência do HTML5"
+description: "Durante a conferência QCon em São Paulo eu e Bernard de Luna batemos um papo bem enriquecedor sobre HTML5, SEO, XHTML, Flash, Mobile e muitas outras coisas."
 link: "https://www.infoq.com/br/interviews/html5-front-end/"
 slug: entrevista-qconsp
 canonical_url: https://www.infoq.com/br/interviews/html5-front-end/

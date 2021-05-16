@@ -1,5 +1,6 @@
 ---
 title: CSS !important - O melhor amigo do desenvolvedor hard-coded
+description: "Você está lá todo feliz codificando seu CSS, quando de repente aquele parágrafo que era para estar vermelho, está verde! Você examina sua folha de estilo e lá está declarado direitinho."
 slug: css-important
 lang: pt-BR
 date: "2011-05-15"

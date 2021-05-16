@@ -9,7 +9,7 @@ lang: pt-BR
 date: "2013-06-13"
 ---
 
-Desde o [ano passado](http://zenorocha.com/meu-ambiente-de-trabalho-em-7-itens/)
+Desde o [ano passado](https://zenorocha.com/meu-ambiente-de-trabalho-em-7-itens/)
 estive usando [ZSH](http://en.wikipedia.org/wiki/Z_shell) como shell ao invés
 do [Bash](http://pt.wikipedia.org/wiki/Bash), nativo do Mac OSx. Graças ao
 [oh-my-zsh](https://github.com/robbyrussell/oh-my-zsh) consegui ganhar uma

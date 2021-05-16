@@ -1,5 +1,6 @@
 ---
 title: O que você está esperando?
+description: "Uma característica presente na maioria de nós é a de nunca estarmos satisfeitos com a vida. Pode reparar, desde o mais pobre até o mais rico, sempre existe algo faltando para conquistar ou algo para reclamar."
 image: /images/what-are-you-waiting-for-opt.jpg
 lang: pt-BR
 date: "2015-12-21"

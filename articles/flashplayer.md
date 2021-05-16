@@ -1,5 +1,6 @@
 ---
 title: flashplayer
+description: "Ontem foi um dia pra lá de movimentado. Logo de manhã estava lendo rumores que, durante à tarde se tornaram oficiais, sobre a descontinuação do Adobe Flash Player para dispositivos móveis."
 image: http://media.tumblr.com/tumblr_lufz89zgIj1qe3219.jpg
 lang: pt-BR
 date: "2011-11-10"
@@ -36,7 +37,7 @@ Ah sim, se o Steve Jobs estava certo? Pois é, estava. Só faltava a Adobe recon
 Absolutamente não, o novo Flash Player 11 “Molehill” para PCs [vem com tudo](http://www.adobe.com/products/flashplayer/features._sl_id-contentfilter_sl_featuredisplaytypes_sl_new.html). A principal aposta é o [Stage 3D](http://www.adobe.com/devnet/flashplayer/stage3d.html), permitindo aceleração de hardware pela GPU (coisa que WebGL já faz inclusive).
 
 <div class="iframe-wrap">
-  <iframe src="http://www.youtube.com/embed/c0IwvN4IdH4" frameborder="0" allowfullscreen="true">
+  <iframe src="https://www.youtube.com/embed/c0IwvN4IdH4" frameborder="0" allowfullscreen="true">
   </iframe>
 </div>
 

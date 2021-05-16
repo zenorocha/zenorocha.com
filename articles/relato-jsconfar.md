@@ -1,5 +1,6 @@
 ---
 title: JSConf Argentina - Um relato da minha primeira palestra fora do Brasil
+description: "Pense numa semana corrida! Sabe aquelas em que você precisa entregar um projeto na empresa e outro trabalho na faculdade? Então, foi assim que começou a minha, e que fecharia com o evento no sábado em Buenos Aires. Ainda faltava preparar os slides e me preparar para dar aquela que seria minha primeira palestra inteira em inglês."
 image: http://media.tumblr.com/tumblr_m4j7ztkXu91qe3219.jpg
 slug: relato-jsconfar
 lang: pt-BR
@@ -31,7 +32,7 @@ Infelizmente nunca gostei de medicina, mas se eu pudesse de alguma forma ajudar 
 Você tem 24 horas no seu dia, assim como todo mundo, saiba como usar.
 
 <div class="iframe-wrap">
-  <iframe src="http://www.youtube.com/embed/relato-jsconfar.html" frameborder="0" allowfullscreen="true">
+  <iframe src="https://www.youtube.com/embed/relato-jsconfar.html" frameborder="0" allowfullscreen="true">
   </iframe>
 </div>
 
@@ -45,7 +46,7 @@ Chego no aeroporto, me dou conta que esqueci o passaporte. Perco o voo e o âni
 
 O lugar escolhido para o evento foi o _Centro Metropolitano de Diseño_ em Buenos Aires. Nunca vi uma estrutura tão boa para um evento. Entre um _coffee break_ e outro, duas trilhas abordavam os temas mais atuais que envolviam o mundo JavaScript.
 
-No primeiro dia as palestras que mais se destacaram foram do Mike Taylor ([@miketaylr](https://twitter.com/#!/miketaylr)) da Opera falando sobre o [objeto navigator](https://developer.mozilla.org/en/DOM/window.navigator) ([slides aqui](http://miketaylr.com/pres/jsconfar/shower/)), Luz Caballero ([@gerbille](https://twitter.com/#!/gerbille)) também da Opera falando sobre WebGL ([slides aqui](http://www.slideshare.net/gerbille/webgl-para-javascripters)) e Nicolás Garcia ([@philogb](https://twitter.com/#!/philogb)) do Twitter falando sobre visualização gráfica ([slides aqui](http://www.slideshare.net/philogb/javascript-para-graficos-y-visualizacion-de-datos)) de dados. Engraçado que a Luz e o Nicolás foram as pessoas que mais trocamos ideia no evento sem mesmo saber que iriam palestrar, tudo isso graças ao Mike que nos apresentou eles mais cedo.
+No primeiro dia as palestras que mais se destacaram foram do Mike Taylor ([@miketaylr](https://twitter.com/#!/miketaylr)) da Opera falando sobre o [objeto navigator](https://developer.mozilla.org/en/DOM/window.navigator) ([slides aqui](http://miketaylr.com/pres/jsconfar/shower/)), Luz Caballero ([@gerbille](https://twitter.com/#!/gerbille)) também da Opera falando sobre WebGL ([slides aqui](https://www.slideshare.net/gerbille/webgl-para-javascripters)) e Nicolás Garcia ([@philogb](https://twitter.com/#!/philogb)) do Twitter falando sobre visualização gráfica ([slides aqui](https://www.slideshare.net/philogb/javascript-para-graficos-y-visualizacion-de-datos)) de dados. Engraçado que a Luz e o Nicolás foram as pessoas que mais trocamos ideia no evento sem mesmo saber que iriam palestrar, tudo isso graças ao Mike que nos apresentou eles mais cedo.
 
 Já no segundo dia, o evento começou com a que foi pra mim a melhor palestra do evento, Jacob Thornton ([@fat](https://twitter.com/fat)) do Twitter falou sobre acessibilidade de uma forma muito descontraída e usando como exemplo o projeto no qual é autor, o Twitter Bootstrap ([slides aqui](https://speakerdeck.com/u/fat/p/borges)).
 
@@ -94,7 +95,7 @@ No fim, ainda conseguimos puxar alguns dos palestrantes mais sinistros do evento
 Confere aí porque as dicas são valiosas.
 
 <div class="iframe-wrap">
-  <iframe src="http://www.youtube.com/embed/wxDBF3OOaRA" frameborder="0" allowfullscreen="true">
+  <iframe src="https://www.youtube.com/embed/wxDBF3OOaRA" frameborder="0" allowfullscreen="true">
   </iframe>
 </div>
 

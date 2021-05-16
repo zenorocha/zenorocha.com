@@ -1,5 +1,6 @@
 ---
 title: HTML5 - Async Scripts
+description: "O volume de mudanças que a nova especificação do HTML propõe para tag <script> é pequeno, mas chama atenção por resolver antigos problemas de performance. Nesse artigo vamos entender quais são esses problemas e dar uma passada geral nas mudanças que o HTML5 propõe para essa tag."
 image: http://media.tumblr.com/tumblr_lrovdkNq881qe3219.jpg
 lang: pt-BR
 date: "2011-09-18"

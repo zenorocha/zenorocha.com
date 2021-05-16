@@ -1,5 +1,6 @@
 ---
 title: A vida além do jQuery - Tech Talk
+description: "Quando anunciei minha vinda para Recife, muita gente veio me perguntar se eu vinha pra algum evento ou algo do tipo."
 image: http://media.tumblr.com/tumblr_m8t5ikct1b1qe3219.jpg
 slug: a-vida-alem-do-jquery
 lang: pt-BR
@@ -29,17 +30,17 @@ A primeira parte eu dou um panorama rápido do desenvolvimento front-end, na seg
 _OBS: Para melhor visualização recomendo colocar em HD._
 
 <div class="iframe-wrap">
-  <iframe src="http://www.youtube.com/embed/k212frcMVcU" frameborder="0" allowfullscreen="true">
+  <iframe src="https://www.youtube.com/embed/k212frcMVcU" frameborder="0" allowfullscreen="true">
   </iframe>
 </div>
 
 <div class="iframe-wrap">
-  <iframe src="http://www.youtube.com/embed/CdXQbEE_eaQ" frameborder="0" allowfullscreen="true">
+  <iframe src="https://www.youtube.com/embed/CdXQbEE_eaQ" frameborder="0" allowfullscreen="true">
   </iframe>
 </div>
 
 <div class="iframe-wrap">
-  <iframe src="http://www.youtube.com/embed/S2-hulIt3FU" frameborder="0" allowfullscreen="true">
+  <iframe src="https://www.youtube.com/embed/S2-hulIt3FU" frameborder="0" allowfullscreen="true">
   </iframe>
 </div>
 

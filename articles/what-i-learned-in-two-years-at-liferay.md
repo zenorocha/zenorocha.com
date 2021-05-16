@@ -1,15 +1,16 @@
 ---
 title: "What I learned in 2 years at Liferay"
+description: "Seems like yesterday when I decided to move from this huge company based in Rio to this not-so-well-known company based in LA. That was not an easy decision, but I'm glad I made it. Now, two years after that day, here I am to share some of the things I learned."
 slug: what-i-learned-in-two-years-at-liferay
 date: "2014-07-09"
 ---
 
-Seems like yesterday when I decided to [move from this huge company based in Rio](http://zenorocha.com/tudo-novo-de-novo/) to this not-so-well-known company based in LA. That was not an easy decision,
+Seems like yesterday when I decided to [move from this huge company based in Rio](https://zenorocha.com/tudo-novo-de-novo/) to this not-so-well-known company based in LA. That was not an easy decision,
 but I'm glad I made it.
 
 Now, two years after that day, here I am to share some of the things I learned.
 
-![My first retreat](/images/1st-retreat.jpg)
+![My first retreat](/static/images/1st-retreat.jpg)
 
 <!-- more -->
 
@@ -22,7 +23,7 @@ I had the opportunity to interview some people and it's interesting to find out 
 After all, we think that learning technical skills is much easier than changing how someone feel about doing their work.
 
 <div class="iframe-wrap">
-  <iframe src="http://www.youtube.com/embed/koU5UKUmxJw">
+  <iframe src="https://www.youtube.com/embed/koU5UKUmxJw">
   </iframe>
 </div>
 
@@ -36,7 +37,7 @@ By leading Liferay's EVP (Employee Volunteer Program) committee in Latin America
 
 Being part of initiatives like that is just incredible.
 
-![EVP initiative in Brazil](/images/liferay-evp.jpg)
+![EVP initiative in Brazil](/static/images/liferay-evp.jpg)
 
 ## The mentoring cascade
 
@@ -49,7 +50,7 @@ Brian mentored Nate, Nate mentored Eduardo and a bunch other guys, Eduardo mento
 The cool thing is that I'm just one leaf of that tree, there are many other leaves like that spread all over the world.
 
 <div class="iframe-wrap">
-  <iframe src="http://www.youtube.com/embed/gF2aUL2uNS8">
+  <iframe src="https://www.youtube.com/embed/gF2aUL2uNS8">
   </iframe>
 </div>
 
@@ -69,6 +70,6 @@ Those were, by far, the worst 3 weeks of my life. But I learned so much from it.
 
 Any other company could be angry because I wasn't working for a long time, worried about the hospital bill or simply didn't care at all. But not Liferay. They did much more than I could expect and for that I'll be always grateful.
 
-![Zeno and his sister in the hospital](/images/zeno-hospital.jpg)
+![Zeno and his sister in the hospital](/static/images/zeno-hospital.jpg)
 
 Thanks you guys, it's been two wonderful years :)

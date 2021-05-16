@@ -16,7 +16,7 @@ Last month I had the opportunity to be in the best event I've ever attended. [Pe
 ## [Jake Archibald](https://twitter.com/jaffathecake): Network connectivity
 
 <div class="iframe-wrap">
-  <iframe src="http://www.youtube.com/embed/Z7sRMg0f5Hk">
+  <iframe src="https://www.youtube.com/embed/Z7sRMg0f5Hk">
   </iframe>
 </div>
 
@@ -27,7 +27,7 @@ Although AppCache seems the perfect solution for storing offline resources from 
 ## [Eric Bidelman](https://twitter.com/ebidel): Polymer
 
 <div class="iframe-wrap">
-  <iframe src="http://www.youtube.com/embed/DH1vTVkqCDQ">
+  <iframe src="https://www.youtube.com/embed/DH1vTVkqCDQ">
   </iframe>
 </div>
 
@@ -38,7 +38,7 @@ _[> See the speaker deck.](http://html5-demos.appspot.com/static/cds2013/index.h
 ## [Paul Kinlan](https://twitter.com/Paul_Kinlan): UX patterns for mobile
 
 <div class="iframe-wrap">
-  <iframe src="http://www.youtube.com/embed/j3YbNHtnYo4">
+  <iframe src="https://www.youtube.com/embed/j3YbNHtnYo4">
   </iframe>
 </div>
 
@@ -49,7 +49,7 @@ _[> See the speaker deck.](http://mobile-ux.appspot.com/)_
 ## [Alice Boxhall](https://twitter.com/alice_boxhall): Multi-device accessibility
 
 <div class="iframe-wrap">
-  <iframe src="http://www.youtube.com/embed/E0ojKLzXoZ4">
+  <iframe src="https://www.youtube.com/embed/E0ojKLzXoZ4">
   </iframe>
 </div>
 
@@ -60,19 +60,19 @@ When I first saw the event agenda I was a little skeptical about an entire prese
 ## [Paul Irish](https://twitter.com/paul_irish): DevTools for mobile
 
 <div class="iframe-wrap">
-  <iframe src="http://www.youtube.com/embed/gZH1d2Co1X0">
+  <iframe src="https://www.youtube.com/embed/gZH1d2Co1X0">
   </iframe>
 </div>
 
 _[> See the speaker deck.](https://docs.google.com/presentation/d/1nH54tvjC5mq4b_-
 6rdLON7aV-SLSvJUN1Rh*51jaC8M/present#slide=id.p)*
 
-I've been watching [Paul's](https://twitter.com/paul_irish) presentations on Youtube since 2009 but never had a chance to see it live. So I was really interested to see not only the content but also the way he present things. And I can say that my expectations were fulfilled. Tons of interesting stuff for mobile development like [remote debugging](http://www.html5rocks.com/en/tutorials/developertools/mobile/), [screencasting device screen to desktop](http://www.youtube.com/watch?v=Q7rEFEMpwe4), and [mobile emulation](http://www.youtube.com/watch?v=z7sTRdSpA04).
+I've been watching [Paul's](https://twitter.com/paul_irish) presentations on Youtube since 2009 but never had a chance to see it live. So I was really interested to see not only the content but also the way he present things. And I can say that my expectations were fulfilled. Tons of interesting stuff for mobile development like [remote debugging](http://www.html5rocks.com/en/tutorials/developertools/mobile/), [screencasting device screen to desktop](https://www.youtube.com/watch?v=Q7rEFEMpwe4), and [mobile emulation](https://www.youtube.com/watch?v=z7sTRdSpA04).
 
 ## [Colt McAnlis](https://twitter.com/duhroach): Tooling techniques
 
 <div class="iframe-wrap">
-  <iframe src="http://www.youtube.com/embed/8MMmg3bDOjc">
+  <iframe src="https://www.youtube.com/embed/8MMmg3bDOjc">
   </iframe>
 </div>
 
@@ -83,4 +83,4 @@ The pirate [Colt](https://twitter.com/duhroach), drew attention on how to focus 
 
 ## Conclusion
 
-This first edition was really focused on tooling, mobile, and how Chrome can help developers daily. Everything was carefully organized from the live broadcast to the post-event disclosure. And since this is just a short testimony of what happened, I highly recommend you to [watch every single talk](http://www.youtube.com/playlist?list=PLOU2XLYxmsIJblRBPqrwisutm3dxoa43P).
+This first edition was really focused on tooling, mobile, and how Chrome can help developers daily. Everything was carefully organized from the live broadcast to the post-event disclosure. And since this is just a short testimony of what happened, I highly recommend you to [watch every single talk](https://www.youtube.com/playlist?list=PLOU2XLYxmsIJblRBPqrwisutm3dxoa43P).

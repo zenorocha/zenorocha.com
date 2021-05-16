@@ -1,5 +1,6 @@
 ---
 title: Entendendo CoffeeScript
+description: "Quem é do mundo Ruby on Rails já deve estar cansado de toda a polêmica acerca do CoffeeScript meses atrás. Se você não acompanhou, vou tentar resumir a história."
 image: http://media.tumblr.com/tumblr_loffq1Ym931qe3219.png
 lang: pt-BR
 date: "2011-08-01"

@@ -1,5 +1,6 @@
 ---
 title: Nem tudo que parece igual é realmente igual...
+description: "Por ser uma linguagem fracamente tipada, uma coisa que confunde muita gente que está começando com Javascript são os operadores de comparação."
 image: http://media.tumblr.com/tumblr_lq9if2Mh5J1qe3219.jpg
 lang: pt-BR
 date: "2011-08-24"

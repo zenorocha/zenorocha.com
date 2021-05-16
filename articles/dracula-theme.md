@@ -1,5 +1,6 @@
 ---
 title: "Dracula Theme"
+description: "I always wanted to create my own Sublime Text theme... now I finally have it! And I would love to receive your feedback about it."
 skip: true
 date: "2013-11-17"
 ---

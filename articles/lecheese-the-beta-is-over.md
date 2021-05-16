@@ -1,5 +1,6 @@
 ---
 title: LeCheese - The Beta Is Over
+description: "In January I mentioned that I was working on a little side project. After several weeks in beta, this project is available for you to use!"
 image: /img/posts/lecheese-bg.jpg
 date: "2019-03-12"
 ---

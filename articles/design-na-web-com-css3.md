@@ -1,5 +1,6 @@
 ---
 title: Design na web com CSS3
+description: "Se tem uma coisa que eu aprendi trabalhando ao lado de designers é que, quando o assunto é web, quanto mais eles entendem sobre linguagens de marcação/programação, mais se sentem a vontade para produzir excelentes peças e, portanto, melhores são seus produtos finais."
 image: http://media.tumblr.com/tumblr_ltqhb1R0tn1qe3219.jpg
 canonical_url: http://www.revistacliche.com.br/2011/10/design-na-web-com-css3/
 lang: pt-BR

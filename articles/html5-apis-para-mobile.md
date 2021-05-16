@@ -10,6 +10,6 @@ date: "2013-09-24"
 <p>Os slides estão disponíveis no <a href="https://speakerdeck.com/zenorocha/html5-apis-para-mobile">SpeakerDeck</a>.</p>
 
 <div class="iframe-wrap">
-  <iframe src="http://www.youtube.com/embed/ncYj9Z8LwNM">
+  <iframe src="https://www.youtube.com/embed/ncYj9Z8LwNM">
   </iframe>
 </div>

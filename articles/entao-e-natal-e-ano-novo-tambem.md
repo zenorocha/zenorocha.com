@@ -1,5 +1,6 @@
 ---
 title: Então é natal e ano novo também...
+description: "Sabe aquela sensação de que o ano tá acabando? Lembro bem quando comecei a escrever isso daqui. Estavam colocando aquelas luzinhas natalinas no meu prédio. Só naquela hora caiu minha ficha de que o ano já estava acabando e aí você começa a refletir sobre tudo o que passou, não é?"
 image: http://media.tumblr.com/tumblr_lwu6rgQUnt1qe3219.jpg
 lang: pt-BR
 date: "2011-12-27"

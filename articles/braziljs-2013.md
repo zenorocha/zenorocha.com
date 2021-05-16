@@ -12,12 +12,12 @@ Aqui estou no aeroporto de Porto Alegre, depois de mais uma edição fantástica
 <!-- more -->
 
 <div class="iframe-wrap">
-  <iframe src="http://www.youtube.com/embed/QDv6yM6pN6U">
+  <iframe src="https://www.youtube.com/embed/QDv6yM6pN6U">
   </iframe>
 </div>
 
 <div class="iframe-wrap">
-  <iframe src="http://www.youtube.com/embed/93Awzbla0yc">
+  <iframe src="https://www.youtube.com/embed/93Awzbla0yc">
   </iframe>
 </div>
 
@@ -32,7 +32,7 @@ Esse ano eu falei sobre Web Components, um assunto que tem me interessado muito 
 Como de costume, alguns lançamentos bem legais foram feitos durante a conferência. O primeiro deles durante a palestra do [Renato Mangini](https://twitter.com/renatomangini) da Google com relação ao [Yeoman v1.0](http://yeoman.io/) - _"Release the Kraken"_.
 
 <div class="iframe-wrap">
-  <iframe src="http://www.youtube.com/embed/MTYZzs8ud3E">
+  <iframe src="https://www.youtube.com/embed/MTYZzs8ud3E">
   </iframe>
 </div>
 

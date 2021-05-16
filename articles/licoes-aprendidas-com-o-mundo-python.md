@@ -1,5 +1,6 @@
 ---
 title: Lições aprendidas com o mundo Python
+description: "Eu adoro participar de eventos de tecnologia (você já deve ter percebido isso inclusive), uma das coisas que eu mais gosto é o contato com programadores de outras linguagens e que vivenciam filosofias completamente diferentes das suas."
 image: /images/python.jpg
 lang: pt-BR
 date: "2011-05-29"

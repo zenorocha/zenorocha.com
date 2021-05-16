@@ -1,5 +1,6 @@
 ---
 title: Era uma vez uma referência chamada Dive into HTML5...
+description: "Acabo de ler um artigo informando que Mark Pilgrim, autor do livro HTML5: Up and Running e do famoso site Dive into HTML5, abandonou a internet e levou consigo todo seu material já produzido. Uma pena muito grande já que era uma referência tão rica sobre o assunto."
 image: http://media.tumblr.com/tumblr_lt9g9h4Dcm1qe3219.jpg
 lang: pt-BR
 date: "2011-10-18"

@@ -1,5 +1,6 @@
 ---
 title: Relato - III FSLDC
+description: "Nesse último sábado, dia 04 de junho, rolou um evento de destaque no cenário do software livre do estado do Rio de Janeiro. Foi o III Fórum de Software Livre de Duque de Caxias que reuniu mais de 300 pessoas, dentre elas algumas personalidades como Rasmus Ledorf, criador do PHP e Jon “Maddog” Hall, Diretor Executivo da Linux Internacional."
 image: http://media.tumblr.com/tumblr_lmi7zscD5Z1qe3219.png
 lang: pt-BR
 date: "2011-06-10"
@@ -33,7 +34,7 @@ Cheguei no centro da cidade às 7h para me juntar aos outros palestrantes em uma
 
 Até que finalmente às 11h da manhã, chegava a hora da minha apresentação.
 
-No mesmo horário tinham palestras excelentes no outros auditórios, como a do [Rodrigo Padula](http://www.rodrigopadula.com/), membro da [GNOME Foundation](http://foundation.gnome.org/) e da [Comunidade Mozilla Brasil](http://mozillabrasil.org.br), que falava sobre a Mozilla, Firefox e a OpenWeb. E a do [Domingos Teruel](http://br.linkedin.com/in/dteruel) vindo direto de São Paulo, que falava sobre [Wordpress](http://www.slideshare.net/mingomax/taxonomias-e-tipos-de-contedos-com-wordpress-3). Mesmo assim a palestra teve um público ótimo e a sala ficou cheia.
+No mesmo horário tinham palestras excelentes no outros auditórios, como a do [Rodrigo Padula](http://www.rodrigopadula.com/), membro da [GNOME Foundation](http://foundation.gnome.org/) e da [Comunidade Mozilla Brasil](http://mozillabrasil.org.br), que falava sobre a Mozilla, Firefox e a OpenWeb. E a do [Domingos Teruel](http://br.linkedin.com/in/dteruel) vindo direto de São Paulo, que falava sobre [Wordpress](https://www.slideshare.net/mingomax/taxonomias-e-tipos-de-contedos-com-wordpress-3). Mesmo assim a palestra teve um público ótimo e a sala ficou cheia.
 
 Pessoalmente acho que foi bem legal, o feedback depois da apresentação também foi positivo e acho que consegui passar minha ideia pro pessoal.
 

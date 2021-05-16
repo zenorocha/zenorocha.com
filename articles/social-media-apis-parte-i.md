@@ -1,5 +1,6 @@
 ---
 title: Social Media APIs - Parte I
+description: "A fim de promover uma melhor experiência do usuário com a aplicação, muitos sites tem integrado funcionalidades de plataformas externas à sua aplicação através das famosas APIs."
 lang: pt-BR
 date: "2011-04-19"
 ---
@@ -60,7 +61,7 @@ Exemplo: http://vimeo.com/api/v2/zenorocha/info.json
   "id":"6796565",
   "display_name":"Zeno Rocha",
   "location":"Rio de Janeiro",
-  "url":"http://zenorocha.com",
+  "url":"https://zenorocha.com",
   "profile_url":"http://vimeo.com/zenorocha",
   "total_videos_liked":3
 }

@@ -1,11 +1,12 @@
 ---
 title: "Bye Zen Coding, Bem-vindo Emmet!"
+description: "Durante anos os ninjas do front-end utilizaram o Zen Coding para produzir seus sites e aplicativos de uma maneira muito mais rápida que os pobres seres humanos normais."
 lang: pt-BR
 date: "2012-11-19"
 ---
 
 <div class="iframe-wrap">
-  <iframe src="http://www.youtube.com/embed/_ljpbbqYyWo" frameborder="0" allowfullscreen="true">
+  <iframe src="https://www.youtube.com/embed/_ljpbbqYyWo" frameborder="0" allowfullscreen="true">
   </iframe>
 </div>
 

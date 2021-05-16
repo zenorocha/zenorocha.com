@@ -1,5 +1,6 @@
 ---
 title: BlackBerry Jam Session
+description: "Aqui estou eu, novamente contando sobre as experiências que tenho vivido por aí. Dessa vez vou voltar algumas semanas atrás no tempo para falar do primeiro Hackathon de verdade que eu participei. Digo 'primeiro de verdade' porque nos outros eu não competi, fiquei só conversando com o pessoal."
 image: /img/posts/bb-jamsession.jpg
 skip: true
 lang: pt-BR
@@ -47,7 +48,7 @@ Estamos com planos para aprimorar a jogabilidade e adicionar novas funcionalidad
 ## Eu já fui, agora é com você!
 
 <div class="iframe-wrap">
-  <iframe src="http://www.youtube.com/embed/s41ypMtOz5I" frameborder="0" allowfullscreen="true">
+  <iframe src="https://www.youtube.com/embed/s41ypMtOz5I" frameborder="0" allowfullscreen="true">
   </iframe>
 </div>
 

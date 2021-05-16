@@ -1,5 +1,6 @@
 ---
 title: Introducing WeDeploy
+description: "Two years ago Eduardo and I decided to start something new. At that time, we had built some popular libraries together and we thought we could try something more ambitious. We didn’t know exactly what would that be, but we had a vision. We wanted to create something that would make developers more productive."
 date: "2017-08-09"
 ---
 

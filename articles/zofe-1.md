@@ -1,5 +1,6 @@
 ---
 title: "Zone of Front-Enders - Episódio #1"
+description: "No primeiro episódio oficial do Zone Of Front-Enders contamos com um convidado quase brasileiro: Mike Taylor. Ele morou no Brasil por alguns anos, hoje trabalha como “Web Opener” na Opera Software e fala português melhor que a gente."
 link: "https://zofe.com.br/agora-e-pra-valer"
 image: /img/posts/zofe-1.jpg
 slug: zofe-1

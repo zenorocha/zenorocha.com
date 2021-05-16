@@ -1,5 +1,6 @@
 ---
 title: "The Real Secret to Productivity"
+description: "A valuable advice by DHH at RailsConf '09."
 skip: true
 date: "2015-03-04"
 ---

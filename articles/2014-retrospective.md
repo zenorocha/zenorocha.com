@@ -7,7 +7,7 @@ date: "2015-01-04"
 
 I love this part of the year, after all a new year is a new beginning, right?
 
-It's now a tradition: every year I try to list the things I've done ([2011](http://zenorocha.com/entao-e-natal-e-ano-novo-tambem/), [2012](http://zenorocha.com/my-way/), [2013](http://zenorocha.com/o-que-eu-espero-para-2014/)), this is a reminder to identify what decisions worked well and what was a disaster. For me, it's also the time to ask myself: "Where do I wanna get in my career?" and after some thought into that comes the second question: "What am I doing right now to achieve that?"
+It's now a tradition: every year I try to list the things I've done ([2011](https://zenorocha.com/entao-e-natal-e-ano-novo-tambem/), [2012](https://zenorocha.com/my-way/), [2013](https://zenorocha.com/o-que-eu-espero-para-2014/)), this is a reminder to identify what decisions worked well and what was a disaster. For me, it's also the time to ask myself: "Where do I wanna get in my career?" and after some thought into that comes the second question: "What am I doing right now to achieve that?"
 
 <!-- more -->
 
@@ -23,14 +23,14 @@ It's now a tradition: every year I try to list the things I've done ([2011](http
 
 A very important part of my job (and probably the one I most love to do) is to travel and talk to developers. I'm not gonna lie to you, standing in front of hundreds of people is still pretty scary but the feeling you get after a talk is so rewarding that you just can't stop doing it.
 
-I've been trying more to measure the impact of everything I do. One important addition to the _always-up-to-date_ list of presentations found at [zenorocha.com/talks](http://zenorocha.com/talks) is the approximate number of attendees for each event. I'm also gathering social media feedbacks using [Storify](http://storify.com/zenorocha/), that way all your lovely post-talk tweets will be saved for my future kids to see.
+I've been trying more to measure the impact of everything I do. One important addition to the _always-up-to-date_ list of presentations found at [zenorocha.com/talks](https://zenorocha.com/talks) is the approximate number of attendees for each event. I'm also gathering social media feedbacks using [Storify](http://storify.com/zenorocha/), that way all your lovely post-talk tweets will be saved for my future kids to see.
 
 ### Highlights
 
 Since 2014 was the Web Component year for me, I can only choose a talk about that same topic. Presented in San Francisco on April, _'Web Components: a chance to create the future'_ was the shortest but most impactul talk I gave this year both in quantitative and qualitative terms. A 14-minute video with almost 10 thousand views on YouTube so far.
 
 <div class="iframe-wrap">
-  <iframe src="http://www.youtube.com/embed/JUzjr1bIRUg">
+  <iframe src="https://www.youtube.com/embed/JUzjr1bIRUg">
   </iframe>
 </div>
 

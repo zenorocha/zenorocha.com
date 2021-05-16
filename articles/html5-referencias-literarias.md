@@ -1,5 +1,6 @@
 ---
 title: HTML5 - Referências Literárias
+description: "Essa semana chegaram alguns livros que eu comprei dos EUA sobre HTML5, então pensei: “Por quê não listar algumas referências literárias pra quem também deseja se aprofundar no assunto?”"
 image: http://media.tumblr.com/tumblr_lmcim2rYdE1qe3219.jpg
 lang: pt-BR
 date: "2011-06-05"

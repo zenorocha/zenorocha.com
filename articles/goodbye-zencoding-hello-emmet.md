@@ -14,7 +14,7 @@ Back in 2009, [Sergey Chikuyonok wrote an article](http://coding.smashingmagazin
 For those who prefer to watch instead of read, here is a summary of my favorite tricks.
 
 <div class="iframe-wrap">
-  <iframe src="http://www.youtube.com/embed/sxW-V24MTXI">
+  <iframe src="https://www.youtube.com/embed/sxW-V24MTXI">
   </iframe>
 </div>
 

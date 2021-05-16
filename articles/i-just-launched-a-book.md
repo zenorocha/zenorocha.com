@@ -1,5 +1,6 @@
 ---
 title: I just launched a book!
+description: "I never thought I'd say this, but - yes - I just published a book! 14 Habits of Highly Productive Developers is now available for everyone."
 date: "2020-07-14"
 ---
 

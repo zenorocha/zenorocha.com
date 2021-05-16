@@ -18,7 +18,7 @@ The computer is extremely fast and the operation system is different from all I 
 This model is a [Samsung Chromebook 550](http://www.google.com/intl/en/chrome/devices/chromebook-samsung-550.html#ss-550), it doesn't have the most incredible hardware in the world, just enough to run well and don't cost too much. You can find it at [Amazon](http://www.amazon.com/gp/browse.html?node=2858603011&tag=Registered) for around $250 to $550. Nowadays there are new models like [Chromebook Pixel](http://www.google.com/intl/en/chrome/devices/chromebooks.html#pixel), the newest one.
 
 <div class="iframe-wrap">
-  <iframe src="http://www.youtube.com/embed/j-XTpdDDXiU" frameborder="0">
+  <iframe src="https://www.youtube.com/embed/j-XTpdDDXiU" frameborder="0">
   </iframe>
 </div>
 

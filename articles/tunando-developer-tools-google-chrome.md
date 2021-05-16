@@ -1,5 +1,6 @@
 ---
 title: "Tunando o Developer Tools do Google Chrome"
+description: "Uma coisa muito comum entre os programadores é a vontade de customizar as coisas. Trocar o syntax highlight do seu editor de código preferido é uma coisa muito comum e legal de se fazer, já que você passa o dia inteiro olhando para aquilo, é bom ver algo que goste."
 image: /img/posts/monokai.jpg
 slug: tunando-developer-tools-google-chrome
 canonical_url: https://tableless.com.br/tunando-developer-tools-google-chrome/

@@ -1,5 +1,6 @@
 ---
 title: Relato 13º FISL
+description: "Algumas semanas atrás estive no FISL (Fórum Internacional do Software Livre) em Porto Alegre que contou com cerca de 7 mil participantes. Foi um evento longo e cansativo, mas valeu muito a pena ter ido."
 image: http://media.tumblr.com/tumblr_m7ztd9Z0291qe3219.jpg
 slug: relato-13-fisl
 lang: pt-BR
@@ -27,7 +28,7 @@ Esse dia foi basicamente dedicado para os preparativos da palestra do CEO e da m
 E conferir o vídeo aqui:
 
 <div class="iframe-wrap">
-  <iframe src="http://www.youtube.com/embed/ukjHPwg74ik" frameborder="0" allowfullscreen="true">
+  <iframe src="https://www.youtube.com/embed/ukjHPwg74ik" frameborder="0" allowfullscreen="true">
   </iframe>
 </div>
 
@@ -48,7 +49,7 @@ Na quinta-feira (dia 27/07/12) passei o dia inteiro no Hackathon na MozillaHQ. O
 Infelizmente não consegui terminar e submeter a tempo, até porque aproveitei o dia para trocar muitas ideias com esses caras e gravar um vídeo com o Christian Heilmann (@codepo8), Principal Evangelist da Mozilla, mostrando um celular rodando o Boot2Gecko.
 
 <div class="iframe-wrap">
-  <iframe src="http://www.youtube.com/embed/Lu77uPgrgx0" frameborder="0" allowfullscreen="true">
+  <iframe src="https://www.youtube.com/embed/Lu77uPgrgx0" frameborder="0" allowfullscreen="true">
   </iframe>
 </div>
 

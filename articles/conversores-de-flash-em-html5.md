@@ -1,5 +1,6 @@
 ---
 title: Conversores de Flash em HTML5 e a disputa entre Google e Adobe
+description: "Um dos recentes lançamentos da Google reavivou a briguinha Flash vs HTML5. Seu nome é Swiffy e é mais um que entra pra galeria dos conversores de Flash para HTML5, abrindo inúmeras possibilidades para dispositivos móveis."
 image: http://media.tumblr.com/tumblr_lnvzxjaOFe1qe3219.jpg
 slug: conversores-de-flash-em-html5
 lang: pt-BR
@@ -23,7 +24,7 @@ A Google disponibilizou algumas demonstrações de arquivos convertidos pela fer
 **Animação original em Flash**
 
 <div class="iframe-wrap">
-  <iframe src="http://www.youtube.com/embed/http://swiffy.googlelabs.com/gallery/example4.swf" frameborder="0" allowfullscreen="true">
+  <iframe src="https://www.youtube.com/embed/http://swiffy.googlelabs.com/gallery/example4.swf" frameborder="0" allowfullscreen="true">
   </iframe>
 </div>
 

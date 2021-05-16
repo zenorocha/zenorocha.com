@@ -1,5 +1,6 @@
 ---
 title: Tudo novo, de novo
+description: "Ontem foi meu primeiro dia trabalhando para uma nova empresa, a Liferay, Inc. Nessa transição muita gente veio me perguntar sobre os motivos de eu ter deixado a Globo, o que faz essa empresa ou o que eu vou fazer lá dentro."
 image: http://media.tumblr.com/tumblr_m6wvq4EQWG1qe3219.jpg
 lang: pt-BR
 date: "2012-07-10"
@@ -94,7 +95,7 @@ Confira o projeto no Github: [github.com/liferay/alloy-ui](https://github.com/l
 Por agora, mais detalhes, você pode conferir uma palestra que eles deram no YUI Conf 2010.
 
 <div class="iframe-wrap">
-  <iframe src="http://www.youtube.com/embed/5LsCqiEia2Q" frameborder="0" allowfullscreen="true">
+  <iframe src="https://www.youtube.com/embed/5LsCqiEia2Q" frameborder="0" allowfullscreen="true">
   </iframe>
 </div>
 

@@ -1,5 +1,6 @@
 ---
 title: Medindo o tempo de carregamento com o novo Google Analytics
+description: "Se você é desenvolvedor web e ainda não utiliza alguma ferramenta para análise de estatísticas não sabe o que está perdendo. Mas se você usa, provavelmente optou pelo Google Analytics, com certeza uma das melhores ferramentas no mercado."
 lang: pt-BR
 date: "2011-05-11"
 ---

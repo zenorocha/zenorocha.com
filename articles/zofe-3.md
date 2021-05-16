@@ -1,5 +1,6 @@
 ---
 title: "Zone of Front-Enders - Episódio #3"
+description: "Terceiro episódio com nova plataforma no site e... FEED! Neste episódio temos um formato diferente: um bate-papo entre eu e Daniel Filho, com um tema escolhido pelo público: Carreira em Front-End."
 link: "http://zofe.com.br/posts/zofe-3-carreira-em-front-end/"
 image: /img/posts/zofe-3.jpg
 slug: zofe-3

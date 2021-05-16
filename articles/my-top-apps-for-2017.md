@@ -1,5 +1,6 @@
 ---
 title: My Top Apps for 2017
+description: "Last week my phone stopped working out of nowhere, I had to do a factory reset and install all apps again. This week I had my laptop replaced so once again I had to install everything from scratch. I could easily use one of my backups to restore everything, but I kinda like a fresh start. This was a good opportunity to evaluate which apps I was not using and which ones I can't live without."
 image: /img/posts/my-top-apps-for-2017/cover.jpeg
 date: "2016-11-27"
 ---

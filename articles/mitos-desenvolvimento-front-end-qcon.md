@@ -1,5 +1,6 @@
 ---
 title: "Palestra - Mitos do desenvolvimento front-end"
+description: "Saiu o vídeo, sincronizado com os slides, da minha palestra na QCon."
 link: "http://www.infoq.com/br/presentations/mitos-desenvolvimento-frontend"
 image: /img/posts/mitos.jpg
 slug: mitos-desenvolvimento-front-end-qcon

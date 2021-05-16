@@ -1,5 +1,6 @@
 ---
 title: HTML5 - Canvas + Three.js
+description: "Ahh o tão badalado canvas. Sempre um dos tópicos mais abordados quando o assunto é HTML5. Você já deve ter ouvido muito falar dele e, assim como eu, ter se impressionado com os diversos experimentos que surgem todos os dias pela internet."
 image: http://media.tumblr.com/tumblr_lrou6aDK1U1qe3219.jpg
 slug: html5-canvas-three-js
 lang: pt-BR

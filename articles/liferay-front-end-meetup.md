@@ -1,5 +1,6 @@
 ---
 title: Liferay Front End Meetup
+description: "At Liferay we have more than 600 employees spread in 18 different offices all over the world. Some of these people work with similar stuff but they may not interact with each other since they are working in different projects."
 image: /images/liferay-front-end-meetup-opt.jpg
 date: "2015-06-17"
 ---

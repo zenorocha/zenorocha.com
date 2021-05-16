@@ -1,5 +1,6 @@
 ---
 title: O mês que eu palestrei no maior evento de JavaScript do universo - BrazilJS
+description: "Imagine o maior auditório da região sul do país. Agora imagine 1 mil pessoas juntas nesse lugar. E que tal imaginar 70 mil pessoas acompanhando ao vivo por todo canto do mundo. Isso não foi imaginação, isso foi o BrazilJS 2012 e foi assim que terminou minha jornada do mês de agosto."
 image: http://media.tumblr.com/tumblr_m9tpsvXqjc1qe3219.jpg
 slug: braziljs-2012
 lang: pt-BR
@@ -41,7 +42,7 @@ Chegava então a hora de embarcar para o [BrazilJS](http://braziljs.com.br/) _(3
 Quanto mais perto chegava o evento, mais preocupado eu ficava. Primeiro porque precisava preparar meus slides e segundo porque a conferência estava tendo uma super exposição na mídia. Lembro de ter visto dezenas de matérias em sites de notícias e por fim rolou até uma entrevista na TV!
 
 <div class="iframe-wrap">
-  <iframe src="http://www.youtube.com/embed/TuwH-oo_UpQ" frameborder="0" allowfullscreen="true">
+  <iframe src="https://www.youtube.com/embed/TuwH-oo_UpQ" frameborder="0" allowfullscreen="true">
   </iframe>
 </div>
 
@@ -74,7 +75,7 @@ Vi que as pessoas estavam sentindo falta de um pouco de _live coding_, portanto 
 No fim, partindo da máxima de que _[“Small Acts Make Great Revolutions”](http://smallactsmanifesto.org/)_, resolvi chamar ao palco ninguém menos que o mestre dos mestres, [Maujor](http://twitter.com/maujor)! E finalmente utilizar o sofá do palco que ninguém no evento tinha usado.
 
 <div class="iframe-wrap">
-  <iframe src="http://www.youtube.com/embed/p1P2hYS2yss" frameborder="0" allowfullscreen="true">
+  <iframe src="https://www.youtube.com/embed/p1P2hYS2yss" frameborder="0" allowfullscreen="true">
   </iframe>
 </div>
 
@@ -87,7 +88,7 @@ O segundo dia, foi recheado por tantas outras surpresas.
 O famoso criador do [Twitter Bootstrap](http://twitter.github.com/bootstrap/), [Jacob Thornton](http://byfat.xxx/), mais conhecido como [Fat](http://twitter.com/fat), teve problemas com o visto e não conseguiu vir para o Brasil.
 
 <div class="iframe-wrap">
-  <iframe src="http://www.youtube.com/embed/yddeRmpoxio" frameborder="0" allowfullscreen="true">
+  <iframe src="https://www.youtube.com/embed/yddeRmpoxio" frameborder="0" allowfullscreen="true">
   </iframe>
 </div>
 
@@ -96,7 +97,7 @@ No seu lugar entrou ninguém melhor que [Bernard de Luna](https://twitter.com/be
 E não foi só o [Fat](http://twitter.com/fat) que ficou triste por não vir ao BrazilJS, o popstar [Paul Irish](https://twitter.com/paul_irish), da Google, também enviou um vídeo para os participantes.
 
 <div class="iframe-wrap">
-  <iframe src="http://www.youtube.com/embed/HiY-XCxUqeU" frameborder="0" allowfullscreen="true">
+  <iframe src="https://www.youtube.com/embed/HiY-XCxUqeU" frameborder="0" allowfullscreen="true">
   </iframe>
 </div>
 
@@ -117,7 +118,7 @@ Ontem voltei pra casa, depois dessa maratona de viagens e me sinto absolutamente
 Se você não pode ir ao evento e também não conseguiu acompanhar a transmissão online, fique tranquilo que os slides e vídeos das palestras serão disponibilizados em breve.
 
 <div class="iframe-wrap">
-  <iframe src="http://www.youtube.com/embed/x62irITtlZE" frameborder="0" allowfullscreen="true">
+  <iframe src="https://www.youtube.com/embed/x62irITtlZE" frameborder="0" allowfullscreen="true">
   </iframe>
 </div>
 

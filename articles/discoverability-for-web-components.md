@@ -1,5 +1,6 @@
 ---
 title: "Discoverability for Web Components"
+description: "Web Components are coming and there are many challenges coming along. How we connect component authors with component consumers is one of them."
 image: /img/posts/discoverability-for-web-components.png
 date: "2015-05-26"
 ---

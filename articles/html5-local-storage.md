@@ -1,5 +1,6 @@
 ---
 title: HTML5 - Local Storage
+description: "Imagine um cookie com muito mais espaço de armazenamento, onde os dados não são transitados a cada requisição de página e que, ainda por cima, não tenha data para expirar. Pronto, você imaginou a API Web Storage do HTML5."
 image: /images/html5.jpg
 lang: pt-BR
 date: "2011-04-25"

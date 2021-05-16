@@ -1,5 +1,6 @@
 ---
-title: Sorteio de credenciais para o PHP'n Rio \o/
+title: Sorteio de credenciais para o PHP'n Rio
+description: "Daqui há 2 semanas vai rolar o PHP’n Rio 2011 que promete mexer com a comunidade de desenvolvimento carioca e você não vai perder essa né?!"
 image: http://media.tumblr.com/tumblr_ltmk0l4kOs1qe3219.jpg
 slug: sorteio-de-credenciais-para-o-phpnrio
 lang: pt-BR

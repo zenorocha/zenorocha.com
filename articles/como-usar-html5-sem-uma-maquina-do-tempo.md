@@ -1,5 +1,6 @@
 ---
 title: Como usar HTML5 sem uma máquina do tempo
+description: "Nesse último sábado tive o privilégio de palestrar em dois eventos irados! De manhã no Encontro de Tecnologia Simonsen e a tarde no PHP’n Rio 2011. Pra quem participou de algum desses dois eventos, fica aqui meu agradecimento pela presença."
 image: http://media.tumblr.com/tumblr_lu8nyhrwAl1qe3219.png
 lang: pt-BR
 date: "2011-11-07"
@@ -20,7 +21,7 @@ Queria muito fazer um relato sobre como foram esses eventos, mas infelizmente s�
 E além desses, também dei essa palestra em outros eventos, primeiro no [Sampa.js](http://sampajs.com/) e depois no Convescote Caos. O pessoal da [Gonow](http://www.gonow.com.br/blog/2011/11/25/html5-web-semantica-que-chegou-para-ficar/), empresa que cedeu o espaço para o [Sampa.js](http://sampajs.com/), gravou o vídeo da palestras, então se você ainda não viu é só assistir aí embaixo.
 
 <div class="iframe-wrap">
-  <iframe src="http://www.youtube.com/embed/7u4Rcc955fU" frameborder="0" allowfullscreen="true">
+  <iframe src="https://www.youtube.com/embed/7u4Rcc955fU" frameborder="0" allowfullscreen="true">
   </iframe>
 </div>
 

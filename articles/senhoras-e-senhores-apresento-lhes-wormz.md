@@ -1,5 +1,6 @@
 ---
 title: Senhoras e senhores, apresento-lhes Wormz
+description: "Ontem foi o lançamento oficial do projeto Wormz, um experimento em canvas que eu e Zanoni Miranda estivemos trabalhando nos últimos dias. É com muita felicidade que entramos para lista dos primeiros brasileiros a figurar no Chrome Experiments, a galeria da Google com os melhores experimentos feitos em HTML5 de todo o mundo."
 image: http://media.tumblr.com/tumblr_lr5yzobIBN1qe3219.jpg
 lang: pt-BR
 date: "2011-09-30"
@@ -18,7 +19,7 @@ Muitas foram as lições aprendidas durante esse processo e pretendo apresentar 
 Abaixo, você pode ver uma pequena demonstração em vídeo do que é possível fazer com ele.
 
 <div class="iframe-wrap">
-  <iframe src="http://www.youtube.com/embed/acc10Cb5V0o" frameborder="0" allowfullscreen="true">
+  <iframe src="https://www.youtube.com/embed/acc10Cb5V0o" frameborder="0" allowfullscreen="true">
   </iframe>
 </div>
 

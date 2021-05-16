@@ -1,5 +1,6 @@
 ---
 title: Goodbye DevSpace
+description: "In January 2016, I wrote a blog post to announce my new side project, a TweetDeck for GitHub, called DevSpace."
 date: "2018-12-15"
 ---
 

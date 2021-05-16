@@ -1,5 +1,6 @@
 ---
 title: JavaScript Event Handlers
+description: "Have you ever wondered what's the difference between this? They do the same thing, right? First listen for a click event, then execute a callback function. In fact, they're slightly different."
 date: "2015-03-18"
 ---
 

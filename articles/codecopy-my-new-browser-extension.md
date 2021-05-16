@@ -1,5 +1,6 @@
 ---
 title: CodeCopy, my new browser extension
+description: "When I created clipboard.js I just wanted an easy way to add copy to clipboard buttons on my sites. I decided to make it open source and suddenly, thousands of people adopted worldwide. Although I'm super happy with the result of that project, there are still big sites that I don't have control over which I would love to have that same functionality."
 date: "2017-04-29"
 ---
 
@@ -16,7 +17,7 @@ With that in mind, I decided to create a browser extension that adds a copy to c
 - [Chrome extension](https://chrome.google.com/webstore/detail/codecopy/fkbfebkcoelajmhanocgppanfoojcdmg)
 - [Firefox extension](https://addons.mozilla.org/en-US/firefox/addon/codecopy/)
 
-![](/images/codecopy.png)
+![](/static/images/codecopy.png)
 
 ## Supported sites
 
@@ -28,7 +29,7 @@ And if you want to add a new site, feel free to recommend it at github.com/zenor
 
 In case you're curious, here's how it looks.
 
-![](/images/codecopy-preview.png)
+![](/static/images/codecopy-preview.png)
 
 ## And that's all
 

@@ -1,12 +1,13 @@
 ---
 title: "Recado para o FrontInterior"
+description: "Como não pude ir ao FrontInterior, que rolou hoje lá em Bauru, resolvi fazer uma surpresa para os participantes do evento =D"
 slug: recado-para-frontinterior
 lang: pt-BR
 date: "2012-11-24"
 ---
 
 <div class="iframe-wrap">
-  <iframe src="http://www.youtube.com/embed/7qwpNEreMo4" frameborder="0" allowfullscreen="true">
+  <iframe src="https://www.youtube.com/embed/7qwpNEreMo4" frameborder="0" allowfullscreen="true">
   </iframe>
 </div>
 

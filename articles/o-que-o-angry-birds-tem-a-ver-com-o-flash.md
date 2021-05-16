@@ -1,5 +1,6 @@
 ---
 title: O que o Angry Birds tem a ver com o Flash?
+description: "O mais novo case queridinho pela comunidade HTML5 é o Angry Birds, um dos jogos mais famosos na plataforma mobile, agora disponível no seu desktop."
 image: http://media.tumblr.com/tumblr_llhase5ShL1qe3219.jpg
 lang: pt-BR
 date: "2011-05-20"

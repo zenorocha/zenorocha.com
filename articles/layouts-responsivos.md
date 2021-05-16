@@ -16,14 +16,14 @@ Essa semana eu voltei, só que dessa vez para palestrar.
 O assunto foi RWD e novamente para apresentar tive ao meu lado [Bernard De Luna](http://bernarddeluna.com). A palestra foi gravada e você pode conferir agora!
 
 <div class="iframe-wrap">
-  <iframe src="http://www.youtube.com/embed/ty7zj37gaBI">
+  <iframe src="https://www.youtube.com/embed/ty7zj37gaBI">
   </iframe>
 </div>
 
 Caso queira consultar os slides, aqui estão eles.
 
 <div class="iframe-wrap">
-  <iframe src="http://www.slideshare.net/slideshow/embed_code/16259493">
+  <iframe src="https://www.slideshare.net/slideshow/embed_code/16259493">
   </iframe>
 </div>
 

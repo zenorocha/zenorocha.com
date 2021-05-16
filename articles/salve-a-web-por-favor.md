@@ -1,5 +1,6 @@
 ---
 title: Salve a web, por favor
+description: "Sempre que posso, gosto de divulgar iniciativas que procurem tornar a web um lugar mais legal. Foi assim quando escrevi sobre o humans.txt e está sendo assim agora."
 image: http://media.tumblr.com/tumblr_lt1x90OrsW1qe3219.jpg
 lang: pt-BR
 date: "2011-10-14"
@@ -50,7 +51,7 @@ Basta incluir esse script antes de fechar a tag body no seu HTML.
 
 E daí?
 
-Como diria a [turma do balão mágico: “Depende de nós”](http://www.youtube.com/watch?v=cqPmPesjWTE).
+Como diria a [turma do balão mágico: “Depende de nós”](https://www.youtube.com/watch?v=cqPmPesjWTE).
 
 Já que temos falado tanto sobre HTML5 por aqui é essencial que, nós desenvolvedores, incentivamos nossos usuários a utilizar browsers mais modernos.
 

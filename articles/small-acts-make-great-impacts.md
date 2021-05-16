@@ -1,5 +1,6 @@
 ---
 title: Small acts make great impacts
+description: "When I moved to Los Angeles three years ago, I was the only Brazilian at the office. I spent the first year only working with people from different cultures until another Brazilian came. I felt very lonely but learned a lot from that experience."
 date: "2018-04-18"
 ---
 

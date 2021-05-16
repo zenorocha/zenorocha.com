@@ -15,8 +15,8 @@ Como esse ano me marcou bastante, resolvi escrever novamente como foi e para ilu
 <!-- more -->
 
 <audio controls style="width: 518px;">
-  <source src="/audio/frank-myway.ogg" type="audio/ogg" />
-  <source src="/audio/frank-myway.mp3" type="audio/mpeg" />
+  <source src="/static/audio/frank-myway.ogg" type="audio/ogg" />
+  <source src="/static/audio/frank-myway.mp3" type="audio/mpeg" />
 </audio>
 
 ## O Aquecimento
@@ -33,7 +33,7 @@ Chega **Fevereiro**, mas esse mês não conta né, afinal chegam o carnaval e me
 
 ![](/static/img/posts/myway-carnaval.jpg)
 
-Chega **Março**, gravo um vídeo despretencioso sobre o Sublime Text 2, que mais tarde atingiria mais de 10 mil visualizações [(veja o vídeo)](http://www.youtube.com/watch?v=Ms3Vsz7Jc3A). Também faço minha primeira viagem pra fora do Brasil, nada de muito incrível, um pulo turístico no Uruguai.
+Chega **Março**, gravo um vídeo despretencioso sobre o Sublime Text 2, que mais tarde atingiria mais de 10 mil visualizações [(veja o vídeo)](https://www.youtube.com/watch?v=Ms3Vsz7Jc3A). Também faço minha primeira viagem pra fora do Brasil, nada de muito incrível, um pulo turístico no Uruguai.
 
 ![](/static/img/posts/myway-uruguai.jpg)
 
@@ -42,7 +42,7 @@ Chega **Março**, gravo um vídeo despretencioso sobre o Sublime Text 2, que mai
 Em **Abril** é que o ano começa pra valer. Viajo até Recife para palestrar no [Pernambuco.JS](http://www.pernambucojs.com/), evento organizado por [Davidson Fellipe](https://twitter.com/davidsonfellipe) e outros amigos, que me proporcionou conhecer duas pessoas que mudariam o rumo do meu ano. Primeiro, [Eduardo Lundgren](https://twitter.com/eduardolundgren) por conta da Liferay, depois [Jaydson Gomes](https://twitter.com/jadyson) por conta do BrazilJS.
 
 <div class="iframe-wrap">
-  <iframe src="http://www.youtube.com/embed/FrXy2xv2OpM" frameborder="0" allowfullscreen="true">
+  <iframe src="https://www.youtube.com/embed/FrXy2xv2OpM" frameborder="0" allowfullscreen="true">
   </iframe>
 </div>
 
@@ -131,7 +131,7 @@ Todos os eventos foram super especiais, mas é impossível não destacar o [Braz
 Ainda mais com a participação simplesmente épica do Maujor.
 
 <div class="iframe-wrap">
-  <iframe src="http://www.youtube.com/embed/p1P2hYS2yss" frameborder="0" allowfullscreen="true">
+  <iframe src="https://www.youtube.com/embed/p1P2hYS2yss" frameborder="0" allowfullscreen="true">
   </iframe>
 </div>
 

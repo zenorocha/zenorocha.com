@@ -1,5 +1,6 @@
 ---
 title: Relato - Front in Rio 2011
+description: "Recentemente participei de mais um evento muito legal. Foi o Front in Rio 2011 (@frontinrio), o primeiro dedicado somente ao mercado front-end em solos cariocas."
 image: http://media.tumblr.com/tumblr_lmlfnwXTBp1qe3219.png
 lang: pt-BR
 date: "2011-06-24"
@@ -30,7 +31,7 @@ Abrindo o evento ninguém menos que Maurício Samy Silva, mais conhecido como [M
 Infelizmente não assisti a palestra inteira, pois precisava organizar algumas coisas para a minha que seria a próxima. Mas durante o tempo que fiquei lá vi muita coisa boa.
 
 <div class="iframe-wrap">
-  <iframe src="http://www.slideshare.net/slideshow/embed_code/8323522" marginwidth="0" marginheight="0" width="500" frameborder="0" height="415" scrolling="no">
+  <iframe src="https://www.slideshare.net/slideshow/embed_code/8323522" marginwidth="0" marginheight="0" width="500" frameborder="0" height="415" scrolling="no">
   </iframe>
 </div>
 
@@ -41,7 +42,7 @@ Infelizmente não assisti a palestra inteira, pois precisava organizar algumas c
 A sala estava muito cheia e meu objetivo era mostrar para aquelas pessoas interessadas em HTML5, o porquê de optar pelo HTML5 Boilerplate na hora de iniciar seus projetos, para então entender as funcionalidades por trás dele.
 
 <div class="iframe-wrap">
-  <iframe src="http://www.slideshare.net/slideshow/embed_code/8346961" marginwidth="0" marginheight="0" width="500" frameborder="0" height="415" scrolling="no">
+  <iframe src="https://www.slideshare.net/slideshow/embed_code/8346961" marginwidth="0" marginheight="0" width="500" frameborder="0" height="415" scrolling="no">
   </iframe>
 </div>
 
@@ -56,7 +57,7 @@ _Detalhe para o único da platéia de cabelo branco, Maujor :P_
 No mesmo horário só que na outra sala, [Rafael Lima](http://rafael.adm.br/) ([@rafaelp](http://twitter.com/#!/rafaelp)) falava sobre técnicas para aumentar as conversões do seu site.
 
 <div class="iframe-wrap">
-  <iframe src="http://www.slideshare.net/slideshow/embed_code/8364542" marginwidth="0" marginheight="0" width="500" frameborder="0" height="415" scrolling="no">
+  <iframe src="https://www.slideshare.net/slideshow/embed_code/8364542" marginwidth="0" marginheight="0" width="500" frameborder="0" height="415" scrolling="no">
   </iframe>
 </div>
 
@@ -65,7 +66,7 @@ No mesmo horário só que na outra sala, [Rafael Lima](http://rafael.adm.br/) (
 Mais tarde, um dos desenvolvedores do framework javascript [Mootols](http://mootools.net/) falou sobre seletores.
 
 <div class="iframe-wrap">
-  <iframe marginheight="0" marginwidth="0" src="http://www.slideshare.net/slideshow/embed_code/8348815" width="500" frameborder="0" height="415" scrolling="no">
+  <iframe marginheight="0" marginwidth="0" src="https://www.slideshare.net/slideshow/embed_code/8348815" width="500" frameborder="0" height="415" scrolling="no">
   </iframe>
 </div>
 
@@ -80,7 +81,7 @@ Confira os slides em: [](http://dev.thiagobelem.net/otimizacao-jquery/slides/)[
 Essa foi uma palestra que eu queria muito ter assistido, mas que infelizmente estava acontecendo ao mesmo tempo que a do meu amigo [Thiago Belem](http://thiagobelem.net/). De qualquer forma, [vi muitos elogios dela](http://twitter.com/#!/leolohmann/status/82812998992924674) e os slides também dão uma amostra de como foi boa.
 
 <div class="iframe-wrap">
-  <iframe marginheight="0" marginwidth="0" src="http://www.slideshare.net/slideshow/embed_code/8355676" width="500" frameborder="0" height="415" scrolling="no">
+  <iframe marginheight="0" marginwidth="0" src="https://www.slideshare.net/slideshow/embed_code/8355676" width="500" frameborder="0" height="415" scrolling="no">
   </iframe>
 </div>
 
@@ -89,7 +90,7 @@ Essa foi uma palestra que eu queria muito ter assistido, mas que infelizmente es
 A última palestra do dia ficou por conta de [Bernard De Luna](http://www.bernarddeluna.com/) ([@bernarddeluna](http://twitter.com/#!/bernarddeluna)). De forma bem descontraída falou sobre o processo que envolve o designer e o desenvolvedor front-end. E também impressionou os iniciantes com uma ferramenta para codificar mais rápido chamada [Zen Coding](http://code.google.com/p/zen-coding/). Ele aproveitou pra expressar sua opinião (não muito favorável) ao HTML5 Boilerplate. Basicamente seu argumento foi que as pessoas usam ele sem saber e isso eu também acho errado, na verdade isso que me motivou a querer palestrar sobre esse assunto.
 
 <div class="iframe-wrap">
-  <iframe src="http://www.slideshare.net/slideshow/embed_code/8349012" marginwidth="0" marginheight="0" width="500" frameborder="0" height="415" scrolling="no">
+  <iframe src="https://www.slideshare.net/slideshow/embed_code/8349012" marginwidth="0" marginheight="0" width="500" frameborder="0" height="415" scrolling="no">
   </iframe>
 </div>
 
@@ -98,7 +99,7 @@ A última palestra do dia ficou por conta de [Bernard De Luna](http://www.berna
 Também no último horário, [Davidson Fellipe](http://fellipe.com/) ([@davidsonfellipe](http://twitter.com/#!/davidsonfellipe)) mostrou as diferenças entre dois assuntos muito badalados hoje em dia, Canvas e SVG.
 
 <div class="iframe-wrap">
-  <iframe src="http://www.slideshare.net/slideshow/embed_code/8354309" marginwidth="0" marginheight="0" width="500" frameborder="0" height="415" scrolling="no">
+  <iframe src="https://www.slideshare.net/slideshow/embed_code/8354309" marginwidth="0" marginheight="0" width="500" frameborder="0" height="415" scrolling="no">
   </iframe>
 </div>
 

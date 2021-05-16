@@ -1,5 +1,6 @@
 ---
 title: The technology stack I used to build my first mobile app
+description: "In January 2nd, I decided to build my first mobile app just for fun. Three weeks later, the MVP was done and available to users in the App Store and Play Store. It's been 6 months since I started that journey and today I decided to share the technology stack that helped me get here."
 date: "2019-07-01"
 ---
 

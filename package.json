@@ -1,32 +1,22 @@
 {
   "private": true,
   "name": "zenorocha.com",
-  "version": "4.0.0",
+  "version": "5.0.0",
   "scripts": {
-    "start": "node metalsmith build",
-    "deploy": "node metalsmith deploy",
-    "watch": "node metalsmith watch"
+    "dev": "next dev",
+    "build": "next build",
+    "export": "next export",
+    "deploy": "vercel --prod"
   },
   "dependencies": {
-    "chalk": "^1.0.0",
-    "gh-pages": "^1.1.0",
-    "handlebars": "^4.0.5",
-    "load-metalsmith-plugins": "^0.1.1",
-    "metalsmith": "^2.1.0",
-    "metalsmith-assets": "^0.1.0",
-    "metalsmith-collections": "^0.7.0",
-    "metalsmith-date-formatter": "^1.0.2",
-    "metalsmith-date-in-filename": "^0.0.14",
-    "metalsmith-filemetadata": "^1.0.0",
-    "metalsmith-in-place": "^1.4.4",
-    "metalsmith-layouts": "^1.6.5",
-    "metalsmith-less": "^2.0.0",
-    "metalsmith-markdown": "^0.2.1",
-    "metalsmith-metallic": "^1.0.0",
-    "metalsmith-permalinks": "^0.5.0",
-    "metalsmith-serve": "^0.0.7",
-    "metalsmith-slug": "^0.2.0",
-    "metalsmith-watch": "^1.0.1",
-    "pretty-hrtime": "^1.0.0"
+    "date-fns": "^2.21.3",
+    "gray-matter": "^4.0.3",
+    "next": "^10.0.0",
+    "next-seo": "^4.24.0",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1",
+    "react-headroom": "^3.1.1",
+    "remark": "^13.0.0",
+    "remark-html": "^13.0.1"
   }
 }

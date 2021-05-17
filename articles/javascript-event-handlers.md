@@ -18,7 +18,7 @@ elem.addEventListener('click', function(e) {});
 
 They do the same thing, right? First listen for a click event, then execute a callback function. In fact, they're slightly different.
 
-# Inline Events
+## Inline Events
 
 When JavaScript arrived in the web, people used to attach events right into the markup.
 
@@ -44,7 +44,7 @@ People got used to this syntax, many still use it nowadays, however there are so
 
 How do you solve that?
 
-# Event Listeners
+## Event Listeners
 
 Back in 2000, the [DOM Level 2 Events Spec](http://www.w3.org/TR/DOM-Level-2-Events/events.html) was released, offering a more granular way to control events.
 
@@ -64,7 +64,7 @@ elem.attachEvent('onclick', function(e) {
 });
 ```
 
-# Which is the best?
+## Which is the best?
 
 This question is a matter of browser support and necessity.
 

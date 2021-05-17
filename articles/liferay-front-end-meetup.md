@@ -23,7 +23,7 @@ We started by identifying our _Guilds_ and then organizing face-to-face meetups 
 
 I ended up organizing the front-end one.
 
-# Logistics
+## Logistics
 
 After coming up with a list of 28 participants, we had to figure out accommodations, transportation, food, and all that.
 
@@ -33,7 +33,7 @@ Once you finish organizing all that, you'll need to make sure that everything is
 
 Fortunately, I had some incredible people next to me and everything went smoothly.
 
-# Agenda
+## Agenda
 
 > So you flew twenty developers to Brazil for a week, now what?
 
@@ -55,7 +55,7 @@ Besides that, we also had interviews where we would ask team leads what they hav
 
 I must say, it was an extremely busy week. We were all exhausted in the end but from what I heard it was pretty rewarding too.
 
-# Thanks!
+## Thanks!
 
 We went to beautiful beaches, we ate at some of the best restaurants in town, we had tons of caipirinhas, and most importantly we learned a lot from each other.
 

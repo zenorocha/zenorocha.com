@@ -12,7 +12,7 @@ class Updates extends Component {
       </div>
 
       <div className="post-container">
-        <h1 className="update-title">Stay up to date</h1>
+        <h2 className="update-title">Stay up to date</h2>
         <p className="update-description">My email list is the best way to follow all the work I'm doing. Sign up below.</p>
 
         <form action="https://zenorocha.us4.list-manage.com/subscribe/post?u=f3eb54b0d52e9b0f83a8d26ee&amp;id=9ffdb97e70" method="post" className="form">

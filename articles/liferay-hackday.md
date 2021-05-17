@@ -11,7 +11,7 @@ Of course, I know that Hackathon's are not a new thing (some companies do that a
 
 Our first Liferay Hackday concluded on December 19th and it was incredible! We had more than 60 registrations and 8 teams show up to participate. Here's how it was it…
 
-# Preparation
+## Preparation
 
 Once I got the _"ok"_ from the VP of Engineering, [Jorge Ferrer](https://twitter.com/jorgeferrer), it was time to start preparing everything. I've attended dozens of tech conferences and several hackathons but event organization was never my thing. Besides that, there were lots of projects and traveling going on so I just couldn't afford to pause everything to arrange all the event needs.
 
@@ -21,7 +21,7 @@ Our ultimate goal was to create an event where everybody could have fun and lear
 
 ![The pretty cool website for Liferay Hackday](https://d262ilb51hltx0.cloudfront.net/max/1600/1*bjlCNMlIT4_soYSkPF0E5w.png)
 
-# Kickstart
+## Kickstart
 
 On December 19th, at 8:30am, we opened the doors and people started to come. Registration was pretty straightforward, just a simple name check. We waited until we had the room full so we could start giving instructions and setting expectations for that day.
 
@@ -33,7 +33,7 @@ Recruiting was pretty organic and self-organized, each team had a maximum of fiv
 
 The only rule was: **your code needs to be on GitHub**.
 
-# Hands-on
+## Hands-on
 
 Once the teams were formed, it was time to start!
 
@@ -46,7 +46,7 @@ However, they only had couple hours to make something entirely new from the grou
 
 Also, we tried to be as minimally intrusive as we could be, which means that things like food were served _asynchronously_ through the day. Interruptions were made just to see if everything was ok and to check if they were still alive. Eventually, we played some [Platform4Emotion](https://soundcloud.com/james-falkner-1/liferay-platform4emotion-hackday-2014) too.
 
-# Judges
+## Judges
 
 At 6pm everybody had to stop coding and move to the presentation area. Four rockstar judges were waiting for them to present their achievements.
 
@@ -57,7 +57,7 @@ At 6pm everybody had to stop coding and move to the presentation area. Four rock
 
 Each judge have a different key role in the company, that way they could analyze each project with an unique perspective.
 
-# Awards
+## Awards
 
 The idea was not having one single winner. Therefore, we created four different categories that all projects had to be judged on.
 
@@ -69,7 +69,7 @@ The idea was not having one single winner. Therefore, we created four different 
 
 **Most Impactful Project** — *How does this changes the life of developers, employees, clients, partners, or end-users?*
 
-# Winners
+## Winners
 
 By now you are probably curious about what all those people created, right? Don't worry, we recorded every single presentation!
 
@@ -88,7 +88,7 @@ For _"Most Impactful Project"_, a connector between Liferay Portal and [IBM's Lo
 
 Finally, for _"Most Innovative Solution"_, an iOS app to improve engagement for Liferay's EVP (Employee Volunteer Program). The idea is that employees could easily post stories about their initiatives for other people to see and interact with. Also, one of the cool thing about this project is that it was built on top [Liferay Screens](https://www.liferay.com/community/liferay-projects/liferay-screens/overview).
 
-# Thanks!
+## Thanks!
 
 A special thank you to all the judges who were able to come out of their busy schedule to help make this event possible. Also to the web team who developed the site, the design team who helped not only with the logo, but all the decoration and posters, and everybody that participated.
 

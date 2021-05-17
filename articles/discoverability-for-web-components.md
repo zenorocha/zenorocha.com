@@ -9,7 +9,7 @@ In a world where you can create your own `<awesome-button>` tag and distribute i
 
 [Web Components](http://webcomponents.org/) are coming and there are many challenges coming along. How we connect component authors with component consumers is one of them.
 
-# AMD? CommonJS? HTML Imports? ES6 Modules?
+## AMD? CommonJS? HTML Imports? ES6 Modules?
 
 Dependency management has always been a trouble for client-side developers.
 
@@ -29,7 +29,7 @@ vs
 
 It's still unclear how they'll interoperate but being able to package templates, images, styles, and scripts into one file is not only appealing but a key factor in making Web Components truly successful ([despite browser vendor disagreements](https://hacks.mozilla.org/2014/12/mozilla-and-web-components/)).
 
-# npm? jspm? bower? component?
+## npm? jspm? bower? component?
 
 Speaking about lack of consensus, nowadays there's a clear fragmentation in the front-end package management world as well.
 
@@ -42,7 +42,7 @@ Sure, everybody loves _npm_. It works well, it’s [reliable](http://status.npmj
 
 However, the way it handles dependencies isn’t suitable for the web. Unless you want different versions of the same library loaded in your page. That's why some people still prefer _Bower_ because it manages dependencies in a flat tree. [Hopefully](https://github.com/npm/npm/wiki/npm-%E2%87%94-Polymer-brainstorming-session), this will be solved on [npm@3](https://github.com/npm/npm/wiki/Roadmap).
 
-# gallery? registry? search?
+## gallery? registry? search?
 
 There are many different approaches that could improve how people find what components they need.
 

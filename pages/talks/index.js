@@ -18,11 +18,13 @@ class Talks extends React.Component {
   renderTalks() {
     return items.map((item, index) => {
       return <div key={index}>
-        <h1>{item.year}</h1>
+        <h2>{item.year}</h2>
         <p>{item.summary}</p>
         {item.talks.map((talk, tIndex) => {
           return <div key={tIndex}>
-            <h2><a href={talk.url}>{talk.title}</a></h2>
+            <h3>
+              <a href={talk.url}>{talk.title}</a>
+            </h3>
             <ul>
               <li><em>When:</em> {talk.when}</li>
               <li><em>Where:</em> {talk.where}</li>

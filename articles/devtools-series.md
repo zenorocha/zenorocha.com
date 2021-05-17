@@ -24,7 +24,7 @@ Nessa série oficial da _Google_, **gravada em português e produzida por brasil
 
 Se você se interessa por produtividade e qualidade no desenvolvimento de aplicações web, não deixe de assistir todos os vídeos!
 
-# Bonus
+## Bonus
 
 <div class="iframe-wrap">
   <iframe src="//www.youtube.com/embed/JKEb-QmThJ0">

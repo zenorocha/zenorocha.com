@@ -18,7 +18,7 @@ class Projects extends React.Component {
   renderProjects() {
     return items.map((item, index) => {
       return <div key={index}>
-        <h1>{item.year}</h1>
+        <h2>{item.year}</h2>
         <ul>
           {item.projects.map((project, pIndex) => {
             return <li key={pIndex}>

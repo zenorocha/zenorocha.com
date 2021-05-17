@@ -449,15 +449,15 @@ figure {
   max-width: 100%;
 }
 
-.post-content h1 {
+.post-content h2 {
   color: rgba(0, 0, 0, 0.1);
   text-align: center;
   margin: 90px 0 30px;
   font-size: 40px;
 }
 
-.post-content h2,
-.post-content h2 a {
+.post-content h3,
+.post-content h3 a {
   color: rgba(0, 0, 0, 0.7);
   font-size: 28px;
   margin-top: 60px;
@@ -614,6 +614,9 @@ figure {
 
 .post-content .update-title {
   color: rgba(0, 0, 0, 0.7);
+  font-size: 40px;
+  margin: 90px 0 30px;
+  text-align: center;
 }
 
 .post-content .update-description {

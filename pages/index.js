@@ -27,7 +27,7 @@ class Home extends React.Component {
   renderArticles() {
     return this.props.allPosts.slice(0, 3).map((post, index) => {
       return <li className="article-item" key={index}>
-        <Link href={post.slug}>
+        <Link href={`/${post.slug}`}>
           <a className="article-link">
             <span className="article-title">{post.title}</span>
             <span className="article-date">
@@ -74,12 +74,12 @@ class Home extends React.Component {
         <p>His lifelong appreciation for <a href="/projects/">building software</a> and <a href="/articles/">sharing knowledge</a> led him to <a href="/talks/">speak in over 110 conferences</a> all over the world. Now he is focused on bringing the cloud revolution to the enterprise market.</p>
         <p>When he's not working, he likes running, watching movies, and eating cheese. For this last one he even <a href="https://lecheese.app">created an app</a> for it.</p>
 
-        <h1>Recent Articles</h1>
+        <h2>Recent Articles</h2>
         <ul className="article-list">
           {this.renderArticles()}
         </ul>
 
-        <h1>Latest Projects</h1>
+        <h2>Latest Projects</h2>
         <ul className="article-list">
           {this.renderProjects()}
         </ul>

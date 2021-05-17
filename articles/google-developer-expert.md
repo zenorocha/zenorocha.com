@@ -11,7 +11,7 @@ _Publicado originalmente no [Código Google](http://codigo-google.blogspot.com.b
 
 No mês passado mais de sessenta desenvolvedores de todo o mundo se reuniram na sede do Google em Mountain View, Califórnia, para dois dias de sessões técnicas aprofundadas com os principais engenheiros do Google. Neste ano, porém, tivemos pela primeira vez um brasileiro entre eles: Zeno Rocha acabou de se juntar aos [Google Developers Experts](https://developers.google.com/experts/) a tempo de participar do encontro anual e teve a oportunidade de compartilhar conhecimento e idéias com vários engenheiros, product managers e developer relations do Chrome.
 
-# Mas afinal, o que são Google Developers Experts?
+## Mas afinal, o que são Google Developers Experts?
 
 São pessoas da comunidade de desenvolvedores com ampla e reconhecida capacidade técnica em uma tecnologia específica e que, assim como nós, Googlers, demonstram paixão por esta tecnologia e se preocupam em compartilhar seu conhecimento e sua paixão com a comunidade. Com o programa de GDEs, o Google tenta potencializar o papel que estas pessoas têm na comunidade, oferecendo ferramentas e recursos e estimulando a troca de conhecimento.
 

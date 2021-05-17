@@ -10,7 +10,7 @@ Although they're not going to solve all your life's problems, they do provide a 
 
 If you still aren't sure about what exactly is Web Components or even why you should care about it, this article is for you.
 
-# Why?
+## Why?
 
 At the start of the web we had a small set of tags. We had `<form>`, we had `<select>` - you would build your pages out of these tags and they had meaning. They had encapsulation, they had default UI, they would emit events when something interesting happened. Most of the time you just worked in markup.
 
@@ -18,7 +18,7 @@ The way we build pages on the web these days is a little different. We either co
 
 What if HTML was expressive enough to allow us to extend HTML so we can fill in the gaps in functionality with our own tags? Well, Web Components enable that.
 
-# How?
+## How?
 
 Specifically, Web Components are an umbrella term for four different W3C specifications:
 
@@ -35,7 +35,7 @@ Each of these pieces is useful individually. But when combined, this whole packa
 
 That means we can finally fill any gaps in the platform in a meaningful way. Which also opens an opportunity for a less fragmented ecosystem, where components can truly interoperate with each other.
 
-# More?
+## More?
 
 We hope this brief guide inspires you to learn more about Web Components and forth experimenting with your own custom elements.
 

@@ -12,7 +12,7 @@ That's not necessarily a bad thing. Creating things makes me happy - it's part o
 
 > It was clear that I needed to make some changes, so in January, I decided to pick a theme for my entire year - consistency.
 
-# Side Projects
+## Side Projects
 
 <img src="/static/img/posts/consistency-1.jpg" class="post-image-full">
 
@@ -24,7 +24,7 @@ As I said before, I'm an intense person, so in less than three weeks, I already 
 
 The result - the app went from 0 to 5,694 downloads (3,313 App Store / 2,380 Play Store). From those downloads, I was able to capture 2,155 registered users. More importantly, I was able to release 76 versions on each platform, an average of 6 releases per month.
 
-# Day to day Job
+## Day to day Job
 
 <img src="/static/img/posts/consistency-2.jpg" class="post-image-full">
 
@@ -38,7 +38,7 @@ Discontinuing a product that you created is hard, but we knew this was the right
 
 We knew that DXP Cloud had a much bigger chance to succeed. Looking at the numbers now, I can say it was the best decision we could have made.
 
-# Personal Health
+## Personal Health
 
 <img src="/static/img/posts/consistency-3.jpg" class="post-image-full">
 
@@ -52,7 +52,7 @@ I heard that CrossFit was different, so I decided to give it a try. I also start
 
 The result - I went from 185.6 lbs (84.2 kg) body weight to 164.5 lbs (74.6 kg).
 
-# Your turn
+## Your turn
 
 I hope this article inspired you to focus on consistency, as well.
 

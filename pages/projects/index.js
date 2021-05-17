@@ -6,7 +6,7 @@ import items from '../../lib/projects'
 export async function getStaticProps() {
   const meta = {
     title: 'Projects // Zeno Rocha',
-    description: 'List of side projects, open source projects, and work projects.',
+    description: 'Here you can find my entire list of side projects, open source projects, and work projects in chronological order.',
     tagline: 'Work. Hobby. Open Source.',
     image: '/static/images/computer-opt.jpg'
   }

@@ -6,7 +6,7 @@ import items from '../../lib/talks'
 export async function getStaticProps() {
   const meta = {
     title: 'Talks // Zeno Rocha',
-    description: 'List of talks and conferences presentations.',
+    description: 'Here you can find the entire list of talks, meetups, workshops, and conferences that I presented in chronological order.',
     tagline: '11 countries. 116 talks.',
     image: '/static/images/speaking.jpg'
   }

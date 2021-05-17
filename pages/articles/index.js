@@ -16,6 +16,7 @@ export async function getStaticProps() {
   return {
     props: {
       title: 'Articles // Zeno Rocha',
+      description: 'Here you can find all articles I wrote. They include thoughts on software engineering, tech career, and personal stories.',
       tagline: 'Stories. Updates. Guides.',
       image: '/static/images/writing-opt.jpg',
       allPosts,
@@ -42,8 +43,7 @@ class Articles extends React.Component {
   }
 
   render() {
-    const { title, image } = this.props
-    const description = 'Thoughts on software engineering, tech career, and personal stories.'
+    const { title, description, image } = this.props
 
     return (
       <div className="single">

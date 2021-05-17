@@ -3,7 +3,7 @@ import Updates from '../components/Updates'
 import BlogDate from '../components/BlogDate'
 
 export default function Main({ children }) {
-  const { title, image, date } = children.props.post
+  const { title, image, date, views } = children.props.post
   
   return <div>
     <Navbar image={image} />
@@ -17,7 +17,7 @@ export default function Main({ children }) {
             image ? { backgroundImage: `url(${image})`} : {}
           } />
           <h2 className="post-subtitle">
-            <BlogDate dateString={date} />
+            <BlogDate dateString={date} /> • {views} views
           </h2>
         </header>
       }
@@ -27,7 +27,7 @@ export default function Main({ children }) {
             <div>
               <h1 className="post-title">{title}</h1>
               <h2 className="post-subtitle">
-                <BlogDate dateString={date} />
+                <BlogDate dateString={date} /> • {views} views
               </h2>
             </div>
           }

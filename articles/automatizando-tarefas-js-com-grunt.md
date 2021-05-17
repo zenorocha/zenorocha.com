@@ -1,7 +1,7 @@
 ---
 title: Automatizando tarefas JS com Grunt
 description: "Você já parou pra pensar na quantidade de coisas que realiza repetidamente em seus projetos JavaScript? Se você for um cara preocupado com a consistência do seu código talvez utiliza várias vezes ao dia o JSHint/JSLint."
-image: /images/grunt.jpg
+image: /static/images/grunt.jpg
 lang: pt-BR
 date: "2012-03-28"
 ---

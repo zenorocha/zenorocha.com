@@ -1,12 +1,12 @@
 ---
 title: Como fizemos o oldRadio?
 description: "Nos dois últimos eventos que nós (Zeno Rocha e Bernard de Luna) estivemos presentes (TDC 2012 em São Paulo e Front in BH em Minas Gerais), fizemos questão de apresentar nosso primeiro experimento juntos, o Old Radio, que figura hoje na galeria Mozilla Demo Studios."
-image: http://media.tumblr.com/tumblr_m6wxcmvAt21qe3219.jpg
+image: /static/img/tumblr/tumblr_m6wxcmvAt21qe3219.jpg
 lang: pt-BR
 date: "2012-07-19"
 ---
 
-<!-- <p class="demo-download"><a href="https://developer.mozilla.org/pt-BR/demos/detail/old-radio/launch" target="_blank"><img class="botao" src="http://media.tumblr.com/tumblr_lk325lvHwF1qe3219.png"/></a> <a href="https://github.com/HTML5-Pro/oldRadio/" target="_blank"><img class="botao" src="http://media.tumblr.com/tumblr_lk325u7HMG1qe3219.png"/></a> -->
+<!-- <p class="demo-download"><a href="https://developer.mozilla.org/pt-BR/demos/detail/old-radio/launch" target="_blank"><img class="botao" src="/static/img/tumblr/tumblr_lk325lvHwF1qe3219.png"/></a> <a href="https://github.com/HTML5-Pro/oldRadio/" target="_blank"><img class="botao" src="/static/img/tumblr/tumblr_lk325u7HMG1qe3219.png"/></a> -->
 
 Nos dois últimos eventos que nós (Zeno Rocha e Bernard de Luna) estivemos presentes (TDC 2012 em São Paulo e Front in BH em Minas Gerais), fizemos questão de apresentar nosso primeiro experimento juntos, o [Old Radio](https://developer.mozilla.org/pt-BR/demos/detail/old-radio/launch), que figura hoje na galeria [Mozilla Demo Studios](https://developer.mozilla.org/pt-BR/demos/detail/old-radio/launch).
 
@@ -16,7 +16,7 @@ Muitas pessoas nos abordaram com perguntas sobre como fizemos funcionalidade X o
 
 <!-- more -->
 
-![](http://media.tumblr.com/tumblr_m6wx0uXPdG1qe3219.jpg)
+![](/static/img/tumblr/tumblr_m6wx0uXPdG1qe3219.jpg)
 
 ## Marcação e Estilização
 
@@ -34,27 +34,27 @@ Trabalhar com uma boa hierarquia nos dá a capacidade de usar um conceito nativo
 
 A partir daí seguimos um outro conceito que poucos ainda utilizam quando se trata de CSS3, a combinação do RGBa. Assim fizemos algumas aplicações, mostradas abaixo:
 
-![](http://media.tumblr.com/tumblr_m7f6uqMHa21qe3219.jpg)
+![](/static/img/tumblr/tumblr_m7f6uqMHa21qe3219.jpg)
 
 O degradê que utilizamos para fazer o Efeito de Dourado foi o mesmo utilizado para criar o conceito de profundidade entre o case do rádio, ou seja, sempre pegando a cor marrom, amarela, preta, o que for e escurecendo em degradê. É uma ótima utilização do RGBa e ainda tem uma outra vantagem, que não foi utilizada nesse projeto, mas que vale a dica: as animações CSS funcionam para “background-color”, mas não imagem, pelo degradê renderizar como se fosse “background-image”, ele acaba não sendo animado. A partir do momento que o degradê inclui opacidade, você pode alterar apenas as cores, funcionando o transition e animation. Legal né?
 
 O que trás a ideia de realidade para o projeto é puramente percepção, assim sendo, foram feitas algumas pesquisas referenciais de um rádio velho, ajudou muito ma hora de achar o tom das cores e estilo que seria desenhado. Confiram algumas das referências usadas:
 
-![](http://media.tumblr.com/tumblr_m7f6wvX31O1qe3219.jpg)
+![](/static/img/tumblr/tumblr_m7f6wvX31O1qe3219.jpg)
 
 Mas sem dúvida a que norteou todo o projeto, com cores, estilo foi essa imagem abaixo:
 
-![](http://media.tumblr.com/tumblr_m7f6xz24WI1qe3219.jpg)
+![](/static/img/tumblr/tumblr_m7f6xz24WI1qe3219.jpg)
 
 Através dessa referência, pudemos pegar o tom de cor da madeira e do dourado. Comparando com o Old Radio, fica bem claro a importância dessa referência pela palheta que indica a estação, o STEREO e o estilo do Tunner. Dessa referência fomos direto para o código, sem nenhum protótipo, nem layout em PSD.
 
 Vale lembrar que o Old Radio surgiu logo após a ideia do Bernard De Luna de ter criado o Homer Simpsons só com CSS, para quem não conhece, ficou assim:
 
-[![](http://media.tumblr.com/tumblr_m7f713gTC71qe3219.jpg)](https://developer.mozilla.org/pt-BR/demosdetail/pure-css3-homer)
+[![](/static/img/tumblr/tumblr_m7f713gTC71qe3219.jpg)](https://developer.mozilla.org/pt-BR/demosdetail/pure-css3-homer)
 
 Se o De Luna, Bernard, Bê, rei, absoluto, lindo, desculpem, me emocionei&#8230;, bom, se ele seguisse a risca o modelo de estilização utilizado no Homer, muito provavelmente o Old Radio ficasse assim:
 
-![](http://media.tumblr.com/tumblr_m7f71xL0q31qe3219.jpg)
+![](/static/img/tumblr/tumblr_m7f71xL0q31qe3219.jpg)
 
 Ficaria bonito, mas sem peso, sem realismo, novamente o RGBa aplicado em "box-shadow", "gradient", "text-shadow", "border" e "background" foram responsáveis pelo tom de profundidade, textura e realismo esperado e atingido no Old Radio.
 
@@ -70,7 +70,7 @@ repeating-linear-gradient(-90deg, rgba(0,0,0,0.1), rgba(0,0,0,0.1) 1px, transpar
 
 Ainda é uma renderização bastante bugada em browsers, mas mesmo com pequenas distorções ou o que renderizar, daria um ruído no marrom, mantendo a impressão da madeira desejada.
 
-![](http://media.tumblr.com/tumblr_m7f7lw4bwO1qe3219.jpg)
+![](/static/img/tumblr/tumblr_m7f7lw4bwO1qe3219.jpg)
 
 ## Estações da rádio
 
@@ -99,11 +99,11 @@ Estou usando outro degradê do branco com 30% de transparencia para o transparen
 
 Agora vem a mágica, eu aplico "background-size" para manipular o tamanho desses degradês, dizendo que o primeiro ocupa 25px de largura e 50px de altura, enquanto o segundo ocupa 5px e 5px. O interessante é a conta feita, pois assim eu garanto que a cada 5 palitos brancos de 30% apareça 1 palito branco 100%. Reparem no desenho:
 
-![](http://media.tumblr.com/tumblr_m7f74aoSDw1qe3219.jpg)
+![](/static/img/tumblr/tumblr_m7f74aoSDw1qe3219.jpg)
 
 Por fim, desloquei os degradês 24px para esquerda para poder marcar o começo das estações com o primeiro palito, e alinhei verticalmente "bottom". Finalizando com um "repeat-x" para que os traços se repitam e temos essa lindeza aí:
 
-![](http://media.tumblr.com/tumblr_m7f75yc6pz1qe3219.jpg)
+![](/static/img/tumblr/tumblr_m7f75yc6pz1qe3219.jpg)
 
 Só faltava fazê-lo funcionar não é verdade? Sente como fizemos isso&#8230;
 
@@ -133,7 +133,7 @@ cima + cima + baixo + baixo + esquerda + direita + esquerda + direita + b + a
 
 E voilà!
 
-![](http://media.tumblr.com/tumblr_m7f7t7to9w1qe3219.jpg)
+![](/static/img/tumblr/tumblr_m7f7t7to9w1qe3219.jpg)
 
 ## Cálculos e mais cálculos
 
@@ -143,7 +143,7 @@ Para essa e outras questões, Zanoni utilizou vários conceitos matemáticos.
 
 Basicamente o processo de rotação do tunner usa a lógica de _"Pressiona" -> "Arrasta" -> "Solta"_, onde no evento de _"Pressiona"_ guardamos o valor que servirá de referência para a alteração do atributo que queremos modificar, nesse caso o ângulo do tunner. No _"Arrasta"_ é onde iremos obter a diferença entre o valor inicial que recebemos no _"Pressiona"_ e o obtido agora, e então faremos uma alteração baseada nessa diferença. E por fim, no _"Solta"_ é onde finalizaremos esse processo.
 
-![](http://media.tumblr.com/tumblr_m7f7vi8C691qe3219.jpg)
+![](/static/img/tumblr/tumblr_m7f7vi8C691qe3219.jpg)
 
 O "Pressiona" é um evento para detectar quando pressionarem o mouse sobre o tunner. Quando ele for disparado, o ângulo entre a posição do mouse e o centro do botão do tunner é calculado:
 
@@ -153,7 +153,7 @@ angulo = Math.atan2( tunerCenterY - MouseY , tunerCenterX - MouseX );
 
 A função atan2 retorna um ângulo em radianos de um vetor dado os valores dos componentes y e x desse vetor.
 
-![](http://media.tumblr.com/tumblr_m7f7wcZ4wE1qe3219.jpg)
+![](/static/img/tumblr/tumblr_m7f7wcZ4wE1qe3219.jpg)
 
 Mas esse ângulo é retornado em radianos, para converter de radianos em graus, usamos:
 
@@ -168,7 +168,7 @@ O _"Arrasta"_ é um evento que será chamado se o mouse mover sobre o tunner, qu
 
 A partir desse valor podemos rotacionar o tunner e também alterar a estação da rádio, movendo o ponteiro das estações.
 
-![](http://media.tumblr.com/tumblr_m7f80zCZpS1qe3219.jpg)
+![](/static/img/tumblr/tumblr_m7f80zCZpS1qe3219.jpg)
 
 No caso da troca de estações queríamos que tivesse um efeito mais realista, para isso teria um ruído que apareceria e sumiria gradativamente entre uma estação e outra, para fazer esse efeito teríamos que obter 3 valores, o número da estação atual, o volume dessa estação e o volume do chiado. Esse valores teriam que ser calculados baseados na posição do ponteiro das estações.
 
@@ -200,7 +200,7 @@ Math.round
 
 É a função que arredonda um número para o inteiro mais próximo ( ex: Math.round(2.3) = 2 ,Math.round(2.8) = 3 ), isso porque o número do canal é um inteiro e não um float.
 
-![](http://media.tumblr.com/tumblr_m7f823B33Y1qe3219.jpg)
+![](/static/img/tumblr/tumblr_m7f823B33Y1qe3219.jpg)
 
 Agora queremos saber o valor do volume do chiado e do som da estação, para obter a trasição gradativa usamos a função do coseno (Math.cos), a função do coseno gera uma ondulação que é exatamente o que queremos:
 
@@ -236,7 +236,7 @@ E volume do ruido é bem simples é o inverso do volume do canal. Por exemplo, s
 volumeRuido = 1 - volumeCanal;
 ```
 
-![](http://media.tumblr.com/tumblr_m7f83d4E9o1qe3219.jpg)
+![](/static/img/tumblr/tumblr_m7f83d4E9o1qe3219.jpg)
 
 ## Concluindo
 

@@ -1,7 +1,7 @@
 ---
 title: Tudo novo, de novo
 description: "Ontem foi meu primeiro dia trabalhando para uma nova empresa, a Liferay, Inc. Nessa transição muita gente veio me perguntar sobre os motivos de eu ter deixado a Globo, o que faz essa empresa ou o que eu vou fazer lá dentro."
-image: http://media.tumblr.com/tumblr_m6wvq4EQWG1qe3219.jpg
+image: /static/img/tumblr/tumblr_m6wvq4EQWG1qe3219.jpg
 lang: pt-BR
 date: "2012-07-10"
 ---
@@ -18,7 +18,7 @@ Por isso, resolvi contar um pouquinho mais sobre o assunto.
 
 Desde que entrei no [globoesporte.com](http://globoesporte.com), outubro do ano passado, tive a oportunidade de trabalhar em projetos muito legais, tanto no quesito visual quanto em relação à pauta, já que eu sempre gostei de futebol.
 
-![](http://media.tumblr.com/tumblr_m6y91x0dmS1qe3219.png)
+![](/static/img/tumblr/tumblr_m6y91x0dmS1qe3219.png)
 
 Assim que comecei lá, trabalhei em um widget para a capa de todos os clubes, chamado **Torcidômetro**. A equipe de redes sociais estava dando início a criação de _fanpages_ no facebook de cada clube, essa ação rendeu centenas de milhares de _likes_ e hoje essas _fanpages_ juntas somam mais de 3 milhões e meio de _curtidas_ no momento em que escrevo esse artigo.
 
@@ -30,25 +30,25 @@ O projeto foi um marco dentro da empresa, tanto em termos de tecnologia, por ser
 
 Se quiser saber mais sobre esse projeto, escrevi outro [post falando só sobre ele](/especial-do-campeao-globoesportecom). Veja o [resultado final](http://globoesporte.globo.com/futebol/times/corinthians/timaocampeao.html).
 
-[![](http://media.tumblr.com/tumblr_m6yaikVNiL1qe3219.jpg)](http://globoesporte.globo.com/futebol/times/corinthians/timaocampeao.html)
+[![](/static/img/tumblr/tumblr_m6yaikVNiL1qe3219.jpg)](http://globoesporte.globo.com/futebol/times/corinthians/timaocampeao.html)
 
 Depois veio a final do mundial e o tão esperado desafio entre Messi vs Neymar. Veja o [resultado final](http://globoesporte.globo.com/futebol/mundial-de-clubes/messi-vs-neymar.html).
 
-[![](http://media.tumblr.com/tumblr_m6yb50PV9V1qe3219.jpg)](http://globoesporte.globo.com/futebol/mundial-de-clubes/messi-vs-neymar.html)
+[![](/static/img/tumblr/tumblr_m6yb50PV9V1qe3219.jpg)](http://globoesporte.globo.com/futebol/mundial-de-clubes/messi-vs-neymar.html)
 
 E aí o centenário do alvinegro praiano, com duas homenagens.
 
 Primeiro com um mapa interativo mostrando por onde o clube já passou. Veja o [resultado final](http://estatico.globoesporte.globo.com/santos-pelo-mundo/).
 
-[![](http://media.tumblr.com/tumblr_m6yfnwY2oo1qe3219.jpg)](http://estatico.globoesporte.globo.com/santos-pelo-mundo/)
+[![](/static/img/tumblr/tumblr_m6yfnwY2oo1qe3219.jpg)](http://estatico.globoesporte.globo.com/santos-pelo-mundo/)
 
 E segundo, com uma linha do tempo onde contamos durante 10 dias a história do centenário, disponibilizando sempre uma década por dia. Veja o [resultado final](http://estatico.globoesporte.globo.com/santos-em-10-decadas/).
 
-[![](http://media.tumblr.com/tumblr_m6yfsrDZOB1qe3219.jpg)](http://estatico.globoesporte.globo.com/santos-em-10-decadas/)
+[![](/static/img/tumblr/tumblr_m6yfsrDZOB1qe3219.jpg)](http://estatico.globoesporte.globo.com/santos-em-10-decadas/)
 
 Por fim, outra linha do tempo, agora contando a história do campeonato brasileiro, desde 1971 até 2011. Veja o [resultado final](http://estatico.globoesporte.globo.com/linha-do-tempo/).
 
-[![](http://media.tumblr.com/tumblr_m6yfo3W5cW1qe3219.jpg)](http://estatico.globoesporte.globo.com/linha-do-tempo/)
+[![](/static/img/tumblr/tumblr_m6yfo3W5cW1qe3219.jpg)](http://estatico.globoesporte.globo.com/linha-do-tempo/)
 
 Todos os projetos foram muito legais de serem feitos. Os prazos eram sempre apertados e sem a possibilidade de serem furados, já que não adianta lançar algo para promover um jogo depois do jogo ter ocorrido por exemplo.
 
@@ -64,7 +64,7 @@ O problema é que muitas pessoas são movidas apenas por dinheiro, eu não, sou 
 
 ## Futuro na Liferay
 
-![](http://media.tumblr.com/tumblr_m6yjkuwR271qe3219.jpg)
+![](/static/img/tumblr/tumblr_m6yjkuwR271qe3219.jpg)
 
 > _Liferay? O que é isso?_
 
@@ -103,6 +103,6 @@ Por agora, mais detalhes, você pode conferir uma palestra que eles deram no YUI
 
 To muito animado em me juntar a esses caras feras e espero contribuir para as diversas coisas que vamos aprontar por lá. Como diria meu antigo chefe Victor Javoski ([@javoski](http://twitter.com/javoski)): Vamos fazer barulho!
 
-[![](http://media.tumblr.com/tumblr_m6wvoybV951qe3219.jpg)](https://twitter.com/jon_neal/status/217716848597278720)
+[![](/static/img/tumblr/tumblr_m6wvoybV951qe3219.jpg)](https://twitter.com/jon_neal/status/217716848597278720)
 
-[![](http://media.tumblr.com/tumblr_m6yqo5fSYs1qe3219.jpg)](https://twitter.com/eduardolundgren/status/222784702648549376)
+[![](/static/img/tumblr/tumblr_m6yqo5fSYs1qe3219.jpg)](https://twitter.com/eduardolundgren/status/222784702648549376)

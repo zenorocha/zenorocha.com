@@ -5,7 +5,7 @@ attended. Peter Lubbers and his team made an incridible job organizing the first
 Chrome Summit for approximately 200 people in Mountain View and fortunately all
 presentations were recorded, so I picked some of my favorite ones to share with
 you today."
-image: /img/posts/chrome-dev-summit.jpg
+image: /static/img/posts/chrome-dev-summit.jpg
 date: "2013-12-06"
 ---
 

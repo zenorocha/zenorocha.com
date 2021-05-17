@@ -1,7 +1,7 @@
 ---
 title: Relato 13º FISL
 description: "Algumas semanas atrás estive no FISL (Fórum Internacional do Software Livre) em Porto Alegre que contou com cerca de 7 mil participantes. Foi um evento longo e cansativo, mas valeu muito a pena ter ido."
-image: http://media.tumblr.com/tumblr_m7ztd9Z0291qe3219.jpg
+image: /static/img/tumblr/tumblr_m7ztd9Z0291qe3219.jpg
 slug: relato-13-fisl
 lang: pt-BR
 date: "2012-08-06"
@@ -21,7 +21,7 @@ Outra coisa interessante foram as tradicionais “aldeias”. As aldeias represe
 
 Nessa edição, houve a “inauguração” da primeira aldeia dedicada apenas ao JavaScript na história do FISL. Um feito extremamente relevante para a comunidade de JavaScript do Brasil, nesse que é em um dos maiores eventos no cenário de desenvolvimento de software aberto na América Latina.
 
-![](http://media.tumblr.com/tumblr_m8f79yX9Jf1qe3219.jpg)
+![](/static/img/tumblr/tumblr_m8f79yX9Jf1qe3219.jpg)
 
 Esse dia foi basicamente dedicado para os preparativos da palestra do CEO e da minha. Inclusive, você pode encontrar os slides da minha [palestra](https://github.com/zenorocha/talks/tree/master/2012/fisl/).
 
@@ -34,7 +34,7 @@ E conferir o vídeo aqui:
 
 Na quinta-feira (dia 25/07), outro passo muito importante foi dado, o lançamento do [BrazilJS Foundation](http://braziljs.org). Se você ainda não conhece, sugiro a leitura [desse artigo](/introducing-braziljs-foundation)[ -](/introducing-braziljs-foundation) _[Introducing BrazilJS Foundation](/introducing-braziljs-foundation)._
 
-[![](http://media.tumblr.com/tumblr_m8f7ag86x41qe3219.png)](http://braziljs.org)
+[![](/static/img/tumblr/tumblr_m8f7ag86x41qe3219.png)](http://braziljs.org)
 
 Dezenas de feedbacks positivos e outras dezenas de feedbacks negativos.
 
@@ -44,7 +44,7 @@ Fiquei muito animado com a adoção das pessoas, mas também um pouco chateado c
 
 Na quinta-feira (dia 27/07/12) passei o dia inteiro no Hackathon na MozillaHQ. O objetivo era criar uma app e submeter para a [Mozilla Marketplace](https://marketplace.mozilla.org/).
 
-![](http://media.tumblr.com/tumblr_m8f7luWcdV1qe3219.jpg)
+![](/static/img/tumblr/tumblr_m8f7luWcdV1qe3219.jpg)
 
 Infelizmente não consegui terminar e submeter a tempo, até porque aproveitei o dia para trocar muitas ideias com esses caras e gravar um vídeo com o Christian Heilmann (@codepo8), Principal Evangelist da Mozilla, mostrando um celular rodando o Boot2Gecko.
 

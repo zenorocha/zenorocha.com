@@ -1,13 +1,13 @@
 ---
 title: HTML5 - Canvas + Three.js
 description: "Ahh o tão badalado canvas. Sempre um dos tópicos mais abordados quando o assunto é HTML5. Você já deve ter ouvido muito falar dele e, assim como eu, ter se impressionado com os diversos experimentos que surgem todos os dias pela internet."
-image: http://media.tumblr.com/tumblr_lrou6aDK1U1qe3219.jpg
+image: /static/img/tumblr/tumblr_lrou6aDK1U1qe3219.jpg
 slug: html5-canvas-three-js
 lang: pt-BR
 date: "2011-08-14"
 ---
 
-<!-- <p class="demo-download"><a href="http://labs.zenorocha.com/html5/canvas/" target="_blank"><img src="http://media.tumblr.com/tumblr_lk325lvHwF1qe3219.png" class="botao"/></a> <a href="https://github.com/zenorocha/HTML5-Canvas" target="_blank"><img src="http://media.tumblr.com/tumblr_lk325u7HMG1qe3219.png" class="botao"/></a> -->
+<!-- <p class="demo-download"><a href="http://labs.zenorocha.com/html5/canvas/" target="_blank"><img src="/static/img/tumblr/tumblr_lk325lvHwF1qe3219.png" class="botao"/></a> <a href="https://github.com/zenorocha/HTML5-Canvas" target="_blank"><img src="/static/img/tumblr/tumblr_lk325u7HMG1qe3219.png" class="botao"/></a> -->
 
 Ahh o tão badalado canvas. Sempre um dos tópicos mais abordados quando o assunto é HTML5. Você já deve ter ouvido muito falar dele e, assim como eu, ter se impressionado com os [diversos experimentos](http://www.canvasdemos.com/) que surgem todos os dias pela internet.
 
@@ -109,7 +109,7 @@ E agora paramos por aqui antes que esse post fique enorme, se você quiser saber
 
 ## Compatibilidade
 
-![](http://media.tumblr.com/tumblr_lpx8vu0fgd1qe3219.jpg) Lembre-se sempre de utilizar o [Modernizr](http://Modernizr) para detectar navegadores que não possuem suporte ao canvas. Dessa vez, para informar aquelas pessoas perdidas no tempo que elas não conseguem ver esse exemplo porque seus navegadores são ruins, vamos criar um fallback bem simples. Portanto, além dele utilizar o [Modernizr](http://Modernizr), vamos utilizar também o [Yepnope](http://yepnopejs.com/) para nos auxiliar. Primeiro, testamos se o navegador tem suporte ao canvas. Caso tenha, carrego os scripts que serão responsáveis por criar essa brincadeira toda. Caso **não** tenha, carrego um css que será responsável por dizer ao nosso usuário que ele não tem suporte.
+![](/static/img/tumblr/tumblr_lpx8vu0fgd1qe3219.jpg) Lembre-se sempre de utilizar o [Modernizr](http://Modernizr) para detectar navegadores que não possuem suporte ao canvas. Dessa vez, para informar aquelas pessoas perdidas no tempo que elas não conseguem ver esse exemplo porque seus navegadores são ruins, vamos criar um fallback bem simples. Portanto, além dele utilizar o [Modernizr](http://Modernizr), vamos utilizar também o [Yepnope](http://yepnopejs.com/) para nos auxiliar. Primeiro, testamos se o navegador tem suporte ao canvas. Caso tenha, carrego os scripts que serão responsáveis por criar essa brincadeira toda. Caso **não** tenha, carrego um css que será responsável por dizer ao nosso usuário que ele não tem suporte.
 
 ```
 yepnope({
@@ -125,7 +125,7 @@ yepnope({
 
 E o resultado:
 
-![](http://media.tumblr.com/tumblr_lpx89gb3aM1qe3219.png) [Modernizr](http://www.modernizr.com/) e [Yepnope](http://yepnopejs.com/) formam um casal lindo, poderia fazer um post só sobre os dois, recomendo e muito o uso deles.
+![](/static/img/tumblr/tumblr_lpx89gb3aM1qe3219.png) [Modernizr](http://www.modernizr.com/) e [Yepnope](http://yepnopejs.com/) formam um casal lindo, poderia fazer um post só sobre os dois, recomendo e muito o uso deles.
 
 ## Conclusão
 

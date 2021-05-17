@@ -1,7 +1,7 @@
 ---
 title: Liferay Hackday 2017
 description: "Every other year we have a company retreat where people from all over the world travel to California for a series of meetings and team building activities."
-image: /img/posts/liferay-hackday-17-1.jpeg
+image: /static/img/posts/liferay-hackday-17-1.jpeg
 date: "2017-02-20"
 ---
 

@@ -1,12 +1,12 @@
 ---
 title: Senhoras e senhores, apresento-lhes Wormz
 description: "Ontem foi o lançamento oficial do projeto Wormz, um experimento em canvas que eu e Zanoni Miranda estivemos trabalhando nos últimos dias. É com muita felicidade que entramos para lista dos primeiros brasileiros a figurar no Chrome Experiments, a galeria da Google com os melhores experimentos feitos em HTML5 de todo o mundo."
-image: http://media.tumblr.com/tumblr_lr5yzobIBN1qe3219.jpg
+image: /static/img/tumblr/tumblr_lr5yzobIBN1qe3219.jpg
 lang: pt-BR
 date: "2011-09-30"
 ---
 
-<!-- <p class="demo-download"><a href="http://html5-pro.com/wormz/" target="_blank"><img src="http://media.tumblr.com/tumblr_lk325lvHwF1qe3219.png" class="botao"/></a> <a href="https://github.com/HTML5-Pro/wormz/" target="_blank"><img src="http://media.tumblr.com/tumblr_lk325u7HMG1qe3219.png" class="botao"/></a></p> -->
+<!-- <p class="demo-download"><a href="http://html5-pro.com/wormz/" target="_blank"><img src="/static/img/tumblr/tumblr_lk325lvHwF1qe3219.png" class="botao"/></a> <a href="https://github.com/HTML5-Pro/wormz/" target="_blank"><img src="/static/img/tumblr/tumblr_lk325u7HMG1qe3219.png" class="botao"/></a></p> -->
 
 Ontem foi o lançamento oficial do projeto [Wormz](http://html5-pro.com/wormz/), um experimento em canvas que eu e Zanoni Miranda estivemos trabalhando nos últimos dias.
 
@@ -46,9 +46,9 @@ Já que estávamos fazendo algo em HTML5, resolvemos ir além do canvas e utiliz
 
 No canto esquerdo, criamos um slider para que o usuário possa interagir com o experimento mudando de cor, aumentando a velocidade e etc. Para essa interface utilizamos um dos [novos tipos de input chamado range](http://diveintohtml5.org/forms.html#type-range).
 
-![](http://media.tumblr.com/tumblr_lr63c9bWtR1qe3219.jpg)Sua aparência nativa nos atendia muito bem em navegadores [webkit](http://pt.wikipedia.org/wiki/WebKit), mas no Firefox era muito inferior. O que acabou nos motivando a utilizar um plugin chamado [jQuery Tools Range Input](http://flowplayer.org/tools/rangeinput/). Após algumas mudanças visuais e refatorações no core do plugin conseguimos chegar nesse visual.
+![](/static/img/tumblr/tumblr_lr63c9bWtR1qe3219.jpg)Sua aparência nativa nos atendia muito bem em navegadores [webkit](http://pt.wikipedia.org/wiki/WebKit), mas no Firefox era muito inferior. O que acabou nos motivando a utilizar um plugin chamado [jQuery Tools Range Input](http://flowplayer.org/tools/rangeinput/). Após algumas mudanças visuais e refatorações no core do plugin conseguimos chegar nesse visual.
 
-![](http://media.tumblr.com/tumblr_lr64hhhvvx1qe3219.jpg)No canto direito, criamos uma lista das imagens que, de tempos em tempos, se revezam no ambiente em que a mágica acontece.
+![](/static/img/tumblr/tumblr_lr64hhhvvx1qe3219.jpg)No canto direito, criamos uma lista das imagens que, de tempos em tempos, se revezam no ambiente em que a mágica acontece.
 
 A ideia aqui foi aumentar ainda mais a interatividade do usuário com o experimento, possibilitando que ele adicione suas próprias imagens. Isso tudo na forma mais intuitiva possível, arrastando do seu desktop para o navegador.
 
@@ -70,7 +70,7 @@ Eu, como desenvolvedor web, me sinto com a missão constante de evangelizar o us
 
 Pela característica experimental desse projeto, optamos por apresentar uma mensagem que incentivasse esse usuário que não possui um navegador com suporte nativo para esse novo elemento do HTML5, a utilizar um browser mais moderno.
 
-![](http://media.tumblr.com/tumblr_lr5zzzK4Lt1qe3219.jpg)
+![](/static/img/tumblr/tumblr_lr5zzzK4Lt1qe3219.jpg)
 
 ## Detecção
 
@@ -116,15 +116,15 @@ Já estamos com outras ideias em desenvolvimento e se você curte spoilers é s�
 
 O volume de visitas têm sido assustador nesses últimos dias e o feedback igualmente bom.
 
-![](http://media.tumblr.com/tumblr_lsd5qzTbat1qe3219.jpg)
+![](/static/img/tumblr/tumblr_lsd5qzTbat1qe3219.jpg)
 
 [Hakim Hattab](http://hakim.se/), um dos desenvolvedores responsáveis pelo famoso projeto [20 Things I Learned About Browsers and the Web](http://hakim.se/) também comentou.
 
-![](http://media.tumblr.com/tumblr_lsd5qnmQXf1qe3219.jpg)
+![](/static/img/tumblr/tumblr_lsd5qnmQXf1qe3219.jpg)
 
 Além desses meio enigmáticos…
 
-![](http://media.tumblr.com/tumblr_lsd5qbi0611qe3219.jpg)
+![](/static/img/tumblr/tumblr_lsd5qbi0611qe3219.jpg)
 
 E você, gostou do experimento? Tem outras perguntas sobre ele?
 

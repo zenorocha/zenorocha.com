@@ -1,12 +1,12 @@
 ---
 title: HTML5 - Local Storage
 description: "Imagine um cookie com muito mais espaço de armazenamento, onde os dados não são transitados a cada requisição de página e que, ainda por cima, não tenha data para expirar. Pronto, você imaginou a API Web Storage do HTML5."
-image: /images/html5.jpg
+image: /static/images/html5.jpg
 lang: pt-BR
 date: "2011-04-25"
 ---
 
-<!-- <p class="demo-download"><a href="http://labs.zenorocha.com/html5/local-storage/" target="_blank"><img class="botao" src="http://media.tumblr.com/tumblr_lk325lvHwF1qe3219.png"/></a> <a href="https://github.com/zenorocha/HTML5-Local-Storage" target="_blank"><img class="botao" src="http://media.tumblr.com/tumblr_lk325u7HMG1qe3219.png"/></a></p> -->
+<!-- <p class="demo-download"><a href="http://labs.zenorocha.com/html5/local-storage/" target="_blank"><img class="botao" src="/static/img/tumblr/tumblr_lk325lvHwF1qe3219.png"/></a> <a href="https://github.com/zenorocha/HTML5-Local-Storage" target="_blank"><img class="botao" src="/static/img/tumblr/tumblr_lk325u7HMG1qe3219.png"/></a></p> -->
 
 Imagine um **[cookie](http://pt.wikipedia.org/wiki/Cookie)** com muito mais espaço de armazenamento, onde os dados não são transitados a cada requisição de página e que, ainda por cima, não tenha data para expirar. Pronto, você imaginou a [API Web Storage](http://dev.w3.org/html5/webstorage/) do HTML5.
 

@@ -11,13 +11,13 @@ Se eu não me engano essa foi a terceira vez que eu participei e como sempre foi
 
 <!-- more -->
 
-![](http://media.tumblr.com/tumblr_lmck7tMK7W1qe3219.jpg)
+![](/static/img/tumblr/tumblr_lmck7tMK7W1qe3219.jpg)
 
 Após a definição dos temas que seriam discutidos ao longo do dia, começou a apresentação sobre um projeto de apoio ao empreendedor. Nessa hora estava mais concentrado no netbook pensando nas coisas do [site que estamos criando para o #beerblogging](https://github.com/victorfontes/beerblogging), do que na apresentação. Mas no fim [compartilho a mesma impressão que o Thiago Belem sobre o que ouvi](http://twitter.com/#!/TiuTalk/status/64351647194812417).
 
 Chegou então a hora do almoço, a melhor parte do dia na minha opinião. Foi muito bom bater um papo com os caras que eu admiro muito na área como o [Silvestre Mergulhão](http://mergulhao.info/), [Léo Balter](http://leobalter.net/) e [Thiago Belem](http://thiagobelem.net/).
 
-![](http://media.tumblr.com/tumblr_lmckanoS6c1qe3219.jpg)
+![](/static/img/tumblr/tumblr_lmckanoS6c1qe3219.jpg)
 
 No início da tarde começou o papo sobre Javascript com o [Léo Balter](http://leobalter.net/), que mostrou muita coisa legal usando o [QUnit](http://leobalter.net/tag/qunit/). Nessa hora eu e o [Pedro Marins](http://www.pedromarins.com) puxamos o sprint para melhorar o site do [OpenSpaceRio](http://openspacerio.org), mas como tinha compromisso tive que sair mais cedo.
 

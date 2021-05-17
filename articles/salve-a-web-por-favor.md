@@ -1,7 +1,7 @@
 ---
 title: Salve a web, por favor
 description: "Sempre que posso, gosto de divulgar iniciativas que procurem tornar a web um lugar mais legal. Foi assim quando escrevi sobre o humans.txt e está sendo assim agora."
-image: http://media.tumblr.com/tumblr_lt1x90OrsW1qe3219.jpg
+image: /static/img/tumblr/tumblr_lt1x90OrsW1qe3219.jpg
 lang: pt-BR
 date: "2011-10-14"
 ---

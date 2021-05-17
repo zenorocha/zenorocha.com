@@ -1,7 +1,7 @@
 ---
 title: Especial do Campeão - Globoesporte.com
 description: "Nesse último domingo tivemos a tão movimentada rodada final que definiria o campeão brasileiro de 2011. Com ela também viria o lançamento do meu primeiro produto desde que entrei no Globoesporte.com."
-image: http://media.tumblr.com/tumblr_lvvtnqRj2g1qe3219.png
+image: /static/img/tumblr/tumblr_lvvtnqRj2g1qe3219.png
 lang: pt-BR
 date: "2011-12-08"
 ---
@@ -40,8 +40,8 @@ Pode parecer besteira, mas existem pessoas muito ligadas sentimentalmente ao fut
 
 Valeu papai noel por ter passado mais cedo por aqui e ter me dado o presente de fazer isso. Para registrar o momento, além desse post, resolvi guardar alguns tweets.
 
-[![](http://media.tumblr.com/tumblr_lvvvvt7uh31qe3219.png)](http://twitter.com/#!/cmerigo/status/144092776525598720)
+[![](/static/img/tumblr/tumblr_lvvvvt7uh31qe3219.png)](http://twitter.com/#!/cmerigo/status/144092776525598720)
 
-[![](http://media.tumblr.com/tumblr_lvvvw7Pmmq1qe3219.png)](http://twitter.com/#!/jaderubini/status/144096582952960000)
+[![](/static/img/tumblr/tumblr_lvvvw7Pmmq1qe3219.png)](http://twitter.com/#!/jaderubini/status/144096582952960000)
 
-[![](http://media.tumblr.com/tumblr_lvvvxvxhNw1qe3219.png)](http://twitter.com/#!/guilhermesacco/status/144285875260489728)
+[![](/static/img/tumblr/tumblr_lvvvxvxhNw1qe3219.png)](http://twitter.com/#!/guilhermesacco/status/144285875260489728)

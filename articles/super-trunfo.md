@@ -8,10 +8,10 @@ date: "2012-10-22"
 
 <!-- <p class="demo-download">
   <a href="http://apps.facebook.com/super-trunfo" target="_blank">
-    <img src="http://media.tumblr.com/tumblr_lk325lvHwF1qe3219.png" class="botao"/>
+    <img src="/static/img/tumblr/tumblr_lk325lvHwF1qe3219.png" class="botao"/>
   </a>
   <a href="https://github.com/transparencia/super-trunfo" target="_blank">
-    <img src="http://media.tumblr.com/tumblr_lk325u7HMG1qe3219.png" class="botao"/>
+    <img src="/static/img/tumblr/tumblr_lk325u7HMG1qe3219.png" class="botao"/>
   </a>
 </p> -->
 

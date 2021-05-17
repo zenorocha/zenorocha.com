@@ -1,7 +1,7 @@
 ---
 title: O mês que eu palestrei no maior evento de JavaScript do universo - BrazilJS
 description: "Imagine o maior auditório da região sul do país. Agora imagine 1 mil pessoas juntas nesse lugar. E que tal imaginar 70 mil pessoas acompanhando ao vivo por todo canto do mundo. Isso não foi imaginação, isso foi o BrazilJS 2012 e foi assim que terminou minha jornada do mês de agosto."
-image: http://media.tumblr.com/tumblr_m9tpsvXqjc1qe3219.jpg
+image: /static/img/tumblr/tumblr_m9tpsvXqjc1qe3219.jpg
 slug: braziljs-2012
 lang: pt-BR
 date: "2012-09-04"
@@ -48,7 +48,7 @@ Quanto mais perto chegava o evento, mais preocupado eu ficava. Primeiro porque 
 
 ## Dia 1 - BrazilJS
 
-![](http://media.tumblr.com/tumblr_m9ts2i8V2J1qe3219.jpg)
+![](/static/img/tumblr/tumblr_m9ts2i8V2J1qe3219.jpg)
 
 Chegando no evento você já se deparava com uma fila assustadora de pessoas, muita gente mesmo. Outra coisa igualmente assustadora era a estrutura do lugar, enorme e impecável.
 
@@ -56,11 +56,11 @@ Em termos de palestras, muita coisa legal rolou no primeiro dia de conferência.
 
 [Eduardo Lundgren](https://twitter.com/eduardolundgren), da [Liferay](http://liferay.com/), usou os controles de um PlayStation Move para se movimentar em um cenário de Minecraft feito em WebGL.
 
-[![](http://media.tumblr.com/tumblr_m9tpagL2Au1qe3219.jpg)](https://twitter.com/#!/search/braziljs/slideshow/photos?url=https%3A%2F%2Fp.twimg.com%2FA1kWgUXCcAAIjsk.jpg)
+[![](/static/img/tumblr/tumblr_m9tpagL2Au1qe3219.jpg)](https://twitter.com/#!/search/braziljs/slideshow/photos?url=https%3A%2F%2Fp.twimg.com%2FA1kWgUXCcAAIjsk.jpg)
 
 E o [Renato Mangini](https://twitter.com/renatomangini), da Google, simplesmente controlou as luzes do auditório usando JavaScript!
 
-[![](http://media.tumblr.com/tumblr_m9tp26ISBN1qe3219.jpg)](https://twitter.com/#!/search/braziljs/slideshow/photos?url=https%3A%2F%2Fp.twimg.com%2FA1kLrmRCYAAdXpH.jpg)
+[![](/static/img/tumblr/tumblr_m9tp26ISBN1qe3219.jpg)](https://twitter.com/#!/search/braziljs/slideshow/photos?url=https%3A%2F%2Fp.twimg.com%2FA1kLrmRCYAAdXpH.jpg)
 
 Ao meu ver, os destaques ficaram para esses dois caras que utilizaram o JavaScript em algo muito além de fazer sites.
 
@@ -103,7 +103,7 @@ E não foi só o [Fat](http://twitter.com/fat) que ficou triste por não vir ao 
 
 Outras palestras que merecem destaque foram as de [Ben Alman](https://twitter.com/cowboy) falando sobre [Grunt](https://github.com/cowboy/grunt/) e por fim O Criador, [Brendan Eich](https://twitter.com/BrendanEich), CTO da Mozilla, falando sobre o estado do JavaScript.
 
-[![](http://media.tumblr.com/tumblr_m9tochWzbr1qe3219.jpg)](https://twitter.com/jaydson/status/242696925697167360/photo/1/large)
+[![](/static/img/tumblr/tumblr_m9tochWzbr1qe3219.jpg)](https://twitter.com/jaydson/status/242696925697167360/photo/1/large)
 
 Fora isso, outros palestrantes também representaram muito bem. [Davidson Fellipe](http://twitter.com/davidsonfellipe) abriu falando sobre performance, [Michal Budzynski](https://twitter.com/michalbe) sobre games e [Daniel Filho](http://twitter.com/danielfilho) sobre getUserMedia.
 
@@ -130,7 +130,7 @@ Muita gente contribuiu para tornar esse mês inesquecível, desde a galera da [L
 
 E é claro, não podia terminar esse depoimento sem agradecer a [Mari Camardelli](http://www.facebook.com/maricamardelli), [Jaydson Gomes](http://twitter.com/jaydson) e [Felipe Nascimento](http://twitter.com/felipenmoura). Foram eles que se dedicaram por meses em busca de organizar essa fantástica conferência, sem dúvida a melhor que eu já fui!
 
-[![](http://media.tumblr.com/tumblr_m9togxWmxg1qe3219.jpg)](https://twitter.com/#!/search/braziljs/slideshow/photos?url=http%3A%2F%2Finstagram.com%2Fp%2FO8-Qa1s098)
+[![](/static/img/tumblr/tumblr_m9togxWmxg1qe3219.jpg)](https://twitter.com/#!/search/braziljs/slideshow/photos?url=http%3A%2F%2Finstagram.com%2Fp%2FO8-Qa1s098)
 
 ## Outros depoimentos:
 

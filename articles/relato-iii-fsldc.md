@@ -1,7 +1,7 @@
 ---
 title: Relato - III FSLDC
 description: "Nesse último sábado, dia 04 de junho, rolou um evento de destaque no cenário do software livre do estado do Rio de Janeiro. Foi o III Fórum de Software Livre de Duque de Caxias que reuniu mais de 300 pessoas, dentre elas algumas personalidades como Rasmus Ledorf, criador do PHP e Jon “Maddog” Hall, Diretor Executivo da Linux Internacional."
-image: http://media.tumblr.com/tumblr_lmi7zscD5Z1qe3219.png
+image: /static/img/tumblr/tumblr_lmi7zscD5Z1qe3219.png
 lang: pt-BR
 date: "2011-06-10"
 ---
@@ -12,13 +12,13 @@ Confira logo mais como foi o evento e os bastidores da minha primeira palestra f
 
 <!-- more -->
 
-![](http://media.tumblr.com/tumblr_lmi8axgz1n1qe3219.jpg)
+![](/static/img/tumblr/tumblr_lmi8axgz1n1qe3219.jpg)
 
 Dando início a programação do dia ninguém mais do que [Jon “Maddog” Hall](http://pt.wikipedia.org/wiki/Jon_Hall). Queridíssimo por todos da comunidade open source contagiou o público com o seu carisma.
 
 Há dois 2 anos atrás, ouvi pela primeira vez uma palestra sua no [ENECOMP](http://2009.enecomp.org.br/) (Encontro Nacional de Estudantes de Computação) que rolou em Curitiba. Dessa vez o assunto foi o mesmo, o [Projeto Cauã](http://www.projectcaua.org/). O legal foi ver que mesmo depois de todo esse tempo ele continua muito empenhado no projeto.
 
-![](http://media.tumblr.com/tumblr_lmi9a17TC31qe3219.jpg)
+![](/static/img/tumblr/tumblr_lmi9a17TC31qe3219.jpg)
 
 Dizem que a jornada, muita vezes, é mais importante do que o destino.
 
@@ -40,7 +40,7 @@ Pessoalmente acho que foi bem legal, o feedback depois da apresentação também
 
 Se você perdeu, pode ver os slides no endereço [labs.zenorocha.com/html5/slides](http://labs.zenorocha.com/html5/slides) (use as setas do teclado para passar de slide). E se você foi, outros feedbacks são muito bem-vindos nos comentários :)
 
-![](http://media.tumblr.com/tumblr_lmk4bfWcMG1qe3219.jpg)
+![](/static/img/tumblr/tumblr_lmk4bfWcMG1qe3219.jpg)
 
 Sai da minha apresentação e peguei o fimzinho de um [Dojo](http://dojorio.wordpress.com/) comandado pelo [Bernardo Fontes](http://www.bernardofontes.net/blog/) ([@bbfontes](http://twitter.com/#!/bbfontes)) que, mais cedo, tinha dado sua palestra “Aprenda a programar, pergunte-me como.”
 
@@ -52,13 +52,13 @@ Mais tarde, o [Rodrigo Carvalho](http://www.rodrigocarvalho.blog.br/) mostrou f
 
 Depois uma das melhores palestras do evento, Tatiana Al-Chueyr ([@taty_alchueyr](http://twitter.com/#!/tati_alchueyr)) da Globo.com fez um *hands-on* de desenvolvimento de aplicativos para Android com Python. Deu até vontade de comprar um Android depois disso.
 
-![Rasmus Lerdorf - Criador do PHP](http://media.tumblr.com/tumblr_lmi99jb43K1qe3219.jpg)
+![Rasmus Lerdorf - Criador do PHP](/static/img/tumblr/tumblr_lmi99jb43K1qe3219.jpg)
 
 Pra fechar, a tão esperada palestra do [Rasmus Ledorf](http://pt.wikipedia.org/wiki/Rasmus_Lerdorf), criador do [PHP](http://br.php.net/).
 
 A sala estava completamente lotada e a apresentação melhor do que eu esperava. Ele contou da sua trajetória desde a criação do PHP até as novidades para a próxima versão. Sabia que a trajetória dele, depois de ter saído da faculdade, começou aqui no Brasil trabalhando em uma empresa de Porto Alegre?
 
-![](http://media.tumblr.com/tumblr_lmicbu9fYC1qe3219.png)
+![](/static/img/tumblr/tumblr_lmicbu9fYC1qe3219.png)
 
 Você pode conferir todos os slides em: [talks.php.net/show/fsldc](http://talks.php.net/show/fsldc)
 
@@ -74,7 +74,7 @@ Confira [aqui](http://forumsoftwarelivre.com.br/2011/arquivos/Programa02062011.
 
 Dia 18/06 na Urca, nos vemos lá!
 
-![](http://media.tumblr.com/tumblr_lmlfnwXTBp1qe3219.png)
+![](/static/img/tumblr/tumblr_lmlfnwXTBp1qe3219.png)
 
 ## Veja também
 

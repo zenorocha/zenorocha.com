@@ -1,7 +1,7 @@
 ---
 title: Don't Feed the Trolls
 description: "Tem sido cada vez maior o volume de pessoas que eu tenho lidado no dia-a-dia, seja em eventos, por email pessoal, grupos no facebook, issues no github, listas de email e tal. Em geral, muita gente bem intencionada, querendo realmente tirar dúvidas sobre linguagem X ou contribuir com ideias para projeto Y. Só que nem sempre é assim. Um dos desafios mais delicados é lidar com aquelas pessoas que fazem justamente o contrário. Por isso, me identifiquei muito com uma fala rápida da Nicole Sullivan na Fluent Conf em São Francisco que aborda justamente isso e resolvi compartilhar com vocês."
-image: http://media.tumblr.com/tumblr_m7szr6LDPt1qe3219.jpg
+image: /static/img/tumblr/tumblr_m7szr6LDPt1qe3219.jpg
 lang: pt-BR
 date: "2012-07-27"
 ---
@@ -29,4 +29,4 @@ Enfim, é realmente algo a se pensar, avaliar suas próprias atitudes e decisõe
 
 Por fim, já diziam as paredes do Rio, meu amigo Leo Balter e meu novo papel de parede do computador. O segredo é:
 
-![](http://media.tumblr.com/tumblr_m7sxvx6vf41qe3219.jpg)
+![](/static/img/tumblr/tumblr_m7sxvx6vf41qe3219.jpg)

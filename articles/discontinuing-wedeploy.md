@@ -1,7 +1,7 @@
 ---
 title: Discontinuing WeDeploy
 description: "One day you're creating a new project, another day you're ending an existing project. Like it or not, that's how life is. Today it's time to say goodbye to WeDeploy."
-image: /img/posts/discontinuing-wedeploy.jpg
+image: /static/img/posts/discontinuing-wedeploy.jpg
 date: "2019-03-18"
 ---
 

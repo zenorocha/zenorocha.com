@@ -1,7 +1,7 @@
 ---
 title: Obtendo mais performance com Smaller e ImageOptim
 description: "Recentemente mudei de sistema operacional, passei de um Linux para um Mac OSx. E como toda mudança muitas novidades vieram, nova interface, novo editor de código, novos softwares, enfim várias coisas. Só que uma das coisas que também mudou foram as ferramentas escolhidas para maximizar a performance das minhas aplicações web no client-side. E por isso, hoje eu vim falar rapidamente sobre elas."
-image: http://media.tumblr.com/tumblr_lur5ilxg451qe3219.jpg
+image: /static/img/tumblr/tumblr_lur5ilxg451qe3219.jpg
 lang: pt-BR
 date: "2011-11-15"
 ---
@@ -14,21 +14,21 @@ Só que uma das coisas que também mudou foram as ferramentas escolhidas para ma
 
 ## Smaller
 
-[![](http://media.tumblr.com/tumblr_lupsfuDJp91qe3219.jpg)](http://smallerapp.com/)
+[![](/static/img/tumblr/tumblr_lupsfuDJp91qe3219.jpg)](http://smallerapp.com/)
 
 A primeira dessas ferramentas é o [Smaller](http://smallerapp.com/), que comprime seus arquivos HTML, PHP, CSS e JavaScript, removendo assim todos os comentários e espaços em branco desnecessários do documento uma vez estando no ambiente de produção. Ele ainda oferece a opção de combinar diversos arquivos em um só, diminuindo assim o número de requisições HTTP ao servidor.
 
-![](http://media.tumblr.com/tumblr_luprp0MzX21qe3219.png)
+![](/static/img/tumblr/tumblr_luprp0MzX21qe3219.png)
 
 A compressão do CSS e JavaScript é feita através do [YUI Compressor](http://developer.yahoo.com/yui/compressor/), enquanto que a compressão do HTML e PHP é feita usando o [htmlcompressor](http://code.google.com/p/htmlcompressor/).
 
 ## Image Optim
 
-[![](http://media.tumblr.com/tumblr_lupsg8MpGz1qe3219.jpg)](http://imageoptim.pornel.net/)
+[![](/static/img/tumblr/tumblr_lupsg8MpGz1qe3219.jpg)](http://imageoptim.pornel.net/)
 
 A segunda ferramenta é o [ImageOptim](http://imageoptim.pornel.net/) indicada pelo meu amigo [Davidson Fellipe](http://fellipe.com/), que diminui drásticamente o tamanho dos arquivos de imagem e, portanto, aumentando a velocidade com que ele é carregado no servidor.
 
-![](http://media.tumblr.com/tumblr_luprttXtyj1qe3219.png)
+![](/static/img/tumblr/tumblr_luprttXtyj1qe3219.png)
 
 ## Concluindo
 

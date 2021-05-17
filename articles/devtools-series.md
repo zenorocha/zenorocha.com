@@ -1,7 +1,7 @@
 ---
 title: "Segredos do Chrome DevTools"
 description: "Nos últimos anos, as tecnologias client-side como HTML, CSS e JavaScript evoluíram de uma maneira absurda. Uma avalanche de APIs vieram com o HTML5, dezenas de novas propriedades foram adicionadas ao CSS3 e uma série de novidades chegaram no JavaScript a partir das novas especificações do ECMAScript."
-image: /images/devtools-opt.jpg
+image: /static/images/devtools-opt.jpg
 slug: devtools-series
 lang: pt-BR
 date: "2014-09-04"

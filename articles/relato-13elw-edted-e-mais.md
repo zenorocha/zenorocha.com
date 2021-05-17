@@ -1,7 +1,7 @@
 ---
 title: "Relato #13elw #edted ...e mais!"
 description: "Essa semana tive a oportunidade de participar de dois eventos muito legais que aconteceram nos dias 19 e 21 de maio aqui no Rio de Janeiro. Se você quer saber o que rolou nesses eventos e o que ainda está para rolar, aqui é o lugar."
-image: http://media.tumblr.com/tumblr_lljn2ySmfT1qe3219.png
+image: /static/img/tumblr/tumblr_lljn2ySmfT1qe3219.png
 lang: pt-BR
 date: "2011-05-23"
 ---
@@ -18,7 +18,7 @@ Apareci por lá na melhor hora, o coffee break! E já emendei na palestra da exc
 
 Depois fui para o debate sobre empreendedorismo que o [Rafael Lima](http://rafael.adm.br/) ([@rafaelp](http://twitter.com/rafaelp)) tava comandando. O pessoal do [#horaextra](http://horaextra.org) fez uma bagunça e botou todo mundo pra participar da roda. No final ele apresentou um workshop bem interessante de empreendedorismo, o [Bootstrappers](http://www.bootstrappers.com.br/workshop/).
 
-![](http://media.tumblr.com/tumblr_lmcj2yFD4E1qe3219.jpg)
+![](/static/img/tumblr/tumblr_lmcj2yFD4E1qe3219.jpg)
 
 Almoço reunido com a galera do [#horaextra](http://horaextra.org) e então palestra do Flávio Pripas ([@fpripas](http://twitter.com/#!/fpripas)). O tema era empreendedorismo digital, outra excelente palestra. Acho que ele acabou usando muito tempo para vender o seu próprio peixe, a empresa [byMK](http://www.bymk.com.br/). Mas as experiências relatadas foram bem legais.
 
@@ -43,7 +43,7 @@ Chegou a hora do almoço e pude conhecer o <a href="http://www.yogodoshi.com/blo
 
 Durante a tarde o dojo rolou solto com a galera do <a href="http://horaextra.org" target="_blank">#horaextra</a> e pra fechar uma mesa redonda com todos os palestrantes do evento e mais o <a href="http://henriquebastos.net/" target="_blank">Henrique Bastos</a> (<a href="http://twitter.com/#!/henriquebastos" target="_blank">@henriquebastos</a>) que, como sempre, falou muito e mexeu com o ânimo da galera.
 
-<img src="http://media.tumblr.com/tumblr_lmcjt1LOeP1qe3219.jpg"/>
+<img src="/static/img/tumblr/tumblr_lmcjt1LOeP1qe3219.jpg"/>
 
 Essa foi a primeira vez que eu participei de um EDTED e adorei bastante, ano que vem estarei de volta. O mais engraçado é que esse foi o evento que eu mais fiquei de pé e fora da sala das palestras, o que foi incrível porque pude conhecer pessoas incríveis.
 

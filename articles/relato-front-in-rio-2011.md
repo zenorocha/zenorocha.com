@@ -1,7 +1,7 @@
 ---
 title: Relato - Front in Rio 2011
 description: "Recentemente participei de mais um evento muito legal. Foi o Front in Rio 2011 (@frontinrio), o primeiro dedicado somente ao mercado front-end em solos cariocas."
-image: http://media.tumblr.com/tumblr_lmlfnwXTBp1qe3219.png
+image: /static/img/tumblr/tumblr_lmlfnwXTBp1qe3219.png
 lang: pt-BR
 date: "2011-06-24"
 ---
@@ -14,7 +14,7 @@ Confira [nesse link](https://picasaweb.google.com/109083148409729757227/FrontinR
 
 <!-- more -->
 
-![](http://media.tumblr.com/tumblr_ln9934NTHF1qe3219.xcf)
+![](/static/img/tumblr/tumblr_ln9934NTHF1qe3219.xcf)
 
 A grade aliou temas atuais com grandes nomes do mercado de front-end da capital fluminense.
 
@@ -22,7 +22,7 @@ Representando o HTML5 estivemos eu e o [Bernard De Luna](http://www.bernarddelu
 
 ## @font-face - Maujor
 
-![](http://media.tumblr.com/tumblr_lnb6lxaNnM1qe3219.jpg)
+![](/static/img/tumblr/tumblr_lnb6lxaNnM1qe3219.jpg)
 
 Abrindo o evento ninguém menos que Maurício Samy Silva, mais conhecido como [Maujor](http://maujor.com/blog) ([@maujor](https://twitter.com/#!/maujor)). Com sua excelente didática mostrou a técnica @font-face do CSS3, uma boa dica para os iniciantes ou pra quem não estava muito por dentro das novidades do CSS3.
 
@@ -37,7 +37,7 @@ Infelizmente não assisti a palestra inteira, pois precisava organizar algumas c
 
 ## Desbravando o HTML5 Boilerplate - Zeno Rocha
 
-![](http://media.tumblr.com/tumblr_ln9aopmYZ81qe3219.jpg)
+![](/static/img/tumblr/tumblr_ln9aopmYZ81qe3219.jpg)
 
 A sala estava muito cheia e meu objetivo era mostrar para aquelas pessoas interessadas em HTML5, o porquê de optar pelo HTML5 Boilerplate na hora de iniciar seus projetos, para então entender as funcionalidades por trás dele.
 
@@ -48,7 +48,7 @@ A sala estava muito cheia e meu objetivo era mostrar para aquelas pessoas intere
 
 Acabei terminando a palestra mais cedo do que planejava, não sei se era nervosismo ou se era fome :P (já que foi no último horário antes do almoço). De qualquer forma o feedback foi ótimo e acho que consegui passar minha mensagem para a galera.
 
-![](http://media.tumblr.com/tumblr_ln9ap4wLyn1qe3219.jpg)
+![](/static/img/tumblr/tumblr_ln9ap4wLyn1qe3219.jpg)
 
 _Detalhe para o único da platéia de cabelo branco, Maujor :P_
 

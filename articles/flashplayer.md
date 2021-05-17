@@ -1,7 +1,7 @@
 ---
 title: flashplayer
 description: "Ontem foi um dia pra lá de movimentado. Logo de manhã estava lendo rumores que, durante à tarde se tornaram oficiais, sobre a descontinuação do Adobe Flash Player para dispositivos móveis."
-image: http://media.tumblr.com/tumblr_lufz89zgIj1qe3219.jpg
+image: /static/img/tumblr/tumblr_lufz89zgIj1qe3219.jpg
 lang: pt-BR
 date: "2011-11-10"
 ---
@@ -65,7 +65,7 @@ Mobile não é mais o futuro e sim o presente.
 
 O gráfico abaixo, retirado do livro [Mobile First](http://www.abookapart.com/products/mobile-first) da editora [A Book Apart](http://www.abookapart.com/), aponta que em 2012 o acesso à internet por dispositivos móveis ultrapassa o acesso por PCs.
 
-![](http://media.tumblr.com/tumblr_luf7feGXKV1qe3219.png)
+![](/static/img/tumblr/tumblr_luf7feGXKV1qe3219.png)
 
 Meu ponto é, não existe uma “web mobile” e uma “web PC”, existe apenas uma web. E se a Adobe toma decisão de não tocar mais Flash em celulares, isso já é um grande sinal do que está por vir.
 

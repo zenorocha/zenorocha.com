@@ -1,12 +1,12 @@
 ---
 title: HTML5 - Async Scripts
 description: "O volume de mudanças que a nova especificação do HTML propõe para tag <script> é pequeno, mas chama atenção por resolver antigos problemas de performance. Nesse artigo vamos entender quais são esses problemas e dar uma passada geral nas mudanças que o HTML5 propõe para essa tag."
-image: http://media.tumblr.com/tumblr_lrovdkNq881qe3219.jpg
+image: /static/img/tumblr/tumblr_lrovdkNq881qe3219.jpg
 lang: pt-BR
 date: "2011-09-18"
 ---
 
-<!-- <p class="demo-download"><a href="http://labs.zenorocha.com/html5/script" target="_blank"><img class="botao" src="http://media.tumblr.com/tumblr_lk325lvHwF1qe3219.png"/></a> <a href="https://github.com/zenorocha/HTML5-Script" target="_blank"><img class="botao" src="http://media.tumblr.com/tumblr_lk325u7HMG1qe3219.png"/></a> -->
+<!-- <p class="demo-download"><a href="http://labs.zenorocha.com/html5/script" target="_blank"><img class="botao" src="/static/img/tumblr/tumblr_lk325lvHwF1qe3219.png"/></a> <a href="https://github.com/zenorocha/HTML5-Script" target="_blank"><img class="botao" src="/static/img/tumblr/tumblr_lk325u7HMG1qe3219.png"/></a> -->
 
 O volume de mudanças que a [nova especificação do HTML](http://www.w3.org/TR/html5/scripting-1.html#attr-script-async) propõe para tag `<script>` é pequeno, mas chama atenção por resolver antigos problemas de performance.
 
@@ -36,7 +36,7 @@ Uma famosa técnica de otimização de velocidade é servir imagens em múltiplo
 
 Navegadores antigos, fazem o carregamento dos scripts um após o outro, veja como funciona no Firefox 3.0.
 
-![](http://media.tumblr.com/tumblr_lrq5znRVSb1qe3219.gif)
+![](/static/img/tumblr/tumblr_lrq5znRVSb1qe3219.gif)
 
 Alguns browsers já fazem downloads em paralelo, mas o problema de renderização persiste.
 
@@ -72,7 +72,7 @@ Nesse caso, o *async* prevalece e o *defer* é ignorado. Isso possibilita que
 
 ## Compatibilidade
 
-[![](http://media.tumblr.com/tumblr_lroul8WafP1qe3219.jpg)](http://caniuse.com/script-async) A implementação do atributo _async_ continua lenta em alguns navegadores. A Microsoft, por exemplo, só [anunciou o suporte para este atributo na versão 10](http://msdn.microsoft.com/en-us/ie/hh272905) que nem foi lançada ainda. Melhor do que o Opera que nem previsão de suporte oferece. [![](http://media.tumblr.com/tumblr_lroundIovj1qe3219.jpg)](http://caniuse.com/script-defer) Já para o atributo _defer_ a história é outra, sua implementação pela Microsoft é antiga e outros players têm se adaptado há pouco tempo.
+[![](/static/img/tumblr/tumblr_lroul8WafP1qe3219.jpg)](http://caniuse.com/script-async) A implementação do atributo _async_ continua lenta em alguns navegadores. A Microsoft, por exemplo, só [anunciou o suporte para este atributo na versão 10](http://msdn.microsoft.com/en-us/ie/hh272905) que nem foi lançada ainda. Melhor do que o Opera que nem previsão de suporte oferece. [![](/static/img/tumblr/tumblr_lroundIovj1qe3219.jpg)](http://caniuse.com/script-defer) Já para o atributo _defer_ a história é outra, sua implementação pela Microsoft é antiga e outros players têm se adaptado há pouco tempo.
 
 ## Conclusão
 

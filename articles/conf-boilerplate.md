@@ -14,10 +14,10 @@ date: "2012-11-21"
 
 <!-- <p class="demo-download">
   <a href="http://braziljs.github.io/conf-boilerplate/">
-    <img src="http://media.tumblr.com/tumblr_lk325lvHwF1qe3219.png">
+    <img src="/static/img/tumblr/tumblr_lk325lvHwF1qe3219.png">
   </a>
   <a href="https://github.com/braziljs/conf-boilerplate">
-    <img src="http://media.tumblr.com/tumblr_lk325u7HMG1qe3219.png">
+    <img src="/static/img/tumblr/tumblr_lk325u7HMG1qe3219.png">
   </a>
 </p> -->
 

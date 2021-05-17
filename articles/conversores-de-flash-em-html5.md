@@ -1,7 +1,7 @@
 ---
 title: Conversores de Flash em HTML5 e a disputa entre Google e Adobe
 description: "Um dos recentes lançamentos da Google reavivou a briguinha Flash vs HTML5. Seu nome é Swiffy e é mais um que entra pra galeria dos conversores de Flash para HTML5, abrindo inúmeras possibilidades para dispositivos móveis."
-image: http://media.tumblr.com/tumblr_lnvzxjaOFe1qe3219.jpg
+image: /static/img/tumblr/tumblr_lnvzxjaOFe1qe3219.jpg
 slug: conversores-de-flash-em-html5
 lang: pt-BR
 date: "2011-07-11"
@@ -15,7 +15,7 @@ Entenda como funcionam esses conversores e se vale mesmo a pena usá-los hoje.
 
 ## Google Swiffy
 
-![](http://media.tumblr.com/tumblr_lnw1ljf6Td1qe3219.jpg)
+![](/static/img/tumblr/tumblr_lnw1ljf6Td1qe3219.jpg)
 
 Junto com a recente maré de lançamentos da Google que trouxeram diversas novidades como [Google+](https://plus.google.com), veio também o [Swiffy](http://swiffy.googlelabs.com/). A ferramenta, disponível no Google Labs, está em fase de testes, mas já converte arquivos SWF 8 e ActionScript 2.0 para rodar em navegadores que aceitam HMTL 5.
 
@@ -70,7 +70,7 @@ O que eu quero dizer é que mesmo se sua conversão tiver funcionado 100% (o que
 
 ## Adobe Wallaby
 
-![](http://media.tumblr.com/tumblr_lnw1arknKr1qe3219.jpg)
+![](/static/img/tumblr/tumblr_lnw1arknKr1qe3219.jpg)
 
 Demonstrada numa conferência da empresa no ano passado, a Adobe liberou para o público em março a ferramenta [Wallaby](http://labs.adobe.com/technologies/wallaby/), pioneira na conversão de arquivos no formato .fla para páginas usando HTML5.
 
@@ -84,7 +84,7 @@ Agora vamos ao que interessa, nosso teste de conversão.
 
 Lembrando que estes arquivos .fla devem ser gerados apenas na versão CS5 do Flash.
 
-<span>![](http://media.tumblr.com/tumblr_lo6pe7o8FB1qe3219.jpg)</span>
+<span>![](/static/img/tumblr/tumblr_lo6pe7o8FB1qe3219.jpg)</span>
 
 Para o teste com a ferramenta da Adobe utilizei aquele mesmo jogo acima do Torpedo.
 

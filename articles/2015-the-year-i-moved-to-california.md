@@ -1,7 +1,7 @@
 ---
 title: "2015: The year I moved to California"
 description: "Moving to another country means starting a life from zero. I knew that before getting myself into it, but you only realize how hard it is when you actually do it."
-image: /images/ikea-opt.jpg
+image: /static/images/ikea-opt.jpg
 date: "2016-01-07"
 ---
 

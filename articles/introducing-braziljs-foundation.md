@@ -1,7 +1,7 @@
 ---
 title: Introducing BrazilJS Foundation
 description: "Today the news comes straight from Porto Alegre! At this moment, I’m at the 13th FISL (Free Software Internacional Forum). For those who doesn’t know, this is one of the most relevant events of the open source community in Latin America. The coolest things here is that it doesn’t matter which technology do you deal with, the idea is just gather people together."
-image: http://media.tumblr.com/tumblr_m7q4l7xknt1qe3219.png
+image: /static/img/tumblr/tumblr_m7q4l7xknt1qe3219.png
 date: "2012-07-26"
 ---
 
@@ -17,7 +17,7 @@ For the first time in the history of this event we have a JavaScript island, tha
 
 <!-- more -->
 
-![](http://media.tumblr.com/tumblr_m7s507SKUQ1qe3219.jpg)
+![](/static/img/tumblr/tumblr_m7s507SKUQ1qe3219.jpg)
 
 And because of that we decided advance the launch of this project. We are working in so many things (that for now are secret :P) to enhance the JavaScript community in Brazil.
 

@@ -7,7 +7,7 @@ date: "2011-11-22"
 
 — If you prefer, read the portuguese version [here](https://gist.github.com/1385464).
 
-![](http://media.tumblr.com/tumblr_luu210IMt81qe3219.jpg)
+![](/static/img/tumblr/tumblr_luu210IMt81qe3219.jpg)
 
 I love Github, seriously, I really do. Also, my super coder friend Clark Kent loves too.
 
@@ -23,17 +23,17 @@ A few days after it he had an idea:
 
 So he went to [pages.github.com](http://pages.github.com) and discovered that he just needed to go to Admin…
 
-![](http://media.tumblr.com/tumblr_luv2cxtXZh1qe3219.png)
+![](/static/img/tumblr/tumblr_luv2cxtXZh1qe3219.png)
 
 And check the ‘GitHub Pages’ check box.
 
-![](http://media.tumblr.com/tumblr_luv2b5LjAU1qe3219.png)
+![](/static/img/tumblr/tumblr_luv2b5LjAU1qe3219.png)
 
 As every programmer, he’s a lazy guy.
 
 So when this pop-up appeared, he just clicked on the ‘Automatic GitHub Page Generator’. Even because this generated page is already awesome and he doesn’t need to spend time coding it.
 
-![](http://media.tumblr.com/tumblr_luv2dzlLbp1qe3219.png)
+![](/static/img/tumblr/tumblr_luv2dzlLbp1qe3219.png)
 
 Cool, huh?! Now he can show to everybody his nice project at:
 
@@ -65,6 +65,6 @@ What a happy ending!
 
 And that’s all folks, I hope you start using hub.me too :)
 
-![](http://media.tumblr.com/tumblr_luu36opVbK1qe3219.jpg)
+![](/static/img/tumblr/tumblr_luu36opVbK1qe3219.jpg)
 
 - [hub.me](http://github.com/zenorocha/hub.me/) #ftw

@@ -13,7 +13,7 @@ function Post({ post }) {
   const title = `${post.title} // Zeno Rocha`
   const description = post.description || ''
   const url = `https://zenorocha.com/${post.slug}`
-  const image = post.image ? `https://zenorocha.com/static${post.image}` : 'https://zenorocha.com/static/images/home-opt.jpg'
+  const image = post.image ? `https://zenorocha.com${post.image}` : 'https://zenorocha.com/static/images/home-opt.jpg'
 
   return <div className="single">
     <Head>

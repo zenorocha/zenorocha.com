@@ -1,7 +1,7 @@
 ---
 title: "Empty Cup, New Tea"
 description: "Since I joined GitHub on Sep 14, 2010 I've been creating open source projects like there's no tomorrow. Several of them ended up being very easy to maintain but there are few which requires tons of energy. Some of those projects are very important to the community and, in the last few months, I didn't have time enough to take care of them the way they deserve. So I needed to fix that."
-image: /images/new-tea-opt.jpg
+image: /static/images/new-tea-opt.jpg
 slug: empty-cups-new-tea
 date: "2014-01-27"
 ---

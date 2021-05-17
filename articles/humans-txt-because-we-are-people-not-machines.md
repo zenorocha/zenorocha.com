@@ -54,6 +54,6 @@ Existem complementos que ao identificarem esse arquivo no servidor, adicionam um
 
 **[Mozilla Firefox](https://addons.mozilla.org/pt-BR/firefox/addon/humanstxt/) - [Google Chrome](https://chrome.google.com/webstore/detail/pocdghmbbodjiclginddlaimdaholhfk)**
 
-Eu já criei o **[meu](https://zenorocha.com/humans.txt)**, e você?
+Eu já criei o meu, e você?
 
 http://humanstxt.org - Compartilhe essa idéia.

@@ -14,7 +14,7 @@ export default function Main({ children }) {
             {title}
           </h1>
           <div className="post-image" style={
-            image ? { backgroundImage: `url(/static${image})`} : {}
+            image ? { backgroundImage: `url(${image})`} : {}
           } />
           <h2 className="post-subtitle">
             <BlogDate dateString={date} />

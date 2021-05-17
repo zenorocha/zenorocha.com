@@ -1,7 +1,7 @@
 ---
 title: "My way"
 description: "Sempre gosto de ler histórias sobre como as pessoas que eu admiro tomaram suas decisões ao longo da vida. É uma dose de inspiração tentar entender o rumo dos acontecimentos..."
-image: /img/posts/myway-maujor.jpg
+image: /static/img/posts/myway-maujor.jpg
 lang: pt-BR
 date: "2012-12-27"
 ---
@@ -69,7 +69,7 @@ Ainda em **Maio**, faria minha primeira palestra fora do Brasil.
 
 A pressão era gigante, seria o único representante do país em uma das conferências mais relevantes sobre JavaScript no mundo, a [JSConf](http://jsconf.com.ar), em sua primeira edição na Argentina.
 
-![JSConfar](http://media.tumblr.com/tumblr_m4j8x1YIQ31qe3219.jpg)
+![JSConfar](/static/img/tumblr/tumblr_m4j8x1YIQ31qe3219.jpg)
 
 A semana antes do evento foi extremamente tensa, principalmente porque nunca tinha dado uma palestra em inglês.
 
@@ -81,7 +81,7 @@ Em **Junho**, palestrei no [Front in Rio](http://frontinrio.com.br) pela segunda
 
 Mas o que realmente marcou esse mês foi minha demissão da Globo.
 
-![](http://media.tumblr.com/tumblr_m6wvq4EQWG1qe3219.jpg)
+![](/static/img/tumblr/tumblr_m6wvq4EQWG1qe3219.jpg)
 
 Por mais que eu estivesse adorando trabalhar lá, o convite do [Eduardo Lundgren](https://twitter.com/eduardolundgren), que havia assistido minha palestra lá no [Pernambuco.JS](http://www.pernambucojs.com/), e a missão da Liferay me conquistaram, então resolvi partir para essa nova empresa.
 
@@ -139,7 +139,7 @@ Ainda mais com a participação simplesmente épica do Maujor.
 
 Em **Setembro**, é publicada minha primeira entrevista para uma revista de circulação nacional [(veja como foi)](/o-futuro-da-web-com-html5).
 
-![](http://media.tumblr.com/tumblr_m9tzipqmM71qe3219.jpg)
+![](/static/img/tumblr/tumblr_m9tzipqmM71qe3219.jpg)
 
 Em **Outubro**, lanço junto com [Daniel Filho](http://twitter.com/danielfilho) o [Zone Of Front-Enders](http://zofe.com.br), podcast focado em desenvolvimento front-end [(veja como foi)](/zofe-0).
 

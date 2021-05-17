@@ -2,7 +2,7 @@
 title: "Publicando plugins no novo repositório jQuery"
 link: "http://jquerybrasil.org/como-publicar-um-plugin-no-novo-repositorio-do-jquery/"
 description: "Depois de meses fora do ar, finalmente o novo repositório oficial de plugins jQuery está no ar! Muita coisa mudou para você que já cria plugins jQuery e esse artigo está aqui para lhe ensinar como publicar seu plugin por lá."
-image: /img/posts/new-jquery-plugins.jpg
+image: /static/img/posts/new-jquery-plugins.jpg
 slug: jquery-plugins
 skip: true
 lang: pt-BR

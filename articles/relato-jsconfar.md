@@ -1,7 +1,7 @@
 ---
 title: JSConf Argentina - Um relato da minha primeira palestra fora do Brasil
 description: "Pense numa semana corrida! Sabe aquelas em que você precisa entregar um projeto na empresa e outro trabalho na faculdade? Então, foi assim que começou a minha, e que fecharia com o evento no sábado em Buenos Aires. Ainda faltava preparar os slides e me preparar para dar aquela que seria minha primeira palestra inteira em inglês."
-image: http://media.tumblr.com/tumblr_m4j7ztkXu91qe3219.jpg
+image: /static/img/tumblr/tumblr_m4j7ztkXu91qe3219.jpg
 slug: relato-jsconfar
 lang: pt-BR
 date: "2012-05-25"
@@ -15,11 +15,11 @@ A missão era muito importante, representar o Brasil em um evento mundialmente c
 
 <!-- more -->
 
-[![](http://media.tumblr.com/tumblr_m4j8mxWMLX1qe3219.jpg)](http://jsconf.com.ar/)
+[![](/static/img/tumblr/tumblr_m4j8mxWMLX1qe3219.jpg)](http://jsconf.com.ar/)
 
 Madrugada vem, madruga vai e os slides começavam a sair, mas o que me deixava inseguro mesmo era o fato de ter que palestrar em inglês, não que o meu inglês fosse péssimo, o problema é que ensinar algo em outra língua se mostrava cada vez mais difícil do que eu imaginava.
 
-![](http://media.tumblr.com/tumblr_m4j8wnLFVW1qe3219.jpg)
+![](/static/img/tumblr/tumblr_m4j8wnLFVW1qe3219.jpg)
 
 Abre parênteses. Aquela semana também era o lançamento de Diablo 3, só se falava nisso! Não que eu seja um viciado em games, já joguei e muito na adolescência, hoje não mais, só que a tentação era grande.
 
@@ -42,7 +42,7 @@ Chego no aeroporto, me dou conta que esqueci o passaporte. Perco o voo e o âni
 
 ## Enfim, Argentina.
 
-![](http://media.tumblr.com/tumblr_m4j8x1YIQ31qe3219.jpg)
+![](/static/img/tumblr/tumblr_m4j8x1YIQ31qe3219.jpg)
 
 O lugar escolhido para o evento foi o _Centro Metropolitano de Diseño_ em Buenos Aires. Nunca vi uma estrutura tão boa para um evento. Entre um _coffee break_ e outro, duas trilhas abordavam os temas mais atuais que envolviam o mundo JavaScript.
 
@@ -52,7 +52,7 @@ Já no segundo dia, o evento começou com a que foi pra mim a melhor palestra do
 
 O que mais me chamou atenção no evento inteiro e me colocou para refletir foi essa singela frase que ele usou em um dos seus slides.
 
-[![](http://media.tumblr.com/tumblr_m4ja81ScE01qe3219.jpg)](http://wordsbyf.at/2012/05/21/jsconf-argentina-2012/)
+[![](/static/img/tumblr/tumblr_m4ja81ScE01qe3219.jpg)](http://wordsbyf.at/2012/05/21/jsconf-argentina-2012/)
 
 Também muito descontraída foi a palestra do Max Odgen ([@maxogden](https://twitter.com/#!/maxogden)), a última do evento, falando sobre sua experiência utilizando HTML5 na construção de apps para iOS.
 
@@ -62,29 +62,29 @@ Mas antes disso, um pouco antes do final do segundo dia, teve minha a minha pale
 
 Sala cheia, público super receptivo as brincadeiras e atentos ao conteúdo ([slides aqui](https://github.com/zenorocha/talks/tree/master/2012/jsconf/)).
 
-![](http://media.tumblr.com/tumblr_m4j90idYAt1qe3219.jpg)
+![](/static/img/tumblr/tumblr_m4j90idYAt1qe3219.jpg)
 
 Exceto na hora em que eu resolvi fazer isso…
 
-![](http://media.tumblr.com/tumblr_m4jyo4kMnC1qe3219.jpg)
+![](/static/img/tumblr/tumblr_m4jyo4kMnC1qe3219.jpg)
 
 HAHAHAHAHA!
 
-[![](http://media.tumblr.com/tumblr_m4jacwlSd81qe3219.jpg)](https://twitter.com/mmednik/status/204309435391295488)
+[![](/static/img/tumblr/tumblr_m4jacwlSd81qe3219.jpg)](https://twitter.com/mmednik/status/204309435391295488)
 
 Brincadeiras à parte, foi tudo muito legal, o feedback positivo e a missão cumprida.
 
-[![](http://media.tumblr.com/tumblr_m4ja8bMqc71qe3219.jpg)](https://twitter.com/jsconfar/statuses/202898792800980992)
+[![](/static/img/tumblr/tumblr_m4ja8bMqc71qe3219.jpg)](https://twitter.com/jsconfar/statuses/202898792800980992)
 
-[![](http://media.tumblr.com/tumblr_m4jaaoqxRB1qe3219.jpg)](https://twitter.com/palamago/status/204307720764010497)
+[![](/static/img/tumblr/tumblr_m4jaaoqxRB1qe3219.jpg)](https://twitter.com/palamago/status/204307720764010497)
 
-[![](http://media.tumblr.com/tumblr_m4jafsXrVJ1qe3219.jpg)](https://twitter.com/dcaliri/status/204307039604838400)
+[![](/static/img/tumblr/tumblr_m4jafsXrVJ1qe3219.jpg)](https://twitter.com/dcaliri/status/204307039604838400)
 
 [“Excelente síntesis de JSConfar por Zeno Rocha” - NodeJS en español](http://www.nodejs.es/excelente-sintesis-jsconfar-zeno-rocha/)
 
 E não teria como eu terminar esse relato sem citar esses caras, que me apoiaram muito durante os dias por lá e me passaram a confiança pra chegar lá na frente de todo mundo e  mandar bem.
 
-![](http://media.tumblr.com/tumblr_m4jaxgUNUk1qe3219.jpg)
+![](/static/img/tumblr/tumblr_m4jaxgUNUk1qe3219.jpg)
 
 Da esquerda para direita. Eu, Giovanni Keppelen ([@keppelen](https://twitter.com/#!/keppelen)) do Peixe Urbano (RJ), Flávio Silva ([@flaviosil](https://twitter.com/#!/flaviosil)) também do Peixe Urbano (RJ), Jaydson Gomes ([@jaydson](https://twitter.com/#!/jaydson)) do Terra (RS) e Helder Santana ([@helder](https://twitter.com/#!/helder)) da Dafiti (SP).
 

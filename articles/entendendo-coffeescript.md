@@ -1,7 +1,7 @@
 ---
 title: Entendendo CoffeeScript
 description: "Quem é do mundo Ruby on Rails já deve estar cansado de toda a polêmica acerca do CoffeeScript meses atrás. Se você não acompanhou, vou tentar resumir a história."
-image: http://media.tumblr.com/tumblr_loffq1Ym931qe3219.png
+image: /static/img/tumblr/tumblr_loffq1Ym931qe3219.png
 lang: pt-BR
 date: "2011-08-01"
 ---
@@ -12,7 +12,7 @@ Quem é do mundo [Ruby on Rails](http://rubyonrails.org/) já deve estar cansado
 
 <!-- more -->
 
-![](http://media.tumblr.com/tumblr_loffar2Trj1qe3219.jpg)
+![](/static/img/tumblr/tumblr_loffar2Trj1qe3219.jpg)
 
 Não vou me delongar nessa história, até porque não é esse o objetivo desse artigo. Se você quiser saber mais, pode conferir o que o [Fábio Akita](http://akitaonrails.com/) ([@akitaOnRails](http://twitter.com/#!/akitaOnRails)), referência no mundo Rails, [escreveu sobre o assunto](http://akitaonrails.com/2011/04/16/a-controversia-coffeescript).
 
@@ -44,7 +44,7 @@ O que seria uma decisão não muito inteligente, pelo menos no ambiente de produ
 
 Por conta disso, existe um compilador em [Node.js](http://nodejs.org/) para pré-processar o arquivo.
 
-![](http://media.tumblr.com/tumblr_lofh28YIKN1qe3219.png)
+![](/static/img/tumblr/tumblr_lofh28YIKN1qe3219.png)
 
 Portanto, se você quer começar a usar CoffeeScript pra valer, tenha mente que você vai precisar de [Node.js](http://nodejs.org/) e seu respectivo instalador de pacotes, o [Npm](http://npmjs.org/).
 

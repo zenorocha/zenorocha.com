@@ -1,7 +1,7 @@
 ---
 title: "Chromebook: First Impressions"
 description: "Recently I received a special gift for BrazilJS Foundation from the hands of Renato Mangini, Developer Relations at Google, a Chromebook. The computer is extremely fast and the operation system is different from all I ever used. So today I'm here to tell my first impressions about it."
-image: /img/posts/chromebook.jpg
+image: /static/img/posts/chromebook.jpg
 date: "2013-03-06"
 ---
 

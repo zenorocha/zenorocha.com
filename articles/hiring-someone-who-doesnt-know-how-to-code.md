@@ -1,7 +1,7 @@
 ---
 title: Hiring someone who doesn't know how to code
 description: "Last September, Brian came to me and said:“We need to find a Robin for you. I had a LOT of things on my plate so I loved the idea!"
-image: /img/posts/hiring-someone-who-doesnt-know-how-to-code.jpg
+image: /static/img/posts/hiring-someone-who-doesnt-know-how-to-code.jpg
 date: "2017-03-08"
 ---
 

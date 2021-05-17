@@ -1,7 +1,7 @@
 ---
 title: A vida além do jQuery - Tech Talk
 description: "Quando anunciei minha vinda para Recife, muita gente veio me perguntar se eu vinha pra algum evento ou algo do tipo."
-image: http://media.tumblr.com/tumblr_m8t5ikct1b1qe3219.jpg
+image: /static/img/tumblr/tumblr_m8t5ikct1b1qe3219.jpg
 slug: a-vida-alem-do-jquery
 lang: pt-BR
 date: "2012-08-20"
@@ -21,7 +21,7 @@ Assim que divulgamos o [evento no Facebook](http://www.facebook.com/events/27473
 
 A repercussão extrapolou o Brasil e parou até no blog dos caras da Yahoo!
 
-[![](http://media.tumblr.com/tumblr_m92pywt3sT1qe3219.jpg)](http://www.yuiblog.com/blog/2012/08/15/yui-tech-talks-at-liferay-brasil-this-week/)
+[![](/static/img/tumblr/tumblr_m92pywt3sT1qe3219.jpg)](http://www.yuiblog.com/blog/2012/08/15/yui-tech-talks-at-liferay-brasil-this-week/)
 
 A seguir você pode conferir essa Tech Talk dividida em três partes.
 
@@ -46,6 +46,6 @@ _OBS: Para melhor visualização recomendo colocar em HD._
 
 O resultado foi excelente, deu pra conhecer vários profissionais excelentes e que estão mudando o cenário de tecnologia do nordeste, comer muita pizza e de quebra aprender mais JavaScript!
 
-![](http://media.tumblr.com/tumblr_m9363g5e3g1qe3219.jpg)
+![](/static/img/tumblr/tumblr_m9363g5e3g1qe3219.jpg)
 
 Fico na torcida para que dessa possam surgir outras iniciativas. Até a próxima!

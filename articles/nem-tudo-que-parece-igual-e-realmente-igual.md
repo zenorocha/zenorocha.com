@@ -1,7 +1,7 @@
 ---
 title: Nem tudo que parece igual é realmente igual...
 description: "Por ser uma linguagem fracamente tipada, uma coisa que confunde muita gente que está começando com Javascript são os operadores de comparação."
-image: http://media.tumblr.com/tumblr_lq9if2Mh5J1qe3219.jpg
+image: /static/img/tumblr/tumblr_lq9if2Mh5J1qe3219.jpg
 lang: pt-BR
 date: "2011-08-24"
 ---
@@ -62,11 +62,11 @@ Na dúvida, saiba que:
 
 ## Operador de igualdade
 
-![](http://media.tumblr.com/tumblr_lq9ktrs14y1qe3219.jpg)
+![](/static/img/tumblr/tumblr_lq9ktrs14y1qe3219.jpg)
 
 ## Operador de igualdade estrita
 
-![](http://media.tumblr.com/tumblr_lq9ktg6aXi1qe3219.jpg)
+![](/static/img/tumblr/tumblr_lq9ktg6aXi1qe3219.jpg)
 
 ## Conclusão
 

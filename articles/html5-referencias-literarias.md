@@ -1,7 +1,7 @@
 ---
 title: HTML5 - Referências Literárias
 description: "Essa semana chegaram alguns livros que eu comprei dos EUA sobre HTML5, então pensei: “Por quê não listar algumas referências literárias pra quem também deseja se aprofundar no assunto?”"
-image: http://media.tumblr.com/tumblr_lmcim2rYdE1qe3219.jpg
+image: /static/img/tumblr/tumblr_lmcim2rYdE1qe3219.jpg
 lang: pt-BR
 date: "2011-06-05"
 ---
@@ -12,11 +12,11 @@ Essa semana chegaram alguns livros que eu comprei dos EUA sobre HTML5, então pe
 
 Pra começar vamos aos livros que eu ainda não li, mas que certamente estarão na minha estante em breve.
 
-![](http://media.tumblr.com/tumblr_lmcc8bW4OR1qe3219.jpg)
+![](/static/img/tumblr/tumblr_lmcc8bW4OR1qe3219.jpg)
 
 Um deles é o **[Introducing HTML5 (Voices that Matters)](http://introducinghtml5.com/)**, que conta com um time sensacional de autores por trás dele, **[Bruce Lawson](http://www.brucelawson.co.uk/)** (**[@brucel](http://twitter.com/#!/brucel)**) e **[Remy Sharp](http://remysharp.com/)** (**[@rem](http://twitter.com/#!/rem)**) uns dos principais evangelistas de HTML5 hoje em dia. Na **[Amazon](http://www.amazon.com/gp/product/0321687299?ie=UTF8&tag=inht-20&linkCode=as2&camp=1789&creative=9325&creativeASIN=0321687299)** você consegue encontrar o livro por cerca de 22 dólares.
 
-![](http://media.tumblr.com/tumblr_lmccc9n9kP1qe3219.jpg)
+![](/static/img/tumblr/tumblr_lmccc9n9kP1qe3219.jpg)
 
 Outro que também deve ser muito bom é o **[HTML5: Up and Running](http://oreilly.com/catalog/9780596806033), **escrito pelo Mark Pilgrim.
 
@@ -26,7 +26,7 @@ Você pode comprá-lo na **[Amazon](http://www.amazon.com/HTML5-Up-Running-Mark
 
 Agora os livros que chegaram essa semana. **[HTML5 For Web Designers](http://www.abookapart.com/products/html5-for-web-designers)** do **[Jeremy Keith](http://adactio.com/)** e **[CSS3 For Web Designers](http://www.abookapart.com/products/css3-for-web-designers) **do **[Dan Cederholm](http://simplebits.com/)**, ambos da editora **[A Book Apart](http://www.abookapart.com/)**, os mesmos caras que produzem o site **[A List Apart](http://www.alistapart.com/)**, onde você encontra, na minha opinião, os melhores artigos da internet quando o assunto é desenvolvimento web.
 
-![](http://media.tumblr.com/tumblr_lmbn1df9WV1qe3219.jpg)
+![](/static/img/tumblr/tumblr_lmbn1df9WV1qe3219.jpg)
 
 Na verdade eu já tinha lido esse livro, graças ao **[Marlus Araujo](http://marlus.com/)** (**[@marlus](http://twitter.com/#!/marlus)**) que me emprestou alguns meses atrás no **[Encontros Digitais](http://encontrosdigitais.wordpress.com/)** que rolou na **[6D](http://www.6d.com.br/)**.
 
@@ -38,7 +38,7 @@ O livro é ótimo, a leitura é rápida e objetiva, recomendo muito. E se até a
 
 Se você está nessa área e ainda não sabe inglês pare de chorar e vai logo aprender.
 
-![](http://media.tumblr.com/tumblr_lq78xs3No71qe3219.gif)Mas enquanto isso não acontece, você já pode comprar o livro [HTML5: A linguaguem de marcação que revolucionou a web](http://www.livrohtml5.com.br/), do mestre **[Maujor](http://www.maujor.com/) **(**[@maujor](http://twitter.com/#!/maujor)**).
+![](/static/img/tumblr/tumblr_lq78xs3No71qe3219.gif)Mas enquanto isso não acontece, você já pode comprar o livro [HTML5: A linguaguem de marcação que revolucionou a web](http://www.livrohtml5.com.br/), do mestre **[Maujor](http://www.maujor.com/) **(**[@maujor](http://twitter.com/#!/maujor)**).
 
 No [site da editora Novatec](http://www.editoranovatec.com.br/livros/html5/), você deve encontrar ele por cerca de 70 reais. Eu já estou lendo e recomendo muitíssimo.
 

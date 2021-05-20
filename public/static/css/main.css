@@ -697,40 +697,40 @@ figure {
 
 @font-face {
   font-family: "Neuzeit Grotesk Bold";
-  src: url("../font/NeuzeitGrotesk-Bold.woff2") format("woff2"),
-    url("../font/NeuzeitGrotesk-Bold.woff") format("woff");
+  src: url("/static/font/NeuzeitGrotesk-Bold.woff2") format("woff2"),
+    url("/static/font/NeuzeitGrotesk-Bold.woff") format("woff");
   font-weight: normal;
   font-style: normal;
 }
 
 @font-face {
   font-family: "Poppins Light";
-  src: url("../font/Poppins-Light.woff2") format("woff2"),
-    url("../font/Poppins-Light.woff") format("woff");
+  src: url("/static/font/Poppins-Light.woff2") format("woff2"),
+    url("/static/font/Poppins-Light.woff") format("woff");
   font-weight: normal;
   font-style: normal;
 }
 
 @font-face {
   font-family: "Poppins Bold";
-  src: url("../font/Poppins-Bold.woff2") format("woff2"),
-    url("../font/Poppins-Bold.woff") format("woff");
+  src: url("/static/font/Poppins-Bold.woff2") format("woff2"),
+    url("/static/font/Poppins-Bold.woff") format("woff");
   font-weight: normal;
   font-style: normal;
 }
 
 @font-face {
   font-family: "Proxima Nova Regular";
-  src: url("../font/ProximaNova-Regular.woff2") format("woff2"),
-    url("../font/ProximaNova-Regular.woff") format("woff");
+  src: url("/static/font/ProximaNova-Regular.woff2") format("woff2"),
+    url("/static/font/ProximaNova-Regular.woff") format("woff");
   font-weight: normal;
   font-style: normal;
 }
 
 @font-face {
   font-family: "Verveine Regular";
-  src: url("../font/Verveine-Regular.woff2") format("woff2"),
-    url("../font/Verveine-Regular.woff") format("woff");
+  src: url("/static/font/Verveine-Regular.woff2") format("woff2"),
+    url("/static/font/Verveine-Regular.woff") format("woff");
   font-weight: normal;
   font-style: normal;
 }

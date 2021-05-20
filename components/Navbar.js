@@ -15,6 +15,7 @@ class Navbar extends Component {
         <nav className="site-nav">
           <ul>
             <li><Link href="/articles/"><a>Articles</a></Link></li>
+            <li><Link href="/podcasts/"><a>Podcasts</a></Link></li>
             <li><Link href="/talks/"><a>Talks</a></Link></li>
             <li><Link href="/projects/"><a>Projects</a></Link></li>
             <li><Link href="/reminder/"><a>Reminder</a></Link></li>

@@ -99,6 +99,8 @@ code {
   order: 2;
   flex-basis: 100%;
   transition: background-color 0.3s ease;
+  overflow-x: scroll;
+  margin-left: 10px;
 }
 
 .site-nav > ul {
@@ -128,22 +130,26 @@ code {
   color: white;
 }
 
-@media (min-width: 375px) {
-  .site-nav a {
-    padding: 14px 19px;
-  }
-}
-
 @media (min-width: 425px) {
   .site-nav a {
-    padding: 14px 26px;
+    padding: 14px 10px;
+  }
+
+  .site-nav > ul {
+    justify-content: space-around;
+    width: 100%;
   }
 }
 
-@media (min-width: 600px) {
+@media (min-width: 720px) {
   .site-nav {
     order: 0;
     flex-basis: initial;
+    margin-left: 0;
+  }
+
+  .site-nav > ul {
+    width: auto;
   }
 
   .site-nav a {

@@ -12,7 +12,7 @@ Quem é do mundo [Ruby on Rails](http://rubyonrails.org/) já deve estar cansado
 
 <!-- more -->
 
-![](/static/img/tumblr/tumblr_loffar2Trj1qe3219.jpg)
+![Tweet do DHH](/static/img/tumblr/tumblr_loffar2Trj1qe3219.jpg)
 
 Não vou me delongar nessa história, até porque não é esse o objetivo desse artigo. Se você quiser saber mais, pode conferir o que o [Fábio Akita](http://akitaonrails.com/) ([@akitaOnRails](http://twitter.com/#!/akitaOnRails)), referência no mundo Rails, [escreveu sobre o assunto](http://akitaonrails.com/2011/04/16/a-controversia-coffeescript).
 

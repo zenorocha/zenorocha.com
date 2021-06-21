@@ -31,11 +31,11 @@ Além disso, esse foi o mês em que inicia a temporada de palestras. Começando 
 
 Chega **Fevereiro**, mas esse mês não conta né, afinal chegam o carnaval e meus 21 anos.
 
-![](/static/img/posts/myway-carnaval.jpg)
+![Carnaval no Rio de Janeiro](/static/img/posts/myway-carnaval.jpg)
 
 Chega **Março**, gravo um vídeo despretencioso sobre o Sublime Text 2, que mais tarde atingiria mais de 10 mil visualizações [(veja o vídeo)](https://www.youtube.com/watch?v=Ms3Vsz7Jc3A). Também faço minha primeira viagem pra fora do Brasil, nada de muito incrível, um pulo turístico no Uruguai.
 
-![](/static/img/posts/myway-uruguai.jpg)
+![Ponto turístico no Uruguai](/static/img/posts/myway-uruguai.jpg)
 
 ## O Início
 
@@ -81,7 +81,7 @@ Em **Junho**, palestrei no [Front in Rio](http://frontinrio.com.br) pela segunda
 
 Mas o que realmente marcou esse mês foi minha demissão da Globo.
 
-![](/static/img/tumblr/tumblr_m6wvq4EQWG1qe3219.jpg)
+![Zeno trabalhando na Globo](/static/img/tumblr/tumblr_m6wvq4EQWG1qe3219.jpg)
 
 Por mais que eu estivesse adorando trabalhar lá, o convite do [Eduardo Lundgren](https://twitter.com/eduardolundgren), que havia assistido minha palestra lá no [Pernambuco.JS](http://www.pernambucojs.com/), e a missão da Liferay me conquistaram, então resolvi partir para essa nova empresa.
 
@@ -97,7 +97,7 @@ Também palestro no [TDC](http://www.thedevelopersconference.com.br/) em São Pa
 
 Fora isso, foi o mês onde lançamos dois projetos, o [Old Radio](https://developer.mozilla.org/pt-BR/demos/detail/old-radio/launch), uma brincadeira minha e do [Bernard De Luna](http://twitter.com/bernarddeluna) [(veja como foi)](/como-fizemos-o-oldradio), e a [BrazilJS Foundation](http://braziljs.org), uma iniciativa grandiosa de seis caras [(veja como foi)](/introducing-braziljs-foundation).
 
-![](/static/img/posts/myway-hangout.jpg)
+![Google Hangout com membros da BrazilJS Foundation](/static/img/posts/myway-hangout.jpg)
 
 Esse último em especial, foi realmente marcante porque não era só mais um projeto. Era algo muito maior do que os seis já tinham começado.
 
@@ -113,7 +113,7 @@ Visitei São Paulo por conta do MozDev Training e [QCon](http://qconsp.com) [(ve
 
 Semanas mais tarde, ainda iria palestrar no [SouWeb Pelotas](http://souwebpel.com.br/), [Front in Maringá](http://frontinmaringa.com.br), [RCuritiba](http://rcuritiba.com.br/), [Conferência da W3C](http://conferenciaweb.w3c.br/), [Front in Maceió](http://frontinmaceio.com.br/), [Front in Sampa](http://frontinsampa.com.br), [Conexão Kinghost](http://conexaokinghost.com.br) e [DevFest](http://www.devfest.com.br). A maior parte deles ao lado do meu amigo [Bernard De Luna](http://twitter.com/bernarddeluna) que me ajudou e ensinou muito ao longo desse ano.
 
-![](/static/img/posts/myway-palestra.jpg)
+![Palestrando no Front in Sampa](/static/img/posts/myway-palestra.jpg)
 
 Segundo o [Kayak](http://www.kayak.com/), meu aplicativo de gerenciamento de voos:
 
@@ -139,7 +139,7 @@ Ainda mais com a participação simplesmente épica do Maujor.
 
 Em **Setembro**, é publicada minha primeira entrevista para uma revista de circulação nacional [(veja como foi)](/o-futuro-da-web-com-html5).
 
-![](/static/img/tumblr/tumblr_m9tzipqmM71qe3219.jpg)
+![Entrevista na Revista Wide](/static/img/tumblr/tumblr_m9tzipqmM71qe3219.jpg)
 
 Em **Outubro**, lanço junto com [Daniel Filho](http://twitter.com/danielfilho) o [Zone Of Front-Enders](http://zofe.com.br), podcast focado em desenvolvimento front-end [(veja como foi)](/zofe-0).
 
@@ -155,7 +155,7 @@ Como sempre, foi tudo muito rápido. Fiz a entrevista no consulado de manhã, re
 
 Foram duas semanas incríveis em Los Angeles junto com o pessoal da empresa que cada dia eu passo a ter mais carinho.
 
-![](/static/img/posts/myway-liferay.jpg)
+![Time da Liferay](/static/img/posts/myway-liferay.jpg)
 
 ## As Metas
 
@@ -198,7 +198,7 @@ Dessa vez serei mais realista, como sei que vou tirar parte desse ano para prepa
 
 E é isso! Eu só tenho a agradecer por esse ano mágico, visitei vários lugares que nunca imaginaria ter visitado e, o mais importante, conheci pessoas incríveis que mudaram meu modo de enxergar as coisas. Obrigado a cada um de vocês que fizeram parte de toda essa história.
 
-![](/static/img/posts/myway-amigos.jpg)
+![Palestrantes do Front in Maceió](/static/img/posts/myway-amigos.jpg)
 
 > _"The record shows,
 > I took the blows

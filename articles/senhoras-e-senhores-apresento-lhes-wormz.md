@@ -46,9 +46,13 @@ Já que estávamos fazendo algo em HTML5, resolvemos ir além do canvas e utiliz
 
 No canto esquerdo, criamos um slider para que o usuário possa interagir com o experimento mudando de cor, aumentando a velocidade e etc. Para essa interface utilizamos um dos [novos tipos de input chamado range](http://diveintohtml5.org/forms.html#type-range).
 
-![](/static/img/tumblr/tumblr_lr63c9bWtR1qe3219.jpg)Sua aparência nativa nos atendia muito bem em navegadores [webkit](http://pt.wikipedia.org/wiki/WebKit), mas no Firefox era muito inferior. O que acabou nos motivando a utilizar um plugin chamado [jQuery Tools Range Input](http://flowplayer.org/tools/rangeinput/). Após algumas mudanças visuais e refatorações no core do plugin conseguimos chegar nesse visual.
+![Input Range](/static/img/tumblr/tumblr_lr63c9bWtR1qe3219.jpg)
 
-![](/static/img/tumblr/tumblr_lr64hhhvvx1qe3219.jpg)No canto direito, criamos uma lista das imagens que, de tempos em tempos, se revezam no ambiente em que a mágica acontece.
+Sua aparência nativa nos atendia muito bem em navegadores [webkit](http://pt.wikipedia.org/wiki/WebKit), mas no Firefox era muito inferior. O que acabou nos motivando a utilizar um plugin chamado [jQuery Tools Range Input](http://flowplayer.org/tools/rangeinput/). Após algumas mudanças visuais e refatorações no core do plugin conseguimos chegar nesse visual.
+
+![Drag & Drop](/static/img/tumblr/tumblr_lr64hhhvvx1qe3219.jpg)
+
+No canto direito, criamos uma lista das imagens que, de tempos em tempos, se revezam no ambiente em que a mágica acontece.
 
 A ideia aqui foi aumentar ainda mais a interatividade do usuário com o experimento, possibilitando que ele adicione suas próprias imagens. Isso tudo na forma mais intuitiva possível, arrastando do seu desktop para o navegador.
 
@@ -70,7 +74,7 @@ Eu, como desenvolvedor web, me sinto com a missão constante de evangelizar o us
 
 Pela característica experimental desse projeto, optamos por apresentar uma mensagem que incentivasse esse usuário que não possui um navegador com suporte nativo para esse novo elemento do HTML5, a utilizar um browser mais moderno.
 
-![](/static/img/tumblr/tumblr_lr5zzzK4Lt1qe3219.jpg)
+![Browser Support](/static/img/tumblr/tumblr_lr5zzzK4Lt1qe3219.jpg)
 
 ## Detecção
 
@@ -116,15 +120,15 @@ Já estamos com outras ideias em desenvolvimento e se você curte spoilers é s�
 
 O volume de visitas têm sido assustador nesses últimos dias e o feedback igualmente bom.
 
-![](/static/img/tumblr/tumblr_lsd5qzTbat1qe3219.jpg)
+![Tweet do Jayenkai](/static/img/tumblr/tumblr_lsd5qzTbat1qe3219.jpg)
 
 [Hakim Hattab](http://hakim.se/), um dos desenvolvedores responsáveis pelo famoso projeto [20 Things I Learned About Browsers and the Web](http://hakim.se/) também comentou.
 
-![](/static/img/tumblr/tumblr_lsd5qnmQXf1qe3219.jpg)
+![Tweet do Hakim](/static/img/tumblr/tumblr_lsd5qnmQXf1qe3219.jpg)
 
 Além desses meio enigmáticos…
 
-![](/static/img/tumblr/tumblr_lsd5qbi0611qe3219.jpg)
+![Tweet enigmático](/static/img/tumblr/tumblr_lsd5qbi0611qe3219.jpg)
 
 E você, gostou do experimento? Tem outras perguntas sobre ele?
 

@@ -6,7 +6,7 @@ date: "2017-08-09"
 
 [\*Read in English](/introducing-wedeploy)\*
 
-![](https://cdn-images-1.medium.com/max/2400/1*W529TFRIga0fGFra4v29kw.jpeg)
+![WeDeploy Rocket](https://cdn-images-1.medium.com/max/2400/1*W529TFRIga0fGFra4v29kw.jpeg)
 
 Dois anos atrás, [Eduardo](https://twitter.com/eduardolundgren) e eu decidimos começar algo novo.
 

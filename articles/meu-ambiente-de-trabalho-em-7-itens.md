@@ -14,7 +14,7 @@ O Davidson Fellipe ([@davidsonfellipe](https://twitter.com/#!/davidsonfellipe)) 
 
 ## 1) Sistema Operacional
 
-![](/static/img/tumblr/tumblr_m575ywGoIo1qe3219.jpg)
+![Mac OS X](/static/img/tumblr/tumblr_m575ywGoIo1qe3219.jpg)
 
 Eu iniciei o ano de 2011 utilizando Windows, logo nos primeiros meses migrei para Linux com a distribuição Ubuntu, onde fiquei por grande parte do ano, até que no final migrei para o Mac OSx.
 
@@ -28,7 +28,7 @@ Hoje eu trabalho com um Macbook Air + monitor auxiliar. É leve para carregar e 
 
 ## 2) Editor de código
 
-[![](/static/img/tumblr/tumblr_m575z6zAaM1qe3219.jpg)](http://www.sublimetext.com/2)
+[![Sublime Text](/static/img/tumblr/tumblr_m575z6zAaM1qe3219.jpg)](http://www.sublimetext.com/2)
 
 Item indispensável na lista, quem me conhece sabe.
 
@@ -44,7 +44,7 @@ Se você ainda não conhece o [Sublime](http://www.sublimetext.com/2), recomendo
 
 ## 3) Editor de texto
 
-[![](/static/img/tumblr/tumblr_m575zjXGf91qe3219.jpg)](http://mouapp.com/)
+[![Mou](/static/img/tumblr/tumblr_m575zjXGf91qe3219.jpg)](http://mouapp.com/)
 
 Além do Sublime, se tem uma coisa que eu sou apaixonado é por [Markdown](http://daringfireball.net/projects/markdown/).
 
@@ -58,7 +58,7 @@ O [Mou](http://mouapp.com/) é justamente um editor de [Markdown](http://daringf
 
 ## 4) Linha de comando
 
-![](/static/img/tumblr/tumblr_m5782qqfdR1qe3219.jpg)
+![ZSH](/static/img/tumblr/tumblr_m5782qqfdR1qe3219.jpg)
 
 O [ZSH](http://en.wikipedia.org/wiki/Z_shell) é um shell muito poderoso que adiciona várias features que o deixam muito mais poderoso que o [Bash](http://pt.wikipedia.org/wiki/Bash), shell nativo do Mac. Tudo isso por conta do [oh-my-zsh](https://github.com/robbyrussell/oh-my-zsh), um framework para gerenciamento de configuração do ZSH recheado de plugins e temas.
 
@@ -72,7 +72,7 @@ Recorrer a linha de comando acaba se tornando indispensável a medida que você 
 
 ## 5) Controle de versão
 
-![](/static/img/tumblr/tumblr_m576t1A0H31qe3219.jpg)
+![Git](/static/img/tumblr/tumblr_m576t1A0H31qe3219.jpg)
 
 Simplesmente essencial para trabalhar em equipe ou se envolver em projetos open source. Desenvolver alguma coisa sem utilizar um sistema de controle de versão como [SVN](http://subversion.tigris.org/), [Mercurial](http://mercurial.selenic.com/) ou [Git](http://git-scm.com/) é loucura. Em um primeiro momento você sente que ele é muito burocrático, mas com o tempo percebe as vantagens que isso lhe proporciona.
 
@@ -82,25 +82,25 @@ O [Github](http://github.com/), em especial, ultrapassou os limites de um simple
 
 Independente da classificação, uma coisa é certa, ele mudou o modo com os desenvolvedores colaboram em projetos open source.
 
-![](/static/img/tumblr/tumblr_m5770fGez71qe3219.png)
+![Terminal](/static/img/tumblr/tumblr_m5770fGez71qe3219.png)
 
 ---
 
 ## 6) Máquina Virtual
 
-![](/static/img/tumblr/tumblr_m577d54Q551qe3219.jpg)
+![Máquina Virtual](/static/img/tumblr/tumblr_m577d54Q551qe3219.jpg)
 
 Como desenvolvedor front-end não adianta fugir, é preciso preciso testar o projeto em diferentes sistemas operacionais com diferentes navegadores. Existem ferramentas que emulam navegadores, mas se você quer testar de verdade, vai ter que recorrer as máquinas virtuais.
 
 Para isso, utilizo hoje o [Parallels](http://www.parallels.com/) que simplesmente faz mágica. Mas como ele funciona apenas para Mac, você pode usar [VMWare](http://www.vmware.com/) ou [VirtualBox](https://www.virtualbox.org/) que também são ótimos.
 
-![](/static/img/tumblr/tumblr_m57ej3FsSB1qe3219.png)
+![Virtual Box](/static/img/tumblr/tumblr_m57ej3FsSB1qe3219.png)
 
 ---
 
 ## 7) Gerenciamento de projeto
 
-![](/static/img/tumblr/tumblr_m577xueOjK1qe3219.jpg)
+![Kanban](/static/img/tumblr/tumblr_m577xueOjK1qe3219.jpg)
 
 Com a correria do dia-a-dia e os milhões de projetos que acabo me envolvendo, fica impossível lembrar de todas as tarefas que preciso fazer usando só a cabeça.
 
@@ -110,7 +110,7 @@ Quando o projeto é muito pequeno ou as tarefas muito rápidas, acabo usando o [
 
 Mas vai por mim, visualizar as tarefas através de um artifício físico com um simples post-it é muito mais efetivo do que online.
 
-![](/static/img/tumblr/tumblr_m577gcDDcf1qe3219.png)
+![Wunderkit](/static/img/tumblr/tumblr_m577gcDDcf1qe3219.png)
 
 ---
 

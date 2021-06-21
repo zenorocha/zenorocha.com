@@ -40,8 +40,8 @@ Pode parecer besteira, mas existem pessoas muito ligadas sentimentalmente ao fut
 
 Valeu papai noel por ter passado mais cedo por aqui e ter me dado o presente de fazer isso. Para registrar o momento, além desse post, resolvi guardar alguns tweets.
 
-[![](/static/img/tumblr/tumblr_lvvvvt7uh31qe3219.png)](http://twitter.com/#!/cmerigo/status/144092776525598720)
+[![Tweet do Carlos](/static/img/tumblr/tumblr_lvvvvt7uh31qe3219.png)](http://twitter.com/#!/cmerigo/status/144092776525598720)
 
-[![](/static/img/tumblr/tumblr_lvvvw7Pmmq1qe3219.png)](http://twitter.com/#!/jaderubini/status/144096582952960000)
+[![Tweet do Jader](/static/img/tumblr/tumblr_lvvvw7Pmmq1qe3219.png)](http://twitter.com/#!/jaderubini/status/144096582952960000)
 
-[![](/static/img/tumblr/tumblr_lvvvxvxhNw1qe3219.png)](http://twitter.com/#!/guilhermesacco/status/144285875260489728)
+[![Tweet do Guilherme](/static/img/tumblr/tumblr_lvvvxvxhNw1qe3219.png)](http://twitter.com/#!/guilhermesacco/status/144285875260489728)

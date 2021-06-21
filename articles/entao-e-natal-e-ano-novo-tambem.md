@@ -20,7 +20,7 @@ Não sei se vou lembrar de tudo, mas vou ao menos tentar. Então se você está 
 
 O ano de 2011 começou sem muitas surpresas, ainda estava lá programando em ActionScript 3 em uma máquina Windows na [Caos! Design](http://caosdesign.com.br), meu primeiro emprego, e aproveitando as horas a mais enquanto não começavam as aulas na faculdade.
 
-![](/static/img/tumblr/tumblr_lwv5x2YSIR1qe3219.jpg)
+![Time da Caos! Design](/static/img/tumblr/tumblr_lwv5x2YSIR1qe3219.jpg)
 
 Só que duas coisas não eram as mesmas em mim.
 
@@ -36,7 +36,7 @@ Foi realmente muito triste deixar tantos amigos, mas estava determinado a descob
 
 Foi aí que em **março** comecei a trabalhar na [Petrobras](http://petrobras.com.br/pt/) e lá passei a desenvolver em Java. Só que sempre que pintava algo de frontend pra fazer, era no meu colo que caia, já que eu tinha mais facilidade que o resto da equipe. E o pior, tinha que dar suporte ao IE 6 =/
 
-![](/static/img/tumblr/tumblr_lwv65mKy7d1qe3219.jpg)
+![Placa da Petrobras](/static/img/tumblr/tumblr_lwv65mKy7d1qe3219.jpg)
 
 Nova empresa, novos chefes, nova posição, novos colegas. Nesse meio tempo na [Petrobras](http://petrobras.com.br/pt/) fui aprendendo muito, não só sobre as tecnologias que utilizávamos pra desenvolver a aplicação, mas sim sobre como lidar com as pessoas e enfrentar as barreiras que uma grande empresa coloca na sua frente.
 
@@ -52,11 +52,11 @@ Em **agosto** rolou a primeira edição do [rio.js](http://riojs.org/), um encon
 
 No início de **junho**, finalmente rolou minha primeira palestra e de cara em um evento muito legal que contou com a presença do [Rasmus Ledorf](http://pt.wikipedia.org/wiki/Rasmus_Lerdorf), criador do [PHP](http://br.php.net/) e [Jon “Maddog” Hall](http://pt.wikipedia.org/wiki/Jon_Hall), Diretor Executivo da [Linux Internacional](http://pt.wikipedia.org/wiki/Linux_International), o [FSLDC](http://forumsoftwarelivre.com.br/2011/). [(leia mais aqui)](/relato-iii-fsldc)
 
-![](/static/img/tumblr/tumblr_lwv68rZsbv1qe3219.jpg)
+![Palestrando no FSLDC](/static/img/tumblr/tumblr_lwv68rZsbv1qe3219.jpg)
 
 Duas semanas depois era vez de palestrar no [Front in Rio 2011](/relato-iii-fsldc), dessa vez para falar sobre o HTML5 Boilerplate de uma maneira mais aprofundada e para um público mais técnico. Lá tive o orgulho de ter o Maujor na plateia (é só achar o único de cabelinho branco na foto), através dele que aprendi muito do que sei.
 
-![](/static/img/tumblr/tumblr_lwv6athH6o1qe3219.jpg)
+![Palestrando no Front in Rio](/static/img/tumblr/tumblr_lwv6athH6o1qe3219.jpg)
 
 Em **julho**, lancei meu primeiro projeto open source, o [jQuery Boilerplate](http://jqueryboilerplate.com/). Que no lançamento tomou proporções assustadoras por todo o mundo e até hoje é meu projeto mais popular no Github.
 
@@ -64,11 +64,11 @@ Em **setembro**, lancei um projeto experimental em HTML5, o [Wormz](http://html5
 
 Em **outubro**, resolvi mudar de ares. E topei em entrar no Globoesporte.com. E de novo, nova empresa, novos chefes, nova posição, novos colegas. E dessa vez sistema operacional novo também. Migrei de um Linux para um Mac.
 
-![](/static/img/tumblr/tumblr_lwv70iddct1qe3219.jpg)
+![Banner do Globoesporte.com](/static/img/tumblr/tumblr_lwv70iddct1qe3219.jpg)
 
 **Novembro** foi recheado de eventos. No dia 5, fiz duas palestras no mesmo dia. De manhã no [Encontro de Tecnologia Simonsen](http://www.simonsen.br/ets/) e a tarde no [PHP’n Rio 2011](http://phpnrio.com.br/) ([leia mais aqui](/como-usar-html5-sem-uma-maquina-do-tempo)). Depois, no dia 19, fui lá pra São Paulo a convite do grande amigo Suissa, palestrar na [GoNow](http://www.gonow.com.br/blog/2011/11/25/html5-web-semantica-que-chegou-para-ficar/) no evento [sampa.js](http://sampajs.com/). Já no dia 23, pra fechar o período de palestras, não poderia ter sido em lugar melhor. Fui até a [Caos! Design](http://Caos!%20Design) e fiquei muito feliz em falar para o pessoal sobre um assunto que está muito em evidência por lá ([leia mais com o lindo texto da gabi aqui](http://www.blog.caosdesign.com.br/convescote-novembro-trailer-de-livro-e-html5)).
 
-![](/static/img/tumblr/tumblr_lwv74beQHI1qe3219.jpg)
+![Palestrando no PHP'n Rio](/static/img/tumblr/tumblr_lwv74beQHI1qe3219.jpg)
 
 Em **dezembro**, pra fechar o ano com chave de ouro, o [jQuery Boilerplate](http://jqueryboilerplate.com) foi eleito um dos projetos jQuery mais relevantes de 2011 pelo [SpeckyBoy](http://speckyboy.com/2011/12/07/the-50-most-useful-jquery-plugins-from-2011/) e [Tableless](http://tableless.com.br/20-plugins-jquery-que-marcaram-2011/).
 
@@ -78,7 +78,7 @@ E assim foi 2011. Não foi fácil lembrar e listar tudo isso, mas fico feliz em
 
 Conciliar o trabalho, com as palestras e com a faculdade, não foi nada fácil, isso é fato. Mas as inúmeras madrugadas acordado valeram a pena. Na faculdade passei em todas as matérias nesses dois períodos, não com as melhores notas do mundo, mas passei. No trabalho as coisas vão muito bem e os produtos que estamos lançando fazendo cada vez mais sucesso. Nas palestras, apesar do nervosismo sempre presente, tudo tem corrido bem e fico feliz em ser o palestrante mais novo de todos os eventos que participei esse ano.
 
-![](/static/img/tumblr/tumblr_lwu3r0fpvJ1qe3219.jpg)
+![Good grades, social life, enough sleep. Choose Two](/static/img/tumblr/tumblr_lwu3r0fpvJ1qe3219.jpg)
 
 Nunca fui um cara de fazer metas para o ano novo, mas dessa vez resolvi fazer só pra ver se sou capaz de cumpri-las. E para tentar deixar a brincadeira mais legal decidi deixa-las aqui publicamente para ver se esforço mais.
 

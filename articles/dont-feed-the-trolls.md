@@ -29,4 +29,4 @@ Enfim, é realmente algo a se pensar, avaliar suas próprias atitudes e decisõe
 
 Por fim, já diziam as paredes do Rio, meu amigo Leo Balter e meu novo papel de parede do computador. O segredo é:
 
-![](/static/img/tumblr/tumblr_m7sxvx6vf41qe3219.jpg)
+![Gentileza gera gentileza](/static/img/tumblr/tumblr_m7sxvx6vf41qe3219.jpg)

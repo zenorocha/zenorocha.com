@@ -109,7 +109,7 @@ E agora paramos por aqui antes que esse post fique enorme, se você quiser saber
 
 ## Compatibilidade
 
-![](/static/img/tumblr/tumblr_lpx8vu0fgd1qe3219.jpg) Lembre-se sempre de utilizar o [Modernizr](http://Modernizr) para detectar navegadores que não possuem suporte ao canvas. Dessa vez, para informar aquelas pessoas perdidas no tempo que elas não conseguem ver esse exemplo porque seus navegadores são ruins, vamos criar um fallback bem simples. Portanto, além dele utilizar o [Modernizr](http://Modernizr), vamos utilizar também o [Yepnope](http://yepnopejs.com/) para nos auxiliar. Primeiro, testamos se o navegador tem suporte ao canvas. Caso tenha, carrego os scripts que serão responsáveis por criar essa brincadeira toda. Caso **não** tenha, carrego um css que será responsável por dizer ao nosso usuário que ele não tem suporte.
+![Seu browser não tem suporte](/static/img/tumblr/tumblr_lpx8vu0fgd1qe3219.jpg) Lembre-se sempre de utilizar o [Modernizr](http://Modernizr) para detectar navegadores que não possuem suporte ao canvas. Dessa vez, para informar aquelas pessoas perdidas no tempo que elas não conseguem ver esse exemplo porque seus navegadores são ruins, vamos criar um fallback bem simples. Portanto, além dele utilizar o [Modernizr](http://Modernizr), vamos utilizar também o [Yepnope](http://yepnopejs.com/) para nos auxiliar. Primeiro, testamos se o navegador tem suporte ao canvas. Caso tenha, carrego os scripts que serão responsáveis por criar essa brincadeira toda. Caso **não** tenha, carrego um css que será responsável por dizer ao nosso usuário que ele não tem suporte.
 
 ```
 yepnope({

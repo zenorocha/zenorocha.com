@@ -17,7 +17,7 @@ For the first time in the history of this event we have a JavaScript island, tha
 
 <!-- more -->
 
-![](/static/img/tumblr/tumblr_m7s507SKUQ1qe3219.jpg)
+![BrazilJS space on FISL](/static/img/tumblr/tumblr_m7s507SKUQ1qe3219.jpg)
 
 And because of that we decided advance the launch of this project. We are working in so many things (that for now are secret :P) to enhance the JavaScript community in Brazil.
 

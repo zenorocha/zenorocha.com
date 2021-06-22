@@ -8,7 +8,7 @@ export async function getStaticProps() {
     title: 'Talks // Zeno Rocha',
     description: 'Here you can find the entire list of talks, meetups, workshops, and conferences that I presented in chronological order.',
     tagline: '11 countries. 116 talks.',
-    image: '/static/images/speaking.jpg'
+    image: '/static/images/speaking.jpeg'
   }
 
   return { props: meta }

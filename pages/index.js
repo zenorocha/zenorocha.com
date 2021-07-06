@@ -70,8 +70,8 @@ class Home extends React.Component {
           <meta content={`https://zenorocha.com${image}`} property="og:image" />
         </Head>
 
-        <p>Zeno Rocha is the Chief Product Officer at Liferay Cloud, a newly created <a href="https://liferay.com">Liferay, Inc</a> division. He is responsible for crafting the product strategy, shaping the features, and defining the future of <a href="https://www.liferay.com/products/dxp-cloud">DXP Cloud</a>.</p>
-        <p>His lifelong appreciation for <a href="/projects/">building software</a> and <a href="/articles/">sharing knowledge</a> led him to <a href="/talks/">speak in over 110 conferences</a> all over the world. Now he is focused on bringing the cloud revolution to the enterprise market.</p>
+        <p>Zeno Rocha is the VP of Developer Experience at <a href="https://workos.com">WorkOS</a>. He is responsible for creating world-class products that make developers happy.</p>
+        <p>His lifelong appreciation for <a href="/projects/">building software</a> and <a href="/articles/">sharing knowledge</a> led him to <a href="/talks/">speak in over 110 conferences</a> all over the world. Now he is focused on bringing his enterprise knowledge to the startup world.</p>
         <p>When he's not working, he likes running, watching movies, and eating cheese. For this last one he even <a href="https://lecheese.app">created an app</a> for it.</p>
 
         <h2>Recent Articles</h2>

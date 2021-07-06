@@ -1,6 +1,7 @@
 import Navbar from '../components/Navbar'
 import Updates from '../components/Updates'
 import BlogDate from '../components/BlogDate'
+import BlogViews from '../components/BlogViews'
 
 export default function Main({ children }) {
   const { title, image, date, views } = children.props.post
@@ -17,7 +18,8 @@ export default function Main({ children }) {
             image ? { backgroundImage: `url(${image})`} : {}
           } />
           <h2 className="post-subtitle">
-            <BlogDate dateString={date} /> • {views} views
+            <BlogDate dateString={date} />
+            <BlogViews views={views} />
           </h2>
         </header>
       }
@@ -27,7 +29,8 @@ export default function Main({ children }) {
             <div>
               <h1 className="post-title">{title}</h1>
               <h2 className="post-subtitle">
-                <BlogDate dateString={date} /> • {views} views
+                <BlogDate dateString={date} />
+                <BlogViews views={views} />
               </h2>
             </div>
           }

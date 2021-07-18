@@ -10,7 +10,7 @@
   },
   "dependencies": {
     "date-fns": "^2.21.3",
-    "googleapis": "^73.0.0",
+    "googleapis": "^82.0.0",
     "gray-matter": "^4.0.3",
     "next": "^10.0.0",
     "next-seo": "^4.24.0",

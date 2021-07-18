@@ -3,21 +3,46 @@ const { google } = require('googleapis');
 const scopes = 'https://www.googleapis.com/auth/analytics.readonly';
 const auth = require('../../../auth.json');
 const jwt = new google.auth.JWT(auth.client_email, null, auth.private_key, scopes);
-const view_id = '19337095';
 
 async function getData(id) {
-  const response = await jwt.authorize();
-  const result = await google.analytics('v3').data.ga.get({
-    'auth': jwt,
-    'ids': 'ga:' + view_id,
-    'start-date': '2009-07-02',
-    'end-date': 'today',
-    'metrics': 'ga:pageviews',
-    'dimensions': 'ga:pagePath',
-    'filters': `ga:pagePath==/${id}/`,
+  await jwt.authorize();
+
+  const result = await google.analyticsreporting('v4').reports.batchGet({
+    auth: jwt,
+    requestBody: {
+      reportRequests: [
+        {
+          viewId: '19337095',
+          dateRanges: [{ startDate: '2009-07-02', endDate: 'today' }],
+          metrics: [{ expression: 'ga:pageviews' }],
+          dimensions: [{ name: "ga:pagePath", }],
+          dimensionFilterClauses: [
+            {
+              filters: [
+                {
+                  operator: 'EXACT',
+                  dimensionName: 'ga:pagePath',
+                  expressions: [`/${id}`]
+                },
+                {
+                  operator: 'EXACT',
+                  dimensionName: 'ga:pagePath',
+                  expressions: [`/${id}/`]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
   });
 
-  return result.data.rows[0][1];
+  const totalWithoutTrailingSlash = parseInt(
+    result.data.reports[0].data.rows[0].metrics[0].values[0], 10) || 0;
+  const totalWithTrailingSlash = parseInt(
+    result.data.reports[0].data.rows[1]?.metrics[0].values[0], 10) || 0;
+
+  return totalWithoutTrailingSlash + totalWithTrailingSlash;
 }
 
 export default async ({ query: { id } }, res) => {

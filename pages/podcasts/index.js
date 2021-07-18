@@ -22,7 +22,7 @@ export async function getStaticProps() {
   const res = await req.json()
   const episodes = res.data
 
-  return { props: {...meta, episodes} }
+  return { props: {...meta, episodes}, revalidate: 60 }
 }
 
 class Podcasts extends React.Component {

@@ -99,7 +99,6 @@ code {
   order: 2;
   flex-basis: 100%;
   transition: background-color 0.3s ease;
-  overflow-x: scroll;
   margin-left: 10px;
 }
 
@@ -138,6 +137,12 @@ code {
   .site-nav > ul {
     justify-content: space-around;
     width: 100%;
+  }
+}
+
+@media (max-width: 720px) {
+  .site-nav {
+    overflow-x: scroll;
   }
 }
 

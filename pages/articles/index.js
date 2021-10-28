@@ -19,6 +19,8 @@ export async function getStaticProps() {
       description: 'Here you can find all articles I wrote. They include thoughts on software engineering, tech career, and personal stories.',
       tagline: 'Stories. Updates. Guides.',
       image: '/static/images/writing-opt.jpg',
+      gradientColor: 'purple-green',
+      selectionColor: 'purple',
       allPosts,
     },
   }

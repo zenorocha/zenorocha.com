@@ -5,6 +5,14 @@
   --primaryColor: #f2f2f2;
   --secondaryColor: #8f9ba8;
   --backgroundColor: #08070b;
+  --gradientDegree: 135deg;
+  --yellow: #ffff80;
+  --pink: #ff80bf;
+  --purple: #9580ff;
+  --red: #ff9580;
+  --orange: #ffca80;
+  --green: #8aff80;
+  --cyan: #80ffea;
 
   --navHeightDesktop: 60px;
   --navHeightMobile: 110px;
@@ -667,6 +675,105 @@ figure {
   height: 40px !important;
   width: 35% !important;
   background: rgba(0, 0, 0, 0.7);
+}
+
+/* Text Selection
+   ========================================================================== */
+
+.yellow ::selection {
+  background: var(--yellow);
+  -webkit-text-fill-color: #000;
+  color: #000;
+}
+
+.pink ::selection {
+  background: var(--pink);
+  -webkit-text-fill-color: #000;
+  color: #000;
+}
+
+.purple ::selection {
+  background: var(--purple);
+  -webkit-text-fill-color: #000;
+  color: #000;
+}
+
+.red ::selection {
+  background: var(--red);
+  -webkit-text-fill-color: #000;
+  color: #000;
+}
+
+.orange ::selection {
+  background: var(--orange);
+  -webkit-text-fill-color: #000;
+  color: #000;
+}
+
+.green ::selection {
+  background: var(--green);
+  -webkit-text-fill-color: #000;
+  color: #000;
+}
+
+.cyan ::selection {
+  background: var(--cyan);
+  -webkit-text-fill-color: #000;
+  color: #000;
+}
+
+/* Gradients
+   ========================================================================== */
+
+.gradient {
+  background-size: 100%;
+  background-clip: text;
+
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-text-fill-color: transparent;
+  -webkit-box-decoration-break: clone;
+}
+
+.gradient-yellow-pink {
+  background-image: linear-gradient(
+    var(--gradientDegree),
+    var(--yellow) 0%,
+    var(--pink) 100%
+  );
+}
+
+.gradient-purple-cyan {
+  background-image: linear-gradient(
+    var(--gradientDegree),
+    var(--purple) 0%,
+    var(--cyan) 100%
+  );
+}
+
+.gradient-pink-purple {
+  background-image: linear-gradient(
+    var(--gradientDegree),
+    var(--pink) 0%,
+    var(--purple) 100%
+  );
+}
+
+.gradient-cyan-green {
+  background-image: linear-gradient(
+    var(--gradientDegree),
+    var(--cyan) 0%,
+    var(--green) 100%
+  );
+}
+
+.gradient-purple-green {
+  background-image: linear-gradient(
+    var(--gradientDegree),
+    var(--purple) 0%,
+    var(--green) 100%
+  );
 }
 
 /* Fonts

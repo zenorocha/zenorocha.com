@@ -9,7 +9,9 @@ export async function getStaticProps() {
     title: 'Podcasts // Zeno Rocha',
     description: 'Here you can find all my podcast episodes, including interviews, appearances, and my own podcast feed.',
     tagline: 'Ideas. Thoughts. Opinions.',
-    image: '/static/images/podcast-opt.jpg'
+    image: '/static/images/podcast-opt.jpg',
+    gradientColor: 'pink-purple',
+    selectionColor: 'pink'
   }
 
   const payload = {

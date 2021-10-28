@@ -8,7 +8,9 @@ export async function getStaticProps() {
     title: 'Projects // Zeno Rocha',
     description: 'Here you can find my entire list of side projects, open source projects, and work projects in chronological order.',
     tagline: 'Work. Hobby. Open Source.',
-    image: '/static/images/computer-opt.jpg'
+    image: '/static/images/computer-opt.jpg',
+    gradientColor: 'purple-cyan',
+    selectionColor: 'cyan',
   }
 
   return { props: meta }

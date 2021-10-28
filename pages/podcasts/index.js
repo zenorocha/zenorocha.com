@@ -1,8 +1,9 @@
-import React from 'react'
 import Head from 'next/head'
 import Main from '../../layouts/Main'
-import BlogDate from '../../components/BlogDate'
 import { appearances, zofe } from '../../lib/podcasts'
+import ListItem from '../../components/ListItem'
+import BlogDate from '../../components/BlogDate'
+import { AnimateSharedLayout } from 'framer-motion'
 
 export async function getStaticProps() {
   const meta = {
@@ -31,28 +32,26 @@ function Podcasts(props) {
   const renderByteTalk = () => {
     const { episodes } = props
 
-    return episodes.map(episode => {
-      return <li className="article-item" key={episode.id}>
-        <a href={`https://bytetalkpodcast.com/${episode.attributes.number}`} className="article-link">
-          <span className="article-title">{episode.attributes.title}</span>
-          <span className="article-date">
-            <BlogDate dateString={episode.attributes.published_at} />
-          </span>
-        </a>
-      </li>
+    return episodes.map((episode, index) => {
+      return <ListItem
+        key={index}
+        index={index}
+        href={`https://bytetalkpodcast.com/${episode.attributes.number}`}
+        title={episode.attributes.title}
+        date={episode.attributes.published_at}
+      />
     })
   }
 
   const renderOther = (items) => {
     return items.map((item, index) => {
-      return <li className="article-item" key={index}>
-        <a href={item.url} className="article-link">
-          <span className="article-title">{item.title}</span>
-          <span className="article-date">
-            <BlogDate dateString={item.date} />
-          </span>
-        </a>
-      </li>
+      return <ListItem
+        key={index}
+        index={index}
+        href={item.url}
+        title={item.title}
+        date={item.date}
+      />
     })
   }
 
@@ -69,23 +68,25 @@ function Podcasts(props) {
         <meta content={`https://zenorocha.com${image}`} property="og:image" />
       </Head>
 
-      <h2>ByteTalk</h2>
-      <p>A podcast where Jonni and I interview the most productive people in tech.</p>
-      <ul className="article-list">
-        {renderByteTalk()}
-      </ul>
+      <AnimateSharedLayout>
+        <h2>ByteTalk</h2>
+        <p>A podcast where Jonni and I interview the most productive people in tech.</p>
+        <ul className="article-list">
+          {renderByteTalk()}
+        </ul>
 
-      <h2>Appearances</h2>
-      <p>This is the list of all the podcasts that I gave an interview so far.</p>
-      <ul className="article-list">
-        {renderOther(appearances)}
-      </ul>
+        <h2>Appearances</h2>
+        <p>This is the list of all the podcasts that I gave an interview so far.</p>
+        <ul className="article-list">
+          {renderOther(appearances)}
+        </ul>
 
-      <h2>Zone Of Front-Enders</h2>
-      <p>My first podcast, ZOFE, where Daniel and I talked about web technologies.</p>
-      <ul className="article-list">
-        {renderOther(zofe)}
-      </ul>
+        <h2>Zone Of Front-Enders</h2>
+        <p>My first podcast, ZOFE, where Daniel and I talked about web technologies.</p>
+        <ul className="article-list">
+          {renderOther(zofe)}
+        </ul>
+      </AnimateSharedLayout>
     </div>
   )
 }

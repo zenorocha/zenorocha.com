@@ -10,6 +10,7 @@
   },
   "dependencies": {
     "date-fns": "^2.21.3",
+    "framer-motion": "^5.0.0",
     "googleapis": "^82.0.0",
     "gray-matter": "^4.0.3",
     "next": "^10.0.0",

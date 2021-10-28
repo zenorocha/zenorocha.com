@@ -5,6 +5,8 @@
   --primaryColor: #f2f2f2;
   --secondaryColor: #8f9ba8;
   --backgroundColor: #08070b;
+  --hoverColor: rgba(255, 255, 255, 0.1);
+
   --gradientDegree: 135deg;
   --yellow: #ffff80;
   --pink: #ff80bf;
@@ -118,6 +120,7 @@ kbd {
 .site-nav a {
   transition: color 0.3s ease-in-out;
   color: var(--secondaryColor);
+  cursor: pointer;
   text-decoration: none;
   text-transform: uppercase;
   display: inline-block;
@@ -152,6 +155,17 @@ kbd {
 
 .site-nav .nav-active::after {
   opacity: 1;
+}
+
+.nav-hovered {
+  position: absolute;
+  top: 10px;
+  left: 0;
+  right: 0;
+  bottom: 10px;
+  background: var(--hoverColor);
+  border-radius: 4px;
+  z-index: -1;
 }
 
 @media (min-width: 425px) {
@@ -380,7 +394,7 @@ figure {
   position: relative;
   z-index: 1;
   height: 100%;
-  padding: 90px 0;
+  padding: 20px 0;
 }
 
 .post-container {
@@ -505,22 +519,33 @@ figure {
 
 .post-content .article-link {
   border: 0;
-  color: var(--primaryColor);
+  color: var(--secondaryColor);
+  cursor: pointer;
   display: flex;
   justify-content: space-between;
-  padding: 30px 0;
+  padding: 20px 0;
   min-height: 36px;
   width: 100%;
   opacity: 1;
   transition: all 0.3s ease-in-out;
   text-decoration: none;
   flex-direction: column;
+  position: relative;
 }
 
-.post-content .article-link:hover,
-.post-content .article-link:focus {
-  border: 0;
-  opacity: 0.5;
+.post-content .article-link:hover {
+  color: #fff;
+}
+
+.article-link-hovered {
+  position: absolute;
+  top: 0;
+  left: -20px;
+  right: -20px;
+  bottom: 0;
+  background: var(--hoverColor);
+  border-radius: 4px;
+  z-index: -1;
 }
 
 .post-content .article-title,
@@ -533,6 +558,7 @@ figure {
   font-family: var(--bodyFont);
   font-weight: 700;
   font-size: 18px;
+  line-height: 40px;
   text-align: left;
 }
 

@@ -1,9 +1,8 @@
-import React from 'react'
 import Head from 'next/head'
-import Link from 'next/link'
 import Main from '../../layouts/Main'
-import BlogDate from '../../components/BlogDate'
 import { getAllPosts } from '../../lib/blog'
+import ListItem from '../../components/ListItem'
+import { AnimateSharedLayout } from 'framer-motion'
 
 export async function getStaticProps() {
   const allPosts = getAllPosts([
@@ -30,16 +29,13 @@ function Articles(props) {
   const renderArticles = () => {
     return props.allPosts.map((post, index) => {
       if (!post.skip) {
-        return <li className="article-item" key={index}>
-          <Link href={`/${post.slug}/`}>
-            <a className="article-link">
-              <span className="article-title">{post.title}</span>
-              <span className="article-date">
-                <BlogDate dateString={post.date} />
-              </span>
-            </a>
-          </Link>
-        </li>
+        return <ListItem
+          key={index}
+          index={index}
+          href={`/${post.slug}/`}
+          title={post.title}
+          date={post.date}
+        />
       }
     })
   }
@@ -57,9 +53,11 @@ function Articles(props) {
         <meta content={`https://zenorocha.com${image}`} property="og:image" />
       </Head>
 
-      <ul className="article-list">
-        {renderArticles()}
-      </ul>
+      <AnimateSharedLayout>
+        <ul className="article-list">
+          {renderArticles()}
+        </ul>
+      </AnimateSharedLayout>
     </div>
   )
 }

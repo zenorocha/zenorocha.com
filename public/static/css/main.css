@@ -34,6 +34,14 @@ code {
   padding: 5px;
 }
 
+kbd {
+  color: #08070b;
+  background: #8f9ba8;
+  padding: 0px 4px;
+  border-radius: 4px;
+  transition: background 0.3s ease-in-out;
+}
+
 /* Navbar
    ========================================================================== */
 
@@ -289,6 +297,35 @@ svg {
   width: 32px;
   height: 32px;
   fill: white;
+}
+
+/* Contact
+   ========================================================================== */
+
+.btn-transparent {
+  appearance: none;
+  border: none;
+  outline: none;
+  background: transparent;
+  cursor: pointer;
+}
+
+.btn-contact {
+  color: #8f9ba8;
+  padding: 0;
+  margin: 20px 0 0;
+  font-family: "Biotif", sans-serif;
+  font-weight: 600;
+  transition: color 0.3s ease-in-out;
+  font-size: 16px;
+}
+
+.btn-contact:hover {
+  color: #f2f2f2;
+}
+
+.btn-contact:hover kbd {
+  background: #f2f2f2;
 }
 
 /* Post

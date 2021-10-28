@@ -4,6 +4,7 @@ import Link from 'next/link'
 import Main from '../layouts/Main'
 import BlogDate from '../components/BlogDate'
 import { getAllPosts } from '../lib/blog'
+import sendEmail from '../lib/send-email'
 
 export async function getStaticProps() {
   const allPosts = getAllPosts([
@@ -73,6 +74,9 @@ class Home extends React.Component {
         <p>Zeno Rocha is the VP of Developer Experience at <a href="https://workos.com">WorkOS</a>. He is responsible for creating world-class products that make developers happy.</p>
         <p>His lifelong appreciation for <a href="/projects/">building software</a> and <a href="/articles/">sharing knowledge</a> led him to <a href="/talks/">speak in over 110 conferences</a> all over the world. Now he is focused on bringing his enterprise knowledge to the startup world.</p>
         <p>When he's not working, he likes running, watching movies, and eating cheese. For this last one he even <a href="https://lecheese.app">created an app</a> for it.</p>
+        <button className="btn-transparent btn-contact" onClick={sendEmail}>
+          Press <kbd>C</kbd> anywhere to contact me
+        </button>
 
         <h2>Recent Articles</h2>
         <ul className="article-list">

@@ -5,10 +5,10 @@ import BlogViews from '../components/BlogViews'
 
 export default function Main({ children }) {
   const { title, image, date, views } = children.props.post
-  
+
   return <div>
     <Navbar image={image} />
-    <main className="post">
+    <main className={image ? 'post' : 'post main'}>
       {image &&
         <header className="post-header">
           <h1 className="post-title">

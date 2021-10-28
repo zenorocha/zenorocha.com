@@ -2,21 +2,16 @@ import Navbar from '../components/Navbar'
 import Updates from '../components/Updates'
 
 export default function Main({ children }) {
-  const { title, tagline, image } = children.props
+  const { title, tagline, image, accent, color } = children.props
 
   return <div>
-    <Navbar image={image} />
-    <main className="post">
-      <header className="post-header">
-        <h1 className="post-title">
-          {tagline ? tagline : title }
-        </h1>
-        <div className="post-image" style={
-          image ? { backgroundImage: `url(${image})`} : {}
-        } />
-      </header>
+    <Navbar />
+    <main className={`post main ${accent}`}>
       <div className="post-content">
         <div className="post-container">
+          <h1 className={`drac-text-${color}`}>
+            {tagline ? tagline : title }
+          </h1>
           {children}
         </div>
         <Updates />

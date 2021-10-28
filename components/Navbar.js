@@ -1,6 +1,10 @@
 import Link from 'next/link'
+import { useRouter } from 'next/router'
 
 export default function Navbar() {
+  const router = useRouter()
+  const pages = ['Articles', 'Podcasts', 'Talks', 'Projects', 'Reminder']
+
   return <header className="site-header">
     <Link href="/">
       <a className="logo">z</a>
@@ -8,11 +12,16 @@ export default function Navbar() {
 
     <nav className="site-nav">
       <ul>
-        <li><Link href="/articles/"><a>Articles</a></Link></li>
-        <li><Link href="/podcasts/"><a>Podcasts</a></Link></li>
-        <li><Link href="/talks/"><a>Talks</a></Link></li>
-        <li><Link href="/projects/"><a>Projects</a></Link></li>
-        <li><Link href="/reminder/"><a>Reminder</a></Link></li>
+        {pages.map(page => {
+          const path = `/${page.toLowerCase()}`
+          return <li>
+            <Link href={path}>
+              <a className={router.pathname == path ? "nav-active" : ""}>
+                {page}
+              </a>
+            </Link>
+          </li>
+        })}
       </ul>
     </nav>
 

@@ -73,7 +73,7 @@ function Home(props) {
       <p><strong>VP of Developer Experience at <a href="https://workos.com" target="_blank">WorkOS</a></strong>.<br/>
       Building world-class products that make developers happy.</p>
       <button className="btn-transparent btn-contact" onClick={sendEmail}>
-        Press <kbd>C</kbd> anywhere to contact me
+        Press <kbd>E</kbd> anywhere to send me an email
       </button>
       <p>His lifelong appreciation for <a href="/projects/">building software</a> and <a href="/articles/">sharing knowledge</a> led him to <a href="/talks/">speak in over 110 conferences</a> all over the world. Now he is focused on bringing his enterprise knowledge to the startup world.</p>
       <p>When he's not working, he likes running, watching movies, and eating cheese. For this last one he even <a href="https://lecheese.app">created an app</a> for it.</p> */}

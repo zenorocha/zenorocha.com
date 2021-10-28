@@ -3,8 +3,8 @@ import Updates from '../components/Updates'
 import BlogDate from '../components/BlogDate'
 import BlogViews from '../components/BlogViews'
 
-export default function Main({ children }) {
-  const { title, image, date, views } = children.props.post
+export default function Blogpost({ children }) {
+  const { title, image, date, views } = children.props
 
   return <div>
     <Navbar image={image} />

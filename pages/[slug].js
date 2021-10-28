@@ -4,16 +4,17 @@ import { useRouter } from 'next/router'
 import Blogpost from '../layouts/Blogpost'
 import { getPostBySlug, getAllPosts, convertMarkdownToHtml } from '../lib/blog'
 
-function Post({ post }) {
+function Post(props) {
   const router = useRouter()
-  if (!router.isFallback && !post?.slug) {
+
+  if (!router.isFallback && !props?.slug) {
     return <ErrorPage statusCode={404} />
   }
 
-  const title = `${post.title} // Zeno Rocha`
-  const description = post.description || ''
-  const url = `https://zenorocha.com/${post.slug}`
-  const image = post.image ? `https://zenorocha.com${post.image}` : 'https://zenorocha.com/static/images/home-opt.jpg'
+  const title = `${props.title} // Zeno Rocha`
+  const description = props.description || ''
+  const url = `https://zenorocha.com/${props.slug}`
+  const image = props.image ? `https://zenorocha.com${props.image}` : 'https://zenorocha.com/static/images/home-opt.jpg'
 
   return <div className="single">
     <Head>
@@ -24,12 +25,12 @@ function Post({ post }) {
       <meta content={url} property="og:url" />
       <meta content={image} property="og:image" />
 
-      {post.canonical_url &&
-        <link rel="canonical" href={post.canonical_url} />
+      {props.canonical_url &&
+        <link rel="canonical" href={props.canonical_url} />
       }
     </Head>
 
-    <div dangerouslySetInnerHTML={{ __html: post.content }} />
+    <div dangerouslySetInnerHTML={{ __html: props.content }} />
   </div>
 }
 
@@ -59,10 +60,8 @@ export async function getStaticProps({ params }) {
 
   return {
     props: {
-      post: {
-        ...post,
-        content
-      },
+      ...post,
+      content
     },
     revalidate: 60
   }

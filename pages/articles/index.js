@@ -24,9 +24,9 @@ export async function getStaticProps() {
   }
 }
 
-class Articles extends React.Component {
-  renderArticles() {
-    return this.props.allPosts.map((post, index) => {
+function Articles(props) {
+  const renderArticles = () => {
+    return props.allPosts.map((post, index) => {
       if (!post.skip) {
         return <li className="article-item" key={index}>
           <Link href={`/${post.slug}/`}>
@@ -42,26 +42,24 @@ class Articles extends React.Component {
     })
   }
 
-  render() {
-    const { title, description, image } = this.props
+  const { title, description, image } = props
 
-    return (
-      <div className="single">
-        <Head>
-          <title>{title}</title>
-          <meta content={title} property="og:title" />
-          <meta content={description} name="description" />
-          <meta content={description} property="og:description" />
-          <meta content="https://zenorocha.com/projects/" property="og:url" />
-          <meta content={`https://zenorocha.com${image}`} property="og:image" />
-        </Head>
+  return (
+    <div className="single">
+      <Head>
+        <title>{title}</title>
+        <meta content={title} property="og:title" />
+        <meta content={description} name="description" />
+        <meta content={description} property="og:description" />
+        <meta content="https://zenorocha.com/projects/" property="og:url" />
+        <meta content={`https://zenorocha.com${image}`} property="og:image" />
+      </Head>
 
-        <ul className="article-list">
-          {this.renderArticles()}
-        </ul>
-      </div>
-    )
-  }
+      <ul className="article-list">
+        {renderArticles()}
+      </ul>
+    </div>
+  )
 }
 
 Articles.Layout = Main

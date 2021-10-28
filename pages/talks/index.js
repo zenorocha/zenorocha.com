@@ -14,8 +14,8 @@ export async function getStaticProps() {
   return { props: meta }
 }
 
-class Talks extends React.Component {
-  renderTalks() {
+function Talks(props) {
+  const renderTalks = () => {
     return items.map((item, index) => {
       return <div key={index}>
         <h2>{item.year}</h2>
@@ -41,27 +41,22 @@ class Talks extends React.Component {
     })
   }
 
-  render() {
-    const { title, description, image } = this.props
+  const { title, description, image } = props
 
-    return (
-      <div className="single">
-        <Head>
-          <title>{title}</title>
-          <meta content={title} property="og:title" />
-          <meta content={description} name="description" />
-          <meta content={description} property="og:description" />
-          <meta content="https://zenorocha.com/talks" property="og:url" />
-          <meta content={`https://zenorocha.com${image}`} property="og:image" />
-        </Head>
+  return (
+    <div className="single">
+      <Head>
+        <title>{title}</title>
+        <meta content={title} property="og:title" />
+        <meta content={description} name="description" />
+        <meta content={description} property="og:description" />
+        <meta content="https://zenorocha.com/talks" property="og:url" />
+        <meta content={`https://zenorocha.com${image}`} property="og:image" />
+      </Head>
 
-        <p>Here you can find all my presentation slides/videos and also know where you can find me in the future.</p>
-        <p>Want me to speak at your event? <a href="https://twitter.com/zenorocha">Send me a tweet</a> :)</p>
-
-        {this.renderTalks()}
-      </div>
-    )
-  }
+      {renderTalks()}
+    </div>
+  )
 }
 
 Talks.Layout = Main

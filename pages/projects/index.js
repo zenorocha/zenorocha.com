@@ -14,8 +14,8 @@ export async function getStaticProps() {
   return { props: meta }
 }
 
-class Projects extends React.Component {
-  renderProjects() {
+function Projects(props) {
+  const renderProjects = () => {
     return items.map((item, index) => {
       return <div key={index}>
         <h2>{item.year}</h2>
@@ -30,24 +30,22 @@ class Projects extends React.Component {
     })
   }
 
-  render() {
-    const { title, description, image } = this.props
+  const { title, description, image } = props
 
-    return (
-      <div className="single">
-        <Head>
-          <title>{title}</title>
-          <meta content={title} property="og:title" />
-          <meta content={description} name="description" />
-          <meta content={description} property="og:description" />
-          <meta content="https://zenorocha.com/projects" property="og:url" />
-          <meta content={`https://zenorocha.com${image}`} property="og:image" />
-        </Head>
+  return (
+    <div className="single">
+      <Head>
+        <title>{title}</title>
+        <meta content={title} property="og:title" />
+        <meta content={description} name="description" />
+        <meta content={description} property="og:description" />
+        <meta content="https://zenorocha.com/projects" property="og:url" />
+        <meta content={`https://zenorocha.com${image}`} property="og:image" />
+      </Head>
 
-        {this.renderProjects()}
-      </div>
-    )
-  }
+      {renderProjects()}
+    </div>
+  )
 }
 
 Projects.Layout = Main

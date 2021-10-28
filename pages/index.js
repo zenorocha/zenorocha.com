@@ -24,9 +24,9 @@ export async function getStaticProps() {
   }
 }
 
-class Home extends React.Component {
-  renderArticles() {
-    return this.props.allPosts.slice(0, 3).map((post, index) => {
+function Home(props) {
+  const renderArticles = () => {
+    return props.allPosts.slice(0, 3).map((post, index) => {
       return <li className="article-item" key={index}>
         <Link href={`/${post.slug}`}>
           <a className="article-link">
@@ -40,7 +40,7 @@ class Home extends React.Component {
     })
   }
 
-  renderProjects() {
+  const renderProjects = () => {
     const projects = [
       { title: 'ByteTalk', date: 'May 11, 2021', url: 'https://bytetalkpodcast.com'},
       { title: 'Dracula UI', date: 'Apr 14, 2021', url: 'https://draculatheme.com/ui'},
@@ -57,39 +57,38 @@ class Home extends React.Component {
     })
   }
 
-  render() {
-    const { title, description, image } = this.props
+  const { title, description, image } = props
 
-    return (
-      <div className="single">
-        <Head>
-          <title>{title}</title>
-          <meta content={title} property="og:title" />
-          <meta content={description} name="description" />
-          <meta content={description} property="og:description" />
-          <meta content="https://zenorocha.com" property="og:url" />
-          <meta content={`https://zenorocha.com${image}`} property="og:image" />
-        </Head>
+  return (
+    <div className="single">
+      <Head>
+        <title>{title}</title>
+        <meta content={title} property="og:title" />
+        <meta content={description} name="description" />
+        <meta content={description} property="og:description" />
+        <meta content="https://zenorocha.com" property="og:url" />
+        <meta content={`https://zenorocha.com${image}`} property="og:image" />
+      </Head>
 
-        <p>Zeno Rocha is the VP of Developer Experience at <a href="https://workos.com">WorkOS</a>. He is responsible for creating world-class products that make developers happy.</p>
-        <p>His lifelong appreciation for <a href="/projects/">building software</a> and <a href="/articles/">sharing knowledge</a> led him to <a href="/talks/">speak in over 110 conferences</a> all over the world. Now he is focused on bringing his enterprise knowledge to the startup world.</p>
-        <p>When he's not working, he likes running, watching movies, and eating cheese. For this last one he even <a href="https://lecheese.app">created an app</a> for it.</p>
-        <button className="btn-transparent btn-contact" onClick={sendEmail}>
-          Press <kbd>C</kbd> anywhere to contact me
-        </button>
+      <p><strong>VP of Developer Experience at <a href="https://workos.com" target="_blank">WorkOS</a></strong>.<br/>
+      Building world-class products that make developers happy.</p>
+      <button className="btn-transparent btn-contact" onClick={sendEmail}>
+        Press <kbd>C</kbd> anywhere to contact me
+      </button>
+      <p>His lifelong appreciation for <a href="/projects/">building software</a> and <a href="/articles/">sharing knowledge</a> led him to <a href="/talks/">speak in over 110 conferences</a> all over the world. Now he is focused on bringing his enterprise knowledge to the startup world.</p>
+      <p>When he's not working, he likes running, watching movies, and eating cheese. For this last one he even <a href="https://lecheese.app">created an app</a> for it.</p> */}
 
-        <h2>Recent Articles</h2>
-        <ul className="article-list">
-          {this.renderArticles()}
-        </ul>
+      <h2>Recent Articles</h2>
+      <ul className="article-list">
+        {renderArticles()}
+      </ul>
 
-        <h2>Latest Projects</h2>
-        <ul className="article-list">
-          {this.renderProjects()}
-        </ul>
-      </div>
-    )
-  }
+      <h2>Latest Projects</h2>
+      <ul className="article-list">
+        {renderProjects()}
+      </ul>
+    </div>
+  )
 }
 
 Home.Layout = Main

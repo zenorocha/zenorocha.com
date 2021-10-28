@@ -10,7 +10,7 @@ export default class extends Document {
 
   render() {
     const lang = this.props.__NEXT_DATA__.props.pageProps?.post?.lang
-    
+
     return (
       <Html lang={lang ? lang : 'en-US'}>
         <Head>
@@ -18,7 +18,7 @@ export default class extends Document {
           <meta content="Zeno Rocha" name="author" />
           <meta property="og:type" content="website" />
           <meta content="summary_large_image" name="twitter:card" />
-          
+
           <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
           <link rel="alternate icon" href="/favicon.ico" />
 

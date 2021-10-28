@@ -9,7 +9,7 @@ Router.events.on('routeChangeComplete', url => gtag.pageview(url))
 
 const Noop = ({ children }) => children
 
-function MyApp({ Component, pageProps }) {
+export default function MyApp({ Component, pageProps }) {
   const Layout = Component.Layout || Noop
 
   useKeypress('c', sendEmail);
@@ -20,5 +20,3 @@ function MyApp({ Component, pageProps }) {
     </Layout>
   )
 }
-
-export default MyApp

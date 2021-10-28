@@ -1,4 +1,11 @@
 :root {
+  --bodyFont: "Biotif", sans-serif;
+  --headingFont: "Neuzeit Grotesk Bold", sans-serif;
+
+  --primaryColor: #f2f2f2;
+  --secondaryColor: #8f9ba8;
+  --backgroundColor: #08070b;
+
   --navHeightDesktop: 60px;
   --navHeightMobile: 110px;
 }
@@ -8,6 +15,7 @@ body {
   margin: 0;
   padding: 0;
   -webkit-font-smoothing: antialiased;
+  background: var(--backgroundColor);
 }
 
 .iframe-wrap {
@@ -40,8 +48,8 @@ code {
 }
 
 kbd {
-  color: #08070b;
-  background: #8f9ba8;
+  color: var(--backgroundColor);
+  background: var(--secondaryColor);
   padding: 0px 4px;
   border-radius: 4px;
   transition: background 0.3s ease-in-out;
@@ -54,8 +62,7 @@ kbd {
   display: flex;
   align-items: center;
   color: white;
-  font-weight: 300;
-  font-family: "Poppins Light", sans-serif;
+  font-family: var(--bodyFont);
   font-size: 12px;
   min-height: 59px;
   width: 100%;
@@ -73,7 +80,7 @@ kbd {
   text-decoration: none;
   letter-spacing: 2px;
   padding: 10px 20px;
-  font-family: "Neuzeit Grotesk Bold", sans-serif;
+  font-family: var(--headingFont);
 }
 
 .logo:hover {
@@ -102,11 +109,11 @@ kbd {
 
 .site-nav a {
   transition: color 0.3s ease-in-out;
-  color: #8f9ba8;
+  color: var(--secondaryColor);
   text-decoration: none;
   text-transform: uppercase;
   display: inline-block;
-  font-weight: 300;
+  font-weight: 500;
   letter-spacing: 1.2px;
   font-size: 12px;
   padding: 20px 10px;
@@ -114,11 +121,11 @@ kbd {
 }
 
 .site-nav a:hover {
-  color: #f2f2f2;
+  color: var(--primaryColor);
 }
 
 .site-nav .nav-active {
-  color: #f2f2f2;
+  color: var(--primaryColor);
 }
 
 .site-nav a::after {
@@ -215,21 +222,21 @@ svg {
 }
 
 .btn-contact {
-  color: #8f9ba8;
+  color: var(--secondaryColor);
   padding: 0;
   margin: 20px 0 0;
-  font-family: "Biotif", sans-serif;
+  font-family: var(--bodyFont);
   font-weight: 600;
   transition: color 0.3s ease-in-out;
   font-size: 16px;
 }
 
 .btn-contact:hover {
-  color: #f2f2f2;
+  color: var(--primaryColor);
 }
 
 .btn-contact:hover kbd {
-  background: #f2f2f2;
+  background: var(--primaryColor);
 }
 
 /* Post
@@ -294,8 +301,8 @@ svg {
   }
 }
 
-.post-title {
-  font-family: "Poppins Bold", sans-serif;
+.post-content .post-title {
+  font-family: var(--bodyFont);
   text-align: center;
 }
 
@@ -305,11 +312,12 @@ svg {
   position: relative;
   z-index: 3;
   font-size: 60px;
+  font-family: var(--bodyFont);
   line-height: 80px;
 }
 
 .post-content .post-title {
-  color: black;
+  color: var(--primaryColor);
   margin: 90px auto 0;
   max-width: none;
   font-size: 48px;
@@ -324,7 +332,7 @@ svg {
 }
 
 .post-content .post-image-caption {
-  color: rgba(117, 117, 117, 1);
+  color: var(--secondaryColor);
   text-align: center;
   font-size: 14px;
 }
@@ -336,9 +344,8 @@ figure {
 .post-subtitle {
   color: #fff;
   font-size: 16px;
-  font-family: "Poppins Light", sans-serif;
-  font-weight: 300;
-  text-transform: uppercase;
+  font-family: var(--bodyFont);
+  font-weight: 500;
   text-align: center;
 }
 
@@ -351,17 +358,17 @@ figure {
 }
 
 .post-content .post-subtitle {
-  color: black;
+  color: var(--secondaryColor);
   font-size: 16px;
   margin: 0 0 60px;
 }
 
 .post-content {
-  font-family: "Proxima Nova Regular", sans-serif;
-  font-size: 20px;
+  font-family: var(--bodyFont);
+  font-size: 16px;
   line-height: 36px;
-  color: #3b3b3b;
-  background: white;
+  color: var(--secondaryColor);
+  background: var(--backgroundColor);
   position: relative;
   z-index: 1;
   height: 100%;
@@ -375,7 +382,13 @@ figure {
 }
 
 .post-content p {
-  margin: 21px 0;
+  margin: 20px 0 0;
+  color: var(--secondaryColor);
+}
+
+.post-content strong {
+  color: var(--primaryColor);
+  font-weight: normal;
 }
 
 .post-content blockquote,
@@ -388,15 +401,15 @@ figure {
 }
 
 .post-content a {
-  border-bottom: 2px solid rgba(0, 0, 0, 0.4);
-  color: #3b3b3b;
+  border-bottom: 1px solid var(--primaryColor);
+  color: var(--primaryColor);
   text-decoration: none;
-  transition: border 0.3s ease-in-out;
+  transition: opacity 0.3s ease-in-out;
 }
 
 .post-content a:hover,
 .post-content a:focus {
-  border-bottom: 2px solid rgba(0, 0, 0, 0.1);
+  opacity: 0.8;
 }
 
 .post-content img {
@@ -404,25 +417,41 @@ figure {
   max-width: 100%;
 }
 
-.post-content h2 {
-  color: rgba(0, 0, 0, 0.5);
+.post-title {
   text-align: center;
-  margin: 90px 0 30px;
-  font-size: 40px;
+}
+
+.post-content h1 {
+  font-family: var(--headingFont);
+  font-size: 48px;
+  line-height: 48px;
+  margin: 0 0 20px;
+  color: var(--primaryColor);
+}
+
+.post-content h2 {
+  color: var(--primaryColor);
+  margin: 20px 0 0;
+  font-size: 24px;
 }
 
 .post-content h3,
 .post-content h3 a {
-  color: rgba(0, 0, 0, 0.7);
-  font-size: 28px;
-  margin-top: 60px;
+  color: var(--primaryColor);
+  font-size: 18px;
+  margin: 20px 0 0;
+}
+
+.post-content ul {
+  margin: 0;
 }
 
 .post-content .manifesto {
-  font-size: 36px;
-  line-height: 56px;
+  font-size: 16px;
+  font-family: var(--bodyFont);
   margin-left: 0;
   text-align: justify;
+  color: var(--secondaryColor);
 }
 
 @media (min-width: 700px) {
@@ -459,8 +488,7 @@ figure {
 }
 
 .post-content .article-item {
-  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
-  padding: 30px 0;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
 }
 
 .post-content .article-item:last-child {
@@ -469,9 +497,10 @@ figure {
 
 .post-content .article-link {
   border: 0;
-  color: rgba(0, 0, 0, 0.7);
+  color: var(--primaryColor);
   display: flex;
   justify-content: space-between;
+  padding: 30px 0;
   min-height: 36px;
   width: 100%;
   opacity: 1;
@@ -493,20 +522,19 @@ figure {
 
 .post-content .article-title {
   max-width: 500px;
-  font-family: "Poppins Bold", sans-serif;
+  font-family: var(--bodyFont);
   font-weight: 700;
-  font-size: 24px;
+  font-size: 18px;
   text-align: left;
 }
 
 .post-content .article-date {
-  color: rgba(0, 0, 0, 0.5);
-  font-family: "Poppins Light", sans-serif;
+  color: var(--secondaryColor);
+  font-family: var(--bodyFont);
+  font-weight: 500;
   font-size: 14px;
-  font-weight: 300;
   min-width: 100px;
   text-align: left;
-  text-transform: uppercase;
 }
 
 @media (min-width: 700px) {
@@ -653,33 +681,41 @@ figure {
 }
 
 @font-face {
-  font-family: "Poppins Light";
-  src: url("/static/font/Poppins-Light.woff2") format("woff2"),
-    url("/static/font/Poppins-Light.woff") format("woff");
+  font-family: "Biotif";
+  src: url("/static/font/Biotif-Bold.woff2") format("woff2"),
+    url("/static/font/Biotif-Bold.woff") format("woff");
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Biotif";
+  src: url("/static/font/Biotif-SemiBold.woff2") format("woff2"),
+    url("/static/font/Biotif-SemiBold.woff") format("woff");
+  font-weight: 600;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Biotif";
+  src: url("/static/font/Biotif-Book.woff2") format("woff2"),
+    url("/static/font/Biotif-Book.woff") format("woff");
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Biotif";
+  src: url("/static/font/Biotif-Regular.woff2") format("woff2"),
+    url("/static/font/Biotif-Regular.woff") format("woff");
   font-weight: normal;
   font-style: normal;
 }
 
 @font-face {
-  font-family: "Poppins Bold";
-  src: url("/static/font/Poppins-Bold.woff2") format("woff2"),
-    url("/static/font/Poppins-Bold.woff") format("woff");
+  font-family: "Biotif";
+  src: url("/static/font/Biotif-RegularItalic.woff2") format("woff2"),
+    url("/static/font/Biotif-RegularItalic.woff") format("woff");
   font-weight: normal;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: "Proxima Nova Regular";
-  src: url("/static/font/ProximaNova-Regular.woff2") format("woff2"),
-    url("/static/font/ProximaNova-Regular.woff") format("woff");
-  font-weight: normal;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: "Verveine Regular";
-  src: url("/static/font/Verveine-Regular.woff2") format("woff2"),
-    url("/static/font/Verveine-Regular.woff") format("woff");
-  font-weight: normal;
-  font-style: normal;
+  font-style: italic;
 }

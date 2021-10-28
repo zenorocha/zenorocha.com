@@ -8,8 +8,8 @@ export default function ListItem(props) {
   const isHovered = hovered === props.index
 
   return <li className="article-item">
-    <Link href={props.href}>
-      <motion.a
+    <ListItemLink href={props.href}>
+      <motion.span
         onHoverStart={() => setHovered(props.index)}
         onHoverEnd={() => setHovered('')}
         className="article-link"
@@ -27,7 +27,15 @@ export default function ListItem(props) {
         <span className="article-date">
           <BlogDate dateString={props.date} />
         </span>
-      </motion.a>
-    </Link>
+      </motion.span>
+    </ListItemLink>
   </li>
+}
+
+function ListItemLink(props) {
+  if (props.href.charAt(0) === '/') {
+    return <Link href={props.href}><a>{props.children}</a></Link>
+  }
+
+  return <a href={props.href} target="_blank">{props.children}</a>
 }

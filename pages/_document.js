@@ -19,8 +19,7 @@ export default class extends Document {
           <meta property="og:type" content="website" />
           <meta content="summary_large_image" name="twitter:card" />
 
-          <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
-          <link rel="alternate icon" href="/favicon.ico" />
+          <link rel="icon" href="/favicon.svg" sizes="any" type="image/svg+xml" />
 
           <script async src={`https://www.googletagmanager.com/gtag/js?id=${GA_TRACKING_ID}`} />
           <script dangerouslySetInnerHTML={{ __html: `

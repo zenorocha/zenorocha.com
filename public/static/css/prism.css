@@ -1,18 +1,20 @@
-/* Scrollbars */
+/*
+ * Adapted from: https://github.com/dracula/prism/blob/master/src/css/dracula-prism.css
+ */
 
 :root {
-  --background: #282a36;
+  --background: #151417;
   --comment: #6272a4;
   --foreground: #f8f8f2;
   --selection: #44475a;
 
-  --cyan: #8be9fd;
-  --green: #50fa7b;
-  --orange: #ffb86c;
-  --pink: #ff79c6;
-  --purple: #bd93f9;
-  --red: #ff5555;
-  --yellow: #f1fa8c;
+  --cyan: #80ffea;
+  --green: #8aff80;
+  --orange: #ffca80;
+  --pink: #ff80bf;
+  --purple: #9580ff;
+  --red: #ff9580;
+  --yellow: #ffff80;
 
   /* Transparency */
 
@@ -22,13 +24,13 @@
   --foreground-30: #f8f8f233;
   --selection-30: #44475a33;
 
-  --cyan-30: #8be9fd33;
-  --green-30: #50fa7b33;
-  --orange-30: #ffb86c33;
-  --pink-30: #ff79c633;
-  --purple-30: #bd93f933;
-  --red-30: #ff555533;
-  --yellow-30: #f1fa8c33;
+  --cyan-30: #80ffea33;
+  --green-30: #8aff80;
+  --orange-30: #ffca80;
+  --pink-30: #FF80BF3;
+  --purple-30: #9580ff;
+  --red-30: #ff9580;
+  --yellow-30: #ffff80;
 
   /** 40% of transparency **/
   --background-40: #282a3666;
@@ -36,27 +38,13 @@
   --foreground-40: #f8f8f266;
   --selection-40: #44475a66;
 
-  --cyan-40: #8be9fd66;
-  --green-40: #50fa7b66;
-  --orange-40: #ffb86c66;
-  --pink-40: #ff79c666;
-  --purple-40: #bd93f966;
-  --red-40: #ff555566;
-  --yellow-40: #f1fa8c66;
-}
-
-pre::-webkit-scrollbar {
-  width: 14px;
-}
-
-pre::-webkit-scrollbar-track {
-  background-color: var(--comment);
-  border-radius: 0px;
-}
-
-pre::-webkit-scrollbar-thumb {
-  background-color: var(--purple);
-  border-radius: 0px;
+  --cyan-40: #80ffea66;
+  --green-40: #8aff80;
+  --orange-40: #ffca80;
+  --pink-40: #FF80BF6;
+  --purple-40: #9580ff;
+  --red-40: #ff9580;
+  --yellow-40: #ffff80;
 }
 
 /* Selection */
@@ -195,8 +183,6 @@ pre[class*="language-"] {
   color: var(--foreground);
   background: var(--background);
   text-shadow: none;
-  font-family: PT Mono, Consolas, Monaco, "Andale Mono", "Ubuntu Mono",
-    monospace;
   text-align: left;
   white-space: pre;
   word-spacing: normal;
@@ -275,6 +261,10 @@ pre[class*="language-"] {
   color: var(--pink);
 }
 
+.language-css .token.color {
+  color: var(--purple);
+}
+
 .token.script {
   color: var(--foreground);
 }
@@ -328,6 +318,11 @@ pre[class*="language-"] {
   color: var(--pink);
 }
 
+.token.maybe-class-name,
+.token.property-access {
+  color: var(--foreground);
+}
+
 .language-css .token.entity {
   color: var(--green);
 }
@@ -374,11 +369,11 @@ pre[class*="language-"] {
 }
 
 .token.punctuation {
-  color: var(--pink);
+  color: var(--foreground);
 }
 
 .language-css .token.punctuation {
-  color: var(--orange);
+  color: var(--foreground);
 }
 
 .language-html .token.punctuation,
@@ -391,7 +386,7 @@ pre[class*="language-"] {
 }
 
 .language-css .token.selector {
-  color: var(--green);
+  color: var(--pink);
 }
 
 .token.regex {
@@ -419,31 +414,31 @@ pre[class*="language-"] {
 }
 
 .token.variable {
-  color: var(--comment);
+  color: var(--foreground);
 }
 
 .token.number {
-  color: rgba(189, 147, 249, 1);
+  color: var(--purple);
 }
 
 .token.operator {
-  color: rgba(139, 233, 253, 1);
+  color: var(--pink);
 }
 
 .token.char {
-  color: rgba(255, 135, 157, 1);
+  color: var(--red);
 }
 
 .token.symbol {
-  color: rgba(255, 184, 108, 1);
+  color: var(--orange);
 }
 
 .token.deleted {
-  color: #e2777a;
+  color: var(--red);
 }
 
 .token.namespace {
-  color: #e2777a;
+  color: var(--red);
 }
 
 /* Line Highlighter */

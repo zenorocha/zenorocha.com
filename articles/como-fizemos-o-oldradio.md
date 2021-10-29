@@ -22,7 +22,7 @@ Muitas pessoas nos abordaram com perguntas sobre como fizemos funcionalidade X o
 
 Para criar a marcação HTML do Old Radio, o Bernard De Luna seguiu o mesmo conceito de modularização. Ou seja, seguindo heranças de profundidades entre os itens, estilização baseada em classes e não em heranças, e por fim, nome de classes focadas nas funcionalidades reais. A ideia foi seguir a mesma estratégia usada para a criação do [Homer Simpsons](https://developer.mozilla.org/pt-BR/demosdetail/pure-css3-homer). Para ilustrar isso, segue o código de como foi feito a chave de desligar e ligar o rádio:
 
-```
+```html
 <div class="power">
   <span class="on-off active">
     <a href="#" title="on / off"><span>on / off</span></a>
@@ -64,7 +64,7 @@ Por fim, vale explicar duas texturas utilizadas no rádio que fogem um pouco da 
 
 Para fazer a textura de madeira, utilizamos a seguinte expressão:
 
-```
+```css
 repeating-linear-gradient(-90deg, rgba(0,0,0,0.1), rgba(0,0,0,0.1) 1px, transparent 3px);
 ```
 
@@ -76,7 +76,7 @@ Ainda é uma renderização bastante bugada em browsers, mas mesmo com pequenas 
 
 As estações dentre todos os objetos e dificuldades para se desenhar o Rádio foi a que mais me satisfez, pois não fazia ideia como conseguir atingir os "palitos" da frequência, o CSS me mostrou estar mais adiantado do que eu imaginava e consegui fazer isso com uma única marcação HTML e utilizando o "linear-gradient" combinado com o "background-size".
 
-```
+```css
 background-image: linear-gradient(0, rgba(255,255,255,1) 1px, transparent 1px), linear-gradient(0, rgba(255,255,255,.3) 1px, transparent 1px);
 background-size: 25px 50px, 5px 5px;
 background-position:-24px bottom, -24px bottom;
@@ -85,13 +85,13 @@ background-repeat: repeat-x;
 
 Vamos explicar rapidamente:
 
-```
+```css
 linear-gradient(0, rgba(255,255,255,1) 1px, transparent 1px)
 ```
 
 Estou usando degradê do branco para o transparente (sendo 1px para o branco e 1px para o transparente).
 
-```
+```css
 linear-gradient(0, rgba(255,255,255,.3) 1px, transparent 1px)
 ```
 
@@ -127,7 +127,7 @@ Depois de ter reescrito tudo em YUI, Zeno se deparou que ainda faltava uma coisa
 
 Para ativar, digite:
 
-```
+```js
 cima + cima + baixo + baixo + esquerda + direita + esquerda + direita + b + a
 ```
 
@@ -147,7 +147,7 @@ Basicamente o processo de rotação do tunner usa a lógica de _"Pressiona" -> "
 
 O "Pressiona" é um evento para detectar quando pressionarem o mouse sobre o tunner. Quando ele for disparado, o ângulo entre a posição do mouse e o centro do botão do tunner é calculado:
 
-```
+```js
 angulo = Math.atan2( tunerCenterY - MouseY , tunerCenterX - MouseX );
 ```
 
@@ -157,7 +157,7 @@ A função atan2 retorna um ângulo em radianos de um vetor dado os valores dos 
 
 Mas esse ângulo é retornado em radianos, para converter de radianos em graus, usamos:
 
-```
+```js
 anguloGraus =  anguloRadianos * ( 180/Math.PI );
 ```
 
@@ -176,25 +176,25 @@ Como fazemos isso?
 
 Primeiro precisamos calcular a estação que está tocando no momento, usando a fórmula:
 
-```
+```js
 numeroCanal = Math.round( ( posicaoPonteiro / larguraDoMostrador ) * ( numeroDeCanais - 1 ) );
 ```
 
 Explicando melhor:
 
-```
+```js
 ( posicaoPonteiro / larguraDoMostrador )
 ```
 
 Serve para saber a posição do ponteiro em relação ao tamanho do mostrador, ou seja em que porcentagem o ponteiro se encontra.
 
-```
+```js
 ( numeroDeCanais - 1 )
 ```
 
 Porque o primeiro canal é 0.
 
-```
+```js
 Math.round
 ```
 
@@ -204,19 +204,19 @@ Math.round
 
 Agora queremos saber o valor do volume do chiado e do som da estação, para obter a trasição gradativa usamos a função do coseno (Math.cos), a função do coseno gera uma ondulação que é exatamente o que queremos:
 
-```
+```js
 Valor =  Math.cos( ( posicaoPonteiro / larguraDoMostrador ) * ( numeroDeCanais - 1 ) * Math.PI * 2 );
 ```
 
 Explicando melhor:
 
-```
+```js
 ( posicaoPonteiro / larguraDoMostrador ) * ( numeroDeCanais - 1 )
 ```
 
 Tem o mesmo objetivo da fórmula anterior, porém agora sem arredondar.
 
-```
+```js
 Math.PI * 2
 ```
 
@@ -224,7 +224,7 @@ Multiplicamos o o valor por 2*Pi porque a Math.cos recebe como parâmetro um ân
 
 Esse Valor é a posição da ondulação baseado nos nossos canais, mas esse valor varia entre -1 e 1, como não existe volume negativo temos que fazer um ajuste:
 
-```
+```js
 volumeCanal = Valor * 0.5 + 0.5;
 ```
 
@@ -232,7 +232,7 @@ Com essa conta, o resultado varia de 0 a 1 e podemos usar como o volume do canal
 
 E volume do ruido é bem simples é o inverso do volume do canal. Por exemplo, se o canal está tocando à 90% de som, você completa o restante com ruído, ou seja 10%, se o canal esta tocando à 30%, o ruído vai estar à 70%.
 
-```
+```js
 volumeRuido = 1 - volumeCanal;
 ```
 

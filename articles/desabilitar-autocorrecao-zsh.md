@@ -19,7 +19,7 @@ Só que uma coisinha sempre me irritava, a autocorreção.
 
 <!-- more -->
 
-```
+```bash
 git clone git@github.com:zenorocha/diveintohtml5.git
 zsh: correct 'clone' to 'clones' [nyae]? n
 ```
@@ -29,7 +29,7 @@ também usa [ZSH](http://en.wikipedia.org/wiki/Z_shell) e não curte essa featur
 
 Para desabilitar, basta adicionar a última linha no arquivo `~/.zshrc`.
 
-```
+```bash
 source $ZSH/oh-my-zsh.sh
 unsetopt correct_all
 ```

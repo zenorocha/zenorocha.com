@@ -24,7 +24,7 @@ Para começar a brincar você precisa ter o [node.js](http://nodejs.org/) e o [n
 
 Depois basta instalar o grunt via npm:
 
-```
+```bash
 npm install -g grunt
 ```
 
@@ -34,7 +34,7 @@ Agora temos tudo pronto para executar.
 
 Para dar os primeiros passos, vamos utilizar um comando que cria um scaffolding a partir de determinado template.
 
-```
+```bash
 grunt init:TEMPLATE
 ```
 
@@ -42,19 +42,19 @@ Até o momento, existem 3 opções de template:
 
 1. CommonJS ([veja aqui um exemplo](https://github.com/cowboy/grunt-commonjs-example/tree/HEAD~1) de projeto criado com ele):
 
-```
+```bash
 grunt init:commonjs
 ```
 
 2. jQuery ([veja aqui um exemplo](https://github.com/cowboy/grunt-jquery-example/tree/HEAD~1) de projeto criado com ele):
 
-```
+```bash
 grunt init:jquery
 ```
 
 3. Node ([veja aqui um exemplo](https://github.com/cowboy/grunt-node-example/tree/HEAD~1) de projeto criado com ele):
 
-```
+```bash
 grunt init:node
 ```
 
@@ -64,7 +64,7 @@ grunt init:node
 
 O processo de minificação é feito utilizando o [UglifyJS](https://github.com/mishoo/UglifyJS/), basta rodar:
 
-```
+```bash
 grunt min
 ```
 
@@ -74,7 +74,7 @@ grunt min
 
 Para concatenar seus arquivos JS, basta rodar:
 
-```
+```bash
 grunt concat
 ```
 
@@ -84,7 +84,7 @@ grunt concat
 
 Para validar seu código através da ferramenta [JSLint](http://www.jshint.com/), basta rodar:
 
-```
+```bash
 grunt lint
 ```
 
@@ -94,7 +94,7 @@ grunt lint
 
 Para executar seus testes unitários com [QUnit](http://docs.jquery.com/QUnit), utilizando uma instância do [PhantomJS](http://www.phantomjs.org/), basta rodar:
 
-```
+```bash
 grunt qunit
 ```
 
@@ -104,7 +104,7 @@ grunt qunit
 
 Para executar seus testes unitários com [nodeunit](https://github.com/caolan/nodeunit), basta rodar:
 
-```
+```bash
 grunt test
 ```
 
@@ -114,7 +114,7 @@ grunt test
 
 Você também pode executar um servidor estático localmente, basta rodar:
 
-```
+```bash
 grunt server
 ```
 

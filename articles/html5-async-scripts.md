@@ -46,25 +46,25 @@ Os atributos booleanos _async_ e _defer_ vêm para gerenciar exatamente esse tip
 
 Para facilitar o entendimento, vou explicar como seria o funcionamento na prática de cada uma dessas linhas:
 
-```
+```html
 <script src="exemplo.js"></script>
 ```
 
 A página aguarda o script terminar de carregar antes de continuar sua renderização e sua execução é feita imediatamente após. Isso pode aumentar significativamente o tempo de carregamento da página.
 
-```
+```html
 <script async src="exemplo.js"></script>
 ```
 
 O download do script é feito de forma assíncrona enquanto o processo de renderização da página continua a ser feito. O script é executado depois que o download estiver completo.
 
-```
+```html
 <script defer src="exemplo.js"></script>
 ```
 
 Assim como o exemplo acima, o download do script é feito de forma assíncrona. Mas sua execução se dá apenas quando todo o processo de renderização estiver concluído.
 
-```
+```html
 <script async defer src="exemplo.js"></script>
 ```
 

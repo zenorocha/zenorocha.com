@@ -19,7 +19,7 @@ Lembre-se que o objetivo não é se tornar mais uma técnica de SEO maluca, ne
 
 Muito simples, insira dentro da tag `head`
 
-```
+```html
 <link rel="author" href="http://seudominio.com.br/humans.txt" />
 ```
 
@@ -27,7 +27,7 @@ Muito simples, insira dentro da tag `head`
 
 Ainda não existe um padrão fechado sobre como se deve escrever esse arquivo. Mas eles sugerem algo do tipo:
 
-```
+```yml
 /* TEAM */
 
 Your title: Your name.

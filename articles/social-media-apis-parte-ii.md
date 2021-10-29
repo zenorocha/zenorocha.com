@@ -27,21 +27,21 @@ Destaca-se também uma interessante interface chamada [Explorer](https://develop
 
 Exemplo: https://api.foursquare.com/v2/users/self
 
-```
+```json
 {
-  user: {
-    id: "1514606",
-    firstName: "Zeno",
-    lastName: "Rocha",
-    gender: "male",
-    homeCity: "Rio de Janeiro, RJ",
-    contact: {
-      phone: "2181089727",
-      email: "zno.rocha@gmail.com",
-      twitter: "zenorocha"
+  "user": {
+    "id": "1514606",
+    "firstName": "Zeno",
+    "lastName": "Rocha",
+    "gender": "male",
+    "homeCity": "Rio de Janeiro, RJ",
+    "contact": {
+      "phone": "2181089727",
+      "email": "zno.rocha@gmail.com",
+      "twitter": "zenorocha"
     },
-    badges: {
-      count: 3
+    "badges": {
+      "count": 3
     }
   }
 }
@@ -69,19 +69,19 @@ Deixando de lado os limitações, vamos a um exemplo simples de acesso de dados 
 
 Exemplo: http://api.twitter.com/1/users/show.json?screen_name=nomedousuario
 
-```
+```json
 {
-   "profile_background_color":"212629",
-   "description":"web developer",
-   "screen_name":"zenorocha",
-   "geo_enabled":true,
-   "profile_background_image_url":"http://goo.gl/oaies",
-   "location":"Rio | Brasil",
-   "statuses_count":3488,
-   "followers_count":15311,
-   "profile_link_color":"141617",
-   "name":"Zeno Rocha",
-   "profile_image_url":"http://goo.gl/wCIcX"
+  "profile_background_color":"212629",
+  "description":"web developer",
+  "screen_name":"zenorocha",
+  "geo_enabled":true,
+  "profile_background_image_url":"http://goo.gl/oaies",
+  "location":"Rio | Brasil",
+  "statuses_count":3488,
+  "followers_count":15311,
+  "profile_link_color":"141617",
+  "name":"Zeno Rocha",
+  "profile_image_url":"http://goo.gl/wCIcX"
 }
 ```
 

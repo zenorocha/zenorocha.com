@@ -43,7 +43,7 @@ O exemplo será bem simples, criar um cubo e interagir com ele. Tudo isso, é cl
 
 Pra começar, vamos instanciar a câmera e definir seu posicionamento.
 
-```
+```js
 camera = new THREE.Camera(70, canvasWidth / canvasHeight, 1, 1000);
 
 camera.position.y = 150;
@@ -55,26 +55,20 @@ camera.target.position.y = 150;
 
 Depois vamos armazenar as cores das faces em um vetor com 6 posições e atribuir essas cores para cada uma das faces do material.
 
-```
+```js
 var arrayCor, materiais = new Array();
 
 arrayCor = [0x0092BF, 0x0092BF, 0xd9d9d9, 0xd9d9d9, 0xF14A29, 0xF14A29];
 
-
-
 for (var i = 0; i &lt; 6; i++) {
-
-    materiais.push( [new THREE.MeshLambertMaterial( { color: arrayCor[i] } ) ] );
-
+  materiais.push( [new THREE.MeshLambertMaterial( { color: arrayCor[i] } ) ] );
 }
 ```
 
 Então criamos um mesh, um grafo tridimensional que contém os vértices, faces e materiais de um objeto 3D. Aí instancio o cubo passando esse mesh e atribuindo uma posição.
 
-```
+```js
 var mesh = new THREE.Cube(250, 250, 250, 1, 1, 1, materiais);
-
-
 
 cubo = new THREE.Mesh(mesh, new THREE.MeshFaceMaterial() );
 
@@ -83,7 +77,7 @@ cubo.position.y = 150;
 
 Criamos a cena e atribuimos o cubo nela.
 
-```
+```js
 cena = new THREE.Scene();
 
 cena.addObject(cubo);
@@ -91,7 +85,7 @@ cena.addObject(cubo);
 
 E também precisamos definir o objeto que vai renderizar esse canvas.
 
-```
+```js
 renderer = new THREE.CanvasRenderer();
 
 renderer.setSize(canvasWidth, canvasHeight);
@@ -101,7 +95,7 @@ container.appendChild( renderer.domElement );
 
 Por fim, definimos que o container estará escutando pelo evento de quando o mouse está clicado e que quando esse evento for disparado chamará a função onMouseDown.
 
-```
+```js
 container.addEventListener('mousedown', onMouseDown, false);
 ```
 
@@ -111,15 +105,11 @@ E agora paramos por aqui antes que esse post fique enorme, se você quiser saber
 
 ![Seu browser não tem suporte](/static/img/tumblr/tumblr_lpx8vu0fgd1qe3219.jpg) Lembre-se sempre de utilizar o [Modernizr](http://Modernizr) para detectar navegadores que não possuem suporte ao canvas. Dessa vez, para informar aquelas pessoas perdidas no tempo que elas não conseguem ver esse exemplo porque seus navegadores são ruins, vamos criar um fallback bem simples. Portanto, além dele utilizar o [Modernizr](http://Modernizr), vamos utilizar também o [Yepnope](http://yepnopejs.com/) para nos auxiliar. Primeiro, testamos se o navegador tem suporte ao canvas. Caso tenha, carrego os scripts que serão responsáveis por criar essa brincadeira toda. Caso **não** tenha, carrego um css que será responsável por dizer ao nosso usuário que ele não tem suporte.
 
-```
+```js
 yepnope({
-
-     test: Modernizr.canvas,
-
-     yep: ['build/Three.js', 'js/RequestAnimationFrame.js', 'js/canvas.js'],
-
-     nope: 'css/canvas-polyfill.css'
-
+  test: Modernizr.canvas,
+  yep: ['build/Three.js', 'js/RequestAnimationFrame.js', 'js/canvas.js'],
+  nope: 'css/canvas-polyfill.css'
 });
 ```
 

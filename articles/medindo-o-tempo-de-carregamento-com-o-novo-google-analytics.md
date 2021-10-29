@@ -13,13 +13,13 @@ Essa semana eles divulgaram uma novidade muito legal no [blog oficial](http://an
 
 E o melhor, para ativar essa funcionalidade basta adicionar uma linha.
 
-```
+```js
 _gaq.push(['_trackPageLoadTime']);
 ```
 
 Com isso, aquele código que você sempre coloca final no seu site ficará assim:
 
-```
+```html
 <script type="text/javascript">
   var _gaq = _gaq || [];
 

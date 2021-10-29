@@ -27,7 +27,7 @@ Foi utilizado **jQuery** para facilitar a escrita na hora de codificar o Javascr
 
 Vamos criar uma lista não-ordenada para armazenar cada tarefa. E um botão para limpar o armazenamento, caso o usuário queira apagar as tarefas. O segredo aqui é a propriedade **contentEditable **definida como **true**, com isso tornamos editável essa lista.
 
-```
+```html
 <ul id="lista" contenteditable="true">
   <li>nbsp;</li>
 </ul>
@@ -39,23 +39,23 @@ Vamos criar uma lista não-ordenada para armazenar cada tarefa. E um botão para
 
 Aqui definimos o método **setItem**, pertencente ao objeto **localStorage**, atribuindo a variável "dados" todo o html da nossa `<ul>` com id "lista". Note que, nesse exemplo, o método é chamado a cada evento de tecla pressionada, mas você pode criar um botão e só chamar esse método ao clicá-lo por exemplo. Melhorando assim a performance da aplicação.
 
-```
+```js
 $("#lista").keypress(function() {
-  localStorage.setItem('dados', $("#lista").html());
+  localStorage.setItem("dados", $("#lista").html());
 });
 ```
 
 Aqui fazemos um **if** simples verificando se existe algum valor na variável "dados" ao chamar o método **getItem** do objeto **localStorage**. Caso exista, atribui a `<ul>` com id "lista" o html armazenado nela.
 
-```
-if (localStorage.getItem('dados')) {
-  $("#lista").html(localStorage.getItem('dados'));
+```js
+if (localStorage.getItem("dados")) {
+  $("#lista").html(localStorage.getItem("dados"));
 }
 ```
 
 Podemos também utilizar o método **clear** que, como o próprio nome já diz, limpa o objeto **localStorage**. E, em seguida, atualiza o navegador para esvaziar os campos. Isso tudo ao ser clicado o `<button>` de id "limpar".
 
-```
+```js
 $("#limpar").click(function() {
   localStorage.clear();
   window.location = window.location;
@@ -66,15 +66,15 @@ $("#limpar").click(function() {
 
 Colocando tudo isso dentro de uma função temos:
 
-```
+```html
 <script type="text/javascript">
 $(function() {
   $("#lista").keypress(function() {
-    localStorage.setItem('dados', $("#lista").html());
+    localStorage.setItem("dados", $("#lista").html());
   });
 
-  if (localStorage.getItem('dados')) {
-    $("#lista").html(localStorage.getItem('dados'));
+  if (localStorage.getItem("dado")) {
+    $("#lista").html(localStorage.getItem("dados"));
   }
 
   $("#limpar").click(function() {
@@ -91,7 +91,7 @@ _Mais fácil que isso, só ganhando do atlético paranaense._
 
 Agora, se você deseja implementar esse tipo de funcionalidade hoje, fique atento aos navegadores. Usando o [Modernizr](http://www.modernizr.com/) você consegue detectar o suporte dos browsers para essa API.
 
-```
+```js
 if (Modernizr.localstorage) {
   // esse navegador suporta HTML5 Storage :D
 } else {

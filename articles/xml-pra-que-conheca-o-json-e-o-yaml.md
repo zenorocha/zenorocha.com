@@ -18,7 +18,7 @@ Vamos entender sobre o que cada uma se trata, antes de entrarmos mais a fundo no
 
 Vejamos, então, um exemplo de uma estrutura de dados usando **JSON**.
 
-```
+```json
 {
   "nome": "zeno rocha - blog",
   "url": "https://zenorocha.com",
@@ -37,7 +37,7 @@ Vejamos, então, um exemplo de uma estrutura de dados usando **JSON**.
 
 A mesma estrutura utilizando **YAML**:
 
-```
+```yml
 blog:
   nome: "zeno rocha - blog"
   url: "https://zenorocha.com"
@@ -51,7 +51,7 @@ blog:
 
 E agora compare-as com o formato **XML**:
 
-```
+```xml
 <?xml version="1.0" encoding="utf-8"?>
 <blog>
   <nome>zeno rocha - blog</nome>

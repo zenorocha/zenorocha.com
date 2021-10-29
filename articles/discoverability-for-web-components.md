@@ -17,13 +17,13 @@ We started defining global variables but one could not ensure that the same glob
 
 Now, _EcmaScript 6_ and _Web Components_ are coming and they both introduce a different approach to dependency management.
 
-```
+```js
 import { MyDependency } from "my-dependency";
 ```
 
 vs
 
-```
+```html
 <link rel="import" href="my-dependency.html">
 ```
 

@@ -10,7 +10,7 @@ Some weeks ago we announced the preview release of [AlloyUI 2.0](http://alloyui.
 
 <!-- more -->
 
-```
+```html
 <script src="http://cdn.alloyui.com/2.0.0pr2/aui/aui-min.js"></script>
 ```
 

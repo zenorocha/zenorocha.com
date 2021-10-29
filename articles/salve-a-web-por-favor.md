@@ -24,13 +24,13 @@ Se o usuário estiver usando um browser antigo, uma mensagem amigável vai apare
 
 Basta incluir esse script antes de fechar a tag body no seu HTML.
 
-```
+```html
 <script defer src="http://sawpf.com/1.0.js"></script>
 ```
 
 ## Por exemplo
 
-```
+```html
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>

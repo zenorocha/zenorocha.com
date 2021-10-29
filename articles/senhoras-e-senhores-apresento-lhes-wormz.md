@@ -84,7 +84,7 @@ Usando o famoso [Modernizr](http://www.modernizr.com/), é claro. Só que dessa 
 
 Perceba que se você baixar toda a biblioteca, terá que importar um arquivo com tamanho de 42kb. E para prover outro tipo de conteúdo poderia usar o [Yepnope.js](http://yepnopejs.com/) que já está incorporado na biblioteca. Assim eu codificaria algo do tipo:
 
-```
+```js
 yepnope({
   test: Modernizr.canvas,
   yep: 'js/wormz.js',
@@ -98,7 +98,7 @@ Ok, eu poderia esquecer a biblioteca e ter escrito eu mesmo esse teste de funcio
 
 E além do mais, não preciso do yepnope pra isso. Você pode habilitar a criação de classes css no seu html, assim fica fácil pra tratar isso no CSS.
 
-```
+```css
 .no-canvas #canvas {
   background: url(../img/polyfill.jpg) no-repeat 10px 10px;
 }

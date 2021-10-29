@@ -32,7 +32,7 @@ Ok, mas você não usará isso no seu dia-a-dia, isso é só para brincar. Se vo
 
 O primeiro, não muito aconselhável, é usando o compilador baseado no browser.
 
-```
+```html
 <script src="http://jashkenas.github.com/coffee-script/extras/coffee-script.js"></script>
 
 <script type="text/coffeescript">
@@ -52,7 +52,7 @@ Caso não os tenha instalado, conte com a ajuda do seu grande amigo Google. Se e
 
 Com seu ambiente montado, vamos agora instalar o compilador de CoffeeScript utilizando o [Npm](http://npmjs.org/) através da linha de comando.
 
-```
+```bash
 npm install coffee-script
 ```
 
@@ -62,7 +62,7 @@ Pronto, agora você está apto a compilar arquivos do tipo _.coffee_. Novamente,
 
 Primeiramente, vamos criar um arquivo chamado _amy.coffee_ com o seguinte conteúdo.
 
-```
+```coffee
 amyEstaViva = false
 
 if amyEstaViva then alert "Eu sabia!" else alert "Droga =/"
@@ -70,13 +70,13 @@ if amyEstaViva then alert "Eu sabia!" else alert "Droga =/"
 
 E agora vamos compilar.
 
-```
+```bash
 coffee --compile amy.coffee
 ```
 
 O resultado em JavaScript será:
 
-```
+```js
 var amyEstaViva;
 
 amyEstaViva = false;
@@ -96,7 +96,7 @@ Nada de muito incrível, mas é uma pequena demonstração de quão legível fic
 
 Aumentando um pouquinho o nível de complexidade, que tal resolvermos o clássico problema [FizzBuzz](http://www.codinghorror.com/blog/2007/02/fizzbuzz-the-programmers-stairway-to-heaven.html) de um [Coding Dojo](http://dojorio.wordpress.com/) com apenas uma linha?
 
-```
+```coffee
 "#{if i%3 is 0 then 'fizz' else ''}#{if i%5 is 0 then 'buzz' else ''}" or i for i in [1..100]
 ```
 
@@ -108,7 +108,7 @@ Sem problemas. Com CoffeeScript, o jQuery fica ainda melhor.
 
 Imagine que você queira criar um plugin de jQuery em CoffeeScript.
 
-```
+```coffee
 $ = jQuery
 
 $.fn.myFunction = -&gt;
@@ -118,7 +118,7 @@ $.fn.myFunction = -&gt;
 
 E o resultado em JS:
 
-```
+```js
 var $;
 
 $ = jQuery;

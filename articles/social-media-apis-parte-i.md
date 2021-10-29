@@ -25,7 +25,7 @@ A chamada Facebook Platform permite que você construa aplicativos para o próp
 
 Exemplo: https://graph.facebook.com/zenorocha
 
-```
+```json
 {
   "id": "1021864713",
   "name": "Zeno Rocha",
@@ -56,7 +56,7 @@ Este serviço de compartilhamentos de vídeos é outro que possui uma ótima doc
 
 Exemplo: http://vimeo.com/api/v2/zenorocha/info.json
 
-```
+```json
 {
   "id":"6796565",
   "display_name":"Zeno Rocha",

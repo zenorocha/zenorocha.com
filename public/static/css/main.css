@@ -51,12 +51,6 @@ twitterwidget {
   margin: 0 auto;
 }
 
-code {
-  background: rgba(0, 0, 0, 0.05);
-  font-size: 18px;
-  padding: 5px;
-}
-
 kbd {
   color: var(--backgroundColor);
   background: var(--secondaryColor);
@@ -510,7 +504,7 @@ figure {
 }
 
 .post-content .article-item {
-  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+  border-bottom: 1px solid var(--hoverColor);
 }
 
 .post-content .article-item:last-child {
@@ -703,8 +697,23 @@ figure {
   background: rgba(0, 0, 0, 0.7);
 }
 
-/* Text Selection
+/* Code Snippet
    ========================================================================== */
+
+code {
+  background: #151417;
+  border-radius: 4px;
+  color: var(--primaryColor);
+  font-family: "Fira Code", monospace;
+  font-size: 15px;
+}
+
+:not(pre) > code {
+  padding: 4px;
+}
+
+/* Text Selection
+========================================================================== */
 
 .yellow ::selection {
   background: var(--yellow);
@@ -809,6 +818,14 @@ figure {
   font-family: "Neuzeit Grotesk Bold";
   src: url("/static/font/NeuzeitGrotesk-Bold.woff2") format("woff2"),
     url("/static/font/NeuzeitGrotesk-Bold.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Fira Code";
+  src: url("/static/font/FiraCode-Regular.woff2") format("woff2"),
+    url("/static/font/FiraCode-Regular.woff") format("woff");
   font-weight: normal;
   font-style: normal;
 }

@@ -10,7 +10,7 @@ Por ser uma linguagem fracamente tipada, uma coisa que confunde muita gente que 
 
 <!-- more -->
 
-```
+```js
 var zero = "0";
 
 if (zero == 0) {
@@ -26,7 +26,7 @@ O símbolo "igual" possui três papéis diferentes nesse exemplo.
 
 Primeiramente, ele é responsável por uma atribuição de valor na variável zero.
 
-```
+```js
 var zero = "0";
 ```
 
@@ -34,7 +34,7 @@ Até aqui nenhuma novidade, continua parecido com a maioria das outras linguagen
 
 Contudo, quando o assunto é comparação precisamos ter um olhar mais atento, pois podemos ter uma comparação comum (==) ou uma comparação estrita (===).
 
-```
+```js
 if (zero == 0) {
   // será que entra aqui?
   // entra sim xD
@@ -43,7 +43,7 @@ if (zero == 0) {
 
 O que acontece aqui é que, como a variável _zero_ recebeu um valor do tipo string, antes de executar a comparação propriamente dita, será preciso uma conversão para um tipo numérico, por isso o resultado da comparação é verdadeiro.
 
-```
+```js
 if (zero === 0) {
   // ou será que entra aqui?
   // entra não :(

@@ -40,7 +40,7 @@ Games feitos em HTML5 ainda tem um belo caminho a trilhar. O Angry Birds é um �
 
 Tá rolando pela internet um hack que libera todos os níveis do jogo, é só colar essa linha no navegador e pronto:
 
-```
+```js
 javascript: var i = 0; while (i&lt;=69) { localStorage.setItem('level_star_'+i,'3'); i++; } window.location.reload();
 ```
 

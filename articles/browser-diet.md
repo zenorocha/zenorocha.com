@@ -68,12 +68,12 @@ date: "2013-03-12"
 
 <h2>Reactions</h2>
 
-<blockquote class="twitter-tweet"><p>love this new project: <a href="http://t.co/u8FWpD5mW0" title="http://browserdiet.com">browserdiet.com</a></p>&mdash; Stoyan Stefanov (@stoyanstefanov) <a href="https://twitter.com/stoyanstefanov/status/311258820800303104">March 11, 2013</a></blockquote>
+<blockquote class="twitter-tweet" data-theme="dark"><p>love this new project: <a href="http://t.co/u8FWpD5mW0" title="http://browserdiet.com">browserdiet.com</a></p>&mdash; Stoyan Stefanov (@stoyanstefanov) <a href="https://twitter.com/stoyanstefanov/status/311258820800303104">March 11, 2013</a></blockquote>
 <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 <p><em>Stoyan Stefanov, Engineer - Facebook</em></p>
 
-<blockquote class="twitter-tweet"><p>How to lose weight in the browser — the definitive front-end performance guide: <a href="http://t.co/YqRgmFvipm" title="http://browserdiet.com/">browserdiet.com</a></p>&mdash; Mathias Bynens (@mathias) <a href="https://twitter.com/mathias/status/311193207327293440">March 11, 2013</a></blockquote>
+<blockquote class="twitter-tweet" data-theme="dark"><p>How to lose weight in the browser — the definitive front-end performance guide: <a href="http://t.co/YqRgmFvipm" title="http://browserdiet.com/">browserdiet.com</a></p>&mdash; Mathias Bynens (@mathias) <a href="https://twitter.com/mathias/status/311193207327293440">March 11, 2013</a></blockquote>
 <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 <p><em>Mathias Bynens, Web Developer - Freelance</em></p>
@@ -83,7 +83,7 @@ date: "2013-03-12"
 
 <p><em>Ilya Grigorik, Developer Advocate - Google</em></p>
 
-<blockquote class="twitter-tweet"><p>Some of Brazil's brightest front-end devs created and just launched <a href="http://t.co/8FNPhsjzQx" title="http://browserdiet.com/">browserdiet.com</a>. Check it out!</p>&mdash; Mike Taylor (@miketaylr) <a href="https://twitter.com/miketaylr/status/311253455647952897">March 11, 2013</a></blockquote>
+<blockquote class="twitter-tweet" data-theme="dark"><p>Some of Brazil's brightest front-end devs created and just launched <a href="http://t.co/8FNPhsjzQx" title="http://browserdiet.com/">browserdiet.com</a>. Check it out!</p>&mdash; Mike Taylor (@miketaylr) <a href="https://twitter.com/miketaylr/status/311253455647952897">March 11, 2013</a></blockquote>
 <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 <p><em>Mike Taylor, Web Opener - Opera</em></p>

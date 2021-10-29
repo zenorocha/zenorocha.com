@@ -80,7 +80,7 @@ For me the best episode in 2014 was [ZOFE #17](http://zofe.com.br/posts/tcheretc
 
 Still, nothing can be compared by the joy we had in the day before [BrazilJS Conf](http://braziljs.com.br/). This [little event](http://www.eventick.com.br/encontro-zofe-2014) in Porto Alegre to get together some ZOFE fans was one of the most special moments I had in my entire year.
 
-> _Personal Contact: the richest experience, not matched by any media or technology_ &mdash; [Small Acts Manifesto](http://smallactsmanifesto.org/)
+> _Personal Contact: the richest experience, not matched by any media or technology_<br />&mdash; [Small Acts Manifesto](http://smallactsmanifesto.org/)
 
 ### Stats
 

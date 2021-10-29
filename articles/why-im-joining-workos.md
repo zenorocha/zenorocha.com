@@ -26,7 +26,7 @@ I replied back, and **an exciting journey was about to start**.
 
 A week later, I tweeted about a topic that I'm fascinated with.
 
-<blockquote class="twitter-tweet"><p lang="en" dir="ltr">Job titles of the future:<br><br>• Developer Experience Designer<br>• Head of Developer Experience<br>• Developer Success Manager</p>&mdash; Zeno Rocha (@zenorocha) <a href="https://twitter.com/zenorocha/status/1385228898032566276?ref_src=twsrc%5Etfw">April 22, 2021</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+<blockquote class="twitter-tweet" data-theme="dark"><p lang="en" dir="ltr">Job titles of the future:<br><br>• Developer Experience Designer<br>• Head of Developer Experience<br>• Developer Success Manager</p>&mdash; Zeno Rocha (@zenorocha) <a href="https://twitter.com/zenorocha/status/1385228898032566276?ref_src=twsrc%5Etfw">April 22, 2021</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 This tweet got a lot of attention, and I received another DM from Michael. He mentioned they had just hired for bullet points #1 and #3, and wanted to know if I was interested in talking about #2.
 
@@ -63,7 +63,7 @@ When deciding where to work next is extremely important to **know the people you
 
 One of the things that got me interested in taking this job was working with really talented folks. The team is made of former employees from [Airtable](https://airtable.com), [LaunchDarkly](https://launchdarkly.com/), [Segment](https://segment.com/), and [Split](https://www.split.io/), which are incredible startups.
 
-<blockquote class="twitter-tweet"><p lang="en" dir="ltr">finished my 1st day <a href="https://twitter.com/WorkOS?ref_src=twsrc%5Etfw">@WorkOS</a> and it’s confirmed, it’s an exciting place to work.<br><br>feels like a natural progression from the last few years <a href="https://twitter.com/LaunchDarkly?ref_src=twsrc%5Etfw">@LaunchDarkly</a>, the squad even referenced some prior work! i’ll be carrying a lot of developer experience lessons over and learning a lot more.</p>&mdash; vikram rojo (@vikramrojo) <a href="https://twitter.com/vikramrojo/status/1391958730455937027?ref_src=twsrc%5Etfw">May 11, 2021</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+<blockquote class="twitter-tweet" data-theme="dark"><p lang="en" dir="ltr">finished my 1st day <a href="https://twitter.com/WorkOS?ref_src=twsrc%5Etfw">@WorkOS</a> and it’s confirmed, it’s an exciting place to work.<br><br>feels like a natural progression from the last few years <a href="https://twitter.com/LaunchDarkly?ref_src=twsrc%5Etfw">@LaunchDarkly</a>, the squad even referenced some prior work! i’ll be carrying a lot of developer experience lessons over and learning a lot more.</p>&mdash; vikram rojo (@vikramrojo) <a href="https://twitter.com/vikramrojo/status/1391958730455937027?ref_src=twsrc%5Etfw">May 11, 2021</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 On top of that, I met with some super smart software engineers during this whole process, who are tackling very complex problems daily and understand the importance of building a great developer experience.
 
@@ -77,7 +77,7 @@ When we started Liferay Cloud, we were operating as a small startup and trying o
 
 Back then, [there was no playbook](https://www.enterpriseready.io/) and no set of APIs that could help us. We had to figure out everything on our own. We started building all these features that enterprise IT managers require from you like Single Sign On (SSO), Audit Trail, Role-Based Access Control (RBAC), etc.
 
-<blockquote class="twitter-tweet"><p lang="en" dir="ltr">Developers often underestimate the importance of enterprise features.<br><br>Enterprises often underestimate the importance of developer experience.<br><br>Both are wrong.</p>&mdash; Zeno Rocha (@zenorocha) <a href="https://twitter.com/zenorocha/status/1392476477472468994?ref_src=twsrc%5Etfw">May 12, 2021</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+<blockquote class="twitter-tweet" data-theme="dark"><p lang="en" dir="ltr">Developers often underestimate the importance of enterprise features.<br><br>Enterprises often underestimate the importance of developer experience.<br><br>Both are wrong.</p>&mdash; Zeno Rocha (@zenorocha) <a href="https://twitter.com/zenorocha/status/1392476477472468994?ref_src=twsrc%5Etfw">May 12, 2021</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 Building these features ourselves was extremely complicated, especially because that was **not a core functionality of our product**. Our goal was to help users be more productive, but instead, we had to implement all these peripheral functionalities for the buyers.
 

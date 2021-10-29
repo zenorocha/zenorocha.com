@@ -407,13 +407,13 @@ figure {
   font-weight: normal;
 }
 
-.post-content blockquote,
-.post-content blockquote p {
-  font-family: "Verveine Regular", sans-serif;
-  color: rgba(0, 0, 0, 0.7);
-  font-size: 36px;
-  line-height: 44px;
-  margin: 48px 0 48px 0;
+.post-content blockquote {
+  border-left: 4px solid var(--hoverColor);
+  color: var(--secondaryColor);
+  font-family: var(--bodyFont);
+  font-style: italic;
+  margin: 0;
+  padding-left: 20px;
 }
 
 .post-content a {
@@ -463,11 +463,8 @@ figure {
 }
 
 .post-content .manifesto {
-  font-size: 16px;
-  font-family: var(--bodyFont);
-  margin-left: 0;
   text-align: justify;
-  color: var(--secondaryColor);
+  line-height: 40px;
 }
 
 @media (min-width: 700px) {

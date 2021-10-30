@@ -1,6 +1,7 @@
 :root {
   --bodyFont: "Biotif", sans-serif;
   --headingFont: "Neuzeit Grotesk Bold", sans-serif;
+  --codeFont: "Fira Code", monospace;
 
   --primaryColor: #f2f2f2;
   --secondaryColor: #8f9ba8;
@@ -18,6 +19,11 @@
 
   --navHeightDesktop: 60px;
   --navHeightMobile: 110px;
+  --borderRadius: 4px;
+}
+
+* {
+  font-family: var(--bodyFont);
 }
 
 html,
@@ -29,9 +35,8 @@ body {
 }
 
 .iframe-wrap {
-  border: 1px solid rgba(0, 0, 0, 0.1);
   height: 0;
-  margin-bottom: 18px;
+  margin-bottom: 20px;
   overflow: hidden;
   padding-bottom: 56.25%;
   padding-top: 30px;
@@ -55,8 +60,10 @@ kbd {
   color: var(--backgroundColor);
   background: var(--secondaryColor);
   padding: 0px 4px;
-  border-radius: 4px;
+  border-radius: var(--borderRadius);
   transition: background 0.3s ease-in-out;
+  font-family: var(--codeFont);
+  font-size: 14px;
 }
 
 /* Navbar
@@ -66,7 +73,6 @@ kbd {
   display: flex;
   align-items: center;
   color: white;
-  font-family: var(--bodyFont);
   font-size: 12px;
   min-height: 59px;
   width: 100%;
@@ -171,7 +177,7 @@ kbd {
   right: 0;
   bottom: 10px;
   background: var(--hoverColor);
-  border-radius: 4px;
+  border-radius: var(--borderRadius);
   z-index: -1;
 }
 
@@ -244,7 +250,6 @@ svg {
   color: var(--secondaryColor);
   padding: 0;
   margin: 20px 0 0;
-  font-family: var(--bodyFont);
   font-weight: 600;
   transition: color 0.3s ease-in-out;
   font-size: 16px;
@@ -321,7 +326,6 @@ svg {
 }
 
 .post-content .post-title {
-  font-family: var(--bodyFont);
   text-align: center;
 }
 
@@ -331,7 +335,6 @@ svg {
   position: relative;
   z-index: 3;
   font-size: 60px;
-  font-family: var(--bodyFont);
   line-height: 80px;
 }
 
@@ -347,12 +350,13 @@ svg {
   margin: 20px 0 0;
   margin-left: -20px;
   max-width: initial;
-  width: 100vw;
+  width: 70vw;
 }
 
 .post-content .post-image-caption {
   color: var(--secondaryColor);
   text-align: center;
+  font-style: italic;
   font-size: 14px;
 }
 
@@ -363,7 +367,6 @@ figure {
 .post-subtitle {
   color: #fff;
   font-size: 16px;
-  font-family: var(--bodyFont);
   font-weight: 500;
   text-align: center;
 }
@@ -383,9 +386,8 @@ figure {
 }
 
 .post-content {
-  font-family: var(--bodyFont);
   font-size: 16px;
-  line-height: 36px;
+  line-height: 32px;
   color: var(--secondaryColor);
   background: var(--backgroundColor);
   position: relative;
@@ -401,7 +403,7 @@ figure {
 }
 
 .post-content p {
-  margin: 20px 0 0;
+  margin: 20px 0;
   color: var(--secondaryColor);
 }
 
@@ -413,7 +415,6 @@ figure {
 .post-content blockquote {
   border-left: 4px solid var(--hoverColor);
   color: var(--secondaryColor);
-  font-family: var(--bodyFont);
   font-style: italic;
   margin: 0;
   padding-left: 20px;
@@ -432,6 +433,7 @@ figure {
 }
 
 .post-content img {
+  border-radius: 8px;
   min-width: 100%;
   max-width: 100%;
 }
@@ -484,7 +486,7 @@ figure {
    *   and apply it as a negative margin: -1 * (100vw - 700px) / 2)
    */
   .post-content .post-image-full {
-    margin-left: calc(-1 * (100vw - 700px) / 2);
+    margin-left: calc(-1 * (70vw - 700px) / 2);
   }
 
   .post-title {
@@ -538,7 +540,7 @@ figure {
   right: -20px;
   bottom: 0;
   background: var(--hoverColor);
-  border-radius: 4px;
+  border-radius: var(--borderRadius);
   z-index: -1;
 }
 
@@ -549,7 +551,6 @@ figure {
 
 .post-content .article-title {
   max-width: 500px;
-  font-family: var(--bodyFont);
   font-weight: 700;
   font-size: 18px;
   line-height: 40px;
@@ -558,7 +559,6 @@ figure {
 
 .post-content .article-date {
   color: var(--secondaryColor);
-  font-family: var(--bodyFont);
   font-weight: 500;
   font-size: 14px;
   min-width: 100px;
@@ -660,7 +660,7 @@ figure {
 }
 
 .form input[type="email"] {
-  border-radius: 4px;
+  border-radius: var(--borderRadius);
   border-top-right-radius: 0;
   border-bottom-right-radius: 0;
   font-size: 15px;
@@ -680,7 +680,7 @@ figure {
 }
 
 .form input[type="submit"] {
-  border-radius: 4px;
+  border-radius: var(--borderRadius);
   border-top-left-radius: 0;
   border-bottom-left-radius: 0;
   box-shadow: 0 1px 1px rgba(0, 0, 0, 0.12);
@@ -702,9 +702,9 @@ figure {
 
 code {
   background: #151417;
-  border-radius: 4px;
+  border-radius: var(--borderRadius);
   color: var(--primaryColor);
-  font-family: "Fira Code", monospace;
+  font-family: var(--fontCode);
   font-size: 15px;
 }
 

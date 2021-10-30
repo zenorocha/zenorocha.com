@@ -12,7 +12,7 @@ During my time at [Liferay](https://www.liferay.com), I was contacted by many co
 
 This post is an attempt to explain why I declined all these companies and to reflect on this entire journey.
 
-<img src="/static/img/posts/im-leaving-my-job-after-9-years-z.png" alt="Email inbox" style="border-radius: 5px;">
+![Email inbox](/static/img/posts/im-leaving-my-job-after-9-years-z.png)
 
 ## The beginning
 
@@ -69,7 +69,7 @@ During the second week there, I had to leave my room for 15 seconds, and when I 
 
 Again Liferay was very kind to me. They brought me a new computer, some DVDs to watch, and most importantly they flew my sister all the way from Rio de Janeiro to Madrid just to be there with me.
 
-<img src="/static/img/posts/im-leaving-my-job-after-9-years-n.jpg" alt="Briza and Zeno" style="border-radius: 5px;">
+![Briza and Zeno](/static/img/posts/im-leaving-my-job-after-9-years-n.jpg)
 
 Those were, by far, the worst 3 weeks of my life, but I learned so much from it.
 

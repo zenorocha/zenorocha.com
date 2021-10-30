@@ -6,7 +6,7 @@ canonical_url: https://workos.com/blog/5-lessons-we-learned-adding-dark-mode-to-
 date: "2021-08-12"
 ---
 
-<img src="/static/img/posts/5-lessons-we-learned-adding-dark-mode-to-our-platform.png" alt="Dark mode at WorkOS" style="border-radius: 5px;">
+![Dark mode at WorkOS](/static/img/posts/5-lessons-we-learned-adding-dark-mode-to-our-platform.png)
 
 _Originally published in the [WorkOS Blog](https://workos.com/blog/5-lessons-we-learned-adding-dark-mode-to-our-platform)_
 
@@ -16,7 +16,7 @@ Designing a dark mode version of your app comes with its own challenges. In this
 
 ## 1. Measure the contrast ratio
 
-<img src="/static/img/posts/5-lessons-we-learned-adding-dark-mode-to-our-platform-a.png" alt="Measure the contrast ratio" style="border-radius: 5px;">
+![Measure the contrast ratio](/static/img/posts/5-lessons-we-learned-adding-dark-mode-to-our-platform-a.png)
 
 The biggest challenge of any dark theme is meeting the accessibility requirements to ensure users with all ranges of vision can access information.
 
@@ -28,7 +28,7 @@ By applying these changes, we learned another lesson: adding a dark theme can im
 
 ## 2. Stay away from pure black
 
-<img src="/static/img/posts/5-lessons-we-learned-adding-dark-mode-to-our-platform-b.png" alt="Stay away from pure black" style="border-radius: 5px;">
+![Stay away from pure black](/static/img/posts/5-lessons-we-learned-adding-dark-mode-to-our-platform-b.png)
 
 One of the first things we did as we embarked on this dark mode journey was to invert all colors. Everything that was pure white (aka #FFF) became pure black (aka #000).
 
@@ -40,7 +40,7 @@ The same goes for digital devices. Good dark mode applications use shades of gre
 
 ## 3. Re-evaluate your color palette
 
-<img src="/static/img/posts/5-lessons-we-learned-adding-dark-mode-to-our-platform-c.png" alt="Re-evaluate your color palette" style="border-radius: 5px;">
+![Re-evaluate your color palette](/static/img/posts/5-lessons-we-learned-adding-dark-mode-to-our-platform-c.png)
 
 You’ll often need to tweak colors in a dark theme to evoke the same response in a light theme.
 
@@ -52,7 +52,7 @@ Lighter tones ensure that your elements are still accessible and have a proper c
 
 ## 4. Establish the visual hierarchy
 
-<img src="/static/img/posts/5-lessons-we-learned-adding-dark-mode-to-our-platform-d.png" alt="Establish the visual hierarchy" style="border-radius: 5px;">
+![Establish the visual hierarchy"](/static/img/posts/5-lessons-we-learned-adding-dark-mode-to-our-platform-d.png)
 
 Shadows are a great way to generate visual hierarchy in light themes since they help you express elevation.
 
@@ -64,7 +64,7 @@ Raising an element closer to an implied light source builds a sense of depth. Th
 
 ## 5. Let the user choose
 
-<img src="/static/img/posts/5-lessons-we-learned-adding-dark-mode-to-our-platform-e.png" alt="Let the user choose" style="border-radius: 5px;">
+![Let the user choose"](/static/img/posts/5-lessons-we-learned-adding-dark-mode-to-our-platform-e.png)
 
 One misconception developers have with light/dark mode is automatically applying a theme based on the system user preferences.
 

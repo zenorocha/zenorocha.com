@@ -10,7 +10,7 @@ date: "2021-07-06"
 
 A couple of months ago, I got a random DM on Twitter.
 
-<img src="/static/img/posts/why-im-joining-workos-e.png" alt="“Dracula looks really good :)” - Michael Grinich" style="border-radius: 5px;">
+![“Dracula looks really good :)”](/static/img/posts/why-im-joining-workos-e.png)
 
 Whenever someone sends me a message, I always go to their profile and see what they are interested in. Starting a conversation and showing some love back is my way of saying thank you.
 
@@ -38,7 +38,7 @@ After several calls, we got to know each other better and even exchanged some bo
 
 The next thing I did was preparing a presentation to the team. **Building things for developers has always been my passion**, so I decided to focus my talk on the things that make great developer-first products.
 
-<img src="/static/img/posts/why-im-joining-workos-b.jpg" alt="The next generation of developer-first products" style="border-radius: 5px;">
+![The next generation of developer-first products](/static/img/posts/why-im-joining-workos-b.jpg)
 
 After that, Michael called to tell me that the presentation was well-received by the team, and he wanted to make an offer. But before doing that, he wanted to have dinner face-to-face.
 
@@ -87,7 +87,7 @@ The result? **Engineers got frustrated** since they had to build all these “bo
 
 When I found WorkOS, I saw the light at the end of the tunnel.
 
-<div class="iframe-wrap" style="border-radius: 5px;">
+<div class="iframe-wrap">
   <iframe src="https://www.youtube.com/embed/IR2QZQrzoiA">
   </iframe>
 </div>

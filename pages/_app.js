@@ -1,5 +1,6 @@
 import '../public/static/css/main.css'
 import '../public/static/css/prism.css'
+import 'bootstrap-icons/font/bootstrap-icons.css'
 
 import Router from 'next/router'
 import useKeypress from '../lib/use-keypress'

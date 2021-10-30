@@ -9,6 +9,7 @@
     "deploy": "vercel --prod"
   },
   "dependencies": {
+    "bootstrap-icons": "^1.6.1",
     "date-fns": "^2.21.3",
     "framer-motion": "^5.0.0",
     "googleapis": "^82.0.0",

@@ -6,6 +6,7 @@
   --primaryColor: #f2f2f2;
   --secondaryColor: #8f9ba8;
   --backgroundColor: #08070b;
+  --commandColor: #1c1c1d;
   --hoverColor: rgba(255, 255, 255, 0.1);
 
   --gradientDegree: 135deg;
@@ -32,6 +33,11 @@ body {
   padding: 0;
   -webkit-font-smoothing: antialiased;
   background: var(--backgroundColor);
+}
+
+.wrapper {
+  position: relative;
+  z-index: 0;
 }
 
 .iframe-wrap {

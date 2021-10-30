@@ -14,6 +14,7 @@
     "framer-motion": "^5.0.0",
     "googleapis": "^82.0.0",
     "gray-matter": "^4.0.3",
+    "kbar": "^0.1.0-beta.16",
     "next": "^10.0.0",
     "next-seo": "^4.24.0",
     "react": "^17.0.1",

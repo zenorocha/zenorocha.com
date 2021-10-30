@@ -6,7 +6,7 @@ import BlogViews from '../components/BlogViews'
 export default function Blogpost({ children }) {
   const { title, image, date, views } = children.props
 
-  return <div>
+  return <div className="wrapper">
     <Navbar image={image} />
     <main className={image ? 'post' : 'post main'}>
       {image &&

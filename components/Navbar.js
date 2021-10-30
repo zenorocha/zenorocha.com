@@ -2,11 +2,13 @@ import { useState } from 'react'
 import Link from 'next/link'
 import { useRouter } from 'next/router'
 import { motion, AnimateSharedLayout } from 'framer-motion'
+import { useKBar } from 'kbar'
 
 export default function Navbar() {
   const router = useRouter()
   const pages = ['Articles', 'Podcasts', 'Talks', 'Projects', 'Reminder']
   const [hovered, setHovered] = useState('')
+  const { query } = useKBar();
 
   return <AnimateSharedLayout>
     <header className="site-header">
@@ -45,7 +47,7 @@ export default function Navbar() {
       </nav>
 
       <div className="nav-secondary">
-        <button className="btn-header btn-transparent">
+        <button className="btn-header btn-transparent" onClick={query.toggle}>
           <i className="btn-cmd bi-command" />
         </button>
       </div>

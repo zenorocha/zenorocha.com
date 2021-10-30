@@ -4,7 +4,7 @@ import Updates from '../components/Updates'
 export default function Main({ children }) {
   const { title, tagline, gradientColor, selectionColor } = children.props
 
-  return <div>
+  return <div className="wrapper">
     <Navbar />
     <main className={`post main ${selectionColor}`}>
       <div className="post-content">

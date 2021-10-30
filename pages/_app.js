@@ -4,6 +4,7 @@ import 'bootstrap-icons/font/bootstrap-icons.css'
 
 import Router from 'next/router'
 import * as gtag from '../lib/gtag'
+import CommandBar from '../components/CommandBar'
 
 Router.events.on('routeChangeComplete', url => gtag.pageview(url))
 
@@ -13,8 +14,10 @@ export default function MyApp({ Component, pageProps }) {
   const Layout = Component.Layout || Noop
 
   return (
-    <Layout>
-      <Component {...pageProps} />
-    </Layout>
+    <CommandBar>
+      <Layout>
+        <Component {...pageProps} />
+      </Layout>
+    </CommandBar>
   )
 }

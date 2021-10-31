@@ -3,27 +3,27 @@ export default function Footer() {
     {
       title: 'Source',
       url: 'https://github.com/zenorocha/zenorocha.com',
-      icon: 'icon-braces-line.svg'
+      icon: 'ri-braces-line'
     },
     {
       title: 'Twitter',
       url: 'https://twitter.com/zenorocha',
-      icon: 'icon-twitter-line.svg'
+      icon: 'ri-twitter-line'
     },
     {
       title: 'GitHub',
       url: 'https://github.com/zenorocha',
-      icon: 'icon-github-line.svg'
+      icon: 'ri-github-line'
     },
     {
       title: 'linkedin',
       url: 'https://linkedin.com/in/zenorocha',
-      icon: 'icon-linkedin-line.svg'
+      icon: 'ri-linkedin-line'
     },
     {
       title: 'Instagram',
       url: 'https://instagram.com/zenorocha',
-      icon: 'icon-instagram-line.svg'
+      icon: 'ri-instagram-line'
     },
   ]
 
@@ -31,7 +31,7 @@ export default function Footer() {
     {links.map((link, index) => {
       return <a key={index} href={link.url} target="_blank">
         <span>{link.title}</span>
-        <img src={`/static/images/${link.icon}`} alt={link.title} />
+        <i className={link.icon} />
       </a>
     })}
   </footer>

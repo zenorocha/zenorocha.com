@@ -22,7 +22,7 @@ export default function CommandBar(props) {
       keywords: 'copy-url',
       section: 'General',
       perform: () => navigator.clipboard.writeText(window.location.href),
-      icon: <i className='bi-clipboard' style={iconStyle} />,
+      icon: <i className='ri-clipboard-line' style={iconStyle} />,
     },
     {
       id: 'email',
@@ -31,43 +31,52 @@ export default function CommandBar(props) {
       keywords: 'send-email',
       section: 'General',
       perform: sendEmail,
-      icon: <i className='bi-envelope' style={iconStyle} />,
+      icon: <i className='ri-mail-line' style={iconStyle} />,
+    },
+    {
+      id: 'source',
+      name: 'View Source',
+      shortcut: ['s'],
+      keywords: 'view-source',
+      section: 'General',
+      perform: () => (window.open('https://github.com/zenorocha/zenorocha.com', '_blank')),
+      icon: <i className='ri-braces-line' style={iconStyle} />,
     },
     {
       id: 'github',
       name: 'Github',
-      shortcut: ['s', 'g'],
+      shortcut: ['f', 'g'],
       keywords: 'go-github',
       section: 'Follow',
       perform: () => (window.open('https://github.com/zenorocha', '_blank')),
-      icon: <i className='bi-github' style={iconStyle} />,
+      icon: <i className='ri-github-line' style={iconStyle} />,
     },
     {
       id: 'twitter',
       name: 'Twitter',
-      shortcut: ['s', 't'],
+      shortcut: ['f', 't'],
       keywords: 'go-twitter',
       section: 'Follow',
       perform: () => (window.open('https://twitter.com/zenorocha', '_blank')),
-      icon: <i className='bi-twitter' style={iconStyle} />,
-    },
-    {
-      id: 'instagram',
-      name: 'Instagram',
-      shortcut: ['s', 'i'],
-      keywords: 'go-instagram',
-      section: 'Follow',
-      perform: () => (window.open('https://instagram.com/zenorocha', '_blank')),
-      icon: <i className='bi-instagram' style={iconStyle} />,
+      icon: <i className='ri-twitter-line' style={iconStyle} />,
     },
     {
       id: 'linkedin',
       name: 'LinkedIn',
-      shortcut: ['s', 'l'],
+      shortcut: ['f', 'l'],
       keywords: 'go-linkedin',
       section: 'Follow',
       perform: () => (window.open('https://linkedin.com/in/zenorocha', '_blank')),
-      icon: <i className='bi-linkedin' style={iconStyle} />,
+      icon: <i className='ri-linkedin-line' style={iconStyle} />,
+    },
+    {
+      id: 'instagram',
+      name: 'Instagram',
+      shortcut: ['f', 'i'],
+      keywords: 'go-instagram',
+      section: 'Follow',
+      perform: () => (window.open('https://instagram.com/zenorocha', '_blank')),
+      icon: <i className='ri-instagram-line' style={iconStyle} />,
     },
     {
       id: 'home',
@@ -76,7 +85,7 @@ export default function CommandBar(props) {
       keywords: 'go-home',
       section: 'Go To',
       perform: () => router.push('/'),
-      icon: <i className='bi-house' style={iconStyle} />,
+      icon: <i className='ri-home-5-line' style={iconStyle} />,
     },
     {
       id: 'articles',
@@ -85,7 +94,7 @@ export default function CommandBar(props) {
       keywords: 'go-articles',
       section: 'Go To',
       perform: () => router.push('/articles'),
-      icon: <i className='bi-pen' style={iconStyle} />,
+      icon: <i className='ri-ball-pen-line' style={iconStyle} />,
     },
     {
       id: 'podcasts',
@@ -94,7 +103,7 @@ export default function CommandBar(props) {
       keywords: 'go-podcasts',
       section: 'Go To',
       perform: () => (router.push('/podcasts')),
-      icon: <i className='bi-mic' style={iconStyle} />,
+      icon: <i className='ri-mic-line' style={iconStyle} />,
     },
     {
       id: 'talks',
@@ -103,7 +112,7 @@ export default function CommandBar(props) {
       keywords: 'go-talks',
       section: 'Go To',
       perform: () => (router.push('/talks')),
-      icon: <i className='bi-camera-video' style={iconStyle} />,
+      icon: <i className='ri-slideshow-2-line' style={iconStyle} />,
     },
     {
       id: 'projects',
@@ -112,7 +121,7 @@ export default function CommandBar(props) {
       keywords: 'go-projects',
       section: 'Go To',
       perform: () => (router.push('/projects')),
-      icon: <i className='bi-code-slash' style={iconStyle} />,
+      icon: <i className='ri-lightbulb-line' style={iconStyle} />,
     },
     {
       id: 'reminder',
@@ -121,7 +130,7 @@ export default function CommandBar(props) {
       keywords: 'go-reminder',
       section: 'Go To',
       perform: () => (router.push('/reminder')),
-      icon: <i className='bi-alarm' style={iconStyle} />,
+      icon: <i className='ri-time-line' style={iconStyle} />,
     },
   ]
 
@@ -232,7 +241,9 @@ const groupNameStyle = {
 }
 
 const iconStyle = {
-  fontSize: '18px'
+  fontSize: '20px',
+  position: 'relative',
+  top: '-2px',
 }
 
 const kbdStyle = {

@@ -47,8 +47,8 @@ export default function Navbar() {
       </nav>
 
       <div className="nav-secondary">
-        <button className="btn-header btn-transparent" onClick={query.toggle}>
-          <i className="btn-cmd bi-command" />
+        <button className="btn-header btn-cmd btn-transparent" onClick={query.toggle}>
+          <i className="ri-command-line" />
         </button>
       </div>
     </header>

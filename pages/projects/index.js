@@ -24,7 +24,7 @@ function Projects(props) {
         <ul>
           {item.projects.map((project, pIndex) => {
             return <li key={pIndex}>
-              <a href={project.url}>{project.title}</a>
+              <a href={project.url} target="_blank">{project.title}</a>
             </li>
           })}
         </ul>

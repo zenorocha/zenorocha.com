@@ -38,6 +38,9 @@ body {
 .wrapper {
   position: relative;
   z-index: 0;
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
 }
 
 .iframe-wrap {
@@ -278,6 +281,7 @@ svg {
 
 .post {
   overflow: hidden;
+  flex: 1;
 }
 
 .post-header {
@@ -578,6 +582,65 @@ figure {
 
   .post-content .article-date {
     text-align: right;
+  }
+}
+
+/* Footer
+   ========================================================================== */
+
+.footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.footer {
+  margin: 20px 0;
+}
+
+.footer a:first-child {
+  margin: 0;
+}
+
+.footer a {
+  color: var(--secondaryColor);
+  display: flex;
+  margin-left: 20px;
+  text-decoration: none;
+  text-transform: lowercase;
+  transition: color 0.3s ease-in-out;
+}
+
+.footer a:hover {
+  color: var(--primaryColor);
+}
+
+.footer a span {
+  display: none;
+}
+
+.footer a img {
+  width: 24px;
+  height: 24px;
+  opacity: 1;
+  margin-left: 5px;
+  margin-top: 1px;
+}
+
+.footer a:hover img {
+  transition: opacity 0.3s ease-in-out;
+  opacity: 1;
+}
+
+@media (min-width: 720px) {
+  .footer a img {
+    opacity: 0;
+    width: 16px;
+    height: 16px;
+  }
+
+  .footer a span {
+    display: block;
   }
 }
 

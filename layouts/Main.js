@@ -1,5 +1,6 @@
 import Navbar from '../components/Navbar'
 import Updates from '../components/Updates'
+import Footer from '../components/Footer'
 
 export default function Main({ children }) {
   const { title, tagline, gradientColor, selectionColor } = children.props
@@ -17,5 +18,6 @@ export default function Main({ children }) {
         <Updates />
       </div>
     </main>
+    <Footer />
   </div>
 }

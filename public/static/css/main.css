@@ -508,24 +508,25 @@ figure {
   }
 }
 
-/* Articles
+/* Articles & Podcasts
    ========================================================================== */
 
-.post-content .article-list {
+.article-list,
+.podcast-list {
   list-style: none;
   margin: 0;
   padding: 0;
 }
 
-.post-content .article-item {
+.list-item {
   border-bottom: 1px solid var(--hoverColor);
 }
 
-.post-content .article-item:last-child {
+.list-item:last-child {
   border: 0;
 }
 
-.post-content .article-link {
+.list-item-link {
   border: 0;
   color: var(--secondaryColor);
   cursor: pointer;
@@ -537,15 +538,18 @@ figure {
   opacity: 1;
   transition: all 0.3s ease-in-out;
   text-decoration: none;
-  flex-direction: column;
   position: relative;
 }
 
-.post-content .article-link:hover {
+.article-list .list-item-link {
+  flex-direction: column;
+}
+
+.list-item-link:hover {
   color: #fff;
 }
 
-.article-link-hovered {
+.list-item-link-hovered {
   position: absolute;
   top: 0;
   left: -20px;
@@ -556,12 +560,12 @@ figure {
   z-index: -1;
 }
 
-.post-content .article-title,
-.post-content .article-date {
+.list-item-title,
+.list-item-date {
   display: block;
 }
 
-.post-content .article-title {
+.list-item-title {
   max-width: 500px;
   font-weight: 700;
   font-size: 18px;
@@ -569,7 +573,7 @@ figure {
   text-align: left;
 }
 
-.post-content .article-date {
+.list-item-date {
   color: var(--secondaryColor);
   font-weight: 500;
   font-size: 14px;
@@ -577,12 +581,16 @@ figure {
   text-align: left;
 }
 
+.list-item-icon {
+  font-size: 24px;
+}
+
 @media (min-width: 700px) {
-  .post-content .article-link {
+  .article-list .list-item-link {
     flex-direction: row;
   }
 
-  .post-content .article-date {
+  .list-item-date {
     text-align: right;
   }
 }

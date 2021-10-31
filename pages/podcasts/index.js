@@ -71,19 +71,19 @@ function Podcasts(props) {
       <AnimateSharedLayout>
         <h2>ByteTalk</h2>
         <p>A podcast where Jonni and I interview the most productive people in tech.</p>
-        <ul className="article-list">
+        <ul className="podcast-list">
           {renderByteTalk()}
         </ul>
 
         <h2>Appearances</h2>
         <p>This is the list of all the podcasts that I gave an interview so far.</p>
-        <ul className="article-list">
+        <ul className="podcast-list">
           {renderOther(appearances)}
         </ul>
 
         <h2>Zone Of Front-Enders</h2>
         <p>My first podcast, ZOFE, where Daniel and I talked about web technologies.</p>
-        <ul className="article-list">
+        <ul className="podcast-list">
           {renderOther(zofe)}
         </ul>
       </AnimateSharedLayout>

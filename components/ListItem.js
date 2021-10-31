@@ -4,38 +4,58 @@ import { motion } from 'framer-motion'
 import BlogDate from './BlogDate'
 
 export default function ListItem(props) {
-  const [hovered, setHovered] = useState('')
-  const isHovered = hovered === props.index
+  // Articles
+  if (props.href.charAt(0) === '/') {
+    return <li className="list-item">
+      <Link href={props.href}>
+        <a>
+          <Animation index={props.index}>
+            <span className="list-item-title">
+              {props.title}
+            </span>
+            <span className="list-item-date">
+              <BlogDate dateString={props.date} />
+            </span>
+          </Animation>
+        </a>
+      </Link>
+    </li>
+  }
 
-  return <li className="article-item">
-    <ListItemLink href={props.href}>
-      <motion.span
-        onHoverStart={() => setHovered(props.index)}
-        onHoverEnd={() => setHovered('')}
-        className="article-link"
-      >
-        {isHovered &&
-          <motion.span
-            layoutId="listItem"
-            initial={{ opacity: 0 }}
-            animate={{ opacity: 1 }}
-            exit={{ opacity: 0 }}
-            className="article-link-hovered"
-          />
-        }
-        <span className="article-title">{props.title}</span>
-        <span className="article-date">
-          <BlogDate dateString={props.date} />
+  // Podcasts
+  return <li className="list-item">
+    <a href={props.href}>
+      <Animation index={props.index}>
+        <span className="list-item-title">
+          {props.title}
         </span>
-      </motion.span>
-    </ListItemLink>
+        <span className="list-item-icon">
+          <i className="ri-arrow-right-up-line"></i>
+        </span>
+      </Animation>
+    </a>
   </li>
 }
 
-function ListItemLink(props) {
-  if (props.href.charAt(0) === '/') {
-    return <Link href={props.href}><a>{props.children}</a></Link>
-  }
+function Animation(props) {
+  const [hovered, setHovered] = useState('')
+  const isHovered = hovered === props.index
 
-  return <a href={props.href} target="_blank">{props.children}</a>
+  return <motion.span
+    onHoverStart={() => setHovered(props.index)}
+    onHoverEnd={() => setHovered('')}
+    className="list-item-link"
+  >
+    {isHovered &&
+      <motion.span
+        layoutId="listItem"
+        initial={{ opacity: 0 }}
+        animate={{ opacity: 1 }}
+        exit={{ opacity: 0 }}
+        className="list-item-link-hovered"
+      />
+    }
+
+    {props.children}
+  </motion.span>
 }

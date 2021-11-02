@@ -24,22 +24,24 @@ export default function Navbar() {
 
             return <li key={page}>
               <Link href={path}>
-                <motion.a
-                  onHoverStart={() => setHovered(page)}
-                  onHoverEnd={() => setHovered('')}
-                  className={router.pathname == path ? "nav-active" : ""}
-                >
-                  {isHovered &&
-                    <motion.span
-                      className="nav-hovered"
-                      layoutId="nav"
-                      initial={{ opacity: 0 }}
-                      animate={{ opacity: 1 }}
-                      exit={{ opacity: 0 }}
-                    />
-                  }
-                  {page}
-                </motion.a>
+                <a>
+                  <motion.span
+                    onHoverStart={() => setHovered(page)}
+                    onHoverEnd={() => setHovered('')}
+                    className={router.pathname == path ? "nav-active" : ""}
+                  >
+                    {isHovered &&
+                      <motion.span
+                        className="nav-hovered"
+                        layoutId="nav"
+                        initial={{ opacity: 0 }}
+                        animate={{ opacity: 1 }}
+                        exit={{ opacity: 0 }}
+                      />
+                    }
+                    {page}
+                  </motion.span>
+                </a>
               </Link>
             </li>
           })}
@@ -47,7 +49,7 @@ export default function Navbar() {
       </nav>
 
       <div className="nav-secondary">
-        <button className="btn-header btn-cmd btn-transparent" onClick={query.toggle}>
+        <button type="button" aria-label="Command" className="btn-header btn-cmd btn-transparent" onClick={query.toggle}>
           <i className="ri-command-line" />
         </button>
       </div>

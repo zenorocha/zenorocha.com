@@ -126,8 +126,6 @@ kbd {
   flex: 1;
   order: 2;
   flex-basis: 100%;
-  transition: background-color 0.3s ease;
-  margin-left: 10px;
 }
 
 .site-nav > ul {
@@ -135,6 +133,8 @@ kbd {
   padding: 0;
   list-style: none;
   display: inline-flex;
+  position: relative;
+  top: 5px;
 }
 
 .site-nav .active a {
@@ -142,6 +142,10 @@ kbd {
 }
 
 .site-nav a {
+  position: relative;
+}
+
+.site-nav span {
   transition: color 0.3s ease-in-out;
   color: var(--secondaryColor);
   cursor: pointer;
@@ -151,11 +155,10 @@ kbd {
   font-weight: 500;
   letter-spacing: 1.2px;
   font-size: 12px;
-  padding: 20px 10px;
-  position: relative;
+  padding: 20px;
 }
 
-.site-nav a:hover {
+.site-nav span:hover {
   color: var(--primaryColor);
 }
 
@@ -163,13 +166,13 @@ kbd {
   color: var(--primaryColor);
 }
 
-.site-nav a::after {
+.site-nav span::after {
   content: "";
   position: absolute;
   margin: 0px auto;
+  top: 18px;
   left: 0px;
   right: 0px;
-  bottom: 15px;
   height: 1px;
   width: 20px;
   background: rgb(255, 255, 255);
@@ -183,23 +186,17 @@ kbd {
 
 .nav-hovered {
   position: absolute;
-  top: 10px;
+  top: -15px;
   left: 0;
   right: 0;
-  bottom: 10px;
   background: var(--hoverColor);
   border-radius: var(--borderRadius);
   z-index: -1;
 }
 
 @media (min-width: 425px) {
-  .site-nav a {
-    padding: 20px 10px;
-  }
-
   .site-nav > ul {
     justify-content: space-around;
-    width: 100%;
   }
 }
 
@@ -213,15 +210,6 @@ kbd {
   .site-nav {
     order: 0;
     flex-basis: initial;
-    margin-left: 0;
-  }
-
-  .site-nav > ul {
-    width: auto;
-  }
-
-  .site-nav a {
-    padding: 20px;
   }
 
   .main {
@@ -252,7 +240,6 @@ svg {
 .btn-transparent {
   appearance: none;
   border: none;
-  outline: none;
   background: transparent;
   cursor: pointer;
 }
@@ -896,6 +883,7 @@ code {
     url("/static/font/NeuzeitGrotesk-Bold.woff") format("woff");
   font-weight: normal;
   font-style: normal;
+  font-display: swap;
 }
 
 @font-face {
@@ -904,6 +892,7 @@ code {
     url("/static/font/FiraCode-Regular.woff") format("woff");
   font-weight: normal;
   font-style: normal;
+  font-display: swap;
 }
 
 @font-face {
@@ -912,6 +901,7 @@ code {
     url("/static/font/Biotif-Bold.woff") format("woff");
   font-weight: bold;
   font-style: normal;
+  font-display: swap;
 }
 
 @font-face {
@@ -920,6 +910,7 @@ code {
     url("/static/font/Biotif-SemiBold.woff") format("woff");
   font-weight: 600;
   font-style: normal;
+  font-display: swap;
 }
 
 @font-face {
@@ -928,6 +919,7 @@ code {
     url("/static/font/Biotif-Book.woff") format("woff");
   font-weight: 500;
   font-style: normal;
+  font-display: swap;
 }
 
 @font-face {
@@ -936,6 +928,7 @@ code {
     url("/static/font/Biotif-Regular.woff") format("woff");
   font-weight: normal;
   font-style: normal;
+  font-display: swap;
 }
 
 @font-face {
@@ -944,4 +937,5 @@ code {
     url("/static/font/Biotif-RegularItalic.woff") format("woff");
   font-weight: normal;
   font-style: italic;
+  font-display: swap;
 }

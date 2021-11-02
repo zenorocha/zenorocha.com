@@ -203,6 +203,7 @@ kbd {
 @media (max-width: 720px) {
   .site-nav {
     overflow-x: scroll;
+    overflow-y: hidden;
   }
 }
 
@@ -213,7 +214,7 @@ kbd {
   }
 
   .main {
-    padding-top: var(--navHeightDesktop);
+    padding: var(--navHeightDesktop) 0;
   }
 
   .site-header {
@@ -265,7 +266,7 @@ svg {
    ========================================================================== */
 
 .main {
-  padding-top: var(--navHeightMobile);
+  padding: var(--navHeightMobile) 0;
 }
 
 .post {

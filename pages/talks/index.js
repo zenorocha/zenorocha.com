@@ -68,10 +68,10 @@ function Talks(props) {
 
       <p dangerouslySetInnerHTML={{ __html: description }} />
 
-      <h2 style={{ marginTop: 60 }}>Featured Talks</h2>
+      <h2>Featured Talks</h2>
       {renderFeatured()}
 
-      <h2 style={{ marginTop: 60 }}>All Talks</h2>
+      <h2>All Talks</h2>
       {renderAll()}
     </div>
   )

@@ -182,9 +182,6 @@ const ResultItem = React.forwardRef(({ action, active }, ref) => {
         {action.icon && action.icon}
         <div style={actionRowStyle}>
           <span>{action.name}</span>
-          {action.subtitle && (
-            <span style={{ fontSize: 12 }}>{action.subtitle}</span>
-          )}
         </div>
       </div>
       {action.shortcut?.length ? (

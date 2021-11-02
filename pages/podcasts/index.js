@@ -75,7 +75,7 @@ function Podcasts(props) {
   }
 
   const { title, image } = props
-  const description = `<p>Audio is a powerful medium and a great way to <strong>debate ideas</strong>. Whenever possible I try to share my story as a guest or <strong>meet new people</strong> by hosting my own podcast called ByteTalk.</p>`
+  const description = `Audio is a powerful medium and a great way to <strong>debate ideas</strong>. Whenever possible I try to share my story as a guest or <strong>meet new people</strong> by hosting my own podcast called ByteTalk.`
 
   return (
     <div className="single">

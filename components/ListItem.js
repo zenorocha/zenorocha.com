@@ -24,7 +24,7 @@ export default function ListItem(props) {
 
   // Podcasts
   return <li className="list-item">
-    <a href={props.href}>
+    <a href={props.href} target="_blank">
       <Animation index={props.index}>
         <span className="list-item-title">
           {props.title}

@@ -1,13 +1,13 @@
 import React from 'react'
 import Head from 'next/head'
 import Main from '../../layouts/Main'
+import stripHtml from '../../lib/strip-html'
 import items from '../../lib/talks'
 
 export async function getStaticProps() {
   const meta = {
     title: 'Talks // Zeno Rocha',
-    description: 'Here you can find the entire list of talks, meetups, workshops, and conferences that I presented in chronological order.',
-    tagline: '11 countries. 116 talks.',
+    tagline: 'Confs. Meetups. Events.',
     image: '/static/images/speaking.jpeg',
     gradientColor: 'cyan-green',
     selectionColor: 'green'
@@ -17,48 +17,84 @@ export async function getStaticProps() {
 }
 
 function Talks(props) {
-  const renderTalks = () => {
+  const renderFeatured = () => {
+    const featured = ['NEJS Conf', 'Nordic.JS', 'Polymer at SFHTML5']
+
+    return items
+      .map(item => {
+        return item.talks.filter(talk => featured.includes(talk.title))
+      })
+      .filter(item => {
+        if (item.length > 0) {
+          return item
+        }
+      })
+      .map((item, index) => {
+        return <TalkItem
+          key={index}
+          talk={item[0]}
+        />
+      })
+  }
+
+  const renderAll = () => {
     return items.map((item, index) => {
       return <div key={index}>
-        <h2>{item.year}</h2>
+        <h3>{item.year}</h3>
         <p>{item.summary}</p>
         {item.talks.map((talk, tIndex) => {
-          return <div key={tIndex}>
-            <h3>
-              <a href={talk.url}>{talk.title}</a>
-            </h3>
-            <ul>
-              <li><em>When:</em> {talk.when}</li>
-              <li><em>Where:</em> {talk.where}</li>
-              {talk.attendees && <li><em>Attendees:</em> {talk.attendees}</li>}
-              {talk.presentations && talk.presentations.map((presentation, pIndex) => {
-                return <li key={pIndex}>
-                  <em>Presentation:</em> <a href={presentation.url}>{presentation.title}</a> {presentation.video && <a href={presentation.video}>(Video)</a>}
-                </li>
-              })}
-            </ul>
-          </div>
+          return <TalkItem
+            key={tIndex}
+            talk={talk}
+          />
         })}
       </div>
     })
   }
 
-  const { title, description, image } = props
+  const { title, image } = props
+  const description = `I gave my first talk in 2010 and felt in love with <strong>sharing knowledge</strong> publicly. Since then, I traveled to <strong>11 countries</strong> and gave more than <strong>116 talks</strong>. Want me to speak at your event? Hit me up!`
 
   return (
     <div className="single">
       <Head>
         <title>{title}</title>
         <meta content={title} property="og:title" />
-        <meta content={description} name="description" />
-        <meta content={description} property="og:description" />
+        <meta content={stripHtml(description)} name="description" />
+        <meta content={stripHtml(description)} property="og:description" />
         <meta content="https://zenorocha.com/talks" property="og:url" />
         <meta content={`https://zenorocha.com${image}`} property="og:image" />
       </Head>
 
-      {renderTalks()}
+      <p dangerouslySetInnerHTML={{ __html: description }} />
+
+      <h2 style={{ marginTop: 60 }}>Featured Talks</h2>
+      {renderFeatured()}
+
+      <h2 style={{ marginTop: 60 }}>All Talks</h2>
+      {renderAll()}
     </div>
   )
+}
+
+function TalkItem(props) {
+  const { talk } = props
+
+  return <div>
+    <h3>
+      <a href={talk.url} target="_blank">{talk.title}</a>
+    </h3>
+    <ul>
+      <li><em>When:</em> {talk.when}</li>
+      <li><em>Where:</em> {talk.where}</li>
+      {talk.attendees && <li><em>Attendees:</em> {talk.attendees}</li>}
+      {talk.presentations && talk.presentations.map((presentation, pIndex) => {
+        return <li key={pIndex}>
+          <em>Presentation:</em> <a href={presentation.url} target="_blank">{presentation.title}</a> {presentation.video && <a href={presentation.video} target="_blank">(Video)</a>}
+        </li>
+      })}
+    </ul>
+  </div>
 }
 
 Talks.Layout = Main

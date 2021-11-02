@@ -464,7 +464,7 @@ figure {
 
 .post-content h2 {
   color: var(--primaryColor);
-  margin: 20px 0 0;
+  margin: 60px 0 0;
   font-size: 24px;
 }
 
@@ -481,7 +481,6 @@ figure {
 
 .post-content .manifesto {
   text-align: justify;
-  line-height: 40px;
 }
 
 @media (min-width: 700px) {
@@ -599,13 +598,12 @@ figure {
    ========================================================================== */
 
 .footer {
+  background: var(--backgroundColor);
   display: flex;
   align-items: center;
   justify-content: center;
-}
-
-.footer {
-  margin: 20px 0;
+  padding: 20px 0;
+  z-index: 1;
 }
 
 .footer a:first-child {

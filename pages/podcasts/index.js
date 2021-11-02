@@ -1,14 +1,13 @@
 import Head from 'next/head'
 import Main from '../../layouts/Main'
+import stripHtml from '../../lib/strip-html'
 import { appearances, zofe } from '../../lib/podcasts'
 import ListItem from '../../components/ListItem'
-import BlogDate from '../../components/BlogDate'
 import { AnimateSharedLayout } from 'framer-motion'
 
 export async function getStaticProps() {
   const meta = {
     title: 'Podcasts // Zeno Rocha',
-    description: 'Here you can find all my podcast episodes, including interviews, appearances, and my own podcast feed.',
     tagline: 'Ideas. Thoughts. Opinions.',
     image: '/static/images/podcast-opt.jpg',
     gradientColor: 'pink-purple',
@@ -29,6 +28,26 @@ export async function getStaticProps() {
 }
 
 function Podcasts(props) {
+  const renderFeatured = (items) => {
+    const featured = [
+      'Open Source Lessons Learned on The Changelog',
+      'Creating Dracula PRO with Blood, Sweat, and Tears on Sustain OSS',
+      'Habits of Highly Productive Developers on Junior to Senior',
+    ]
+
+    return items
+      .filter(item => featured.includes(item.title))
+      .map((item, index) => {
+        return <ListItem
+          key={index}
+          index={index}
+          href={item.url}
+          title={item.title}
+          date={item.date}
+        />
+      })
+  }
+
   const renderByteTalk = () => {
     const { episodes } = props
 
@@ -55,20 +74,28 @@ function Podcasts(props) {
     })
   }
 
-  const { title, description, image } = props
+  const { title, image } = props
+  const description = `<p>Audio is a powerful medium and a great way to <strong>debate ideas</strong>. Whenever possible I try to share my story as a guest or <strong>meet new people</strong> by hosting my own podcast called ByteTalk.</p>`
 
   return (
     <div className="single">
       <Head>
         <title>{title}</title>
         <meta content={title} property="og:title" />
-        <meta content={description} name="description" />
-        <meta content={description} property="og:description" />
+        <meta content={stripHtml(description)} name="description" />
+        <meta content={stripHtml(description)} property="og:description" />
         <meta content="https://zenorocha.com/podcasts" property="og:url" />
         <meta content={`https://zenorocha.com${image}`} property="og:image" />
       </Head>
 
       <AnimateSharedLayout>
+        <p dangerouslySetInnerHTML={{ __html: description }} />
+
+        <h2>Featured Podcasts</h2>
+        <ul className="podcast-list">
+          {renderFeatured(appearances)}
+        </ul>
+
         <h2>ByteTalk</h2>
         <p>A podcast where Jonni and I interview the most productive people in tech.</p>
         <ul className="podcast-list">

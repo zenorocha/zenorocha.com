@@ -2,17 +2,17 @@ import { useState } from 'react'
 import React from 'react'
 import Head from 'next/head'
 import { AnimateSharedLayout, motion } from 'framer-motion'
-import Main from '../../layouts/Main'
-import stripHtml from '../../lib/strip-html'
-import items from '../../lib/projects'
+import Main from '../layouts/Main'
+import stripHtml from '../lib/strip-html'
+import items from '../lib/projects'
 
 export async function getStaticProps() {
   const meta = {
     title: 'Projects // Zeno Rocha',
     tagline: 'Work. Hobby. Open Source.',
     image: '/static/images/computer-opt.jpg',
-    gradientColor: 'purple-cyan',
-    selectionColor: 'cyan',
+    gradientColor: 'cyan-green',
+    selectionColor: 'green',
   }
 
   return { props: meta }

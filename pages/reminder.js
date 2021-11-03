@@ -1,6 +1,6 @@
 import React from 'react'
 import Head from 'next/head'
-import Main from '../../layouts/Main'
+import Main from '../layouts/Main'
 
 export async function getStaticProps() {
   const meta = {
@@ -8,8 +8,8 @@ export async function getStaticProps() {
     description: 'Time is the most important asset. Time does not equal money. Time equals life. And you only have one chance to make it right.',
     tagline: 'Tick-tock. Tick-tock.',
     image: '/static/images/watch-opt.jpg',
-    gradientColor: 'yellow-pink',
-    selectionColor: 'orange'
+    gradientColor: 'cyan-green',
+    selectionColor: 'green',
   }
 
   return { props: meta }

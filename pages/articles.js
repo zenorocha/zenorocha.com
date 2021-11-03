@@ -1,8 +1,8 @@
 import Head from 'next/head'
-import Main from '../../layouts/Main'
-import stripHtml from '../../lib/strip-html'
-import { getAllPosts } from '../../lib/blog'
-import ListItem from '../../components/ListItem'
+import Main from '../layouts/Main'
+import stripHtml from '../lib/strip-html'
+import { getAllPosts } from '../lib/blog'
+import ListItem from '../components/ListItem'
 import { AnimateSharedLayout } from 'framer-motion'
 
 export async function getStaticProps() {
@@ -18,8 +18,8 @@ export async function getStaticProps() {
       title: 'Articles // Zeno Rocha',
       tagline: 'Stories. Updates. Guides.',
       image: '/static/images/writing-opt.jpg',
-      gradientColor: 'purple-green',
-      selectionColor: 'purple',
+      gradientColor: 'yellow-pink',
+      selectionColor: 'orange',
       allPosts,
     },
   }

@@ -1,8 +1,8 @@
 import Head from 'next/head'
-import Main from '../../layouts/Main'
-import stripHtml from '../../lib/strip-html'
-import { appearances, zofe } from '../../lib/podcasts'
-import ListItem from '../../components/ListItem'
+import Main from '../layouts/Main'
+import stripHtml from '../lib/strip-html'
+import { appearances, zofe } from '../lib/podcasts'
+import ListItem from '../components/ListItem'
 import { AnimateSharedLayout } from 'framer-motion'
 
 export async function getStaticProps() {
@@ -11,7 +11,7 @@ export async function getStaticProps() {
     tagline: 'Ideas. Thoughts. Opinions.',
     image: '/static/images/podcast-opt.jpg',
     gradientColor: 'pink-purple',
-    selectionColor: 'pink'
+    selectionColor: 'pink',
   }
 
   const payload = {

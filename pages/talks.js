@@ -1,16 +1,16 @@
 import React from 'react'
 import Head from 'next/head'
-import Main from '../../layouts/Main'
-import stripHtml from '../../lib/strip-html'
-import items from '../../lib/talks'
+import Main from '../layouts/Main'
+import stripHtml from '../lib/strip-html'
+import items from '../lib/talks'
 
 export async function getStaticProps() {
   const meta = {
     title: 'Talks // Zeno Rocha',
     tagline: 'Confs. Meetups. Events.',
     image: '/static/images/speaking.jpeg',
-    gradientColor: 'cyan-green',
-    selectionColor: 'green'
+    gradientColor: 'purple-cyan',
+    selectionColor: 'cyan',
   }
 
   return { props: meta }

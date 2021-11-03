@@ -1,8 +1,8 @@
 import React from 'react'
 import Head from 'next/head'
-import Main from '../../layouts/Main'
-import stripHtml from '../../lib/strip-html'
-import categories from '../../lib/uses'
+import Main from '../layouts/Main'
+import stripHtml from '../lib/strip-html'
+import categories from '../lib/uses'
 
 export async function getStaticProps() {
   const meta = {
@@ -10,8 +10,8 @@ export async function getStaticProps() {
     description: "I often get messages asking about specific pieces of <strong>software or hardware I use</strong>. This page is a <strong>living document</strong> with everything that I'm using nowadays.",
     tagline: 'Tools. Apps. Gear.',
     image: '/static/images/home-opt.jpg',
-    gradientColor: 'pink-purple',
-    selectionColor: 'pink'
+    gradientColor: 'yellow-pink',
+    selectionColor: 'orange',
   }
 
   return { props: meta }

@@ -200,14 +200,14 @@ kbd {
   }
 }
 
-@media (max-width: 720px) {
+@media (max-width: 780px) {
   .site-nav {
     overflow-x: scroll;
     overflow-y: hidden;
   }
 }
 
-@media (min-width: 720px) {
+@media (min-width: 780px) {
   .site-nav {
     order: 0;
     flex-basis: initial;
@@ -658,6 +658,38 @@ figure {
 
   .post-content .featured-project {
     width: 180px;
+  }
+}
+
+/* About
+   ========================================================================== */
+
+.about {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.about-section {
+  width: auto;
+  margin-top: 0px;
+}
+
+.about p:first-child {
+  margin-top: 0;
+}
+
+.about-img {
+  filter: grayscale(1);
+}
+
+@media (min-width: 700px) {
+  .about {
+    flex-direction: row;
+  }
+
+  .about-section {
+    width: 48%;
   }
 }
 

@@ -53,8 +53,18 @@ function Talks(props) {
     })
   }
 
+  const getTotalTalks = () => {
+    let total = 0
+
+    for (let i = 0; i < items.length; i++) {
+      total += items[i].talks.length
+    }
+
+    return total
+  }
+
   const { title, image } = props
-  const description = `I gave my first talk in 2010 and felt in love with <strong>sharing knowledge</strong> publicly. Since then, I traveled to <strong>11 countries</strong> and gave more than <strong>116 talks</strong>. Want me to speak at your event? Hit me up!`
+  const description = `I gave my first talk in 2010 and felt in love with <strong>sharing knowledge</strong> publicly. Since then, I traveled to <strong>11 countries</strong> and gave more than <strong>${getTotalTalks()} talks</strong>. Want me to speak at your event? Hit me up!`
 
   return (
     <div className="single">

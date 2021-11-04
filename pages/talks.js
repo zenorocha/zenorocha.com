@@ -1,10 +1,9 @@
-import { useState } from 'react'
 import React from 'react'
 import Head from 'next/head'
-import Image from 'next/image'
-import { AnimateSharedLayout, motion } from 'framer-motion'
+import { AnimateSharedLayout } from 'framer-motion'
 import { parseISO, format } from 'date-fns'
 import Main from '../layouts/Main'
+import FeaturedTalk from '../components/FeaturedTalk'
 import stripHtml from '../lib/strip-html'
 import items from '../lib/talks'
 
@@ -34,7 +33,7 @@ function Talks(props) {
         }
       })
       .map((item, index) => {
-        return <FeaturedTalkItem
+        return <FeaturedTalk
           key={index}
           talk={item[0]}
         />

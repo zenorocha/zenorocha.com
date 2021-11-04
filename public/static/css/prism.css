@@ -200,6 +200,12 @@ pre[class*="language-"] {
   hyphens: none;
 }
 
+pre,
+code,
+pre code span {
+  font-family: var(--codeFont);
+}
+
 /* Code blocks */
 
 pre[class*="language-"] {

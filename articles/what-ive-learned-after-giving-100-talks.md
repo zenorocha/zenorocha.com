@@ -3,6 +3,7 @@ title: What I've learned after giving 100 talks
 description: "Six years ago I was at the university. I was an introvert learning about computers, just like everybody else around me. But the thing is, I didn't want to be like everybody else, I wanted to be a reference in my field."
 image: /static/img/posts/100-talks-1.jpg
 date: "2017-11-01"
+stats: "1k+ views"
 ---
 
 Six years ago I was at the university. I was an introvert learning about computers, just like everybody else around me. But the thing is, I didn't want to be like everybody else, I wanted to be a reference in my field.

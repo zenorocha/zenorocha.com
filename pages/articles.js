@@ -3,6 +3,7 @@ import Main from '../layouts/Main'
 import stripHtml from '../lib/strip-html'
 import { getAllPosts } from '../lib/blog'
 import ListItem from '../components/ListItem'
+import FeaturedArticle from '../components/FeaturedArticle'
 import { AnimateSharedLayout } from 'framer-motion'
 
 export async function getStaticProps() {
@@ -11,6 +12,9 @@ export async function getStaticProps() {
     'skip',
     'slug',
     'title',
+    'image',
+    'stats',
+    'description',
   ])
 
   return {
@@ -28,20 +32,21 @@ export async function getStaticProps() {
 function Articles(props) {
   const renderFeatured = () => {
     const featured = [
-      'why-im-joining-workos',
-      'im-leaving-my-job-after-9-years',
-      'making-a-physical-book',
+      'what-ive-learned-after-giving-100-talks',
+      'the-technology-stack-i-used-to-build-my-first-mobile-app',
     ]
 
     return props.allPosts
       .filter(item => featured.includes(item.slug))
       .map((post, index) => {
-        return <ListItem
+        return <FeaturedArticle
           key={index}
           index={index}
           href={`/${post.slug}/`}
           title={post.title}
-          date={post.date}
+          description={post.description}
+          image={post.image}
+          stats={post.stats}
         />
       })
   }
@@ -78,9 +83,9 @@ function Articles(props) {
         <p dangerouslySetInnerHTML={{ __html: description }} />
 
         <h2>Featured Articles</h2>
-        <ul className="article-list">
+        <div className="featured-articles">
           {renderFeatured()}
-        </ul>
+        </div>
 
         <h2>All Articles</h2>
         <ul className="article-list">

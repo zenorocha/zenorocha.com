@@ -11,7 +11,7 @@ export async function getStaticProps() {
   const meta = {
     title: 'Talks // Zeno Rocha',
     tagline: 'Confs. Meetups. Events.',
-    image: '/static/images/speaking.jpeg',
+    image: '/static/images/talks-bw.jpg',
     gradientColor: 'purple-cyan',
     selectionColor: 'cyan',
   }

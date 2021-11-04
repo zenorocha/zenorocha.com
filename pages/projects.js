@@ -10,7 +10,7 @@ export async function getStaticProps() {
   const meta = {
     title: 'Projects // Zeno Rocha',
     tagline: 'Work. Hobby. Open Source.',
-    image: '/static/images/computer-opt.jpg',
+    image: '/static/images/projects-bw.jpg',
     gradientColor: 'cyan-green',
     selectionColor: 'green',
   }

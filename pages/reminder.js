@@ -7,7 +7,7 @@ export async function getStaticProps() {
     title: 'Reminder // Zeno Rocha',
     description: 'Time is the most important asset. Time does not equal money. Time equals life. And you only have one chance to make it right.',
     tagline: 'Tick-tock. Tick-tock.',
-    image: '/static/images/watch-opt.jpg',
+    image: '/static/images/reminder-bw.jpg',
     gradientColor: 'cyan-green',
     selectionColor: 'green',
   }

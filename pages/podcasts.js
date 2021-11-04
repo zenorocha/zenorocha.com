@@ -9,7 +9,7 @@ export async function getStaticProps() {
   const meta = {
     title: 'Podcasts // Zeno Rocha',
     tagline: 'Ideas. Thoughts. Opinions.',
-    image: '/static/images/podcast-opt.jpg',
+    image: '/static/images/podcasts-bw.jpg',
     gradientColor: 'pink-purple',
     selectionColor: 'pink',
   }

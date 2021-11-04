@@ -10,7 +10,7 @@ export async function getStaticProps() {
     props: {
       title: 'Zeno Rocha',
       description: 'Building world-class products that make developers happy',
-      image: '/static/images/home-opt.jpg',
+      image: '/static/images/home-bw.jpg',
     },
   }
 }

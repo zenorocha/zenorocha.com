@@ -9,7 +9,7 @@ export async function getStaticProps() {
     title: 'Uses // Zeno Rocha',
     description: "I often get messages asking about specific pieces of <strong>software or hardware I use</strong>. This page is a <strong>living document</strong> with everything that I'm using nowadays.",
     tagline: 'Tools. Apps. Gear.',
-    image: '/static/images/home-opt.jpg',
+    image: '/static/images/uses-bw.jpg',
     gradientColor: 'yellow-pink',
     selectionColor: 'orange',
   }

@@ -1,5 +1,4 @@
 import Navbar from '../components/Navbar'
-import Updates from '../components/Updates'
 import Footer from '../components/Footer'
 import BlogDate from '../components/BlogDate'
 import BlogViews from '../components/BlogViews'
@@ -38,7 +37,6 @@ export default function Blogpost({ children }) {
 
           {children}
         </div>
-        <Updates />
       </div>
     </main>
     <Footer />

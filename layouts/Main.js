@@ -1,5 +1,4 @@
 import Navbar from '../components/Navbar'
-import Updates from '../components/Updates'
 import Footer from '../components/Footer'
 
 export default function Main({ children }) {
@@ -15,7 +14,6 @@ export default function Main({ children }) {
           </h1>
           {children}
         </div>
-        <Updates />
       </div>
     </main>
     <Footer />

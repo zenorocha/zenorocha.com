@@ -155,7 +155,7 @@ kbd {
   font-weight: 500;
   letter-spacing: 1.2px;
   font-size: 12px;
-  padding: 20px;
+  padding: 21px;
 }
 
 .site-nav span:hover {
@@ -661,6 +661,21 @@ figure {
   }
 }
 
+/* Home
+   ========================================================================== */
+
+.home {
+  display: flex;
+  align-items: center;
+  margin: 0 auto;
+}
+
+@media (min-width: 700px) {
+  .home {
+    width: 700px;
+  }
+}
+
 /* Talks
    ========================================================================== */
 
@@ -785,6 +800,7 @@ figure {
 .footer a {
   color: var(--secondaryColor);
   display: flex;
+  font-size: 15px;
   margin-left: 20px;
   text-decoration: none;
   text-transform: lowercase;

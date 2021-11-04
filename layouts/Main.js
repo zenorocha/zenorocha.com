@@ -6,7 +6,7 @@ export default function Main({ children }) {
 
   return <div className="wrapper">
     <Navbar />
-    <main className={`post main ${selectionColor}`}>
+    <main className={`post main ${selectionColor || ''}`}>
       <div className="post-content">
         <div className="post-container">
           <h1 className={gradientColor ? `gradient gradient-${gradientColor}` : ''}>

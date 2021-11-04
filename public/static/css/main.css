@@ -661,6 +661,79 @@ figure {
   }
 }
 
+/* Talks
+   ========================================================================== */
+
+.featured-talks {
+  margin-left: -20px;
+}
+
+.post-content .featured-talk-item {
+  margin-top: 20px;
+  border: 0;
+}
+
+.featured-talk-item:first-child {
+  margin-left: 0;
+}
+
+.featured-talk-container {
+  display: flex;
+  flex-direction: column;
+  height: auto;
+}
+
+.featured-talk-item-left {
+  width: 250px;
+  margin-right: 20px;
+}
+
+.featured-talk-item h3 {
+  margin: 0;
+}
+
+.featured-talk-item img {
+  filter: grayscale(1);
+}
+
+.post-content .featured-talk-item p {
+  margin: 0;
+}
+
+.post-content .featured-talk-stats {
+  margin: 5px 0 0;
+  color: var(--primaryColor);
+  text-transform: uppercase;
+  display: inline-block;
+  font-weight: 500;
+  letter-spacing: 1.2px;
+  font-size: 12px;
+}
+
+.featured-talk-anim {
+  position: relative;
+  width: 100%;
+  padding: 20px;
+}
+
+.featured-talk-anim-hovered {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: var(--hoverColor);
+  border-radius: var(--borderRadius);
+  z-index: -1;
+}
+
+@media (min-width: 700px) {
+  .featured-talk-container {
+    flex-direction: row;
+    height: 140px;
+  }
+}
+
 /* About
    ========================================================================== */
 
@@ -995,7 +1068,6 @@ code {
     url("/static/font/NeuzeitGrotesk-Bold.woff") format("woff");
   font-weight: normal;
   font-style: normal;
-  font-display: swap;
 }
 
 @font-face {
@@ -1004,7 +1076,6 @@ code {
     url("/static/font/FiraCode-Regular.woff") format("woff");
   font-weight: normal;
   font-style: normal;
-  font-display: swap;
 }
 
 @font-face {
@@ -1013,7 +1084,6 @@ code {
     url("/static/font/Biotif-Bold.woff") format("woff");
   font-weight: bold;
   font-style: normal;
-  font-display: swap;
 }
 
 @font-face {
@@ -1022,7 +1092,6 @@ code {
     url("/static/font/Biotif-SemiBold.woff") format("woff");
   font-weight: 600;
   font-style: normal;
-  font-display: swap;
 }
 
 @font-face {
@@ -1031,7 +1100,6 @@ code {
     url("/static/font/Biotif-Book.woff") format("woff");
   font-weight: 500;
   font-style: normal;
-  font-display: swap;
 }
 
 @font-face {
@@ -1040,7 +1108,6 @@ code {
     url("/static/font/Biotif-Regular.woff") format("woff");
   font-weight: normal;
   font-style: normal;
-  font-display: swap;
 }
 
 @font-face {
@@ -1049,5 +1116,4 @@ code {
     url("/static/font/Biotif-RegularItalic.woff") format("woff");
   font-weight: normal;
   font-style: italic;
-  font-display: swap;
 }

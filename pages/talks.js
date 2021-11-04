@@ -1,5 +1,6 @@
 import React from 'react'
 import Head from 'next/head'
+import { parseISO, format } from 'date-fns'
 import Main from '../layouts/Main'
 import stripHtml from '../lib/strip-html'
 import items from '../lib/talks'
@@ -18,7 +19,7 @@ export async function getStaticProps() {
 
 function Talks(props) {
   const renderFeatured = () => {
-    const featured = ['NEJS Conf', 'Nordic.JS', 'Polymer at SFHTML5']
+    const featured = ['NEJS Conf', 'Nordic.JS', 'SFHTML5']
 
     return items
       .map(item => {
@@ -85,7 +86,7 @@ function TalkItem(props) {
       <a href={talk.url} target="_blank">{talk.title}</a>
     </h3>
     <ul>
-      <li><em>When:</em> {talk.when}</li>
+      <li><em>When:</em> {format(parseISO(talk.date), 'LLLL, d')}</li>
       <li><em>Where:</em> {talk.where}</li>
       {talk.attendees && <li><em>Attendees:</em> {talk.attendees}</li>}
       {talk.presentations && talk.presentations.map((presentation, pIndex) => {

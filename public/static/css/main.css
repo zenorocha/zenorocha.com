@@ -68,7 +68,7 @@ twitterwidget {
 kbd {
   color: var(--backgroundColor);
   background: var(--secondaryColor);
-  padding: 0px 4px;
+  padding: 1px 5px;
   border-radius: var(--borderRadius);
   transition: background 0.3s ease-in-out;
   font-family: var(--codeFont);
@@ -245,20 +245,23 @@ svg {
   cursor: pointer;
 }
 
-.btn-contact {
-  color: var(--secondaryColor);
-  padding: 0;
-  margin: 20px 0 0;
+.btn-home-cta {
+  color: var(--primaryColor);
   font-weight: 600;
   transition: color 0.3s ease-in-out;
   font-size: 16px;
+  padding: 10px 10px 8px;
+  border-radius: var(--borderRadius);
+  transition: background 0.3s ease-in-out;
+  margin-left: -10px;
+  outline: 0;
 }
 
-.btn-contact:hover {
-  color: var(--primaryColor);
+.btn-home-cta:hover {
+  background: var(--hoverColor);
 }
 
-.btn-contact:hover kbd {
+.btn-home-cta:hover kbd {
   background: var(--primaryColor);
 }
 
@@ -409,7 +412,7 @@ figure {
 
 .post-content strong {
   color: var(--primaryColor);
-  font-weight: normal;
+  font-weight: 500;
 }
 
 .post-content blockquote {

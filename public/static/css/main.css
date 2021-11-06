@@ -6,7 +6,7 @@
   --primaryColor: #f2f2f2;
   --secondaryColor: #8f9ba8;
   --backgroundColor: #08070b;
-  --commandColor: #1c1c1d;
+  --commandColor: #1a1c1e;
   --hoverColor: rgba(255, 255, 255, 0.1);
 
   --gradientDegree: 135deg;
@@ -20,7 +20,9 @@
 
   --navHeightDesktop: 60px;
   --navHeightMobile: 110px;
-  --borderRadius: 4px;
+  --borderRadius: 8px;
+
+  --duration: 0.2s;
 }
 
 * {
@@ -69,8 +71,8 @@ kbd {
   color: var(--backgroundColor);
   background: var(--secondaryColor);
   padding: 1px 5px;
-  border-radius: var(--borderRadius);
-  transition: background 0.3s ease-in-out;
+  border-radius: 4px;
+  transition: background var(--duration) ease-in-out;
   font-family: var(--codeFont);
   font-size: 14px;
 }
@@ -104,7 +106,7 @@ kbd {
   color: white;
   padding: 0 10px;
   border-radius: var(--borderRadius);
-  transition: background 0.3s ease-in-out;
+  transition: background var(--duration) ease-in-out;
   height: 34px;
 }
 
@@ -146,7 +148,7 @@ kbd {
 }
 
 .site-nav span {
-  transition: color 0.3s ease-in-out;
+  transition: color var(--duration) ease-in-out;
   color: var(--secondaryColor);
   cursor: pointer;
   text-decoration: none;
@@ -155,7 +157,7 @@ kbd {
   font-weight: 500;
   letter-spacing: 1.2px;
   font-size: 12px;
-  padding: 21px;
+  padding: 20px;
 }
 
 .site-nav span:hover {
@@ -177,7 +179,7 @@ kbd {
   width: 20px;
   background: rgb(255, 255, 255);
   opacity: 0;
-  transition: opacity 0.3s ease-in-out;
+  transition: opacity var(--duration) ease-in-out;
 }
 
 .site-nav .nav-active::after {
@@ -248,11 +250,11 @@ svg {
 .btn-home-cta {
   color: var(--primaryColor);
   font-weight: 600;
-  transition: color 0.3s ease-in-out;
+  transition: color var(--duration) ease-in-out;
   font-size: 16px;
   padding: 10px 10px 8px;
   border-radius: var(--borderRadius);
-  transition: background 0.3s ease-in-out;
+  transition: background var(--duration) ease-in-out;
   margin-left: -10px;
   outline: 0;
 }
@@ -427,7 +429,7 @@ figure {
   border-bottom: 1px solid var(--primaryColor);
   color: var(--primaryColor);
   text-decoration: none;
-  transition: opacity 0.3s ease-in-out;
+  transition: opacity var(--duration) ease-in-out;
 }
 
 .post-content a:hover,
@@ -526,7 +528,7 @@ figure {
   min-height: 36px;
   width: 100%;
   opacity: 1;
-  transition: all 0.3s ease-in-out;
+  transition: all var(--duration) ease-in-out;
   text-decoration: none;
   position: relative;
 }
@@ -597,6 +599,10 @@ figure {
   border: 0;
   width: 320px;
   margin-left: 20px;
+}
+
+.post-content .featured-article-item:hover {
+  opacity: 1;
 }
 
 .featured-article-content {
@@ -689,8 +695,7 @@ figure {
 
 .post-content .featured-project {
   display: flex;
-  opacity: 0.8;
-  transition: opacity 0.3s ease-in-out;
+  transition: opacity var(--duration) ease-in-out;
   border: 0;
   border-radius: var(--borderRadius);
   width: auto;
@@ -900,7 +905,7 @@ figure {
   margin-left: 20px;
   text-decoration: none;
   text-transform: lowercase;
-  transition: color 0.3s ease-in-out;
+  transition: color var(--duration) ease-in-out;
 }
 
 .footer a:hover {
@@ -920,7 +925,7 @@ figure {
 }
 
 .footer a:hover i {
-  transition: opacity 0.3s ease-in-out;
+  transition: opacity var(--duration) ease-in-out;
   opacity: 1;
 }
 

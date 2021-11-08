@@ -223,7 +223,7 @@ const positionerStyle = {
   width: '100%',
   inset: '0px',
   padding: '14vh 16px 16px',
-  background: 'rgba(0, 0, 0, .5)',
+  background: 'rgba(0, 0, 0, .8)',
 }
 
 const animatorStyle = {
@@ -233,6 +233,7 @@ const animatorStyle = {
   color: 'var(--primaryColor)',
   borderRadius: '8px',
   overflow: 'hidden',
+  backdropFilter: 'saturate(300%) blur(25px)',
 }
 
 const searchStyle = {
@@ -251,7 +252,6 @@ const groupNameStyle = {
   fontSize: '10px',
   textTransform: 'uppercase',
   letterSpacing: '1px',
-  opacity: 0.5,
   background: 'var(--commandColor)',
 }
 

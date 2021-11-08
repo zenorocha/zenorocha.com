@@ -6,7 +6,7 @@
   --primaryColor: #f2f2f2;
   --secondaryColor: #8f9ba8;
   --backgroundColor: #08070b;
-  --commandColor: #1a1c1e;
+  --commandColor: rgba(255, 255, 255, 0.05);
   --hoverColor: rgba(255, 255, 255, 0.1);
 
   --gradientDegree: 135deg;

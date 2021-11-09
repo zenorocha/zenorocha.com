@@ -22,7 +22,7 @@ export default function CommandBar(props) {
       keywords: 'copy-url',
       section: 'General',
       perform: () => navigator.clipboard.writeText(window.location.href),
-      icon: <i className='ri-clipboard-line' style={iconStyle} />,
+      icon: <i className='ri-file-copy-line' style={iconStyle} />,
     },
     {
       id: 'email',

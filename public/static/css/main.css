@@ -247,24 +247,34 @@ svg {
   cursor: pointer;
 }
 
-.btn-home-cta {
+.post-content .btn-primary {
   color: var(--primaryColor);
   font-weight: 600;
   transition: color var(--duration) ease-in-out;
   font-size: 16px;
-  padding: 10px 10px 8px;
+  padding: 8px 10px 8px;
   border-radius: var(--borderRadius);
   transition: background var(--duration) ease-in-out;
-  margin-left: -10px;
   outline: 0;
+  display: inline-block;
+  border: 0;
+  margin: 0 0 0 -10px;
+  line-height: 24px;
 }
 
-.btn-home-cta:hover {
+.post-content .btn-primary:hover {
   background: var(--hoverColor);
+  opacity: 1;
 }
 
-.btn-home-cta:hover kbd {
+.post-content .btn-primary:hover kbd {
   background: var(--primaryColor);
+}
+
+.post-content .btn-primary i {
+  top: 3px;
+  font-weight: 500;
+  position: relative;
 }
 
 /* Post

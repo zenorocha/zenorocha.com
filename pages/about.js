@@ -47,11 +47,13 @@ function About(props) {
       <p>This is made for journalists, podcast hosts, and event organizers to copy-and-paste.</p>
       <blockquote><p>{bio}</p></blockquote>
       <p>
-        <a href="#" onClick={copyBio}>
-          Copy to Clipboard
+        <button className="btn-transparent btn-primary" onClick={copyBio}>
+          <i className="ri-file-copy-line" /> Copy to Clipboard
+        </button>
+        <span style={{ margin: '0 20px 0 10px' }}>•</span>
+        <a download className="btn-transparent btn-primary" role="button" href="/static/images/zeno.png">
+          <i className="ri-download-2-line" /> Download Headshot
         </a>
-        <span> • </span>
-        <a download href="/static/images/zeno.png">Download Headshot</a>
       </p>
     </div>
   }

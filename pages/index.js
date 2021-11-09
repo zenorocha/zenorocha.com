@@ -29,17 +29,17 @@ function Home(props) {
       const isMobile = /iPhone|iPad|Android/i.test(navigator.userAgent);
 
       if (isMobile) {
-        return <button className="btn-transparent btn-home-cta" onClick={query.toggle}>
+        return <button className="btn-transparent btn-primary" onClick={query.toggle}>
           Tap to start →
         </button>
       }
       else if (isMac) {
-        return <button className="btn-transparent btn-home-cta" onClick={query.toggle}>
+        return <button className="btn-transparent btn-primary" onClick={query.toggle}>
           Press <kbd>⌘</kbd> <kbd>K</kbd> to start →
         </button>
       }
       else {
-        return <button className="btn-transparent btn-home-cta" onClick={query.toggle}>
+        return <button className="btn-transparent btn-primary" onClick={query.toggle}>
           Press <kbd>ctrl</kbd> <kbd>K</kbd> to start →
         </button>
       }

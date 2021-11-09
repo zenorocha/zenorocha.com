@@ -2,7 +2,7 @@ import React from 'react'
 import Head from 'next/head'
 import Main from '../layouts/Main'
 import stripHtml from '../lib/strip-html'
-import categories from '../lib/uses'
+import categories from '../data/uses'
 
 export async function getStaticProps() {
   const meta = {

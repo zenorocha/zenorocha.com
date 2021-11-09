@@ -5,7 +5,7 @@ import { parseISO, format } from 'date-fns'
 import Main from '../layouts/Main'
 import FeaturedTalk from '../components/FeaturedTalk'
 import stripHtml from '../lib/strip-html'
-import items from '../lib/talks'
+import items from '../data/talks'
 
 export async function getStaticProps() {
   const meta = {

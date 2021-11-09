@@ -4,7 +4,7 @@ import Image from 'next/image'
 import { parseISO, format, intervalToDuration } from 'date-fns'
 import Main from '../layouts/Main'
 import stripHtml from '../lib/strip-html'
-import items from '../lib/about'
+import items from '../data/about'
 
 export async function getStaticProps() {
   const meta = {

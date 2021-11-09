@@ -1,7 +1,7 @@
 import Head from 'next/head'
 import Main from '../layouts/Main'
 import stripHtml from '../lib/strip-html'
-import { appearances, zofe } from '../lib/podcasts'
+import { appearances, zofe } from '../data/podcasts'
 import ListItem from '../components/ListItem'
 import { AnimateSharedLayout } from 'framer-motion'
 

@@ -1,6 +1,5 @@
 import * as React from 'react'
 import { useRouter } from 'next/router'
-import sendEmail from '../lib/send-email'
 import {
   KBarAnimator,
   KBarProvider,
@@ -30,7 +29,7 @@ export default function CommandBar(props) {
       shortcut: ['e'],
       keywords: 'send-email',
       section: 'General',
-      perform: sendEmail,
+      perform: () => window.open('mailto:hi@zenorocha.com', '_blank'),
       icon: <i className='ri-mail-line' style={iconStyle} />,
     },
     {

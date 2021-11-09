@@ -4,7 +4,7 @@ import { AnimateSharedLayout } from 'framer-motion'
 import Main from '../layouts/Main'
 import FeaturedProject from '../components/FeaturedProject'
 import stripHtml from '../lib/strip-html'
-import items from '../lib/projects'
+import items from '../data/projects'
 
 export async function getStaticProps() {
   const meta = {

@@ -18,6 +18,7 @@ export default class extends Document {
           <meta content="Zeno Rocha" name="author" />
           <meta property="og:type" content="website" />
           <meta content="summary_large_image" name="twitter:card" />
+          <meta name="theme-color" content="#08070b" />
 
           <link rel="icon" href="/favicon.svg" sizes="any" type="image/svg+xml" />
 

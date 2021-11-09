@@ -155,7 +155,7 @@ export default function CommandBar(props) {
   return <KBarProvider actions={actions}>
     <KBarPortal>
       <KBarPositioner style={positionerStyle}>
-        <KBarAnimator style={animatorStyle}>
+        <KBarAnimator className="kbar-blur" style={animatorStyle}>
           <KBarSearch style={searchStyle} placeholder='Type a command or search…' />
           <RenderResults />
         </KBarAnimator>
@@ -222,18 +222,16 @@ const positionerStyle = {
   justifyContent: 'center',
   width: '100%',
   inset: '0px',
-  padding: '14vh 16px 16px',
+  padding: '14vh 0 16px',
   background: 'rgba(0, 0, 0, .8)',
 }
 
 const animatorStyle = {
   maxWidth: '600px',
   width: '100%',
-  background: 'var(--commandColor)',
   color: 'var(--primaryColor)',
   borderRadius: '8px',
   overflow: 'hidden',
-  backdropFilter: 'saturate(300%) blur(25px)',
 }
 
 const searchStyle = {
@@ -243,6 +241,7 @@ const searchStyle = {
   boxSizing: 'border-box',
   outline: 'none',
   border: 'none',
+  margin: 0,
   background: 'var(--commandColor)',
   color: 'var(--primaryColor)',
 }
@@ -295,6 +294,7 @@ const getResultStyle = (active) => {
     display: 'flex',
     alignItems: 'center',
     justifyContent: 'space-between',
+    margin: 0,
     cursor: 'pointer',
     color: active ? 'var(--primaryColor)' : 'var(--secondaryColor)',
   }

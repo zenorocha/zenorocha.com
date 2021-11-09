@@ -1176,6 +1176,21 @@ code {
   );
 }
 
+/* Command Palette
+   ========================================================================== */
+
+.kbar-blur {
+  background-color: #1a1c1e;
+}
+
+@supports ((-webkit-backdrop-filter: none) or (backdrop-filter: none)) {
+  .kbar-blur {
+    background-color: var(--commandColor);
+    -webkit-backdrop-filter: saturate(300%) blur(25px);
+    backdrop-filter: saturate(300%) blur(25px);
+  }
+}
+
 /* Fonts
    ========================================================================== */
 

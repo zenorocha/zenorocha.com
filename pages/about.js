@@ -27,11 +27,12 @@ function About(props) {
     return <div className="about">
       <div className="about-section">
         <Image
-          className="about-img"
-          src="/static/images/zeno.jpg"
           alt="Zeno"
+          src="/static/images/zeno-bw.jpg"
           width="336"
           height="336"
+          placeholder="blur"
+          blurDataURL="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAIAAAAmkwkpAAAACXBIWXMAABYlAAAWJQFJUiTwAAAAP0lEQVQImQE0AMv/AFBQUJKSkqmpqaOjowCurq7v7+/Jycm5ubkA////jIyMn5+fg4ODADAwMD09PWlpaQAAAApRGnEHblMWAAAAAElFTkSuQmCC"
           priority
         />
       </div>

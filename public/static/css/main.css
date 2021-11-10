@@ -876,13 +876,13 @@ figure {
   margin-top: 16px;
 }
 
-.about-img {
-  filter: grayscale(1);
-}
-
 @media (min-width: 700px) {
   .about {
     flex-direction: row;
+  }
+
+  .about p {
+    margin: 15px 0;
   }
 
   .about p:first-child {

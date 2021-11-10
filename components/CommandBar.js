@@ -286,7 +286,7 @@ const actionRowStyle = {
 const getResultStyle = (active) => {
   return {
     padding: '12px 16px',
-    background: active ? 'var(--hoverColor)' : 'var(--commandColor)',
+    background: active ? 'rgba(255, 255, 255, 0.1)' : 'var(--commandColor)',
     borderLeft: `2px solid ${
       active ? 'var(--primaryColor)' : 'transparent'
     }`,

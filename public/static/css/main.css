@@ -7,7 +7,7 @@
   --secondaryColor: #8f9ba8;
   --backgroundColor: #08070b;
   --commandColor: rgba(255, 255, 255, 0.05);
-  --hoverColor: rgba(255, 255, 255, 0.1);
+  --hoverColor: #212024;
 
   --gradientDegree: 135deg;
   --yellow: #ffff80;
@@ -513,10 +513,10 @@ figure {
 /* Articles & Podcasts
    ========================================================================== */
 
-.article-list,
-.podcast-list {
+.post-content .article-list,
+.post-content .podcast-list {
   list-style: none;
-  margin: 0;
+  margin: 10px 0 0;
   padding: 0;
 }
 
@@ -535,7 +535,6 @@ figure {
   display: flex;
   justify-content: space-between;
   padding: 20px 0;
-  min-height: 36px;
   width: 100%;
   opacity: 1;
   transition: all var(--duration) ease-in-out;
@@ -553,10 +552,10 @@ figure {
 
 .list-item-link-hovered {
   position: absolute;
-  top: 0;
+  top: -1px;
   left: -20px;
   right: -20px;
-  bottom: 0;
+  bottom: -1px;
   background: var(--hoverColor);
   border-radius: var(--borderRadius);
   z-index: -1;
@@ -601,11 +600,10 @@ figure {
    ========================================================================== */
 
 .featured-articles {
-  margin-left: -20px;
+  margin: 10px 0 0 -20px;
 }
 
 .post-content .featured-article-item {
-  margin-top: 20px;
   border: 0;
   width: 320px;
   margin-left: 20px;
@@ -698,7 +696,7 @@ figure {
    ========================================================================== */
 
 .post-content .featured-projects {
-  margin: 0 0 0 -20px;
+  margin: 10px 0 0 -20px;
   display: flex;
   flex-direction: column;
 }
@@ -791,7 +789,7 @@ figure {
    ========================================================================== */
 
 .featured-talks {
-  margin-left: -20px;
+  margin: 10px 0 0 -20px;
 }
 
 .post-content .featured-talk-item {
@@ -875,7 +873,7 @@ figure {
 }
 
 .about p:first-child {
-  margin-top: 0;
+  margin-top: 16px;
 }
 
 .about-img {
@@ -885,6 +883,10 @@ figure {
 @media (min-width: 700px) {
   .about {
     flex-direction: row;
+  }
+
+  .about p:first-child {
+    margin-top: -6px;
   }
 
   .about-section {

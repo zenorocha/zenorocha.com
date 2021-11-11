@@ -13,7 +13,7 @@ export async function getStaticProps() {
     'slug',
     'title',
     'image',
-    'stats',
+    'content',
     'description',
   ])
 
@@ -47,6 +47,7 @@ function Articles(props) {
           description={post.description}
           image={post.image}
           stats={post.stats}
+          content={post.content}
         />
       })
   }

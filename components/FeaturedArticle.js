@@ -1,7 +1,10 @@
 import { useState } from 'react'
 import { motion } from 'framer-motion'
+import readingTime from 'reading-time'
 
 export default function FeaturedArticle(props) {
+  const stats = readingTime(props.content);
+
   return <a
     className="featured-article-item"
     href={props.href}
@@ -15,9 +18,7 @@ export default function FeaturedArticle(props) {
         <div className="featured-article-content">
           <h3>{props.title}</h3>
           <p className="featured-article-description">{props.description}</p>
-          <p className="featured-article-stats">
-            {props.stats}
-          </p>
+          <p className="featured-article-stats">{stats.text}</p>
         </div>
       </div>
     </Animation>

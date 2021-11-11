@@ -56,7 +56,7 @@ For this new site, I tried to focus on typography instead of images, mixing soli
 
 The UI components are written in [React](https://reactjs.org/), and everything is powered by [Next.js](https://nextjs.org/). The cool thing about this stack is that you can make everything static compiled while still adding some dynamic aspects like fetching the [Google Analytics API](https://developers.google.com/analytics/devguides/reporting/core/v4) to display the number of views. Deployment is handled by [Vercel](https://vercel.com/), the single best developer experience you can find nowadays.
 
-The code snippets are highlighted with [Prism](https://prismjs.com/) using a custom set of [Dracula](https://draculatheme.com) colors. The favicons are made with SVG and support both dark and light modes. Finally, all the smooth hover interactions are powered by [Framer Motion](https://www.framer.com/motion/) which I'm absolutely in love with.
+The command palette is built using [kbar](https://github.com/timc1/kbar/). The code snippets are highlighted with [Prism](https://prismjs.com/) using a custom set of [Dracula](https://draculatheme.com) colors. The favicons are made with SVG and support both dark and light modes. Finally, all the smooth hover interactions are powered by [Framer Motion](https://www.framer.com/motion/) which I'm absolutely in love with.
 
 *[View source code →](https://github.com/zenorocha/zenorocha.com/tree/master)*
 

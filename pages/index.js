@@ -1,8 +1,7 @@
-import React, { useState, useEffect } from 'react'
 import Head from 'next/head'
 import Navbar from '../components/Navbar'
 import Footer from '../components/Footer'
-import { useKBar } from 'kbar'
+import ShortcutHome from '../components/ShortcutHome'
 
 export async function getStaticProps() {
   return {
@@ -16,37 +15,6 @@ export async function getStaticProps() {
 
 function Home(props) {
   const { title, description, image } = props
-  const [ mounted, setMounted ] = useState(false);
-  const { query } = useKBar();
-
-  useEffect(() => {
-    setMounted(true)
-  }, [])
-
-  const renderShorcut = () => {
-    if (mounted) {
-      const isMac = /(Mac)/i.test(navigator.userAgent);
-      const isMobile = /iPhone|iPad|Android/i.test(navigator.userAgent);
-
-      if (isMobile) {
-        return <button className="btn-transparent btn-primary" onClick={query.toggle}>
-          Tap to start →
-        </button>
-      }
-      else if (isMac) {
-        return <button className="btn-transparent btn-primary" onClick={query.toggle}>
-          Press <kbd>⌘</kbd> <kbd>K</kbd> to start →
-        </button>
-      }
-      else {
-        return <button className="btn-transparent btn-primary" onClick={query.toggle}>
-          Press <kbd>ctrl</kbd> <kbd>K</kbd> to start →
-        </button>
-      }
-    }
-
-    return <div />
-  }
 
   return (
     <div className="wrapper">
@@ -67,7 +35,7 @@ function Home(props) {
               <h1>{title}</h1>
               <p><strong>VP of Developer Experience at WorkOS</strong>.<br/>
               {description}.</p>
-              {renderShorcut()}
+              <ShortcutHome />
             </div>
           </div>
         </div>

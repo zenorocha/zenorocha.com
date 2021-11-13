@@ -1,14 +1,14 @@
 import Head from 'next/head'
-import ErrorPage from 'next/error'
 import { useRouter } from 'next/router'
 import Blogpost from '../layouts/Blogpost'
+import ErrorMessage from '../components/ErrorMessage'
 import { getPostBySlug, getAllPosts, convertMarkdownToHtml } from '../lib/blog'
 
 function Post(props) {
   const router = useRouter()
 
-  if (!router.isFallback && !props?.slug) {
-    return <ErrorPage statusCode={404} />
+  if (!router.isFallback || props.errorCode) {
+    return <ErrorMessage code={props.errorCode} />
   }
 
   const title = `${props.title} // Zeno Rocha`
@@ -35,35 +35,40 @@ function Post(props) {
 }
 
 export async function getStaticProps({ params }) {
-  const post = getPostBySlug(params.slug, [
-    'canonical_url',
-    'content',
-    'date',
-    'description',
-    'image',
-    'lang',
-    'slug',
-    'title',
-  ])
+  try {
+    const post = getPostBySlug(params.slug, [
+      'canonical_url',
+      'content',
+      'date',
+      'description',
+      'image',
+      'lang',
+      'slug',
+      'title',
+    ])
 
-  const content = await convertMarkdownToHtml(post.content || '')
+    const content = await convertMarkdownToHtml(post.content || '')
 
-  const isProd = process.env.NODE_ENV === 'production';
-  const base = isProd ? 'https://zenorocha.com' : 'http://localhost:3000';
+    const isProd = process.env.NODE_ENV === 'production';
+    const base = isProd ? 'https://zenorocha.com' : 'http://localhost:3000';
 
-  if (isProd) {
-    const viewsReq = await fetch(`${base}/api/views/${params.slug}`);
-    const viewsRes = await viewsReq.json();
+    if (isProd) {
+      const viewsReq = await fetch(`${base}/api/views/${params.slug}`);
+      const viewsRes = await viewsReq.json();
 
-    post.views = new Intl.NumberFormat().format(viewsRes.views || 0);
+      post.views = new Intl.NumberFormat().format(viewsRes.views || 0);
+    }
+
+    return {
+      props: {
+        ...post,
+        content
+      },
+      revalidate: 60
+    }
   }
-
-  return {
-    props: {
-      ...post,
-      content
-    },
-    revalidate: 60
+  catch(e) {
+    return { props: { errorCode: 404 }}
   }
 }
 

@@ -14,9 +14,15 @@ export async function getStaticProps() {
     selectionColor: 'pink',
   }
 
+  const { TRANSISTOR_API_KEY } = process.env
+
+  if (!TRANSISTOR_API_KEY) {
+    return { props: { ...meta } }
+  }
+
   const payload = {
     headers: {
-      'x-api-key': process.env.TRANSISTOR_API_KEY
+      'x-api-key': TRANSISTOR_API_KEY
     }
   }
 
@@ -24,7 +30,7 @@ export async function getStaticProps() {
   const res = await req.json()
   const episodes = res.data
 
-  return { props: {...meta, episodes}, revalidate: 60 }
+  return { props: { ...meta, episodes }, revalidate: 60 }
 }
 
 function Podcasts(props) {
@@ -51,15 +57,17 @@ function Podcasts(props) {
   const renderByteTalk = () => {
     const { episodes } = props
 
-    return episodes.map((episode, index) => {
-      return <ListItem
-        key={index}
-        index={index}
-        href={`https://bytetalkpodcast.com/${episode.attributes.number}`}
-        title={episode.attributes.title}
-        date={episode.attributes.published_at}
-      />
-    })
+    if (episodes) {
+      return episodes.map((episode, index) => {
+        return <ListItem
+          key={index}
+          index={index}
+          href={`https://bytetalkpodcast.com/${episode.attributes.number}`}
+          title={episode.attributes.title}
+          date={episode.attributes.published_at}
+        />
+      })
+    }
   }
 
   const renderOther = (items) => {

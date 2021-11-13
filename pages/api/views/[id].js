@@ -1,8 +1,15 @@
 const { google } = require('googleapis');
 
-const scopes = 'https://www.googleapis.com/auth/analytics.readonly';
-const auth = require('../../../auth.json');
-const jwt = new google.auth.JWT(auth.client_email, null, auth.private_key, scopes);
+let jwt;
+
+try {
+  const scopes = 'https://www.googleapis.com/auth/analytics.readonly';
+  const auth = require('../../../auth.json');
+  jwt = new google.auth.JWT(auth.client_email, null, auth.private_key, scopes);
+}
+catch(e) {
+  console.error('Google Analytics API disabled due to missing Service Account Credentials');
+}
 
 async function getData(id) {
   await jwt.authorize();

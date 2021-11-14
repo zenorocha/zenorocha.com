@@ -1,7 +1,7 @@
 import ShortcutError from './ShortcutError'
 
 export default function ErrorMessage({ code }) {
-  let title = 'five zero zero'
+  let title = 'five hundred'
   let description = 'Something isn\'t right.'
 
   if (code === 404) {

@@ -212,7 +212,7 @@ const positionerStyle = {
   justifyContent: 'center',
   width: '100%',
   inset: '0px',
-  padding: '14vh 0 16px',
+  padding: '14vh 16px 16px',
   background: 'rgba(0, 0, 0, .8)',
 }
 

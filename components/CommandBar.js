@@ -4,7 +4,7 @@ import {
   KBarAnimator,
   KBarProvider,
   KBarPortal,
-  useMatches,
+  useDeepMatches,
   KBarPositioner,
   KBarSearch,
   KBarResults,
@@ -167,20 +167,11 @@ export default function CommandBar(props) {
 }
 
 function RenderResults() {
-  const groups = useMatches()
-  const flattened = React.useMemo(
-    () =>
-      groups.reduce((acc, curr) => {
-        acc.push(curr.name)
-        acc.push(...curr.actions)
-        return acc
-      }, []),
-    [groups]
-  )
+  const { results } = useDeepMatches()
 
   return (
     <KBarResults
-      items={flattened}
+      items={results}
       onRender={({ item, active }) =>
         typeof item === 'string' ? (
           <div style={groupNameStyle}>{item}</div>
@@ -202,7 +193,7 @@ const ResultItem = React.forwardRef(({ action, active }, ref) => {
         </div>
       </div>
       {action.shortcut?.length ? (
-        <div style={shortcutStyle}>
+        <div aria-hidden style={shortcutStyle}>
           {action.shortcut.map((shortcut) => (
             <kbd key={shortcut} style={kbdStyle}>
               {shortcut}
@@ -287,9 +278,6 @@ const getResultStyle = (active) => {
   return {
     padding: '12px 16px',
     background: active ? 'rgba(255, 255, 255, 0.1)' : 'var(--commandColor)',
-    borderLeft: `2px solid ${
-      active ? 'var(--primaryColor)' : 'transparent'
-    }`,
     display: 'flex',
     alignItems: 'center',
     justifyContent: 'space-between',

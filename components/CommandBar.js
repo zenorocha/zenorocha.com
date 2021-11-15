@@ -214,6 +214,7 @@ const positionerStyle = {
   inset: '0px',
   padding: '14vh 16px 16px',
   background: 'rgba(0, 0, 0, .8)',
+  boxSizing: 'border-box',
 }
 
 const animatorStyle = {

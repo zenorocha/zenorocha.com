@@ -5,9 +5,7 @@ import ErrorMessage from '../components/ErrorMessage'
 import { getPostBySlug, getAllPosts, convertMarkdownToHtml } from '../lib/blog'
 
 function Post(props) {
-  const router = useRouter()
-
-  if (!router.isFallback || props.errorCode) {
+  if (props.errorCode) {
     return <ErrorMessage code={props.errorCode} />
   }
 

@@ -29,7 +29,7 @@ export default function CommandBar(props) {
       shortcut: ['e'],
       keywords: 'send-email',
       section: 'General',
-      perform: () => window.open('mailto:hi@zenorocha.com', '_blank'),
+      perform: () => window.open('mailto:zno.rocha@gmail.com', '_blank'),
       icon: <i className='ri-mail-line' style={iconStyle} />,
     },
     {

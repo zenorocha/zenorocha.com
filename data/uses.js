@@ -273,14 +273,9 @@ const categories = [
         url: 'https://amzn.to/3nOHPOI'
       },
       {
-        title: 'AirPods Pro',
-        description: 'One of the best products that Apple ever made. Great quality and compact.',
-        url: 'https://amzn.to/3mCsb9T'
-      },
-      {
-        title: 'Beats Studio3',
-        description: 'I always borrow this from my wife. Gotta love that wireless noise canceling.',
-        url: 'https://amzn.to/3jXtbn8'
+        title: 'AirPods Max (Silver)',
+        description: 'By far the best headphones I ever had. Premium quality, solid build.',
+        url: 'https://amzn.to/3gnkaSb'
       },
     ]
   },

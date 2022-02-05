@@ -1,5 +1,15 @@
 const items = [
   {
+    year: '2022',
+    projects: [
+      {
+        title: 'WorkOS',
+        url: 'https://workos.com',
+        active: true,
+      },
+    ]
+  },
+  {
     year: '2021',
     projects: [
       {
@@ -35,7 +45,7 @@ const items = [
         description: 'Premium dark color scheme',
         url: 'https://draculatheme.com/pro',
         icon: 'palette',
-        stats: '$170k+ sales',
+        stats: '$210k+ sales',
         active: true,
       },
     ]

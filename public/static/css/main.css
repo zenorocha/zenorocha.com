@@ -413,7 +413,7 @@ figure {
 
 .post-container {
   margin: 0 auto;
-  max-width: 700px;
+  max-width: 760px;
   padding: 0 20px;
 }
 
@@ -486,7 +486,7 @@ figure {
   text-align: justify;
 }
 
-@media (min-width: 700px) {
+@media (min-width: 760px) {
   .post-content .post-title {
     margin-top: 0;
   }
@@ -494,13 +494,13 @@ figure {
   /*
    * Math break:
    *   viewport width: 100vw
-   *   .post-container width: 700px
-   *   remainder: (100vw - 700px)
-   *   want to shift the image by half of the remainder, so: (100vw - 700px) / 2
-   *   and apply it as a negative margin: -1 * (100vw - 700px) / 2)
+   *   .post-container width: 760px
+   *   remainder: (100vw - 760px)
+   *   want to shift the image by half of the remainder, so: (100vw - 760px) / 2
+   *   and apply it as a negative margin: -1 * (100vw - 760px) / 2)
    */
   .post-content .post-image-full {
-    margin-left: calc(-1 * (70vw - 700px) / 2);
+    margin-left: calc(-1 * (76vw - 760px) / 2);
   }
 
   .post-title {
@@ -586,7 +586,7 @@ figure {
   font-size: 24px;
 }
 
-@media (min-width: 700px) {
+@media (min-width: 760px) {
   .article-list .list-item-link {
     flex-direction: row;
   }
@@ -605,7 +605,7 @@ figure {
 
 .post-content .featured-article-item {
   border: 0;
-  width: 320px;
+  width: 370px;
   margin-left: 20px;
 }
 
@@ -636,7 +636,7 @@ figure {
 
 .featured-article-img {
   border-radius: 8px;
-  width: 320px;
+  width: 370px;
   height: 180px;
   margin-bottom: 20px;
   background-size: cover;
@@ -680,7 +680,7 @@ figure {
   z-index: -1;
 }
 
-@media (min-width: 700px) {
+@media (min-width: 760px) {
   .featured-articles {
     display: flex;
     justify-content: space-between;
@@ -760,7 +760,7 @@ figure {
   z-index: -1;
 }
 
-@media (min-width: 700px) {
+@media (min-width: 760px) {
   .post-content .featured-projects {
     flex-direction: row;
   }
@@ -779,9 +779,9 @@ figure {
   margin: 0 auto;
 }
 
-@media (min-width: 700px) {
+@media (min-width: 760px) {
   .home {
-    width: 700px;
+    width: 800px;
   }
 }
 
@@ -851,7 +851,7 @@ figure {
   z-index: -1;
 }
 
-@media (min-width: 700px) {
+@media (min-width: 760px) {
   .featured-talk-container {
     flex-direction: row;
     height: 140px;
@@ -876,7 +876,7 @@ figure {
   margin-top: 16px;
 }
 
-@media (min-width: 700px) {
+@media (min-width: 760px) {
   .about {
     flex-direction: row;
   }

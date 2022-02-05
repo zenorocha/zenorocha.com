@@ -9,7 +9,7 @@ import items from '../data/about'
 export async function getStaticProps() {
   const meta = {
     title: 'About // Zeno Rocha',
-    description: "<p><strong>Hey, I'm Zeno Rocha.</strong> I started as a software engineer back in 2009, working with Flash.</p><p>I'm currently the <strong>VP of Developer Experience</strong> at WorkOS. Before that, I was the CPO at Liferay Cloud. I'm originally from Brazil and now <strong>living in sunny California</strong> with my amazing wife and beautiful daughter.</p><p><strong>I love dark mode</strong>, open source, and side projects. When I'm not working, I like running, watching movies, and <strong>eating cheese</strong>.</p>",
+    description: "Zeno Rocha is a Brazilian creator and programmer. He currently lives in Los Angeles, California, where he's the VP of Developer Experience at WorkOS. His lifelong appreciation for building software and sharing knowledge led him to speak in over 110 conferences worldwide. His passion for open source put him on the top 20 most active users on GitHub at age 22. Before moving to the US, Zeno developed multiple applications, mentored startups, and worked at major companies in Latin America, such as Globo and Petrobras.",
     tagline: 'Create. Share. Repeat.',
     image: '/static/images/about-bw.jpg',
     gradientColor: 'pink-purple',
@@ -21,7 +21,7 @@ export async function getStaticProps() {
 
 function About(props) {
   const { title, description, image } = props
-  const bio = "Zeno Rocha is a Brazilian creator and programmer. He currently lives in Los Angeles, California, where he's the VP of Developer Experience at WorkOS. His lifelong appreciation for building software and sharing knowledge led him to speak in over 110 conferences worldwide. His passion for open source put him on the top 20 most active users on GitHub at age 22. Before moving to the US, Zeno developed multiple applications, mentored startups, and worked at major companies in Latin America, such as Globo and Petrobras."
+  const pronunciationAudio = typeof Audio != 'undefined' ? new Audio('/static/audio/pronunciation.mp3') : null
 
   const renderIntro = () => {
     return <div className="about">
@@ -36,17 +36,16 @@ function About(props) {
           priority
         />
       </div>
-      <div
-        dangerouslySetInnerHTML={{ __html: description }}
-        className="about-section"
-      />
+      <div className="about-section">
+        <p><strong>Hey, I'm Zeno Rocha </strong><button className="btn-play" role="button" aria-label="How to pronounce my name" onClick={playPronunciation}><i className="ri-play-circle-fill" /></button> I started as a software engineer back in 2009, working with Flash.</p><p>I'm currently the <strong>VP of Developer Experience</strong> at WorkOS. Before that, I was the CPO at Liferay Cloud. I'm originally from Brazil and now living in <strong>Los Angeles, California</strong> with my amazing wife and beautiful daughter.</p><p><strong>I love dark mode</strong>, open source, and side projects. When I'm not working, I like running, watching movies, and <strong>eating cheese</strong>.</p>
+      </div>
     </div>
   }
 
   const renderBio = () => {
     return <div>
       <p>This is made for journalists, podcast hosts, and event organizers to copy-and-paste.</p>
-      <blockquote><p>{bio}</p></blockquote>
+      <blockquote><p>{description}</p></blockquote>
       <p>
         <button className="btn-transparent btn-primary" onClick={copyBio}>
           <i className="ri-file-copy-line" /> Copy to Clipboard
@@ -100,7 +99,14 @@ function About(props) {
 
   const copyBio = (e) => {
     e.preventDefault()
-    navigator.clipboard.writeText(bio)
+    navigator.clipboard.writeText(description)
+  }
+
+  const playPronunciation = () => {
+    if (pronunciationAudio) {
+      pronunciationAudio.currentTime = 0;
+      pronunciationAudio.play()
+    }
   }
 
   return (

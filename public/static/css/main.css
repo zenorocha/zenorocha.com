@@ -872,6 +872,28 @@ figure {
   margin-top: 0px;
 }
 
+.btn-play {
+  padding: 0;
+  margin: 0;
+  position: relative;
+  top: 5px;
+  border: none;
+  background: transparent;
+  cursor: pointer;
+  transform: none;
+  transition: transform 0.2s ease-in-out;
+  color: var(--primaryColor);
+}
+
+.btn-play:hover {
+  transform: scale(1.1) translateZ(0);
+}
+
+.btn-play i {
+  font-size: 24px;
+  line-height: 32px;
+}
+
 .about p:first-child {
   margin-top: 16px;
 }

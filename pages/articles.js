@@ -33,7 +33,7 @@ function Articles(props) {
   const renderFeatured = () => {
     const featured = [
       'what-ive-learned-after-giving-100-talks',
-      'the-technology-stack-i-used-to-build-my-first-mobile-app',
+      'how-i-built-my-personal-website',
     ]
 
     return props.allPosts

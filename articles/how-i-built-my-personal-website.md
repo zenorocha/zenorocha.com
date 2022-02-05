@@ -1,6 +1,7 @@
 ---
 title: How I built my personal website
 description: "Most people think about their personal websites as a portfolio. It's this thing where you can showcase your work and maybe share some contact info. For me, a personal website is much more than that - it's a playground for experimentation."
+image: /static/img/posts/how-i-built-my-personal-website.jpg
 date: "2021-11-11"
 ---
 

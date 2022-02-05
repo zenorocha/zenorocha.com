@@ -96,6 +96,15 @@ export default function CommandBar(props) {
       icon: <i className='ri-mic-line' style={iconStyle} />,
     },
     {
+      id: 'investing',
+      name: 'Investing',
+      shortcut: ['g', 'i'],
+      keywords: 'go-investing',
+      section: 'Go To',
+      perform: () => (router.push('/investing')),
+      icon: <i className='ri-money-dollar-box-line' style={iconStyle} />,
+    },
+    {
       id: 'uses',
       name: 'Uses',
       shortcut: ['g', 'u'],

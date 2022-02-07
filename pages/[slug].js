@@ -14,7 +14,7 @@ function Post(props) {
   const url = `https://zenorocha.com/${props.slug}`
   const image = props.image ? `https://zenorocha.com${props.image}` : 'https://zenorocha.com/static/images/home-opt.jpg'
 
-  return <div className="single">
+  return <>
     <Head>
       <title>{title}</title>
       <meta content={title} property="og:title" />
@@ -29,7 +29,7 @@ function Post(props) {
     </Head>
 
     <div dangerouslySetInnerHTML={{ __html: props.content }} />
-  </div>
+  </>
 }
 
 export async function getStaticProps({ params }) {

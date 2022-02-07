@@ -1,8 +1,9 @@
 import React from 'react'
 import Head from 'next/head'
 import { AnimateSharedLayout } from 'framer-motion'
-import Main from '../layouts/Main'
+import Base from '../layouts/Base'
 import FeaturedProject from '../components/FeaturedProject'
+import { FeaturedProjects } from '../components/FeaturedProjects'
 import stripHtml from '../lib/strip-html'
 import items from '../data/projects'
 
@@ -11,8 +12,8 @@ export async function getStaticProps() {
     title: 'Projects // Zeno Rocha',
     tagline: 'Work. Hobby. Open Source.',
     image: '/static/images/projects-bw.jpg',
-    gradientColor: 'cyan-green',
-    selectionColor: 'green',
+    primaryColor: 'cyan',
+    secondaryColor: 'green',
   }
 
   return { props: meta }
@@ -72,7 +73,7 @@ function Projects(props) {
   const description = `I'm obsessed with side projects and <strong>building in public</strong>. Here you can navigate to <strong>${getTotalProjects()} different</strong> websites, apps, and libraries I built. Some projects are still active, others have been discontinued.`
 
   return (
-    <div className="single">
+    <>
       <Head>
         <title>{title}</title>
         <meta content={title} property="og:title" />
@@ -86,14 +87,14 @@ function Projects(props) {
         <p dangerouslySetInnerHTML={{ __html: description }} />
 
         <h2>Featured Projects</h2>
-        <div className="featured-projects">
+        <FeaturedProjects>
           {renderFeatured()}
-        </div>
+        </FeaturedProjects>
 
         <h2>All Projects</h2>
         {renderAll()}
       </AnimateSharedLayout>
-    </div>
+    </>
   )
 }
 
@@ -105,6 +106,6 @@ function ProjectItem(props) {
   </li>
 }
 
-Projects.Layout = Main
+Projects.Layout = Base
 
 export default Projects

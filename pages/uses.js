@@ -1,6 +1,6 @@
 import React from 'react'
 import Head from 'next/head'
-import Main from '../layouts/Main'
+import Base from '../layouts/Base'
 import stripHtml from '../lib/strip-html'
 import categories from '../data/uses'
 
@@ -10,8 +10,8 @@ export async function getStaticProps() {
     description: "I often get messages asking about specific pieces of <strong>software or hardware I use</strong>. This not a static page, it's a <strong>living document</strong> with everything that I'm using nowadays.",
     tagline: 'Tools. Apps. Gear.',
     image: '/static/images/uses-bw.jpg',
-    gradientColor: 'yellow-pink',
-    selectionColor: 'orange',
+    primaryColor: 'yellow',
+    secondaryColor: 'pink',
   }
 
   return { props: meta }
@@ -40,7 +40,7 @@ function Uses(props) {
   }
 
   return (
-    <div className="single">
+    <>
       <Head>
         <title>{title}</title>
         <meta content={title} property="og:title" />
@@ -53,10 +53,10 @@ function Uses(props) {
       <p dangerouslySetInnerHTML={{ __html: description }} />
 
       {renderAll()}
-    </div>
+    </>
   )
 }
 
-Uses.Layout = Main
+Uses.Layout = Base
 
 export default Uses

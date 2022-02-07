@@ -1,4 +1,3 @@
-import '../public/static/css/main.css'
 import '../public/static/css/prism.css'
 import 'remixicon/fonts/remixicon.css'
 

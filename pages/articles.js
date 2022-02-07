@@ -1,9 +1,11 @@
+import { styled } from '../stitches.config'
 import Head from 'next/head'
-import Main from '../layouts/Main'
+import Base from '../layouts/Base'
 import stripHtml from '../lib/strip-html'
 import { getAllPosts } from '../lib/blog'
 import ListItem from '../components/ListItem'
 import FeaturedArticle from '../components/FeaturedArticle'
+import { ListGroup } from '../components/ListGroup'
 import { AnimateSharedLayout } from 'framer-motion'
 
 export async function getStaticProps() {
@@ -22,8 +24,8 @@ export async function getStaticProps() {
       title: 'Articles // Zeno Rocha',
       tagline: 'Stories. Updates. Guides.',
       image: '/static/images/articles-bw.jpg',
-      gradientColor: 'yellow-pink',
-      selectionColor: 'orange',
+      primaryColor: 'yellow',
+      secondaryColor: 'pink',
       allPosts,
     },
   }
@@ -70,13 +72,13 @@ function Articles(props) {
   const description = `Here you can find all the <strong>${props.allPosts.length} articles</strong> I wrote. You can read about web development, software engineering, and tech career in both English and Portuguese.`
 
   return (
-    <div className="single">
+    <>
       <Head>
         <title>{title}</title>
         <meta content={title} property="og:title" />
         <meta content={stripHtml(description)} name="description" />
         <meta content={stripHtml(description)} property="og:description" />
-        <meta content="https://zenorocha.com/projects/" property="og:url" />
+        <meta content="https://zenorocha.com/articles" property="og:url" />
         <meta content={`https://zenorocha.com${image}`} property="og:image" />
       </Head>
 
@@ -84,19 +86,24 @@ function Articles(props) {
         <p dangerouslySetInnerHTML={{ __html: description }} />
 
         <h2>Featured Articles</h2>
-        <div className="featured-articles">
+        <FeaturedArticles>
           {renderFeatured()}
-        </div>
+        </FeaturedArticles>
 
         <h2>All Articles</h2>
-        <ul className="article-list">
+        <ListGroup>
           {renderAll()}
-        </ul>
+        </ListGroup>
       </AnimateSharedLayout>
-    </div>
+    </>
   )
 }
 
-Articles.Layout = Main
+const FeaturedArticles = styled('div', {
+  margin: "10px 0 0 -20px",
+  "@bp2": { display: "flex", justifyContent: "space-between" },
+})
+
+Articles.Layout = Base
 
 export default Articles

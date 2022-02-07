@@ -7,6 +7,7 @@
   --comment: #6272a4;
   --foreground: #f8f8f2;
   --selection: #44475a;
+  --hover: #212024;
 
   --cyan: #80ffea;
   --green: #8aff80;
@@ -15,6 +16,8 @@
   --purple: #9580ff;
   --red: #ff9580;
   --yellow: #ffff80;
+
+  --code: "Fira Code", monospace;
 
   /* Transparency */
 
@@ -203,7 +206,7 @@ pre[class*="language-"] {
 pre,
 code,
 pre code span {
-  font-family: var(--codeFont);
+  font-family: var(--code);
 }
 
 /* Code blocks */

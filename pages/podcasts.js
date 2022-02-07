@@ -1,8 +1,9 @@
 import Head from 'next/head'
-import Main from '../layouts/Main'
+import Base from '../layouts/Base'
 import stripHtml from '../lib/strip-html'
 import { appearances, zofe } from '../data/podcasts'
 import ListItem from '../components/ListItem'
+import { ListGroup } from '../components/ListGroup'
 import { AnimateSharedLayout } from 'framer-motion'
 
 export async function getStaticProps() {
@@ -10,8 +11,8 @@ export async function getStaticProps() {
     title: 'Podcasts // Zeno Rocha',
     tagline: 'Ideas. Thoughts. Opinions.',
     image: '/static/images/podcasts-bw.jpg',
-    gradientColor: 'pink-purple',
-    selectionColor: 'pink',
+    primaryColor: 'pink',
+    secondaryColor: 'purple',
   }
 
   const { TRANSISTOR_API_KEY } = process.env
@@ -86,7 +87,7 @@ function Podcasts(props) {
   const description = `Audio is a powerful medium and a great way to <strong>debate ideas</strong>. Whenever possible I try to share my story as a guest or <strong>meet new people</strong> by hosting my own podcast called ByteTalk.`
 
   return (
-    <div className="single">
+    <>
       <Head>
         <title>{title}</title>
         <meta content={title} property="og:title" />
@@ -100,32 +101,32 @@ function Podcasts(props) {
         <p dangerouslySetInnerHTML={{ __html: description }} />
 
         <h2>Featured Podcasts</h2>
-        <ul className="podcast-list">
+        <ListGroup>
           {renderFeatured(appearances)}
-        </ul>
+        </ListGroup>
 
         <h2>ByteTalk</h2>
         <p>A podcast where Jonni and I interview the most productive people in tech.</p>
-        <ul className="podcast-list">
+        <ListGroup>
           {renderByteTalk()}
-        </ul>
+        </ListGroup>
 
         <h2>Appearances</h2>
         <p>This is the list of all the podcasts that I gave an interview so far.</p>
-        <ul className="podcast-list">
+        <ListGroup>
           {renderOther(appearances)}
-        </ul>
+        </ListGroup>
 
         <h2>Zone Of Front-Enders</h2>
         <p>My first podcast, ZOFE, where Daniel and I talked about web technologies.</p>
-        <ul className="podcast-list">
+        <ListGroup>
           {renderOther(zofe)}
-        </ul>
+        </ListGroup>
       </AnimateSharedLayout>
-    </div>
+    </>
   )
 }
 
-Podcasts.Layout = Main
+Podcasts.Layout = Base
 
 export default Podcasts

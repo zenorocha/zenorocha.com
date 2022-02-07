@@ -1,3 +1,5 @@
+import { styled } from '../stitches.config'
+import { Box } from './Box'
 import * as React from 'react'
 import { useRouter } from 'next/router'
 import {
@@ -21,7 +23,7 @@ export default function CommandBar(props) {
       keywords: 'copy-url',
       section: 'General',
       perform: () => navigator.clipboard.writeText(window.location.href),
-      icon: <i className='ri-file-copy-line' style={iconStyle} />,
+      icon: <Icon className='ri-file-copy-line' />,
     },
     {
       id: 'email',
@@ -30,7 +32,7 @@ export default function CommandBar(props) {
       keywords: 'send-email',
       section: 'General',
       perform: () => window.open('mailto:zno.rocha@gmail.com', '_blank'),
-      icon: <i className='ri-mail-line' style={iconStyle} />,
+      icon: <Icon className='ri-mail-line' />,
     },
     {
       id: 'source',
@@ -39,7 +41,7 @@ export default function CommandBar(props) {
       keywords: 'view-source',
       section: 'General',
       perform: () => (window.open('https://github.com/zenorocha/zenorocha.com', '_blank')),
-      icon: <i className='ri-braces-line' style={iconStyle} />,
+      icon: <Icon className='ri-braces-line' />,
     },
     {
       id: 'home',
@@ -48,7 +50,7 @@ export default function CommandBar(props) {
       keywords: 'go-home',
       section: 'Go To',
       perform: () => router.push('/'),
-      icon: <i className='ri-home-5-line' style={iconStyle} />,
+      icon: <Icon className='ri-home-5-line' />,
     },
     {
       id: 'about',
@@ -57,7 +59,7 @@ export default function CommandBar(props) {
       keywords: 'go-about',
       section: 'Go To',
       perform: () => router.push('/about'),
-      icon: <i className='ri-user-line' style={iconStyle} />,
+      icon: <Icon className='ri-user-line' />,
     },
     {
       id: 'articles',
@@ -66,7 +68,7 @@ export default function CommandBar(props) {
       keywords: 'go-articles',
       section: 'Go To',
       perform: () => router.push('/articles'),
-      icon: <i className='ri-ball-pen-line' style={iconStyle} />,
+      icon: <Icon className='ri-ball-pen-line' />,
     },
     {
       id: 'projects',
@@ -75,7 +77,7 @@ export default function CommandBar(props) {
       keywords: 'go-projects',
       section: 'Go To',
       perform: () => (router.push('/projects')),
-      icon: <i className='ri-lightbulb-line' style={iconStyle} />,
+      icon: <Icon className='ri-lightbulb-line' />,
     },
     {
       id: 'talks',
@@ -84,7 +86,7 @@ export default function CommandBar(props) {
       keywords: 'go-talks',
       section: 'Go To',
       perform: () => (router.push('/talks')),
-      icon: <i className='ri-slideshow-2-line' style={iconStyle} />,
+      icon: <Icon className='ri-slideshow-2-line' />,
     },
     {
       id: 'podcasts',
@@ -93,7 +95,7 @@ export default function CommandBar(props) {
       keywords: 'go-podcasts',
       section: 'Go To',
       perform: () => (router.push('/podcasts')),
-      icon: <i className='ri-mic-line' style={iconStyle} />,
+      icon: <Icon className='ri-mic-line' />,
     },
     {
       id: 'investing',
@@ -102,7 +104,7 @@ export default function CommandBar(props) {
       keywords: 'go-investing',
       section: 'Go To',
       perform: () => (router.push('/investing')),
-      icon: <i className='ri-money-dollar-box-line' style={iconStyle} />,
+      icon: <Icon className='ri-money-dollar-box-line' />,
     },
     {
       id: 'uses',
@@ -111,7 +113,7 @@ export default function CommandBar(props) {
       keywords: 'go-uses',
       section: 'Go To',
       perform: () => (router.push('/uses')),
-      icon: <i className='ri-computer-line' style={iconStyle} />,
+      icon: <Icon className='ri-computer-line' />,
     },
     {
       id: 'reminder',
@@ -120,7 +122,7 @@ export default function CommandBar(props) {
       keywords: 'go-reminder',
       section: 'Go To',
       perform: () => (router.push('/reminder')),
-      icon: <i className='ri-time-line' style={iconStyle} />,
+      icon: <Icon className='ri-time-line' />,
     },
     {
       id: 'github',
@@ -129,7 +131,7 @@ export default function CommandBar(props) {
       keywords: 'go-github',
       section: 'Follow',
       perform: () => (window.open('https://github.com/zenorocha', '_blank')),
-      icon: <i className='ri-github-line' style={iconStyle} />,
+      icon: <Icon className='ri-github-line' />,
     },
     {
       id: 'twitter',
@@ -138,7 +140,7 @@ export default function CommandBar(props) {
       keywords: 'go-twitter',
       section: 'Follow',
       perform: () => (window.open('https://twitter.com/zenorocha', '_blank')),
-      icon: <i className='ri-twitter-line' style={iconStyle} />,
+      icon: <Icon className='ri-twitter-line' />,
     },
     {
       id: 'linkedin',
@@ -147,7 +149,7 @@ export default function CommandBar(props) {
       keywords: 'go-linkedin',
       section: 'Follow',
       perform: () => (window.open('https://linkedin.com/in/zenorocha', '_blank')),
-      icon: <i className='ri-linkedin-line' style={iconStyle} />,
+      icon: <Icon className='ri-linkedin-line' />,
     },
     {
       id: 'instagram',
@@ -156,22 +158,21 @@ export default function CommandBar(props) {
       keywords: 'go-instagram',
       section: 'Follow',
       perform: () => (window.open('https://instagram.com/zenorocha', '_blank')),
-      icon: <i className='ri-instagram-line' style={iconStyle} />,
+      icon: <Icon className='ri-instagram-line' />,
     },
   ]
 
   return <KBarProvider actions={actions}>
     <KBarPortal>
-      <KBarPositioner style={positionerStyle}>
-        <KBarAnimator className="kbar-blur" style={animatorStyle}>
-          <KBarSearch style={searchStyle} placeholder='Type a command or search…' />
+      <Positioner>
+        <Animator>
+          <Search placeholder='Type a command or search…' />
           <RenderResults />
-        </KBarAnimator>
-      </KBarPositioner>
+        </Animator>
+      </Positioner>
     </KBarPortal>
 
     {props.children}
-
   </KBarProvider>
 }
 
@@ -183,7 +184,7 @@ function RenderResults() {
       items={results}
       onRender={({ item, active }) =>
         typeof item === 'string' ? (
-          <div style={groupNameStyle}>{item}</div>
+          <GroupName>{item}</GroupName>
         ) : (
           <ResultItem action={item} active={active} />
         )
@@ -194,27 +195,27 @@ function RenderResults() {
 
 const ResultItem = React.forwardRef(({ action, active }, ref) => {
   return (
-    <div ref={ref} style={getResultStyle(active)}>
-      <div style={actionStyle}>
+    <Box ref={ref} css={getResultStyle(active)}>
+      <Action>
         {action.icon && action.icon}
-        <div style={actionRowStyle}>
+        <ActionRow>
           <span>{action.name}</span>
-        </div>
-      </div>
+        </ActionRow>
+      </Action>
       {action.shortcut?.length ? (
-        <div aria-hidden style={shortcutStyle}>
+        <Shortcut aria-hidden>
           {action.shortcut.map((shortcut) => (
-            <kbd key={shortcut} style={kbdStyle}>
+            <Kbd key={shortcut}>
               {shortcut}
-            </kbd>
+            </Kbd>
           ))}
-        </div>
+        </Shortcut>
       ) : null}
-    </div>
+    </Box>
   )
 })
 
-const positionerStyle = {
+const Positioner = styled(KBarPositioner, {
   position: 'fixed',
   display: 'flex',
   alignItems: 'flex-start',
@@ -224,17 +225,9 @@ const positionerStyle = {
   padding: '14vh 16px 16px',
   background: 'rgba(0, 0, 0, .8)',
   boxSizing: 'border-box',
-}
+})
 
-const animatorStyle = {
-  maxWidth: '600px',
-  width: '100%',
-  color: 'var(--primaryColor)',
-  borderRadius: '8px',
-  overflow: 'hidden',
-}
-
-const searchStyle = {
+const Search = styled(KBarSearch, {
   padding: '12px 16px',
   fontSize: '16px',
   width: '100%',
@@ -242,57 +235,71 @@ const searchStyle = {
   outline: 'none',
   border: 'none',
   margin: 0,
-  background: 'var(--commandColor)',
-  color: 'var(--primaryColor)',
-}
+  background: '$command',
+  color: '$primary',
+})
 
-const groupNameStyle = {
+const GroupName = styled('div', {
   padding: '8px 16px',
   fontSize: '10px',
   textTransform: 'uppercase',
   letterSpacing: '1px',
-  background: 'var(--commandColor)',
-}
+  background: '$command',
+})
 
-const iconStyle = {
+const Icon = styled('i', {
   fontSize: '20px',
   position: 'relative',
   top: '-2px',
-}
+})
 
-const kbdStyle = {
+const Kbd = styled('kbd', {
+  background: 'rgba(255, 255, 255, .1)',
+  color: '$secondary',
   padding: '4px 8px',
   textTransform: 'uppercase',
-  color: 'var(--secondaryColor)',
-  background: 'rgba(255, 255, 255, .1)',
-}
+})
 
-const shortcutStyle = {
+const Shortcut = styled('div', {
   display: 'grid',
   gridAutoFlow: 'column',
   gap: '4px'
-}
+})
 
-const actionStyle = {
+const Action = styled('div', {
   display: 'flex',
   gap: '8px',
   alignItems: 'center'
-}
+})
 
-const actionRowStyle = {
+const ActionRow = styled('div', {
   display: 'flex',
   flexDirection: 'column'
-}
+})
+
+const Animator = styled(KBarAnimator, {
+  backgroundColor: '#1a1c1e',
+  maxWidth: '600px',
+  width: '100%',
+  color: '$primary',
+  borderRadius: '8px',
+  overflow: 'hidden',
+  '@supports ((-webkit-backdrop-filter: none) or (backdrop-filter: none))': {
+    backgroundColor: "$command",
+    WebkitBackdropFilter: "saturate(300%) blur(25px)",
+    backdropFilter: "saturate(300%) blur(25px)"
+  }
+})
 
 const getResultStyle = (active) => {
   return {
     padding: '12px 16px',
-    background: active ? 'rgba(255, 255, 255, 0.1)' : 'var(--commandColor)',
+    background: active ? 'rgba(255, 255, 255, 0.1)' : '$command',
     display: 'flex',
     alignItems: 'center',
     justifyContent: 'space-between',
     margin: 0,
     cursor: 'pointer',
-    color: active ? 'var(--primaryColor)' : 'var(--secondaryColor)',
+    color: active ? '$primary' : '$secondary',
   }
 }

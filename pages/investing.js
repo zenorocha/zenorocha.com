@@ -1,8 +1,9 @@
 import React from 'react'
 import Head from 'next/head'
-import Main from '../layouts/Main'
+import Base from '../layouts/Base'
 import stripHtml from '../lib/strip-html'
-import Investment from '../components/Investment'
+import FeaturedProject from '../components/FeaturedProject'
+import { FeaturedProjects } from '../components/FeaturedProjects'
 import investments from '../data/investments'
 
 export async function getStaticProps() {
@@ -11,8 +12,8 @@ export async function getStaticProps() {
     description: "<strong>Angel investing</strong> is how I help other startups to create amazing developer experiences. This is all new to me, but I'm excited to enable teams to grow and <strong>build world-class products</strong>.",
     tagline: 'DevTools. B2B. SaaS.',
     image: '/static/images/projects-bw.jpg',
-    gradientColor: 'purple-cyan',
-    selectionColor: 'cyan',
+    primaryColor: 'purple',
+    secondaryColor: 'cyan',
   }
 
   return { props: meta }
@@ -23,12 +24,12 @@ function Investing(props) {
 
   const renderAll = () => {
     return investments.map((investment, index) => {
-      return <Investment key={index} investment={investment} />
+      return <FeaturedProject key={index} project={investment} />
     })
   }
 
   return (
-    <div className="single">
+    <>
       <Head>
         <title>{title}</title>
         <meta content={title} property="og:title" />
@@ -55,16 +56,16 @@ function Investing(props) {
 
       <h2>Who took my money</h2>
       <p>I've been grateful to work with these companies as an investor.</p>
-      <div className="investments">
+      <FeaturedProjects>
         {renderAll()}
-      </div>
+      </FeaturedProjects>
 
       <h2>Let's chat</h2>
       <p>Hit me up if what you read here resonates with you.</p>
-    </div>
+    </>
   )
 }
 
-Investing.Layout = Main
+Investing.Layout = Base
 
 export default Investing

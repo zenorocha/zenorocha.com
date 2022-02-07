@@ -2,7 +2,8 @@ import React from 'react'
 import Head from 'next/head'
 import { AnimateSharedLayout } from 'framer-motion'
 import { parseISO, format } from 'date-fns'
-import Main from '../layouts/Main'
+import Base from '../layouts/Base'
+import { Box } from '../components/Box'
 import FeaturedTalk from '../components/FeaturedTalk'
 import stripHtml from '../lib/strip-html'
 import items from '../data/talks'
@@ -12,8 +13,8 @@ export async function getStaticProps() {
     title: 'Talks // Zeno Rocha',
     tagline: 'Confs. Meetups. Events.',
     image: '/static/images/talks-bw.jpg',
-    gradientColor: 'purple-cyan',
-    selectionColor: 'cyan',
+    primaryColor: 'purple',
+    secondaryColor: 'cyan',
   }
 
   return { props: meta }
@@ -69,7 +70,7 @@ function Talks(props) {
   const description = `I went my first conference in 2010 and felt in love with <strong>sharing knowledge</strong> publicly. Since then, I traveled to <strong>11 countries</strong> and gave more than <strong>${getTotalTalks()} talks</strong>. Want me to speak at your event? Hit me up!`
 
   return (
-    <div className="single">
+    <>
       <Head>
         <title>{title}</title>
         <meta content={title} property="og:title" />
@@ -83,14 +84,14 @@ function Talks(props) {
         <p dangerouslySetInnerHTML={{ __html: description }} />
 
         <h2>Featured Talks</h2>
-        <div className="featured-talks">
+        <Box css={{ margin: '10px 0 0 -20px' }}>
           {renderFeatured()}
-        </div>
+        </Box>
 
         <h2>All Talks</h2>
         {renderAll()}
       </AnimateSharedLayout>
-    </div>
+    </>
   )
 }
 
@@ -114,6 +115,6 @@ function TalkItem(props) {
   </div>
 }
 
-Talks.Layout = Main
+Talks.Layout = Base
 
 export default Talks

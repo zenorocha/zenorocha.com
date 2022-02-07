@@ -1,5 +1,6 @@
 import { useState, useEffect } from 'react'
 import { useKBar } from 'kbar'
+import { ButtonPrimary } from '../components/ButtonPrimary'
 
 export default function ShortcutHome() {
   const { query } = useKBar()
@@ -14,19 +15,19 @@ export default function ShortcutHome() {
     const isMobile = /iPhone|iPad|Android/i.test(navigator.userAgent)
 
     if (isMobile) {
-      return <button className="btn-transparent btn-primary" onClick={query.toggle}>
+      return <ButtonPrimary as="button" onClick={query.toggle}>
         Tap to start →
-      </button>
+      </ButtonPrimary>
     }
     else if (isMac) {
-      return <button className="btn-transparent btn-primary" onClick={query.toggle}>
+      return <ButtonPrimary as="button" onClick={query.toggle}>
         Press <kbd>⌘</kbd> <kbd>K</kbd> to start →
-      </button>
+      </ButtonPrimary>
     }
     else {
-      return <button className="btn-transparent btn-primary" onClick={query.toggle}>
+      return <ButtonPrimary as="button" onClick={query.toggle}>
         Press <kbd>ctrl</kbd> <kbd>K</kbd> to start →
-      </button>
+      </ButtonPrimary>
     }
   }
 

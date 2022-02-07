@@ -1,8 +1,13 @@
+import { styled } from '../stitches.config'
 import React from 'react'
 import Head from 'next/head'
 import Image from 'next/image'
 import { parseISO, format, intervalToDuration } from 'date-fns'
-import Main from '../layouts/Main'
+import Base from '../layouts/Base'
+import { Box } from '../components/Box'
+import { ButtonPrimary } from '../components/ButtonPrimary'
+import { ButtonPrimaryIcon } from '../components/ButtonPrimaryIcon'
+import { Icon } from '../components/Icon'
 import stripHtml from '../lib/strip-html'
 import items from '../data/about'
 
@@ -12,8 +17,8 @@ export async function getStaticProps() {
     description: "Zeno Rocha is a Brazilian creator and programmer. He currently lives in Los Angeles, California, where he's the VP of Developer Experience at WorkOS. His lifelong appreciation for building software and sharing knowledge led him to speak in over 110 conferences worldwide. His passion for open source put him on the top 20 most active users on GitHub at age 22. Before moving to the US, Zeno developed multiple applications, mentored startups, and worked at major companies in Latin America, such as Globo and Petrobras.",
     tagline: 'Create. Share. Repeat.',
     image: '/static/images/about-bw.jpg',
-    gradientColor: 'pink-purple',
-    selectionColor: 'pink'
+    primaryColor: 'pink',
+    secondaryColor: 'purple',
   }
 
   return { props: meta }
@@ -24,8 +29,8 @@ function About(props) {
   const pronunciationAudio = typeof Audio != 'undefined' ? new Audio('/static/audio/pronunciation.mp3') : null
 
   const renderIntro = () => {
-    return <div className="about">
-      <div className="about-section">
+    return <Container>
+      <Section>
         <Image
           alt="Zeno"
           src="/static/images/zeno-bw.jpg"
@@ -35,11 +40,31 @@ function About(props) {
           blurDataURL="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAIAAAAmkwkpAAAACXBIWXMAABYlAAAWJQFJUiTwAAAAP0lEQVQImQE0AMv/AFBQUJKSkqmpqaOjowCurq7v7+/Jycm5ubkA////jIyMn5+fg4ODADAwMD09PWlpaQAAAApRGnEHblMWAAAAAElFTkSuQmCC"
           priority
         />
-      </div>
-      <div className="about-section">
-        <p><strong>Hey, I'm Zeno Rocha </strong><button className="btn-play" role="button" aria-label="How to pronounce my name" onClick={playPronunciation}><i className="ri-play-circle-fill" /></button> I started as a software engineer back in 2009, working with Flash.</p><p>I'm currently the <strong>VP of Developer Experience</strong> at WorkOS. Before that, I was the CPO at Liferay Cloud. I'm originally from Brazil and now living in <strong>Los Angeles, California</strong> with my amazing wife and beautiful daughter.</p><p><strong>I love dark mode</strong>, open source, and side projects. When I'm not working, I like running, watching movies, and <strong>eating cheese</strong>.</p>
-      </div>
-    </div>
+      </Section>
+      <Section>
+        <Paragraph
+          css={{
+            marginTop: "16px",
+            "@bp2": { marginTop: "-6px" },
+          }}
+        >
+          <strong>Hey, I'm Zeno Rocha</strong>
+          <ButtonPlay
+            role="button"
+            aria-label="How to pronounce my name"
+            onClick={playPronunciation}
+          >
+            <Icon
+              className="ri-play-circle-fill"
+              css={{ fontSize: "24px", lineHeight: "32px" }}
+            />
+          </ButtonPlay>
+          I started as a software engineer back in 2009, working with Flash.
+        </Paragraph>
+        <Paragraph>I'm currently the <strong>VP of Developer Experience</strong> at WorkOS. Before that, I was the CPO at Liferay Cloud. I'm originally from Brazil and now living in <strong>Los Angeles, California</strong> with my amazing wife and beautiful daughter.</Paragraph>
+        <Paragraph><strong>I love dark mode</strong>, open source, and side projects. When I'm not working, I like running, watching movies, and <strong>eating cheese</strong>.</Paragraph>
+      </Section>
+    </Container>
   }
 
   const renderBio = () => {
@@ -47,13 +72,21 @@ function About(props) {
       <p>This is made for journalists, podcast hosts, and event organizers to copy-and-paste.</p>
       <blockquote><p>{description}</p></blockquote>
       <p>
-        <button className="btn-transparent btn-primary" onClick={copyBio}>
-          <i className="ri-file-copy-line" /> Copy to Clipboard
-        </button>
+        <ButtonPrimary
+          as="button"
+          onClick={copyBio}
+        >
+          <ButtonPrimaryIcon className="ri-file-copy-line"/> Copy to Clipboard
+        </ButtonPrimary>
         <span style={{ margin: '0 20px 0 10px' }}>•</span>
-        <a download className="btn-transparent btn-primary" role="button" href="/static/images/zeno.png">
-          <i className="ri-download-2-line" /> Download Headshot
-        </a>
+        <ButtonPrimary
+          as="a"
+          download
+          role="button"
+          href="/static/images/zeno.png"
+        >
+          <ButtonPrimaryIcon className="ri-download-2-line" /> Download Headshot
+        </ButtonPrimary>
       </p>
     </div>
   }
@@ -104,19 +137,19 @@ function About(props) {
 
   const playPronunciation = () => {
     if (pronunciationAudio) {
-      pronunciationAudio.currentTime = 0;
+      pronunciationAudio.currentTime = 0
       pronunciationAudio.play()
     }
   }
 
   return (
-    <div className="single">
+    <>
       <Head>
         <title>{title}</title>
         <meta content={title} property="og:title" />
         <meta content={stripHtml(description)} name="description" />
         <meta content={stripHtml(description)} property="og:description" />
-        <meta content="https://zenorocha.com/About" property="og:url" />
+        <meta content="https://zenorocha.com/about" property="og:url" />
         <meta content={`https://zenorocha.com${image}`} property="og:image" />
       </Head>
 
@@ -127,10 +160,41 @@ function About(props) {
 
       <h2>Career</h2>
       {renderAll()}
-    </div>
+    </>
   )
 }
 
-About.Layout = Main
+const Container = styled('div', {
+  display: "flex",
+  flexDirection: "column",
+  justifyContent: "space-between",
+  "@bp2": { flexDirection: 'row' }
+})
+
+const Paragraph = styled('p', {
+  '@bp2': { margin: '15px 0' }
+})
+
+const Section = styled('div', {
+  marginTop: "0px",
+  width: "auto",
+  "@bp2": { width: "48%" },
+})
+
+const ButtonPlay = styled('button', {
+  background: "transparent",
+  border: "none",
+  color: "$primary",
+  cursor: "pointer",
+  margin: "0 4px",
+  padding: "0",
+  position: "relative",
+  top: "5px",
+  transform: "none",
+  transition: "transform 0.2s ease-in-out",
+  "&:hover": { transform: "scale(1.1) translateZ(0)" }
+})
+
+About.Layout = Base
 
 export default About

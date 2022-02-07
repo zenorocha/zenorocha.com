@@ -1,7 +1,10 @@
+import { styled } from '../stitches.config'
 import Head from 'next/head'
 import Navbar from '../components/Navbar'
 import Footer from '../components/Footer'
 import ShortcutHome from '../components/ShortcutHome'
+import { PostMain, PostContent, PostContainer } from '../components/Post'
+import { Wrapper } from '../components/Wrapper'
 
 export async function getStaticProps() {
   return {
@@ -13,11 +16,11 @@ export async function getStaticProps() {
   }
 }
 
-function Home(props) {
+export default function Index(props) {
   const { title, description, image } = props
 
   return (
-    <div className="wrapper">
+    <Wrapper>
       <Head>
         <title>{title}</title>
         <meta content={title} property="og:title" />
@@ -28,21 +31,26 @@ function Home(props) {
       </Head>
 
       <Navbar />
-      <main className="post main home">
-        <div className="post-content">
-          <div className="post-container">
-            <div className="single">
+      <Home>
+        <PostContent>
+          <PostContainer>
+            <div>
               <h1>{title}</h1>
               <p><strong>VP of Developer Experience at WorkOS</strong>.<br/>
               {description}.</p>
               <ShortcutHome />
             </div>
-          </div>
-        </div>
-      </main>
+          </PostContainer>
+        </PostContent>
+      </Home>
       <Footer />
-    </div>
+    </Wrapper>
   )
 }
 
-export default Home
+const Home = styled(PostMain, {
+  alignItems: "center",
+  display: "flex",
+  margin: "0 auto",
+  '@bp2': { width: 800 }
+})

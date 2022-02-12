@@ -9,7 +9,7 @@ import investments from '../data/investments'
 export async function getStaticProps() {
   const meta = {
     title: 'Investing // Zeno Rocha',
-    description: "<strong>Angel investing</strong> is how I help other startups to create amazing developer experiences. This is all new to me, but I'm excited to enable teams to grow and <strong>build world-class products</strong>.",
+    description: "<strong>Angel investing</strong> is how I help other startups to create amazing developer experiences. I'm excited to enable teams to grow and <strong>build world-class products</strong>.",
     tagline: 'DevTools. B2B. SaaS.',
     image: '/static/images/projects-bw.jpg',
     primaryColor: 'purple',
@@ -42,7 +42,7 @@ function Investing(props) {
       <p dangerouslySetInnerHTML={{ __html: description }} />
 
       <h2>What I invest in</h2>
-      <p>I write $5-10k checks in <strong>developer-first startups</strong>. I prefer folks who are in early stages (think pre-seed or seed) and products that increase productivity, avoid task repetition, or unlock revenue potential.</p>
+      <p>I write small checks in <strong>developer-first startups</strong>. I prefer folks who are in early stages (think pre-seed or seed) and products that increase productivity, avoid task repetition, or unlock revenue potential.</p>
 
       <h2>What you get from me</h2>
       <p>I love helping with...</p>

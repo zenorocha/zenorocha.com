@@ -1,5 +1,5 @@
 import Head from 'next/head'
-import { useRouter } from 'next/router'
+import { ArticleJsonLd } from 'next-seo'
 import Blogpost from '../layouts/Blogpost'
 import ErrorMessage from '../components/ErrorMessage'
 import { getPostBySlug, getAllPosts, convertMarkdownToHtml } from '../lib/blog'
@@ -12,9 +12,11 @@ function Post(props) {
   const title = `${props.title} // Zeno Rocha`
   const description = props.description || ''
   const url = `https://zenorocha.com/${props.slug}`
+  const date = new Date(props.date).toISOString()
   const image = props.image
     ? `https://zenorocha.com${props.image}`
     : 'https://zenorocha.com/static/images/home-opt.jpg'
+
 
   return (
     <>
@@ -30,6 +32,17 @@ function Post(props) {
           <link rel="canonical" href={props.canonical_url} />
         )}
       </Head>
+
+      <ArticleJsonLd
+        authorName="Zeno Rocha"
+        type="Blog"
+        url={url}
+        title={title}
+        images={[image]}
+        datePublished={date}
+        dateModified={date}
+        description={props.description}
+      />
 
       <div dangerouslySetInnerHTML={{ __html: props.content }} />
     </>

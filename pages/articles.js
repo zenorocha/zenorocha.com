@@ -2,7 +2,7 @@ import { styled } from '../stitches.config'
 import Head from 'next/head'
 import Base from '../layouts/Base'
 import stripHtml from '../lib/strip-html'
-import { getAllPosts } from '../lib/blog'
+import { getAllPosts, getPostBySlug } from '../lib/blog'
 import ListItem from '../components/ListItem'
 import FeaturedArticle from '../components/FeaturedArticle'
 import { ListGroup } from '../components/ListGroup'
@@ -14,10 +14,21 @@ export async function getStaticProps() {
     'skip',
     'slug',
     'title',
+  ])
+
+  const featuredParams = [
+    'date',
+    'slug',
+    'title',
     'image',
     'content',
     'description',
-  ])
+  ]
+
+  const featuredPosts = [
+    getPostBySlug('how-i-built-my-personal-website', featuredParams),
+    getPostBySlug('what-ive-learned-after-giving-100-talks', featuredParams),
+  ]
 
   return {
     props: {
@@ -26,6 +37,7 @@ export async function getStaticProps() {
       image: '/static/images/articles-bw.jpg',
       primaryColor: 'yellow',
       secondaryColor: 'pink',
+      featuredPosts,
       allPosts,
     },
   }
@@ -33,27 +45,20 @@ export async function getStaticProps() {
 
 function Articles(props) {
   const renderFeatured = () => {
-    const featured = [
-      'what-ive-learned-after-giving-100-talks',
-      'how-i-built-my-personal-website',
-    ]
-
-    return props.allPosts
-      .filter(item => featured.includes(item.slug))
-      .map((post, index) => {
-        return (
-          <FeaturedArticle
-            key={index}
-            index={index}
-            href={`/${post.slug}/`}
-            title={post.title}
-            description={post.description}
-            image={post.image}
-            stats={post.stats}
-            content={post.content}
-          />
-        )
-      })
+    return props.featuredPosts.map((post, index) => {
+      return (
+        <FeaturedArticle
+          key={index}
+          index={index}
+          href={`/${post.slug}/`}
+          title={post.title}
+          description={post.description}
+          image={post.image}
+          stats={post.stats}
+          content={post.content}
+        />
+      )
+    })
   }
 
   const renderAll = () => {

@@ -5,6 +5,7 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
+    "lint": "next lint",
     "export": "next export",
     "deploy": "vercel --prod"
   },
@@ -24,5 +25,10 @@
     "remark-html": "^15.0.0",
     "remark-prism": "^1.3.6",
     "remixicon": "^2.5.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.9.0",
+    "eslint-config-next": "^12.0.10",
+    "eslint-config-prettier": "^8.3.0"
   }
 }

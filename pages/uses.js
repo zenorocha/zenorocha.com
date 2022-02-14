@@ -7,7 +7,8 @@ import categories from '../data/uses'
 export async function getStaticProps() {
   const meta = {
     title: 'Uses // Zeno Rocha',
-    description: "I often get messages asking about specific pieces of <strong>software or hardware I use</strong>. This not a static page, it's a <strong>living document</strong> with everything that I'm using nowadays.",
+    description:
+      "I often get messages asking about specific pieces of <strong>software or hardware I use</strong>. This not a static page, it's a <strong>living document</strong> with everything that I'm using nowadays.",
     tagline: 'Tools. Apps. Gear.',
     image: '/static/images/uses-bw.jpg',
     primaryColor: 'yellow',
@@ -22,20 +23,26 @@ function Uses(props) {
 
   const renderAll = () => {
     return categories.map((category, index) => {
-      return <div key={index}>
-        <h2>{category.name}</h2>
-        <ul>
-          {category.items.map((item, iIndex) => {
-            return <li key={iIndex}>
-              <a href={item.url} target="_blank">
-                {item.title}
-              </a>
-              <span> - </span>
-              <span dangerouslySetInnerHTML={{ __html: item.description }} />
-            </li>
-          })}
-        </ul>
-      </div>
+      return (
+        <div key={index}>
+          <h2>{category.name}</h2>
+          <ul>
+            {category.items.map((item, iIndex) => {
+              return (
+                <li key={iIndex}>
+                  <a href={item.url} target="_blank">
+                    {item.title}
+                  </a>
+                  <span> - </span>
+                  <span
+                    dangerouslySetInnerHTML={{ __html: item.description }}
+                  />
+                </li>
+              )
+            })}
+          </ul>
+        </div>
+      )
     })
   }
 

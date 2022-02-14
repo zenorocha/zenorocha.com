@@ -41,7 +41,7 @@ const items = [
           },
         ],
       },
-    ]
+    ],
   },
   {
     year: '2020',
@@ -73,7 +73,7 @@ const items = [
           },
         ],
       },
-    ]
+    ],
   },
   {
     year: '2019',
@@ -102,8 +102,8 @@ const items = [
         url: 'https://www.liferay.com/web/events-symposium-france',
         date: '2019-10-09',
         where: 'Paris, France',
-      }
-    ]
+      },
+    ],
   },
   {
     year: '2018',
@@ -121,7 +121,7 @@ const items = [
         date: '2018-10-23',
         where: 'Milan, Italy',
       },
-    ]
+    ],
   },
   {
     year: '2017',
@@ -135,11 +135,11 @@ const items = [
         presentations: [
           {
             title: "What's new in the Liferay Community",
-            url: "https://speakerdeck.com/zenorocha/whats-new-in-the-liferay-community"
+            url: 'https://speakerdeck.com/zenorocha/whats-new-in-the-liferay-community',
           },
           {
-            title: "Launching Liferay Projects Faster with WeDeploy",
-            url: "https://speakerdeck.com/zenorocha/launching-liferay-projects-faster-with-wedeploy"
+            title: 'Launching Liferay Projects Faster with WeDeploy',
+            url: 'https://speakerdeck.com/zenorocha/launching-liferay-projects-faster-with-wedeploy',
           },
         ],
       },
@@ -155,7 +155,7 @@ const items = [
             url: 'https://speakerdeck.com/zenorocha/whats-new-in-the-liferay-community',
           },
           {
-            title: "Launching Liferay Projects Faster with WeDeploy",
+            title: 'Launching Liferay Projects Faster with WeDeploy',
             url: 'https://speakerdeck.com/zenorocha/launching-liferay-projects-faster-with-wedeploy',
           },
         ],
@@ -201,7 +201,7 @@ const items = [
           {
             title: 'Estoicismo e JavaScript',
             url: 'https://speakerdeck.com/zenorocha/estoicismo-e-javascript',
-          }
+          },
         ],
       },
       {
@@ -214,7 +214,7 @@ const items = [
           {
             title: 'Estoicismo e JavaScript',
             url: 'https://speakerdeck.com/zenorocha/estoicismo-e-javascript',
-          }
+          },
         ],
       },
       {
@@ -225,9 +225,10 @@ const items = [
         attendees: '≈400',
         presentations: [
           {
-            title: 'Por que ninguém se importa com seu novo projeto open source?',
+            title:
+              'Por que ninguém se importa com seu novo projeto open source?',
             url: 'https://speakerdeck.com/zenorocha/por-que-ninguem-se-importa-com-seu-novo-projeto-open-source',
-          }
+          },
         ],
         coverage: 'https://twitter.com/i/moments/881981365851275264',
       },
@@ -241,7 +242,7 @@ const items = [
           {
             title: 'Como investir em... você!',
             url: 'https://speakerdeck.com/zenorocha/como-investir-em-dot-dot-dot-voce',
-          }
+          },
         ],
         coverage: 'https://twitter.com/i/moments/881992781429854208',
       },
@@ -255,7 +256,7 @@ const items = [
           {
             title: 'Criando apps fodas com WeDeploy',
             url: 'https://speakerdeck.com/zenorocha/criando-apps-fodas-com-wedeploy',
-          }
+          },
         ],
         coverage: 'https://twitter.com/i/moments/881996334982512640',
       },
@@ -269,7 +270,7 @@ const items = [
           {
             title: 'Web APIs que você (provavelmente) não sabia que existiam',
             url: 'https://speakerdeck.com/zenorocha/web-apis-que-voce-provavelmente-nao-sabia-que-existiam-1',
-          }
+          },
         ],
         coverage: 'https://twitter.com/i/moments/882002829472219141',
       },
@@ -290,7 +291,7 @@ const items = [
         url: 'http://2017.jsday.es/',
         date: '2017-05-12',
         where: 'Madrid - Spain',
-      }
+      },
     ],
   },
   {
@@ -341,10 +342,11 @@ const items = [
           {
             title: "Web APIs you (probably) didn't know existed",
             url: 'https://speakerdeck.com/zenorocha/web-apis-you-probably-didnt-know-existed',
-            video: 'https://www.youtube.com/watch?v=hnkSbA4ZDGQ'
-          }
+            video: 'https://www.youtube.com/watch?v=hnkSbA4ZDGQ',
+          },
         ],
-        coverage: 'https://storify.com/zenorocha/nebraskajs-conference-august-2016',
+        coverage:
+          'https://storify.com/zenorocha/nebraskajs-conference-august-2016',
       },
       {
         title: 'SFHTML5',
@@ -357,7 +359,7 @@ const items = [
             title: "Web APIs you (probably) didn't know existed",
             url: 'https://speakerdeck.com/zenorocha/web-apis-you-probably-didnt-know-existed',
             video: 'https://www.youtube.com/watch?v=NCGLPp778JY',
-          }
+          },
         ],
         coverage: 'https://storify.com/zenorocha/sfhtml5-august-2016',
       },
@@ -369,10 +371,10 @@ const items = [
         attendees: '≈500',
         presentations: [
           {
-            title: "Web APIs que você (provavelmente) não sabia que existiam",
+            title: 'Web APIs que você (provavelmente) não sabia que existiam',
             url: 'https://speakerdeck.com/zenorocha/web-apis-que-voce-provavelmente-nao-sabia-que-existiam',
             video: 'http://frontinbh.com.br/live.html',
-          }
+          },
         ],
         coverage: 'https://storify.com/zenorocha/front-in-bh-august-2016',
       },
@@ -386,14 +388,15 @@ const items = [
           {
             title: 'How to invest in... you!',
             url: 'https://speakerdeck.com/zenorocha/how-to-invest-in-dot-dot-dot-you',
-          }
+          },
         ],
       },
     ],
   },
   {
     year: '2015',
-    summary: '11 talks and 1 workshop. 7 different cities in 4 different countries.',
+    summary:
+      '11 talks and 1 workshop. 7 different cities in 4 different countries.',
     talks: [
       {
         title: 'Liferay Symposium - South America',
@@ -451,7 +454,7 @@ const items = [
             title: 'Crazy computer vision stuff in the browser',
             url: 'https://speakerdeck.com/zenorocha/crazy-computer-vision-stuff-in-the-browser',
             video: 'https://www.youtube.com/watch?v=2NWssETxsPw',
-          }
+          },
         ],
       },
       {
@@ -465,7 +468,7 @@ const items = [
             title: 'A future called Web Components',
             url: 'https://speakerdeck.com/zenorocha/a-future-called-web-components',
             video: 'https://www.youtube.com/watch?v=FAguNB2Z3QU',
-          }
+          },
         ],
       },
       {
@@ -485,7 +488,7 @@ const items = [
           {
             title: 'A future called Web Components',
             url: 'https://speakerdeck.com/zenorocha/a-future-called-web-components',
-          }
+          },
         ],
         coverage: 'https://storify.com/zenorocha/chicago-html5-may-2015',
       },
@@ -498,7 +501,7 @@ const items = [
           {
             title: 'Crazy computer vision stuff in the browser',
             url: 'https://speakerdeck.com/zenorocha/crazy-computer-vision-stuff-in-the-browser',
-          }
+          },
         ],
         attendees: '≈200',
         coverage: 'https://storify.com/zenorocha/smashing-conf-april-2015',
@@ -514,7 +517,8 @@ const items = [
   },
   {
     year: '2014',
-    summary: '21 talks and 4 workshops. 18 different cities in 8 different countries.',
+    summary:
+      '21 talks and 4 workshops. 18 different cities in 8 different countries.',
     talks: [
       {
         title: "California State Polytechnic University's IWDSA",
@@ -526,7 +530,7 @@ const items = [
           {
             title: 'How to invest in... you!',
             url: 'https://speakerdeck.com/zenorocha/how-to-invest-in-dot-dot-dot-you',
-          }
+          },
         ],
       },
       {
@@ -539,7 +543,7 @@ const items = [
           {
             title: "Why people don't care about your new open source project",
             url: 'https://speakerdeck.com/zenorocha/why-nobody-cares-about-your-new-open-source-project',
-          }
+          },
         ],
       },
       {
@@ -589,7 +593,7 @@ const items = [
             title: 'A future called Web Components',
             url: 'https://speakerdeck.com/zenorocha/a-future-called-web-components',
             video: 'https://vimeo.com/111191562',
-          }
+          },
         ],
         coverage: 'https://storify.com/zenorocha/jsla-october-2014',
       },
@@ -603,7 +607,7 @@ const items = [
           {
             title: 'A future called Web Components',
             url: 'https://speakerdeck.com/zenorocha/a-future-called-web-components',
-          }
+          },
         ],
         coverage: 'https://storify.com/zenorocha/sandiegojs-october-2014',
       },
@@ -623,9 +627,10 @@ const items = [
             title: 'The Future of Web Development',
             url: 'http://www.slideshare.net/zenorocha/future-of-web-development',
             video: 'https://www.youtube.com/watch?v=dPDTshkh5IE',
-          }
+          },
         ],
-        coverage: 'https://storify.com/zenorocha/liferay-spain-symposium-october-2014',
+        coverage:
+          'https://storify.com/zenorocha/liferay-spain-symposium-october-2014',
       },
       {
         title: 'HTML5 LA',
@@ -637,7 +642,7 @@ const items = [
           {
             title: 'Tracking.js',
             url: 'https://speakerdeck.com/zenorocha/tracking-dot-js',
-          }
+          },
         ],
       },
       {
@@ -668,7 +673,7 @@ const items = [
             title: 'ZOFE ao vivo',
             url: 'https://speakerdeck.com/zenorocha/a-future-called-web-components',
             video: 'https://www.youtube.com/watch?v=YWbHcx5970g',
-          }
+          },
         ],
       },
       {
@@ -681,7 +686,7 @@ const items = [
           {
             title: 'Tracking.js: Uma nova dimensão',
             url: 'http://www.slideshare.net/zenorocha/trackingjs',
-          }
+          },
         ],
       },
       {
@@ -701,7 +706,7 @@ const items = [
           {
             title: 'Tracking.js: Uma nova dimensão',
             url: 'http://www.slideshare.net/zenorocha/trackingjs',
-          }
+          },
         ],
       },
       {
@@ -721,7 +726,7 @@ const items = [
           {
             title: 'A future called Web Components',
             url: 'https://speakerdeck.com/zenorocha/a-future-called-web-components',
-          }
+          },
         ],
       },
       {
@@ -735,7 +740,7 @@ const items = [
             title: 'A future called Web Components',
             url: 'https://speakerdeck.com/zenorocha/a-future-called-web-components',
             video: 'http://vimeo.com/96477903',
-          }
+          },
         ],
       },
       {
@@ -749,7 +754,7 @@ const items = [
             title: 'A future called Web Components',
             url: 'https://speakerdeck.com/zenorocha/a-future-called-web-components',
             video: 'http://vimeo.com/97308701',
-          }
+          },
         ],
       },
       {
@@ -765,7 +770,7 @@ const items = [
             title: 'Web Components: a chance to create the future',
             url: 'https://speakerdeck.com/zenorocha/web-components-a-chance-to-create-the-future',
             video: 'https://www.youtube.com/watch?v=JUzjr1bIRUg',
-          }
+          },
         ],
       },
       {
@@ -776,9 +781,9 @@ const items = [
         attendees: '≈250',
         presentations: [
           {
-            title:" Como empreender em... você!",
+            title: ' Como empreender em... você!',
             url: 'http://www.slideshare.net/zenorocha/keynote-30756562',
-          }
+          },
         ],
       },
       {
@@ -799,7 +804,7 @@ const items = [
             title: 'A future called Web Components',
             url: 'https://speakerdeck.com/zenorocha/a-future-called-web-components',
             video: 'https://www.youtube.com/watch?v=TKYjzQ0T1q0',
-          }
+          },
         ],
       },
       {
@@ -817,10 +822,10 @@ const items = [
         attendees: '≈150',
         presentations: [
           {
-            title:" Como empreender em... você!",
+            title: ' Como empreender em... você!',
             url: 'http://www.slideshare.net/zenorocha/keynote-30756562',
             video: 'http://www.youtube.com/watch?v=S6APevEo2Yw',
-          }
+          },
         ],
       },
       {
@@ -831,9 +836,9 @@ const items = [
         attendees: '≈15',
         presentations: [
           {
-            title:" Liferay UI (R)evolution",
+            title: ' Liferay UI (R)evolution',
             url: 'http://www.slideshare.net/zenorocha/liferay-ui-revolution',
-          }
+          },
         ],
       },
       {
@@ -847,7 +852,8 @@ const items = [
   },
   {
     year: '2013',
-    summary: '18 talks and 3 workshops. 12 different cities in 3 different countries.',
+    summary:
+      '18 talks and 3 workshops. 12 different cities in 3 different countries.',
     talks: [
       {
         title: 'HTML5 LA',
@@ -856,9 +862,9 @@ const items = [
         where: 'Los Angeles, CA - USA',
         presentations: [
           {
-            title: "A future called Web Components",
+            title: 'A future called Web Components',
             url: 'https://speakerdeck.com/zenorocha/a-future-called-web-components',
-          }
+          },
         ],
       },
       {
@@ -868,10 +874,10 @@ const items = [
         where: 'Berlin - Germany',
         presentations: [
           {
-            title:" Liferay UI (R)evolution",
+            title: ' Liferay UI (R)evolution',
             url: 'http://www.slideshare.net/zenorocha/liferay-ui-revolution',
             video: 'http://www.youtube.com/watch?v=uLwISoh0qxQ',
-          }
+          },
         ],
       },
       {
@@ -881,10 +887,10 @@ const items = [
         where: 'São Paulo, SP - Brazil',
         presentations: [
           {
-            title: "HTML5 APIs para Mobile",
+            title: 'HTML5 APIs para Mobile',
             url: 'https://speakerdeck.com/zenorocha/html5-apis-para-mobile',
             video: 'http://www.youtube.com/watch?v=ncYj9Z8LwNM',
-          }
+          },
         ],
       },
       {
@@ -904,7 +910,7 @@ const items = [
           {
             title: 'O que eu aprendi em 4 anos como dev front-end',
             url: 'http://talks.zenorocha.com/2013/frontinaracaju/',
-          }
+          },
         ],
       },
       {
@@ -914,10 +920,10 @@ const items = [
         where: 'São Paulo, SP - Brazil',
         presentations: [
           {
-            title: "HTML5 APIs para Mobile",
+            title: 'HTML5 APIs para Mobile',
             url: 'https://speakerdeck.com/zenorocha/html5-apis-para-mobile',
             video: 'http://www.infoq.com/br/presentations/html5-api-mobile',
-          }
+          },
         ],
       },
       {
@@ -928,10 +934,10 @@ const items = [
         attendees: '≈1000',
         presentations: [
           {
-            title: "Um futuro chamado Web Components",
+            title: 'Um futuro chamado Web Components',
             url: 'https://speakerdeck.com/zenorocha/um-futuro-chamado-web-components',
             video: 'http://www.youtube.com/watch?v=7Q0-E_rZ_Cc',
-          }
+          },
         ],
       },
       {
@@ -964,7 +970,7 @@ const items = [
           {
             title: 'O que eu aprendi em 4 anos como dev front-end',
             url: 'http://talks.zenorocha.com/2013/frontinbahia/',
-          }
+          },
         ],
       },
       {
@@ -983,7 +989,7 @@ const items = [
             title: 'O que eu aprendi em 4 anos como dev front-end',
             url: 'http://talks.zenorocha.com/2013/secot/',
             video: 'https://www.youtube.com/watch?v=qo_k5xppvTI',
-          }
+          },
         ],
       },
       {
@@ -993,9 +999,9 @@ const items = [
         where: 'Florianópolis, SC - Brazil',
         presentations: [
           {
-            title: "Como Perder Peso (no browser)",
+            title: 'Como Perder Peso (no browser)',
             url: 'https://speakerdeck.com/zenorocha/como-perder-peso-no-browser/',
-          }
+          },
         ],
       },
       {
@@ -1023,7 +1029,7 @@ const items = [
           {
             title: 'Augmented Reality in JavaScript',
             url: 'https://speakerdeck.com/zenorocha/augmented-reality-in-javascript',
-          }
+          },
         ],
       },
       {
@@ -1041,7 +1047,7 @@ const items = [
           {
             title: 'Como Perder Peso (no browser',
             url: 'https://speakerdeck.com/zenorocha/como-perder-peso-no-browser/',
-          }
+          },
         ],
       },
       {
@@ -1059,8 +1065,9 @@ const items = [
           {
             title: 'Reintroducing AlloyUI',
             url: 'http://talks.zenorocha.com/2013/alloy-webinar/',
-            video: 'http://www.liferay.com/video?title=video-web-event-introducing-alloy-2-0',
-          }
+            video:
+              'http://www.liferay.com/video?title=video-web-event-introducing-alloy-2-0',
+          },
         ],
       },
       {
@@ -1070,10 +1077,10 @@ const items = [
         where: 'São Paulo, SP - Brazil',
         presentations: [
           {
-            title:" Layouts Responsivos",
+            title: ' Layouts Responsivos',
             url: 'http://www.slideshare.net/bernarddeluna/pdf-apresentacaolayoutsresponsivos',
             video: 'http://www.youtube.com/watch?v=ty7zj37gaBI',
-          }
+          },
         ],
       },
     ],
@@ -1091,7 +1098,7 @@ const items = [
           {
             title: 'Alloy UI: Past, Present & Future',
             url: 'http://talks.zenorocha.com/2012/new-alloy-website/',
-          }
+          },
         ],
       },
       {
@@ -1103,8 +1110,9 @@ const items = [
           {
             title: 'Realidade aumentada com JavaScript',
             url: 'http://talks.zenorocha.com/2012/devfest',
-            video: 'http://www.infoq.com/br/presentations/realidade-aumentada-html5',
-          }
+            video:
+              'http://www.infoq.com/br/presentations/realidade-aumentada-html5',
+          },
         ],
       },
       {
@@ -1115,10 +1123,10 @@ const items = [
         attendees: '≈240',
         presentations: [
           {
-            title:" Surpresa!",
+            title: ' Surpresa!',
             url: 'http://www.slideshare.net/bernarddeluna/surpresa-15160517',
             video: 'http://www.youtube.com/watch?v=66RjQmQg30Y',
-          }
+          },
         ],
       },
       {
@@ -1131,7 +1139,7 @@ const items = [
           {
             title: 'Como usar HTML5 sem uma máquina do tempo',
             url: 'http://talks.zenorocha.com/2012/ideais',
-          }
+          },
         ],
       },
       {
@@ -1144,7 +1152,7 @@ const items = [
           {
             title: 'Realidade aumentada com JavaScript',
             url: 'http://talks.zenorocha.com/2012/simonsen/',
-          }
+          },
         ],
       },
       {
@@ -1154,10 +1162,10 @@ const items = [
         where: 'São Paulo, SP - Brazil',
         presentations: [
           {
-            title:" Surpresa!",
+            title: ' Surpresa!',
             url: 'http://www.slideshare.net/bernarddeluna/surpresa-15160517',
             video: 'http://www.youtube.com/watch?v=SOgriWRiefs',
-          }
+          },
         ],
       },
       {
@@ -1170,7 +1178,7 @@ const items = [
           {
             title: 'O que eu aprendi em 3 anos como dev front-end',
             url: 'http://talks.zenorocha.com/2012/frontinmaceio/',
-          }
+          },
         ],
       },
       {
@@ -1182,7 +1190,7 @@ const items = [
           {
             title: 'Realidade aumentada com JavaScript',
             url: 'http://talks.zenorocha.com/2012/w3c/',
-          }
+          },
         ],
       },
       {
@@ -1195,7 +1203,7 @@ const items = [
             title: 'Arte digital na web: onde começar?',
             url: 'http://talks.zenorocha.com/2012/rcuritiba/',
             video: 'http://www.youtube.com/watch?v=V8QZMO8rr8g',
-          }
+          },
         ],
       },
       {
@@ -1207,7 +1215,7 @@ const items = [
           {
             title: 'O que eu aprendi em 3 anos como dev front-end',
             url: 'http://talks.zenorocha.com/2012/frontinmaringa/',
-          }
+          },
         ],
       },
       {
@@ -1219,7 +1227,7 @@ const items = [
           {
             title: 'Como fugir do feijão com arroz usando Canvas, SVG e WebGL',
             url: 'http://talks.zenorocha.com/2012/souwebpel/',
-          }
+          },
         ],
       },
       {
@@ -1232,7 +1240,7 @@ const items = [
           {
             title: 'Como não virar um Zumbi: Kit de sobrevivência',
             url: 'http://talks.zenorocha.com/2012/braziljs/',
-          }
+          },
         ],
       },
       {
@@ -1245,7 +1253,7 @@ const items = [
           {
             title: 'Canvas, SVG e WebGL',
             url: 'http://talks.zenorocha.com/2012/tablelessconf/',
-          }
+          },
         ],
       },
       {
@@ -1257,7 +1265,7 @@ const items = [
           {
             title: 'Mitos do Front-end',
             url: 'http://talks.zenorocha.com/2012/tdc-sc/',
-          }
+          },
         ],
       },
       {
@@ -1269,7 +1277,7 @@ const items = [
           {
             title: 'CSS Sucks!',
             url: 'http://talks.zenorocha.com/2012/frontinpoa/',
-          }
+          },
         ],
       },
       {
@@ -1281,8 +1289,9 @@ const items = [
           {
             title: 'Mitos do Front-end',
             url: 'http://talks.zenorocha.com/2012/qconsp/',
-            video: 'http://www.infoq.com/br/presentations/mitos-desenvolvimento-frontend',
-          }
+            video:
+              'http://www.infoq.com/br/presentations/mitos-desenvolvimento-frontend',
+          },
         ],
       },
       {
@@ -1295,7 +1304,7 @@ const items = [
             title: 'Como fugir do feijão com arroz usando Canvas, SVG e WebGL',
             url: 'http://talks.zenorocha.com/2012/fisl/',
             video: 'http://www.youtube.com/watch?v=ukjHPwg74ik',
-          }
+          },
         ],
       },
       {
@@ -1309,7 +1318,7 @@ const items = [
             title: 'CSS Sucks!',
             url: 'http://talks.zenorocha.com/2012/frontinbh/',
             video: 'https://www.youtube.com/watch?v=E7FQCHBicO0',
-          }
+          },
         ],
       },
       {
@@ -1321,7 +1330,7 @@ const items = [
           {
             title: 'Como usar HTML5 sem uma máquina do tempo',
             url: 'http://talks.zenorocha.com/2012/tdc-sp/',
-          }
+          },
         ],
       },
       {
@@ -1333,7 +1342,7 @@ const items = [
           {
             title: 'Como usar HTML5 sem uma máquina do tempo',
             url: 'http://talks.zenorocha.com/2012/frontincuritiba/',
-          }
+          },
         ],
       },
       {
@@ -1346,7 +1355,7 @@ const items = [
           {
             title: 'CSS Sucks!',
             url: 'http://talks.zenorocha.com/2012/frontinrio/',
-          }
+          },
         ],
       },
       {
@@ -1359,7 +1368,7 @@ const items = [
             title: 'How to use Canvas, SVG and WebGL without a time machine',
             url: 'http://talks.zenorocha.com/2012/jsconf/',
             video: 'http://blip.tv/jsconfar/zeno_rocha-6279969',
-          }
+          },
         ],
       },
       {
@@ -1372,7 +1381,7 @@ const items = [
           {
             title: 'Como fugir do feijão com arroz usando Canvas, SVG e WebGL',
             url: 'http://talks.zenorocha.com/2012/pernambucojs/',
-          }
+          },
         ],
       },
       {
@@ -1385,7 +1394,7 @@ const items = [
           {
             title: 'Como usar HTML5 sem uma máquina do tempo',
             url: 'http://talks.zenorocha.com/2012/beagajs/',
-          }
+          },
         ],
       },
     ],
@@ -1402,10 +1411,10 @@ const items = [
         attendees: '≈40',
         presentations: [
           {
-            title:" Como usar HTML5 sem uma máquina do tempo",
+            title: ' Como usar HTML5 sem uma máquina do tempo',
             url: 'http://www.slideshare.net/zenorocha/desbravando-o-html5-boilerplate',
             video: 'https://www.youtube.com/watch?v=7u4Rcc955fU',
-          }
+          },
         ],
       },
       {
@@ -1416,9 +1425,9 @@ const items = [
         attendees: '≈140',
         presentations: [
           {
-            title:" Desbravando o HTML5 Boilerplate",
+            title: ' Desbravando o HTML5 Boilerplate',
             url: 'http://www.slideshare.net/zenorocha/desbravando-o-html5-boilerplate',
-          }
+          },
         ],
       },
       {
@@ -1429,9 +1438,9 @@ const items = [
         attendees: '≈150',
         presentations: [
           {
-            title:" HTML5",
+            title: ' HTML5',
             url: 'http://www.slideshare.net/zenorocha/html-5-5273640',
-          }
+          },
         ],
       },
       {
@@ -1442,9 +1451,9 @@ const items = [
         attendees: '≈50',
         presentations: [
           {
-            title:" Criando projetos robustos com HTML5",
+            title: ' Criando projetos robustos com HTML5',
             url: 'http://www.slideshare.net/zenorocha/construindo-projetos-robustos-em-html5',
-          }
+          },
         ],
       },
     ],
@@ -1460,13 +1469,13 @@ const items = [
         attendees: '≈15',
         presentations: [
           {
-            title:" Wordpress",
+            title: ' Wordpress',
             url: 'http://www.slideshare.net/zenorocha/wordpress-4948450',
-          }
+          },
         ],
       },
     ],
-  }
+  },
 ]
 
 export default items

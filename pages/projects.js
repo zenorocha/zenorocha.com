@@ -21,12 +21,7 @@ export async function getStaticProps() {
 
 function Projects(props) {
   const renderFeatured = () => {
-    const featured = [
-      'Dracula PRO',
-      'Clipboard.js',
-      'LeCheese',
-      '14 Habits'
-    ]
+    const featured = ['Dracula PRO', 'Clipboard.js', 'LeCheese', '14 Habits']
 
     return items
       .map(item => {
@@ -39,23 +34,22 @@ function Projects(props) {
       })
       .flat()
       .map((item, index) => {
-        return <FeaturedProject
-          key={index}
-          project={item}
-        />
+        return <FeaturedProject key={index} project={item} />
       })
   }
 
   const renderAll = () => {
     return items.map((item, index) => {
-      return <div key={index}>
-        <h3>{item.year}</h3>
-        <ul>
-          {item.projects.map((project, pIndex) => {
-            return <ProjectItem key={pIndex} project={project} />
-          })}
-        </ul>
-      </div>
+      return (
+        <div key={index}>
+          <h3>{item.year}</h3>
+          <ul>
+            {item.projects.map((project, pIndex) => {
+              return <ProjectItem key={pIndex} project={project} />
+            })}
+          </ul>
+        </div>
+      )
     })
   }
 
@@ -87,9 +81,7 @@ function Projects(props) {
         <p dangerouslySetInnerHTML={{ __html: description }} />
 
         <h2>Featured Projects</h2>
-        <FeaturedProjects>
-          {renderFeatured()}
-        </FeaturedProjects>
+        <FeaturedProjects>{renderFeatured()}</FeaturedProjects>
 
         <h2>All Projects</h2>
         {renderAll()}
@@ -101,9 +93,13 @@ function Projects(props) {
 function ProjectItem(props) {
   const { project } = props
 
-  return <li>
-    <a href={project.url} target="_blank">{project.title}</a>
-  </li>
+  return (
+    <li>
+      <a href={project.url} target="_blank">
+        {project.title}
+      </a>
+    </li>
+  )
 }
 
 Projects.Layout = Base

@@ -20,17 +20,32 @@ export default class extends Document {
           <meta property="og:type" content="website" />
           <meta content="summary_large_image" name="twitter:card" />
           <meta name="theme-color" content="#08070b" />
-          <style id="stitches" dangerouslySetInnerHTML={{ __html: getCssText() }} />
+          <style
+            id="stitches"
+            dangerouslySetInnerHTML={{ __html: getCssText() }}
+          />
 
-          <link rel="icon" href="/favicon.svg" sizes="any" type="image/svg+xml" />
+          <link
+            rel="icon"
+            href="/favicon.svg"
+            sizes="any"
+            type="image/svg+xml"
+          />
 
-          <script async src={`https://www.googletagmanager.com/gtag/js?id=${GA_TRACKING_ID}`} />
-          <script dangerouslySetInnerHTML={{ __html: `
+          <script
+            async
+            src={`https://www.googletagmanager.com/gtag/js?id=${GA_TRACKING_ID}`}
+          />
+          <script
+            dangerouslySetInnerHTML={{
+              __html: `
             window.dataLayer = window.dataLayer || [];
             function gtag(){dataLayer.push(arguments);}
             gtag('js', new Date());
             gtag('config', '${GA_TRACKING_ID}');
-          `}} />
+          `,
+            }}
+          />
         </Head>
         <Main />
         <NextScript />

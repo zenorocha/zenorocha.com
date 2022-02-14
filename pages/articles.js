@@ -41,29 +41,33 @@ function Articles(props) {
     return props.allPosts
       .filter(item => featured.includes(item.slug))
       .map((post, index) => {
-        return <FeaturedArticle
-          key={index}
-          index={index}
-          href={`/${post.slug}/`}
-          title={post.title}
-          description={post.description}
-          image={post.image}
-          stats={post.stats}
-          content={post.content}
-        />
+        return (
+          <FeaturedArticle
+            key={index}
+            index={index}
+            href={`/${post.slug}/`}
+            title={post.title}
+            description={post.description}
+            image={post.image}
+            stats={post.stats}
+            content={post.content}
+          />
+        )
       })
   }
 
   const renderAll = () => {
     return props.allPosts.map((post, index) => {
       if (!post.skip) {
-        return <ListItem
-          key={index}
-          index={index}
-          href={`/${post.slug}/`}
-          title={post.title}
-          date={post.date}
-        />
+        return (
+          <ListItem
+            key={index}
+            index={index}
+            href={`/${post.slug}/`}
+            title={post.title}
+            date={post.date}
+          />
+        )
       }
     })
   }
@@ -86,22 +90,18 @@ function Articles(props) {
         <p dangerouslySetInnerHTML={{ __html: description }} />
 
         <h2>Featured Articles</h2>
-        <FeaturedArticles>
-          {renderFeatured()}
-        </FeaturedArticles>
+        <FeaturedArticles>{renderFeatured()}</FeaturedArticles>
 
         <h2>All Articles</h2>
-        <ListGroup>
-          {renderAll()}
-        </ListGroup>
+        <ListGroup>{renderAll()}</ListGroup>
       </AnimateSharedLayout>
     </>
   )
 }
 
 const FeaturedArticles = styled('div', {
-  margin: "10px 0 0 -20px",
-  "@bp2": { display: "flex", justifyContent: "space-between" },
+  margin: '10px 0 0 -20px',
+  '@bp2': { display: 'flex', justifyContent: 'space-between' },
 })
 
 Articles.Layout = Base

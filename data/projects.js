@@ -7,7 +7,7 @@ const items = [
         url: 'https://workos.com',
         active: true,
       },
-    ]
+    ],
   },
   {
     year: '2021',
@@ -27,7 +27,7 @@ const items = [
         url: 'https://draculatheme.com/ui',
         active: true,
       },
-    ]
+    ],
   },
   {
     year: '2020',
@@ -48,7 +48,7 @@ const items = [
         stats: '$210k+ sales',
         active: true,
       },
-    ]
+    ],
   },
   {
     year: '2019',
@@ -61,7 +61,7 @@ const items = [
         stats: '18k+ downloads',
         active: true,
       },
-    ]
+    ],
   },
   {
     year: '2018',
@@ -71,7 +71,7 @@ const items = [
         url: 'https://www.liferay.com/products/dxp-cloud',
         active: true,
       },
-    ]
+    ],
   },
   {
     year: '2017',
@@ -86,7 +86,7 @@ const items = [
         url: 'https://chrome.google.com/webstore/detail/codecopy/fkbfebkcoelajmhanocgppanfoojcdmg',
         active: true,
       },
-    ]
+    ],
   },
   {
     year: '2016',
@@ -106,7 +106,7 @@ const items = [
         url: 'http://devspace.io',
         active: false,
       },
-    ]
+    ],
   },
   {
     year: '2015',
@@ -144,7 +144,7 @@ const items = [
         url: 'http://metaljs.com/',
         active: true,
       },
-    ]
+    ],
   },
   {
     year: '2014',
@@ -214,7 +214,7 @@ const items = [
         url: 'https://github.com/webcomponents/polymer-boilerplate',
         active: false,
       },
-    ]
+    ],
   },
   {
     year: '2013',
@@ -274,7 +274,7 @@ const items = [
         url: 'http://zenorocha.github.com/jquery-github/',
         active: false,
       },
-    ]
+    ],
   },
   {
     year: '2012',
@@ -304,7 +304,7 @@ const items = [
         url: 'http://estatico.globoesporte.globo.com/santos-em-10-decadas/',
         active: true,
       },
-    ]
+    ],
   },
   {
     year: '2011',
@@ -344,7 +344,7 @@ const items = [
         url: '',
         active: false,
       },
-    ]
+    ],
   },
   {
     year: '2010',
@@ -419,7 +419,7 @@ const items = [
         url: 'http://www.mosaicomantiqueira.org.br/',
         active: false,
       },
-    ]
+    ],
   },
   {
     year: '2009',
@@ -434,7 +434,7 @@ const items = [
         url: 'http://www.antoniarodrigues.com.br/',
         active: false,
       },
-    ]
+    ],
   },
 ]
 

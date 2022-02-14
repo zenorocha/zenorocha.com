@@ -23,11 +23,14 @@ export async function getStaticProps() {
 
   const payload = {
     headers: {
-      'x-api-key': TRANSISTOR_API_KEY
-    }
+      'x-api-key': TRANSISTOR_API_KEY,
+    },
   }
 
-  const req = await fetch('https://api.transistor.fm/v1/episodes?show_id=19825&status=published', payload)
+  const req = await fetch(
+    'https://api.transistor.fm/v1/episodes?show_id=19825&status=published',
+    payload
+  )
   const res = await req.json()
   const episodes = res.data
 
@@ -35,7 +38,7 @@ export async function getStaticProps() {
 }
 
 function Podcasts(props) {
-  const renderFeatured = (items) => {
+  const renderFeatured = items => {
     const featured = [
       'Open Source Lessons Learned on The Changelog',
       'Creating Dracula PRO with Blood, Sweat, and Tears on Sustain OSS',
@@ -45,13 +48,15 @@ function Podcasts(props) {
     return items
       .filter(item => featured.includes(item.title))
       .map((item, index) => {
-        return <ListItem
-          key={index}
-          index={index}
-          href={item.url}
-          title={item.title}
-          date={item.date}
-        />
+        return (
+          <ListItem
+            key={index}
+            index={index}
+            href={item.url}
+            title={item.title}
+            date={item.date}
+          />
+        )
       })
   }
 
@@ -60,26 +65,30 @@ function Podcasts(props) {
 
     if (episodes) {
       return episodes.map((episode, index) => {
-        return <ListItem
-          key={index}
-          index={index}
-          href={`https://bytetalkpodcast.com/${episode.attributes.number}`}
-          title={episode.attributes.title}
-          date={episode.attributes.published_at}
-        />
+        return (
+          <ListItem
+            key={index}
+            index={index}
+            href={`https://bytetalkpodcast.com/${episode.attributes.number}`}
+            title={episode.attributes.title}
+            date={episode.attributes.published_at}
+          />
+        )
       })
     }
   }
 
-  const renderOther = (items) => {
+  const renderOther = items => {
     return items.map((item, index) => {
-      return <ListItem
-        key={index}
-        index={index}
-        href={item.url}
-        title={item.title}
-        date={item.date}
-      />
+      return (
+        <ListItem
+          key={index}
+          index={index}
+          href={item.url}
+          title={item.title}
+          date={item.date}
+        />
+      )
     })
   }
 
@@ -101,27 +110,27 @@ function Podcasts(props) {
         <p dangerouslySetInnerHTML={{ __html: description }} />
 
         <h2>Featured Podcasts</h2>
-        <ListGroup>
-          {renderFeatured(appearances)}
-        </ListGroup>
+        <ListGroup>{renderFeatured(appearances)}</ListGroup>
 
         <h2>ByteTalk</h2>
-        <p>A podcast where Jonni and I interview the most productive people in tech.</p>
-        <ListGroup>
-          {renderByteTalk()}
-        </ListGroup>
+        <p>
+          A podcast where Jonni and I interview the most productive people in
+          tech.
+        </p>
+        <ListGroup>{renderByteTalk()}</ListGroup>
 
         <h2>Appearances</h2>
-        <p>This is the list of all the podcasts that I gave an interview so far.</p>
-        <ListGroup>
-          {renderOther(appearances)}
-        </ListGroup>
+        <p>
+          This is the list of all the podcasts that I gave an interview so far.
+        </p>
+        <ListGroup>{renderOther(appearances)}</ListGroup>
 
         <h2>Zone Of Front-Enders</h2>
-        <p>My first podcast, ZOFE, where Daniel and I talked about web technologies.</p>
-        <ListGroup>
-          {renderOther(zofe)}
-        </ListGroup>
+        <p>
+          My first podcast, ZOFE, where Daniel and I talked about web
+          technologies.
+        </p>
+        <ListGroup>{renderOther(zofe)}</ListGroup>
       </AnimateSharedLayout>
     </>
   )

@@ -34,25 +34,21 @@ function Talks(props) {
         }
       })
       .map((item, index) => {
-        return <FeaturedTalk
-          key={index}
-          talk={item[0]}
-        />
+        return <FeaturedTalk key={index} talk={item[0]} />
       })
   }
 
   const renderAll = () => {
     return items.map((item, index) => {
-      return <div key={index}>
-        <h3>{item.year}</h3>
-        <p>{item.summary}</p>
-        {item.talks.map((talk, tIndex) => {
-          return <TalkItem
-            key={tIndex}
-            talk={talk}
-          />
-        })}
-      </div>
+      return (
+        <div key={index}>
+          <h3>{item.year}</h3>
+          <p>{item.summary}</p>
+          {item.talks.map((talk, tIndex) => {
+            return <TalkItem key={tIndex} talk={talk} />
+          })}
+        </div>
+      )
     })
   }
 
@@ -84,9 +80,7 @@ function Talks(props) {
         <p dangerouslySetInnerHTML={{ __html: description }} />
 
         <h2>Featured Talks</h2>
-        <Box css={{ margin: '10px 0 0 -20px' }}>
-          {renderFeatured()}
-        </Box>
+        <Box css={{ margin: '10px 0 0 -20px' }}>{renderFeatured()}</Box>
 
         <h2>All Talks</h2>
         {renderAll()}
@@ -98,21 +92,44 @@ function Talks(props) {
 function TalkItem(props) {
   const { talk } = props
 
-  return <div>
-    <h3>
-      <a href={talk.url} target="_blank">{talk.title}</a>
-    </h3>
-    <ul>
-      <li><em>When:</em> {format(parseISO(talk.date), 'LLLL, d')}</li>
-      <li><em>Where:</em> {talk.where}</li>
-      {talk.attendees && <li><em>Attendees:</em> {talk.attendees}</li>}
-      {talk.presentations && talk.presentations.map((presentation, pIndex) => {
-        return <li key={pIndex}>
-          <em>Presentation:</em> <a href={presentation.url} target="_blank">{presentation.title}</a> {presentation.video && <a href={presentation.video} target="_blank">(Video)</a>}
+  return (
+    <div>
+      <h3>
+        <a href={talk.url} target="_blank">
+          {talk.title}
+        </a>
+      </h3>
+      <ul>
+        <li>
+          <em>When:</em> {format(parseISO(talk.date), 'LLLL, d')}
         </li>
-      })}
-    </ul>
-  </div>
+        <li>
+          <em>Where:</em> {talk.where}
+        </li>
+        {talk.attendees && (
+          <li>
+            <em>Attendees:</em> {talk.attendees}
+          </li>
+        )}
+        {talk.presentations &&
+          talk.presentations.map((presentation, pIndex) => {
+            return (
+              <li key={pIndex}>
+                <em>Presentation:</em>{' '}
+                <a href={presentation.url} target="_blank">
+                  {presentation.title}
+                </a>{' '}
+                {presentation.video && (
+                  <a href={presentation.video} target="_blank">
+                    (Video)
+                  </a>
+                )}
+              </li>
+            )
+          })}
+      </ul>
+    </div>
+  )
 }
 
 Talks.Layout = Base

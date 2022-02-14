@@ -36,8 +36,10 @@ export default function Index(props) {
           <PostContainer>
             <div>
               <h1>{title}</h1>
-              <p><strong>VP of Developer Experience at WorkOS</strong>.<br/>
-              {description}.</p>
+              <p>
+                <strong>VP of Developer Experience at WorkOS</strong>.<br />
+                {description}.
+              </p>
               <ShortcutHome />
             </div>
           </PostContainer>
@@ -49,8 +51,8 @@ export default function Index(props) {
 }
 
 const Home = styled(PostMain, {
-  alignItems: "center",
-  display: "flex",
-  margin: "0 auto",
-  '@bp2': { width: 800 }
+  alignItems: 'center',
+  display: 'flex',
+  margin: '0 auto',
+  '@bp2': { width: 800 },
 })

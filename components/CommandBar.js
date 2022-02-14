@@ -23,7 +23,7 @@ export default function CommandBar(props) {
       keywords: 'copy-url',
       section: 'General',
       perform: () => navigator.clipboard.writeText(window.location.href),
-      icon: <Icon className='ri-file-copy-line' />,
+      icon: <Icon className="ri-file-copy-line" />,
     },
     {
       id: 'email',
@@ -32,7 +32,7 @@ export default function CommandBar(props) {
       keywords: 'send-email',
       section: 'General',
       perform: () => window.open('mailto:zno.rocha@gmail.com', '_blank'),
-      icon: <Icon className='ri-mail-line' />,
+      icon: <Icon className="ri-mail-line" />,
     },
     {
       id: 'source',
@@ -40,8 +40,9 @@ export default function CommandBar(props) {
       shortcut: ['s'],
       keywords: 'view-source',
       section: 'General',
-      perform: () => (window.open('https://github.com/zenorocha/zenorocha.com', '_blank')),
-      icon: <Icon className='ri-braces-line' />,
+      perform: () =>
+        window.open('https://github.com/zenorocha/zenorocha.com', '_blank'),
+      icon: <Icon className="ri-braces-line" />,
     },
     {
       id: 'home',
@@ -50,7 +51,7 @@ export default function CommandBar(props) {
       keywords: 'go-home',
       section: 'Go To',
       perform: () => router.push('/'),
-      icon: <Icon className='ri-home-5-line' />,
+      icon: <Icon className="ri-home-5-line" />,
     },
     {
       id: 'about',
@@ -59,7 +60,7 @@ export default function CommandBar(props) {
       keywords: 'go-about',
       section: 'Go To',
       perform: () => router.push('/about'),
-      icon: <Icon className='ri-user-line' />,
+      icon: <Icon className="ri-user-line" />,
     },
     {
       id: 'articles',
@@ -68,7 +69,7 @@ export default function CommandBar(props) {
       keywords: 'go-articles',
       section: 'Go To',
       perform: () => router.push('/articles'),
-      icon: <Icon className='ri-ball-pen-line' />,
+      icon: <Icon className="ri-ball-pen-line" />,
     },
     {
       id: 'projects',
@@ -76,8 +77,8 @@ export default function CommandBar(props) {
       shortcut: ['g', 'p'],
       keywords: 'go-projects',
       section: 'Go To',
-      perform: () => (router.push('/projects')),
-      icon: <Icon className='ri-lightbulb-line' />,
+      perform: () => router.push('/projects'),
+      icon: <Icon className="ri-lightbulb-line" />,
     },
     {
       id: 'talks',
@@ -85,8 +86,8 @@ export default function CommandBar(props) {
       shortcut: ['g', 't'],
       keywords: 'go-talks',
       section: 'Go To',
-      perform: () => (router.push('/talks')),
-      icon: <Icon className='ri-slideshow-2-line' />,
+      perform: () => router.push('/talks'),
+      icon: <Icon className="ri-slideshow-2-line" />,
     },
     {
       id: 'podcasts',
@@ -94,8 +95,8 @@ export default function CommandBar(props) {
       shortcut: ['g', 'c'],
       keywords: 'go-podcasts',
       section: 'Go To',
-      perform: () => (router.push('/podcasts')),
-      icon: <Icon className='ri-mic-line' />,
+      perform: () => router.push('/podcasts'),
+      icon: <Icon className="ri-mic-line" />,
     },
     {
       id: 'investing',
@@ -103,8 +104,8 @@ export default function CommandBar(props) {
       shortcut: ['g', 'i'],
       keywords: 'go-investing',
       section: 'Go To',
-      perform: () => (router.push('/investing')),
-      icon: <Icon className='ri-money-dollar-box-line' />,
+      perform: () => router.push('/investing'),
+      icon: <Icon className="ri-money-dollar-box-line" />,
     },
     {
       id: 'uses',
@@ -112,8 +113,8 @@ export default function CommandBar(props) {
       shortcut: ['g', 'u'],
       keywords: 'go-uses',
       section: 'Go To',
-      perform: () => (router.push('/uses')),
-      icon: <Icon className='ri-computer-line' />,
+      perform: () => router.push('/uses'),
+      icon: <Icon className="ri-computer-line" />,
     },
     {
       id: 'reminder',
@@ -121,8 +122,8 @@ export default function CommandBar(props) {
       shortcut: ['g', 'r'],
       keywords: 'go-reminder',
       section: 'Go To',
-      perform: () => (router.push('/reminder')),
-      icon: <Icon className='ri-time-line' />,
+      perform: () => router.push('/reminder'),
+      icon: <Icon className="ri-time-line" />,
     },
     {
       id: 'github',
@@ -130,8 +131,8 @@ export default function CommandBar(props) {
       shortcut: ['f', 'g'],
       keywords: 'go-github',
       section: 'Follow',
-      perform: () => (window.open('https://github.com/zenorocha', '_blank')),
-      icon: <Icon className='ri-github-line' />,
+      perform: () => window.open('https://github.com/zenorocha', '_blank'),
+      icon: <Icon className="ri-github-line" />,
     },
     {
       id: 'twitter',
@@ -139,8 +140,8 @@ export default function CommandBar(props) {
       shortcut: ['f', 't'],
       keywords: 'go-twitter',
       section: 'Follow',
-      perform: () => (window.open('https://twitter.com/zenorocha', '_blank')),
-      icon: <Icon className='ri-twitter-line' />,
+      perform: () => window.open('https://twitter.com/zenorocha', '_blank'),
+      icon: <Icon className="ri-twitter-line" />,
     },
     {
       id: 'linkedin',
@@ -148,8 +149,8 @@ export default function CommandBar(props) {
       shortcut: ['f', 'l'],
       keywords: 'go-linkedin',
       section: 'Follow',
-      perform: () => (window.open('https://linkedin.com/in/zenorocha', '_blank')),
-      icon: <Icon className='ri-linkedin-line' />,
+      perform: () => window.open('https://linkedin.com/in/zenorocha', '_blank'),
+      icon: <Icon className="ri-linkedin-line" />,
     },
     {
       id: 'instagram',
@@ -157,23 +158,25 @@ export default function CommandBar(props) {
       shortcut: ['f', 'i'],
       keywords: 'go-instagram',
       section: 'Follow',
-      perform: () => (window.open('https://instagram.com/zenorocha', '_blank')),
-      icon: <Icon className='ri-instagram-line' />,
+      perform: () => window.open('https://instagram.com/zenorocha', '_blank'),
+      icon: <Icon className="ri-instagram-line" />,
     },
   ]
 
-  return <KBarProvider actions={actions}>
-    <KBarPortal>
-      <Positioner>
-        <Animator>
-          <Search placeholder='Type a command or search…' />
-          <RenderResults />
-        </Animator>
-      </Positioner>
-    </KBarPortal>
+  return (
+    <KBarProvider actions={actions}>
+      <KBarPortal>
+        <Positioner>
+          <Animator>
+            <Search placeholder="Type a command or search…" />
+            <RenderResults />
+          </Animator>
+        </Positioner>
+      </KBarPortal>
 
-    {props.children}
-  </KBarProvider>
+      {props.children}
+    </KBarProvider>
+  )
 }
 
 function RenderResults() {
@@ -204,16 +207,16 @@ const ResultItem = React.forwardRef(({ action, active }, ref) => {
       </Action>
       {action.shortcut?.length ? (
         <Shortcut aria-hidden>
-          {action.shortcut.map((shortcut) => (
-            <Kbd key={shortcut}>
-              {shortcut}
-            </Kbd>
+          {action.shortcut.map(shortcut => (
+            <Kbd key={shortcut}>{shortcut}</Kbd>
           ))}
         </Shortcut>
       ) : null}
     </Box>
   )
 })
+
+ResultItem.displayName = 'ResultItem'
 
 const Positioner = styled(KBarPositioner, {
   position: 'fixed',
@@ -263,18 +266,18 @@ const Kbd = styled('kbd', {
 const Shortcut = styled('div', {
   display: 'grid',
   gridAutoFlow: 'column',
-  gap: '4px'
+  gap: '4px',
 })
 
 const Action = styled('div', {
   display: 'flex',
   gap: '8px',
-  alignItems: 'center'
+  alignItems: 'center',
 })
 
 const ActionRow = styled('div', {
   display: 'flex',
-  flexDirection: 'column'
+  flexDirection: 'column',
 })
 
 const Animator = styled(KBarAnimator, {
@@ -285,13 +288,13 @@ const Animator = styled(KBarAnimator, {
   borderRadius: '8px',
   overflow: 'hidden',
   '@supports ((-webkit-backdrop-filter: none) or (backdrop-filter: none))': {
-    backgroundColor: "$command",
-    WebkitBackdropFilter: "saturate(300%) blur(25px)",
-    backdropFilter: "saturate(300%) blur(25px)"
-  }
+    backgroundColor: '$command',
+    WebkitBackdropFilter: 'saturate(300%) blur(25px)',
+    backdropFilter: 'saturate(300%) blur(25px)',
+  },
 })
 
-const getResultStyle = (active) => {
+const getResultStyle = active => {
   return {
     padding: '12px 16px',
     background: active ? 'rgba(255, 255, 255, 0.1)' : '$command',

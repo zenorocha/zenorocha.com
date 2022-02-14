@@ -6,20 +6,20 @@
 
 ## Technology stack
 
-* **Styling:** [Stitches](https://stitches.dev/)
-* **Content:** [Markdown](https://daringfireball.net/projects/markdown/)
-* **Back-end:** [Next.js](https://nextjs.org/)
-* **Front-end:** [React](https://reactjs.org/)
-* **Animation:** [Framer](https://www.framer.com/docs/animation/)
-* **Deployment:** [Vercel](https://vercel.com/)
+- **Styling:** [Stitches](https://stitches.dev/)
+- **Content:** [Markdown](https://daringfireball.net/projects/markdown/)
+- **Back-end:** [Next.js](https://nextjs.org/)
+- **Front-end:** [React](https://reactjs.org/)
+- **Animation:** [Framer](https://www.framer.com/docs/animation/)
+- **Deployment:** [Vercel](https://vercel.com/)
 
 ## Running locally
 
 1. Clone this repo:
 
-  ```sh
+```sh
 $ git clone https://github.com/zenorocha/zenorocha.com.git
-  ```
+```
 
 2. Then go to the project's folder:
 

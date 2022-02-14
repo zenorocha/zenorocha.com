@@ -12,24 +12,28 @@ function Post(props) {
   const title = `${props.title} // Zeno Rocha`
   const description = props.description || ''
   const url = `https://zenorocha.com/${props.slug}`
-  const image = props.image ? `https://zenorocha.com${props.image}` : 'https://zenorocha.com/static/images/home-opt.jpg'
+  const image = props.image
+    ? `https://zenorocha.com${props.image}`
+    : 'https://zenorocha.com/static/images/home-opt.jpg'
 
-  return <>
-    <Head>
-      <title>{title}</title>
-      <meta content={title} property="og:title" />
-      <meta content={description} name="description" />
-      <meta content={description} property="og:description" />
-      <meta content={url} property="og:url" />
-      <meta content={image} property="og:image" />
+  return (
+    <>
+      <Head>
+        <title>{title}</title>
+        <meta content={title} property="og:title" />
+        <meta content={description} name="description" />
+        <meta content={description} property="og:description" />
+        <meta content={url} property="og:url" />
+        <meta content={image} property="og:image" />
 
-      {props.canonical_url &&
-        <link rel="canonical" href={props.canonical_url} />
-      }
-    </Head>
+        {props.canonical_url && (
+          <link rel="canonical" href={props.canonical_url} />
+        )}
+      </Head>
 
-    <div dangerouslySetInnerHTML={{ __html: props.content }} />
-  </>
+      <div dangerouslySetInnerHTML={{ __html: props.content }} />
+    </>
+  )
 }
 
 export async function getStaticProps({ params }) {
@@ -47,26 +51,25 @@ export async function getStaticProps({ params }) {
 
     const content = await convertMarkdownToHtml(post.content || '')
 
-    const isProd = process.env.NODE_ENV === 'production';
-    const base = isProd ? 'https://zenorocha.com' : 'http://localhost:3000';
+    const isProd = process.env.NODE_ENV === 'production'
+    const base = isProd ? 'https://zenorocha.com' : 'http://localhost:3000'
 
     if (isProd) {
-      const viewsReq = await fetch(`${base}/api/views/${params.slug}`);
-      const viewsRes = await viewsReq.json();
+      const viewsReq = await fetch(`${base}/api/views/${params.slug}`)
+      const viewsRes = await viewsReq.json()
 
-      post.views = new Intl.NumberFormat().format(viewsRes.views || 0);
+      post.views = new Intl.NumberFormat().format(viewsRes.views || 0)
     }
 
     return {
       props: {
         ...post,
-        content
+        content,
       },
-      revalidate: 60
+      revalidate: 60,
     }
-  }
-  catch(e) {
-    return { props: { errorCode: 404 }}
+  } catch (e) {
+    return { props: { errorCode: 404 } }
   }
 }
 
@@ -74,7 +77,7 @@ export async function getStaticPaths() {
   const posts = getAllPosts(['slug'])
 
   return {
-    paths: posts.map((post) => {
+    paths: posts.map(post => {
       return {
         params: {
           slug: post.slug,

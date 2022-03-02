@@ -4,10 +4,9 @@ import Head from 'next/head'
 import Image from 'next/image'
 import { parseISO, format, intervalToDuration } from 'date-fns'
 import Base from '../layouts/Base'
-import { Box } from '../components/Box'
 import { ButtonPrimary } from '../components/ButtonPrimary'
 import { ButtonPrimaryIcon } from '../components/ButtonPrimaryIcon'
-import { Icon } from '../components/Icon'
+import Pronunciation from '../components/Pronunciation'
 import stripHtml from '../lib/strip-html'
 import items from '../data/about'
 
@@ -27,10 +26,6 @@ export async function getStaticProps() {
 
 function About(props) {
   const { title, description, image } = props
-  const pronunciationAudio =
-    typeof Audio != 'undefined'
-      ? new Audio('/static/audio/pronunciation.mp3')
-      : null
 
   const renderIntro = () => {
     return (
@@ -54,16 +49,7 @@ function About(props) {
             }}
           >
             <strong>Hey, I'm Zeno Rocha</strong>
-            <ButtonPlay
-              role="button"
-              aria-label="How to pronounce my name"
-              onClick={playPronunciation}
-            >
-              <Icon
-                className="ri-play-circle-fill"
-                css={{ fontSize: '24px', lineHeight: '32px' }}
-              />
-            </ButtonPlay>
+            <Pronunciation />
             I started as a software engineer back in 2009, working with Flash.
           </Paragraph>
           <Paragraph>
@@ -164,13 +150,6 @@ function About(props) {
     navigator.clipboard.writeText(description)
   }
 
-  const playPronunciation = () => {
-    if (pronunciationAudio) {
-      pronunciationAudio.currentTime = 0
-      pronunciationAudio.play()
-    }
-  }
-
   return (
     <>
       <Head>
@@ -208,20 +187,6 @@ const Section = styled('div', {
   marginTop: '0px',
   width: 'auto',
   '@bp2': { width: '48%' },
-})
-
-const ButtonPlay = styled('button', {
-  background: 'transparent',
-  border: 'none',
-  color: '$primary',
-  cursor: 'pointer',
-  margin: '0 4px',
-  padding: '0',
-  position: 'relative',
-  top: '5px',
-  transform: 'none',
-  transition: 'transform 0.2s ease-in-out',
-  '&:hover': { transform: 'scale(1.1) translateZ(0)' },
 })
 
 About.Layout = Base

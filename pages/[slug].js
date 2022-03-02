@@ -17,7 +17,6 @@ function Post(props) {
     ? `https://zenorocha.com${props.image}`
     : 'https://zenorocha.com/static/images/home-opt.jpg'
 
-
   return (
     <>
       <Head>

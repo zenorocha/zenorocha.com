@@ -9,12 +9,7 @@ import { ListGroup } from '../components/ListGroup'
 import { AnimateSharedLayout } from 'framer-motion'
 
 export async function getStaticProps() {
-  const allPosts = getAllPosts([
-    'date',
-    'skip',
-    'slug',
-    'title',
-  ])
+  const allPosts = getAllPosts(['date', 'skip', 'slug', 'title'])
 
   const featuredParams = [
     'date',

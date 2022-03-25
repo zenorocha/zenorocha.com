@@ -1,5 +1,34 @@
 const items = [
   {
+    year: '2022',
+    summary: '',
+    talks: [
+      {
+        title: 'DevX Conf',
+        url: 'https://devxconf.org',
+        date: '2022-05-02',
+        where: 'Virtual',
+        presentations: [
+          {
+            title: 'The Next Generation of Developer-First Products',
+          },
+        ],
+      },
+      {
+        title: 'VS Code Livestream',
+        url: 'https://code.visualstudio.com/livestream',
+        date: '2022-03-17',
+        where: 'Virtual',
+        presentations: [
+          {
+            title: 'Building your own VS Code theme',
+            video: 'https://youtu.be/FeApSxfazVg',
+          },
+        ],
+      },
+    ]
+  },
+  {
     year: '2021',
     summary: '',
     talks: [

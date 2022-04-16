@@ -1,5 +1,11 @@
 const investments = [
   {
+    title: 'Mergent',
+    description: 'Providing schedulers in a reliable way.',
+    icon: 'time',
+    url: 'https://mergent.co',
+  },
+  {
     title: 'Charm',
     description: 'Making the command line glamorous.',
     icon: 'terminal-box',

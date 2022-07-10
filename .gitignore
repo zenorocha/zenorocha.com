@@ -3,3 +3,7 @@
 .vercel
 auth.json
 node_modules
+
+
+# Contentlayer
+.contentlayer

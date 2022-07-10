@@ -2,27 +2,21 @@ import { styled } from '../stitches.config'
 import Head from 'next/head'
 import Base from '../layouts/Base'
 import stripHtml from '../lib/strip-html'
-import { getAllPosts, getPostBySlug } from '../lib/blog'
+import { allPosts } from 'contentlayer/generated'
+// import { getAllPosts, getPostBySlug } from '../lib/blog'
 import ListItem from '../components/ListItem'
 import FeaturedArticle from '../components/FeaturedArticle'
 import { ListGroup } from '../components/ListGroup'
 import { AnimateSharedLayout } from 'framer-motion'
 
 export async function getStaticProps() {
-  const allPosts = getAllPosts(['date', 'skip', 'slug', 'title'])
-
-  const featuredParams = [
-    'date',
-    'slug',
-    'title',
-    'image',
-    'content',
-    'description',
-  ]
+  const posts = allPosts.sort((post1, post2) =>
+    post1.date > post2.date ? '-1' : '1'
+  )
 
   const featuredPosts = [
-    getPostBySlug('how-i-built-my-personal-website', featuredParams),
-    getPostBySlug('what-ive-learned-after-giving-100-talks', featuredParams),
+    allPosts.find(post => post.url === '/how-i-built-my-personal-website'),
+    allPosts.find(post => post.url === '/what-ive-learned-after-giving-100-talks'),
   ]
 
   return {
@@ -33,7 +27,7 @@ export async function getStaticProps() {
       primaryColor: 'yellow',
       secondaryColor: 'pink',
       featuredPosts,
-      allPosts,
+      posts,
     },
   }
 }
@@ -45,25 +39,25 @@ function Articles(props) {
         <FeaturedArticle
           key={index}
           index={index}
-          href={`/${post.slug}/`}
+          href={post.url}
           title={post.title}
           description={post.description}
           image={post.image}
           stats={post.stats}
-          content={post.content}
+          content={post.body.html}
         />
       )
     })
   }
 
   const renderAll = () => {
-    return props.allPosts.map((post, index) => {
+    return props.posts.map((post, index) => {
       if (!post.skip) {
         return (
           <ListItem
             key={index}
             index={index}
-            href={`/${post.slug}/`}
+            href={post.url}
             title={post.title}
             date={post.date}
           />
@@ -73,7 +67,7 @@ function Articles(props) {
   }
 
   const { title, image } = props
-  const description = `Here you can find all the <strong>${props.allPosts.length} articles</strong> I wrote. You can read about web development, software engineering, and tech career in both English and Portuguese.`
+  const description = `Here you can find all the <strong>${props.posts.length} articles</strong> I wrote. You can read about web development, software engineering, and tech career in both English and Portuguese.`
 
   return (
     <>

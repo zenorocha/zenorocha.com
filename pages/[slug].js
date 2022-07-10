@@ -1,17 +1,18 @@
 import Head from 'next/head'
 import { ArticleJsonLd } from 'next-seo'
+import { allPosts } from 'contentlayer/generated'
 import Blogpost from '../layouts/Blogpost'
 import ErrorMessage from '../components/ErrorMessage'
-import { getPostBySlug, getAllPosts, convertMarkdownToHtml } from '../lib/blog'
 
 function Post(props) {
-  if (props.errorCode) {
-    return <ErrorMessage code={props.errorCode} />
-  }
+  // if (props.errorCode) {
+  //   return <ErrorMessage code={props.errorCode} />
+  // }
 
   const title = `${props.title} // Zeno Rocha`
   const description = props.description || ''
   const url = `https://zenorocha.com/${props.slug}`
+  console.log(props.date)
   const date = new Date(props.date).toISOString()
   const image = props.image
     ? `https://zenorocha.com${props.image}`
@@ -43,25 +44,16 @@ function Post(props) {
         description={props.description}
       />
 
-      <div dangerouslySetInnerHTML={{ __html: props.content }} />
+      <div dangerouslySetInnerHTML={{ __html: props.body.html }} />
     </>
   )
 }
 
 export async function getStaticProps({ params }) {
   try {
-    const post = getPostBySlug(params.slug, [
-      'canonical_url',
-      'content',
-      'date',
-      'description',
-      'image',
-      'lang',
-      'slug',
-      'title',
-    ])
-
-    const content = await convertMarkdownToHtml(post.content || '')
+    const post = allPosts.find(
+      post => post._raw.flattenedPath === params.slug
+    )
 
     const isProd = process.env.NODE_ENV === 'production'
     const base = isProd ? 'https://zenorocha.com' : 'http://localhost:3000'
@@ -74,10 +66,7 @@ export async function getStaticProps({ params }) {
     }
 
     return {
-      props: {
-        ...post,
-        content,
-      },
+      props: { ...post },
       revalidate: 60,
     }
   } catch (e) {
@@ -86,13 +75,11 @@ export async function getStaticProps({ params }) {
 }
 
 export async function getStaticPaths() {
-  const posts = getAllPosts(['slug'])
-
   return {
-    paths: posts.map(post => {
+    paths: allPosts.map(post => {
       return {
         params: {
-          slug: post.slug,
+          slug: post.slug || post._raw.flattenedPath,
         },
       }
     }),

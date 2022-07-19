@@ -10,6 +10,7 @@
     "deploy": "vercel --prod"
   },
   "dependencies": {
+    "@radix-ui/react-toast": "^0.1.1",
     "@stitches/react": "^1.2.6",
     "date-fns": "^2.21.3",
     "framer-motion": "^6.2.3",

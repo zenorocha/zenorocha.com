@@ -69,19 +69,19 @@ function Contact(props) {
         <Form onSubmit={onSendEmail}>
           <FormGroup>
             <Label htmlFor="name">Name</Label>
-            <Input id="name" type="text" placeholder="James Bond" />
+            <Input id="name" type="text" placeholder="James Bond" required />
           </FormGroup>
           <FormGroup>
             <Label htmlFor="email">Email</Label>
-            <Input id="email" type="email" placeholder="james@bond.com" />
+            <Input id="email" type="email" placeholder="james@bond.com" required />
           </FormGroup>
           <FormGroup>
             <Label htmlFor="subject">Subject</Label>
-            <Input id="subject" type="text" placeholder="Enter the subject" />
+            <Input id="subject" type="text" placeholder="Enter the subject" required />
           </FormGroup>
           <FormGroup>
             <Label htmlFor="message">Message</Label>
-            <Textarea id="message" placeholder="How can I help you?" rows="4" />
+            <Textarea id="message" placeholder="How can I help you?" rows="4" required />
           </FormGroup>
           <FormGroup>
             <Button type="submit">Send</Button>

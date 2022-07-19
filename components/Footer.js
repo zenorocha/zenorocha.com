@@ -1,11 +1,12 @@
+import Link from 'next/link'
 import { styled } from '../stitches.config'
 
 export default function Footer() {
   const links = [
     {
-      title: 'Source',
-      url: 'https://github.com/zenorocha/zenorocha.com',
-      icon: 'ri-braces-line',
+      title: 'Email',
+      url: '/contact',
+      icon: 'ri-mail-line',
     },
     {
       title: 'Twitter',
@@ -29,16 +30,25 @@ export default function Footer() {
     },
   ]
 
+  const renderAnchor = (link, index) => {
+    if (link.url.startsWith('http')) {
+      return <Anchor key={index} href={link.url} target="_blank">
+        <Title>{link.title}</Title>
+        <Icon className={link.icon} />
+      </Anchor>
+    }
+
+    return <Link key={index} href={link.url} passHref>
+      <Anchor>
+        <Title>{link.title}</Title>
+        <Icon className={link.icon} />
+      </Anchor>
+    </Link>
+  }
+
   return (
     <Container>
-      {links.map((link, index) => {
-        return (
-          <Anchor key={index} href={link.url} target="_blank">
-            <Title>{link.title}</Title>
-            <Icon className={link.icon} />
-          </Anchor>
-        )
-      })}
+      {links.map(renderAnchor)}
     </Container>
   )
 }
@@ -49,7 +59,6 @@ const Container = styled('footer', {
   alignItems: 'center',
   justifyContent: 'center',
   padding: '20px 0',
-  zIndex: '1',
 })
 
 const Icon = styled('i', {

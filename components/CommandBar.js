@@ -38,7 +38,7 @@ export default function CommandBar(props) {
       shortcut: ['e'],
       keywords: 'send-email',
       section: 'General',
-      perform: () => window.open('mailto:zno.rocha@gmail.com', '_blank'),
+      perform: () => router.push('/contact'),
       icon: <Icon className="ri-mail-line" />,
     },
     {

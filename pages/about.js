@@ -7,6 +7,7 @@ import Base from '../layouts/Base'
 import { ButtonPrimary } from '../components/ButtonPrimary'
 import { ButtonPrimaryIcon } from '../components/ButtonPrimaryIcon'
 import Pronunciation from '../components/Pronunciation'
+import Toast from '../components/Toast'
 import stripHtml from '../lib/strip-html'
 import items from '../data/about'
 
@@ -26,6 +27,9 @@ export async function getStaticProps() {
 
 function About(props) {
   const { title, description, image } = props
+  const [toastTitle, setToastTitle] = React.useState('')
+  const [toastDescription, setToastDescription] = React.useState('')
+  const [showToast, setShowToast] = React.useState(false)
 
   const renderIntro = () => {
     return (
@@ -90,6 +94,7 @@ function About(props) {
             download
             role="button"
             href="/static/images/zeno.png"
+            onClick={downloadHeadshot}
           >
             <ButtonPrimaryIcon className="ri-download-2-line" /> Download
             Headshot
@@ -145,9 +150,19 @@ function About(props) {
     return durationStr
   }
 
+  const downloadHeadshot = () => {
+    setToastTitle('Downloading...')
+    setToastDescription('You can now add this photo to your fancy site.')
+    setShowToast(true)
+  }
+
   const copyBio = e => {
     e.preventDefault()
     navigator.clipboard.writeText(description)
+
+    setToastTitle('Copied :D')
+    setToastDescription('You can now paste it anywhere.')
+    setShowToast(true)
   }
 
   return (
@@ -168,6 +183,14 @@ function About(props) {
 
       <h2>Career</h2>
       {renderAll()}
+
+      <Toast
+        title={toastTitle}
+        description={toastDescription}
+        isSuccess={true}
+        showToast={showToast}
+        setShowToast={setShowToast}
+      />
     </>
   )
 }

@@ -1,5 +1,6 @@
 import { styled } from '../stitches.config'
 import { Box } from './Box'
+import Toast from './Toast'
 import * as React from 'react'
 import { useRouter } from 'next/router'
 import {
@@ -14,6 +15,12 @@ import {
 
 export default function CommandBar(props) {
   const router = useRouter()
+  const [showToast, setShowToast] = React.useState(false)
+
+  const copyUrl = () => {
+    navigator.clipboard.writeText(window.location.href)
+    setShowToast(true)
+  }
 
   const actions = [
     {
@@ -22,7 +29,7 @@ export default function CommandBar(props) {
       shortcut: ['u'],
       keywords: 'copy-url',
       section: 'General',
-      perform: () => navigator.clipboard.writeText(window.location.href),
+      perform: copyUrl,
       icon: <Icon className="ri-file-copy-line" />,
     },
     {
@@ -164,18 +171,28 @@ export default function CommandBar(props) {
   ]
 
   return (
-    <KBarProvider actions={actions}>
-      <KBarPortal>
-        <Positioner>
-          <Animator>
-            <Search placeholder="Type a command or search…" />
-            <RenderResults />
-          </Animator>
-        </Positioner>
-      </KBarPortal>
+    <>
+      <KBarProvider actions={actions}>
+        <KBarPortal>
+          <Positioner>
+            <Animator>
+              <Search placeholder="Type a command or search…" />
+              <RenderResults />
+            </Animator>
+          </Positioner>
+        </KBarPortal>
 
-      {props.children}
-    </KBarProvider>
+        {props.children}
+      </KBarProvider>
+
+      <Toast
+        title="Copied :D"
+        description="You can now share it with anyone."
+        isSuccess={true}
+        showToast={showToast}
+        setShowToast={setShowToast}
+      />
+    </>
   )
 }
 

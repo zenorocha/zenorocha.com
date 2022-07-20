@@ -18,6 +18,12 @@ const investments = [
     url: 'https://fig.io',
   },
   {
+    title: 'Koala',
+    description: 'Finding qualified leads with data science.',
+    icon: 'bear-smile',
+    url: 'https://getkoala.com',
+  },
+  {
     title: 'Customer.io',
     description: 'Automating email messages and workflows.',
     icon: 'mail-check',

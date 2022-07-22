@@ -130,7 +130,7 @@ const globalStyles = globalCss({
     paddingLeft: '20px',
   },
   a: {
-    borderBottom: '1px solid $primary',
+    borderBottom: '.5px solid $secondary',
     color: '$primary',
     textDecoration: 'none',
     transition: 'opacity $duration ease-in-out',

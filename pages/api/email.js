@@ -9,7 +9,7 @@ export default async function sendEmail(req, res) {
         'Content-Type': 'application/json'
       },
       body: JSON.stringify({
-        from: 'hello@mail.zeebbumail.com',
+        from: 'website@zenorocha.com',
         to: 'zno.rocha@gmail.com',
         subject: `${subject} - via zenorocha.com`,
         html: `<b>Name:</b> ${name}<br />

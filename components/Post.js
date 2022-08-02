@@ -60,4 +60,33 @@ export const PostContent = styled('div', {
       marginLeft: 0,
     },
   },
+  '& .side-by-side': {
+    display: 'flex',
+    width: '90vw',
+    margin: '40px 0',
+    flexDirection: 'row',
+    '@bp2': {
+      marginLeft: 'calc(-1 * (90vw - 760px) / 2)',
+    },
+    '@bp4': {
+      marginLeft: 0,
+      flexDirection: 'column',
+    },
+  },
+  '& .side-by-side-img': {
+    minWidth: '50%',
+    '@bp2': {
+      minWidth: '100%',
+    },
+    '@bp4': {
+      // marginLeft: 0,
+    },
+  },
+  '& .side-by-side-caption': {
+    color: '$secondary',
+    textAlign: 'center',
+    fontStyle: 'italic',
+    fontSize: '14px',
+    marginTop: -30,
+  },
 })

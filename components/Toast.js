@@ -52,7 +52,8 @@ const Root = styled(ToastPrimitive.Root, {
   },
   '&[data-state="closed"]': {
     animation: `100ms ease-in forwards ${slideDownAndFade}`
-  }
+  },
+  zIndex: 2
 })
 
 const IconContainer = styled('div', {

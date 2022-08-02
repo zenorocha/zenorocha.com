@@ -40,7 +40,7 @@ As developers, we are often asked to build software products that have good qual
 
 Developers may disagree on many things, but there's one thing that almost everybody will agree on — **Jira sucks**. The reason for that is not because [Jira](https://www.atlassian.com/software/jira) is slow, because the design is outdated, or "feature x" is missing. The problem is the entire product mentality. Jira introduces more process. It encourages micro-management. **It disrupts flow.** And any product that disrupts flow is inherently bad for users.
 
-This doesn't mean that Jira is a failure. In fact, Jira is a *massive* success from a sales perspective. It's software that serves the needs of middle management, or, at least, the needs middle management thinks it has. What are those needs? Metrics. Being able to make charts, graphs, and reports for the next-higher level of management, so they can say that their team is productive and isn't falling behind. Jira is focused on *atarimae hinshitsu* and nothing else.
+This doesn't mean that Jira is a failure. In fact, Jira is a *massive* success from a sales perspective. It's a software that serves the needs of middle management, or, at least, the needs middle management thinks it has. What are those needs? Metrics. Being able to make charts, graphs, and reports for the next-higher level of management, so they can say that their team is productive and isn't falling behind. Jira is focused on *atarimae hinshitsu* and nothing else.
 
 <div class="side-by-side">
   <figure>
@@ -57,7 +57,7 @@ When you look at [Linear](https://linear.app/), you see the complete opposite. I
 
 They are able to create *miryokuteki hinshitsu* by focusing on the user, not the buyer.
 
-## marketing that works vs. marketing that inspire
+## marketing that works vs. marketing that inspires
 
 It's common for companies to change their go-to-market strategy from bottom-up to top-down model after achieving some level of success. When [Braintree](https://www.braintreepayments.com/) started, it was about serving individual developers ([screenshot from 2014](https://web.archive.org/web/20140101045849/https://www.braintreepayments.com/)). Nowadays, all you see are *"Contact Sales"* buttons everywhere.
 
@@ -74,7 +74,7 @@ This approach can definitely work if you're targeting executive leaders at speci
   </figure>
 </div>
 
-[Stripe](https://stripe.com) is an overused example, but there are still a lot to learn more them. The company was founded in 2010 and raised a total of [$2.3B in funding](https://www.crunchbase.com/organization/stripe/company_financials). They serve millions of businesses, including dozens of Fortune 500 companies. And yet, even after all these years, they still haven't changed their strategy.
+[Stripe](https://stripe.com) is an overused example, but there is still a lot to learn more about them. The company was founded in 2010 and raised a total of [$2.3B in funding](https://www.crunchbase.com/organization/stripe/company_financials). They serve millions of businesses, including dozens of Fortune 500 companies. And yet, even after all these years, they still haven't changed their strategy.
 
 They continue to push the envelope when it comes to UI and UX. They continue to build elegant APIs and refined documentation. They continue to include code snippets on their landing page because they know that's what developers want to see.
 
@@ -95,7 +95,7 @@ Every big corporation like [PayPal](https://paypal.com) has the exact same Jobs 
   </figure>
 </div>
 
-Knowing how frustrating that process can be, some startups find a creative to reach more candidates and cut through the noise. [Plaid](https://plaid.com), for example, continues to attract great engineering talent with its unique approach to recruiting. They have an API-first product, so they lean on that narrative and showcase their culture by allowing engineers to apply by API.
+Knowing how frustrating that process can be, some startups find a creative approach to reach more candidates and cut through the noise. [Plaid](https://plaid.com), for example, continues to attract great engineering talent with its unique approach to recruiting. They have an API-first product, so they lean on that narrative and showcase their culture by allowing engineers to apply by API.
 
 ## engineering that works vs. engineering that inspire
 

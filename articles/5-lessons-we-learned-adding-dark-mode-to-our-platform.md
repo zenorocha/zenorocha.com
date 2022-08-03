@@ -8,8 +8,6 @@ date: "2021-08-12"
 
 ![Dark mode at WorkOS](/static/img/posts/5-lessons-we-learned-adding-dark-mode-to-our-platform.png)
 
-_Originally published in the [WorkOS Blog](https://workos.com/blog/5-lessons-we-learned-adding-dark-mode-to-our-platform)_
-
 More than a trend, dark mode is emerging as a common user preference. While we’ve been busy working a lot of other important improvements ([there are seven updates to our changelog in July!](https://workos.com/changelog)), we decided to make dark mode available for WorkOS.
 
 Designing a dark mode version of your app comes with its own challenges. In this post, we will share some of the lessons we learned during the implementation of dark mode at WorkOS. If you want to see the end result, you can [try WorkOS in dark mode here](https://dashboard.workos.com/signup?utm_source=blog&utm_medium=blog+post&utm_campaign=launch-hdmof).
@@ -83,3 +81,5 @@ For the WorkOS users, whether you prefer your screen bright or if you want to fe
 Enjoy the dark side! 🖤
 
 *If you liked this post, you can [try WorkOS in dark mode here](https://dashboard.workos.com/signup?utm_source=blog&utm_medium=blog+post&utm_campaign=launch-hdmof). If you also want to spend your time working on creating great developer experiences, [we are hiring](https://jobs.lever.co/workos). If you ever want to talk about developer experience (or dark mode), please [tweet or DM me](https://twitter.com/zenorocha/)!*
+
+_Originally published in the [WorkOS Blog](https://workos.com/blog/5-lessons-we-learned-adding-dark-mode-to-our-platform)_

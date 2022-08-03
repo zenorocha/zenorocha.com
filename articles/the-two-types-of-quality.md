@@ -2,7 +2,7 @@
 title: The two types of quality
 description: "The Japanese define quality in two ways — atarimae hinshitsu and miryokuteki hinshitsu. Understanding the difference between them is the key to building products that users love."
 image: /static/img/posts/quality.jpg
-date: "2022-08-01"
+date: "2022-08-03"
 ---
 
 The Japanese define quality in two ways:
@@ -116,15 +116,17 @@ When you look at what products like [Alfred](https://alfredapp.com) are doing to
 
 [Raycast](https://raycast.com), on the other hand, is a team that not only wants to show value but also wants to create a pleasant feeling on their changelog. They describe every change in detail because they know that changelogs are made for humans, not machines. They have engaging titles and polished screenshots because they know the magic is in the details. They understand [what makes a good changelog](/what-makes-a-good-changelog) and leverage that to amuse readers and spark interest.
 
-As with anything in life, when you invest extra time in an area typically neglected by others, you generate an element of surprise and delight. That's what *miryokuteki hinshitsu* is all about.
+As with anything in life, when you invest extra time in an area typically neglected by others, you generate an element of surprise and enchant. That's what *miryokuteki hinshitsu* is all about.
 
 ## what are you optimizing for?
 
 Quality is not about trade-offs; quality is about philosophy. You can choose to achieve both *atarimae hinshitsu* and *miryokuteki hinshitsu* so that a product will meet users’ needs and be delightful to use.
 
-However, when thinking about quality, it's crucial to have self-awareness. You have to look at **what you are optimizing for** as an individual and see if that matches with **what your team is optimizing for**. If there's a mismatch, there's a high chance that you'll end up with a suboptimal product.
+However, when thinking about quality, it's crucial to have self-awareness. You have to look at **what you** are optimizing for as an individual and see if that matches with **what your team** is optimizing for. If there's a mismatch, there's a high chance that you'll end up with a suboptimal product.
 
 For more on this topic, I recommend watching [Jiro Dreams of Sushi](https://en.wikipedia.org/wiki/Jiro_Dreams_of_Sushi), a documentary directed by David Gelb, and [How to Build Products Users Love](https://youtu.be/12D8zEdOPYo), a talk by Kevin Hale.
+
+*Special thanks to [Briza Bueno](https://twitter.com/brizabueno), [Bu Kinoshita](https://twitter.com/bukinoshita), [Carol Moreschi](https://github.com/carolmoreschi), [Jonni Lundy](https://twitter.com/jonnilundy), [Michael Grinich](https://twitter.com/grinich), [Shawn Wang](https://twitter.com/swyx), [TK](https://twitter.com/wordsofteekay), [Vitor Fernandes](https://twitter.com/vitorviesi), [Ygor Costa](https://twitter.com/ygorhiroshi), and [Zeh Fernandes](https://twitter.com/zehf) for reviewing this article before it was published.*
 
 <figure>
   <img src="/static/img/posts/quality-end.jpg" class="post-image-full" alt="Man cooking sushi">

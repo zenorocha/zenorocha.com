@@ -2,7 +2,7 @@
 title: The two types of quality
 description: "The Japanese define quality in two ways — atarimae hinshitsu and miryokuteki hinshitsu. Understanding the difference between them is the key to building products that users love."
 image: /static/img/posts/quality.jpg
-date: "2022-08-03"
+date: "2022-08-04"
 ---
 
 The Japanese define quality in two ways:

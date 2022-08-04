@@ -2,10 +2,10 @@ export default async function sendEmail(req, res) {
   try {
     const { name, email, message } = req.body
 
-    await fetch('https://api.zeebbu.com/email', {
+    await fetch('https://api.klotty.com/email', {
       method: 'POST',
       headers: {
-        'Authorization': `Bearer ${process.env.ZEEBBU_API_KEY}`,
+        'Authorization': `Bearer ${process.env.KLOTTY_API_KEY}`,
         'Content-Type': 'application/json'
       },
       body: JSON.stringify({

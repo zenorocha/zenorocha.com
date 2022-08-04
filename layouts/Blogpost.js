@@ -64,6 +64,7 @@ const PostHeader = styled('div', {
   justifyContent: 'center',
   position: 'relative',
   flexDirection: 'column',
+  zIndex: -1,
 })
 
 export const PostTitle = styled('h1', {

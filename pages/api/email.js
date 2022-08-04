@@ -1,6 +1,6 @@
 export default async function sendEmail(req, res) {
   try {
-    const { name, email, subject, message } = req.body
+    const { name, email, message } = req.body
 
     await fetch('https://api.zeebbu.com/email', {
       method: 'POST',
@@ -11,10 +11,9 @@ export default async function sendEmail(req, res) {
       body: JSON.stringify({
         from: 'website@zenorocha.com',
         to: 'zno.rocha@gmail.com',
-        subject: `${subject} - via zenorocha.com`,
+        subject: `${name} - via zenorocha.com`,
         html: `<b>Name:</b> ${name}<br />
 <b>Email:</b> ${email}<br />
-<b>Subject:</b> ${subject}<br />
 <b>Message:</b> ${message}<br />`
       })
     })

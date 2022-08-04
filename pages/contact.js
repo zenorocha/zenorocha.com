@@ -37,7 +37,6 @@ function Contact(props) {
         body: JSON.stringify({
           name: e.target.name.value,
           email: e.target.email.value,
-          subject: e.target.subject.value,
           message: e.target.message.value,
         }),
       })
@@ -74,10 +73,6 @@ function Contact(props) {
           <FormGroup>
             <Label htmlFor="email">Email</Label>
             <Input id="email" type="email" placeholder="james@bond.com" required />
-          </FormGroup>
-          <FormGroup>
-            <Label htmlFor="subject">Subject</Label>
-            <Input id="subject" type="text" placeholder="Enter the subject" required />
           </FormGroup>
           <FormGroup>
             <Label htmlFor="message">Message</Label>

@@ -1793,6 +1793,11 @@ kleur@^4.0.3:
   resolved "https://registry.npmjs.org/kleur/-/kleur-4.1.4.tgz"
   integrity sha512-8QADVssbrFjivHWQU7KkMgptGTl6WAcSdlbBPY4uNF+mWr6DGcKrvY2w4FQJoXch7+fKMjj0dRrL75vk3k23OA==
 
+klotty@^0.1.0:
+  version "0.1.0"
+  resolved "https://registry.yarnpkg.com/klotty/-/klotty-0.1.0.tgz#df5b59a5573236615754351630f87d1dbdbc5810"
+  integrity sha512-DgR39MnxfEKJ/Ua6O2UCvJTRIMoUQKgguGXgyiztbTmadNX78HZCJyME6YQN3uU1R6gumr6bA7wJ/DhrWbV2wg==
+
 language-subtag-registry@~0.3.2:
   version "0.3.21"
   resolved "https://registry.npmjs.org/language-subtag-registry/-/language-subtag-registry-0.3.21.tgz"

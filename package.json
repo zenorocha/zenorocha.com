@@ -17,7 +17,7 @@
     "googleapis": "^95.0.0",
     "gray-matter": "^4.0.3",
     "kbar": "^0.1.0-beta.21",
-    "klotty": "^0.1.0",
+    "klotty": "^0.2.1",
     "next": "^12.1.0",
     "next-seo": "^5.1.0",
     "react": "^17.0.1",

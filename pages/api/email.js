@@ -1,6 +1,8 @@
-import Klotty from 'klotty'
-const klotty = new Klotty(process.env.KLOTTY_API_KEY)
+import { Klotty } from 'klotty'
+import { render } from 'react-email'
 import EmailTemplate from '../../components/EmailTemplate'
+
+const klotty = new Klotty(process.env.KLOTTY_API_KEY)
 
 export default async function sendEmail(req, res) {
   try {
@@ -10,7 +12,7 @@ export default async function sendEmail(req, res) {
       from: 'website@zenorocha.com',
       to: 'zno.rocha@gmail.com',
       subject: `${data.name} - via zenorocha.com`,
-      react: <EmailTemplate {...data} />,
+      html: render(<EmailTemplate {...data} />),
     })
 
     res.status(200).json({ message: 'Email sent' })

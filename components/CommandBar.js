@@ -1,17 +1,17 @@
+import {
+  KBarAnimator,
+  KBarPortal,
+  KBarPositioner,
+  KBarProvider,
+  KBarResults,
+  KBarSearch,
+  useDeepMatches,
+} from 'kbar'
+import { useRouter } from 'next/router'
+import * as React from 'react'
 import { styled } from '../stitches.config'
 import { Box } from './Box'
 import Toast from './Toast'
-import * as React from 'react'
-import { useRouter } from 'next/router'
-import {
-  KBarAnimator,
-  KBarProvider,
-  KBarPortal,
-  useDeepMatches,
-  KBarPositioner,
-  KBarSearch,
-  KBarResults,
-} from 'kbar'
 
 export default function CommandBar(props) {
   const router = useRouter()
@@ -308,6 +308,20 @@ const Animator = styled(KBarAnimator, {
     backgroundColor: '$command',
     WebkitBackdropFilter: 'saturate(300%) blur(25px)',
     backdropFilter: 'saturate(300%) blur(25px)',
+  },
+
+  '& > div > div': {
+    '&::-webkit-scrollbar': {
+      width: '0.375rem',
+    },
+    '&::-webkit-scrollbar-track': {
+      background: '#151417',
+    },
+    '&::-webkit-scrollbar-thumb': {
+      backgroundColor: '$primary',
+      borderRadius: '10px',
+      border: '10px solid $primary',
+    },
   },
 })
 

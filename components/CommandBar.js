@@ -269,12 +269,6 @@ const GroupName = styled('div', {
   background: '$command',
 })
 
-const Icon = styled('i', {
-  fontSize: '20px',
-  position: 'relative',
-  top: '-2px',
-})
-
 const Kbd = styled('kbd', {
   background: 'rgba(255, 255, 255, .1)',
   color: '$secondary',
@@ -310,6 +304,17 @@ const Animator = styled(KBarAnimator, {
     backgroundColor: '$command',
     WebkitBackdropFilter: 'saturate(300%) blur(25px)',
     backdropFilter: 'saturate(300%) blur(25px)',
+  },
+
+  /* Hide scrollbar for Chrome, Safari and Opera */
+  '& > div > div::-webkit-scrollbar': {
+    display: 'none',
+  },
+
+  /* Hide scrollbar for IE, Edge and Firefox */
+  '& > div > div': {
+    '-ms-overflow-style': 'none',
+    'scrollbar-width': 'none',
   },
 })
 

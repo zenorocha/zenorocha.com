@@ -12,25 +12,52 @@ import * as React from 'react'
 import { styled } from '../stitches.config'
 import { Box } from './Box'
 import Toast from './Toast'
+import Lottie from 'lottie-react'
+import copyLinkIcon from '../public/static/icons/copy-link.json'
+import emailIcon from '../public/static/icons/email.json'
+import sourceIcon from '../public/static/icons/source.json'
+import aboutIcon from '../public/static/icons/about.json'
+import homeIcon from '../public/static/icons/home.json'
+import articlesIcon from '../public/static/icons/articles.json'
+import projectsIcon from '../public/static/icons/projects.json'
+import talksIcon from '../public/static/icons/talks.json'
+import podcastsIcon from '../public/static/icons/podcasts.json'
+import investingIcon from '../public/static/icons/investing.json'
+import usesIcon from '../public/static/icons/uses.json'
+import reminderIcon from '../public/static/icons/reminder.json'
 
 export default function CommandBar(props) {
+  const copyLinkRef = useRef()
+  const emailRef = useRef()
+  const sourceRef = useRef()
+  const homeRef = useRef()
+  const aboutRef = useRef()
+  const articlesRef = useRef()
+  const projectsRef = useRef()
+  const talksRef = useRef()
+  const podcastsRef = useRef()
+  const investingRef = useRef()
+  const usesRef = useRef()
+  const reminderRef = useRef()
   const router = useRouter()
-  const [showToast, setShowToast] = React.useState(false)
+  const [showToast, setShowToast] = useState(false)
 
-  const copyUrl = () => {
+  const copyLink = () => {
     navigator.clipboard.writeText(window.location.href)
     setShowToast(true)
   }
 
+  const iconSize = { width: 24, height: 24 }
+
   const actions = [
     {
       id: 'copy',
-      name: 'Copy URL',
-      shortcut: ['u'],
-      keywords: 'copy-url',
+      name: 'Copy Link',
+      shortcut: ['l'],
+      keywords: 'copy-link',
       section: 'General',
-      perform: copyUrl,
-      icon: <Icon className="ri-file-copy-line" />,
+      perform: copyLink,
+      icon: <Lottie lottieRef={copyLinkRef} style={iconSize} animationData={copyLinkIcon} loop={false} autoplay={false} />,
     },
     {
       id: 'email',
@@ -39,7 +66,7 @@ export default function CommandBar(props) {
       keywords: 'send-email',
       section: 'General',
       perform: () => router.push('/contact'),
-      icon: <Icon className="ri-mail-line" />,
+      icon: <Lottie lottieRef={emailRef} style={iconSize} animationData={emailIcon} loop={false} autoplay={false} />,
     },
     {
       id: 'source',
@@ -49,7 +76,7 @@ export default function CommandBar(props) {
       section: 'General',
       perform: () =>
         window.open('https://github.com/zenorocha/zenorocha.com', '_blank'),
-      icon: <Icon className="ri-braces-line" />,
+      icon: <Lottie lottieRef={sourceRef} style={iconSize} animationData={sourceIcon} loop={false} autoplay={false} />,
     },
     {
       id: 'home',
@@ -58,7 +85,7 @@ export default function CommandBar(props) {
       keywords: 'go-home',
       section: 'Go To',
       perform: () => router.push('/'),
-      icon: <Icon className="ri-home-5-line" />,
+      icon: <Lottie lottieRef={homeRef} style={iconSize} animationData={homeIcon} loop={false} autoplay={false} />,
     },
     {
       id: 'about',
@@ -67,7 +94,7 @@ export default function CommandBar(props) {
       keywords: 'go-about',
       section: 'Go To',
       perform: () => router.push('/about'),
-      icon: <Icon className="ri-user-line" />,
+      icon: <Lottie lottieRef={aboutRef} style={iconSize} animationData={aboutIcon} loop={false} autoplay={false} />,
     },
     {
       id: 'articles',
@@ -76,7 +103,7 @@ export default function CommandBar(props) {
       keywords: 'go-articles',
       section: 'Go To',
       perform: () => router.push('/articles'),
-      icon: <Icon className="ri-ball-pen-line" />,
+      icon: <Lottie lottieRef={articlesRef} style={iconSize} animationData={articlesIcon} loop={false} autoplay={false} />,
     },
     {
       id: 'projects',
@@ -85,7 +112,7 @@ export default function CommandBar(props) {
       keywords: 'go-projects',
       section: 'Go To',
       perform: () => router.push('/projects'),
-      icon: <Icon className="ri-lightbulb-line" />,
+      icon: <Lottie lottieRef={projectsRef} style={iconSize} animationData={projectsIcon} loop={false} autoplay={false} />,
     },
     {
       id: 'talks',
@@ -94,7 +121,7 @@ export default function CommandBar(props) {
       keywords: 'go-talks',
       section: 'Go To',
       perform: () => router.push('/talks'),
-      icon: <Icon className="ri-slideshow-2-line" />,
+      icon: <Lottie lottieRef={talksRef} style={iconSize} animationData={talksIcon} loop={false} autoplay={false} />,
     },
     {
       id: 'podcasts',
@@ -103,7 +130,7 @@ export default function CommandBar(props) {
       keywords: 'go-podcasts',
       section: 'Go To',
       perform: () => router.push('/podcasts'),
-      icon: <Icon className="ri-mic-line" />,
+      icon: <Lottie lottieRef={podcastsRef} style={iconSize} animationData={podcastsIcon} loop={false} autoplay={false} />,
     },
     {
       id: 'investing',
@@ -112,7 +139,7 @@ export default function CommandBar(props) {
       keywords: 'go-investing',
       section: 'Go To',
       perform: () => router.push('/investing'),
-      icon: <Icon className="ri-money-dollar-box-line" />,
+      icon: <Lottie lottieRef={investingRef} style={iconSize} animationData={investingIcon} loop={false} autoplay={false} />,
     },
     {
       id: 'uses',
@@ -121,7 +148,7 @@ export default function CommandBar(props) {
       keywords: 'go-uses',
       section: 'Go To',
       perform: () => router.push('/uses'),
-      icon: <Icon className="ri-computer-line" />,
+      icon: <Lottie lottieRef={usesRef} style={iconSize} animationData={usesIcon} loop={false} autoplay={false} />,
     },
     {
       id: 'reminder',
@@ -130,43 +157,7 @@ export default function CommandBar(props) {
       keywords: 'go-reminder',
       section: 'Go To',
       perform: () => router.push('/reminder'),
-      icon: <Icon className="ri-time-line" />,
-    },
-    {
-      id: 'github',
-      name: 'Github',
-      shortcut: ['f', 'g'],
-      keywords: 'go-github',
-      section: 'Follow',
-      perform: () => window.open('https://github.com/zenorocha', '_blank'),
-      icon: <Icon className="ri-github-line" />,
-    },
-    {
-      id: 'twitter',
-      name: 'Twitter',
-      shortcut: ['f', 't'],
-      keywords: 'go-twitter',
-      section: 'Follow',
-      perform: () => window.open('https://twitter.com/zenorocha', '_blank'),
-      icon: <Icon className="ri-twitter-line" />,
-    },
-    {
-      id: 'linkedin',
-      name: 'LinkedIn',
-      shortcut: ['f', 'l'],
-      keywords: 'go-linkedin',
-      section: 'Follow',
-      perform: () => window.open('https://linkedin.com/in/zenorocha', '_blank'),
-      icon: <Icon className="ri-linkedin-line" />,
-    },
-    {
-      id: 'instagram',
-      name: 'Instagram',
-      shortcut: ['f', 'i'],
-      keywords: 'go-instagram',
-      section: 'Follow',
-      perform: () => window.open('https://instagram.com/zenorocha', '_blank'),
-      icon: <Icon className="ri-instagram-line" />,
+      icon: <Lottie lottieRef={reminderRef} style={iconSize} animationData={reminderIcon} loop={false} autoplay={false} />,
     },
   ]
 
@@ -213,9 +204,20 @@ function RenderResults() {
   )
 }
 
-const ResultItem = React.forwardRef(({ action, active }, ref) => {
+const ResultItem = forwardRef(({ action, active }, ref) => {
+  if (active) {
+    action.icon.props.lottieRef.current?.play()
+  } else {
+    action.icon.props.lottieRef.current?.stop()
+  }
+
   return (
-    <Box ref={ref} css={getResultStyle(active)}>
+    <Box
+      ref={ref}
+      css={getResultStyle(active)}
+      onMouseEnter={() => action.icon.props.lottieRef.current?.play()}
+      onMouseLeave={() => action.icon.props.lottieRef.current?.stop()}
+    >
       <Action>
         {action.icon && action.icon}
         <ActionRow>

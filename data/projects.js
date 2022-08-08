@@ -38,6 +38,7 @@ const items = [
         url: 'https://14habits.com',
         icon: 'book-2',
         stats: '3k+ readers',
+        icon: '14-habits',
         active: true,
       },
       {
@@ -46,6 +47,7 @@ const items = [
         url: 'https://draculatheme.com/pro',
         icon: 'palette',
         stats: '$210k+ sales',
+        icon: 'dracula-pro',
         active: true,
       },
     ],
@@ -59,6 +61,7 @@ const items = [
         url: 'https://lecheese.app',
         icon: 'star',
         stats: '18k+ downloads',
+        icon: 'lecheese',
         active: true,
       },
     ],
@@ -117,6 +120,7 @@ const items = [
         url: 'http://clipboardjs.com/',
         icon: 'clipboard',
         stats: '31k+ stars',
+        icon: 'clipboard-js',
         active: true,
       },
       {

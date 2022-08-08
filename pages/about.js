@@ -5,11 +5,13 @@ import Image from 'next/image'
 import { parseISO, format, intervalToDuration } from 'date-fns'
 import Base from '../layouts/Base'
 import { ButtonPrimary } from '../components/ButtonPrimary'
-import { ButtonPrimaryIcon } from '../components/ButtonPrimaryIcon'
 import Pronunciation from '../components/Pronunciation'
 import Toast from '../components/Toast'
 import stripHtml from '../lib/strip-html'
 import items from '../data/about'
+import Lottie from 'lottie-react'
+import copyBioIcon from '../public/static/icons/copy-bio.json'
+import downloadIcon from '../public/static/icons/download.json'
 
 export async function getStaticProps() {
   const meta = {
@@ -30,6 +32,8 @@ function About(props) {
   const [toastTitle, setToastTitle] = React.useState('')
   const [toastDescription, setToastDescription] = React.useState('')
   const [showToast, setShowToast] = React.useState(false)
+  const copyBioRef = React.useRef()
+  const downloadRef = React.useRef()
 
   const renderIntro = () => {
     return (
@@ -74,6 +78,9 @@ function About(props) {
   }
 
   const renderBio = () => {
+    const btnStyle = { display: 'inline-flex', justifyContent: 'center', alignItems: 'center' }
+    const iconStyle = { width: 24, height: 24, marginRight: 8 }
+
     return (
       <div>
         <p>
@@ -83,10 +90,16 @@ function About(props) {
         <blockquote>
           <p>{description}</p>
         </blockquote>
-        <p>
-          <ButtonPrimary as="button" onClick={copyBio}>
-            <ButtonPrimaryIcon className="ri-file-copy-line" /> Copy to
-            Clipboard
+        <ButtonsContainer>
+          <ButtonPrimary
+            as="button"
+            style={btnStyle}
+            onClick={copyBio}
+            onMouseEnter={() => copyBioRef.current?.play()}
+            onMouseLeave={() => copyBioRef.current?.stop()}
+          >
+            <Lottie lottieRef={copyBioRef} style={iconStyle} animationData={copyBioIcon} loop={false} autoplay={false} />
+            Copy Bio
           </ButtonPrimary>
           <span style={{ margin: '0 20px 0 10px' }}>•</span>
           <ButtonPrimary
@@ -94,12 +107,15 @@ function About(props) {
             download
             role="button"
             href="/static/images/zeno.png"
+            style={btnStyle}
             onClick={downloadHeadshot}
+            onMouseEnter={() => downloadRef.current?.play()}
+            onMouseLeave={() => downloadRef.current?.stop()}
           >
-            <ButtonPrimaryIcon className="ri-download-2-line" /> Download
-            Headshot
+            <Lottie lottieRef={downloadRef} style={iconStyle} animationData={downloadIcon} loop={false} autoplay={false} />
+            Download Headshot
           </ButtonPrimary>
-        </p>
+        </ButtonsContainer>
       </div>
     )
   }
@@ -204,6 +220,11 @@ const Container = styled('div', {
 
 const Paragraph = styled('p', {
   '@bp2': { margin: '15px 0' },
+})
+
+const ButtonsContainer = styled('p', {
+  display: 'flex',
+  alignItems: 'center',
 })
 
 const Section = styled('div', {

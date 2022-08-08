@@ -1,16 +1,29 @@
 import { styled } from '../stitches.config'
-import { useState } from 'react'
+import { useState, useRef } from 'react'
 import { motion } from 'framer-motion'
+import Lottie from 'lottie-react'
 
 export default function FeaturedProject(props) {
   const { project } = props
 
+  const icon = require(`../public/static/icons/${project.icon}.json`)
+  const iconRef = useRef()
+
   return (
-    <Project href={project.url} target="_blank">
+    <Project
+      href={project.url}
+      target="_blank"
+      onMouseEnter={() => iconRef.current?.play()}
+      onMouseLeave={() => iconRef.current?.stop()}
+    >
       <Animation index={props.index}>
-        <IconContainer>
-          <i className={`ri-${project.icon}-line`} />
-        </IconContainer>
+        <Lottie
+          lottieRef={iconRef}
+          style={{ width: 24, height: 24, marginBottom: 10 }}
+          animationData={icon}
+          loop={false}
+          autoplay={false}
+        />
         <Body>
           <Title>{project.title}</Title>
           <Description>{project.description}</Description>
@@ -53,12 +66,6 @@ const Project = styled('a', {
   width: 'auto',
   '&:hover': { opacity: 1 },
   '@bp2': { width: 180 },
-})
-
-const IconContainer = styled('div', {
-  color: '$primary',
-  fontSize: '24px',
-  padding: '0 10px 0 0',
 })
 
 const Body = styled('div', {

@@ -2,37 +2,37 @@ const investments = [
   {
     title: 'Mergent',
     description: 'Providing schedulers in a reliable way.',
-    icon: 'time',
+    icon: 'mergent',
     url: 'https://mergent.co',
   },
   {
     title: 'Charm',
     description: 'Making the command line glamorous.',
-    icon: 'terminal-box',
+    icon: 'charm',
     url: 'https://charm.sh',
   },
   {
     title: 'Fig',
     description: 'Reimagining your existing terminal experience.',
-    icon: 'terminal-window',
+    icon: 'fig',
     url: 'https://fig.io',
   },
   {
     title: 'Koala',
     description: 'Finding qualified leads with data science.',
-    icon: 'bear-smile',
+    icon: 'koala',
     url: 'https://getkoala.com',
   },
   {
     title: 'Customer.io',
     description: 'Automating email messages and workflows.',
-    icon: 'mail-check',
+    icon: 'customer-io',
     url: 'https://customer.io',
   },
   {
     title: 'Gumroad',
     description: 'Making it easy to earn your first dollar online.',
-    icon: 'money-dollar-circle',
+    icon: 'gumroad',
     url: 'https://gumroad.com',
   },
 ]

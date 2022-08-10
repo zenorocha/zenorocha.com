@@ -1,4 +1,4 @@
-import Klotty from 'klotty'
+import { Klotty } from 'klotty'
 const klotty = new Klotty(process.env.KLOTTY_API_KEY)
 import EmailTemplate from '../../components/EmailTemplate'
 

@@ -4,6 +4,17 @@ const items = [
     summary: '',
     talks: [
       {
+        title: 'SaaStr Annual',
+        url: 'https://saastrannual2022.com',
+        date: '2022-09-15',
+        where: 'San Francisco, CA - USA',
+        presentations: [
+          {
+            title: 'The Founder\'s Guide to Developer-led Growth'
+          },
+        ],
+      },
+      {
         title: 'DevX Conf',
         url: 'https://devxconf.org',
         date: '2022-05-02',

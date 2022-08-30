@@ -11,6 +11,8 @@ const items = [
         presentations: [
           {
             title: 'The Next Generation of Developer-First Products',
+            url: 'https://speakerdeck.com/zenorocha/the-next-generation-of-developer-first-products',
+            video: 'https://youtu.be/ja-Pr58FCIQ'
           },
         ],
       },

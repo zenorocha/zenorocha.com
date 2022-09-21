@@ -4,6 +4,12 @@ const items = [
     summary: '',
     talks: [
       {
+        title: 'Front in Floripa',
+        url: 'https://frontin.floripa.br',
+        date: '2022-11-19',
+        where: 'Florianópolis, SC - Brazil',
+      },
+      {
         title: 'SaaStr Annual',
         url: 'https://saastrannual2022.com',
         date: '2022-09-15',

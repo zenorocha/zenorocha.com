@@ -10,7 +10,8 @@ const items = [
         where: 'San Francisco, CA - USA',
         presentations: [
           {
-            title: 'The Founder\'s Guide to Developer-led Growth'
+            title: 'The Founder\'s Guide to Developer-led Growth',
+            video: 'https://youtu.be/f0akUJ4YQn4'
           },
         ],
       },

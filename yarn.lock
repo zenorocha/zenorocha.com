@@ -370,6 +370,19 @@
     tiny-warning "^1.0.3"
     tslib "^2.3.0"
 
+"@react-email/html@^0.0.1":
+  version "0.0.1"
+  resolved "https://registry.yarnpkg.com/@react-email/html/-/html-0.0.1.tgz#5fcd3c0d7766d016695347c0bed5ddd14232ca3f"
+  integrity sha512-J0yRyCtVCpriRgMuM/GgF+7KzHUJf/VujVsiNBK3ySKA+4WExB62l6jBuJ6nUD6704qMBC0eYEIbUrpH4FqS8g==
+
+"@react-email/render@^0.0.1":
+  version "0.0.1"
+  resolved "https://registry.yarnpkg.com/@react-email/render/-/render-0.0.1.tgz#319bbd7f674467166168fdcc9d614e73408c78de"
+  integrity sha512-zog/2O0IWZDl10YfmLkgARzHgkX27ZwJhFaSib3hgxYwAdgWrCnfd3uT9ZuZqk9BXz1pk9jv9cl+UYS0nbCFdw==
+  dependencies:
+    react "^18.2.0"
+    react-dom "^18.2.0"
+
 "@rushstack/eslint-patch@^1.1.3":
   version "1.1.4"
   resolved "https://registry.yarnpkg.com/@rushstack/eslint-patch/-/eslint-patch-1.1.4.tgz#0c8b74c50f29ee44f423f7416829c0bf8bb5eb27"
@@ -1946,13 +1959,13 @@ kleur@^4.0.3:
   resolved "https://registry.yarnpkg.com/kleur/-/kleur-4.1.5.tgz#95106101795f7050c6c650f350c683febddb1780"
   integrity sha512-o+NO+8WrRiQEE4/7nwRJhN1HWpVmJm511pBHUxPLtp0BUISzlBplORYSmTclCnJvQq2tKu/sgl3xVpkc7ZWuQQ==
 
-klotty@^0.6.0:
-  version "0.6.0"
-  resolved "https://registry.yarnpkg.com/klotty/-/klotty-0.6.0.tgz#260f4f9b77c142bbecd26b5f5a4e381b19be27de"
-  integrity sha512-nBHOIaPTrjqSjhMKq6kJe8hFkx4UuGhZRUeJjO4lMlRPROqITSiikJNpwH9UzFXQERRr0subwz1657a5e6iJCg==
+klotty@^0.8.0:
+  version "0.8.0"
+  resolved "https://registry.yarnpkg.com/klotty/-/klotty-0.8.0.tgz#32329105b3d0dfe2c3812d7aa184b41ec4d03fa1"
+  integrity sha512-9dPUiIoSetEsl7xduGqvsDxcgponzU6C8iHTph4aNGS9mrLp0jQtyrz3GmhpAnm54dito4sX2VHU/dbrRYDnvg==
   dependencies:
+    "@react-email/render" "^0.0.1"
     axios "0.27.2"
-    react-email "^1.0.2"
 
 language-subtag-registry@~0.3.2:
   version "0.3.22"
@@ -2689,14 +2702,6 @@ react-dom@^18.2.0:
   dependencies:
     loose-envify "^1.1.0"
     scheduler "^0.23.0"
-
-react-email@^1.0.2:
-  version "1.0.2"
-  resolved "https://registry.yarnpkg.com/react-email/-/react-email-1.0.2.tgz#7bef8234c8d5cee99e23c81413cebe0a0b539379"
-  integrity sha512-hU7TeUEKM5cWtkvy3QdJu3hCuLftDRk9rKZKK9xanMLrHZZYbD9HKGVRL6PAgwpOlC9PlV7T/ogpPT4OPQNnNw==
-  dependencies:
-    react "^18.2.0"
-    react-dom "^18.2.0"
 
 react-is@^16.13.1:
   version "16.13.1"

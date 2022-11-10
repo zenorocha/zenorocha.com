@@ -25,7 +25,15 @@ export default function Blogpost({ children }) {
             </PostHeaderSubtitle>
           </PostHeader>
         )}
-        <PostContent className="blogpost">
+        <PostContent
+          css={{
+            '& ::selection': {
+              background: '#ff80bf',
+              color: '#000',
+              WebkitTextFillColor: '#000',
+            },
+          }}
+        >
           <PostContainer>
             {!image && (
               <div>

@@ -4,10 +4,23 @@ const items = [
     summary: '',
     talks: [
       {
+        title: 'React Conf Brasil',
+        url: 'https://reactconf.com.br',
+        date: '2022-12-03',
+        where: 'Virtual'
+      },
+      {
         title: 'Front in Floripa',
         url: 'https://frontin.floripa.br',
         date: '2022-11-19',
         where: 'Florianópolis, SC - Brazil',
+        attendees: '≈350',
+        presentations: [
+          {
+            title: '7 Hábitos de Desenvolvedores Altamente Produtivos',
+            url: 'https://speakerdeck.com/zenorocha/7-habitos-de-desenvolvedores-altamente-produtivos',
+          },
+        ],
       },
       {
         title: 'SaaStr Annual',

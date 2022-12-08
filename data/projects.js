@@ -3,6 +3,14 @@ const items = [
     year: '2022',
     projects: [
       {
+        title: 'React Email',
+        description: 'Next generation of writing emails',
+        url: 'https://react.email',
+        active: true,
+        icon: 'email',
+        stats: '1k+ stars',
+      },
+      {
         title: 'WorkOS',
         url: 'https://workos.com',
         active: true,
@@ -57,11 +65,7 @@ const items = [
     projects: [
       {
         title: 'LeCheese',
-        description: 'Mobile app for cheese lovers',
         url: 'https://lecheese.app',
-        icon: 'star',
-        stats: '18k+ downloads',
-        icon: 'lecheese',
         active: true,
       },
     ],
@@ -119,7 +123,7 @@ const items = [
         description: 'Library to copy text to clipboard',
         url: 'http://clipboardjs.com/',
         icon: 'clipboard',
-        stats: '31k+ stars',
+        stats: '32k+ stars',
         icon: 'clipboard-js',
         active: true,
       },

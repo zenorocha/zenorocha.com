@@ -7,7 +7,13 @@ const items = [
         title: 'React Conf Brasil',
         url: 'https://reactconf.com.br',
         date: '2022-12-03',
-        where: 'Virtual'
+        where: 'Virtual',
+        presentations: [
+          {
+            title: 'Launching React Email',
+            video: 'https://youtu.be/rQFupuVA5XQ'
+          },
+        ],
       },
       {
         title: 'Front in Floripa',

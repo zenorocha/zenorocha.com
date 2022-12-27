@@ -1959,14 +1959,6 @@ kleur@^4.0.3:
   resolved "https://registry.yarnpkg.com/kleur/-/kleur-4.1.5.tgz#95106101795f7050c6c650f350c683febddb1780"
   integrity sha512-o+NO+8WrRiQEE4/7nwRJhN1HWpVmJm511pBHUxPLtp0BUISzlBplORYSmTclCnJvQq2tKu/sgl3xVpkc7ZWuQQ==
 
-klotty@^0.8.0:
-  version "0.8.0"
-  resolved "https://registry.yarnpkg.com/klotty/-/klotty-0.8.0.tgz#32329105b3d0dfe2c3812d7aa184b41ec4d03fa1"
-  integrity sha512-9dPUiIoSetEsl7xduGqvsDxcgponzU6C8iHTph4aNGS9mrLp0jQtyrz3GmhpAnm54dito4sX2VHU/dbrRYDnvg==
-  dependencies:
-    "@react-email/render" "^0.0.1"
-    axios "0.27.2"
-
 language-subtag-registry@~0.3.2:
   version "0.3.22"
   resolved "https://registry.yarnpkg.com/language-subtag-registry/-/language-subtag-registry-0.3.22.tgz#2e1500861b2e457eba7e7ae86877cbd08fa1fd1d"
@@ -2812,6 +2804,14 @@ remixicon@^2.5.0:
   version "2.5.0"
   resolved "https://registry.yarnpkg.com/remixicon/-/remixicon-2.5.0.tgz#b5e245894a1550aa23793f95daceadbf96ad1a41"
   integrity sha512-q54ra2QutYDZpuSnFjmeagmEiN9IMo56/zz5dDNitzKD23oFRw77cWo4TsrAdmdkPiEn8mxlrTqxnkujDbEGww==
+
+resend@^0.8.0:
+  version "0.8.0"
+  resolved "https://registry.yarnpkg.com/resend/-/resend-0.8.0.tgz#57308cbb0bfcd843afb7155ed9e34e8c967a6a46"
+  integrity sha512-IOUwOpiGDbVG+9TszuPZCvgeU4NVL4o2WqvLyG0J9Cbd4jTtm56GDLVDyunXyGy7e8VRBYWKKgUJEzVVM3IZ5g==
+  dependencies:
+    "@react-email/render" "^0.0.1"
+    axios "0.27.2"
 
 resolve-from@^4.0.0:
   version "4.0.0"

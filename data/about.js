@@ -11,6 +11,7 @@ const items = [
     company: 'WorkOS',
     companyUrl: 'https://workos.com',
     startDate: '2021-07-01',
+    endDate: '2022-12-01',
     location: 'Los Angeles, California',
   },
   {

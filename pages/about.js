@@ -17,7 +17,7 @@ export async function getStaticProps() {
   const meta = {
     title: 'About // Zeno Rocha',
     description:
-      "Zeno Rocha is a Brazilian creator and programmer. He currently lives in Los Angeles, California, where he's the VP of Developer Experience at WorkOS. His lifelong appreciation for building software and sharing knowledge led him to speak in over 110 conferences worldwide. His passion for open source put him on the top 20 most active users on GitHub at age 22. Before moving to the US, Zeno developed multiple applications, mentored startups, and worked at major companies in Latin America, such as Globo and Petrobras.",
+      "Zeno Rocha is a Brazilian creator and programmer. He currently lives in San Francisco, California, where he's the Founder & CEO at Resend. His lifelong appreciation for building software and sharing knowledge led him to speak in over 110 conferences worldwide. His passion for open source put him on the top 20 most active users on GitHub at age 22. Before moving to the US, Zeno developed multiple applications, mentored startups, and worked at major companies in Latin America, such as Globo and Petrobras.",
     tagline: 'Create. Share. Repeat.',
     image: '/static/images/about-bw.jpg',
     primaryColor: 'pink',
@@ -61,10 +61,10 @@ function About(props) {
             I started as a software engineer back in 2009, working with Flash.
           </Paragraph>
           <Paragraph>
-            I'm currently the <strong>VP of Developer Experience</strong> at
-            WorkOS. Before that, I was the CPO at Liferay Cloud. I'm originally
+            I'm the <strong>Founder & CEO</strong> at
+            Resend. Before that, I was a VP of Developer Experience at WorkOS and CPO at Liferay Cloud. I'm originally
             from Brazil and now living in{' '}
-            <strong>Los Angeles, California</strong> with my amazing wife and
+            <strong>San Francisco, California</strong> with my amazing wife and
             beautiful daughter.
           </Paragraph>
           <Paragraph>

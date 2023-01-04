@@ -10,7 +10,7 @@ export async function getStaticProps() {
   return {
     props: {
       title: 'Zeno Rocha',
-      description: 'Building world-class products that make developers happy',
+      description: 'Obsessed with developer experience',
       image: '/static/images/home-bw.jpg',
     },
   }
@@ -37,10 +37,10 @@ export default function Index(props) {
             <div>
               <h1>{title}</h1>
               <p>
-                <strong>VP of Developer Experience at{' '}
-                  <a href="https://workos.com" target="blank">WorkOS</a>
-                </strong>.<br />
-                {description}.
+                <strong>Founder & CEO at{' '}
+                  <a href="https://resend.com" target="blank">Resend</a>
+                </strong><br />
+                {description}
               </p>
               <ShortcutHome />
             </div>

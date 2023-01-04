@@ -1,5 +1,18 @@
 const items = [
   {
+    year: '2023',
+    projects: [
+      {
+        title: 'Resend',
+        description: 'New email API for developers',
+        url: 'https://resend.com',
+        active: true,
+        icon: 'resend',
+        stats: 'Coming Soon',
+      },
+    ],
+  },
+  {
     year: '2022',
     projects: [
       {
@@ -8,7 +21,7 @@ const items = [
         url: 'https://react.email',
         active: true,
         icon: 'email',
-        stats: '1k+ stars',
+        stats: '2k+ stars',
       },
       {
         title: 'WorkOS',
@@ -32,8 +45,7 @@ const items = [
       },
       {
         title: 'Dracula UI',
-        url: 'https://draculatheme.com/ui',
-        active: true,
+        url: 'https://draculatheme.com/ui'
       },
     ],
   },
@@ -44,17 +56,13 @@ const items = [
         title: '14 Habits',
         description: 'Book about productivity',
         url: 'https://14habits.com',
-        icon: 'book-2',
-        stats: '3k+ readers',
-        icon: '14-habits',
-        active: true,
       },
       {
         title: 'Dracula PRO',
         description: 'Premium dark color scheme',
         url: 'https://draculatheme.com/pro',
         icon: 'palette',
-        stats: '$210k+ sales',
+        stats: '$270k+ sales',
         icon: 'dracula-pro',
         active: true,
       },

@@ -3,7 +3,7 @@ const categories = [
     name: 'Desk',
     items: [
       {
-        title: 'MacBook Pro (13", 2020)',
+        title: 'MacBook Pro (14", 2021)',
         description:
           'The M1 chip is just amazing. Plus, 16 GB RAM and 1TB storage.',
         url: 'https://amzn.to/3pVZUNz',

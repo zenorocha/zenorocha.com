@@ -11,10 +11,6 @@ export default function Navbar() {
     'About',
     'Articles',
     'Projects',
-    'Talks',
-    'Podcasts',
-    'Investing',
-    'Uses',
     'Reminder',
   ]
   const [hovered, setHovered] = useState('')
@@ -24,7 +20,7 @@ export default function Navbar() {
     <AnimateSharedLayout>
       <Header>
         <Link href="/" passHref>
-          <ButtonLogo as="a">z</ButtonLogo>
+          <ButtonLogo as="a">ct</ButtonLogo>
         </Link>
 
         <Nav>

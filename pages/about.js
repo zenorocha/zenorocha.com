@@ -5,7 +5,6 @@ import Image from 'next/image'
 import { parseISO, format, intervalToDuration } from 'date-fns'
 import Base from '../layouts/Base'
 import { ButtonPrimary } from '../components/ButtonPrimary'
-import Pronunciation from '../components/Pronunciation'
 import Toast from '../components/Toast'
 import stripHtml from '../lib/strip-html'
 import items from '../data/about'
@@ -15,9 +14,9 @@ import downloadIcon from '../public/static/icons/download.json'
 
 export async function getStaticProps() {
   const meta = {
-    title: 'About // Zeno Rocha',
+    title: 'About // Caio Tracera',
     description:
-      "Zeno Rocha is a Brazilian creator and programmer. He currently lives in San Francisco, California, where he's the Founder & CEO at Resend. His lifelong appreciation for building software and sharing knowledge led him to speak in over 110 conferences worldwide. His passion for open source put him on the top 20 most active users on GitHub at age 22. Before moving to the US, Zeno developed multiple applications, mentored startups, and worked at major companies in Latin America, such as Globo and Petrobras.",
+      "Caio Tracera is a Brazilian creator and programmer. He currently lives in Niterói, Rio de Janeiro, where he's Software Engineer at Gympass. His lifelong appreciation for building software and sharing knowledge led him to work at major companies in Latin America. His passion for open source and new technologies led him to create and maintain several open source projects.",
     tagline: 'Create. Share. Repeat.',
     image: '/static/images/about-bw.jpg',
     primaryColor: 'pink',
@@ -41,9 +40,9 @@ function About(props) {
         <Section>
           <Image
             alt="Zeno"
-            src="/static/images/zeno-bw.jpg"
+            src="/static/images/caio-bw.jpg"
             width="336"
-            height="336"
+            height="400"
             placeholder="blur"
             blurDataURL="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAIAAAAmkwkpAAAACXBIWXMAABYlAAAWJQFJUiTwAAAAP0lEQVQImQE0AMv/AFBQUJKSkqmpqaOjowCurq7v7+/Jycm5ubkA////jIyMn5+fg4ODADAwMD09PWlpaQAAAApRGnEHblMWAAAAAElFTkSuQmCC"
             priority
@@ -56,21 +55,19 @@ function About(props) {
               '@bp2': { marginTop: '-6px' },
             }}
           >
-            <strong>Hey, I'm Zeno Rocha</strong>
-            <Pronunciation />
-            I started as a software engineer back in 2009, working with Flash.
+            <strong>Hey, I'm Caio Tracera</strong>
+            I started as a software engineer back in 2018, working with PHP.
           </Paragraph>
           <Paragraph>
-            I'm the <strong>Founder & CEO</strong> at
-            Resend. Before that, I was a VP of Developer Experience at WorkOS and CPO at Liferay Cloud. I'm originally
-            from Brazil and now living in{' '}
-            <strong>San Francisco, California</strong> with my amazing wife and
-            beautiful daughter.
+            Now, I'm <strong>Software Engineer</strong> at
+            Gympass. Before that, I still was a Software Engineer, but at Vitta. I'm originally
+            from Brazil and I am still living in{' '}
+            <strong>Niterói, Rio de Janeiro</strong> with my amazing future wife.
           </Paragraph>
           <Paragraph>
             <strong>I love dark mode</strong>, open source, and side projects.
-            When I'm not working, I like running, watching movies, and{' '}
-            <strong>eating cheese</strong>.
+            When I'm not working, I like playing video games, driving, and{' '}
+            <strong>eating açaí</strong>.
           </Paragraph>
         </Section>
       </Container>
@@ -106,7 +103,7 @@ function About(props) {
             as="a"
             download
             role="button"
-            href="/static/images/zeno.png"
+            href="/static/images/caio.jpg"
             style={btnStyle}
             onClick={downloadHeadshot}
             onMouseEnter={() => downloadRef.current?.play()}
@@ -188,8 +185,8 @@ function About(props) {
         <meta content={title} property="og:title" />
         <meta content={stripHtml(description)} name="description" />
         <meta content={stripHtml(description)} property="og:description" />
-        <meta content="https://zenorocha.com/about" property="og:url" />
-        <meta content={`https://zenorocha.com${image}`} property="og:image" />
+        <meta content="https://caiotracera.dev/about" property="og:url" />
+        <meta content={`https://caiotracera.dev${image}`} property="og:image" />
       </Head>
 
       {renderIntro()}

@@ -6,16 +6,17 @@ export default async function sendEmail(req, res) {
   try {
     const data = req.body
 
-    await resend.sendEmail({
-      from: 'zenorocha.com <website@zenorocha.com>',
-      to: 'zno.rocha@gmail.com',
+    const email = await resend.sendEmail({
+      from: 'onboarding@resend.dev',
+      to: 'ctrcra@gmail.com',
       replyTo: data.email,
-      subject: `${data.name} - via zenorocha.com`,
+      subject: `${data.name} - via caiotracera.dev`,
       react: <EmailTemplate {...data} />,
     })
 
-    res.status(200).json({ message: 'Email sent' })
+    res.status(200).json({ email })
   } catch (e) {
+    console.log(e.response.data)
     res.status(500).json({ message: e.message })
   }
 }

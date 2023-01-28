@@ -21,13 +21,12 @@ export async function getStaticProps() {
   ]
 
   const featuredPosts = [
-    getPostBySlug('what-i-learned-at-berkeley-executive-leadership-program', featuredParams),
-    getPostBySlug('the-two-types-of-quality', featuredParams),
+    getPostBySlug('the-difference-between-static-site-client-side-and-server-side', featuredParams),
   ]
 
   return {
     props: {
-      title: 'Articles // Zeno Rocha',
+      title: 'Articles // Caio Tracera',
       tagline: 'Stories. Updates. Guides.',
       image: '/static/images/articles-bw.jpg',
       primaryColor: 'yellow',

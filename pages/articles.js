@@ -22,7 +22,7 @@ export async function getStaticProps() {
 
   const featuredPosts = [
     getPostBySlug('why-i-spent-25000-dollars-on-a-domain-or-how-to-pick-a-startup-name', featuredParams),
-    getPostBySlug('what-i-learned-at-berkeley-executive-leadership-program', featuredParams),
+    getPostBySlug('im-starting-my-own-company', featuredParams),
   ]
 
   return {

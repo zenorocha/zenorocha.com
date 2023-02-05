@@ -89,8 +89,13 @@ export const PostHeaderTitle = styled(PostTitle, {
   margin: '59px auto 0',
   position: 'relative',
   zIndex: 3,
-  fontSize: '60px',
-  lineHeight: '80px',
+  fontSize: '36px',
+  lineHeight: '48px',
+  padding: '0 12px',
+  '@bp2': {
+    fontSize: '60px',
+    lineHeight: '80px',
+  },
 })
 
 export const PostContentTitle = styled(PostTitle, {

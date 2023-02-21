@@ -21,8 +21,8 @@ export async function getStaticProps() {
   ]
 
   const featuredPosts = [
+    getPostBySlug('lessons-learned-from-growing-a-6338-people-waitlist-in-7-weeks', featuredParams),
     getPostBySlug('why-i-spent-25000-dollars-on-a-domain-or-how-to-pick-a-startup-name', featuredParams),
-    getPostBySlug('im-starting-my-own-company', featuredParams),
   ]
 
   return {

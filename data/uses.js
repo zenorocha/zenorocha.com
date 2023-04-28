@@ -233,10 +233,22 @@ const categories = [
         url: 'https://ilo.so',
       },
       {
+        title: 'Infisical',
+        description:
+          'An open-source secrets manager for developers.',
+        url: 'https://infisical.com',
+      },
+      {
         title: 'Kayak',
         description:
           'This makes it easier to find flight itineraries and share them with family.',
         url: 'https://kayak.com',
+      },
+      {
+        title: 'Resend',
+        description:
+          'The new email API for developers.',
+        url: 'https://resend.com',
       },
       {
         title: 'Vercel',

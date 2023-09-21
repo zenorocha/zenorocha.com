@@ -8,7 +8,7 @@ const items = [
         url: 'https://resend.com',
         active: true,
         icon: 'resend',
-        stats: '14k+ users',
+        stats: '25k+ users',
       },
     ],
   },

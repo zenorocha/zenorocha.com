@@ -1,5 +1,11 @@
 const investments = [
   {
+    title: 'Vite',
+    description: 'Tooling for next generation frontend.',
+    icon: 'vite',
+    url: 'https://vitejs.dev',
+  },
+  {
     title: 'Mergent',
     description: 'Providing schedulers in a reliable way.',
     icon: 'mergent',

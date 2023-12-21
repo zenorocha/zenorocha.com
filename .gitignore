@@ -3,3 +3,4 @@
 .vercel
 auth.json
 node_modules
+public/rss.xml

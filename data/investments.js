@@ -1,5 +1,17 @@
 const investments = [
   {
+    title: 'Dub',
+    description: 'Link management infrastructure.',
+    icon: 'dub',
+    url: 'https://dub.co',
+  },
+  {
+    title: 'Langbase',
+    description: 'Open-source OpenAI alternative.',
+    icon: 'langbase',
+    url: 'https://langbase.com',
+  },
+  {
     title: 'Vite',
     description: 'Tooling for next generation frontend.',
     icon: 'vite',

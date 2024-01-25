@@ -56,7 +56,7 @@ function Uses(props) {
         <meta content="https://zenorocha.com/uses" property="og:url" />
         <meta content={`https://zenorocha.com${image}`} property="og:image" />
       </Head>
-
+     
       <p dangerouslySetInnerHTML={{ __html: description }} />
 
       {renderAll()}

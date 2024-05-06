@@ -17,7 +17,6 @@ export default function FeaturedTalk(props) {
             <Title css={{ margin: 0 }}>{talk.presentations[0].title}</Title>
             <Paragraph>{talk.where}</Paragraph>
             <Paragraph>{talk.title}</Paragraph>
-            <Stats>{talk.stats}</Stats>
           </div>
         </Content>
       </Animation>
@@ -77,16 +76,6 @@ const Title = styled('h3', {
 const Paragraph = styled('p', {
   color: '$secondary',
   margin: '0',
-})
-
-const Stats = styled('p', {
-  color: '$primary',
-  display: 'inline-block',
-  fontSize: '12px',
-  fontWeight: 500,
-  letterSpacing: '1.2px',
-  margin: '5px 0 0',
-  textTransform: 'uppercase',
 })
 
 const AnimContainer = styled(motion.div, {

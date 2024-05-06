@@ -1,5 +1,25 @@
 const items = [
   {
+    year: '2024',
+    summary: '',
+    talks: [
+      {
+        title: 'Epic Web Conf',
+        url: 'https://www.epicweb.dev/talks',
+        cover: '/static/images/talk-epicweb.jpg',
+        date: '2024-04-10',
+        where: 'Park City, Utah - USA',
+        presentations: [
+          {
+            title: 'The Next Generation of Developer-First Products',
+            url: 'https://speakerdeck.com/zenorocha/the-next-generation-of-developer-first-products',
+            video: 'https://www.epicweb.dev/talks/the-next-generation-of-developer-first-products'
+          },
+        ],
+      },
+    ]
+  },
+  {
     year: '2022',
     summary: '',
     talks: [
@@ -71,18 +91,6 @@ const items = [
     year: '2021',
     summary: '',
     talks: [
-      {
-        title: 'WorkOS All-Hands',
-        url: 'https://workos.com',
-        date: '2021-06-09',
-        where: 'Virtual',
-        presentations: [
-          {
-            title: 'The Next Generation of Developer-First Products',
-            url: 'https://speakerdeck.com/zenorocha/the-next-generation-of-developer-first-products',
-          },
-        ],
-      },
       {
         title: 'Semana SI - UNIFAFIBE',
         url: 'https://unifafibe.com.br/graduacao/sistema_informacao',
@@ -417,7 +425,7 @@ const items = [
           'https://storify.com/zenorocha/nebraskajs-conference-august-2016',
       },
       {
-        title: 'SFHTML5',
+        title: 'SFHTML5 II',
         url: 'http://www.meetup.com/sfhtml5/events/233029429/',
         date: '2016-08-19',
         where: 'San Francisco, CA - USA',

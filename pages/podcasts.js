@@ -22,8 +22,8 @@ function Podcasts(props) {
   const renderFeatured = items => {
     const featured = [
       'Getting to Resend on The Changelog',
-      'Creating Dracula PRO with Blood, Sweat, and Tears on Sustain OSS',
-      'Habits of Highly Productive Developers on Junior to Senior',
+      'Why developers trust Resend on Scaling DevTools',
+      'React.Email, Resend, Dracula Theme on DevTools.fm',
     ]
 
     return items

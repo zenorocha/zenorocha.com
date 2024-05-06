@@ -93,6 +93,16 @@ const appearances = [
     url: 'https://changelog.com/podcast/585',
   },
   {
+    date: '2024-03-08',
+    title: 'Why developers trust Resend on Scaling DevTools',
+    url: 'https://podcast.scalingdevtools.com/episodes/zeno-rocha',
+  },
+  {
+    date: '2024-02-11',
+    title: 'React.Email, Resend, Dracula Theme on DevTools.fm',
+    url: 'https://www.devtools.fm/episode/85',
+  },
+  {
     date: '2021-03-29',
     title: 'Como Estruturar uma Idéia no Mundo de Software no DevDelivery',
     url: 'https://dev.delivery/s3-ep04-como-organizar-e-estruturar-uma-ideia-no-mundo-de-desenvolvimento-de-software-zeno-rocha/',

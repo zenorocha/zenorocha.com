@@ -88,6 +88,11 @@ const bytetalk = [
 
 const appearances = [
   {
+    date: '2024-04-04',
+    title: 'Getting to Resend on The Changelog',
+    url: 'https://changelog.com/podcast/585',
+  },
+  {
     date: '2021-03-29',
     title: 'Como Estruturar uma Idéia no Mundo de Software no DevDelivery',
     url: 'https://dev.delivery/s3-ep04-como-organizar-e-estruturar-uma-ideia-no-mundo-de-desenvolvimento-de-software-zeno-rocha/',

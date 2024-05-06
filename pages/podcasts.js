@@ -21,7 +21,7 @@ export async function getStaticProps() {
 function Podcasts(props) {
   const renderFeatured = items => {
     const featured = [
-      'Open Source Lessons Learned on The Changelog',
+      'Getting to Resend on The Changelog',
       'Creating Dracula PRO with Blood, Sweat, and Tears on Sustain OSS',
       'Habits of Highly Productive Developers on Junior to Senior',
     ]

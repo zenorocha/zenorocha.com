@@ -4,11 +4,11 @@ const items = [
     projects: [
       {
         title: 'Resend',
-        description: 'New email API for developers',
+        description: 'Email for developers',
         url: 'https://resend.com',
         active: true,
         icon: 'resend',
-        stats: '25k+ users',
+        stats: '100k+ users',
       },
     ],
   },
@@ -21,7 +21,7 @@ const items = [
         url: 'https://react.email',
         active: true,
         icon: 'email',
-        stats: '8k+ stars',
+        stats: '12k+ stars',
       },
       {
         title: 'WorkOS',
@@ -61,10 +61,6 @@ const items = [
         title: 'Dracula PRO',
         description: 'Premium dark color scheme',
         url: 'https://draculatheme.com/pro',
-        icon: 'palette',
-        stats: '$308k+ sales',
-        icon: 'dracula-pro',
-        active: true,
       },
     ],
   },
@@ -241,8 +237,13 @@ const items = [
         active: true,
       },
       {
-        title: 'Dracula Theme',
+        title: 'Dracula',
+        description: 'One dark theme for all platforms',
         url: 'https://draculatheme.com',
+        active: true,
+        icon: 'palette',
+        stats: '6M+ users',
+        icon: 'dracula-pro',
         active: true,
       },
       {

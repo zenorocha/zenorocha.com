@@ -41,7 +41,7 @@ function About(props) {
         <Section>
           <Image
             alt="Zeno"
-            src="/static/images/zeno-bw.jpg"
+            src="/static/images/avatar.jpg"
             width="336"
             height="336"
             placeholder="blur"
@@ -106,7 +106,7 @@ function About(props) {
             as="a"
             download
             role="button"
-            href="/static/images/zeno.png"
+            href="/static/images/avatar.jpg"
             style={btnStyle}
             onClick={downloadHeadshot}
             onMouseEnter={() => downloadRef.current?.play()}

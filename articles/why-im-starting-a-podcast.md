@@ -11,7 +11,7 @@ Traveling is always fun, and sharing knowledge is extremely rewarding, but for m
 
 Now that we're all stuck at home, I miss that feeling. I miss discussing ideas, sharing lessons, and having great conversations about tech.
 
-That's why I'm starting a new podcast called **[ByteTalk](https://bytetalkpodcast.com)!**
+That's why I'm starting a new podcast called **[ByteTalk](https://www.youtube.com/@bytetalkpodcast846)!**
 
 ## Why haven't I started a podcast before?
 
@@ -47,7 +47,7 @@ The idea of this podcast is to discuss a variety of topics from tooling, setups,
 
 Our goal is to interview developers, designers, CEOs, and pretty much anyone who is building modern software and adopting productive techniques in their day-to-day activities.
 
-We're starting with not one but **three episodes**. The [first one](https://bytetalkpodcast.com/1) is an introduction to the podcast. The [second one](https://bytetalkpodcast.com/2) is an interview with [Netto Farah](https://twitter.com/nettofarah), Principal Software Engineer at Segment. And the [third one](https://bytetalkpodcast.com/3) is an interview with [Jeff Atwood](https://twitter.com/codinghorror), the co-founder of Stack Overflow and Discourse.
+We're starting with not one but **three episodes**. The [first one](httpshttps://youtu.be/d2jUY_jQK14) is an introduction to the podcast. The [second one](https://youtu.be/FF3bIUOfhnk) is an interview with [Netto Farah](https://twitter.com/nettofarah), Principal Software Engineer at Segment. And the [third one](https://youtu.be/oZz2Rr5qFuQ) is an interview with [Jeff Atwood](https://twitter.com/codinghorror), the co-founder of Stack Overflow and Discourse.
 
 <figure>
     <img src="/static/img/posts/why-im-starting-a-podcast-3.png" class="post-image-full" alt="ByteTalk Episode #3 / Interview with Jeff Atwood">

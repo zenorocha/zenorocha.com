@@ -40,7 +40,7 @@ const items = [
       },
       {
         title: 'ByteTalk',
-        url: 'https://bytetalkpodcast.com',
+        url: 'https://www.youtube.com/@bytetalkpodcast846',
         active: true,
       },
       {

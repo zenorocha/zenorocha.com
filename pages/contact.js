@@ -9,7 +9,7 @@ import { styled } from '../stitches.config'
 export async function getStaticProps() {
   const meta = {
     title: 'Contact // Zeno Rocha',
-    tagline: 'Email me. Like in the old days.',
+    tagline: 'Emails. Emails. Emails.',
     image: '/static/images/reminder-bw.jpg',
     primaryColor: 'cyan',
     secondaryColor: 'green',
@@ -64,7 +64,7 @@ function Contact(props) {
 
       <Box>
         <p dangerouslySetInnerHTML={{ __html: description }} />
-        <h2>Send an email</h2>
+        <h2>Send me an email</h2>
         <Form onSubmit={onSendEmail}>
           <FormGroup>
             <Label htmlFor="name">Name</Label>

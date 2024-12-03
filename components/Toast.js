@@ -11,11 +11,13 @@ export default function Toast({ title, description, isSuccess, showToast, setSho
       open={showToast}
       onOpenChange={setShowToast}
     >
-      <IconContainer style={{ color: iconColor }}>
-        <i className={`ri-${iconName}-fill`} />
-      </IconContainer>
       <div>
-        <Title>{title}</Title>
+        <Container>
+          <IconContainer style={{ color: iconColor }}>
+          <i className={`ri-${iconName}-fill`} />
+        </IconContainer>
+          <Title>{title}</Title>
+          </Container>
         <Description>{description}</Description>
       </div>
       <Close aria-label="Close">
@@ -56,10 +58,15 @@ const Root = styled(ToastPrimitive.Root, {
   zIndex: 2
 })
 
+const Container = styled('div', {
+  display: 'flex',
+  flexDirection: 'row',
+  alignItems:'center',
+})
 const IconContainer = styled('div', {
   fontSize: '16px',
-  marginTop: '-2px',
-  marginRight: '8px'
+  marginTop: '2px',
+  marginRight: '5px'
 })
 
 const Title = styled(ToastPrimitive.Title, {
@@ -69,6 +76,7 @@ const Title = styled(ToastPrimitive.Title, {
 
 const Description = styled(ToastPrimitive.Description, {
   marginTop: '-5px',
+  marginLeft:'21px',
   lineHeight: '28px',
 })
 

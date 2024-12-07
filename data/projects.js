@@ -1,6 +1,6 @@
 const items = [
   {
-    year: '2023',
+    year: '2023 — Present',
     projects: [
       {
         title: 'Resend',
@@ -8,7 +8,7 @@ const items = [
         url: 'https://resend.com',
         active: true,
         icon: 'resend',
-        stats: '100k+ users',
+        stats: '200k+ users',
       },
     ],
   },
@@ -21,7 +21,7 @@ const items = [
         url: 'https://react.email',
         active: true,
         icon: 'email',
-        stats: '12k+ stars',
+        stats: '300k+ downloads',
       },
       {
         title: 'WorkOS',
@@ -127,7 +127,7 @@ const items = [
         description: 'Library to copy text to clipboard',
         url: 'http://clipboardjs.com/',
         icon: 'clipboard',
-        stats: '33k+ stars',
+        stats: '34k+ stars',
         icon: 'clipboard-js',
         active: true,
       },
@@ -242,7 +242,7 @@ const items = [
         url: 'https://draculatheme.com',
         active: true,
         icon: 'palette',
-        stats: '6M+ users',
+        stats: '8M+ users',
         icon: 'dracula-pro',
         active: true,
       },

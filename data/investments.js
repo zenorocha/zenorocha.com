@@ -42,12 +42,6 @@ const investments = [
     url: 'https://getkoala.com',
   },
   {
-    title: 'Customer.io',
-    description: 'Automating email messages and workflows.',
-    icon: 'customer-io',
-    url: 'https://customer.io',
-  },
-  {
     title: 'Gumroad',
     description: 'Making it easy to earn your first dollar online.',
     icon: 'gumroad',

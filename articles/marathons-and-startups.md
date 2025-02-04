@@ -1,6 +1,6 @@
 ---
 title: Marathons and Startups
-description: "I can't believe this is real... My book is now available in hardcover. Building this physical copy has been a really intense process."
+description: "Just ran my first race ever—the San Francisco Half Marathon. The experience? Surprisingly similar to building a startup. Here’s what I learned..."
 slug: marathons-and-startups
 image: /static/img/posts/marathons-and-startups.jpg
 date: "2025-02-04"

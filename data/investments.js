@@ -1,5 +1,47 @@
 const investments = [
   {
+    title: 'Mastra',
+    description: 'TypeScript agent framework.',
+    icon: 'mastra',
+    url: 'https://mastra.ai',
+  },
+  {
+    title: 'Zero',
+    description: 'AI-native email client.',
+    icon: 'zero',
+    url: 'https://0.email',
+  },
+  {
+    title: 'Digger',
+    description: 'CI/CD orchestrator for Terraform.',
+    icon: 'digger',
+    url: 'https://digger.dev',
+  },
+  {
+    title: 'Polar',
+    description: 'Payment infrastructure for developers.',
+    icon: 'polar',
+    url: 'https://polar.sh',
+  },
+  {
+    title: 'Consent',
+    description: 'Consent management redefined.',
+    icon: 'consent',
+    url: 'https://consent.io',
+  },
+  {
+    title: 'Pactto',
+    description: 'Collaboration tool for creatives.',
+    icon: 'pactto',
+    url: 'https://pactto.com',
+  },
+  {
+    title: 'Paper',
+    description: 'Design tool for the new web.',
+    icon: 'paper',
+    url: 'https://paper.design',
+  },
+  {
     title: 'Dub',
     description: 'Link management infrastructure.',
     icon: 'dub',
@@ -7,7 +49,7 @@ const investments = [
   },
   {
     title: 'Langbase',
-    description: 'Open-source OpenAI alternative.',
+    description: 'Open source OpenAI alternative.',
     icon: 'langbase',
     url: 'https://langbase.com',
   },

@@ -75,18 +75,15 @@ function Podcasts(props) {
         <h2>Featured Podcasts</h2>
         <ListGroup>{renderFeatured(appearances)}</ListGroup>
 
+        <h2>Appearances</h2>
+        <ListGroup>{renderEpisode(appearances)}</ListGroup>
+
         <h2>ByteTalk</h2>
         <p>
           A podcast where Jonni and I interview the most productive people in
           tech.
         </p>
         <ListGroup>{renderEpisode(bytetalk)}</ListGroup>
-
-        <h2>Appearances</h2>
-        <p>
-          This is the list of all the podcasts that I gave an interview so far.
-        </p>
-        <ListGroup>{renderEpisode(appearances)}</ListGroup>
 
         <h2>Zone Of Front-Enders</h2>
         <p>

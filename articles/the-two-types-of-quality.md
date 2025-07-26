@@ -36,7 +36,7 @@ It's basically the **kind of quality that fascinates you**. This could include t
 
 As developers, we are often asked to build software products that have good quality, but what does that *really* mean? Is software quality only about meeting a certain number of functional requirements? What about the other parts of a software company? Let's explore how this is applied to real-world scenarios.
 
-## product that works vs. product that inspire
+## product that works vs. product that inspires
 
 Developers may disagree on many things, but there's one thing that almost everybody will agree on — **Jira sucks**. The reason for that is not because [Jira](https://www.atlassian.com/software/jira) is slow, because the design is outdated, or "feature x" is missing. The problem is the entire product mentality. Jira introduces more process. It encourages micro-management. **It disrupts flow.** And any product that disrupts flow is inherently bad for users.
 

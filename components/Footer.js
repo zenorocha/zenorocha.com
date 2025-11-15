@@ -38,12 +38,10 @@ export default function Footer() {
       </Anchor>
     }
 
-    return <Link key={index} href={link.url} passHref>
-      <Anchor>
-        <Title>{link.title}</Title>
-        <Icon className={link.icon} />
-      </Anchor>
-    </Link>
+    return <Anchor key={index} as={Link} href={link.url}>
+      <Title>{link.title}</Title>
+      <Icon className={link.icon} />
+    </Anchor>
   }
 
   return (

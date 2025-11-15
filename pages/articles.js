@@ -6,7 +6,6 @@ import { getAllPosts, getPostBySlug } from '../lib/blog'
 import ListItem from '../components/ListItem'
 import FeaturedArticle from '../components/FeaturedArticle'
 import { ListGroup } from '../components/ListGroup'
-import { AnimateSharedLayout } from 'framer-motion'
 
 export async function getStaticProps() {
   const allPosts = getAllPosts(['date', 'skip', 'slug', 'title'])
@@ -86,7 +85,7 @@ function Articles(props) {
         <meta content={`https://zenorocha.com${image}`} property="og:image" />
       </Head>
 
-      <AnimateSharedLayout>
+      <>
         <p dangerouslySetInnerHTML={{ __html: description }} />
 
         <h2>Featured Articles</h2>
@@ -94,7 +93,7 @@ function Articles(props) {
 
         <h2>All Articles</h2>
         <ListGroup>{renderAll()}</ListGroup>
-      </AnimateSharedLayout>
+      </>
     </>
   )
 }

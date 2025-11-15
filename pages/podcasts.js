@@ -4,7 +4,6 @@ import stripHtml from '../lib/strip-html'
 import { bytetalk, appearances, zofe } from '../data/podcasts'
 import ListItem from '../components/ListItem'
 import { ListGroup } from '../components/ListGroup'
-import { AnimateSharedLayout } from 'framer-motion'
 
 export async function getStaticProps() {
   const meta = {
@@ -69,7 +68,7 @@ function Podcasts(props) {
         <meta content={`https://zenorocha.com${image}`} property="og:image" />
       </Head>
 
-      <AnimateSharedLayout>
+      <>
         <p dangerouslySetInnerHTML={{ __html: description }} />
 
         <h2>Featured Podcasts</h2>
@@ -91,7 +90,7 @@ function Podcasts(props) {
           technologies.
         </p>
         <ListGroup>{renderEpisode(zofe)}</ListGroup>
-      </AnimateSharedLayout>
+      </>
     </>
   )
 }

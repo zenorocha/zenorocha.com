@@ -1,6 +1,5 @@
 import React from 'react'
 import Head from 'next/head'
-import { AnimateSharedLayout } from 'framer-motion'
 import { parseISO, format } from 'date-fns'
 import Base from '../layouts/Base'
 import { Box } from '../components/Box'
@@ -76,7 +75,7 @@ function Talks(props) {
         <meta content={`https://zenorocha.com${image}`} property="og:image" />
       </Head>
 
-      <AnimateSharedLayout>
+      <>
         <p dangerouslySetInnerHTML={{ __html: description }} />
 
         <h2>Featured Talks</h2>
@@ -84,7 +83,7 @@ function Talks(props) {
 
         <h2>All Talks</h2>
         {renderAll()}
-      </AnimateSharedLayout>
+      </>
     </>
   )
 }

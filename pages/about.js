@@ -39,7 +39,9 @@ function About(props) {
   const renderIntro = () => {
     return (
       <Container>
-        <Section>
+        <Section css={{
+          width: '336px'
+        }}>
           <Image
             alt="Zeno"
             src="/static/images/avatar.jpg"

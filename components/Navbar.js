@@ -2,7 +2,7 @@ import { styled } from '../stitches.config'
 import { useState } from 'react'
 import Link from 'next/link'
 import { useRouter } from 'next/router'
-import { motion, AnimateSharedLayout } from 'framer-motion'
+import { motion } from 'framer-motion'
 import { useKBar } from 'kbar'
 
 export default function Navbar() {
@@ -21,65 +21,61 @@ export default function Navbar() {
   const { query } = useKBar()
 
   return (
-    <AnimateSharedLayout>
-      <Header>
-        <Link href="/" passHref>
-          <ButtonLogo as="a">z</ButtonLogo>
-        </Link>
+    <Header>
+      <ButtonLogo as={Link} href="/">
+        z
+      </ButtonLogo>
 
-        <Nav>
-          <List>
-            {pages.map(page => {
-              const path = `/${page.toLowerCase()}`
-              const isHovered = hovered === page
+      <Nav>
+        <List>
+          {pages.map(page => {
+            const path = `/${page.toLowerCase()}`
+            const isHovered = hovered === page
 
-              return (
-                <li key={page}>
-                  <Link href={path} passHref>
-                    <Anchor>
-                      <NavContainer
-                        onHoverStart={() => setHovered(page)}
-                        onHoverEnd={() => setHovered('')}
-                        css={
-                          router.pathname == path
-                            ? {
-                                color: '$primary',
-                                '&::after': { opacity: 1 },
-                              }
-                            : ''
+            return (
+              <li key={page}>
+                <Anchor as={Link} href={path}>
+                  <NavContainer
+                    onHoverStart={() => setHovered(page)}
+                    onHoverEnd={() => setHovered('')}
+                    css={
+                      router.pathname == path
+                        ? {
+                          color: '$primary',
+                          '&::after': { opacity: 1 },
                         }
-                      >
-                        {isHovered && (
-                          <NavHovered
-                            layoutId="nav"
-                            initial={{ opacity: 0 }}
-                            animate={{ opacity: 1 }}
-                            exit={{ opacity: 0 }}
-                          />
-                        )}
-                        {page}
-                      </NavContainer>
-                    </Anchor>
-                  </Link>
-                </li>
-              )
-            })}
-          </List>
-        </Nav>
+                        : ''
+                    }
+                  >
+                    {isHovered && (
+                      <NavHovered
+                        layoutId="nav"
+                        initial={{ opacity: 0 }}
+                        animate={{ opacity: 1 }}
+                        exit={{ opacity: 0 }}
+                      />
+                    )}
+                    {page}
+                  </NavContainer>
+                </Anchor>
+              </li>
+            )
+          })}
+        </List>
+      </Nav>
 
-        <Aside>
-          <ButtonHeader
-            as="button"
-            type="button"
-            aria-label="Command"
-            onClick={query.toggle}
-            css={{ padding: '0 8px' }}
-          >
-            <Icon className="ri-command-line" />
-          </ButtonHeader>
-        </Aside>
-      </Header>
-    </AnimateSharedLayout>
+      <Aside>
+        <ButtonHeader
+          as="button"
+          type="button"
+          aria-label="Command"
+          onClick={query.toggle}
+          css={{ padding: '0 8px' }}
+        >
+          <Icon className="ri-command-line" />
+        </ButtonHeader>
+      </Aside>
+    </Header>
   )
 }
 

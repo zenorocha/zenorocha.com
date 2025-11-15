@@ -1,9 +1,9 @@
 import { useState, useEffect } from 'react'
-import { useKBar } from 'kbar'
+import { useCommandBar } from '../components/CommandBar'
 import { ButtonPrimary } from '../components/ButtonPrimary'
 
 export default function ShortcutHome() {
-  const { query } = useKBar()
+  const { toggle } = useCommandBar()
   const [mounted, setMounted] = useState(false)
 
   useEffect(() => {
@@ -16,19 +16,19 @@ export default function ShortcutHome() {
 
     if (isMobile) {
       return (
-        <ButtonPrimary as="button" onClick={query.toggle}>
+        <ButtonPrimary as="button" onClick={toggle}>
           Tap to start →
         </ButtonPrimary>
       )
     } else if (isMac) {
       return (
-        <ButtonPrimary as="button" onClick={query.toggle}>
+        <ButtonPrimary as="button" onClick={toggle}>
           Press <kbd>⌘</kbd> <kbd>K</kbd> to start →
         </ButtonPrimary>
       )
     } else {
       return (
-        <ButtonPrimary as="button" onClick={query.toggle}>
+        <ButtonPrimary as="button" onClick={toggle}>
           Press <kbd>ctrl</kbd> <kbd>K</kbd> to start →
         </ButtonPrimary>
       )

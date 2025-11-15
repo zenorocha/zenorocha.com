@@ -1,17 +1,16 @@
 import { styled } from '../stitches.config'
 import { Box } from './Box'
 import Toast from './Toast'
-import { useRef, useState, forwardRef } from 'react'
+import { useRef, useState, createContext, useContext, useMemo, useEffect } from 'react'
 import { useRouter } from 'next/router'
 import {
-  KBarAnimator,
-  KBarProvider,
-  KBarPortal,
-  useDeepMatches,
-  KBarPositioner,
-  KBarSearch,
-  KBarResults,
-} from 'kbar'
+  CommandDialog,
+  CommandInput,
+  CommandList,
+  CommandEmpty,
+  CommandGroup,
+  CommandItem,
+} from 'cmdk'
 import dynamic from 'next/dynamic'
 const Lottie = dynamic(() => import('lottie-react'), { ssr: false })
 import copyLinkIcon from '../public/static/icons/copy-link.json'
@@ -27,6 +26,16 @@ import investingIcon from '../public/static/icons/investing.json'
 import usesIcon from '../public/static/icons/uses.json'
 import reminderIcon from '../public/static/icons/reminder.json'
 
+const CommandBarContext = createContext(null)
+
+export function useCommandBar() {
+  const context = useContext(CommandBarContext)
+  if (!context) {
+    throw new Error('useCommandBar must be used within CommandBar')
+  }
+  return context
+}
+
 export default function CommandBar(props) {
   const copyLinkRef = useRef()
   const emailRef = useRef()
@@ -41,16 +50,18 @@ export default function CommandBar(props) {
   const usesRef = useRef()
   const reminderRef = useRef()
   const router = useRouter()
+  const [open, setOpen] = useState(false)
   const [showToast, setShowToast] = useState(false)
 
   const copyLink = () => {
     navigator.clipboard.writeText(window.location.href)
     setShowToast(true)
+    setOpen(false)
   }
 
   const iconSize = { width: 24, height: 24 }
 
-  const actions = [
+  const actions = useMemo(() => [
     {
       id: 'copy',
       name: 'Copy Link',
@@ -66,7 +77,10 @@ export default function CommandBar(props) {
       shortcut: ['e'],
       keywords: 'send-email',
       section: 'General',
-      perform: () => router.push('/contact'),
+      perform: () => {
+        router.push('/contact')
+        setOpen(false)
+      },
       icon: <Lottie lottieRef={emailRef} style={iconSize} animationData={emailIcon} loop={false} autoplay={false} />,
     },
     {
@@ -75,8 +89,10 @@ export default function CommandBar(props) {
       shortcut: ['s'],
       keywords: 'view-source',
       section: 'General',
-      perform: () =>
-        window.open('https://github.com/zenorocha/zenorocha.com', '_blank'),
+      perform: () => {
+        window.open('https://github.com/zenorocha/zenorocha.com', '_blank')
+        setOpen(false)
+      },
       icon: <Lottie lottieRef={sourceRef} style={iconSize} animationData={sourceIcon} loop={false} autoplay={false} />,
     },
     {
@@ -85,7 +101,10 @@ export default function CommandBar(props) {
       shortcut: ['g', 'h'],
       keywords: 'go-home',
       section: 'Go To',
-      perform: () => router.push('/'),
+      perform: () => {
+        router.push('/')
+        setOpen(false)
+      },
       icon: <Lottie lottieRef={homeRef} style={iconSize} animationData={homeIcon} loop={false} autoplay={false} />,
     },
     {
@@ -94,7 +113,10 @@ export default function CommandBar(props) {
       shortcut: ['g', 'a'],
       keywords: 'go-about',
       section: 'Go To',
-      perform: () => router.push('/about'),
+      perform: () => {
+        router.push('/about')
+        setOpen(false)
+      },
       icon: <Lottie lottieRef={aboutRef} style={iconSize} animationData={aboutIcon} loop={false} autoplay={false} />,
     },
     {
@@ -103,7 +125,10 @@ export default function CommandBar(props) {
       shortcut: ['g', 'b'],
       keywords: 'go-articles',
       section: 'Go To',
-      perform: () => router.push('/articles'),
+      perform: () => {
+        router.push('/articles')
+        setOpen(false)
+      },
       icon: <Lottie lottieRef={articlesRef} style={iconSize} animationData={articlesIcon} loop={false} autoplay={false} />,
     },
     {
@@ -112,7 +137,10 @@ export default function CommandBar(props) {
       shortcut: ['g', 'p'],
       keywords: 'go-projects',
       section: 'Go To',
-      perform: () => router.push('/projects'),
+      perform: () => {
+        router.push('/projects')
+        setOpen(false)
+      },
       icon: <Lottie lottieRef={projectsRef} style={iconSize} animationData={projectsIcon} loop={false} autoplay={false} />,
     },
     {
@@ -121,7 +149,10 @@ export default function CommandBar(props) {
       shortcut: ['g', 't'],
       keywords: 'go-talks',
       section: 'Go To',
-      perform: () => router.push('/talks'),
+      perform: () => {
+        router.push('/talks')
+        setOpen(false)
+      },
       icon: <Lottie lottieRef={talksRef} style={iconSize} animationData={talksIcon} loop={false} autoplay={false} />,
     },
     {
@@ -130,7 +161,10 @@ export default function CommandBar(props) {
       shortcut: ['g', 'c'],
       keywords: 'go-podcasts',
       section: 'Go To',
-      perform: () => router.push('/podcasts'),
+      perform: () => {
+        router.push('/podcasts')
+        setOpen(false)
+      },
       icon: <Lottie lottieRef={podcastsRef} style={iconSize} animationData={podcastsIcon} loop={false} autoplay={false} />,
     },
     {
@@ -139,7 +173,10 @@ export default function CommandBar(props) {
       shortcut: ['g', 'i'],
       keywords: 'go-investing',
       section: 'Go To',
-      perform: () => router.push('/investing'),
+      perform: () => {
+        router.push('/investing')
+        setOpen(false)
+      },
       icon: <Lottie lottieRef={investingRef} style={iconSize} animationData={investingIcon} loop={false} autoplay={false} />,
     },
     {
@@ -148,7 +185,10 @@ export default function CommandBar(props) {
       shortcut: ['g', 'u'],
       keywords: 'go-uses',
       section: 'Go To',
-      perform: () => router.push('/uses'),
+      perform: () => {
+        router.push('/uses')
+        setOpen(false)
+      },
       icon: <Lottie lottieRef={usesRef} style={iconSize} animationData={usesIcon} loop={false} autoplay={false} />,
     },
     {
@@ -157,25 +197,67 @@ export default function CommandBar(props) {
       shortcut: ['g', 'r'],
       keywords: 'go-reminder',
       section: 'Go To',
-      perform: () => router.push('/reminder'),
+      perform: () => {
+        router.push('/reminder')
+        setOpen(false)
+      },
       icon: <Lottie lottieRef={reminderRef} style={iconSize} animationData={reminderIcon} loop={false} autoplay={false} />,
     },
-  ]
+  ], [router])
+
+  const contextValue = useMemo(() => ({
+    toggle: () => setOpen(prev => !prev),
+    open: () => setOpen(true),
+    close: () => setOpen(false),
+  }), [])
+
+  // Handle keyboard shortcut (Cmd/Ctrl+K)
+  useEffect(() => {
+    const down = (e) => {
+      if (e.key === 'k' && (e.metaKey || e.ctrlKey)) {
+        e.preventDefault()
+        setOpen((open) => !open)
+      }
+    }
+
+    document.addEventListener('keydown', down)
+    return () => document.removeEventListener('keydown', down)
+  }, [])
+
+  // Group actions by section
+  const groupedActions = useMemo(() => {
+    const groups = {}
+    actions.forEach(action => {
+      if (!groups[action.section]) {
+        groups[action.section] = []
+      }
+      groups[action.section].push(action)
+    })
+    return groups
+  }, [actions])
 
   return (
-    <>
-      <KBarProvider actions={actions}>
-        <KBarPortal>
-          <Positioner>
-            <Animator>
-              <Search placeholder="Type a command or search…" />
-              <RenderResults />
-            </Animator>
-          </Positioner>
-        </KBarPortal>
+    <CommandBarContext.Provider value={contextValue}>
+      <StyledCommandDialog open={open} onOpenChange={setOpen}>
+        <StyledCommandInput placeholder="Type a command or search…" />
+        <StyledCommandList>
+          <StyledCommandEmpty>No results found.</StyledCommandEmpty>
+          {Object.entries(groupedActions).map(([section, sectionActions]) => (
+            <StyledCommandGroup key={section} heading={section}>
+              {sectionActions.map(action => (
+                <ActionCommandItem
+                  key={action.id}
+                  action={action}
+                  value={`${action.name} ${action.keywords}`}
+                  onSelect={() => action.perform()}
+                />
+              ))}
+            </StyledCommandGroup>
+          ))}
+        </StyledCommandList>
+      </StyledCommandDialog>
 
-        {props.children}
-      </KBarProvider>
+      {props.children}
 
       <Toast
         title="Copied :D"
@@ -184,91 +266,68 @@ export default function CommandBar(props) {
         showToast={showToast}
         setShowToast={setShowToast}
       />
-    </>
+    </CommandBarContext.Provider>
   )
 }
 
-function RenderResults() {
-  const { results } = useDeepMatches()
+function ActionCommandItem({ action, value, onSelect }) {
+  const itemRef = useRef(null)
 
-  return (
-    <KBarResults
-      items={results}
-      onRender={({ item, active }) =>
-        typeof item === 'string' ? (
-          <GroupName>{item}</GroupName>
-        ) : (
-          <ResultItem action={item} active={active} />
-        )
-      }
-    />
-  )
-}
+  const handleMouseEnter = () => {
+    action.icon?.props?.lottieRef?.current?.play()
+  }
 
-const ResultItem = forwardRef(({ action, active }, ref) => {
-  if (active) {
-    action.icon.props.lottieRef.current?.play()
-  } else {
-    action.icon.props.lottieRef.current?.stop()
+  const handleMouseLeave = () => {
+    // Only stop if not selected
+    if (itemRef.current?.getAttribute('aria-selected') !== 'true') {
+      action.icon?.props?.lottieRef?.current?.stop()
+    }
+  }
+
+  // Use MutationObserver or check on focus
+  const handleFocus = () => {
+    action.icon?.props?.lottieRef?.current?.play()
+  }
+
+  const handleBlur = () => {
+    action.icon?.props?.lottieRef?.current?.stop()
   }
 
   return (
-    <Box
-      ref={ref}
-      css={getResultStyle(active)}
-      onMouseEnter={() => action.icon.props.lottieRef.current?.play()}
-      onMouseLeave={() => action.icon.props.lottieRef.current?.stop()}
+    <StyledCommandItem
+      ref={itemRef}
+      value={value}
+      onSelect={onSelect}
+      onMouseEnter={handleMouseEnter}
+      onMouseLeave={handleMouseLeave}
+      onFocus={handleFocus}
+      onBlur={handleBlur}
     >
-      <Action>
-        {action.icon && action.icon}
-        <ActionRow>
-          <span>{action.name}</span>
-        </ActionRow>
-      </Action>
-      {action.shortcut?.length ? (
-        <Shortcut aria-hidden>
-          {action.shortcut.map(shortcut => (
-            <Kbd key={shortcut}>{shortcut}</Kbd>
-          ))}
-        </Shortcut>
-      ) : null}
-    </Box>
+      <Box
+        css={{
+          display: 'flex',
+          alignItems: 'center',
+          justifyContent: 'space-between',
+          width: '100%',
+        }}
+      >
+        <Action>
+          {action.icon && action.icon}
+          <ActionRow>
+            <span>{action.name}</span>
+          </ActionRow>
+        </Action>
+        {action.shortcut?.length ? (
+          <Shortcut aria-hidden>
+            {action.shortcut.map(shortcut => (
+              <Kbd key={shortcut}>{shortcut}</Kbd>
+            ))}
+          </Shortcut>
+        ) : null}
+      </Box>
+    </StyledCommandItem>
   )
-})
-
-ResultItem.displayName = 'ResultItem'
-
-const Positioner = styled(KBarPositioner, {
-  position: 'fixed',
-  display: 'flex',
-  alignItems: 'flex-start',
-  justifyContent: 'center',
-  width: '100%',
-  inset: '0px',
-  padding: '14vh 16px 16px',
-  background: 'rgba(0, 0, 0, .8)',
-  boxSizing: 'border-box',
-})
-
-const Search = styled(KBarSearch, {
-  padding: '12px 16px',
-  fontSize: '16px',
-  width: '100%',
-  boxSizing: 'border-box',
-  outline: 'none',
-  border: 'none',
-  margin: 0,
-  background: '$command',
-  color: '$primary',
-})
-
-const GroupName = styled('div', {
-  padding: '8px 16px',
-  fontSize: '10px',
-  textTransform: 'uppercase',
-  letterSpacing: '1px',
-  background: '$command',
-})
+}
 
 const Kbd = styled('kbd', {
   background: 'rgba(255, 255, 255, .1)',
@@ -294,40 +353,98 @@ const ActionRow = styled('div', {
   flexDirection: 'column',
 })
 
-const Animator = styled(KBarAnimator, {
-  backgroundColor: '#1a1c1e',
-  maxWidth: '600px',
-  width: '100%',
-  color: '$primary',
-  borderRadius: '8px',
-  overflow: 'hidden',
-  '@supports ((-webkit-backdrop-filter: none) or (backdrop-filter: none))': {
-    backgroundColor: '$command',
-    WebkitBackdropFilter: 'saturate(300%) blur(25px)',
-    backdropFilter: 'saturate(300%) blur(25px)',
-  },
+// const StyledCommandDialog = styled(CommandDialog, {
+//   '& [cmdk-root]': {
+//     backgroundColor: '#1a1c1e',
+//     maxWidth: '600px',
+//     width: '100%',
+//     color: '$primary',
+//     borderRadius: '8px',
+//     overflow: 'hidden',
+//     '@supports ((-webkit-backdrop-filter: none) or (backdrop-filter: none))': {
+//       backgroundColor: '$command',
+//       WebkitBackdropFilter: 'saturate(300%) blur(25px)',
+//       backdropFilter: 'saturate(300%) blur(25px)',
+//     },
+//   },
 
+const StyledCommandDialog = styled(CommandDialog, {
+  position: 'fixed',
+  display: 'flex',
+  flexDirection: 'column',
+  alignItems: 'center',
+  justifyContent: 'center',
+  width: '100%',
+  inset: '0px',
+  padding: '14vh 16px 16px',
+  background: 'rgba(0, 0, 0, .8)',
+  boxSizing: 'border-box',
+})
+
+const StyledCommandInput = styled(CommandInput, {
+  padding: '12px 16px',
+  fontSize: '16px',
+  width: '100%',
+  maxWidth: '600px',
+  boxSizing: 'border-box',
+  outline: 'none',
+  border: 'none',
+  margin: 0,
+  background: '$command',
+  color: '$primary',
+  backgroundColor: '#1a1c1e',
+  borderTopLeftRadius: '8px',
+  borderTopRightRadius: '8px',
+})
+
+const StyledCommandList = styled(CommandList, {
+  backgroundColor: '#1a1c1e',
+  maxHeight: '400px',
+  width: '100%',
+  maxWidth: '600px',
+  overflow: 'auto',
+  borderBottomLeftRadius: '8px',
+  borderBottomRightRadius: '8px',
   /* Hide scrollbar for Chrome, Safari and Opera */
-  '& > div > div::-webkit-scrollbar': {
+  '&::-webkit-scrollbar': {
     display: 'none',
   },
-
   /* Hide scrollbar for IE, Edge and Firefox */
-  '& > div > div': {
-    '-ms-overflow-style': 'none',
-    'scrollbar-width': 'none',
+  '-ms-overflow-style': 'none',
+  'scrollbar-width': 'none',
+})
+
+const StyledCommandEmpty = styled(CommandEmpty, {
+  padding: '12px 16px',
+  textAlign: 'center',
+  fontSize: '14px',
+  color: '$secondary',
+})
+
+const StyledCommandGroup = styled(CommandGroup, {
+  '& [cmdk-group-heading]': {
+    padding: '8px 16px',
+    fontSize: '10px',
+    textTransform: 'uppercase',
+    letterSpacing: '1px',
+    background: '$command',
+    color: '$secondary',
   },
 })
 
-const getResultStyle = active => {
-  return {
-    padding: '12px 16px',
-    background: active ? 'rgba(255, 255, 255, 0.1)' : '$command',
-    display: 'flex',
-    alignItems: 'center',
-    justifyContent: 'space-between',
-    margin: 0,
-    cursor: 'pointer',
-    color: active ? '$primary' : '$secondary',
-  }
-}
+const StyledCommandItem = styled(CommandItem, {
+  padding: '12px 16px',
+  display: 'flex',
+  alignItems: 'center',
+  justifyContent: 'space-between',
+  margin: 0,
+  cursor: 'pointer',
+  color: '$secondary',
+  '&[aria-selected="true"]': {
+    background: 'rgba(255, 255, 255, 0.1)',
+    color: '$primary',
+  },
+  '&:hover, &:focus': {
+    background: 'rgba(255, 255, 255, 0.1)',
+  },
+})

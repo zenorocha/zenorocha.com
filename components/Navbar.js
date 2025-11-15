@@ -3,7 +3,7 @@ import { useState } from 'react'
 import Link from 'next/link'
 import { useRouter } from 'next/router'
 import { motion } from 'framer-motion'
-import { useKBar } from 'kbar'
+import { useCommandBar } from './CommandBar'
 
 export default function Navbar() {
   const router = useRouter()
@@ -18,7 +18,7 @@ export default function Navbar() {
     'Reminder',
   ]
   const [hovered, setHovered] = useState('')
-  const { query } = useKBar()
+  const { toggle } = useCommandBar()
 
   return (
     <Header>
@@ -69,7 +69,7 @@ export default function Navbar() {
           as="button"
           type="button"
           aria-label="Command"
-          onClick={query.toggle}
+          onClick={toggle}
           css={{ padding: '0 8px' }}
         >
           <Icon className="ri-command-line" />

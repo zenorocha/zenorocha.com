@@ -24,7 +24,7 @@ import { MyDependency } from "my-dependency";
 vs
 
 ```html
-<link rel="import" href="my-dependency.html">
+<link rel="import" href="my-dependency.html" />
 ```
 
 It's still unclear how they'll interoperate but being able to package templates, images, styles, and scripts into one file is not only appealing but a key factor in making Web Components truly successful ([despite browser vendor disagreements](https://hacks.mozilla.org/2014/12/mozilla-and-web-components/)).

@@ -58,12 +58,12 @@ Exemplo: http://vimeo.com/api/v2/zenorocha/info.json
 
 ```json
 {
-  "id":"6796565",
-  "display_name":"Zeno Rocha",
-  "location":"Rio de Janeiro",
-  "url":"https://zenorocha.com",
-  "profile_url":"http://vimeo.com/zenorocha",
-  "total_videos_liked":3
+  "id": "6796565",
+  "display_name": "Zeno Rocha",
+  "location": "Rio de Janeiro",
+  "url": "https://zenorocha.com",
+  "profile_url": "http://vimeo.com/zenorocha",
+  "total_videos_liked": 3
 }
 ```
 

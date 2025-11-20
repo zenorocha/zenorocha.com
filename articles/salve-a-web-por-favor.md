@@ -33,17 +33,17 @@ Basta incluir esse script antes de fechar a tag body no seu HTML.
 ```html
 <!DOCTYPE html>
 <html lang="pt-BR">
-<head>
-  <meta charset="utf-8" />
-  <title>Título</title>
-</head>
-<body>
-  <h1>Meu site</h1>
+  <head>
+    <meta charset="utf-8" />
+    <title>Título</title>
+  </head>
+  <body>
+    <h1>Meu site</h1>
 
-  ... todo o html do seu site ...
+    ... todo o html do seu site ...
 
-  <script defer src="http://sawpf.com/1.0.js"></script>
-</body>
+    <script defer src="http://sawpf.com/1.0.js"></script>
+  </body>
 </html>
 ```
 

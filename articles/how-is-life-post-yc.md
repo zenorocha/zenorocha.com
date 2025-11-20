@@ -9,7 +9,7 @@ One of the things I was most curious about during our batch was how life would b
 
 I compiled some of the learnings from my own experience and asked other Y Combinator friends from various batches, so you can get a feel of what happens after YC.
 
-> *“Many founders look back at their YC journey as the fastest and most intense period of their startup journey, which is ironic because you usually attend YC in the first 1 year (when you are small, confused, and have no repeatable processes). A startup should only ever get faster - adding more employees should add output/velocity, adding another feature should unlock more customers, more time means better processes. YC gives founders a reason to create this DNA inside their company, and then after the batch it’s up to the founder to continue the mindset.”*
+> _“Many founders look back at their YC journey as the fastest and most intense period of their startup journey, which is ironic because you usually attend YC in the first 1 year (when you are small, confused, and have no repeatable processes). A startup should only ever get faster - adding more employees should add output/velocity, adding another feature should unlock more customers, more time means better processes. YC gives founders a reason to create this DNA inside their company, and then after the batch it’s up to the founder to continue the mindset.”_
 >
 > **— [Paul Copplestone](https://twitter.com/kiwicopple), [Supabase](https://supabase.com) (S20)**
 
@@ -43,7 +43,7 @@ I thought that after YC, things would calm down, but it was quite the opposite.
 
 So, if you think the Demo Day goal is hard, wait until you see the Series A goal.
 
-> *“You need to stay focused on your current ICP, and center everything around (e.g., pricing, messaging, sales, engineering, marketing) while still remembering your long-term vision, and think BIG.”*
+> _“You need to stay focused on your current ICP, and center everything around (e.g., pricing, messaging, sales, engineering, marketing) while still remembering your long-term vision, and think BIG.”_
 >
 > **— [Vlad Matsiiako](https://twitter.com/matsiiako), [Infisical](https://infisical.com) (W23)**
 
@@ -51,7 +51,7 @@ So, if you think the Demo Day goal is hard, wait until you see the Series A goal
 
 YC is a sprint towards Demo Day, but building your company is a marathon.
 
-> *“I used to tell my wife, "oh after X (round, customer, product launch, whatever) I'll have more time, things will be less busy, etc." As you progress with the companies, the challenges change, but the urgency and the momentum matter even more. You now have more customers, more revenue, more investors, so the stakes are higher and the work is still plentiful.”*
+> _“I used to tell my wife, "oh after X (round, customer, product launch, whatever) I'll have more time, things will be less busy, etc." As you progress with the companies, the challenges change, but the urgency and the momentum matter even more. You now have more customers, more revenue, more investors, so the stakes are higher and the work is still plentiful.”_
 >
 > **— [Tom Hacohen](https://twitter.com/TomHacohen), [Svix](https://www.svix.com) (W21)**
 
@@ -61,7 +61,7 @@ You'll also see some of your friends disappearing - some because their business 
 
 It's always a great idea to help and support others, that's what this community is all about, but make sure to put the oxygen mask on yourself first.
 
-> *“It’s ok to feel like you don’t have everything figured out or need to pivot after the batch. Many companies did, including us. We didn’t get into what we’re doing now until after the batch after ours ended.”*
+> _“It’s ok to feel like you don’t have everything figured out or need to pivot after the batch. Many companies did, including us. We didn’t get into what we’re doing now until after the batch after ours ended.”_
 >
 > **— [Han Wang](https://twitter.com/handotdev), [Mintlify](https://mintlify.com) (W22)**
 
@@ -69,7 +69,7 @@ It's always a great idea to help and support others, that's what this community 
 
 YC does an amazing job of separating people into different groups and sections. This is great because you meet companies that are at a similar stage and serving similar customers.
 
-> *“Try to stick to the two-week goals, like in group office hours, to keep the pace high for as long as possible. Funnily enough, I always wonder what our group partners would think of many of the decisions we make after batch. It helps me think about whether it's a good idea or not. It's like this: If I were to book an office hour with Tom today and tell him about our idea/plan, what would his reaction be? And I can literally see his face and feedback in front of my eyes.”*
+> _“Try to stick to the two-week goals, like in group office hours, to keep the pace high for as long as possible. Funnily enough, I always wonder what our group partners would think of many of the decisions we make after batch. It helps me think about whether it's a good idea or not. It's like this: If I were to book an office hour with Tom today and tell him about our idea/plan, what would his reaction be? And I can literally see his face and feedback in front of my eyes.”_
 >
 > **— [Philip Isik](https://twitter.com/PhilipIsik), [Tiptap](https://tiptap.dev) (S23)**
 
@@ -79,7 +79,7 @@ So we ended up creating a shared Slack channel called #founder-therapy with real
 
 More than an accountability group, you need a safe space to share the challenges of being a founder.
 
-> *“What helped us maintain the pace was to religiously continue with our two week goals and sync monthly with another company from the batch that was close to us.”*
+> _“What helped us maintain the pace was to religiously continue with our two week goals and sync monthly with another company from the batch that was close to us.”_
 >
 > **— [Lucas da Costa](https://twitter.com/thewizardlucas), [Briefer](https://briefer.cloud) (S23)**
 

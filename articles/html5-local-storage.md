@@ -40,7 +40,7 @@ Vamos criar uma lista não-ordenada para armazenar cada tarefa. E um botão para
 Aqui definimos o método **setItem**, pertencente ao objeto **localStorage**, atribuindo a variável "dados" todo o html da nossa `<ul>` com id "lista". Note que, nesse exemplo, o método é chamado a cada evento de tecla pressionada, mas você pode criar um botão e só chamar esse método ao clicá-lo por exemplo. Melhorando assim a performance da aplicação.
 
 ```js
-$("#lista").keypress(function() {
+$("#lista").keypress(function () {
   localStorage.setItem("dados", $("#lista").html());
 });
 ```
@@ -56,7 +56,7 @@ if (localStorage.getItem("dados")) {
 Podemos também utilizar o método **clear** que, como o próprio nome já diz, limpa o objeto **localStorage**. E, em seguida, atualiza o navegador para esvaziar os campos. Isso tudo ao ser clicado o `<button>` de id "limpar".
 
 ```js
-$("#limpar").click(function() {
+$("#limpar").click(function () {
   localStorage.clear();
   window.location = window.location;
 });
@@ -68,20 +68,20 @@ Colocando tudo isso dentro de uma função temos:
 
 ```html
 <script type="text/javascript">
-$(function() {
-  $("#lista").keypress(function() {
-    localStorage.setItem("dados", $("#lista").html());
-  });
+  $(function () {
+    $("#lista").keypress(function () {
+      localStorage.setItem("dados", $("#lista").html());
+    });
 
-  if (localStorage.getItem("dado")) {
-    $("#lista").html(localStorage.getItem("dados"));
-  }
+    if (localStorage.getItem("dado")) {
+      $("#lista").html(localStorage.getItem("dados"));
+    }
 
-  $("#limpar").click(function() {
-    localStorage.clear();
-    window.location = window.location;
+    $("#limpar").click(function () {
+      localStorage.clear();
+      window.location = window.location;
+    });
   });
-});
 </script>
 ```
 

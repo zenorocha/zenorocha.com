@@ -6,6 +6,7 @@ date: "2023-02-06"
 ---
 
 Whenever I talk to other YC founders in my batch, the number one question I get is:
+
 > "How did you get the [resend.com](https://resend.com) domain?"
 
 Instead of repeating myself, I decided to write this post with two goals in mind:
@@ -156,6 +157,7 @@ It was a long and painful process, but it was worth it.
 It's easy to think that a good name is the key to success, but that's not true. You can have the best name in the world, but if you don't have a good product, you won't get anywhere.
 
 Paul Graham once wrote an essay called [Change Your Name](http://www.paulgraham.com/name.html), and he said:
+
 > If you have a US startup called X and you don't have x.com, you should probably change your name.
 
 Of course, every rule has exceptions. Just look at [notion.so](https://notion.so) and [linear.app](https://linear.app). These companies are winning not because of their domains but because of their amazing products.

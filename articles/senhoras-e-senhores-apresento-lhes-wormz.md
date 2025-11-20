@@ -87,8 +87,8 @@ Perceba que se você baixar toda a biblioteca, terá que importar um arquivo com
 ```js
 yepnope({
   test: Modernizr.canvas,
-  yep: 'js/wormz.js',
-  nope: 'js/polyfill.js'
+  yep: "js/wormz.js",
+  nope: "js/polyfill.js"
 });
 ```
 

@@ -17,7 +17,7 @@ When I was a CPO at [Liferay Cloud](https://liferay.com), I faced the problem of
 
 We had high-profile customers complaining about deliverability, and I've been frustrated with existing services ever since.
 
-More recently, as a VP of Developer Experience at [WorkOS](https://workos.com), I once again had to deal with emails landing in the spam folder. 
+More recently, as a VP of Developer Experience at [WorkOS](https://workos.com), I once again had to deal with emails landing in the spam folder.
 
 After looking at all the different solutions out there, I've been obsessed with the idea of solving this problem once and for all.
 

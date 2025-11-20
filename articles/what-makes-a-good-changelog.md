@@ -75,6 +75,6 @@ Even if you don’t think your changelog will have many external readers in the 
 
 If you ever want to learn about what to expect from WorkOS, visit our changelog. It’s where we’ll explain how and why our software changes. If you want more changelog inspiration, [I’ve tweeted about the topic before](https://twitter.com/zenorocha/status/1404500294235410433). Happy logging!
 
-*If you liked this post, you can [read the WorkOS changelog here](https://workos.com/changelog?utm_source=blog&utm_medium=blog+post&utm_campaign=changelog+post). If you also want to spend your time working on creating great developer experiences, [we are hiring](https://jobs.lever.co/workos). If you ever want to talk about developer experience (or changelogs), please [tweet or DM me](https://twitter.com/zenorocha/)!*
+_If you liked this post, you can [read the WorkOS changelog here](https://workos.com/changelog?utm_source=blog&utm_medium=blog+post&utm_campaign=changelog+post). If you also want to spend your time working on creating great developer experiences, [we are hiring](https://jobs.lever.co/workos). If you ever want to talk about developer experience (or changelogs), please [tweet or DM me](https://twitter.com/zenorocha/)!_
 
 _Originally published in the [WorkOS Blog](https://workos.com/blog/what-makes-a-good-changelog)_

@@ -70,7 +70,7 @@ Então criamos um mesh, um grafo tridimensional que contém os vértices, faces 
 ```js
 var mesh = new THREE.Cube(250, 250, 250, 1, 1, 1, materiais);
 
-cubo = new THREE.Mesh(mesh, new THREE.MeshFaceMaterial() );
+cubo = new THREE.Mesh(mesh, new THREE.MeshFaceMaterial());
 
 cubo.position.y = 150;
 ```
@@ -90,13 +90,13 @@ renderer = new THREE.CanvasRenderer();
 
 renderer.setSize(canvasWidth, canvasHeight);
 
-container.appendChild( renderer.domElement );
+container.appendChild(renderer.domElement);
 ```
 
 Por fim, definimos que o container estará escutando pelo evento de quando o mouse está clicado e que quando esse evento for disparado chamará a função onMouseDown.
 
 ```js
-container.addEventListener('mousedown', onMouseDown, false);
+container.addEventListener("mousedown", onMouseDown, false);
 ```
 
 E agora paramos por aqui antes que esse post fique enorme, se você quiser saber mais sobre o resto das funções é só acessar o [repositório do github que contém o código completo](https://github.com/zenorocha/HTML5-Canvas).
@@ -108,8 +108,8 @@ E agora paramos por aqui antes que esse post fique enorme, se você quiser saber
 ```js
 yepnope({
   test: Modernizr.canvas,
-  yep: ['build/Three.js', 'js/RequestAnimationFrame.js', 'js/canvas.js'],
-  nope: 'css/canvas-polyfill.css'
+  yep: ["build/Three.js", "js/RequestAnimationFrame.js", "js/canvas.js"],
+  nope: "css/canvas-polyfill.css"
 });
 ```
 

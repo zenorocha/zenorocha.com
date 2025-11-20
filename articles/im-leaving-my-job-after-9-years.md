@@ -58,7 +58,7 @@ In October 2013, I went to Europe for a couple of presentations and ended up in 
 
 Fortunately, many of my coworkers from the Spain office went there to visit me. They were all very friendly, trying to entertain me all the time. They even brought my Macbook and a 3G USB modem, so I could "escape" from reality.
 
-*Interesting fact: the Dracula Theme was [created in that hospital](https://draculatheme.com/about).*
+_Interesting fact: the Dracula Theme was [created in that hospital](https://draculatheme.com/about)._
 
 <figure>
     <img src="/static/img/posts/im-leaving-my-job-after-9-years-m.jpg" class="post-image-full" alt="Hospital Universitario La Paz - Madrid, Spain (2013)">
@@ -117,7 +117,7 @@ I was deeply involved with the open source community, and my agenda was filled w
 
 That's why I pitched the CEO to start a Developer Relations team. He accepted the idea, and I recruited three amazing people to this team - [Jamie](https://www.linkedin.com/in/jamie-sammons-a577637/), [Jonni](https://www.linkedin.com/in/jonnilundy/), [Milen](https://www.linkedin.com/in/milendyankov/).
 
-*Interesting fact: From the [116 talks](/talks) I've given, 25 of them were Liferay conferences.*
+_Interesting fact: From the [116 talks](/talks) I've given, 25 of them were Liferay conferences._
 
 <figure>
     <img src="/static/img/posts/im-leaving-my-job-after-9-years-p.jpg" class="post-image-full" alt="Liferay DEVCON - Darmstadt, Germany (2015)">
@@ -143,7 +143,7 @@ Along with the new site, we made tons of improvements around contributing, parti
 
 In 2015, [Eduardo](https://www.linkedin.com/in/eduardolundgren/) and I noticed that the experience of going from zero to production with Liferay Portal was pretty archaic when compared to other new technologies that we were exposed to, so we decided to embark on this journey to modernize Liferay.
 
-We realized that solving this problem from the portal side would be a monumental challenge. All the legacy features and compatibility issues that any enterprise software have would prevent us from evolving fast. That's when we decided to branch out and create a prototype called *Launchpad*.
+We realized that solving this problem from the portal side would be a monumental challenge. All the legacy features and compatibility issues that any enterprise software have would prevent us from evolving fast. That's when we decided to branch out and create a prototype called _Launchpad_.
 
 <img src="/static/img/posts/im-leaving-my-job-after-9-years-r.png" alt="Launchpad">
 
@@ -156,7 +156,7 @@ We came up with a simple way to create microservices in the cloud and connect th
 
 In 2016, we noticed the potential of Launchpad and decided to take this idea to the next level. Instead of only deploying microservices, we expanded our vision to deploy any kind of container to the cloud.
 
-That's how *WeDeploy*, the first cloud product from Liferay, was born ([read story](/introducing-wedeploy)).
+That's how _WeDeploy_, the first cloud product from Liferay, was born ([read story](/introducing-wedeploy)).
 
 <figure>
     <img src="/static/img/posts/im-leaving-my-job-after-9-years-s.jpg" class="post-image-full" alt="Liferay DEVCON - Darmstadt, Germany (2016)">
@@ -193,7 +193,7 @@ The core platform was still the same, but we added new features, changed our bra
     <img src="/static/img/posts/im-leaving-my-job-after-9-years-t.png" alt="Liferay DXP Cloud">
 </a>
 
-That's when we pivoted our product to the enterprise audience and called it *Liferay DXP Cloud*.
+That's when we pivoted our product to the enterprise audience and called it _Liferay DXP Cloud_.
 
 I'm not gonna lie - it was really hard to [shutdown WeDeploy](/discontinuing-wedeploy). I invested a lot of energy into that brand, and seeing all that fade away was soul-crushing.
 

@@ -50,7 +50,7 @@ But just because it's hard, it doesn't mean you can't do it.
 
 ## 4. There's no finish line
 
-As I got closer to the end, I couldn't believe I was actually going to make it. 
+As I got closer to the end, I couldn't believe I was actually going to make it.
 
 Getting to that finish line was incredible, and I'm super happy I went through this experience.
 

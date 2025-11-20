@@ -6,7 +6,7 @@ slug: why-im-joining-workos
 date: "2021-07-06"
 ---
 
-*TL;DR: I accepted a position as VP of Developer Experience at [WorkOS](https://workos.com).<br>This post tells the story of how I landed this job and why I’m so excited about it.*
+_TL;DR: I accepted a position as VP of Developer Experience at [WorkOS](https://workos.com).<br>This post tells the story of how I landed this job and why I’m so excited about it._
 
 A couple of months ago, I got a random DM on Twitter.
 

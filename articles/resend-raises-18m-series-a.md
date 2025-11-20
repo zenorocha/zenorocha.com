@@ -1,7 +1,7 @@
 ---
 title: Resend raises $18M Series A
 description: How we got here. Where are we going. Why we exist.
-date: '2024-12-04'
+date: "2024-12-04"
 canonical_url: https://resend.com/blog/series-a
 ---
 

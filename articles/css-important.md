@@ -11,7 +11,9 @@ Você está lá todo feliz codificando seu [CSS](http://pt.wikipedia.org/wiki/
 Você examina sua folha de estilo e lá está declarado direitinho.
 
 ```css
-p { color: red; }
+p {
+  color: red;
+}
 ```
 
 Percorre o CSS inteiro e verifica que essa regra é a última que você escreveu e também é a última a ser importada no documento.
@@ -27,7 +29,9 @@ Ah! Com certeza deve ser o maldito [cache](http://pt.wikipedia.org/wiki/Cache) q
 O quê fazer? Se você é um pouquinho mais experiente com CSS vai partir para ignorância e utilizar a **[técnica&#160;!important](http://www.maujor.com/blog/2006/08/18/declaracao-com-important/)**.
 
 ```css
-p { color: red !important; }
+p {
+  color: red !important;
+}
 ```
 
 E voilà, funcionou! E se funcionou está tudo bem, certo? Errado!

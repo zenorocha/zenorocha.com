@@ -36,7 +36,7 @@ O primeiro, não muito aconselhável, é usando o compilador baseado no browser.
 <script src="http://jashkenas.github.com/coffee-script/extras/coffee-script.js"></script>
 
 <script type="text/coffeescript">
-  # inicie aqui a brincadeira
+    # inicie aqui a brincadeira
 </script>
 ```
 
@@ -82,13 +82,9 @@ var amyEstaViva;
 amyEstaViva = false;
 
 if (amyEstaViva) {
-
   alert("Eu sabia!");
-
 } else {
-
   alert("Droga =/");
-
 }
 ```
 
@@ -123,10 +119,8 @@ var $;
 
 $ = jQuery;
 
-$.fn.myFunction = function() {
-
+$.fn.myFunction = function () {
   /* sua brincadeira aqui */
-
 };
 ```
 

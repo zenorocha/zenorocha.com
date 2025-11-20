@@ -77,9 +77,15 @@ Ainda é uma renderização bastante bugada em browsers, mas mesmo com pequenas 
 As estações dentre todos os objetos e dificuldades para se desenhar o Rádio foi a que mais me satisfez, pois não fazia ideia como conseguir atingir os "palitos" da frequência, o CSS me mostrou estar mais adiantado do que eu imaginava e consegui fazer isso com uma única marcação HTML e utilizando o "linear-gradient" combinado com o "background-size".
 
 ```css
-background-image: linear-gradient(0, rgba(255,255,255,1) 1px, transparent 1px), linear-gradient(0, rgba(255,255,255,.3) 1px, transparent 1px);
-background-size: 25px 50px, 5px 5px;
-background-position:-24px bottom, -24px bottom;
+background-image:
+  linear-gradient(0, rgba(255, 255, 255, 1) 1px, transparent 1px),
+  linear-gradient(0, rgba(255, 255, 255, 0.3) 1px, transparent 1px);
+background-size:
+  25px 50px,
+  5px 5px;
+background-position:
+  -24px bottom,
+  -24px bottom;
 background-repeat: repeat-x;
 ```
 
@@ -128,7 +134,7 @@ Depois de ter reescrito tudo em YUI, Zeno se deparou que ainda faltava uma coisa
 Para ativar, digite:
 
 ```js
-cima + cima + baixo + baixo + esquerda + direita + esquerda + direita + b + a
+cima + cima + baixo + baixo + esquerda + direita + esquerda + direita + b + a;
 ```
 
 E voilà!
@@ -148,7 +154,7 @@ Basicamente o processo de rotação do tunner usa a lógica de _"Pressiona" -> "
 O "Pressiona" é um evento para detectar quando pressionarem o mouse sobre o tunner. Quando ele for disparado, o ângulo entre a posição do mouse e o centro do botão do tunner é calculado:
 
 ```js
-angulo = Math.atan2( tunerCenterY - MouseY , tunerCenterX - MouseX );
+angulo = Math.atan2(tunerCenterY - MouseY, tunerCenterX - MouseX);
 ```
 
 A função atan2 retorna um ângulo em radianos de um vetor dado os valores dos componentes y e x desse vetor.
@@ -158,7 +164,7 @@ A função atan2 retorna um ângulo em radianos de um vetor dado os valores dos 
 Mas esse ângulo é retornado em radianos, para converter de radianos em graus, usamos:
 
 ```js
-anguloGraus =  anguloRadianos * ( 180/Math.PI );
+anguloGraus = anguloRadianos * (180 / Math.PI);
 ```
 
 Então guardamos esse ângulo para ser a referência do valor inicial da sequência
@@ -177,25 +183,27 @@ Como fazemos isso?
 Primeiro precisamos calcular a estação que está tocando no momento, usando a fórmula:
 
 ```js
-numeroCanal = Math.round( ( posicaoPonteiro / larguraDoMostrador ) * ( numeroDeCanais - 1 ) );
+numeroCanal = Math.round(
+  (posicaoPonteiro / larguraDoMostrador) * (numeroDeCanais - 1)
+);
 ```
 
 Explicando melhor:
 
 ```js
-( posicaoPonteiro / larguraDoMostrador )
+posicaoPonteiro / larguraDoMostrador;
 ```
 
 Serve para saber a posição do ponteiro em relação ao tamanho do mostrador, ou seja em que porcentagem o ponteiro se encontra.
 
 ```js
-( numeroDeCanais - 1 )
+numeroDeCanais - 1;
 ```
 
 Porque o primeiro canal é 0.
 
 ```js
-Math.round
+Math.round;
 ```
 
 É a função que arredonda um número para o inteiro mais próximo ( ex: Math.round(2.3) = 2 ,Math.round(2.8) = 3 ), isso porque o número do canal é um inteiro e não um float.
@@ -205,19 +213,21 @@ Math.round
 Agora queremos saber o valor do volume do chiado e do som da estação, para obter a trasição gradativa usamos a função do coseno (Math.cos), a função do coseno gera uma ondulação que é exatamente o que queremos:
 
 ```js
-Valor =  Math.cos( ( posicaoPonteiro / larguraDoMostrador ) * ( numeroDeCanais - 1 ) * Math.PI * 2 );
+Valor = Math.cos(
+  (posicaoPonteiro / larguraDoMostrador) * (numeroDeCanais - 1) * Math.PI * 2
+);
 ```
 
 Explicando melhor:
 
 ```js
-( posicaoPonteiro / larguraDoMostrador ) * ( numeroDeCanais - 1 )
+(posicaoPonteiro / larguraDoMostrador) * (numeroDeCanais - 1);
 ```
 
 Tem o mesmo objetivo da fórmula anterior, porém agora sem arredondar.
 
 ```js
-Math.PI * 2
+Math.PI * 2;
 ```
 
 Multiplicamos o o valor por 2*Pi porque a Math.cos recebe como parâmetro um ângulo em radiano e a função coseno forma um ciclo a cada 2*Pi. Como nós queremos que a função gere um ciclo para cada canal temos que multiplicar por 2\*PI

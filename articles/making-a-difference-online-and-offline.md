@@ -22,7 +22,7 @@ In the afternoon, we ordered 100 baskets of food, 7 kg (15 pounds) each. And in 
 
 ![Food packages](/static/img/posts/making-a-difference-online-and-offline-b.jpeg)
 
-On Friday (05/ 29), a day before the collection ended,  our amazing staff helped with transportation to the collection point.
+On Friday (05/ 29), a day before the collection ended, our amazing staff helped with transportation to the collection point.
 
 ![Collecting food](/static/img/posts/making-a-difference-online-and-offline-c.jpeg)
 
@@ -35,5 +35,5 @@ On Saturday (05/30), the campaign has ended with 2392 kg (5273 pounds) of food a
 ![Showing Liferay shirt](/static/img/posts/making-a-difference-online-and-offline-e.jpeg)
 
 We're proud to work in a company like Liferay. A company that cares about the community and gives the opportunity for its employees to make a difference in other people's lifes.
- 
+
 Thanks everybody who participated in this campaign :)

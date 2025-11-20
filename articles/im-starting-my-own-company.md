@@ -2,7 +2,7 @@
 title: I'm starting my own company
 description: "I'm leaving my job to start my own company. Why am I doing this? What problem are we solving? Why now?"
 image: /static/img/posts/im-starting-my-own-company.jpg
-date: "2023-01-04"
+date: '2023-01-04'
 ---
 
 Personal update: I'm leaving my job to start my own company: [resend.com](https://resend.com).

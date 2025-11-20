@@ -1,8 +1,8 @@
-"use client";
+'use client';
 
-import { useEffect, useState } from "react";
+import { useEffect, useState } from 'react';
 
-import { ButtonPrimary } from "../components/ButtonPrimary";
+import { ButtonPrimary } from '../components/ButtonPrimary';
 
 export default function ShortcutError() {
   const [mounted, setMounted] = useState(false);

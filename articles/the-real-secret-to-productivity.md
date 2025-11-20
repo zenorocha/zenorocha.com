@@ -1,8 +1,8 @@
 ---
-title: "The Real Secret to Productivity"
+title: 'The Real Secret to Productivity'
 description: "A valuable advice by DHH at RailsConf '09."
 skip: true
-date: "2015-03-04"
+date: '2015-03-04'
 ---
 
 A valuable advice by [DHH](https://twitter.com/dhh) at RailsConf '09.

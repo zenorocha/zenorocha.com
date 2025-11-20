@@ -1,9 +1,9 @@
 ---
 title: Relato - III FSLDC
-description: "Nesse último sábado, dia 04 de junho, rolou um evento de destaque no cenário do software livre do estado do Rio de Janeiro. Foi o III Fórum de Software Livre de Duque de Caxias que reuniu mais de 300 pessoas, dentre elas algumas personalidades como Rasmus Ledorf, criador do PHP e Jon “Maddog” Hall, Diretor Executivo da Linux Internacional."
+description: 'Nesse último sábado, dia 04 de junho, rolou um evento de destaque no cenário do software livre do estado do Rio de Janeiro. Foi o III Fórum de Software Livre de Duque de Caxias que reuniu mais de 300 pessoas, dentre elas algumas personalidades como Rasmus Ledorf, criador do PHP e Jon “Maddog” Hall, Diretor Executivo da Linux Internacional.'
 image: /static/img/tumblr/tumblr_lmi7zscD5Z1qe3219.png
 lang: pt-BR
-date: "2011-06-10"
+date: '2011-06-10'
 ---
 
 Nesse último sábado, dia 04 de junho, rolou um evento de destaque no cenário do software livre do estado do Rio de Janeiro. Foi o III Fórum de Software Livre de Duque de Caxias que reuniu mais de 300 pessoas, dentre elas algumas personalidades como [Rasmus Ledorf](http://pt.wikipedia.org/wiki/Rasmus_Lerdorf), criador do [PHP](http://br.php.net/) e [Jon “Maddog” Hall](http://pt.wikipedia.org/wiki/Jon_Hall), Diretor Executivo da [Linux Internacional](http://pt.wikipedia.org/wiki/Linux_International).

@@ -1,25 +1,25 @@
-import { ListGroup } from "../../components/ListGroup";
-import ListItem from "../../components/ListItem";
-import { appearances, bytetalk, zofe } from "../../data/podcasts";
-import Base from "../../layouts/Base";
+import { ListGroup } from '../../components/ListGroup';
+import ListItem from '../../components/ListItem';
+import { appearances, bytetalk, zofe } from '../../data/podcasts';
+import Base from '../../layouts/Base';
 
 export const metadata = {
-  title: "Podcasts",
+  title: 'Podcasts',
   description:
-    "Audio is a powerful medium and a great way to debate ideas. Whenever possible I try to share my story as a guest or meet new people by hosting my own podcast called ByteTalk.",
+    'Audio is a powerful medium and a great way to debate ideas. Whenever possible I try to share my story as a guest or meet new people by hosting my own podcast called ByteTalk.',
   openGraph: {
-    title: "Podcasts // Zeno Rocha",
-    url: "https://zenorocha.com/podcasts",
-    images: ["/static/images/podcasts-bw.jpg"]
+    title: 'Podcasts // Zeno Rocha',
+    url: 'https://zenorocha.com/podcasts',
+    images: ['/static/images/podcasts-bw.jpg']
   }
 };
 
 export default function Podcasts() {
   const renderFeatured = (items) => {
     const featured = [
-      "Getting to Resend on The Changelog",
-      "Why developers trust Resend on Scaling DevTools",
-      "React.Email, Resend, Dracula Theme on DevTools.fm"
+      'Getting to Resend on The Changelog',
+      'Why developers trust Resend on Scaling DevTools',
+      'React.Email, Resend, Dracula Theme on DevTools.fm'
     ];
 
     return items

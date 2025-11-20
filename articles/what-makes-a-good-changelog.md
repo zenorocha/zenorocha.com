@@ -1,10 +1,10 @@
 ---
 title: What makes a good changelog
-description: "Changelogs are important communication tools, and should be made for people to enjoy reading. Here are five decisions we made to make the best changelog we possibly could."
+description: 'Changelogs are important communication tools, and should be made for people to enjoy reading. Here are five decisions we made to make the best changelog we possibly could.'
 slug: what-makes-a-good-changelog
 canonical_url: https://workos.com/blog/what-makes-a-good-changelog
 image: /static/img/posts/what-makes-a-good-changelog.jpg
-date: "2021-08-27"
+date: '2021-08-27'
 ---
 
 These days, there are a ton of great tools to automatically generate and publish changelogs. While it might seem to make things easier, automating everything is not always the answer. After all, changelogs are made for humans, not machines.

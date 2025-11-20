@@ -1,4 +1,4 @@
-import { format, parseISO } from "date-fns";
+import { format, parseISO } from 'date-fns';
 
 export default function BlogDate({ dateString }) {
   if (!dateString) {
@@ -6,5 +6,5 @@ export default function BlogDate({ dateString }) {
   }
 
   const date = parseISO(dateString);
-  return <time dateTime={dateString}>{format(date, "LLL	d, yyyy")}</time>;
+  return <time dateTime={dateString}>{format(date, 'LLL	d, yyyy')}</time>;
 }

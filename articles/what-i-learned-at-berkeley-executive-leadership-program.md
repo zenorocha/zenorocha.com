@@ -2,7 +2,7 @@
 title: What I learned at Berkeley's Executive Leadership Program
 description: 'I''ve always thought of myself as a good leader. Until one day, my boss told me "you failed as a leader".'
 image: /static/img/posts/berkeley-exec-ed-cover.jpg
-date: "2022-11-08"
+date: '2022-11-08'
 ---
 
 I've always thought of myself as a good leader. I had the opportunity to lead many teams in different companies, and I consistently tried to do my best to make sure everyone was happy and productive.

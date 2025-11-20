@@ -1,8 +1,8 @@
 ---
 title: Sublime Text 2 – Dicas para Desenvolvimento Front-end
-description: "Nada melhor do que começar o ano com algumas dicas do mais novo queridinho entre os editores de código. Por isso hoje, na minha estréia aqui no Front End Brasil, vou mostrar um pouco do meu workflow com Sublime Text 2 voltado para desenvolvimento Front-End."
+description: 'Nada melhor do que começar o ano com algumas dicas do mais novo queridinho entre os editores de código. Por isso hoje, na minha estréia aqui no Front End Brasil, vou mostrar um pouco do meu workflow com Sublime Text 2 voltado para desenvolvimento Front-End.'
 lang: pt-BR
-date: "2012-03-08"
+date: '2012-03-08'
 ---
 
 _Publicado originalmente no Front-end Brasil._

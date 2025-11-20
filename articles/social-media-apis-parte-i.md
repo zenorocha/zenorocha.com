@@ -1,8 +1,8 @@
 ---
 title: Social Media APIs - Parte I
-description: "A fim de promover uma melhor experiência do usuário com a aplicação, muitos sites tem integrado funcionalidades de plataformas externas à sua aplicação através das famosas APIs."
+description: 'A fim de promover uma melhor experiência do usuário com a aplicação, muitos sites tem integrado funcionalidades de plataformas externas à sua aplicação através das famosas APIs.'
 lang: pt-BR
-date: "2011-04-19"
+date: '2011-04-19'
 ---
 
 A fim de promover uma melhor experiência do usuário com a aplicação, muitos sites tem integrado funcionalidades de plataformas externas à sua aplicação através das famosas **[APIs](http://pt.wikipedia.org/wiki/API)**.

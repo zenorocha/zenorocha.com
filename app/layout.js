@@ -1,35 +1,35 @@
-import "../public/static/css/prism.css";
-import "remixicon/fonts/remixicon.css";
+import '../public/static/css/prism.css';
+import 'remixicon/fonts/remixicon.css';
 
-import Script from "next/script";
+import Script from 'next/script';
 
-import CommandBar from "../components/CommandBar";
-import { GA_TRACKING_ID } from "../lib/gtag";
-import { getCssText } from "../stitches.config";
-import Template from "./template";
+import CommandBar from '../components/CommandBar';
+import { GA_TRACKING_ID } from '../lib/gtag';
+import { getCssText } from '../stitches.config';
+import Template from './template';
 
 export const metadata = {
-  metadataBase: new URL("https://zenorocha.com"),
+  metadataBase: new URL('https://zenorocha.com'),
   title: {
-    default: "Zeno Rocha",
-    template: "%s // Zeno Rocha"
+    default: 'Zeno Rocha',
+    template: '%s // Zeno Rocha'
   },
-  description: "Obsessed with developer experience",
-  authors: [{ name: "Zeno Rocha" }],
+  description: 'Obsessed with developer experience',
+  authors: [{ name: 'Zeno Rocha' }],
   openGraph: {
-    type: "website",
-    siteName: "Zeno Rocha"
+    type: 'website',
+    siteName: 'Zeno Rocha'
   },
   twitter: {
-    card: "summary_large_image"
+    card: 'summary_large_image'
   },
   icons: {
-    icon: "/favicon.svg"
+    icon: '/favicon.svg'
   }
 };
 
 export const viewport = {
-  themeColor: "#08070b"
+  themeColor: '#08070b'
 };
 
 export default function RootLayout({ children }) {

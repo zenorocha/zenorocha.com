@@ -1,7 +1,7 @@
 ---
-title: "How did Clipboard.js get 5000 stars in a few days?"
-description: "On Monday I open sourced a SUPER simple Copy to Clipboard library. Everybody went crazy. Today is Friday and there are more than 5,000 stars on that GitHub repository."
-date: "2015-10-02"
+title: 'How did Clipboard.js get 5000 stars in a few days?'
+description: 'On Monday I open sourced a SUPER simple Copy to Clipboard library. Everybody went crazy. Today is Friday and there are more than 5,000 stars on that GitHub repository.'
+date: '2015-10-02'
 ---
 
 On Monday I open sourced a SUPER simple [Copy to Clipboard library](https://clipboardjs.com/).

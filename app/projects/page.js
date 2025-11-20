@@ -1,22 +1,22 @@
-import FeaturedProject from "../../components/FeaturedProject";
-import { FeaturedProjects } from "../../components/FeaturedProjects";
-import items from "../../data/projects";
-import Base from "../../layouts/Base";
+import FeaturedProject from '../../components/FeaturedProject';
+import { FeaturedProjects } from '../../components/FeaturedProjects';
+import items from '../../data/projects';
+import Base from '../../layouts/Base';
 
 export const metadata = {
-  title: "Projects",
+  title: 'Projects',
   description:
     "I'm obsessed with side projects and building in public. Here you can navigate to different websites, apps, and libraries I built.",
   openGraph: {
-    title: "Projects // Zeno Rocha",
-    url: "https://zenorocha.com/projects",
-    images: ["/static/images/projects-bw.jpg"]
+    title: 'Projects // Zeno Rocha',
+    url: 'https://zenorocha.com/projects',
+    images: ['/static/images/projects-bw.jpg']
   }
 };
 
 export default function Projects() {
   const renderFeatured = () => {
-    const featured = ["Dracula", "Clipboard.js", "Resend", "React Email"];
+    const featured = ['Dracula', 'Clipboard.js', 'Resend', 'React Email'];
 
     return items
       .map((item) => {

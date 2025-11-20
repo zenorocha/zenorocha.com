@@ -1,9 +1,9 @@
 ---
 title: Salve a web, por favor
-description: "Sempre que posso, gosto de divulgar iniciativas que procurem tornar a web um lugar mais legal. Foi assim quando escrevi sobre o humans.txt e está sendo assim agora."
+description: 'Sempre que posso, gosto de divulgar iniciativas que procurem tornar a web um lugar mais legal. Foi assim quando escrevi sobre o humans.txt e está sendo assim agora.'
 image: /static/img/tumblr/tumblr_lt1x90OrsW1qe3219.jpg
 lang: pt-BR
-date: "2011-10-14"
+date: '2011-10-14'
 ---
 
 Sempre que posso, gosto de divulgar iniciativas que procurem tornar a web um lugar mais legal. Foi assim [quando escrevi sobre o humans.txt](/humans-txt-because-we-are-people-not-machines) e está sendo assim agora.

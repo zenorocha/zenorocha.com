@@ -1,9 +1,9 @@
 ---
 title: I'm leaving my job after 9 years
 image: /static/img/posts/im-leaving-my-job-after-9-years-d.jpg
-description: "Working nine years for the same company is pretty unusual in the tech industry. During my time at Liferay, I was contacted by many companies including Apple, Google, Netflix, Snapchat, Airbnb, Uber, Facebook, Amazon, etc. This post is an attempt to explain why I declined all these companies and to reflect on this entire journey."
+description: 'Working nine years for the same company is pretty unusual in the tech industry. During my time at Liferay, I was contacted by many companies including Apple, Google, Netflix, Snapchat, Airbnb, Uber, Facebook, Amazon, etc. This post is an attempt to explain why I declined all these companies and to reflect on this entire journey.'
 slug: im-leaving-my-job-after-9-years
-date: "2021-06-23"
+date: '2021-06-23'
 ---
 
 Working nine years for the same company is pretty unusual in the tech industry.

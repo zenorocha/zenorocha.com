@@ -1,24 +1,24 @@
-import { format, parseISO } from "date-fns";
+import { format, parseISO } from 'date-fns';
 
-import { Box } from "../../components/Box";
-import FeaturedTalk from "../../components/FeaturedTalk";
-import items from "../../data/talks";
-import Base from "../../layouts/Base";
+import { Box } from '../../components/Box';
+import FeaturedTalk from '../../components/FeaturedTalk';
+import items from '../../data/talks';
+import Base from '../../layouts/Base';
 
 export const metadata = {
-  title: "Talks",
+  title: 'Talks',
   description:
-    "I went my first conference in 2010 and felt in love with sharing knowledge publicly. Since then, I traveled to 11 countries and gave more than talks.",
+    'I went my first conference in 2010 and felt in love with sharing knowledge publicly. Since then, I traveled to 11 countries and gave more than talks.',
   openGraph: {
-    title: "Talks // Zeno Rocha",
-    url: "https://zenorocha.com/talks",
-    images: ["/static/images/talks-bw.jpg"]
+    title: 'Talks // Zeno Rocha',
+    url: 'https://zenorocha.com/talks',
+    images: ['/static/images/talks-bw.jpg']
   }
 };
 
 export default function Talks() {
   const renderFeatured = () => {
-    const featured = ["Epic Web Conf", "Nordic.JS", "SFHTML5"];
+    const featured = ['Epic Web Conf', 'Nordic.JS', 'SFHTML5'];
 
     return items
       .map((item) => {
@@ -73,7 +73,7 @@ export default function Talks() {
       <p dangerouslySetInnerHTML={{ __html: description }} />
 
       <h2>Featured Talks</h2>
-      <Box css={{ margin: "10px 0 0 -20px" }}>{renderFeatured()}</Box>
+      <Box css={{ margin: '10px 0 0 -20px' }}>{renderFeatured()}</Box>
 
       <h2>All Talks</h2>
       {renderAll()}
@@ -93,7 +93,7 @@ function TalkItem(props) {
       </h3>
       <ul>
         <li>
-          <em>When:</em> {format(parseISO(talk.date), "LLLL, d")}
+          <em>When:</em> {format(parseISO(talk.date), 'LLLL, d')}
         </li>
         <li>
           <em>Where:</em> {talk.where}
@@ -106,10 +106,10 @@ function TalkItem(props) {
         {talk.presentations?.map((presentation) => {
           return (
             <li key={presentation.url || presentation.title}>
-              <em>Presentation:</em>{" "}
+              <em>Presentation:</em>{' '}
               <a href={presentation.url} target="_blank">
                 {presentation.title}
-              </a>{" "}
+              </a>{' '}
               {presentation.video && (
                 <a href={presentation.video} target="_blank">
                   (Video)

@@ -1,9 +1,9 @@
 ---
 title: Nem tudo que parece igual é realmente igual...
-description: "Por ser uma linguagem fracamente tipada, uma coisa que confunde muita gente que está começando com Javascript são os operadores de comparação."
+description: 'Por ser uma linguagem fracamente tipada, uma coisa que confunde muita gente que está começando com Javascript são os operadores de comparação.'
 image: /static/img/tumblr/tumblr_lq9if2Mh5J1qe3219.jpg
 lang: pt-BR
-date: "2011-08-24"
+date: '2011-08-24'
 ---
 
 Por ser uma linguagem fracamente tipada, uma coisa que confunde muita gente que está começando com Javascript são os operadores de comparação.
@@ -11,7 +11,7 @@ Por ser uma linguagem fracamente tipada, uma coisa que confunde muita gente que 
 <!-- more -->
 
 ```js
-var zero = "0";
+var zero = '0';
 
 if (zero == 0) {
   // será que entra aqui?
@@ -27,7 +27,7 @@ O símbolo "igual" possui três papéis diferentes nesse exemplo.
 Primeiramente, ele é responsável por uma atribuição de valor na variável zero.
 
 ```js
-var zero = "0";
+var zero = '0';
 ```
 
 Até aqui nenhuma novidade, continua parecido com a maioria das outras linguagens.

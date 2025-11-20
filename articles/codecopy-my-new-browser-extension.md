@@ -1,7 +1,7 @@
 ---
 title: CodeCopy, my new browser extension
 description: "When I created clipboard.js I just wanted an easy way to add copy to clipboard buttons on my sites. I decided to make it open source and suddenly, thousands of people adopted worldwide. Although I'm super happy with the result of that project, there are still big sites that I don't have control over which I would love to have that same functionality."
-date: "2017-04-29"
+date: '2017-04-29'
 ---
 
 When I created clipboard.js I just wanted an easy way to add copy to clipboard buttons on my sites. I decided to make it open source and suddenly, thousands of people adopted worldwide.

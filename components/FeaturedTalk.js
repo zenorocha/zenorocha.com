@@ -1,10 +1,10 @@
-"use client";
+'use client';
 
-import { motion } from "framer-motion";
-import Image from "next/image";
-import { useState } from "react";
+import { motion } from 'framer-motion';
+import Image from 'next/image';
+import { useState } from 'react';
 
-import { styled } from "../stitches.config";
+import { styled } from '../stitches.config';
 
 export default function FeaturedTalk(props) {
   const { talk } = props;
@@ -28,13 +28,13 @@ export default function FeaturedTalk(props) {
 }
 
 function Animation(props) {
-  const [hovered, setHovered] = useState("");
+  const [hovered, setHovered] = useState('');
   const isHovered = hovered === props.index;
 
   return (
     <AnimContainer
       onHoverStart={() => setHovered(props.index)}
-      onHoverEnd={() => setHovered("")}
+      onHoverEnd={() => setHovered('')}
     >
       {isHovered && (
         <AnimHovered
@@ -50,50 +50,50 @@ function Animation(props) {
   );
 }
 
-const Talk = styled("a", {
+const Talk = styled('a', {
   marginTop: 20,
   border: 0,
-  textDecoration: "none",
-  "&:first-child": { marginLeft: 0 }
+  textDecoration: 'none',
+  '&:first-child': { marginLeft: 0 }
 });
 
-const Content = styled("div", {
-  display: "flex",
-  flexDirection: "column",
-  height: "auto",
-  "@bp2": { flexDirection: "row", height: 140 }
+const Content = styled('div', {
+  display: 'flex',
+  flexDirection: 'column',
+  height: 'auto',
+  '@bp2': { flexDirection: 'row', height: 140 }
 });
 
-const ImageContainer = styled("div", {
-  marginRight: "20px",
-  width: "250px",
-  "& img": { filter: "grayscale(1)" }
+const ImageContainer = styled('div', {
+  marginRight: '20px',
+  width: '250px',
+  '& img': { filter: 'grayscale(1)' }
 });
 
-const Title = styled("h3", {
-  color: "$primary",
-  fontSize: "18px",
-  margin: "0"
+const Title = styled('h3', {
+  color: '$primary',
+  fontSize: '18px',
+  margin: '0'
 });
 
-const Paragraph = styled("p", {
-  color: "$secondary",
-  margin: "0"
+const Paragraph = styled('p', {
+  color: '$secondary',
+  margin: '0'
 });
 
 const AnimContainer = styled(motion.div, {
-  padding: "20px",
-  position: "relative",
-  width: "100%"
+  padding: '20px',
+  position: 'relative',
+  width: '100%'
 });
 
 const AnimHovered = styled(motion.div, {
-  position: "absolute",
-  top: "0",
-  left: "0",
-  right: "0",
-  bottom: "0",
-  background: "$hover",
-  borderRadius: "$borderRadius",
+  position: 'absolute',
+  top: '0',
+  left: '0',
+  right: '0',
+  bottom: '0',
+  background: '$hover',
+  borderRadius: '$borderRadius',
   zIndex: -1
 });

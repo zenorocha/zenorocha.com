@@ -1,10 +1,10 @@
 ---
-title: "Tri afudê"
-description: "Aqui estou no aeroporto de Porto Alegre, depois de mais uma edição fantástica da BrazilJS Conf. Todo ano a expectativa para esse evento é enorme e, por incrível que pareça, no fim ainda consegue ser superada. Esse ano não podia ser diferente."
+title: 'Tri afudê'
+description: 'Aqui estou no aeroporto de Porto Alegre, depois de mais uma edição fantástica da BrazilJS Conf. Todo ano a expectativa para esse evento é enorme e, por incrível que pareça, no fim ainda consegue ser superada. Esse ano não podia ser diferente.'
 image: /static/img/posts/braziljs13.jpg
 slug: braziljs-2013
 lang: pt-BR
-date: "2013-08-25"
+date: '2013-08-25'
 ---
 
 Aqui estou no aeroporto de Porto Alegre, depois de mais uma edição fantástica da [BrazilJS Conf](http://braziljs.com.br/). Todo ano a expectativa para esse evento é enorme e, por incrível que pareça, no fim ainda consegue ser superada. Esse ano não podia ser diferente.

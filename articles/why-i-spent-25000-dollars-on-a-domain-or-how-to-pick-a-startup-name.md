@@ -2,7 +2,7 @@
 title: Why I spent $25,000 on a domain (or how to pick a startup name)
 description: 'Whenever I talk to other YC founders in my batch, the number one question I get is: "How did you get the resend.com domain?"'
 image: /static/img/posts/how-to-pick-a-startup-name-cover.jpg
-date: "2023-02-06"
+date: '2023-02-06'
 ---
 
 Whenever I talk to other YC founders in my batch, the number one question I get is:

@@ -2,7 +2,7 @@
 title: Making a Difference Online and Offline
 description: "Couple months ago Cleydyr and I were invited to be part of Liferay's EVP (Employee Volunteer Program) committee in Latin America. We couldn't say no to this amazing program and we're now very happy to announce our first initiative."
 slug: making-a-difference-online-and-offline
-date: "2014-06-16"
+date: '2014-06-16'
 canonical_url: https://liferay.dev/en/b/making-a-difference-online-and-offline
 ---
 

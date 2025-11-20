@@ -1,4 +1,4 @@
-import { Html } from "@react-email/html";
+import { Html } from '@react-email/html';
 
 export default function EmailTemplate(props) {
   const { name, email, message } = props;

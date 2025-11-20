@@ -1,8 +1,8 @@
 ---
-title: "Bye Zen Coding, Bem-vindo Emmet!"
-description: "Durante anos os ninjas do front-end utilizaram o Zen Coding para produzir seus sites e aplicativos de uma maneira muito mais rápida que os pobres seres humanos normais."
+title: 'Bye Zen Coding, Bem-vindo Emmet!'
+description: 'Durante anos os ninjas do front-end utilizaram o Zen Coding para produzir seus sites e aplicativos de uma maneira muito mais rápida que os pobres seres humanos normais.'
 lang: pt-BR
-date: "2012-11-19"
+date: '2012-11-19'
 ---
 
 <div class="iframe-wrap">

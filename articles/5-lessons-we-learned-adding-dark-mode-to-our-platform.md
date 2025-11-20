@@ -1,9 +1,9 @@
 ---
 title: 5 lessons we learned adding dark mode to our platform
-description: "Designing a dark mode version of your app comes with its own challenges. In this post, we will share some of the lessons we learned during the implementation of dark mode at WorkOS."
+description: 'Designing a dark mode version of your app comes with its own challenges. In this post, we will share some of the lessons we learned during the implementation of dark mode at WorkOS.'
 slug: 5-lessons-we-learned-adding-dark-mode-to-our-platform
 canonical_url: https://workos.com/blog/5-lessons-we-learned-adding-dark-mode-to-our-platform
-date: "2021-08-12"
+date: '2021-08-12'
 ---
 
 ![Dark mode at WorkOS](/static/img/posts/5-lessons-we-learned-adding-dark-mode-to-our-platform.png)

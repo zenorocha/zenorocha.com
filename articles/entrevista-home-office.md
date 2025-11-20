@@ -1,10 +1,10 @@
 ---
-title: "Entrevista - Trabalhe em casa"
-link: "http://www.clubecolombo.com.br/revista/trabalhe-em-casa/"
+title: 'Entrevista - Trabalhe em casa'
+link: 'http://www.clubecolombo.com.br/revista/trabalhe-em-casa/'
 slug: entrevista-home-office
 skip: true
 lang: pt-BR
-date: "2012-12-04"
+date: '2012-12-04'
 ---
 
 <!-- <p><a href="http://www.clubecolombo.com.br/revista/trabalhe-em-casa/"><img src="/static/img/posts/entrevista-colombo.jpg"/></a></p> -->

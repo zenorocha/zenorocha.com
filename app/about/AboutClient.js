@@ -1,23 +1,23 @@
-"use client";
+'use client';
 
-import { format, intervalToDuration, parseISO } from "date-fns";
-import dynamic from "next/dynamic";
-import Image from "next/image";
-import React from "react";
+import { format, intervalToDuration, parseISO } from 'date-fns';
+import dynamic from 'next/dynamic';
+import Image from 'next/image';
+import React from 'react';
 
-import { ButtonPrimary } from "../../components/ButtonPrimary";
-import Pronunciation from "../../components/Pronunciation";
-import Toast from "../../components/Toast";
-import items from "../../data/about";
-import copyBioIcon from "../../public/static/icons/copy-bio.json";
-import downloadIcon from "../../public/static/icons/download.json";
-import { styled } from "../../stitches.config";
+import { ButtonPrimary } from '../../components/ButtonPrimary';
+import Pronunciation from '../../components/Pronunciation';
+import Toast from '../../components/Toast';
+import items from '../../data/about';
+import copyBioIcon from '../../public/static/icons/copy-bio.json';
+import downloadIcon from '../../public/static/icons/download.json';
+import { styled } from '../../stitches.config';
 
-const Lottie = dynamic(() => import("lottie-react"), { ssr: false });
+const Lottie = dynamic(() => import('lottie-react'), { ssr: false });
 
 export default function AboutClient({ description }) {
-  const [toastTitle, setToastTitle] = React.useState("");
-  const [toastDescription, setToastDescription] = React.useState("");
+  const [toastTitle, setToastTitle] = React.useState('');
+  const [toastDescription, setToastDescription] = React.useState('');
   const [showToast, setShowToast] = React.useState(false);
   const copyBioRef = React.useRef();
   const downloadRef = React.useRef();
@@ -27,7 +27,7 @@ export default function AboutClient({ description }) {
       <Container>
         <Section
           css={{
-            width: "336px"
+            width: '336px'
           }}
         >
           <Image
@@ -43,8 +43,8 @@ export default function AboutClient({ description }) {
         <Section>
           <Paragraph
             css={{
-              marginTop: "16px",
-              "@bp2": { marginTop: "-6px" }
+              marginTop: '16px',
+              '@bp2': { marginTop: '-6px' }
             }}
           >
             <strong>Hey, I&apos;m Zeno Rocha</strong>
@@ -54,13 +54,13 @@ export default function AboutClient({ description }) {
           <Paragraph>
             I&apos;m the <strong>Founder & CEO</strong> at Resend. Before that,
             I was a VP of Developer Experience at WorkOS and CPO at Liferay
-            Cloud. I&apos;m originally from Brazil and now living in{" "}
+            Cloud. I&apos;m originally from Brazil and now living in{' '}
             <strong>San Francisco, California</strong> with my amazing wife and
             beautiful daughter.
           </Paragraph>
           <Paragraph>
             <strong>I love dark mode</strong>, open source, and side projects.
-            When I&apos;m not working, I like running, watching movies, and{" "}
+            When I&apos;m not working, I like running, watching movies, and{' '}
             <strong>eating cheese</strong>.
           </Paragraph>
         </Section>
@@ -70,9 +70,9 @@ export default function AboutClient({ description }) {
 
   const renderBio = () => {
     const btnStyle = {
-      display: "inline-flex",
-      justifyContent: "center",
-      alignItems: "center"
+      display: 'inline-flex',
+      justifyContent: 'center',
+      alignItems: 'center'
     };
     const iconStyle = { width: 24, height: 24, marginRight: 8 };
 
@@ -102,7 +102,7 @@ export default function AboutClient({ description }) {
             />
             Copy Bio
           </ButtonPrimary>
-          <span style={{ margin: "0 20px 0 10px" }}>•</span>
+          <span style={{ margin: '0 20px 0 10px' }}>•</span>
           <ButtonPrimary
             as="a"
             download
@@ -142,12 +142,12 @@ export default function AboutClient({ description }) {
             <span> • {item.location}</span>
           </p>
           <p style={{ margin: 0 }}>
-            <span>{format(parseISO(item.startDate), "LLL yyyy")}</span>
+            <span>{format(parseISO(item.startDate), 'LLL yyyy')}</span>
             <span> – </span>
             <span>
               {item.endDate
-                ? format(parseISO(item.endDate), "LLL yyyy")
-                : "Present"}
+                ? format(parseISO(item.endDate), 'LLL yyyy')
+                : 'Present'}
             </span>
             <span> • </span>
             <span>{getDuration(item.startDate, item.endDate)}</span>
@@ -163,7 +163,7 @@ export default function AboutClient({ description }) {
       end: endDate ? parseISO(endDate) : new Date()
     });
 
-    let durationStr = "";
+    let durationStr = '';
 
     if (durationObj.years > 1) {
       durationStr = `${durationObj.years} yrs `;
@@ -177,8 +177,8 @@ export default function AboutClient({ description }) {
   };
 
   const downloadHeadshot = () => {
-    setToastTitle("Downloading...");
-    setToastDescription("You can now add this photo to your fancy site.");
+    setToastTitle('Downloading...');
+    setToastDescription('You can now add this photo to your fancy site.');
     setShowToast(true);
   };
 
@@ -186,8 +186,8 @@ export default function AboutClient({ description }) {
     e.preventDefault();
     navigator.clipboard.writeText(description);
 
-    setToastTitle("Copied :D");
-    setToastDescription("You can now paste it anywhere.");
+    setToastTitle('Copied :D');
+    setToastDescription('You can now paste it anywhere.');
     setShowToast(true);
   };
 
@@ -209,24 +209,24 @@ export default function AboutClient({ description }) {
   );
 }
 
-const Container = styled("div", {
-  display: "flex",
-  flexDirection: "column",
-  justifyContent: "space-between",
-  "@bp2": { flexDirection: "row" }
+const Container = styled('div', {
+  display: 'flex',
+  flexDirection: 'column',
+  justifyContent: 'space-between',
+  '@bp2': { flexDirection: 'row' }
 });
 
-const Paragraph = styled("p", {
-  "@bp2": { margin: "15px 0" }
+const Paragraph = styled('p', {
+  '@bp2': { margin: '15px 0' }
 });
 
-const ButtonsContainer = styled("div", {
-  display: "flex",
-  alignItems: "center"
+const ButtonsContainer = styled('div', {
+  display: 'flex',
+  alignItems: 'center'
 });
 
-const Section = styled("div", {
-  marginTop: "0px",
-  width: "auto",
-  "@bp2": { width: "48%" }
+const Section = styled('div', {
+  marginTop: '0px',
+  width: 'auto',
+  '@bp2': { width: '48%' }
 });

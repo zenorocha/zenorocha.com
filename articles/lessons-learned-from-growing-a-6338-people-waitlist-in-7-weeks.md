@@ -2,7 +2,7 @@
 title: Lessons learned from growing a 6,338 people waitlist in 7 weeks
 description: "I'm writing this post to document what went well and what went wrong. Hopefully, this will help other founders who are launching their own waitlists or looking to find potential users."
 image: /static/img/posts/lessons-learned-from-growing-a-6338-people-waitlist-in-7-weeks.jpg
-date: "2023-02-21"
+date: '2023-02-21'
 ---
 
 The first question I get from YC batch mates is: _["How did you get your domain?"](/why-i-spent-25000-dollars-on-a-domain-or-how-to-pick-a-startup-name)_.

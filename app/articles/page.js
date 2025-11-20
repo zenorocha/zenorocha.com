@@ -1,36 +1,36 @@
-import FeaturedArticle from "../../components/FeaturedArticle";
-import { ListGroup } from "../../components/ListGroup";
-import ListItem from "../../components/ListItem";
-import Base from "../../layouts/Base";
-import { getAllPosts, getPostBySlug } from "../../lib/blog";
-import { styled } from "../../stitches.config";
+import FeaturedArticle from '../../components/FeaturedArticle';
+import { ListGroup } from '../../components/ListGroup';
+import ListItem from '../../components/ListItem';
+import Base from '../../layouts/Base';
+import { getAllPosts, getPostBySlug } from '../../lib/blog';
+import { styled } from '../../stitches.config';
 
 export const metadata = {
-  title: "Articles",
+  title: 'Articles',
   description:
-    "Here you can find all the articles I wrote. You can read about web development, software engineering, and tech career in both English and Portuguese.",
+    'Here you can find all the articles I wrote. You can read about web development, software engineering, and tech career in both English and Portuguese.',
   openGraph: {
-    title: "Articles // Zeno Rocha",
-    url: "https://zenorocha.com/articles",
-    images: ["/static/images/articles-bw.jpg"]
+    title: 'Articles // Zeno Rocha',
+    url: 'https://zenorocha.com/articles',
+    images: ['/static/images/articles-bw.jpg']
   }
 };
 
 export default async function Articles() {
-  const allPosts = getAllPosts(["date", "skip", "slug", "title"]);
+  const allPosts = getAllPosts(['date', 'skip', 'slug', 'title']);
 
   const featuredParams = [
-    "date",
-    "slug",
-    "title",
-    "image",
-    "content",
-    "description"
+    'date',
+    'slug',
+    'title',
+    'image',
+    'content',
+    'description'
   ];
 
   const featuredPosts = [
-    getPostBySlug("the-two-types-of-quality", featuredParams),
-    getPostBySlug("how-is-life-post-yc", featuredParams)
+    getPostBySlug('the-two-types-of-quality', featuredParams),
+    getPostBySlug('how-is-life-post-yc', featuredParams)
   ];
 
   const description = `Here you can find all the <strong>${allPosts.length} articles</strong> I wrote. You can read about web development, software engineering, and tech career in both English and Portuguese.`;
@@ -84,7 +84,7 @@ export default async function Articles() {
   );
 }
 
-const FeaturedArticles = styled("div", {
-  margin: "10px 0 0 -20px",
-  "@bp2": { display: "flex", justifyContent: "space-between" }
+const FeaturedArticles = styled('div', {
+  margin: '10px 0 0 -20px',
+  '@bp2': { display: 'flex', justifyContent: 'space-between' }
 });

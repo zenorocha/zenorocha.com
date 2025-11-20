@@ -1,9 +1,9 @@
 ---
 title: Entendendo CoffeeScript
-description: "Quem é do mundo Ruby on Rails já deve estar cansado de toda a polêmica acerca do CoffeeScript meses atrás. Se você não acompanhou, vou tentar resumir a história."
+description: 'Quem é do mundo Ruby on Rails já deve estar cansado de toda a polêmica acerca do CoffeeScript meses atrás. Se você não acompanhou, vou tentar resumir a história.'
 image: /static/img/tumblr/tumblr_loffq1Ym931qe3219.png
 lang: pt-BR
-date: "2011-08-01"
+date: '2011-08-01'
 ---
 
 Quem é do mundo [Ruby on Rails](http://rubyonrails.org/) já deve estar cansado de toda a polêmica acerca do [CoffeeScript](http://jashkenas.github.com/coffee-script) meses atrás. Se você não acompanhou, vou tentar resumir a história.
@@ -82,9 +82,9 @@ var amyEstaViva;
 amyEstaViva = false;
 
 if (amyEstaViva) {
-  alert("Eu sabia!");
+  alert('Eu sabia!');
 } else {
-  alert("Droga =/");
+  alert('Droga =/');
 }
 ```
 

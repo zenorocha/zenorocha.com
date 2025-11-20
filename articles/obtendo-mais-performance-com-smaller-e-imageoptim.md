@@ -1,9 +1,9 @@
 ---
 title: Obtendo mais performance com Smaller e ImageOptim
-description: "Recentemente mudei de sistema operacional, passei de um Linux para um Mac OSx. E como toda mudança muitas novidades vieram, nova interface, novo editor de código, novos softwares, enfim várias coisas. Só que uma das coisas que também mudou foram as ferramentas escolhidas para maximizar a performance das minhas aplicações web no client-side. E por isso, hoje eu vim falar rapidamente sobre elas."
+description: 'Recentemente mudei de sistema operacional, passei de um Linux para um Mac OSx. E como toda mudança muitas novidades vieram, nova interface, novo editor de código, novos softwares, enfim várias coisas. Só que uma das coisas que também mudou foram as ferramentas escolhidas para maximizar a performance das minhas aplicações web no client-side. E por isso, hoje eu vim falar rapidamente sobre elas.'
 image: /static/img/tumblr/tumblr_lur5ilxg451qe3219.jpg
 lang: pt-BR
-date: "2011-11-15"
+date: '2011-11-15'
 ---
 
 Recentemente mudei de sistema operacional, passei de um Linux para um Mac OSx. E como toda mudança muitas novidades vieram, nova interface, novo editor de código, novos softwares, enfim várias coisas.

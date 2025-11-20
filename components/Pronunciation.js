@@ -1,6 +1,6 @@
-import { useRef, useState } from "react";
+import { useRef, useState } from 'react';
 
-import { styled } from "../stitches.config";
+import { styled } from '../stitches.config';
 
 export default function Pronunciation() {
   const pronunciationAudio = useRef();
@@ -26,7 +26,7 @@ export default function Pronunciation() {
       aria-label="How to pronounce my name"
       onClick={togglePronunciation}
     >
-      <Icon className={`ri-${isPlaying ? "pause" : "play"}-circle-fill`} />
+      <Icon className={`ri-${isPlaying ? 'pause' : 'play'}-circle-fill`} />
       <audio
         src="/static/audio/pronunciation.mp3"
         ref={pronunciationAudio}
@@ -38,21 +38,21 @@ export default function Pronunciation() {
   );
 }
 
-const Button = styled("button", {
-  background: "transparent",
-  border: "none",
-  color: "$primary",
-  cursor: "pointer",
-  margin: "0 4px",
-  padding: "0",
-  position: "relative",
-  top: "5px",
-  transform: "none",
-  transition: "transform 0.2s ease-in-out",
-  "&:hover": { transform: "scale(1.1) translateZ(0)" }
+const Button = styled('button', {
+  background: 'transparent',
+  border: 'none',
+  color: '$primary',
+  cursor: 'pointer',
+  margin: '0 4px',
+  padding: '0',
+  position: 'relative',
+  top: '5px',
+  transform: 'none',
+  transition: 'transform 0.2s ease-in-out',
+  '&:hover': { transform: 'scale(1.1) translateZ(0)' }
 });
 
-const Icon = styled("i", {
-  fontSize: "24px",
-  lineHeight: "32px"
+const Icon = styled('i', {
+  fontSize: '24px',
+  lineHeight: '32px'
 });

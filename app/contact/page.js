@@ -1,11 +1,11 @@
-"use client";
+'use client';
 
-import React from "react";
+import React from 'react';
 
-import { Box } from "../../components/Box";
-import Toast from "../../components/Toast";
-import Base from "../../layouts/Base";
-import { styled } from "../../stitches.config";
+import { Box } from '../../components/Box';
+import Toast from '../../components/Toast';
+import Base from '../../layouts/Base';
+import { styled } from '../../stitches.config';
 
 export default function Contact() {
   const description = `<strong>I love chatting</strong> with software engineers, tech founders, students, and creators. <strong>I'm a busy person</strong>, so I can't promise that I'll reply to your email right away, but I'll try my best to respond in a timely manner.`;
@@ -16,12 +16,12 @@ export default function Contact() {
     e.preventDefault();
 
     try {
-      const isProd = process.env.NODE_ENV === "production";
-      const base = isProd ? "https://zenorocha.com" : "http://localhost:3000";
+      const isProd = process.env.NODE_ENV === 'production';
+      const base = isProd ? 'https://zenorocha.com' : 'http://localhost:3000';
 
       await fetch(`${base}/api/email`, {
-        method: "POST",
-        headers: { "Content-Type": "application/json" },
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({
           name: e.target.name.value,
           email: e.target.email.value,
@@ -76,11 +76,11 @@ export default function Contact() {
           </FormGroup>
         </Form>
         <Toast
-          title={isEmailSent ? "Email sent :D" : "Error :("}
+          title={isEmailSent ? 'Email sent :D' : 'Error :('}
           description={
             isEmailSent
-              ? "Thanks for taking the time to write it."
-              : "Something wrong happened. Try again later."
+              ? 'Thanks for taking the time to write it.'
+              : 'Something wrong happened. Try again later.'
           }
           isSuccess={isEmailSent}
           showToast={showToast}
@@ -91,61 +91,61 @@ export default function Contact() {
   );
 }
 
-const Form = styled("form", {
-  display: "flex",
-  flexDirection: "column",
-  maxWidth: "400px"
+const Form = styled('form', {
+  display: 'flex',
+  flexDirection: 'column',
+  maxWidth: '400px'
 });
 
-const FormGroup = styled("div", {
-  display: "flex",
-  flexDirection: "column",
-  marginBottom: "10px"
+const FormGroup = styled('div', {
+  display: 'flex',
+  flexDirection: 'column',
+  marginBottom: '10px'
 });
 
-const Label = styled("label", {
-  color: "$secondary",
-  textTransform: "uppercase",
-  fontSize: "12px",
-  fontWeight: "500"
+const Label = styled('label', {
+  color: '$secondary',
+  textTransform: 'uppercase',
+  fontSize: '12px',
+  fontWeight: '500'
 });
 
-const Input = styled("input", {
-  color: "$primary",
-  background: "none",
-  border: "1px solid $secondary",
-  borderRadius: "$borderRadius",
-  padding: "10px",
-  "&:focus": { outline: "none", borderColor: "$cyan" }
+const Input = styled('input', {
+  color: '$primary',
+  background: 'none',
+  border: '1px solid $secondary',
+  borderRadius: '$borderRadius',
+  padding: '10px',
+  '&:focus': { outline: 'none', borderColor: '$cyan' }
 });
 
-const Textarea = styled("textarea", {
-  color: "$primary",
-  background: "none",
-  border: "1px solid $secondary",
-  borderRadius: "$borderRadius",
-  padding: "10px",
-  "&:focus": { outline: "none", borderColor: "$cyan" }
+const Textarea = styled('textarea', {
+  color: '$primary',
+  background: 'none',
+  border: '1px solid $secondary',
+  borderRadius: '$borderRadius',
+  padding: '10px',
+  '&:focus': { outline: 'none', borderColor: '$cyan' }
 });
 
-const Button = styled("button", {
-  color: "$background",
-  background: "#fff",
-  border: "1px solid #fff",
-  borderRadius: "$borderRadius",
-  cursor: "pointer",
-  padding: "10px",
-  marginTop: "5px",
-  transition: "all 0.2s ease-in-out",
-  "&:hover": {
-    background: "transparent",
-    borderColor: "$cyan",
-    color: "$cyan"
+const Button = styled('button', {
+  color: '$background',
+  background: '#fff',
+  border: '1px solid #fff',
+  borderRadius: '$borderRadius',
+  cursor: 'pointer',
+  padding: '10px',
+  marginTop: '5px',
+  transition: 'all 0.2s ease-in-out',
+  '&:hover': {
+    background: 'transparent',
+    borderColor: '$cyan',
+    color: '$cyan'
   },
-  "&:focus": {
-    background: "transparent",
-    borderColor: "$cyan",
-    color: "$cyan",
-    outline: "none"
+  '&:focus': {
+    background: 'transparent',
+    borderColor: '$cyan',
+    color: '$cyan',
+    outline: 'none'
   }
 });

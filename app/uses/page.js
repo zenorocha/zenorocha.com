@@ -1,14 +1,14 @@
-import categories from "../../data/uses";
-import Base from "../../layouts/Base";
+import categories from '../../data/uses';
+import Base from '../../layouts/Base';
 
 export const metadata = {
-  title: "Uses",
+  title: 'Uses',
   description:
     "I often get messages asking about specific pieces of software or hardware I use. This not a static page, it's a living document with everything that I'm using nowadays.",
   openGraph: {
-    title: "Uses // Zeno Rocha",
-    url: "https://zenorocha.com/uses",
-    images: ["/static/images/uses-bw.jpg"]
+    title: 'Uses // Zeno Rocha',
+    url: 'https://zenorocha.com/uses',
+    images: ['/static/images/uses-bw.jpg']
   }
 };
 

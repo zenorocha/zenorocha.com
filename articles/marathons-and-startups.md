@@ -1,9 +1,9 @@
 ---
 title: Marathons and Startups
-description: "Just ran my first race ever—the San Francisco Half Marathon. The experience? Surprisingly similar to building a startup. Here’s what I learned..."
+description: 'Just ran my first race ever—the San Francisco Half Marathon. The experience? Surprisingly similar to building a startup. Here’s what I learned...'
 slug: marathons-and-startups
 image: /static/img/posts/marathons-and-startups.jpg
-date: "2025-02-04"
+date: '2025-02-04'
 ---
 
 Just ran my first race ever—the San Francisco Half Marathon.

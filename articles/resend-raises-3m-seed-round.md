@@ -2,7 +2,7 @@
 title: Resend raises $3M
 description: Who invested on us. Where we're going. Why are we doing this.
 image: /static/img/posts/resend-raises-3m.jpg
-date: "2023-07-18"
+date: '2023-07-18'
 canonical_url: https://resend.com/blog/resend-raises-3m-seed-round
 ---
 

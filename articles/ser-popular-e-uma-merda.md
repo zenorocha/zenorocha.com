@@ -1,9 +1,9 @@
 ---
-title: "Ser popular é uma merda."
-description: "Quando eu entrei no mercado de web a única coisa que eu me importava era entender como todo esse lance de programação funcionava."
+title: 'Ser popular é uma merda.'
+description: 'Quando eu entrei no mercado de web a única coisa que eu me importava era entender como todo esse lance de programação funcionava.'
 image: /static/img/posts/ser-popular.jpg
 lang: pt-BR
-date: "2014-10-12"
+date: '2014-10-12'
 ---
 
 Quando eu entrei no mercado de web a única coisa que eu me importava era entender como todo esse lance de programação funcionava.

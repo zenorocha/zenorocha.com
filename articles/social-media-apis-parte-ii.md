@@ -1,8 +1,8 @@
 ---
 title: Social Media APIs - Parte II
-description: "Dando continuidade a série sobre as APIs das redes sociais, vamos conhecer hoje o que os serviços do Foursquare e do Twitter tem a nos oferecer."
+description: 'Dando continuidade a série sobre as APIs das redes sociais, vamos conhecer hoje o que os serviços do Foursquare e do Twitter tem a nos oferecer.'
 lang: pt-BR
-date: "2011-05-07"
+date: '2011-05-07'
 ---
 
 Dando continuidade a série sobre as APIs das redes sociais, vamos conhecer hoje o que os serviços do [Foursquare](https://foursquare.com) e do [Twitter](http://twitter.com/) tem a nos oferecer.

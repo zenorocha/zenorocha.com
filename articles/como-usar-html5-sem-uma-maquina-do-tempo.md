@@ -1,9 +1,9 @@
 ---
 title: Como usar HTML5 sem uma máquina do tempo
-description: "Nesse último sábado tive o privilégio de palestrar em dois eventos irados! De manhã no Encontro de Tecnologia Simonsen e a tarde no PHP’n Rio 2011. Pra quem participou de algum desses dois eventos, fica aqui meu agradecimento pela presença."
+description: 'Nesse último sábado tive o privilégio de palestrar em dois eventos irados! De manhã no Encontro de Tecnologia Simonsen e a tarde no PHP’n Rio 2011. Pra quem participou de algum desses dois eventos, fica aqui meu agradecimento pela presença.'
 image: /static/img/tumblr/tumblr_lu8nyhrwAl1qe3219.png
 lang: pt-BR
-date: "2011-11-07"
+date: '2011-11-07'
 ---
 
 Nesse último sábado tive o privilégio de palestrar em dois eventos irados!

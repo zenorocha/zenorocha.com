@@ -1,16 +1,16 @@
-import FeaturedProject from "../../components/FeaturedProject";
-import { FeaturedProjects } from "../../components/FeaturedProjects";
-import investments from "../../data/investments";
-import Base from "../../layouts/Base";
+import FeaturedProject from '../../components/FeaturedProject';
+import { FeaturedProjects } from '../../components/FeaturedProjects';
+import investments from '../../data/investments';
+import Base from '../../layouts/Base';
 
 export const metadata = {
-  title: "Investing",
+  title: 'Investing',
   description:
     "Angel investing is how I help other startups to create amazing developer experiences. I'm excited to enable teams to grow and build world-class products.",
   openGraph: {
-    title: "Investing // Zeno Rocha",
-    url: "https://zenorocha.com/investing",
-    images: ["/static/images/projects-bw.jpg"]
+    title: 'Investing // Zeno Rocha',
+    url: 'https://zenorocha.com/investing',
+    images: ['/static/images/projects-bw.jpg']
   }
 };
 

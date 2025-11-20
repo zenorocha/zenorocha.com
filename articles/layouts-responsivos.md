@@ -1,10 +1,10 @@
 ---
-title: "Layouts Responsivos na Campus Party 2013"
-description: "Há 3 anos atrás peguei um ônibus até São Paulo para acampar no evento mais gigantesco que já tinha ido, foi uma experiência muito legal. Essa semana eu voltei, só que dessa vez para palestrar."
+title: 'Layouts Responsivos na Campus Party 2013'
+description: 'Há 3 anos atrás peguei um ônibus até São Paulo para acampar no evento mais gigantesco que já tinha ido, foi uma experiência muito legal. Essa semana eu voltei, só que dessa vez para palestrar.'
 image: /static/img/posts/cpbr6.jpg
 slug: layouts-responsivos
 lang: pt-BR
-date: "2013-02-01"
+date: '2013-02-01'
 ---
 
 Há 3 anos atrás peguei um ônibus até São Paulo para acampar no evento mais gigantesco que já tinha ido, foi uma experiência muito legal.

@@ -6,7 +6,7 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "lint": "echo \"\" && echo \"› eslint\" && eslint --fix . && echo \"› prettier\" && prettier --write --log-level warn . && echo \"✔ clean\" && echo \"\"",
+    "lint": "eslint --fix . && prettier --write --log-level warn .",
     "deploy": "vercel --prod"
   },
   "dependencies": {

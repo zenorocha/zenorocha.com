@@ -1,7 +1,7 @@
-"use client";
+'use client';
 
-import ErrorMessage from "../components/ErrorMessage";
-import Blogpost from "../layouts/Blogpost";
+import ErrorMessage from '../components/ErrorMessage';
+import Blogpost from '../layouts/Blogpost';
 
 export default function ErrorBoundary() {
   return (

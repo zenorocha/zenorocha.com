@@ -1,7 +1,7 @@
 ---
 title: JavaScript Event Handlers
 description: "Have you ever wondered what's the difference between this? They do the same thing, right? First listen for a click event, then execute a callback function. In fact, they're slightly different."
-date: "2015-03-18"
+date: '2015-03-18'
 ---
 
 Have you ever wondered what's the difference between this:
@@ -13,7 +13,7 @@ elem.onclick = function (e) {};
 …and this:
 
 ```js
-elem.addEventListener("click", function (e) {});
+elem.addEventListener('click', function (e) {});
 ```
 
 They do the same thing, right? First listen for a click event, then execute a callback function. In fact, they're slightly different.
@@ -30,7 +30,7 @@ That line got the job done, but soon developers realized that this wasn't a good
 
 ```js
 elem.onclick = function (e) {
-  alert("Yay");
+  alert('Yay');
 };
 ```
 
@@ -49,8 +49,8 @@ How do you solve that?
 Back in 2000, the [DOM Level 2 Events Spec](http://www.w3.org/TR/DOM-Level-2-Events/events.html) was released, offering a more granular way to control events.
 
 ```js
-elem.addEventListener("click", function (e) {
-  alert("Yay");
+elem.addEventListener('click', function (e) {
+  alert('Yay');
 });
 ```
 
@@ -59,8 +59,8 @@ In addition to multiple event listeners, you can also set a third optional param
 Unfortunately, Microsoft did notimplement the DOM Level 2 event model until IE9. Instead they had its own proprietary method.
 
 ```js
-elem.attachEvent("onclick", function (e) {
-  alert("Yay");
+elem.attachEvent('onclick', function (e) {
+  alert('Yay');
 });
 ```
 

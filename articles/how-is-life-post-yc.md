@@ -1,8 +1,8 @@
 ---
 title: How is life post YC?
-description: "I compiled some of the learnings from my own experience and asked other Y Combinator friends from various batches, so you can get a feel of what happens after YC."
+description: 'I compiled some of the learnings from my own experience and asked other Y Combinator friends from various batches, so you can get a feel of what happens after YC.'
 image: /static/img/posts/how-is-life-post-yc.jpg
-date: "2024-02-12"
+date: '2024-02-12'
 ---
 
 One of the things I was most curious about during our batch was how life would be after Demo Day.

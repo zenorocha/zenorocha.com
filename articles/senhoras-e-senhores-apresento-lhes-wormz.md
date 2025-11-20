@@ -1,9 +1,9 @@
 ---
 title: Senhoras e senhores, apresento-lhes Wormz
-description: "Ontem foi o lançamento oficial do projeto Wormz, um experimento em canvas que eu e Zanoni Miranda estivemos trabalhando nos últimos dias. É com muita felicidade que entramos para lista dos primeiros brasileiros a figurar no Chrome Experiments, a galeria da Google com os melhores experimentos feitos em HTML5 de todo o mundo."
+description: 'Ontem foi o lançamento oficial do projeto Wormz, um experimento em canvas que eu e Zanoni Miranda estivemos trabalhando nos últimos dias. É com muita felicidade que entramos para lista dos primeiros brasileiros a figurar no Chrome Experiments, a galeria da Google com os melhores experimentos feitos em HTML5 de todo o mundo.'
 image: /static/img/tumblr/tumblr_lr5yzobIBN1qe3219.jpg
 lang: pt-BR
-date: "2011-09-30"
+date: '2011-09-30'
 ---
 
 <!-- <p class="demo-download"><a href="http://html5-pro.com/wormz/" target="_blank"><img src="/static/img/tumblr/tumblr_lk325lvHwF1qe3219.png" class="botao"/></a> <a href="https://github.com/HTML5-Pro/wormz/" target="_blank"><img src="/static/img/tumblr/tumblr_lk325u7HMG1qe3219.png" class="botao"/></a></p> -->
@@ -87,8 +87,8 @@ Perceba que se você baixar toda a biblioteca, terá que importar um arquivo com
 ```js
 yepnope({
   test: Modernizr.canvas,
-  yep: "js/wormz.js",
-  nope: "js/polyfill.js"
+  yep: 'js/wormz.js',
+  nope: 'js/polyfill.js'
 });
 ```
 

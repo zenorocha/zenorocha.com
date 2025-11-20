@@ -1,9 +1,9 @@
 ---
 title: BrazilJS Weekly
-description: "Hoje muita gente acordou com novidade em suas caixas de email, foi a primeira edição da BrazilJS Weekly. Inspirado nesse modelo semanal de compilação de conteúdo, resolvemos trazer para o público cadastrado na BrazilJS Foundation, o que acontece de melhor no Brasil quando o assunto é JavaScript, seja front-end ou back-end."
+description: 'Hoje muita gente acordou com novidade em suas caixas de email, foi a primeira edição da BrazilJS Weekly. Inspirado nesse modelo semanal de compilação de conteúdo, resolvemos trazer para o público cadastrado na BrazilJS Foundation, o que acontece de melhor no Brasil quando o assunto é JavaScript, seja front-end ou back-end.'
 image: /static/img/tumblr/tumblr_m99x24Vquc1qe3219.jpg
 lang: pt-BR
-date: "2012-08-24"
+date: '2012-08-24'
 ---
 
 Hoje muita gente acordou com novidade em suas caixas de email, foi a primeira edição da [BrazilJS Weekly](http://braziljs.org/weekly/1.html) \o/

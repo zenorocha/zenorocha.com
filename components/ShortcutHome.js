@@ -1,9 +1,9 @@
-"use client";
+'use client';
 
-import { useEffect, useState } from "react";
+import { useEffect, useState } from 'react';
 
-import { ButtonPrimary } from "../components/ButtonPrimary";
-import { useCommandBar } from "../components/CommandBar";
+import { ButtonPrimary } from '../components/ButtonPrimary';
+import { useCommandBar } from '../components/CommandBar';
 
 export default function ShortcutHome() {
   const { toggle } = useCommandBar();

@@ -1,10 +1,10 @@
 ---
 title: HTML5 - Canvas + Three.js
-description: "Ahh o tão badalado canvas. Sempre um dos tópicos mais abordados quando o assunto é HTML5. Você já deve ter ouvido muito falar dele e, assim como eu, ter se impressionado com os diversos experimentos que surgem todos os dias pela internet."
+description: 'Ahh o tão badalado canvas. Sempre um dos tópicos mais abordados quando o assunto é HTML5. Você já deve ter ouvido muito falar dele e, assim como eu, ter se impressionado com os diversos experimentos que surgem todos os dias pela internet.'
 image: /static/img/tumblr/tumblr_lrou6aDK1U1qe3219.jpg
 slug: html5-canvas-three-js
 lang: pt-BR
-date: "2011-08-14"
+date: '2011-08-14'
 ---
 
 <!-- <p class="demo-download"><a href="http://labs.zenorocha.com/html5/canvas/" target="_blank"><img src="/static/img/tumblr/tumblr_lk325lvHwF1qe3219.png" class="botao"/></a> <a href="https://github.com/zenorocha/HTML5-Canvas" target="_blank"><img src="/static/img/tumblr/tumblr_lk325u7HMG1qe3219.png" class="botao"/></a> -->
@@ -96,7 +96,7 @@ container.appendChild(renderer.domElement);
 Por fim, definimos que o container estará escutando pelo evento de quando o mouse está clicado e que quando esse evento for disparado chamará a função onMouseDown.
 
 ```js
-container.addEventListener("mousedown", onMouseDown, false);
+container.addEventListener('mousedown', onMouseDown, false);
 ```
 
 E agora paramos por aqui antes que esse post fique enorme, se você quiser saber mais sobre o resto das funções é só acessar o [repositório do github que contém o código completo](https://github.com/zenorocha/HTML5-Canvas).
@@ -108,8 +108,8 @@ E agora paramos por aqui antes que esse post fique enorme, se você quiser saber
 ```js
 yepnope({
   test: Modernizr.canvas,
-  yep: ["build/Three.js", "js/RequestAnimationFrame.js", "js/canvas.js"],
-  nope: "css/canvas-polyfill.css"
+  yep: ['build/Three.js', 'js/RequestAnimationFrame.js', 'js/canvas.js'],
+  nope: 'css/canvas-polyfill.css'
 });
 ```
 

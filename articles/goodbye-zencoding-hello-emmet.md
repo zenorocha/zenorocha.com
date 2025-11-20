@@ -1,8 +1,8 @@
 ---
-title: "Goodbye, Zen Coding. Hello, Emmet!"
-description: "Back in 2009, Sergey Chikuyonok wrote an article to present a new way of writing HTML and CSS code. This revolutionary plugin, called Zen Coding, has helped many developers through the years and has now reached a new level."
+title: 'Goodbye, Zen Coding. Hello, Emmet!'
+description: 'Back in 2009, Sergey Chikuyonok wrote an article to present a new way of writing HTML and CSS code. This revolutionary plugin, called Zen Coding, has helped many developers through the years and has now reached a new level.'
 slug: goodbye-zencoding-hello-emmet
-date: "2013-03-26"
+date: '2013-03-26'
 ---
 
 _Originally published in Smashing Magazine._

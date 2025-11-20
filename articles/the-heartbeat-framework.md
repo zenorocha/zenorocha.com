@@ -1,7 +1,7 @@
 ---
 title: The Heartbeat Framework
 description: The answer to how we grew so fast.
-date: "2024-12-07"
+date: '2024-12-07'
 image: /static/img/posts/the-heartbeat-framework-1.jpg
 ---
 

@@ -1,7 +1,7 @@
 ---
-title: "Why you should stop asking & answering technical questions via social networks"
-description: "When you start giving talks, creating open source projects, publishing articles or simply showing your work to the world, little by little people start to consider you as a reference on that particular subject..."
-date: "2014-08-11"
+title: 'Why you should stop asking & answering technical questions via social networks'
+description: 'When you start giving talks, creating open source projects, publishing articles or simply showing your work to the world, little by little people start to consider you as a reference on that particular subject...'
+date: '2014-08-11'
 ---
 
 _Read in portuguese on [iMasters](http://imasters.com.br/gerencia-de-ti/mercado/por-que-voce-deveria-parar-de-fazerresponder-perguntas-tecnicas-via-redes-sociais/)_

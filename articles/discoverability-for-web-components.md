@@ -1,8 +1,8 @@
 ---
-title: "Discoverability for Web Components"
-description: "Web Components are coming and there are many challenges coming along. How we connect component authors with component consumers is one of them."
+title: 'Discoverability for Web Components'
+description: 'Web Components are coming and there are many challenges coming along. How we connect component authors with component consumers is one of them.'
 image: /static/img/posts/discoverability-for-web-components.png
-date: "2015-05-26"
+date: '2015-05-26'
 ---
 
 In a world where you can create your own `<awesome-button>` tag and distribute it with a simple `<link rel="import" href="awesome-button.html">`, a whole range of options for composability and reusability emerges.
@@ -18,7 +18,7 @@ We started defining global variables but one could not ensure that the same glob
 Now, _EcmaScript 6_ and _Web Components_ are coming and they both introduce a different approach to dependency management.
 
 ```js
-import { MyDependency } from "my-dependency";
+import { MyDependency } from 'my-dependency';
 ```
 
 vs

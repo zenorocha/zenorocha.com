@@ -2,7 +2,7 @@
 title: Celebrating 10 years of Dracula
 description: This month marks a significant milestone for us — the 10th anniversary of Dracula. What started as one theme for one application, has now become a global movement.
 image: /static/img/posts/celebrating-10-years-of-dracula-a.png
-date: "2023-10-12"
+date: '2023-10-12'
 canonical_url: https://draculatheme.com/blog/celebrating-10-years-of-dracula
 ---
 

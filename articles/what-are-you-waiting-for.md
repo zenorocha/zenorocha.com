@@ -1,8 +1,8 @@
 ---
 title: What are you waiting for?
-description: "One characteristic that is present in most of us is to never be satisfied with life. Just look around, from the poorest to the richest, there is always something to be accomplished or something to complain."
+description: 'One characteristic that is present in most of us is to never be satisfied with life. Just look around, from the poorest to the richest, there is always something to be accomplished or something to complain.'
 image: /static/images/what-are-you-waiting-for-opt.jpg
-date: "2015-12-21"
+date: '2015-12-21'
 ---
 
 One characteristic that is present in most of us is to never be satisfied with life. Just look around, from the poorest to the richest, there is always something to be accomplished or something to complain.

@@ -1,22 +1,26 @@
-import { styled } from '../stitches.config'
-import Navbar from '../components/Navbar'
-import Footer from '../components/Footer'
-import { PostMain, PostContent, PostContainer } from '../components/Post'
-import { Wrapper } from '../components/Wrapper'
+import Footer from "../components/Footer";
+import Navbar from "../components/Navbar";
+import { PostContainer, PostContent, PostMain } from "../components/Post";
+import { Wrapper } from "../components/Wrapper";
+import { styled } from "../stitches.config";
 
-export default function Base({ children }) {
-  const { title, tagline, primaryColor, secondaryColor } = children.props
-
+export default function Base({
+  children,
+  title,
+  tagline,
+  primaryColor,
+  secondaryColor
+}) {
   return (
     <Wrapper>
       <Navbar />
       <PostMain
         css={{
-          '& ::selection': {
+          "& ::selection": {
             background: `$${primaryColor}`,
-            color: '#000',
-            WebkitTextFillColor: '#000',
-          },
+            color: "#000",
+            WebkitTextFillColor: "#000"
+          }
         }}
       >
         <PostContent>
@@ -27,7 +31,7 @@ export default function Base({ children }) {
                 135deg,
                 $${primaryColor} 0%,
                 $${secondaryColor} 100%
-              );`,
+              );`
               }}
             >
               {tagline ? tagline : title}
@@ -38,15 +42,15 @@ export default function Base({ children }) {
       </PostMain>
       <Footer />
     </Wrapper>
-  )
+  );
 }
 
-const GradientTitle = styled('h1', {
-  backgroundSize: '100%',
-  backgroundClip: 'text',
-  WebkitBackgroundClip: 'text',
-  MozBackgroundClip: 'text',
-  WebkitTextFillColor: 'transparent',
-  MozTextFillColor: 'transparent',
-  WebkitBoxDecorationBreak: 'clone',
-})
+const GradientTitle = styled("h1", {
+  backgroundSize: "100%",
+  backgroundClip: "text",
+  WebkitBackgroundClip: "text",
+  MozBackgroundClip: "text",
+  WebkitTextFillColor: "transparent",
+  MozTextFillColor: "transparent",
+  WebkitBoxDecorationBreak: "clone"
+});

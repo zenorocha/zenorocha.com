@@ -1,9 +1,9 @@
 ---
 title: Marathons and Startups
-description: "Just ran my first race ever—the San Francisco Half Marathon. The experience? Surprisingly similar to building a startup. Here’s what I learned..."
+description: 'Just ran my first race ever—the San Francisco Half Marathon. The experience? Surprisingly similar to building a startup. Here’s what I learned...'
 slug: marathons-and-startups
 image: /static/img/posts/marathons-and-startups.jpg
-date: "2025-02-04"
+date: '2025-02-04'
 ---
 
 Just ran my first race ever—the San Francisco Half Marathon.
@@ -50,7 +50,7 @@ But just because it's hard, it doesn't mean you can't do it.
 
 ## 4. There's no finish line
 
-As I got closer to the end, I couldn't believe I was actually going to make it. 
+As I got closer to the end, I couldn't believe I was actually going to make it.
 
 Getting to that finish line was incredible, and I'm super happy I went through this experience.
 

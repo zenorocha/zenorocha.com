@@ -1,7 +1,7 @@
 ---
 title: Specialist or Generalist?
 description: "Back in the day when I was focused only on being a Front-End Developer I heard this term Full-Stack Developer. I didn't know exactly what that meant but I started to question myself. Should I be a specialist on something? Or should I be more generalist? Until today I see many people struggle with that question, regardless of what role they have."
-date: "2018-04-24"
+date: '2018-04-24'
 ---
 
 Back in the day when I was focused only on being a Front-End Developer I heard this term "Full-Stack Developer". I didn't know exactly what that meant but I started to question myself.

@@ -1,19 +1,19 @@
 ---
 title: What I learned at Berkeley's Executive Leadership Program
-description: "I've always thought of myself as a good leader. Until one day, my boss told me \"you failed as a leader\"."
+description: 'I''ve always thought of myself as a good leader. Until one day, my boss told me "you failed as a leader".'
 image: /static/img/posts/berkeley-exec-ed-cover.jpg
-date: "2022-11-08"
+date: '2022-11-08'
 ---
 
 I've always thought of myself as a good leader. I had the opportunity to lead many teams in different companies, and I consistently tried to do my best to make sure everyone was happy and productive.
 
-One day, I was having a meeting with a former boss of mine, and he told me ***"you failed as a leader"***. I still remember that afternoon and how devastated I was. I thought I was doing a good job. But I was wrong.
+One day, I was having a meeting with a former boss of mine, and he told me **_"you failed as a leader"_**. I still remember that afternoon and how devastated I was. I thought I was doing a good job. But I was wrong.
 
 ## The first obstacle
 
 I decided to look for a way to improve my skills. So I started reading books, watching videos, and listening to podcasts. I also started looking for a course to help me become a better leader.
 
-I found out about the [Berkeley Executive Leadership Program](https://executive.berkeley.edu/executive/leadership), but there was no way I was going to pay $9,900 for a 5-day program, especially a leadership one. After all, soft skills are all *blah blah blah*, right? Until I realized that **if you're not willing to invest in yourself, why should someone invest in you?**
+I found out about the [Berkeley Executive Leadership Program](https://executive.berkeley.edu/executive/leadership), but there was no way I was going to pay $9,900 for a 5-day program, especially a leadership one. After all, soft skills are all _blah blah blah_, right? Until I realized that **if you're not willing to invest in yourself, why should someone invest in you?**
 
 I put some money aside and decided to apply. I had no idea what was going to happen next. One day I got this acceptance letter. I was so excited! I was going to Berkeley!
 
@@ -53,7 +53,7 @@ Having that peer group was terrific because it allowed us to have deep conversat
 
 ## Getting the most out of the week
 
-One of our first sessions was with [Sara Ellis Conant](https://www.linkedin.com/in/saraellisconant/). She challenged us to think about *"what will allow you to get the most benefit from this week?"*. We were given a **10 point scale of commitment**, and we had to rate ourselves. This was **harder than it seems**. Disconnecting from Slack, from Twitter, from family and friends is not easy. But I knew I had to be all-in if I wanted to get the most out of the week.
+One of our first sessions was with [Sara Ellis Conant](https://www.linkedin.com/in/saraellisconant/). She challenged us to think about _"what will allow you to get the most benefit from this week?"_. We were given a **10 point scale of commitment**, and we had to rate ourselves. This was **harder than it seems**. Disconnecting from Slack, from Twitter, from family and friends is not easy. But I knew I had to be all-in if I wanted to get the most out of the week.
 
 <figure>
   <img src="/static/img/posts/berkeley-exec-ed-sara.jpg" class="post-image-full" alt="Sara Ellis Conant">
@@ -64,6 +64,7 @@ She returned at the end of the week, and we compared our initial goals with our 
 This was a fascinating exercise because it made me **reflect and be intentional** about this whole thing.
 
 **Key takeaways:**
+
 - Set clear intentions.
 - Write down an end-of-day debrief.
 - Engage and create space for application.
@@ -85,6 +86,7 @@ It was curious to see how tweaking just one of these aspects can **change the me
 We also learned about this **vertical takeoff framework**. The idea is that to share an engaging and memorable story, we need to have three components: a catchy beginning, a deep but succinct middle, and close with an impactful ending.
 
 **Key takeaways:**
+
 - Good stories are deep and brief.
 - Be open to the outcome, not attached to the outcome.
 - To tell our stories, we must know our stories.
@@ -106,6 +108,7 @@ To form, strengthen, or change culture, focus on being consistent, coherent, and
 Getting good ideas implemented quickly is more of a culture differentiator than waiting to get everyone to agree on which idea to pursue.
 
 **Key takeaways:**
+
 - Make sure that successful role models are easy to spot.
 - Signaling through visible actions what is important.
 - Being consistent and repetitive in signaling.
@@ -118,7 +121,7 @@ He shared the importance of storytelling and how it can help you communicate you
 
 > “A story is the only way to activate parts in a brain so that a listener turns the story into their own idea and experience.” — Uri Hasson
 
-More importantly, we discussed **the need of story building vs. story telling**. Instead of focusing on *how* to tell a story, we need to spend time thinking on *what* story best represents the point we're trying to make.
+More importantly, we discussed **the need of story building vs. story telling**. Instead of focusing on _how_ to tell a story, we need to spend time thinking on _what_ story best represents the point we're trying to make.
 
 <figure>
   <img src="/static/img/posts/berkeley-exec-ed-david.jpg" class="post-image-full" alt="Storytelling Framework by David Riemer">
@@ -129,6 +132,7 @@ This session resonated a lot with me because it talked about not being afraid of
 For a long time, I didn't share the single most traumatic experience I had in my life. I was ashamed of talking about [the time I spent 3 weeks hospitalized in another country](https://draculatheme.com/about), which led to building [Dracula](https://draculatheme.com). A few years after that occasion, I sat down, wrote the story, and made it public. This project is now used by more than 4M software engineers worldwide and generated [$266,205.07 in revenue](https://draculatheme.com/pro). I truly believe its success has much to do with its origin story.
 
 **Key takeaways:**
+
 - Build a library of stories.
 - Don't be afraid of being vulnerable.
 - When we hear a story, we imagine ourselves in it.
@@ -149,16 +153,17 @@ Juliana explained that **most attempts at persuasion are ineffective**. When you
 
 This was an eye-opening session for me. I remember multiple times when I tried to convince someone and failed miserably. I was so focused on making my case, so focused on my own agenda, that I didn't even realize that I wasn't being listened to.
 
-The truth is we tend to **overestimate the quality of our own arguments**. There's even a psychology term for that: [naïve realism](https://en.wikipedia.org/wiki/Na%C3%AFve_realism_(psychology)). Moving forward, I plan to not only ask *more* questions but ask *better* questions.
+The truth is we tend to **overestimate the quality of our own arguments**. There's even a psychology term for that: [naïve realism](<https://en.wikipedia.org/wiki/Na%C3%AFve_realism_(psychology)>). Moving forward, I plan to not only ask _more_ questions but ask _better_ questions.
 
 <figure>
   <img src="/static/img/posts/berkeley-exec-ed-angry-men.jpg" alt="12 Angry Men (1957 film)">
   <figcaption class="post-image-caption">A scene from 12 Angry Men (1957 film)</figcaption>
 </figure>
 
-We also watched a few clips from [12 Angry Men](https://en.wikipedia.org/wiki/12_Angry_Men_(1957_film)). This movie is a masterclass in persuasion, and I can't recommend it enough.
+We also watched a few clips from [12 Angry Men](<https://en.wikipedia.org/wiki/12_Angry_Men_(1957_film)>). This movie is a masterclass in persuasion, and I can't recommend it enough.
 
 **Key takeaways:**
+
 - Present less, ask more.
 - Find ways to leverage reciprocity.
 - Build commitment through self-generation of ideas.
@@ -178,6 +183,7 @@ What I loved about her session was it was **full of practical tips**. We're hard
 I have already incorporated her advice of **writing down your most important tasks (MITs)** at the start of each day. Before opening my laptop, I get a pen and write a small list of 1-3 MITs on a piece of paper. This helps me be intentional and avoid having my day stolen from me because of other urgent tasks. I also list the least important tasks (LITs) as the day passes.
 
 **Key takeaways:**
+
 - Hide "self-view" on Zoom.
 - Set MITs at the start of each day.
 - Protect your sensory systems by doing an audit of your work environment.

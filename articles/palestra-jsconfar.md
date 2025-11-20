@@ -1,8 +1,8 @@
 ---
 title: JSConf Argentina
-description: "On May 20th, I made a presentation Introducing Canvas, SVG & WebGL at JSConf Latin America. I also wrote an article (in portuguese) telling how was my experience in Argentina. Well, now the video is online!"
+description: 'On May 20th, I made a presentation Introducing Canvas, SVG & WebGL at JSConf Latin America. I also wrote an article (in portuguese) telling how was my experience in Argentina. Well, now the video is online!'
 skip: true
-date: "2012-07-31"
+date: '2012-07-31'
 ---
 
 <div class="iframe-wrap">

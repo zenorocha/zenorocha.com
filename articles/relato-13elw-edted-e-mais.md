@@ -1,9 +1,9 @@
 ---
-title: "Relato #13elw #edted ...e mais!"
-description: "Essa semana tive a oportunidade de participar de dois eventos muito legais que aconteceram nos dias 19 e 21 de maio aqui no Rio de Janeiro. Se você quer saber o que rolou nesses eventos e o que ainda está para rolar, aqui é o lugar."
+title: 'Relato #13elw #edted ...e mais!'
+description: 'Essa semana tive a oportunidade de participar de dois eventos muito legais que aconteceram nos dias 19 e 21 de maio aqui no Rio de Janeiro. Se você quer saber o que rolou nesses eventos e o que ainda está para rolar, aqui é o lugar.'
 image: /static/img/tumblr/tumblr_lljn2ySmfT1qe3219.png
 lang: pt-BR
-date: "2011-05-23"
+date: '2011-05-23'
 ---
 
 Essa semana tive a oportunidade de participar de dois eventos muito legais que aconteceram nos dias 19 e 21 de maio aqui no Rio de Janeiro. Se você quer saber o que rolou nesses eventos e o que ainda está para rolar, aqui é o lugar.

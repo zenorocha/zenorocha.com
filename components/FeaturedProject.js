@@ -1,15 +1,19 @@
-import { styled } from '../stitches.config'
-import { useState, useRef } from 'react'
-import { motion } from 'framer-motion'
-import dynamic from 'next/dynamic'
+'use client';
 
-const Lottie = dynamic(() => import('lottie-react'), { ssr: false })
+import { motion } from 'framer-motion';
+import dynamic from 'next/dynamic';
+import { useRef, useState } from 'react';
+
+import { styled } from '../stitches.config';
+
+const Lottie = dynamic(() => import('lottie-react'), { ssr: false });
 
 export default function FeaturedProject(props) {
-  const { project } = props
+  const { project } = props;
 
-  const icon = require(`../public/static/icons/${project.icon}.json`)
-  const iconRef = useRef()
+  // eslint-disable-next-line @typescript-eslint/no-require-imports
+  const icon = require(`../public/static/icons/${project.icon}.json`);
+  const iconRef = useRef();
 
   return (
     <Project
@@ -33,12 +37,12 @@ export default function FeaturedProject(props) {
         </Body>
       </Animation>
     </Project>
-  )
+  );
 }
 
 function Animation(props) {
-  const [hovered, setHovered] = useState('')
-  const isHovered = hovered === props.index
+  const [hovered, setHovered] = useState('');
+  const isHovered = hovered === props.index;
 
   return (
     <AnimContainer
@@ -56,7 +60,7 @@ function Animation(props) {
 
       {props.children}
     </AnimContainer>
-  )
+  );
 }
 
 const Project = styled('a', {
@@ -67,24 +71,24 @@ const Project = styled('a', {
   textDecoration: 'none',
   width: 'auto',
   '&:hover': { opacity: 1 },
-  '@bp2': { width: 180 },
-})
+  '@bp2': { width: 180 }
+});
 
 const Body = styled('div', {
-  flex: '1 1 auto',
-})
+  flex: '1 1 auto'
+});
 
 const Title = styled('p', {
   color: '$primary',
   margin: '0',
-  fontSize: '18px',
-})
+  fontSize: '18px'
+});
 
 const Description = styled('p', {
   margin: '0',
   color: '$secondary',
-  lineHeight: '24px',
-})
+  lineHeight: '24px'
+});
 
 const Stats = styled('p', {
   margin: '5px 0 0',
@@ -93,14 +97,14 @@ const Stats = styled('p', {
   display: 'inline-block',
   fontWeight: 500,
   letterSpacing: '1.2px',
-  fontSize: '12px',
-})
+  fontSize: '12px'
+});
 
 const AnimContainer = styled(motion.span, {
   position: 'relative',
   width: '100%',
-  padding: '20px',
-})
+  padding: '20px'
+});
 
 const AnimHovered = styled(motion.span, {
   position: 'absolute',
@@ -110,5 +114,5 @@ const AnimHovered = styled(motion.span, {
   bottom: '0',
   background: '$hover',
   borderRadius: '$borderRadius',
-  zIndex: -1,
-})
+  zIndex: -1
+});

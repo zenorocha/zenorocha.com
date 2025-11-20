@@ -1,10 +1,10 @@
 ---
 title: What makes a good changelog
-description: "Changelogs are important communication tools, and should be made for people to enjoy reading. Here are five decisions we made to make the best changelog we possibly could."
+description: 'Changelogs are important communication tools, and should be made for people to enjoy reading. Here are five decisions we made to make the best changelog we possibly could.'
 slug: what-makes-a-good-changelog
 canonical_url: https://workos.com/blog/what-makes-a-good-changelog
 image: /static/img/posts/what-makes-a-good-changelog.jpg
-date: "2021-08-27"
+date: '2021-08-27'
 ---
 
 These days, there are a ton of great tools to automatically generate and publish changelogs. While it might seem to make things easier, automating everything is not always the answer. After all, changelogs are made for humans, not machines.
@@ -75,6 +75,6 @@ Even if you don’t think your changelog will have many external readers in the 
 
 If you ever want to learn about what to expect from WorkOS, visit our changelog. It’s where we’ll explain how and why our software changes. If you want more changelog inspiration, [I’ve tweeted about the topic before](https://twitter.com/zenorocha/status/1404500294235410433). Happy logging!
 
-*If you liked this post, you can [read the WorkOS changelog here](https://workos.com/changelog?utm_source=blog&utm_medium=blog+post&utm_campaign=changelog+post). If you also want to spend your time working on creating great developer experiences, [we are hiring](https://jobs.lever.co/workos). If you ever want to talk about developer experience (or changelogs), please [tweet or DM me](https://twitter.com/zenorocha/)!*
+_If you liked this post, you can [read the WorkOS changelog here](https://workos.com/changelog?utm_source=blog&utm_medium=blog+post&utm_campaign=changelog+post). If you also want to spend your time working on creating great developer experiences, [we are hiring](https://jobs.lever.co/workos). If you ever want to talk about developer experience (or changelogs), please [tweet or DM me](https://twitter.com/zenorocha/)!_
 
 _Originally published in the [WorkOS Blog](https://workos.com/blog/what-makes-a-good-changelog)_

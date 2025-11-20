@@ -1,7 +1,7 @@
 ---
-title: "How talks affect an open source project?"
+title: 'How talks affect an open source project?'
 description: "Good documentation, readable code, great performance, intuitive APIs. These are few things that differentiates a successful open source project than just another GitHub repo that nobody cares. But what if you've done all that and still nobody is paying attention?"
-date: "2015-08-03"
+date: '2015-08-03'
 ---
 
 Good documentation, readable code, great performance, intuitive APIs. These are few things that differentiates a successful open source project than just another GitHub repo that nobody cares. But what if you've done all that and still nobody is paying attention?

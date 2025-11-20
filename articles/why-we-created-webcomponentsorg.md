@@ -1,7 +1,7 @@
 ---
-title: "Why we created WebComponents.org?"
+title: 'Why we created WebComponents.org?'
 description: "It all started 7 months ago in October, 2013 with a new organization on GitHub called `WebComponentsOrg`. Googlers from the Polymer/Chrome team, along with some great folks from Mozilla's X-Tag/Brick, as well as other Web Components community members (like me) had been cooking up a vision for a simple, neutral site/community devoted to encouraging good best practices for Web Components."
-date: "2014-05-04"
+date: '2014-05-04'
 ---
 
 It all started 7 months ago in October, 2013 with a new organization on GitHub called `WebComponentsOrg`. Googlers from the Polymer/Chrome team, along with some great folks from Mozilla's X-Tag/Brick, as well as other Web Components community members (like me) had been cooking up a vision for a simple, neutral site/community devoted to encouraging good best practices for Web Components.

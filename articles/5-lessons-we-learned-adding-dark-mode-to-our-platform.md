@@ -1,9 +1,9 @@
 ---
 title: 5 lessons we learned adding dark mode to our platform
-description: "Designing a dark mode version of your app comes with its own challenges. In this post, we will share some of the lessons we learned during the implementation of dark mode at WorkOS."
+description: 'Designing a dark mode version of your app comes with its own challenges. In this post, we will share some of the lessons we learned during the implementation of dark mode at WorkOS.'
 slug: 5-lessons-we-learned-adding-dark-mode-to-our-platform
 canonical_url: https://workos.com/blog/5-lessons-we-learned-adding-dark-mode-to-our-platform
-date: "2021-08-12"
+date: '2021-08-12'
 ---
 
 ![Dark mode at WorkOS](/static/img/posts/5-lessons-we-learned-adding-dark-mode-to-our-platform.png)
@@ -74,12 +74,12 @@ Regardless of the use case, you should give them the control to change.
 
 ## Conclusion
 
-Dark mode sounds straightforward enough, but getting it *just* right—and making it *awesome*—takes consideration. Thanks for reading this, and I hope you get a chance to implement dark mode into the programs you’re working on as well!
+Dark mode sounds straightforward enough, but getting it _just_ right—and making it _awesome_—takes consideration. Thanks for reading this, and I hope you get a chance to implement dark mode into the programs you’re working on as well!
 
 For the WorkOS users, whether you prefer your screen bright or if you want to feel like a hacker using dark mode, it’s up to you how you experience the app.
 
 Enjoy the dark side! 🖤
 
-*If you liked this post, you can [try WorkOS in dark mode here](https://dashboard.workos.com/signup?utm_source=blog&utm_medium=blog+post&utm_campaign=launch-hdmof). If you also want to spend your time working on creating great developer experiences, [we are hiring](https://jobs.lever.co/workos). If you ever want to talk about developer experience (or dark mode), please [tweet or DM me](https://twitter.com/zenorocha/)!*
+_If you liked this post, you can [try WorkOS in dark mode here](https://dashboard.workos.com/signup?utm_source=blog&utm_medium=blog+post&utm_campaign=launch-hdmof). If you also want to spend your time working on creating great developer experiences, [we are hiring](https://jobs.lever.co/workos). If you ever want to talk about developer experience (or dark mode), please [tweet or DM me](https://twitter.com/zenorocha/)!_
 
 _Originally published in the [WorkOS Blog](https://workos.com/blog/5-lessons-we-learned-adding-dark-mode-to-our-platform)_

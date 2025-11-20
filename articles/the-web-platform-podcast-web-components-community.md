@@ -1,10 +1,10 @@
 ---
-title: "The Web Platform Podcast: Web Components Community"
-description: "Web Components are a set of emerging and rapidly changing technologies alter the way many developers are starting to build web applications. Zeno Rocha, a dominant force in the front end development community talks with hosts Erik Isaksen & Christian Smith on how developers can get started building with these technologies today..."
-link: "http://thewebplatform.libsyn.com/the-web-components-community-helpful-resources"
+title: 'The Web Platform Podcast: Web Components Community'
+description: 'Web Components are a set of emerging and rapidly changing technologies alter the way many developers are starting to build web applications. Zeno Rocha, a dominant force in the front end development community talks with hosts Erik Isaksen & Christian Smith on how developers can get started building with these technologies today...'
+link: 'http://thewebplatform.libsyn.com/the-web-components-community-helpful-resources'
 nomore: true
 skip: true
-date: "2014-08-08"
+date: '2014-08-08'
 ---
 
 _Originally published in [The Web Platform Podcast](http://thewebplatform.libsyn.com/the-web-components-community-helpful-resources)_

@@ -4,7 +4,7 @@ const items = [
     company: 'Resend',
     companyUrl: 'https://resend.com',
     startDate: '2023-01-01',
-    location: 'San Francisco, California',
+    location: 'San Francisco, California'
   },
   {
     jobTitle: 'VP of Developer Experience',
@@ -12,7 +12,7 @@ const items = [
     companyUrl: 'https://workos.com',
     startDate: '2021-07-01',
     endDate: '2022-12-01',
-    location: 'Los Angeles, California',
+    location: 'Los Angeles, California'
   },
   {
     jobTitle: 'Chief Product Officer',
@@ -20,7 +20,7 @@ const items = [
     companyUrl: 'https://liferay.com',
     startDate: '2018-06-01',
     endDate: '2021-07-01',
-    location: 'Los Angeles, California',
+    location: 'Los Angeles, California'
   },
   {
     jobTitle: 'Principal Developer Advocate',
@@ -28,7 +28,7 @@ const items = [
     companyUrl: 'https://liferay.com',
     startDate: '2015-03-01',
     endDate: '2018-06-01',
-    location: 'Los Angeles, California',
+    location: 'Los Angeles, California'
   },
   {
     jobTitle: 'Front-end Engineer',
@@ -36,7 +36,7 @@ const items = [
     companyUrl: 'https://liferay.com',
     startDate: '2012-07-01',
     endDate: '2015-03-01',
-    location: 'Recife, Brazil',
+    location: 'Recife, Brazil'
   },
   {
     jobTitle: 'Front-end Engineer',
@@ -44,7 +44,7 @@ const items = [
     companyUrl: 'https://globo.com',
     startDate: '2011-10-01',
     endDate: '2012-07-01',
-    location: 'Rio de Janeiro, Brazil',
+    location: 'Rio de Janeiro, Brazil'
   },
   {
     jobTitle: 'Software Engineer',
@@ -52,7 +52,7 @@ const items = [
     companyUrl: 'https://petrobras.com.br',
     startDate: '2011-02-01',
     endDate: '2011-10-01',
-    location: 'Rio de Janeiro, Brazil',
+    location: 'Rio de Janeiro, Brazil'
   },
   {
     jobTitle: 'Web Developer',
@@ -60,8 +60,8 @@ const items = [
     companyUrl: 'http://caosdesign.com.br',
     startDate: '2009-09-01',
     endDate: '2011-02-01',
-    location: 'Rio de Janeiro, Brazil',
-  },
-]
+    location: 'Rio de Janeiro, Brazil'
+  }
+];
 
-export default items
+export default items;

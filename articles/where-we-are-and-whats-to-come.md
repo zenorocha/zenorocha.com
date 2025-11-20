@@ -1,7 +1,7 @@
 ---
-title: "Where we are and what’s to come"
+title: 'Where we are and what’s to come'
 description: "2015 has been an incredible year for CustomElements.io. I'm incredibly proud of every single step we made as a team and extremely grateful for having such a vibrant community around us. This story is about how we went from this image below to what we have now and what are the plans for 2016."
-date: "2015-12-17"
+date: '2015-12-17'
 ---
 
 2015 has been an incredible year for [CustomElements.io](https://customelements.io/).

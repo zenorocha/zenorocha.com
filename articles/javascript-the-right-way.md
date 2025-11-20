@@ -1,9 +1,9 @@
 ---
 title: JavaScript the Right Way
-description: "Um problema que a comunidade PHP tem enfrentado nos últimos anos é a quantidade de tutoriais desatualizados que acabam propagando entre os iniciantes más práticas de desenvolvimento e códigos cheios de bug."
+description: 'Um problema que a comunidade PHP tem enfrentado nos últimos anos é a quantidade de tutoriais desatualizados que acabam propagando entre os iniciantes más práticas de desenvolvimento e códigos cheios de bug.'
 image: /static/img/tumblr/tumblr_m93xteQeai1qe3219.jpg
 lang: pt-BR
-date: "2012-08-21"
+date: '2012-08-21'
 ---
 
 Um problema que a comunidade PHP tem enfrentado nos últimos anos é a quantidade de tutoriais desatualizados que acabam propagando entre os iniciantes más práticas de desenvolvimento e códigos cheios de bug.

@@ -8,9 +8,9 @@ const items = [
         url: 'https://resend.com',
         active: true,
         icon: 'resend',
-        stats: '400k+ users',
-      },
-    ],
+        stats: '400k+ users'
+      }
+    ]
   },
   {
     year: '2022',
@@ -21,14 +21,14 @@ const items = [
         url: 'https://react.email',
         active: true,
         icon: 'email',
-        stats: '500k+ downloads',
+        stats: '500k+ downloads'
       },
       {
         title: 'WorkOS',
         url: 'https://workos.com',
-        active: true,
-      },
-    ],
+        active: true
+      }
+    ]
   },
   {
     year: '2021',
@@ -36,18 +36,18 @@ const items = [
       {
         title: 'Awesome Developer Experience',
         url: 'https://github.com/workos-inc/awesome-developer-experience',
-        active: true,
+        active: true
       },
       {
         title: 'ByteTalk',
         url: 'https://www.youtube.com/@bytetalkpodcast846',
-        active: true,
+        active: true
       },
       {
         title: 'Dracula UI',
         url: 'https://draculatheme.com/ui'
-      },
-    ],
+      }
+    ]
   },
   {
     year: '2020',
@@ -55,14 +55,14 @@ const items = [
       {
         title: '14 Habits',
         description: 'Book about productivity',
-        url: 'https://14habits.com',
+        url: 'https://14habits.com'
       },
       {
         title: 'Dracula PRO',
         description: 'Premium dark color scheme',
-        url: 'https://draculatheme.com/pro',
-      },
-    ],
+        url: 'https://draculatheme.com/pro'
+      }
+    ]
   },
   {
     year: '2019',
@@ -70,9 +70,9 @@ const items = [
       {
         title: 'LeCheese',
         url: 'https://lecheese.app',
-        active: true,
-      },
-    ],
+        active: true
+      }
+    ]
   },
   {
     year: '2018',
@@ -80,9 +80,9 @@ const items = [
       {
         title: 'Liferay DXP Cloud',
         url: 'https://www.liferay.com/products/dxp-cloud',
-        active: true,
-      },
-    ],
+        active: true
+      }
+    ]
   },
   {
     year: '2017',
@@ -90,14 +90,14 @@ const items = [
       {
         title: 'Liferay Community',
         url: 'https://community.liferay.com/',
-        active: true,
+        active: true
       },
       {
         title: 'CodeCopy',
         url: 'https://chrome.google.com/webstore/detail/codecopy/fkbfebkcoelajmhanocgppanfoojcdmg',
-        active: true,
-      },
-    ],
+        active: true
+      }
+    ]
   },
   {
     year: '2016',
@@ -105,19 +105,19 @@ const items = [
       {
         title: 'WeDeploy',
         url: 'http://wedeploy.com',
-        active: false,
+        active: false
       },
       {
         title: 'Browser Calories',
         url: 'http://browserdiet.com/calories',
-        active: true,
+        active: true
       },
       {
         title: 'DevSpace',
         url: 'http://devspace.io',
-        active: false,
-      },
-    ],
+        active: false
+      }
+    ]
   },
   {
     year: '2015',
@@ -126,37 +126,36 @@ const items = [
         title: 'Clipboard.js',
         description: 'Library to copy text to clipboard',
         url: 'http://clipboardjs.com/',
-        icon: 'clipboard',
-        stats: '34k+ stars',
         icon: 'clipboard-js',
-        active: true,
+        stats: '34k+ stars',
+        active: true
       },
       {
         title: 'Select',
         url: 'https://www.npmjs.com/package/select',
-        active: true,
+        active: true
       },
       {
         title: 'Delegate',
         url: 'https://www.npmjs.com/package/delegate',
-        active: true,
+        active: true
       },
       {
         title: 'Good Listener',
         url: 'https://www.npmjs.com/package/good-listener',
-        active: true,
+        active: true
       },
       {
         title: 'Launchpad',
         url: 'http://liferay.io/',
-        active: false,
+        active: false
       },
       {
         title: 'Metal.js',
         url: 'http://metaljs.com/',
-        active: true,
-      },
-    ],
+        active: true
+      }
+    ]
   },
   {
     year: '2014',
@@ -164,69 +163,69 @@ const items = [
       {
         title: 'Senna',
         url: 'http://sennajs.com',
-        active: true,
+        active: true
       },
       {
         title: 'trackingjs.com',
         url: 'http://trackingjs.com/',
-        active: true,
+        active: true
       },
       {
         title: 'Voice Elements',
         url: 'https://github.com/zenorocha/voice-elements',
-        active: true,
+        active: true
       },
       {
         title: 'JavaScript & NodeJS Snippets for Atom',
         url: 'https://github.com/zenorocha/atom-javascript-snippets',
-        active: true,
+        active: true
       },
       {
         title: 'Web Components - Chrome Extension',
         url: 'https://chrome.google.com/webstore/detail/web-components/filcobblndaenakhejinpjdblekilpgn',
-        active: true,
+        active: true
       },
       {
         title: 'WebComponents.org',
         url: 'http://webcomponents.org',
-        active: true,
+        active: true
       },
       {
         title: 'Generator Element',
         url: 'https://github.com/webcomponents/generator-element',
-        active: false,
+        active: false
       },
       {
         title: 'Hello World Element',
         url: 'https://github.com/webcomponents/hello-world-element',
-        active: false,
+        active: false
       },
       {
         title: 'Hello World X-Tag',
         url: 'https://github.com/webcomponents/hello-world-xtag',
-        active: false,
+        active: false
       },
       {
         title: 'Hello World Polymer',
         url: 'https://github.com/webcomponents/hello-world-polymer',
-        active: false,
+        active: false
       },
       {
         title: 'Element Boilerplate',
         url: 'https://github.com/webcomponents/element-boilerplate',
-        active: false,
+        active: false
       },
       {
         title: 'X-Tag Boilerplate',
         url: 'https://github.com/webcomponents/x-tag-boilerplate',
-        active: false,
+        active: false
       },
       {
         title: 'Polymer Boilerplate',
         url: 'https://github.com/webcomponents/polymer-boilerplate',
-        active: false,
-      },
-    ],
+        active: false
+      }
+    ]
   },
   {
     year: '2013',
@@ -234,64 +233,62 @@ const items = [
       {
         title: 'JavaScript & NodeJS Snippets for Atom',
         url: 'https://atom.io/packages/javascript-snippets',
-        active: true,
+        active: true
       },
       {
         title: 'Dracula',
         description: 'One dark theme for all platforms',
         url: 'https://draculatheme.com',
         active: true,
-        icon: 'palette',
-        stats: '9M+ users',
         icon: 'dracula-pro',
-        active: true,
+        stats: '9M+ users'
       },
       {
         title: 'Workflow Collection for Alfred App',
         url: 'https://github.com/zenorocha/alfred-workflows',
-        active: true,
+        active: true
       },
       {
         title: 'Custom Elements',
         url: 'http://customelements.io/',
-        active: false,
+        active: false
       },
       {
         title: 'JavaScript & NodeJS Snippets for Sublime Text',
         url: 'https://sublime.wbond.net/packages/JavaScript%20&%20NodeJS%20Snippets',
-        active: true,
+        active: true
       },
       {
         title: 'NodeGH',
         url: 'http://nodegh.io/',
-        active: false,
+        active: false
       },
       {
         title: 'Yeoman Generator for FirefoxOS',
         url: 'https://github.com/zenorocha/generator-firefox-os',
-        active: true,
+        active: true
       },
       {
         title: 'Browser Diet',
         url: 'http://browserdiet.com/',
-        active: true,
+        active: true
       },
       {
         title: 'Sobrinho Manifesto',
         url: 'http://sobrinhomanifesto.com.br/',
-        active: false,
+        active: false
       },
       {
         title: 'alloyui.com',
         url: 'http://alloyui.com/',
-        active: true,
+        active: true
       },
       {
         title: 'jQuery Github',
         url: 'http://zenorocha.github.com/jquery-github/',
-        active: false,
-      },
-    ],
+        active: false
+      }
+    ]
   },
   {
     year: '2012',
@@ -299,29 +296,29 @@ const items = [
       {
         title: 'Conf Boilerplate',
         url: 'http://confboilerplate.com/',
-        active: false,
+        active: false
       },
       {
         title: 'Old Radio',
         url: 'http://bernarddeluna.github.io/oldRadio/',
-        active: true,
+        active: true
       },
       {
         title: 'Linha do tempo do Brasileirão',
         url: 'http://estatico.globoesporte.globo.com/linha-do-tempo/',
-        active: true,
+        active: true
       },
       {
         title: 'Santos pelo Mundo',
         url: 'http://estatico.globoesporte.globo.com/santos-pelo-mundo/',
-        active: true,
+        active: true
       },
       {
         title: 'Santos 100 anos',
         url: 'http://estatico.globoesporte.globo.com/santos-em-10-decadas/',
-        active: true,
-      },
-    ],
+        active: true
+      }
+    ]
   },
   {
     year: '2011',
@@ -329,39 +326,39 @@ const items = [
       {
         title: 'Messi vs Neymar',
         url: 'http://globoesporte.globo.com/futebol/mundial-de-clubes/messi-vs-neymar.html',
-        active: true,
+        active: true
       },
       {
         title: 'Corinthians',
         url: 'http://globoesporte.globo.com/futebol/times/corinthians/timaocampeao.html',
-        active: true,
+        active: true
       },
       {
         title: 'Dive into HTML5',
         url: 'http://diveintohtml5.com.br/',
-        active: true,
+        active: true
       },
       {
         title: 'Wormz',
         url: 'https://experiments.withgoogle.com/wormz',
-        active: true,
+        active: true
       },
       {
         title: 'jQuery Boilerplate',
         url: 'http://jqueryboilerplate.com/',
-        active: false,
+        active: false
       },
       {
         title: 'BeerBlogging',
         url: 'http://beerblogging.org/',
-        active: false,
+        active: false
       },
       {
         title: 'Shop 126 - Winter 2011',
         url: '',
-        active: false,
-      },
-    ],
+        active: false
+      }
+    ]
   },
   {
     year: '2010',
@@ -369,74 +366,74 @@ const items = [
       {
         title: 'Grão Arquitetura',
         url: 'http://www.grao.arq.br/',
-        active: true,
+        active: true
       },
       {
         title: 'Guerra e Paz',
         url: 'http://www.guerraepaz.org.br/',
-        active: true,
+        active: true
       },
       {
         title: 'Safari Recrutamento',
         url: 'http://safarirecrutamento.com.br/',
-        active: false,
+        active: false
       },
       {
         title: 'Coordenadas Cariocas',
         url: 'http://www.coordenadascariocas.com.br/',
-        active: true,
+        active: true
       },
       {
         title: 'Nuts4Nuts',
         url: 'http://nuts4nuts.co.uk/',
-        active: false,
+        active: false
       },
       {
         title: 'Rennato',
         url: '',
-        active: false,
+        active: false
       },
       {
         title: 'Shop 126 - Summer 2011',
         url: '',
-        active: false,
+        active: false
       },
       {
         title: 'Parque da Liberdade',
         url: '',
-        active: false,
+        active: false
       },
       {
         title: 'Marília Misailidis',
         url: 'http://www.mariliamisailidis.com.br/',
-        active: false,
+        active: false
       },
       {
         title: 'Rodrigo de Castro',
         url: '',
-        active: false,
+        active: false
       },
       {
         title: 'Rico Lins',
         url: 'http://www.ricolins.com/',
-        active: true,
+        active: true
       },
       {
         title: 'Tainá 3',
         url: 'http://taina3.com.br/',
-        active: true,
+        active: true
       },
       {
         title: 'Shop 126 - Winter 2010',
         url: '',
-        active: false,
+        active: false
       },
       {
         title: 'Mosaico Mantiqueira',
         url: 'http://www.mosaicomantiqueira.org.br/',
-        active: false,
-      },
-    ],
+        active: false
+      }
+    ]
   },
   {
     year: '2009',
@@ -444,15 +441,15 @@ const items = [
       {
         title: 'Brasil tem jeito',
         url: 'http://brasiltemjeito.org/',
-        active: false,
+        active: false
       },
       {
         title: 'Antonia Rodrigues',
         url: 'http://www.antoniarodrigues.com.br/',
-        active: false,
-      },
-    ],
-  },
-]
+        active: false
+      }
+    ]
+  }
+];
 
-export default items
+export default items;

@@ -1,7 +1,7 @@
 ---
 title: Always Have Fun
-description: "Work is an interesting word. It means so many different things for different people. Some when they hear this word they might feel sad or happy, motivated or discouraged, passionated or obligated."
-date: "2018-04-19"
+description: 'Work is an interesting word. It means so many different things for different people. Some when they hear this word they might feel sad or happy, motivated or discouraged, passionated or obligated.'
+date: '2018-04-19'
 ---
 
 Work is an interesting word. It means so many different things for different people. Some when they hear this word they might feel sad or happy, motivated or discouraged, passionated or obligated.

@@ -1,8 +1,8 @@
 ---
-title: "Fears"
-description: "Our worst fears lie in anticipation"
+title: 'Fears'
+description: 'Our worst fears lie in anticipation'
 skip: true
-date: "2014-08-27"
+date: '2014-08-27'
 ---
 
 <blockquote>

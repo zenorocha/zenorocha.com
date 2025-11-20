@@ -4,7 +4,7 @@ description: "Aqui estou eu, novamente contando sobre as experiências que tenho
 image: /static/img/posts/bb-jamsession.jpg
 skip: true
 lang: pt-BR
-date: "2012-10-16"
+date: '2012-10-16'
 ---
 
 Aqui estou eu, novamente contando sobre as experiências que tenho vivido por aí. Dessa vez vou voltar algumas semanas atrás no tempo para falar do primeiro Hackathon de verdade que eu participei. Digo "primeiro de verdade" porque nos outros eu não competi, fiquei só conversando com o pessoal.

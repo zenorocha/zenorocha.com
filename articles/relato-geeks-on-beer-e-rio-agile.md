@@ -1,9 +1,9 @@
 ---
 title: Relato - Geeks on Beer e Rio Agile
-description: "Semana passada pude participar de mais dois excelentes eventos que rolaram aqui no Rio de Janeiro. O assunto, como sempre, era tecnologia, só que dessa vez, o foco não era a linguagem X ou Y. E sim, empreendedorismo e metodologias ágeis. Ambos excedendo minhas expectativas e se destacando por não serem mais um daqueles eventos em que você fica sentado passivamente ouvindo alguém falar, houve muita interação e participação da galera."
+description: 'Semana passada pude participar de mais dois excelentes eventos que rolaram aqui no Rio de Janeiro. O assunto, como sempre, era tecnologia, só que dessa vez, o foco não era a linguagem X ou Y. E sim, empreendedorismo e metodologias ágeis. Ambos excedendo minhas expectativas e se destacando por não serem mais um daqueles eventos em que você fica sentado passivamente ouvindo alguém falar, houve muita interação e participação da galera.'
 image: /static/img/tumblr/tumblr_lpx7s22Si51qe3219.png
 lang: pt-BR
-date: "2011-08-20"
+date: '2011-08-20'
 ---
 
 Semana passada pude participar de mais dois excelentes eventos que rolaram aqui no Rio de Janeiro. O assunto, como sempre, era tecnologia, só que dessa vez, o foco não era a linguagem X ou Y.

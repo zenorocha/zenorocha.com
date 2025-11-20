@@ -1,19 +1,19 @@
 ---
 title: JavaScript Event Handlers
 description: "Have you ever wondered what's the difference between this? They do the same thing, right? First listen for a click event, then execute a callback function. In fact, they're slightly different."
-date: "2015-03-18"
+date: '2015-03-18'
 ---
 
 Have you ever wondered what's the difference between this:
 
 ```js
-elem.onclick = function(e) {}
+elem.onclick = function (e) {};
 ```
 
 …and this:
 
 ```js
-elem.addEventListener('click', function(e) {});
+elem.addEventListener('click', function (e) {});
 ```
 
 They do the same thing, right? First listen for a click event, then execute a callback function. In fact, they're slightly different.
@@ -29,9 +29,9 @@ When JavaScript arrived in the web, people used to attach events right into the 
 That line got the job done, but soon developers realized that this wasn't a good idea. They started advocating for a better separation of concerns. JavaScript should be moved to a `<script>` tag or `.js` file. This is generally what’s referred to as unobtrusive JavaScript.
 
 ```js
-elem.onclick = function(e) {
+elem.onclick = function (e) {
   alert('Yay');
-}
+};
 ```
 
 When moving inline event handlers to a JavaScript file, they gained more control over the scope. They could now use anonymous functions, function references, or closures.
@@ -49,7 +49,7 @@ How do you solve that?
 Back in 2000, the [DOM Level 2 Events Spec](http://www.w3.org/TR/DOM-Level-2-Events/events.html) was released, offering a more granular way to control events.
 
 ```js
-elem.addEventListener('click', function(e) {
+elem.addEventListener('click', function (e) {
   alert('Yay');
 });
 ```
@@ -59,7 +59,7 @@ In addition to multiple event listeners, you can also set a third optional param
 Unfortunately, Microsoft did notimplement the DOM Level 2 event model until IE9. Instead they had its own proprietary method.
 
 ```js
-elem.attachEvent('onclick', function(e) {
+elem.attachEvent('onclick', function (e) {
   alert('Yay');
 });
 ```

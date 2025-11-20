@@ -1,7 +1,7 @@
 ---
-title: "jQuery Boilerplate - Redesign"
+title: 'jQuery Boilerplate - Redesign'
 description: "After years using the same layout for jQuery Boilerplate, I've decided to completely redesign it. The main reason was to point people not only for jQuery Boilerplate project, but also to its Yeoman Generator and jQuery Patterns project."
-date: "2013-08-05"
+date: '2013-08-05'
 ---
 
 After years using the same layout for jQuery Boilerplate, I've decided to completely

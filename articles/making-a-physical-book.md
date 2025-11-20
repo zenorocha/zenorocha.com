@@ -2,9 +2,9 @@
 title: Making a Physical Book
 description: "I can't believe this is real... My book is now available in hardcover. Building this physical copy has been a really intense process."
 image: /static/img/posts/making-a-physical-book-a.jpg
-canonical_url: "https://draculatheme.com/blog/making-a-physical-book"
+canonical_url: 'https://draculatheme.com/blog/making-a-physical-book'
 slug: making-a-physical-book
-date: "2021-03-24"
+date: '2021-03-24'
 ---
 
 I can't believe this is real...

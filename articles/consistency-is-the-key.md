@@ -1,7 +1,7 @@
 ---
 title: Consistency is the key
 description: "December and January are exciting months. For most people, it's a time to reflect on what they achieved and to plan what they want next. That's no different for me."
-date: "2019-12-16"
+date: '2019-12-16'
 ---
 
 December and January are exciting months. For most people, it's a time to reflect on what they achieved and to plan what they want next. That's no different for me.

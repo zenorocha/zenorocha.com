@@ -1,8 +1,8 @@
 ---
-title: "README.md"
-description: "As you can see, I really like to create open source projects on Github. So this week I found myself repeating the same task over and over again. I was copy & pasting markdown READMEs from my old projects to the new ones."
+title: 'README.md'
+description: 'As you can see, I really like to create open source projects on Github. So this week I found myself repeating the same task over and over again. I was copy & pasting markdown READMEs from my old projects to the new ones.'
 slug: readme
-date: "2013-01-16"
+date: '2013-01-16'
 ---
 
 As [you can see](/most-active-contributors-on-github/), I really like to create open source projects on Github.

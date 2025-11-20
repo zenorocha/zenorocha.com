@@ -1,8 +1,8 @@
 ---
 title: Introducing BrazilJS Foundation
-description: "Today the news comes straight from Porto Alegre! At this moment, I’m at the 13th FISL (Free Software Internacional Forum). For those who doesn’t know, this is one of the most relevant events of the open source community in Latin America. The coolest things here is that it doesn’t matter which technology do you deal with, the idea is just gather people together."
+description: 'Today the news comes straight from Porto Alegre! At this moment, I’m at the 13th FISL (Free Software Internacional Forum). For those who doesn’t know, this is one of the most relevant events of the open source community in Latin America. The coolest things here is that it doesn’t matter which technology do you deal with, the idea is just gather people together.'
 image: /static/img/tumblr/tumblr_m7q4l7xknt1qe3219.png
-date: "2012-07-26"
+date: '2012-07-26'
 ---
 
 _[Portuguese release here.](http://jaydson.org/fundacao-braziljs/)_

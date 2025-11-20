@@ -1,7 +1,7 @@
 ---
-title: "Web Components: a chance to create the future"
+title: 'Web Components: a chance to create the future'
 description: "Two weeks ago I was in San Francisco for SFHTML5. This meetup was all about Polymer and I gave a talk called 'Web Components: a chance to create the future'."
-date: "2014-05-14"
+date: '2014-05-14'
 ---
 
 Two weeks ago I was in San Francisco for [SFHTML5](http://www.meetup.com/sfhtml5/events/169452272/). This meetup was all about Polymer and I gave a talk called _"Web Components: a chance to create the future"_.

@@ -1,3 +1,3 @@
-import { styled } from '../stitches.config'
+import { styled } from '../stitches.config';
 
-export const Icon = styled('i')
+export const Icon = styled('i');

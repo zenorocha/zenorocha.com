@@ -2,7 +2,7 @@
 title: I made $5,428.91 in 3 days with a side project
 description: "72 hours ago I launched Dracula PRO. It's been a crazy couple of days with tons of learnings. Here are some thoughts and behind the scenes of this entire process."
 slug: i-made-5k-in-3-days-with-a-side-project
-date: "2020-02-14"
+date: '2020-02-14'
 ---
 
 72 hours ago I launched [Dracula PRO](https://draculatheme.com/pro/).

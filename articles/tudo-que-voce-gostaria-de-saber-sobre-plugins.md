@@ -1,10 +1,10 @@
 ---
 title: Tudo que você gostaria de saber sobre plugins jQuery e ninguém teve paciência de explicar
-description: "Então quer dizer que você anda brincando com jQuery. Volta e meia utiliza uns plugins que mais parecem mágica e se duvidar até se aventurou em criar o seu próprio, acertei?"
+description: 'Então quer dizer que você anda brincando com jQuery. Volta e meia utiliza uns plugins que mais parecem mágica e se duvidar até se aventurou em criar o seu próprio, acertei?'
 slug: tudo-que-voce-gostaria-de-saber-sobre-plugins
 canonical_url: https://tableless.com.br/tudo-que-voce-gostaria-de-saber-sobre-plugins-jquery-e-ninguem-teve-paciencia-de-explicar/
 lang: pt-BR
-date: "2012-05-03"
+date: '2012-05-03'
 ---
 
 _Publicado originalmente no Tableless._

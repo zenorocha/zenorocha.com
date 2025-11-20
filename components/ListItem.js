@@ -1,8 +1,11 @@
-import { styled } from '../stitches.config'
-import { useState } from 'react'
-import Link from 'next/link'
-import { motion } from 'framer-motion'
-import BlogDate from './BlogDate'
+'use client';
+
+import { motion } from 'framer-motion';
+import Link from 'next/link';
+import { useState } from 'react';
+
+import { styled } from '../stitches.config';
+import BlogDate from './BlogDate';
 
 export default function ListItem(props) {
   // Articles
@@ -12,13 +15,13 @@ export default function ListItem(props) {
         <Anchor as={Link} href={props.href}>
           <Animation index={props.index}>
             <Title>{props.title}</Title>
-            <Date>
+            <DateContainer>
               <BlogDate dateString={props.date} />
-            </Date>
+            </DateContainer>
           </Animation>
         </Anchor>
       </ArticleItem>
-    )
+    );
   }
 
   // Podcasts
@@ -33,12 +36,12 @@ export default function ListItem(props) {
         </Animation>
       </Anchor>
     </Item>
-  )
+  );
 }
 
 function Animation(props) {
-  const [hovered, setHovered] = useState('')
-  const isHovered = hovered === props.index
+  const [hovered, setHovered] = useState('');
+  const isHovered = hovered === props.index;
 
   return (
     <AnimContainer
@@ -56,17 +59,17 @@ function Animation(props) {
 
       {props.children}
     </AnimContainer>
-  )
+  );
 }
 
 const Item = styled('li', {
   borderBottom: '1px solid $hover',
-  '&:last-child': { border: 0 },
-})
+  '&:last-child': { border: 0 }
+});
 
 const Anchor = styled('a', {
-  textDecoration: 'none',
-})
+  textDecoration: 'none'
+});
 
 const Title = styled('span', {
   display: 'block',
@@ -74,22 +77,22 @@ const Title = styled('span', {
   fontWeight: 700,
   fontSize: '18px',
   lineHeight: '40px',
-  textAlign: 'left',
-})
+  textAlign: 'left'
+});
 
-const Date = styled('span', {
+const DateContainer = styled('span', {
   color: '$secondary',
   display: 'block',
   fontWeight: 500,
   fontSize: '14px',
   minWidth: '100px',
   textAlign: 'left',
-  '@bp2': { textAlign: 'right' },
-})
+  '@bp2': { textAlign: 'right' }
+});
 
 const IconContainer = styled('span', {
-  fontSize: '24px',
-})
+  fontSize: '24px'
+});
 
 const AnimContainer = styled(motion.span, {
   border: '0',
@@ -103,8 +106,8 @@ const AnimContainer = styled(motion.span, {
   transition: 'all $duration ease-in-out',
   textDecoration: 'none',
   position: 'relative',
-  '&:hover': { color: '$primary' },
-})
+  '&:hover': { color: '$primary' }
+});
 
 const AnimHovered = styled(motion.span, {
   position: 'absolute',
@@ -114,12 +117,12 @@ const AnimHovered = styled(motion.span, {
   bottom: '-1px',
   background: '$hover',
   borderRadius: '$borderRadius',
-  zIndex: -1,
-})
+  zIndex: -1
+});
 
 const ArticleItem = styled(Item, {
   [`& ${AnimContainer}`]: {
     flexDirection: 'column',
-    '@bp2': { flexDirection: 'row' },
-  },
-})
+    '@bp2': { flexDirection: 'row' }
+  }
+});

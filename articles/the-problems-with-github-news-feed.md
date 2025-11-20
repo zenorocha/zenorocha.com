@@ -1,7 +1,7 @@
 ---
 title: The problems with GitHub's News Feed
 description: "In 2008, GitHub was launched. It started as a simple place to host Git repositories and now, 8 years later, it's considered one of the most important development tools out there. More than that, it became a powerful social network with more than 11 million users."
-date: "2016-01-12"
+date: '2016-01-12'
 ---
 
 > tl;dr — I'm building some sort of TweetDeck for GitHub. It's called DevSpace and starting today you can request an invite to join the private beta.

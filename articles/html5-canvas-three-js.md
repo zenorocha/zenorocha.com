@@ -1,10 +1,10 @@
 ---
 title: HTML5 - Canvas + Three.js
-description: "Ahh o tão badalado canvas. Sempre um dos tópicos mais abordados quando o assunto é HTML5. Você já deve ter ouvido muito falar dele e, assim como eu, ter se impressionado com os diversos experimentos que surgem todos os dias pela internet."
+description: 'Ahh o tão badalado canvas. Sempre um dos tópicos mais abordados quando o assunto é HTML5. Você já deve ter ouvido muito falar dele e, assim como eu, ter se impressionado com os diversos experimentos que surgem todos os dias pela internet.'
 image: /static/img/tumblr/tumblr_lrou6aDK1U1qe3219.jpg
 slug: html5-canvas-three-js
 lang: pt-BR
-date: "2011-08-14"
+date: '2011-08-14'
 ---
 
 <!-- <p class="demo-download"><a href="http://labs.zenorocha.com/html5/canvas/" target="_blank"><img src="/static/img/tumblr/tumblr_lk325lvHwF1qe3219.png" class="botao"/></a> <a href="https://github.com/zenorocha/HTML5-Canvas" target="_blank"><img src="/static/img/tumblr/tumblr_lk325u7HMG1qe3219.png" class="botao"/></a> -->
@@ -70,7 +70,7 @@ Então criamos um mesh, um grafo tridimensional que contém os vértices, faces 
 ```js
 var mesh = new THREE.Cube(250, 250, 250, 1, 1, 1, materiais);
 
-cubo = new THREE.Mesh(mesh, new THREE.MeshFaceMaterial() );
+cubo = new THREE.Mesh(mesh, new THREE.MeshFaceMaterial());
 
 cubo.position.y = 150;
 ```
@@ -90,7 +90,7 @@ renderer = new THREE.CanvasRenderer();
 
 renderer.setSize(canvasWidth, canvasHeight);
 
-container.appendChild( renderer.domElement );
+container.appendChild(renderer.domElement);
 ```
 
 Por fim, definimos que o container estará escutando pelo evento de quando o mouse está clicado e que quando esse evento for disparado chamará a função onMouseDown.

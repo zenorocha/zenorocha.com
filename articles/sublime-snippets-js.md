@@ -1,9 +1,9 @@
 ---
-title: "JavaScript & NodeJS Snippets for Sublime Text"
-link: "https://github.com/zenorocha/sublime-snippets-js"
+title: 'JavaScript & NodeJS Snippets for Sublime Text'
+link: 'https://github.com/zenorocha/sublime-snippets-js'
 slug: sublime-snippets-js
 skip: true
-date: "2013-08-15"
+date: '2013-08-15'
 ---
 
 <p><img src="http://zno.io/QopI/subime-snippet.gif" alt="Demo" style="padding: 0; border: none !important;"></p>

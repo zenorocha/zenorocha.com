@@ -1,11 +1,11 @@
 ---
 title: A descentralização de conteúdo nos Grupos do Facebook
-description: "Algumas horas atrás fui listar os grupos no Facebook que eu participo, a título de criar um guia de referências para buscar conteúdo para BrazilJS Weekly."
+description: 'Algumas horas atrás fui listar os grupos no Facebook que eu participo, a título de criar um guia de referências para buscar conteúdo para BrazilJS Weekly.'
 image: /static/img/posts/grupos-facebook.jpg
 slug: grupos-no-facebook
 skip: true
 lang: pt-BR
-date: "2012-10-09"
+date: '2012-10-09'
 ---
 
 _Publicado originalmente em BrazilJS Foundation._

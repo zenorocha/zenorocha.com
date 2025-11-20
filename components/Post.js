@@ -1,22 +1,22 @@
-import { styled } from '../stitches.config'
+import { styled } from '../stitches.config';
 
 export const PostMain = styled('main', {
   '@bp2': { padding: '$navHeightDesktop 0' },
   padding: '$navHeightMobile 0',
   overflow: 'hidden',
-  flex: '1 1',
-})
+  flex: '1 1'
+});
 
 export const Post = styled('main', {
   overflow: 'hidden',
-  flex: '1 1',
-})
+  flex: '1 1'
+});
 
 export const PostContainer = styled('div', {
   margin: '0 auto',
   maxWidth: '760px',
-  padding: '0 20px',
-})
+  padding: '0 20px'
+});
 
 export const PostContent = styled('div', {
   fontSize: '16px',
@@ -33,7 +33,7 @@ export const PostContent = styled('div', {
     overflow: 'hidden',
     paddingBottom: '56.25%',
     paddingTop: '30px',
-    position: 'relative',
+    position: 'relative'
   },
   '& .iframe-wrap iframe': {
     border: '0',
@@ -41,24 +41,24 @@ export const PostContent = styled('div', {
     left: '0',
     position: 'absolute',
     top: '0',
-    width: '100%',
+    width: '100%'
   },
   '& .post-image-caption': {
     color: '$secondary',
     textAlign: 'center',
     fontStyle: 'italic',
-    fontSize: '14px',
+    fontSize: '14px'
   },
   '& .post-image-full': {
     margin: '20px 0 0',
     maxWidth: 'initial',
     width: '70vw',
     '@bp2': {
-      marginLeft: 'calc(-1 * (70vw - 760px) / 2)',
+      marginLeft: 'calc(-1 * (70vw - 760px) / 2)'
     },
     '@bp4': {
-      marginLeft: 0,
-    },
+      marginLeft: 0
+    }
   },
   '& .side-by-side': {
     display: 'flex',
@@ -66,27 +66,27 @@ export const PostContent = styled('div', {
     margin: '40px 0',
     flexDirection: 'row',
     '@bp2': {
-      marginLeft: 'calc(-1 * (90vw - 760px) / 2)',
+      marginLeft: 'calc(-1 * (90vw - 760px) / 2)'
     },
     '@bp4': {
       marginLeft: 0,
-      flexDirection: 'column',
-    },
+      flexDirection: 'column'
+    }
   },
   '& .side-by-side-img': {
     minWidth: '50%',
     '@bp2': {
-      minWidth: '100%',
+      minWidth: '100%'
     },
     '@bp4': {
       // marginLeft: 0,
-    },
+    }
   },
   '& .side-by-side-caption': {
     color: '$secondary',
     textAlign: 'center',
     fontStyle: 'italic',
     fontSize: '14px',
-    marginTop: -30,
-  },
-})
+    marginTop: -30
+  }
+});

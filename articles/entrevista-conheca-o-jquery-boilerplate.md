@@ -1,8 +1,8 @@
 ---
 title: Entrevista - Conheça o jQuery Boilerplate
-description: "Trabalhar com jQuery ou Javascript e não conhecer Zeno Rocha é bem difícil, mas mesmo assim não vou deixar de apresentá-lo. Ele tem 21 anos e já tem muita história para contar."
+description: 'Trabalhar com jQuery ou Javascript e não conhecer Zeno Rocha é bem difícil, mas mesmo assim não vou deixar de apresentá-lo. Ele tem 21 anos e já tem muita história para contar.'
 lang: pt-BR
-date: "2012-05-08"
+date: '2012-05-08'
 ---
 
 _Publicado originalmente no jQuery Brasil._

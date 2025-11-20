@@ -1,7 +1,7 @@
 ---
-title: "The importance of CDN"
-description: "Some weeks ago we announced the preview release of AlloyUI 2.0. One of the cool things about it is that now we have a pretty new CDN (Content Delivery Network). So instead of downloading AlloyUI to use in your local environment, you just to need copy and paste this line of code and start using it."
-date: "2013-03-11"
+title: 'The importance of CDN'
+description: 'Some weeks ago we announced the preview release of AlloyUI 2.0. One of the cool things about it is that now we have a pretty new CDN (Content Delivery Network). So instead of downloading AlloyUI to use in your local environment, you just to need copy and paste this line of code and start using it.'
+date: '2013-03-11'
 ---
 
 _[Leia em Português.](http://imasters.com.br/desenvolvimento/a-importancia-de-uma-cdn/)_

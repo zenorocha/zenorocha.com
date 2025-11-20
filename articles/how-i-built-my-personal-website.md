@@ -2,7 +2,7 @@
 title: How I built my personal website
 description: "Most people think about their personal websites as a portfolio. It's this thing where you can showcase your work and maybe share some contact info. For me, a personal website is much more than that - it's a playground for experimentation."
 image: /static/img/posts/how-i-built-my-personal-website.jpg
-date: "2021-11-11"
+date: '2021-11-11'
 ---
 
 Most people think about their personal websites as a portfolio. It's this thing where you can showcase your work and share some contact info.
@@ -17,11 +17,11 @@ Over the years, I kept evolving and improving this space. Today, I want to take 
 
 This website was written in plain HTML and CSS. There was no build process, compilation, or anything like that. The only automated step was a shell script that would use `rsync` to send all the files via SSH to my [Dreamhost](https://www.dreamhost.com/) server.
 
-I wanted to try some fancy JavaScript techniques, so I had some data stored as JSON and loaded it on the client-side using [Ajax](https://en.wikipedia.org/wiki/Ajax_(programming)). The transitions were implemented using [jQuery](https://jquery.com/), and the markup was written with [HTML5](https://en.wikipedia.org/wiki/HTML5), so I had to use [Modernizr](https://modernizr.com/) to support [IE6](https://en.wikipedia.org/wiki/Internet_Explorer_6).
+I wanted to try some fancy JavaScript techniques, so I had some data stored as JSON and loaded it on the client-side using [Ajax](<https://en.wikipedia.org/wiki/Ajax_(programming)>). The transitions were implemented using [jQuery](https://jquery.com/), and the markup was written with [HTML5](https://en.wikipedia.org/wiki/HTML5), so I had to use [Modernizr](https://modernizr.com/) to support [IE6](https://en.wikipedia.org/wiki/Internet_Explorer_6).
 
 What I loved about this site was the simplicity. There was no navigation, only external links. On a single page, you could see everything. Also, that illustration was so fun!
 
-*[View source code →](https://github.com/zenorocha/zenorocha.com/tree/v1)*
+_[View source code →](https://github.com/zenorocha/zenorocha.com/tree/v1)_
 
 <img alt="zenorocha.com V1 screenshot" src="/static/img/posts/how-i-built-my-personal-website-2012.jpg" class="post-image-full">
 
@@ -33,7 +33,7 @@ Once I started writing more posts, I felt the need to unify my portfolio with my
 
 I remember using this JavaScript library called [Fokus](https://lab.hakim.se/fokus/) to impress people when they selected a paragraph. To automate the linting process, I used a task runner called [Grunt](https://gruntjs.com/). For hosting, I used [GitHub Pages](https://pages.github.com/) which was giving HTTPS certificates for free (that was a big deal back then).
 
-*[View source code →](https://github.com/zenorocha/zenorocha.com/tree/v2)*
+_[View source code →](https://github.com/zenorocha/zenorocha.com/tree/v2)_
 
 <img alt="zenorocha.com V2 screenshot" src="/static/img/posts/how-i-built-my-personal-website-2013.jpg" class="post-image-full">
 
@@ -43,11 +43,11 @@ After having so many problems with Ruby gems, I ended up migrating to [Metalsmit
 
 On the client-side, I used [Headroom](https://wicky.nillia.ms/headroom.js/), a fancy library that slides the header out of view when scrolling down and slides back in when scrolling up. At that time, [Single Page Applications (SPAs)](https://en.wikipedia.org/wiki/Single-page_application) were a huge trend, so I used [Senna.js](https://sennajs.com/), a library that I helped build, to accomplish it.
 
-I'm super into [dogfooding](https://en.wikipedia.org/wiki/Eating_your_own_dog_food), so I also used a cloud hosting solution that I was building at work called *WeDeploy*, which eventually became [Liferay DXP Cloud](https://www.liferay.com/products/dxp-cloud).
+I'm super into [dogfooding](https://en.wikipedia.org/wiki/Eating_your_own_dog_food), so I also used a cloud hosting solution that I was building at work called _WeDeploy_, which eventually became [Liferay DXP Cloud](https://www.liferay.com/products/dxp-cloud).
 
 In terms of design, a huge inspiration for me was [Medium](https://medium.com/). The reading experience and the way images were displayed were extremely beautiful, so I tried to replicate some of that.
 
-*[View source code →](https://github.com/zenorocha/zenorocha.com/tree/v3)*
+_[View source code →](https://github.com/zenorocha/zenorocha.com/tree/v3)_
 
 <img alt="zenorocha.com V3 screenshot" src="/static/img/posts/how-i-built-my-personal-website-2016.jpg" class="post-image-full">
 
@@ -59,7 +59,7 @@ The UI components are written in [React](https://reactjs.org/), and everything i
 
 The command palette is built using [kbar](https://github.com/timc1/kbar/). The code snippets are highlighted with [Prism](https://prismjs.com/) using a custom set of [Dracula](https://draculatheme.com) colors. The favicons are made with SVG and support both dark and light modes. Finally, all the smooth hover interactions are powered by [Framer Motion](https://www.framer.com/motion/) which I'm absolutely in love with.
 
-*[View source code →](https://github.com/zenorocha/zenorocha.com/tree/master)*
+_[View source code →](https://github.com/zenorocha/zenorocha.com/tree/master)_
 
 <img alt="zenorocha.com V4 screenshot" src="/static/img/posts/how-i-built-my-personal-website-2021.jpg" class="post-image-full" style="border: 1px solid rgba(255, 255, 255, .3)">
 

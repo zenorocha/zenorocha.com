@@ -1,9 +1,9 @@
 ---
 title: HTML5 - Local Storage
-description: "Imagine um cookie com muito mais espaço de armazenamento, onde os dados não são transitados a cada requisição de página e que, ainda por cima, não tenha data para expirar. Pronto, você imaginou a API Web Storage do HTML5."
+description: 'Imagine um cookie com muito mais espaço de armazenamento, onde os dados não são transitados a cada requisição de página e que, ainda por cima, não tenha data para expirar. Pronto, você imaginou a API Web Storage do HTML5.'
 image: /static/images/html5.jpg
 lang: pt-BR
-date: "2011-04-25"
+date: '2011-04-25'
 ---
 
 <!-- <p class="demo-download"><a href="http://labs.zenorocha.com/html5/local-storage/" target="_blank"><img class="botao" src="/static/img/tumblr/tumblr_lk325lvHwF1qe3219.png"/></a> <a href="https://github.com/zenorocha/HTML5-Local-Storage" target="_blank"><img class="botao" src="/static/img/tumblr/tumblr_lk325u7HMG1qe3219.png"/></a></p> -->
@@ -40,23 +40,23 @@ Vamos criar uma lista não-ordenada para armazenar cada tarefa. E um botão para
 Aqui definimos o método **setItem**, pertencente ao objeto **localStorage**, atribuindo a variável "dados" todo o html da nossa `<ul>` com id "lista". Note que, nesse exemplo, o método é chamado a cada evento de tecla pressionada, mas você pode criar um botão e só chamar esse método ao clicá-lo por exemplo. Melhorando assim a performance da aplicação.
 
 ```js
-$("#lista").keypress(function() {
-  localStorage.setItem("dados", $("#lista").html());
+$('#lista').keypress(function () {
+  localStorage.setItem('dados', $('#lista').html());
 });
 ```
 
 Aqui fazemos um **if** simples verificando se existe algum valor na variável "dados" ao chamar o método **getItem** do objeto **localStorage**. Caso exista, atribui a `<ul>` com id "lista" o html armazenado nela.
 
 ```js
-if (localStorage.getItem("dados")) {
-  $("#lista").html(localStorage.getItem("dados"));
+if (localStorage.getItem('dados')) {
+  $('#lista').html(localStorage.getItem('dados'));
 }
 ```
 
 Podemos também utilizar o método **clear** que, como o próprio nome já diz, limpa o objeto **localStorage**. E, em seguida, atualiza o navegador para esvaziar os campos. Isso tudo ao ser clicado o `<button>` de id "limpar".
 
 ```js
-$("#limpar").click(function() {
+$('#limpar').click(function () {
   localStorage.clear();
   window.location = window.location;
 });
@@ -68,20 +68,20 @@ Colocando tudo isso dentro de uma função temos:
 
 ```html
 <script type="text/javascript">
-$(function() {
-  $("#lista").keypress(function() {
-    localStorage.setItem("dados", $("#lista").html());
-  });
+  $(function () {
+    $('#lista').keypress(function () {
+      localStorage.setItem('dados', $('#lista').html());
+    });
 
-  if (localStorage.getItem("dado")) {
-    $("#lista").html(localStorage.getItem("dados"));
-  }
+    if (localStorage.getItem('dado')) {
+      $('#lista').html(localStorage.getItem('dados'));
+    }
 
-  $("#limpar").click(function() {
-    localStorage.clear();
-    window.location = window.location;
+    $('#limpar').click(function () {
+      localStorage.clear();
+      window.location = window.location;
+    });
   });
-});
 </script>
 ```
 

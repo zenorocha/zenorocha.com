@@ -1,3 +1,3 @@
-import { styled } from '../stitches.config';
-
-export const Box = styled('div');
+export const Box = ({ className = '', ...props }) => (
+  <div className={className} {...props} />
+);

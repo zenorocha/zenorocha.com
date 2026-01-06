@@ -5,7 +5,6 @@ import Link from 'next/link';
 import { usePathname } from 'next/navigation';
 import { useState } from 'react';
 
-import { styled } from '../stitches.config';
 import { useCommandBar } from './CommandBar';
 
 export default function Navbar() {
@@ -24,173 +23,62 @@ export default function Navbar() {
   const { toggle } = useCommandBar();
 
   return (
-    <Header>
-      <ButtonLogo as={Link} href="/">
+    <header className="text-primary absolute top-0 z-3 mt-3.25 flex min-h-14.75 w-full flex-wrap items-center text-xs md:mt-0">
+      <Link
+        href="/"
+        className="hover:bg-hover font-display text-primary ml-3 flex h-8.5 cursor-pointer appearance-none items-center rounded-lg border-none bg-transparent px-2.5 text-[2rem] leading-none font-bold no-underline transition-[background_0.2s] ease-in-out"
+      >
         z
-      </ButtonLogo>
-
-      <Nav>
-        <List>
+      </Link>
+      <nav className="flex-basis-full md:flex-basis-initial order-2 flex-1 text-center max-md:overflow-x-scroll max-md:overflow-y-hidden md:order-0">
+        <ul className="relative top-1.25 m-0 inline-flex list-none p-0 sm:justify-around">
           {pages.map((page) => {
             const path = `/${page.toLowerCase()}`;
             const isHovered = hovered === page;
+            const isActive = pathname === path;
 
             return (
               <li key={page}>
-                <Anchor as={Link} href={path}>
-                  <NavContainer
+                <Link
+                  href={path}
+                  className="relative border-0 hover:opacity-100 focus:opacity-100"
+                >
+                  <motion.span
                     onHoverStart={() => setHovered(page)}
                     onHoverEnd={() => setHovered('')}
-                    css={
-                      pathname === path
-                        ? {
-                            color: '$primary',
-                            '&::after': { opacity: 1 }
-                          }
-                        : ''
-                    }
+                    className={`relative inline-block cursor-pointer px-5 py-3 text-xs font-medium tracking-[.075rem] uppercase transition-colors duration-200 ease-out after:absolute after:bottom-[.375rem] after:left-1/2 after:block after:h-px after:w-5 after:-translate-x-1/2 after:bg-[var(--color-primary)] after:transition-opacity after:duration-200 after:content-[''] hover:text-[var(--color-primary)] ${
+                      isActive
+                        ? 'text-primary after:opacity-100'
+                        : 'text-secondary after:opacity-0'
+                    }`}
                   >
                     {isHovered && (
-                      <NavHovered
+                      <motion.span
                         layoutId="nav"
                         initial={{ opacity: 0 }}
                         animate={{ opacity: 1 }}
                         exit={{ opacity: 0 }}
+                        className="bg-hover absolute top-1/2 right-0 left-0 -z-1 -translate-y-1/2 rounded-lg p-5"
                       />
                     )}
                     {page}
-                  </NavContainer>
-                </Anchor>
+                  </motion.span>
+                </Link>
               </li>
             );
           })}
-        </List>
-      </Nav>
-
-      <Aside>
-        <ButtonHeader
-          as="button"
+        </ul>
+      </nav>
+      <div className="mr-3 ml-auto flex items-center">
+        <button
           type="button"
           aria-label="Command"
           onClick={toggle}
-          css={{ padding: '0 8px' }}
+          className="hover:bg-hover text-primary h-8.5 cursor-pointer appearance-none rounded-lg border-none bg-transparent px-2 transition-[background_0.2s] ease-in-out"
         >
-          <Icon className="ri-command-line" />
-        </ButtonHeader>
-      </Aside>
-    </Header>
+          <i className="ri-command-line text-2xl leading-8" />
+        </button>
+      </div>
+    </header>
   );
 }
-
-const Header = styled('header', {
-  display: 'flex',
-  alignItems: 'center',
-  color: 'white',
-  fontSize: '12px',
-  minHeight: '59px',
-  width: '100%',
-  flexWrap: 'wrap',
-  position: 'absolute',
-  top: '0',
-  zIndex: 3,
-  marginTop: '13px',
-  '@bp2': { marginTop: '0' }
-});
-
-const List = styled('ul', {
-  margin: '0',
-  padding: '0',
-  listStyle: 'none',
-  display: 'inline-flex',
-  position: 'relative',
-  top: '5px',
-  '@bp1': { justifyContent: 'space-around' }
-});
-
-const ButtonHeader = styled('div', {
-  appearance: 'none',
-  background: 'transparent',
-  border: 'none',
-  borderRadius: '$borderRadius',
-  color: 'white',
-  cursor: 'pointer',
-  height: '34px',
-  padding: '0 10px',
-  transition: 'background $duration ease-in-out',
-  '&:hover': { background: '$hover' }
-});
-
-const Icon = styled('i', {
-  fontSize: '24px',
-  lineHeight: '32px'
-});
-
-const ButtonLogo = styled(ButtonHeader, {
-  fontWeight: 700,
-  fontSize: '32px',
-  textDecoration: 'none',
-  marginLeft: '12px',
-  fontFamily: '$heading'
-});
-
-const Nav = styled('nav', {
-  textAlign: 'center',
-  flex: 1,
-  order: 2,
-  flexBasis: '100%',
-  '@bp2': { order: 0, flexBasis: 'initial' },
-  '@bp3': { overflowX: 'scroll', overflowY: 'hidden' }
-});
-
-const Aside = styled('div', {
-  display: 'flex',
-  alignItems: 'center',
-  paddingRight: '12px',
-  marginLeft: 'auto'
-});
-
-const Anchor = styled('a', {
-  border: 0,
-  position: 'relative',
-  '&:hover, &:focus': { opacity: 1 }
-});
-
-const NavContainer = styled(motion.span, {
-  color: '$secondary',
-  cursor: 'pointer',
-  display: 'inline-block',
-  fontSize: '12px',
-  fontWeight: 500,
-  letterSpacing: '1.2px',
-  padding: '20px',
-  textDecoration: 'none',
-  textTransform: 'uppercase',
-  transition: 'color $duration ease-in-out',
-  '&:hover': {
-    color: '$primary'
-  },
-  '&::after': {
-    content: '""',
-    position: 'absolute',
-    margin: '0px auto',
-    top: '18px',
-    left: '0px',
-    right: '0px',
-    height: '1px',
-    width: '20px',
-    background: 'rgb(255, 255, 255)',
-    opacity: 0,
-    transition: 'opacity $duration ease-in-out'
-  }
-});
-
-const NavHovered = styled(motion.span, {
-  position: 'absolute',
-  top: '-15px',
-  left: '0',
-  right: '0',
-  background: '$hover',
-  padding: 20,
-  borderRadius: '$borderRadius',
-  zIndex: -1
-});

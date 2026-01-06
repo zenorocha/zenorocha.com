@@ -1,9 +1,6 @@
-import { styled } from '../stitches.config';
-
-export const Wrapper = styled('div', {
-  display: 'flex',
-  flexDirection: 'column',
-  minHeight: '100vh',
-  position: 'relative',
-  zIndex: 0
-});
+export const Wrapper = ({ className = '', ...props }) => (
+  <div
+    className={`relative z-0 flex min-h-screen flex-col ${className}`}
+    {...props}
+  />
+);

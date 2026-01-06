@@ -1,7 +1,3 @@
-import { styled } from '../stitches.config';
-
-export const ListGroup = styled('ul', {
-  listStyle: 'none',
-  margin: '10px 0 0',
-  padding: '0'
-});
+export const ListGroup = ({ className = '', ...props }) => (
+  <ul className={`my-2.5 mt-2.5 list-none p-0 ${className}`} {...props} />
+);

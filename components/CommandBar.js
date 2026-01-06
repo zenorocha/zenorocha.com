@@ -1,7 +1,9 @@
 'use client';
 
+import * as Dialog from '@radix-ui/react-dialog';
+import * as VisuallyHidden from '@radix-ui/react-visually-hidden';
 import {
-  CommandDialog,
+  Command,
   CommandEmpty,
   CommandGroup,
   CommandInput,
@@ -31,7 +33,6 @@ import reminderIcon from '../public/static/icons/reminder.json';
 import sourceIcon from '../public/static/icons/source.json';
 import talksIcon from '../public/static/icons/talks.json';
 import usesIcon from '../public/static/icons/uses.json';
-import { styled } from '../stitches.config';
 import { Box } from './Box';
 import Toast from './Toast';
 
@@ -65,7 +66,7 @@ export default function CommandBar(props) {
   const [showToast, setShowToast] = useState(false);
 
   const actions = useMemo(() => {
-    const iconSize = { width: 24, height: 24 };
+    const iconSize = { width: '1.5rem', height: '1.5rem' };
 
     return [
       {
@@ -348,27 +349,49 @@ export default function CommandBar(props) {
 
   return (
     <CommandBarContext.Provider value={contextValue}>
-      <StyledCommandDialog open={open} onOpenChange={setOpen}>
-        <StyledCommandInput placeholder="Type a command or search…" />
-        <StyledCommandList>
-          <StyledCommandEmpty>No results found.</StyledCommandEmpty>
-          {Object.entries(groupedActions).map(([section, sectionActions]) => (
-            <StyledCommandGroup key={section} heading={section}>
-              {sectionActions.map((action) => (
-                <ActionCommandItem
-                  key={action.id}
-                  action={action}
-                  value={`${action.name} ${action.keywords}`}
-                  onSelect={() => action.perform()}
-                />
-              ))}
-            </StyledCommandGroup>
-          ))}
-        </StyledCommandList>
-      </StyledCommandDialog>
-
+      <Dialog.Root open={open} onOpenChange={setOpen}>
+        <Dialog.Portal>
+          <Dialog.Overlay className="data-[state=open]:animate-in data-[state=closed]:animate-out data-[state=closed]:fade-out-0 data-[state=open]:fade-in-0 fixed inset-0 bg-[rgba(0,0,0,0.8)] duration-200" />
+          <Dialog.Content
+            className="data-[state=open]:animate-in data-[state=closed]:animate-out data-[state=closed]:fade-out-0 data-[state=open]:fade-in-0 data-[state=closed]:zoom-out-95 data-[state=open]:zoom-in-95 data-[state=closed]:slide-out-to-top-[48%] data-[state=open]:slide-in-from-top-[48%] fixed top-1/2 left-1/2 w-full max-w-150 -translate-x-1/2 -translate-y-1/2 px-4 duration-200 outline-none select-none"
+            onOpenAutoFocus={(e) => e.preventDefault()}
+          >
+            <VisuallyHidden.Root>
+              <Dialog.Title>Command Menu</Dialog.Title>
+            </VisuallyHidden.Root>
+            <Command className="bg-command w-full rounded-[.5rem] shadow-lg backdrop-blur-[1.5625rem] backdrop-saturate-300">
+              <CommandInput
+                placeholder="Type a command or search…"
+                className="text-primary m-0 w-full rounded-t-lg border-0 bg-transparent px-4 py-3 text-base outline-none"
+              />
+              <CommandList className="max-h-100 w-full overflow-auto rounded-b-lg bg-transparent [-ms-overflow-style:none] [scrollbar-width:none] [&::-webkit-scrollbar]:hidden">
+                <CommandEmpty className="text-secondary px-4 py-3 text-center text-sm">
+                  No results found.
+                </CommandEmpty>
+                {Object.entries(groupedActions).map(
+                  ([section, sectionActions]) => (
+                    <CommandGroup
+                      key={section}
+                      heading={section}
+                      className="**:[[cmdk-group-heading]]:text-secondary **:[[cmdk-group-heading]]:bg-transparent **:[[cmdk-group-heading]]:px-4 **:[[cmdk-group-heading]]:py-2 **:[[cmdk-group-heading]]:text-[0.625rem] **:[[cmdk-group-heading]]:tracking-[0.0625rem] **:[[cmdk-group-heading]]:uppercase"
+                    >
+                      {sectionActions.map((action) => (
+                        <ActionCommandItem
+                          key={action.id}
+                          action={action}
+                          value={`${action.name} ${action.keywords}`}
+                          onSelect={() => action.perform()}
+                        />
+                      ))}
+                    </CommandGroup>
+                  )
+                )}
+              </CommandList>
+            </Command>
+          </Dialog.Content>
+        </Dialog.Portal>
+      </Dialog.Root>
       {props.children}
-
       <Toast
         title="Copied :D"
         description="You can now share it with anyone."
@@ -404,7 +427,7 @@ function ActionCommandItem({ action, value, onSelect }) {
   };
 
   return (
-    <StyledCommandItem
+    <CommandItem
       ref={itemRef}
       value={value}
       onSelect={onSelect}
@@ -412,149 +435,28 @@ function ActionCommandItem({ action, value, onSelect }) {
       onMouseLeave={handleMouseLeave}
       onFocus={handleFocus}
       onBlur={handleBlur}
+      className="text-secondary data-[aria-selected=true]:text-primary m-0 flex cursor-pointer items-center justify-between px-4 py-3 hover:bg-[rgba(255,255,255,0.1)] focus:bg-[rgba(255,255,255,0.1)] data-[aria-selected=true]:bg-[rgba(255,255,255,0.1)]"
     >
-      <Box
-        css={{
-          display: 'flex',
-          alignItems: 'center',
-          justifyContent: 'space-between',
-          width: '100%'
-        }}
-      >
-        <Action>
+      <Box className="flex w-full items-center justify-between">
+        <div className="flex items-center gap-2">
           {action.icon && action.icon}
-          <ActionRow>
+          <div className="flex flex-col">
             <span>{action.name}</span>
-          </ActionRow>
-        </Action>
+          </div>
+        </div>
         {action.shortcut?.length ? (
-          <Shortcut aria-hidden>
+          <div className="grid grid-flow-col gap-1" aria-hidden>
             {action.shortcut.map((shortcut) => (
-              <Kbd key={shortcut}>{shortcut}</Kbd>
+              <kbd
+                key={shortcut}
+                className="text-secondary bg-[rgba(255,255,255,0.1)] px-2 py-1 uppercase"
+              >
+                {shortcut}
+              </kbd>
             ))}
-          </Shortcut>
+          </div>
         ) : null}
       </Box>
-    </StyledCommandItem>
+    </CommandItem>
   );
 }
-
-const Kbd = styled('kbd', {
-  background: 'rgba(255, 255, 255, .1)',
-  color: '$secondary',
-  padding: '4px 8px',
-  textTransform: 'uppercase'
-});
-
-const Shortcut = styled('div', {
-  display: 'grid',
-  gridAutoFlow: 'column',
-  gap: '4px'
-});
-
-const Action = styled('div', {
-  display: 'flex',
-  gap: '8px',
-  alignItems: 'center'
-});
-
-const ActionRow = styled('div', {
-  display: 'flex',
-  flexDirection: 'column'
-});
-
-// const StyledCommandDialog = styled(CommandDialog, {
-//   '& [cmdk-root]': {
-//     backgroundColor: '#1a1c1e',
-//     maxWidth: '600px',
-//     width: '100%',
-//     color: '$primary',
-//     borderRadius: '8px',
-//     overflow: 'hidden',
-//     '@supports ((-webkit-backdrop-filter: none) or (backdrop-filter: none))': {
-//       backgroundColor: '$command',
-//       WebkitBackdropFilter: 'saturate(300%) blur(25px)',
-//       backdropFilter: 'saturate(300%) blur(25px)',
-//     },
-//   },
-
-const StyledCommandDialog = styled(CommandDialog, {
-  position: 'fixed',
-  display: 'flex',
-  flexDirection: 'column',
-  alignItems: 'center',
-  justifyContent: 'center',
-  width: '100%',
-  inset: '0px',
-  padding: '14vh 16px 16px',
-  background: 'rgba(0, 0, 0, .8)',
-  boxSizing: 'border-box'
-});
-
-const StyledCommandInput = styled(CommandInput, {
-  padding: '12px 16px',
-  fontSize: '16px',
-  width: '100%',
-  maxWidth: '600px',
-  boxSizing: 'border-box',
-  outline: 'none',
-  border: 'none',
-  margin: 0,
-  background: '$command',
-  color: '$primary',
-  backgroundColor: '#1a1c1e',
-  borderTopLeftRadius: '8px',
-  borderTopRightRadius: '8px'
-});
-
-const StyledCommandList = styled(CommandList, {
-  backgroundColor: '#1a1c1e',
-  maxHeight: '400px',
-  width: '100%',
-  maxWidth: '600px',
-  overflow: 'auto',
-  borderBottomLeftRadius: '8px',
-  borderBottomRightRadius: '8px',
-  /* Hide scrollbar for Chrome, Safari and Opera */
-  '&::-webkit-scrollbar': {
-    display: 'none'
-  },
-  /* Hide scrollbar for IE, Edge and Firefox */
-  '-ms-overflow-style': 'none',
-  'scrollbar-width': 'none'
-});
-
-const StyledCommandEmpty = styled(CommandEmpty, {
-  padding: '12px 16px',
-  textAlign: 'center',
-  fontSize: '14px',
-  color: '$secondary'
-});
-
-const StyledCommandGroup = styled(CommandGroup, {
-  '& [cmdk-group-heading]': {
-    padding: '8px 16px',
-    fontSize: '10px',
-    textTransform: 'uppercase',
-    letterSpacing: '1px',
-    background: '$command',
-    color: '$secondary'
-  }
-});
-
-const StyledCommandItem = styled(CommandItem, {
-  padding: '12px 16px',
-  display: 'flex',
-  alignItems: 'center',
-  justifyContent: 'space-between',
-  margin: 0,
-  cursor: 'pointer',
-  color: '$secondary',
-  '&[aria-selected="true"]': {
-    background: 'rgba(255, 255, 255, 0.1)',
-    color: '$primary'
-  },
-  '&:hover, &:focus': {
-    background: 'rgba(255, 255, 255, 0.1)'
-  }
-});

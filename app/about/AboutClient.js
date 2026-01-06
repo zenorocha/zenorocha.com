@@ -11,7 +11,6 @@ import Toast from '../../components/Toast';
 import items from '../../data/about';
 import copyBioIcon from '../../public/static/icons/copy-bio.json';
 import downloadIcon from '../../public/static/icons/download.json';
-import { styled } from '../../stitches.config';
 
 const Lottie = dynamic(() => import('lottie-react'), { ssr: false });
 
@@ -24,12 +23,8 @@ export default function AboutClient({ description }) {
 
   const renderIntro = () => {
     return (
-      <Container>
-        <Section
-          css={{
-            width: '336px'
-          }}
-        >
+      <div className="flex flex-col justify-between md:flex-row">
+        <div className="mt-0 w-auto md:w-[21rem]">
           <Image
             alt="Zeno"
             src="/static/images/avatar.jpg"
@@ -39,32 +34,27 @@ export default function AboutClient({ description }) {
             blurDataURL="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAIAAAAmkwkpAAAACXBIWXMAABYlAAAWJQFJUiTwAAAAP0lEQVQImQE0AMv/AFBQUJKSkqmpqaOjowCurq7v7+/Jycm5ubkA////jIyMn5+fg4ODADAwMD09PWlpaQAAAApRGnEHblMWAAAAAElFTkSuQmCC"
             priority
           />
-        </Section>
-        <Section>
-          <Paragraph
-            css={{
-              marginTop: '16px',
-              '@bp2': { marginTop: '-6px' }
-            }}
-          >
+        </div>
+        <div className="mt-0 w-auto md:w-[48%]">
+          <p className="mt-4 md:my-[0.9375rem] md:mt-[-0.375rem]">
             <strong>Hey, I&apos;m Zeno Rocha</strong>
             <Pronunciation />I started as a software engineer back in 2009,
             working with Flash.
-          </Paragraph>
-          <Paragraph>
+          </p>
+          <p className="md:my-[0.9375rem]">
             I&apos;m the <strong>Founder & CEO</strong> at Resend. Before that,
             I was a VP of Developer Experience at WorkOS and CPO at Liferay
             Cloud. I&apos;m originally from Brazil and now living in{' '}
             <strong>San Francisco, California</strong> with my amazing wife and
             beautiful daughter.
-          </Paragraph>
-          <Paragraph>
+          </p>
+          <p className="md:my-[0.9375rem]">
             <strong>I love dark mode</strong>, open source, and side projects.
             When I&apos;m not working, I like running, watching movies, and{' '}
             <strong>eating cheese</strong>.
-          </Paragraph>
-        </Section>
-      </Container>
+          </p>
+        </div>
+      </div>
     );
   };
 
@@ -74,7 +64,11 @@ export default function AboutClient({ description }) {
       justifyContent: 'center',
       alignItems: 'center'
     };
-    const iconStyle = { width: 24, height: 24, marginRight: 8 };
+    const iconStyle = {
+      width: '1.5rem',
+      height: '1.5rem',
+      marginRight: '0.5rem'
+    };
 
     return (
       <div>
@@ -85,7 +79,7 @@ export default function AboutClient({ description }) {
         <blockquote>
           <p>{description}</p>
         </blockquote>
-        <ButtonsContainer>
+        <div className="flex items-center">
           <ButtonPrimary
             as="button"
             style={btnStyle}
@@ -102,7 +96,7 @@ export default function AboutClient({ description }) {
             />
             Copy Bio
           </ButtonPrimary>
-          <span style={{ margin: '0 20px 0 10px' }}>•</span>
+          <span style={{ margin: '0 1.25rem 0 0.625rem' }}>•</span>
           <ButtonPrimary
             as="a"
             download
@@ -122,7 +116,7 @@ export default function AboutClient({ description }) {
             />
             Download Headshot
           </ButtonPrimary>
-        </ButtonsContainer>
+        </div>
       </div>
     );
   };
@@ -131,7 +125,7 @@ export default function AboutClient({ description }) {
     return items.map((item) => {
       return (
         <div
-          style={{ marginBottom: 40 }}
+          style={{ marginBottom: '2.5rem' }}
           key={`${item.companyUrl}-${item.startDate}`}
         >
           <h3>{item.jobTitle}</h3>
@@ -208,25 +202,3 @@ export default function AboutClient({ description }) {
     </>
   );
 }
-
-const Container = styled('div', {
-  display: 'flex',
-  flexDirection: 'column',
-  justifyContent: 'space-between',
-  '@bp2': { flexDirection: 'row' }
-});
-
-const Paragraph = styled('p', {
-  '@bp2': { margin: '15px 0' }
-});
-
-const ButtonsContainer = styled('div', {
-  display: 'flex',
-  alignItems: 'center'
-});
-
-const Section = styled('div', {
-  marginTop: '0px',
-  width: 'auto',
-  '@bp2': { width: '48%' }
-});

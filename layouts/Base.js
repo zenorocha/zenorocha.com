@@ -26,10 +26,14 @@ export default function Base({
   return (
     <Wrapper>
       <Navbar />
-      <PostMain
-        className="[&_::selection]:[-webkit-text-fill-color:black]] [&_::selection]:bg-(--selection-bg) [&_::selection]:text-black"
-        style={{ '--selection-bg': primaryColorValue }}
-      >
+      <style>{`
+        .base-post-main ::selection {
+          background: ${primaryColorValue};
+          color: #000;
+          -webkit-text-fill-color: #000;
+        }
+      `}</style>
+      <PostMain className="base-post-main">
         <PostContent>
           <PostContainer>
             <h1

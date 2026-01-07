@@ -1,7 +1,7 @@
 ---
 title: Apresentando WeDeploy
 description: "Dois anos atrás, Eduardo e eu decidimos começar algo novo. Naquela época, nós tínhamos construído juntos algumas bibliotecas populares e nos perguntamos: 'por que não tentar algo mais ambicioso'? Nós não sabíamos exatamente o que seria aquilo, mas tínhamos uma visão. Queríamos construir algo que fariam os desenvolvedores serem mais produtivos."
-date: "2017-08-09"
+date: '2017-08-09'
 ---
 
 [\*Read in English](/introducing-wedeploy)\*

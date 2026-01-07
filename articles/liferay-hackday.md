@@ -1,8 +1,8 @@
 ---
 title: Liferay Hackday
-description: "One of the cool things about working at Liferay is that you have the freedom to propose any crazy idea that comes to your head and there’s a high chance that they might like it. You know, like stopping the company’s Engineering department to work on different projects for an entire day."
+description: 'One of the cool things about working at Liferay is that you have the freedom to propose any crazy idea that comes to your head and there’s a high chance that they might like it. You know, like stopping the company’s Engineering department to work on different projects for an entire day.'
 image: /static/images/liferay-hackday-opt.jpg
-date: "2015-01-13"
+date: '2015-01-13'
 ---
 
 One of the cool things about working at Liferay is that you have the freedom to propose any crazy idea that comes to your head and there’s a high chance that they might like it. You know, like stopping the company’s Engineering department to work on different projects for **an entire day**.

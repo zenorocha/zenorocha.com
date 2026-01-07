@@ -1,10 +1,10 @@
 ---
-title: "Apresentando o Conf Boilerplate"
-description: "Um dos objetivos da BrazilJS Foundation é ajudar os organizadores a concretizarem seus eventos. Nós realmente acreditamos que por trás desses encontros regionais, muito conhecimento pode ser gerado e compartilhado de uma maneira incrível."
-link: "http://braziljs.org/blog/apresentando-o-confboilerplate/"
+title: 'Apresentando o Conf Boilerplate'
+description: 'Um dos objetivos da BrazilJS Foundation é ajudar os organizadores a concretizarem seus eventos. Nós realmente acreditamos que por trás desses encontros regionais, muito conhecimento pode ser gerado e compartilhado de uma maneira incrível.'
+link: 'http://braziljs.org/blog/apresentando-o-confboilerplate/'
 slug: conf-boilerplate
 lang: pt-BR
-date: "2012-11-21"
+date: '2012-11-21'
 ---
 
 <div class="iframe-wrap">

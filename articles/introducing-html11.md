@@ -1,7 +1,7 @@
 ---
 skip: true
 title: Introducing HTML11
-date: "2011-05-09"
+date: '2011-05-09'
 ---
 
 <p><img src="http://24.media.tumblr.com/tumblr_ljmhp2ZJ6O1qedkdbo3_500.jpg"/></p>

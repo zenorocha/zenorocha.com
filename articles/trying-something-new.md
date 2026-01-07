@@ -1,8 +1,8 @@
 ---
 title: Trying something new
-description: "I always talk about getting out of the comfort zone, but a few weeks ago I looked at my side projects and noticed they all have two things in common."
+description: 'I always talk about getting out of the comfort zone, but a few weeks ago I looked at my side projects and noticed they all have two things in common.'
 image: /static/img/posts/trying-something-new.jpg
-date: "2019-01-23"
+date: '2019-01-23'
 ---
 
 I always talk about getting out of the comfort zone, but a few weeks ago I looked at my side projects and noticed they all have two things in common:

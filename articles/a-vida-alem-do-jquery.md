@@ -1,10 +1,10 @@
 ---
 title: A vida além do jQuery - Tech Talk
-description: "Quando anunciei minha vinda para Recife, muita gente veio me perguntar se eu vinha pra algum evento ou algo do tipo."
+description: 'Quando anunciei minha vinda para Recife, muita gente veio me perguntar se eu vinha pra algum evento ou algo do tipo.'
 image: /static/img/tumblr/tumblr_m8t5ikct1b1qe3219.jpg
 slug: a-vida-alem-do-jquery
 lang: pt-BR
-date: "2012-08-20"
+date: '2012-08-20'
 ---
 
 Quando anunciei minha vinda para Recife, muita gente veio me perguntar se eu vinha pra algum evento ou algo do tipo.

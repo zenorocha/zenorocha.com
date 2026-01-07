@@ -1,9 +1,9 @@
 ---
 title: Tudo novo, de novo
-description: "Ontem foi meu primeiro dia trabalhando para uma nova empresa, a Liferay, Inc. Nessa transição muita gente veio me perguntar sobre os motivos de eu ter deixado a Globo, o que faz essa empresa ou o que eu vou fazer lá dentro."
+description: 'Ontem foi meu primeiro dia trabalhando para uma nova empresa, a Liferay, Inc. Nessa transição muita gente veio me perguntar sobre os motivos de eu ter deixado a Globo, o que faz essa empresa ou o que eu vou fazer lá dentro.'
 image: /static/img/tumblr/tumblr_m6wvq4EQWG1qe3219.jpg
 lang: pt-BR
-date: "2012-07-10"
+date: '2012-07-10'
 ---
 
 Ontem foi meu primeiro dia trabalhando para uma nova empresa, a [Liferay, Inc.](http://liferay.com) Nessa transição muita gente veio me perguntar sobre os motivos de eu ter deixado a Globo, o que faz essa empresa ou o que eu vou fazer lá dentro.

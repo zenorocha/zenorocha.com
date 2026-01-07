@@ -1,7 +1,7 @@
 ---
 title: Open Source Lessons Learned
 description: "One of my favorite podcasts invited me for an interview about open source and the importance of side projects. This is a very nice subject and it's something that shaped my career so far. I hope you guys like it :)"
-date: "2017-04-27"
+date: '2017-04-27'
 ---
 
 One of my favorite podcasts invited me for an interview about open source and the importance of side projects. This is a very nice subject and it's something that shaped my career so far.

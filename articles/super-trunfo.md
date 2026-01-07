@@ -1,9 +1,9 @@
 ---
-title: "Super Trunfo - Um case de Dados Abertos"
-description: "Política é um negócio chato. Nossa geração cresceu presenciando escândalos dos mais diversos tipos na política e com isso desacreditando e desinteressando cada vez mais."
+title: 'Super Trunfo - Um case de Dados Abertos'
+description: 'Política é um negócio chato. Nossa geração cresceu presenciando escândalos dos mais diversos tipos na política e com isso desacreditando e desinteressando cada vez mais.'
 slug: super-trunfo
 lang: pt-BR
-date: "2012-10-22"
+date: '2012-10-22'
 ---
 
 <!-- <p class="demo-download">

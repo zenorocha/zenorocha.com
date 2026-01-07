@@ -1,11 +1,11 @@
 ---
-title: "23 extensões indispensáveis para desenvolvedores web"
-description: "Ter um arsenal de ferramentas poderoso é um dos diferenciais para quem busca cada vez mais velocidade e qualidade no seu trabalho. O editor de código é, talvez, a mais importante dessas ferramentas. Outra que também não fica para trás são nossos navegadores. Passamos boa parte do nosso dia neles, portanto é importante escolher as melhores extensões."
+title: '23 extensões indispensáveis para desenvolvedores web'
+description: 'Ter um arsenal de ferramentas poderoso é um dos diferenciais para quem busca cada vez mais velocidade e qualidade no seu trabalho. O editor de código é, talvez, a mais importante dessas ferramentas. Outra que também não fica para trás são nossos navegadores. Passamos boa parte do nosso dia neles, portanto é importante escolher as melhores extensões.'
 link: https://imasters.com.br/desenvolvimento/23-extensoes-indispensaveis-para-desenvolvedores-web
 skip: true
 canonical_url: https://imasters.com.br/desenvolvimento/23-extensoes-indispensaveis-para-desenvolvedores-web
 lang: pt-BR
-date: "2012-12-03"
+date: '2012-12-03'
 ---
 
 <!-- <p><a href="https://imasters.com.br/desenvolvimento/23-extensoes-indispensaveis-para-desenvolvedores-web"><img src="/static/img/posts/23-extensoes.jpg"/></a></p> -->

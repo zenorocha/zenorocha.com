@@ -1,11 +1,11 @@
 ---
 title: Conheça de verdade o Boot2Gecko (ou FirefoxOS)
-description: "Uma das coisas que eu tenho notado nos últimos tempos é o volume de desenvolvedores web com interesse no mundo mobile. Não é por menos, esse é um dos mercados de desenvolvimento que mais crescem no mundo."
+description: 'Uma das coisas que eu tenho notado nos últimos tempos é o volume de desenvolvedores web com interesse no mundo mobile. Não é por menos, esse é um dos mercados de desenvolvimento que mais crescem no mundo.'
 image: /static/img/tumblr/tumblr_m7zjc2fIKM1qe3219.jpg
 slug: conheca-o-boot2gecko-ou-firefoxos
 canonical_url: https://tableless.com.br/conheca-de-verdade-o-boot2gecko-ou-firefoxos/
 lang: pt-BR
-date: "2012-07-30"
+date: '2012-07-30'
 ---
 
 _Publicado originalmente no Tableless._

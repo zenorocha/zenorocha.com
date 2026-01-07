@@ -1,7 +1,7 @@
 ---
 title: Working Remotely
 description: "For the next two weeks, I'll be working from home. I once worked for one year and a half remotely and learned a lot about maintaining focus."
-date: "2020-03-16"
+date: '2020-03-16'
 ---
 
 For the next two weeks, I'll be working from home.

@@ -2,12 +2,12 @@
 title: Lessons learned from growing a 6,338 people waitlist in 7 weeks
 description: "I'm writing this post to document what went well and what went wrong. Hopefully, this will help other founders who are launching their own waitlists or looking to find potential users."
 image: /static/img/posts/lessons-learned-from-growing-a-6338-people-waitlist-in-7-weeks.jpg
-date: "2023-02-21"
+date: '2023-02-21'
 ---
 
-The first question I get from YC batch mates is: *["How did you get your domain?"](/why-i-spent-25000-dollars-on-a-domain-or-how-to-pick-a-startup-name)*.
+The first question I get from YC batch mates is: _["How did you get your domain?"](/why-i-spent-25000-dollars-on-a-domain-or-how-to-pick-a-startup-name)_.
 
-The second question is: *"How did you grow your waitlist?"*.
+The second question is: _"How did you grow your waitlist?"_.
 
 I'm writing this post to document what went well and what went wrong. Hopefully, this will help other founders who are launching their own waitlists or looking to find potential users.
 
@@ -23,9 +23,9 @@ We knew that we were entering a space with many consolidated competitors, so it 
 
 Here's what worked for us:
 
-* **Tip #1 - Show personality** - Adding an animated WebGL object was super important for me. Some people might say it's a distraction, but without saying a word, it communicates that we care about the technical details. Also, the Rubik's cube is the perfect analogy to what we were doing. It's an old thing that people are familiar with, but it's displayed in a new way. The same goes for Resend. We're doing something that people are familiar with (sending emails), but we're doing it in a modern way (using React).
-* **Tip #2 - Know your audience** - As a developer, I absolutely love keyboard shortcuts. I couldn't live without them, and I'm sure many other developers feel the same way. Even though a landing page is not a place to add keyboard shortcuts, it was a great way to show that we care about the same things our audience cares about.
-* **Tip #3 - Focus on the details** - Most landing pages we visit nowadays follow the same pattern. They use a predefined template that looks like every other landing page. As you start navigating, you might find typos or broken links. I truly believe that the small details make a big difference. If you don't communicate that you care about your own website, then why should someone else care?
+- **Tip #1 - Show personality** - Adding an animated WebGL object was super important for me. Some people might say it's a distraction, but without saying a word, it communicates that we care about the technical details. Also, the Rubik's cube is the perfect analogy to what we were doing. It's an old thing that people are familiar with, but it's displayed in a new way. The same goes for Resend. We're doing something that people are familiar with (sending emails), but we're doing it in a modern way (using React).
+- **Tip #2 - Know your audience** - As a developer, I absolutely love keyboard shortcuts. I couldn't live without them, and I'm sure many other developers feel the same way. Even though a landing page is not a place to add keyboard shortcuts, it was a great way to show that we care about the same things our audience cares about.
+- **Tip #3 - Focus on the details** - Most landing pages we visit nowadays follow the same pattern. They use a predefined template that looks like every other landing page. As you start navigating, you might find typos or broken links. I truly believe that the small details make a big difference. If you don't communicate that you care about your own website, then why should someone else care?
 
 **2. Social media posts**
 
@@ -37,9 +37,9 @@ On January 4th, 2023 at 7:11 am PT, I published the [first tweet about Resend](h
 
 Here's some tactical advice I learned from this experience:
 
-* **Tip #4 - Post a video** - from all the possible content formats, video is the one that performs best nowadays. If you can't do video, then use an image. Plain text and links perform worst in my experience.
-* **Tip #5 - Post early in the day** - when doing a big launch, be aware of the best time to post. I chose 7 am PT because that's when people from California wake up and check their phones, it's still early on the East Coast, and people from Europe have not ended their work day yet.
-* **Tip #6 - Post during the week** - I also chose a weekday because people are more likely to be at work and have time to check their social media. In my opinion, Monday isn't a good day to launch because people are getting ready for the week. Friday is also not a good day because people are already thinking about the weekend. That's why we posted on Wednesday.
+- **Tip #4 - Post a video** - from all the possible content formats, video is the one that performs best nowadays. If you can't do video, then use an image. Plain text and links perform worst in my experience.
+- **Tip #5 - Post early in the day** - when doing a big launch, be aware of the best time to post. I chose 7 am PT because that's when people from California wake up and check their phones, it's still early on the East Coast, and people from Europe have not ended their work day yet.
+- **Tip #6 - Post during the week** - I also chose a weekday because people are more likely to be at work and have time to check their social media. In my opinion, Monday isn't a good day to launch because people are getting ready for the week. Friday is also not a good day because people are already thinking about the weekend. That's why we posted on Wednesday.
 
 If you're not into social media, that's totally fine. There are many founders who don't engage on social platforms and still build incredible companies. However, if you're thinking about starting a profile, keep this in mind - the best time to start posting was yesterday, the second best time is today.
 
@@ -47,9 +47,9 @@ If you're not into social media, that's totally fine. There are many founders wh
 
 After the initial launch, it's important that you keep bringing new people to the waitlist. We did that by sharing our progress publicly.
 
-* **Tip #7 - Keep the momentum** - in order to keep people from the waitlist engaged, we started sending them emails about [company news](https://twitter.com/zenorocha/status/1620809395310583808) and [product updates](https://twitter.com/zenorocha/status/1618633776212631554). This was a great way to keep people interested in what we were doing.
-* **Tip #8 - Be personal** - one of the things that I learned with YC is that being vulnerable is not a demonstration of weakness. Being vulnerable shows that you're a human being too. People act like they know everything. In reality, we're all just trying to figure it out. So don't be afraid of [showing the behind-the-scenes](https://twitter.com/zenorocha/status/1612263110370549760).
-* **Tip #9 - Build with others** - as you start to share your journey, you'll start to get more people interested in what you're doing. Some of them might want to help you. In our case, that meant other companies building [integrations with our product](https://twitter.com/zenorocha/status/1621204586500591619). We also tried to respond to every single person who engaged with our content.
+- **Tip #7 - Keep the momentum** - in order to keep people from the waitlist engaged, we started sending them emails about [company news](https://twitter.com/zenorocha/status/1620809395310583808) and [product updates](https://twitter.com/zenorocha/status/1618633776212631554). This was a great way to keep people interested in what we were doing.
+- **Tip #8 - Be personal** - one of the things that I learned with YC is that being vulnerable is not a demonstration of weakness. Being vulnerable shows that you're a human being too. People act like they know everything. In reality, we're all just trying to figure it out. So don't be afraid of [showing the behind-the-scenes](https://twitter.com/zenorocha/status/1612263110370549760).
+- **Tip #9 - Build with others** - as you start to share your journey, you'll start to get more people interested in what you're doing. Some of them might want to help you. In our case, that meant other companies building [integrations with our product](https://twitter.com/zenorocha/status/1621204586500591619). We also tried to respond to every single person who engaged with our content.
 
 ![Email about Resend](/static/img/posts/lessons-learned-from-growing-a-6338-people-waitlist-in-7-weeks-4.jpg)
 

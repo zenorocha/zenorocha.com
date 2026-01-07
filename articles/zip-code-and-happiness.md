@@ -1,8 +1,8 @@
 ---
 title: Zip Code and Happiness
-description: "Back in 2008, I was applying for different universities. I studied like crazy that year and finally got accepted in Curitiba and Rio de Janeiro. After a looooot of thinking, I decided to study at UTFPR (CEFET) in Curitiba."
+description: 'Back in 2008, I was applying for different universities. I studied like crazy that year and finally got accepted in Curitiba and Rio de Janeiro. After a looooot of thinking, I decided to study at UTFPR (CEFET) in Curitiba.'
 image: /static/img/posts/zip-code-is-different-than-happiness.jpg
-date: "2019-12-20"
+date: '2019-12-20'
 ---
 
 Back in 2008, I was applying for different universities. I studied like crazy that year and finally got accepted in Curitiba and Rio de Janeiro.

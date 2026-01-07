@@ -1,8 +1,8 @@
 ---
 title: Why I'm starting a podcast
-description: "For the last ten years, I have been traveling all over the world to give talks. Traveling is always fun, and sharing knowledge is extremely rewarding, but for me, the best part about going to conferences is meeting people. Nothing replaces the feeling of having a 1:1 connection with another human being."
+description: 'For the last ten years, I have been traveling all over the world to give talks. Traveling is always fun, and sharing knowledge is extremely rewarding, but for me, the best part about going to conferences is meeting people. Nothing replaces the feeling of having a 1:1 connection with another human being.'
 slug: why-im-starting-a-podcast
-date: "2021-05-11"
+date: '2021-05-11'
 ---
 
 For the last ten years, I have been traveling all over the world to give talks.

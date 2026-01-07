@@ -1,7 +1,7 @@
 ---
 title: Retiring CustomElements.io
-description: "On August, 2013, I announced a project called CustomElements.io. The idea was simple, to build a place where people could share their Web Components."
-date: "2017-02-26"
+description: 'On August, 2013, I announced a project called CustomElements.io. The idea was simple, to build a place where people could share their Web Components.'
+date: '2017-02-26'
 ---
 
 On August, 2013, I announced a project called CustomElements.io. The idea was simple, to build a place where people could share their Web Components.

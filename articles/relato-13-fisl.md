@@ -1,10 +1,10 @@
 ---
 title: Relato 13º FISL
-description: "Algumas semanas atrás estive no FISL (Fórum Internacional do Software Livre) em Porto Alegre que contou com cerca de 7 mil participantes. Foi um evento longo e cansativo, mas valeu muito a pena ter ido."
+description: 'Algumas semanas atrás estive no FISL (Fórum Internacional do Software Livre) em Porto Alegre que contou com cerca de 7 mil participantes. Foi um evento longo e cansativo, mas valeu muito a pena ter ido.'
 image: /static/img/tumblr/tumblr_m7ztd9Z0291qe3219.jpg
 slug: relato-13-fisl
 lang: pt-BR
-date: "2012-08-06"
+date: '2012-08-06'
 ---
 
 Algumas semanas atrás estive no [FISL](http://fisl.org.br) (Fórum Internacional do Software Livre) em Porto Alegre que contou com cerca de 7 mil participantes. Foi um evento longo e cansativo, mas valeu muito a pena ter ido.

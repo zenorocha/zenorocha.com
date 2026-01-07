@@ -1,8 +1,8 @@
 ---
 title: Medindo o tempo de carregamento com o novo Google Analytics
-description: "Se você é desenvolvedor web e ainda não utiliza alguma ferramenta para análise de estatísticas não sabe o que está perdendo. Mas se você usa, provavelmente optou pelo Google Analytics, com certeza uma das melhores ferramentas no mercado."
+description: 'Se você é desenvolvedor web e ainda não utiliza alguma ferramenta para análise de estatísticas não sabe o que está perdendo. Mas se você usa, provavelmente optou pelo Google Analytics, com certeza uma das melhores ferramentas no mercado.'
 lang: pt-BR
-date: "2011-05-11"
+date: '2011-05-11'
 ---
 
 Se você é desenvolvedor web e ainda não utiliza alguma ferramenta para análise de estatísticas não sabe o que está perdendo. Mas se você usa, provavelmente optou pelo [Google Analytics](http://www.google.com/analytics/), com certeza uma das melhores ferramentas no mercado.
@@ -28,10 +28,15 @@ Com isso, aquele código que você sempre coloca final no seu site ficará assim
   _gaq.push(['_trackPageview']);
   _gaq.push(['_trackPageLoadTime']);
 
-  (function() {
-    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  (function () {
+    var ga = document.createElement('script');
+    ga.type = 'text/javascript';
+    ga.async = true;
+    ga.src =
+      ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') +
+      '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0];
+    s.parentNode.insertBefore(ga, s);
   })();
 </script>
 ```

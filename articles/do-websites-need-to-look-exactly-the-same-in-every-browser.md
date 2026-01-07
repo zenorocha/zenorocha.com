@@ -1,7 +1,7 @@
 ---
 skip: true
 title: Do websites need to look exactly the same in every browser?
-date: "2011-08-09"
+date: '2011-08-09'
 ---
 
 <p>

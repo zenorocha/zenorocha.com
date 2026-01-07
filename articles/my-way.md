@@ -1,9 +1,9 @@
 ---
-title: "My way"
-description: "Sempre gosto de ler histórias sobre como as pessoas que eu admiro tomaram suas decisões ao longo da vida. É uma dose de inspiração tentar entender o rumo dos acontecimentos..."
+title: 'My way'
+description: 'Sempre gosto de ler histórias sobre como as pessoas que eu admiro tomaram suas decisões ao longo da vida. É uma dose de inspiração tentar entender o rumo dos acontecimentos...'
 image: /static/img/posts/myway-maujor.jpg
 lang: pt-BR
-date: "2012-12-27"
+date: '2012-12-27'
 ---
 
 Sempre gosto de ler histórias sobre como as pessoas que eu admiro tomaram suas decisões ao longo da vida. É uma dose de inspiração tentar entender o rumo dos acontecimentos.

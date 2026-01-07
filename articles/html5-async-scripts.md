@@ -1,9 +1,9 @@
 ---
 title: HTML5 - Async Scripts
-description: "O volume de mudanças que a nova especificação do HTML propõe para tag <script> é pequeno, mas chama atenção por resolver antigos problemas de performance. Nesse artigo vamos entender quais são esses problemas e dar uma passada geral nas mudanças que o HTML5 propõe para essa tag."
+description: 'O volume de mudanças que a nova especificação do HTML propõe para tag <script> é pequeno, mas chama atenção por resolver antigos problemas de performance. Nesse artigo vamos entender quais são esses problemas e dar uma passada geral nas mudanças que o HTML5 propõe para essa tag.'
 image: /static/img/tumblr/tumblr_lrovdkNq881qe3219.jpg
 lang: pt-BR
-date: "2011-09-18"
+date: '2011-09-18'
 ---
 
 <!-- <p class="demo-download"><a href="http://labs.zenorocha.com/html5/script" target="_blank"><img class="botao" src="/static/img/tumblr/tumblr_lk325lvHwF1qe3219.png"/></a> <a href="https://github.com/zenorocha/HTML5-Script" target="_blank"><img class="botao" src="/static/img/tumblr/tumblr_lk325u7HMG1qe3219.png"/></a> -->

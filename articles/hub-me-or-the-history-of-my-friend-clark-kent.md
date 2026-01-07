@@ -1,8 +1,8 @@
 ---
 title: hub.me ...or the history of my friend Clark Kent
-description: "I love Github, seriously, I really do. Also, my super coder friend Clark Kent loves too. Some weeks ago, he decided to create a new project on Github called Krypton. This project is incredible and as the time passed by more and more people started watching and forking it. Awesome!"
+description: 'I love Github, seriously, I really do. Also, my super coder friend Clark Kent loves too. Some weeks ago, he decided to create a new project on Github called Krypton. This project is incredible and as the time passed by more and more people started watching and forking it. Awesome!'
 slug: hub-me-or-the-history-of-my-friend-clark-kent
-date: "2011-11-22"
+date: '2011-11-22'
 ---
 
 — If you prefer, read the portuguese version [here](https://gist.github.com/1385464).

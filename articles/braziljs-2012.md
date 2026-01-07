@@ -1,10 +1,10 @@
 ---
 title: O mês que eu palestrei no maior evento de JavaScript do universo - BrazilJS
-description: "Imagine o maior auditório da região sul do país. Agora imagine 1 mil pessoas juntas nesse lugar. E que tal imaginar 70 mil pessoas acompanhando ao vivo por todo canto do mundo. Isso não foi imaginação, isso foi o BrazilJS 2012 e foi assim que terminou minha jornada do mês de agosto."
+description: 'Imagine o maior auditório da região sul do país. Agora imagine 1 mil pessoas juntas nesse lugar. E que tal imaginar 70 mil pessoas acompanhando ao vivo por todo canto do mundo. Isso não foi imaginação, isso foi o BrazilJS 2012 e foi assim que terminou minha jornada do mês de agosto.'
 image: /static/img/tumblr/tumblr_m9tpsvXqjc1qe3219.jpg
 slug: braziljs-2012
 lang: pt-BR
-date: "2012-09-04"
+date: '2012-09-04'
 ---
 
 Imagine o maior auditório da região sul do país. Agora imagine 1 mil pessoas juntas nesse lugar. E que tal imaginar 70 mil pessoas acompanhando ao vivo por todo canto do mundo.

@@ -2,7 +2,7 @@
 title: I'm starting my own company
 description: "I'm leaving my job to start my own company. Why am I doing this? What problem are we solving? Why now?"
 image: /static/img/posts/im-starting-my-own-company.jpg
-date: "2023-01-04"
+date: '2023-01-04'
 ---
 
 Personal update: I'm leaving my job to start my own company: [resend.com](https://resend.com).
@@ -17,7 +17,7 @@ When I was a CPO at [Liferay Cloud](https://liferay.com), I faced the problem of
 
 We had high-profile customers complaining about deliverability, and I've been frustrated with existing services ever since.
 
-More recently, as a VP of Developer Experience at [WorkOS](https://workos.com), I once again had to deal with emails landing in the spam folder. 
+More recently, as a VP of Developer Experience at [WorkOS](https://workos.com), I once again had to deal with emails landing in the spam folder.
 
 After looking at all the different solutions out there, I've been obsessed with the idea of solving this problem once and for all.
 

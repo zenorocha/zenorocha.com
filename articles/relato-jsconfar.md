@@ -1,10 +1,10 @@
 ---
 title: JSConf Argentina - Um relato da minha primeira palestra fora do Brasil
-description: "Pense numa semana corrida! Sabe aquelas em que você precisa entregar um projeto na empresa e outro trabalho na faculdade? Então, foi assim que começou a minha, e que fecharia com o evento no sábado em Buenos Aires. Ainda faltava preparar os slides e me preparar para dar aquela que seria minha primeira palestra inteira em inglês."
+description: 'Pense numa semana corrida! Sabe aquelas em que você precisa entregar um projeto na empresa e outro trabalho na faculdade? Então, foi assim que começou a minha, e que fecharia com o evento no sábado em Buenos Aires. Ainda faltava preparar os slides e me preparar para dar aquela que seria minha primeira palestra inteira em inglês.'
 image: /static/img/tumblr/tumblr_m4j7ztkXu91qe3219.jpg
 slug: relato-jsconfar
 lang: pt-BR
-date: "2012-05-25"
+date: '2012-05-25'
 ---
 
 Pense numa semana corrida! Sabe aquelas em que você precisa entregar um projeto na empresa e outro trabalho na faculdade?

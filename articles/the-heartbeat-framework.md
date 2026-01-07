@@ -33,12 +33,12 @@ In contrast, if there's a flat line, it means we are _"dead"_ and don't have mom
 
 The framework is divided into:
 
-* A) Launch Weeks
-* B) Mini-Launches
-* C) Change log
-* D) Blog
-* E) Customer story
-* F) Social post
+- A) Launch Weeks
+- B) Mini-Launches
+- C) Change log
+- D) Blog
+- E) Customer story
+- F) Social post
 
 ## A) Launch Weeks
 

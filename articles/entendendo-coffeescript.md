@@ -1,9 +1,9 @@
 ---
 title: Entendendo CoffeeScript
-description: "Quem é do mundo Ruby on Rails já deve estar cansado de toda a polêmica acerca do CoffeeScript meses atrás. Se você não acompanhou, vou tentar resumir a história."
+description: 'Quem é do mundo Ruby on Rails já deve estar cansado de toda a polêmica acerca do CoffeeScript meses atrás. Se você não acompanhou, vou tentar resumir a história.'
 image: /static/img/tumblr/tumblr_loffq1Ym931qe3219.png
 lang: pt-BR
-date: "2011-08-01"
+date: '2011-08-01'
 ---
 
 Quem é do mundo [Ruby on Rails](http://rubyonrails.org/) já deve estar cansado de toda a polêmica acerca do [CoffeeScript](http://jashkenas.github.com/coffee-script) meses atrás. Se você não acompanhou, vou tentar resumir a história.
@@ -36,7 +36,7 @@ O primeiro, não muito aconselhável, é usando o compilador baseado no browser.
 <script src="http://jashkenas.github.com/coffee-script/extras/coffee-script.js"></script>
 
 <script type="text/coffeescript">
-  # inicie aqui a brincadeira
+    # inicie aqui a brincadeira
 </script>
 ```
 
@@ -82,13 +82,9 @@ var amyEstaViva;
 amyEstaViva = false;
 
 if (amyEstaViva) {
-
-  alert("Eu sabia!");
-
+  alert('Eu sabia!');
 } else {
-
-  alert("Droga =/");
-
+  alert('Droga =/');
 }
 ```
 
@@ -123,10 +119,8 @@ var $;
 
 $ = jQuery;
 
-$.fn.myFunction = function() {
-
+$.fn.myFunction = function () {
   /* sua brincadeira aqui */
-
 };
 ```
 

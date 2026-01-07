@@ -1,4 +1,4 @@
-import { createStitches } from '@stitches/react'
+import { createStitches } from '@stitches/react';
 
 export const {
   styled,
@@ -8,7 +8,7 @@ export const {
   getCssText,
   theme,
   createTheme,
-  config,
+  config
 } = createStitches({
   theme: {
     colors: {
@@ -23,41 +23,41 @@ export const {
       secondary: '#8f9ba8',
       background: '#08070b',
       hover: '#212024',
-      command: 'rgba(255, 255, 255, 0.05)',
+      command: 'rgba(255, 255, 255, 0.05)'
     },
     fonts: {
       body: 'Biotif, sans-serif',
       code: 'Fira Code, monospace',
-      heading: 'Neuzeit Grotesk Bold, sans-serif',
+      heading: 'Neuzeit Grotesk Bold, sans-serif'
     },
     space: {
       navHeightDesktop: '60px',
-      navHeightMobile: '110px',
+      navHeightMobile: '110px'
     },
     transitions: {
-      duration: '0.2s',
+      duration: '0.2s'
     },
     radii: {
-      borderRadius: '8px',
-    },
+      borderRadius: '8px'
+    }
   },
   media: {
     bp1: '(min-width: 425px)',
     bp2: '(min-width: 760px)',
     bp3: '(max-width: 780px)',
-    bp4: '(max-width: 1024px)',
-  },
-})
+    bp4: '(max-width: 1024px)'
+  }
+});
 
 const globalStyles = globalCss({
   '*': {
-    fontFamily: '$body',
+    fontFamily: '$body'
   },
   'html, body': {
     margin: '0',
     padding: '0',
     WebkitFontSmoothing: 'antialiased',
-    background: '$background',
+    background: '$background'
   },
   kbd: {
     color: '$background',
@@ -66,77 +66,77 @@ const globalStyles = globalCss({
     borderRadius: '4px',
     transition: 'background $duration ease-in-out',
     fontFamily: '$code',
-    fontSize: '14px',
+    fontSize: '14px'
   },
   svg: {
     width: '32px',
     height: '32px',
-    fill: 'white',
+    fill: 'white'
   },
   figure: {
-    margin: 0,
+    margin: 0
   },
   twitterwidget: {
-    margin: '0 auto',
+    margin: '0 auto'
   },
   code: {
     background: '#151417',
     borderRadius: '$borderRadius',
     color: '$primary',
     fontFamily: '$code',
-    fontSize: '15px',
+    fontSize: '15px'
   },
   ':not(pre) > code': {
-    padding: '4px',
+    padding: '4px'
   },
   h1: {
     fontFamily: '$heading',
     fontSize: '48px',
     lineHeight: '50px',
     margin: '0 0 20px',
-    color: '$primary',
+    color: '$primary'
   },
   h2: {
     color: '$primary',
     margin: '60px 0 0',
-    fontSize: '24px',
+    fontSize: '24px'
   },
   'h3, h3 a': {
     color: '$primary',
     fontSize: '18px',
-    margin: '20px 0 0',
+    margin: '20px 0 0'
   },
   ul: {
-    margin: 0,
+    margin: 0
   },
   img: {
     borderRadius: '8px',
     minWidth: '100%',
-    maxWidth: '100%',
+    maxWidth: '100%'
   },
   p: {
     margin: '20px 0',
-    color: '$secondary',
+    color: '$secondary'
   },
   strong: {
     color: '$primary',
-    fontWeight: 500,
+    fontWeight: 500
   },
   blockquote: {
     borderLeft: '4px solid $hover',
     color: '$secondary',
     fontStyle: 'italic',
     margin: '0',
-    paddingLeft: '20px',
+    paddingLeft: '20px'
   },
   a: {
     borderBottom: '.5px solid $secondary',
     color: '$primary',
     textDecoration: 'none',
-    transition: 'opacity $duration ease-in-out',
+    transition: 'opacity $duration ease-in-out'
   },
   'a:hover, a:focus': {
-    opacity: '0.8',
+    opacity: '0.8'
   },
   '@font-face': [
     {
@@ -144,44 +144,44 @@ const globalStyles = globalCss({
       src: `url("/static/font/NeuzeitGrotesk-Bold.woff2") format("woff2"),
         url("/static/font/NeuzeitGrotesk-Bold.woff") format("woff")`,
       fontWeight: 'normal',
-      fontStyle: 'normal',
+      fontStyle: 'normal'
     },
     {
       fontFamily: 'Fira Code',
       src: `url("/static/font/FiraCode-Regular.woff2") format("woff2"),
         url("/static/font/FiraCode-Regular.woff") format("woff")`,
       fontWeight: 'normal',
-      fontStyle: 'normal',
+      fontStyle: 'normal'
     },
     {
       fontFamily: 'Biotif',
       src: `url("/static/font/Biotif-Bold.woff2") format("woff2"),
         url("/static/font/Biotif-Bold.woff") format("woff")`,
       fontWeight: 'bold',
-      fontStyle: 'normal',
+      fontStyle: 'normal'
     },
     {
       fontFamily: 'Biotif',
       src: `url("/static/font/Biotif-Book.woff2") format("woff2"),
         url("/static/font/Biotif-Book.woff") format("woff")`,
       fontWeight: 500,
-      fontStyle: 'normal',
+      fontStyle: 'normal'
     },
     {
       fontFamily: 'Biotif',
       src: `url("/static/font/Biotif-Regular.woff2") format("woff2"),
         url("/static/font/Biotif-Regular.woff") format("woff")`,
       fontWeight: 'normal',
-      fontStyle: 'normal',
+      fontStyle: 'normal'
     },
     {
       fontFamily: 'Biotif',
       src: `url("/static/font/Biotif-RegularItalic.woff2") format("woff2"),
         url("/static/font/Biotif-RegularItalic.woff") format("woff")`,
       fontWeight: 'normal',
-      fontStyle: 'italic',
-    },
-  ],
-})
+      fontStyle: 'italic'
+    }
+  ]
+});
 
-globalStyles()
+globalStyles();

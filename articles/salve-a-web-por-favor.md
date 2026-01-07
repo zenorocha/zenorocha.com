@@ -1,9 +1,9 @@
 ---
 title: Salve a web, por favor
-description: "Sempre que posso, gosto de divulgar iniciativas que procurem tornar a web um lugar mais legal. Foi assim quando escrevi sobre o humans.txt e está sendo assim agora."
+description: 'Sempre que posso, gosto de divulgar iniciativas que procurem tornar a web um lugar mais legal. Foi assim quando escrevi sobre o humans.txt e está sendo assim agora.'
 image: /static/img/tumblr/tumblr_lt1x90OrsW1qe3219.jpg
 lang: pt-BR
-date: "2011-10-14"
+date: '2011-10-14'
 ---
 
 Sempre que posso, gosto de divulgar iniciativas que procurem tornar a web um lugar mais legal. Foi assim [quando escrevi sobre o humans.txt](/humans-txt-because-we-are-people-not-machines) e está sendo assim agora.
@@ -33,17 +33,17 @@ Basta incluir esse script antes de fechar a tag body no seu HTML.
 ```html
 <!DOCTYPE html>
 <html lang="pt-BR">
-<head>
-  <meta charset="utf-8" />
-  <title>Título</title>
-</head>
-<body>
-  <h1>Meu site</h1>
+  <head>
+    <meta charset="utf-8" />
+    <title>Título</title>
+  </head>
+  <body>
+    <h1>Meu site</h1>
 
-  ... todo o html do seu site ...
+    ... todo o html do seu site ...
 
-  <script defer src="http://sawpf.com/1.0.js"></script>
-</body>
+    <script defer src="http://sawpf.com/1.0.js"></script>
+  </body>
 </html>
 ```
 

@@ -1,7 +1,7 @@
 ---
 skip: true
 title: Uncle Bob Tip
-date: "2011-08-22"
+date: '2011-08-22'
 ---
 
 <div class="iframe-wrap">

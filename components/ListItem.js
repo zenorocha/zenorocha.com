@@ -50,14 +50,12 @@ function Animation({ index, children, isArticle = false }) {
     <motion.span
       onHoverStart={() => setHovered(index)}
       onHoverEnd={() => setHovered('')}
-      className={`transition-all-[0.2s] text-secondary hover:text-primary relative flex w-full cursor-pointer justify-between border-0 py-5 no-underline opacity-100 ease-in-out ${isArticle ? 'flex-col md:flex-row' : ''}`}
+      className={`relative flex w-full cursor-pointer justify-between border-0 py-5 no-underline ${isArticle ? 'flex-col md:flex-row' : ''}`}
     >
       {isHovered && (
         <motion.span
           layoutId="listItem"
-          initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
-          exit={{ opacity: 0 }}
           className="bg-hover absolute -top-0.25 -right-5 -bottom-0.25 -left-5 -z-1 rounded-lg"
         />
       )}

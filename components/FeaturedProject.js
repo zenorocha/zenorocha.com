@@ -19,7 +19,7 @@ export default function FeaturedProject(props) {
       target="_blank"
       onMouseEnter={() => iconRef.current?.play()}
       onMouseLeave={() => iconRef.current?.stop()}
-      className="transition-opacity-[0.2s] flex w-auto rounded-lg border-0 no-underline ease-in-out hover:opacity-100 md:w-45"
+      className="transition-opacity-[0.3s] flex w-auto rounded-lg border-0 no-underline ease-in-out hover:opacity-100 md:w-45"
     >
       <Animation index={props.index}>
         <Lottie
@@ -56,9 +56,7 @@ function Animation({ index, children }) {
       {isHovered && (
         <motion.span
           layoutId="featuredProjects"
-          initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
-          exit={{ opacity: 0 }}
           className="bg-hover absolute top-0 right-0 bottom-0 left-0 -z-1 rounded-lg"
         />
       )}

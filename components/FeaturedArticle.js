@@ -10,7 +10,7 @@ export default function FeaturedArticle(props) {
   return (
     <a
       href={props.href}
-      className="ml-5 w-92.5 border-0 no-underline first:ml-0 hover:opacity-100"
+      className="w-full border-0 no-underline first:ml-0 hover:opacity-100"
     >
       <Animation index={props.index} className="flex flex-col">
         <div
@@ -37,14 +37,12 @@ function Animation({ index, children }) {
     <motion.div
       onHoverStart={() => setHovered(index)}
       onHoverEnd={() => setHovered('')}
-      className="featured-article-anim relative w-full p-5"
+      className="relative w-full p-5"
     >
       {isHovered && (
         <motion.div
           layoutId="featuredArticles"
-          initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
-          exit={{ opacity: 0 }}
           className="bg-hover absolute top-0 right-0 bottom-0 left-0 -z-1 rounded-lg"
         />
       )}

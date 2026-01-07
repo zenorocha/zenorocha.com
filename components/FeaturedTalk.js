@@ -11,7 +11,7 @@ export default function FeaturedTalk(props) {
     <a
       href={talk.presentations[0].video}
       target="_blank"
-      className="mt-5 border-0 no-underline first:ml-0"
+      className="border-0 no-underline first:ml-0"
     >
       <Animation index={props.index}>
         <div className="flex h-auto flex-col md:h-35 md:flex-row">
@@ -44,9 +44,7 @@ function Animation({ index, children }) {
       {isHovered && (
         <motion.div
           layoutId="featuredTalks"
-          initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
-          exit={{ opacity: 0 }}
           className="bg-hover absolute top-0 right-0 bottom-0 left-0 -z-1 rounded-lg"
         />
       )}

@@ -3,7 +3,6 @@ import { ListGroup } from '../../components/ListGroup';
 import ListItem from '../../components/ListItem';
 import Base from '../../layouts/Base';
 import { getAllPosts, getPostBySlug } from '../../lib/blog';
-import { styled } from '../../stitches.config';
 
 export const metadata = {
   title: 'Articles',
@@ -77,14 +76,11 @@ export default async function Articles() {
     >
       <p dangerouslySetInnerHTML={{ __html: description }} />
       <h2>Featured Articles</h2>
-      <FeaturedArticles>{renderFeatured()}</FeaturedArticles>
+      <div className="my-2.5 mt-2.5 -ml-5 md:flex md:justify-between">
+        {renderFeatured()}
+      </div>
       <h2>All Articles</h2>
       <ListGroup>{renderAll()}</ListGroup>
     </Base>
   );
 }
-
-const FeaturedArticles = styled('div', {
-  margin: '10px 0 0 -20px',
-  '@bp2': { display: 'flex', justifyContent: 'space-between' }
-});

@@ -6,7 +6,7 @@
 
 ## Technology stack
 
-- **Styling:** [Stitches](https://stitches.dev/)
+- **Styling:** [Tailwind CSS](https://tailwindcss.com/)
 - **Content:** [Markdown](https://daringfireball.net/projects/markdown/)
 - **Back-end:** [Next.js](https://nextjs.org/)
 - **Front-end:** [React](https://reactjs.org/)

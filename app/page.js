@@ -4,7 +4,6 @@ import { PostContainer, PostContent, PostMain } from '../components/Post';
 import ShortcutHome from '../components/ShortcutHome';
 import { Wrapper } from '../components/Wrapper';
 import { getPersonJsonLd } from '../lib/json-ld';
-import { styled } from '../stitches.config';
 
 export const metadata = {
   title: 'Zeno Rocha',
@@ -31,7 +30,7 @@ export default function Index() {
         key="person-jsonld"
       />
       <Navbar />
-      <Home>
+      <PostMain className="mx-auto flex items-center md:w-200">
         <PostContent>
           <PostContainer>
             <div>
@@ -50,15 +49,8 @@ export default function Index() {
             </div>
           </PostContainer>
         </PostContent>
-      </Home>
+      </PostMain>
       <Footer />
     </Wrapper>
   );
 }
-
-const Home = styled(PostMain, {
-  alignItems: 'center',
-  display: 'flex',
-  margin: '0 auto',
-  '@bp2': { width: 800 }
-});

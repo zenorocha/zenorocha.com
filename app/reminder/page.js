@@ -20,7 +20,7 @@ export default function Reminder() {
       primaryColor="cyan"
       secondaryColor="green"
     >
-      <Box css={{ textAlign: 'justify' }}>
+      <Box className="text-justify">
         <p>
           <strong>Time is the most important asset.</strong> Time does not equal
           money. <strong>Time equals life.</strong> And you only have one chance

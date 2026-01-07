@@ -11,7 +11,7 @@ export default function ErrorMessage({ code }) {
   }
 
   return (
-    <Box css={{ textAlign: 'center' }}>
+    <Box className="text-center">
       <h1>{title}</h1>
       <ShortcutError />
       <p>{description}</p>

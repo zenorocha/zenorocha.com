@@ -1,3 +1,3 @@
-import { styled } from '../stitches.config';
-
-export const Icon = styled('i');
+export const Icon = ({ className = '', ...props }) => (
+  <i className={className} {...props} />
+);

@@ -1,24 +1,6 @@
-import { styled } from '../stitches.config';
-
-export const ButtonPrimary = styled('div', {
-  appearance: 'none',
-  background: 'transparent',
-  border: 0,
-  borderRadius: '$borderRadius',
-  color: '$primary',
-  cursor: 'pointer',
-  display: 'inline-block',
-  fontSize: '16px',
-  fontWeight: 600,
-  lineHeight: '24px',
-  margin: '0 0 0 -10px',
-  outline: '0',
-  padding: '8px 10px 8px',
-  textDecoration: 'none',
-  transition: [
-    'background $duration ease-in-out',
-    'color $duration ease-in-out'
-  ],
-  '&:hover': { background: '$hover', color: '$primary', opacity: 1 },
-  '&:hover kbd': { background: '$primary' }
-});
+export const ButtonPrimary = ({ className = '', ...props }) => (
+  <div
+    className={`text-primary hover:bg-hover hover:text-primary [&:hover_kbd]:bg-primary -ml-2.5 inline-block cursor-pointer appearance-none rounded-lg border-0 bg-transparent px-2.5 py-2 text-base leading-6 font-semibold no-underline outline-0 transition-[background_0.2s_ease-in-out,color_0.2s_ease-in-out] hover:opacity-100 ${className}`}
+    {...props}
+  />
+);

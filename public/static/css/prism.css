@@ -72,7 +72,7 @@ code[class*='language-'] ::selection {
 
 pre.line-numbers {
   position: relative;
-  padding-left: 3.8em;
+  padding-left: 3.8rem;
   counter-reset: linenumber;
 }
 
@@ -86,10 +86,10 @@ pre.line-numbers > code {
   pointer-events: none;
   top: 0;
   font-size: 100%;
-  left: -3.8em;
-  width: 3em; /* works for line-numbers below 1000 lines */
-  letter-spacing: -1px;
-  border-right: 1px solid #999;
+  left: -3.8rem;
+  width: 3rem; /* works for line-numbers below 1000 lines */
+  letter-spacing: -0.0625rem;
+  border-right: 0.0625rem solid #999;
 
   -webkit-user-select: none;
   -moz-user-select: none;
@@ -107,7 +107,7 @@ pre.line-numbers > code {
   content: counter(linenumber);
   color: #999;
   display: block;
-  padding-right: 0.8em;
+  padding-right: 0.8rem;
   text-align: right;
 }
 
@@ -119,8 +119,8 @@ div.code-toolbar {
 
 div.code-toolbar > .toolbar {
   position: absolute;
-  top: 0.3em;
-  right: 0.2em;
+  top: 0.3rem;
+  right: 0.2rem;
   transition: opacity 0.3s ease-in-out;
   opacity: 0;
 }
@@ -131,7 +131,7 @@ div.code-toolbar:hover > .toolbar {
 
 div.code-toolbar > .toolbar .toolbar-item {
   display: inline-block;
-  padding-right: 20px;
+  padding-right: 1.25rem;
 }
 
 div.code-toolbar > .toolbar a {
@@ -155,10 +155,10 @@ div.code-toolbar > .toolbar a,
 div.code-toolbar > .toolbar button,
 div.code-toolbar > .toolbar span {
   color: var(--foreground);
-  font-size: 0.8em;
-  padding: 0.5em;
+  font-size: 0.8rem;
+  padding: 0.5rem;
   background: var(--comment);
-  border-radius: 0.5em;
+  border-radius: 0.5rem;
 }
 
 div.code-toolbar > .toolbar a:hover,
@@ -213,9 +213,9 @@ pre code span {
 
 pre[class*='language-'] {
   background: var(--background);
-  border-radius: 0.5em;
-  padding: 1em;
-  margin: 0.5em 0;
+  border-radius: 0.5rem;
+  padding: 1rem;
+  margin: 0.5rem 0;
   overflow: auto;
   height: auto;
 }
@@ -227,35 +227,35 @@ pre[class*='language-'] {
 
 /* Inline code */
 :not(pre) > code[class*='language-'] {
-  padding: 4px 7px;
-  border-radius: 0.3em;
+  padding: 0.25rem 0.4375rem;
+  border-radius: 0.3rem;
   white-space: normal;
 }
 
 /* Code box limit */
 
 .limit-300 {
-  height: 300px !important;
+  height: 18.75rem !important;
 }
 
 .limit-300 {
-  height: 400px !important;
+  height: 25rem !important;
 }
 
 .limit-500 {
-  height: 500px !important;
+  height: 31.25rem !important;
 }
 
 .limit-600 {
-  height: 600px !important;
+  height: 37.5rem !important;
 }
 
 .limit-700 {
-  height: 700px !important;
+  height: 43.75rem !important;
 }
 
 .limit-800 {
-  height: 800px !important;
+  height: 50rem !important;
 }
 
 .language-css {
@@ -457,8 +457,8 @@ pre[class*='language-'] {
   display: inline-block;
   text-decoration: none;
 
-  border-radius: 4px;
-  padding: 2px 10px;
+  border-radius: 0.25rem;
+  padding: 0.125rem 0.625rem;
 }
 
 .highlight-line:empty:before {

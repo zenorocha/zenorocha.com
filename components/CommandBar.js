@@ -37,7 +37,6 @@ import { Box } from './Box';
 import Toast from './Toast';
 
 const Lottie = dynamic(() => import('lottie-react'), { ssr: false });
-
 const CommandBarContext = createContext(null);
 
 export function useCommandBar() {
@@ -49,6 +48,12 @@ export function useCommandBar() {
 }
 
 export default function CommandBar(props) {
+  const router = useRouter();
+  const [open, setOpen] = useState(false);
+  const [showToast, setShowToast] = useState(false);
+  const shortcutSequenceRef = useRef([]);
+  const shortcutTimeoutRef = useRef(null);
+
   const copyLinkRef = useRef();
   const emailRef = useRef();
   const sourceRef = useRef();
@@ -61,9 +66,6 @@ export default function CommandBar(props) {
   const investingRef = useRef();
   const usesRef = useRef();
   const reminderRef = useRef();
-  const router = useRouter();
-  const [open, setOpen] = useState(false);
-  const [showToast, setShowToast] = useState(false);
 
   const actions = useMemo(() => {
     return [
@@ -320,7 +322,17 @@ export default function CommandBar(props) {
     []
   );
 
-  // Handle keyboard shortcut (Cmd/Ctrl+K)
+  const groupedActions = useMemo(() => {
+    const groups = {};
+    actions.forEach((action) => {
+      if (!groups[action.section]) {
+        groups[action.section] = [];
+      }
+      groups[action.section].push(action);
+    });
+    return groups;
+  }, [actions]);
+
   useEffect(() => {
     const down = (e) => {
       if (e.key === 'k' && (e.metaKey || e.ctrlKey)) {
@@ -333,27 +345,93 @@ export default function CommandBar(props) {
     return () => document.removeEventListener('keydown', down);
   }, []);
 
-  // Group actions by section
-  const groupedActions = useMemo(() => {
-    const groups = {};
-    actions.forEach((action) => {
-      if (!groups[action.section]) {
-        groups[action.section] = [];
+  useEffect(() => {
+    if (!open) {
+      shortcutSequenceRef.current = [];
+      if (shortcutTimeoutRef.current) {
+        clearTimeout(shortcutTimeoutRef.current);
+        shortcutTimeoutRef.current = null;
       }
-      groups[action.section].push(action);
-    });
-    return groups;
-  }, [actions]);
+      return;
+    }
+
+    const clearSequence = () => {
+      shortcutSequenceRef.current = [];
+      if (shortcutTimeoutRef.current) {
+        clearTimeout(shortcutTimeoutRef.current);
+        shortcutTimeoutRef.current = null;
+      }
+    };
+
+    const handleKeyDown = (e) => {
+      if (
+        e.metaKey ||
+        e.ctrlKey ||
+        e.altKey ||
+        e.shiftKey ||
+        ['ArrowUp', 'ArrowDown', 'ArrowLeft', 'ArrowRight'].includes(e.key)
+      ) {
+        return;
+      }
+
+      if (e.key === 'Escape') {
+        setOpen(false);
+        return;
+      }
+
+      const activeElement = document.activeElement;
+      const target = e.target;
+      const inputElement =
+        activeElement?.tagName === 'INPUT' ||
+        activeElement?.getAttribute('role') === 'combobox'
+          ? activeElement
+          : target?.tagName === 'INPUT' ||
+              target?.getAttribute('role') === 'combobox'
+            ? target
+            : target?.closest('[cmdk-input]');
+      if (inputElement?.value) {
+        return;
+      }
+
+      const key = e.key.toLowerCase();
+      const newSequence = [...shortcutSequenceRef.current, key];
+
+      const matchingAction = actions.find((action) => {
+        if (!action.shortcut || action.shortcut.length !== newSequence.length) {
+          return false;
+        }
+        return action.shortcut.every(
+          (shortcut, index) => shortcut === newSequence[index]
+        );
+      });
+
+      if (matchingAction) {
+        e.preventDefault();
+        clearSequence();
+        matchingAction.perform();
+        return;
+      }
+
+      shortcutSequenceRef.current = newSequence;
+      if (shortcutTimeoutRef.current) {
+        clearTimeout(shortcutTimeoutRef.current);
+      }
+      shortcutTimeoutRef.current = setTimeout(clearSequence, 1000);
+    };
+
+    document.addEventListener('keydown', handleKeyDown);
+    return () => {
+      document.removeEventListener('keydown', handleKeyDown);
+      clearSequence();
+    };
+  }, [open, actions]);
 
   return (
     <CommandBarContext.Provider value={contextValue}>
       <Dialog.Root open={open} onOpenChange={setOpen}>
         <Dialog.Portal>
-          <Dialog.Overlay className="data-[state=open]:animate-in data-[state=closed]:animate-out data-[state=closed]:fade-out-0 data-[state=open]:fade-in-0 fixed inset-0 bg-[rgba(0,0,0,0.8)] duration-200" />
-          <Dialog.Content
-            className="data-[state=open]:animate-in data-[state=closed]:animate-out data-[state=closed]:fade-out-0 data-[state=open]:fade-in-0 data-[state=closed]:zoom-out-95 data-[state=open]:zoom-in-95 data-[state=closed]:slide-out-to-top-[48%] data-[state=open]:slide-in-from-top-[48%] fixed top-1/2 left-1/2 w-full max-w-150 -translate-x-1/2 -translate-y-1/2 px-4 duration-200 outline-none select-none"
-            onOpenAutoFocus={(e) => e.preventDefault()}
-          >
+          <Dialog.Overlay className="data-[state=open]:animate-overlay-show data-[state=closed]:animate-overlay-hide fixed inset-0 bg-[rgba(0,0,0,0.8)]" />
+          <Dialog.Content className="data-[state=open]:animate-content-show data-[state=closed]:animate-content-hide fixed top-1/2 left-1/2 w-full max-w-150 -translate-x-1/2 -translate-y-1/2 px-4 outline-none select-none">
             <VisuallyHidden.Root>
               <Dialog.Title>Command Menu</Dialog.Title>
             </VisuallyHidden.Root>
@@ -404,24 +482,52 @@ export default function CommandBar(props) {
 function ActionCommandItem({ action, value, onSelect }) {
   const itemRef = useRef(null);
 
+  useEffect(() => {
+    const element = itemRef.current;
+    if (!element) {
+      return;
+    }
+
+    const observer = new MutationObserver(() => {
+      const isSelected = element.getAttribute('aria-selected') === 'true';
+      if (isSelected) {
+        action.icon?.props?.lottieRef?.current?.play();
+      } else {
+        action.icon?.props?.lottieRef?.current?.stop();
+      }
+    });
+
+    observer.observe(element, {
+      attributes: true,
+      attributeFilter: ['aria-selected']
+    });
+
+    const isSelected = element.getAttribute('aria-selected') === 'true';
+    if (isSelected) {
+      action.icon?.props?.lottieRef?.current?.play();
+    }
+
+    return () => observer.disconnect();
+  }, [action]);
+
   const handleMouseEnter = () => {
     action.icon?.props?.lottieRef?.current?.play();
   };
 
   const handleMouseLeave = () => {
-    // Only stop if not selected
     if (itemRef.current?.getAttribute('aria-selected') !== 'true') {
       action.icon?.props?.lottieRef?.current?.stop();
     }
   };
 
-  // Use MutationObserver or check on focus
   const handleFocus = () => {
     action.icon?.props?.lottieRef?.current?.play();
   };
 
   const handleBlur = () => {
-    action.icon?.props?.lottieRef?.current?.stop();
+    if (itemRef.current?.getAttribute('aria-selected') !== 'true') {
+      action.icon?.props?.lottieRef?.current?.stop();
+    }
   };
 
   return (
@@ -433,7 +539,7 @@ function ActionCommandItem({ action, value, onSelect }) {
       onMouseLeave={handleMouseLeave}
       onFocus={handleFocus}
       onBlur={handleBlur}
-      className="text-secondary data-[aria-selected=true]:text-primary m-0 flex cursor-pointer items-center justify-between px-4 py-3 hover:bg-[rgba(255,255,255,0.1)] focus:bg-[rgba(255,255,255,0.1)] data-[aria-selected=true]:bg-[rgba(255,255,255,0.1)]"
+      className="text-secondary data-[selected=true]:text-primary m-0 flex cursor-pointer items-center justify-between px-4 py-3 hover:bg-[rgba(255,255,255,0.1)] focus:bg-[rgba(255,255,255,0.1)] data-[selected=true]:bg-[rgba(255,255,255,0.1)]"
     >
       <Box className="flex w-full items-center justify-between">
         <div className="flex items-center gap-2">

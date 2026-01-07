@@ -153,9 +153,12 @@ export default function AboutClient({ description }) {
       durationStr = `${durationObj.years} yr `;
     }
 
-    durationStr += `${durationObj.months} mos`;
+    const months = durationObj.months ?? 0;
+    if (months > 0) {
+      durationStr += `${months} mos`;
+    }
 
-    return durationStr;
+    return durationStr.trim();
   };
 
   const downloadHeadshot = () => {

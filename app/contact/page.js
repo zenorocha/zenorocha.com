@@ -47,11 +47,11 @@ export default function Contact() {
       <Box>
         <p dangerouslySetInnerHTML={{ __html: description }} />
         <h2>Send me an email</h2>
-        <form onSubmit={onSendEmail} className="flex max-w-[25rem] flex-col">
-          <div className="mb-[0.625rem] flex flex-col">
+        <form onSubmit={onSendEmail} className="flex max-w-100 flex-col">
+          <div className="mb-2.5 flex flex-col">
             <label
               htmlFor="name"
-              className="text-xs font-medium text-[var(--color-secondary)] uppercase"
+              className="text-secondary text-xs font-medium uppercase"
             >
               Name
             </label>
@@ -60,13 +60,13 @@ export default function Contact() {
               type="text"
               placeholder="James Bond"
               required
-              className="rounded-lg border border-[var(--color-secondary)] bg-transparent p-[0.625rem] text-[var(--color-primary)] focus:border-[var(--color-cyan)] focus:outline-none"
+              className="border-secondary text-primary focus:border-cyan rounded-lg border bg-transparent p-2.5 focus:outline-none"
             />
           </div>
-          <div className="mb-[0.625rem] flex flex-col">
+          <div className="mb-2.5 flex flex-col">
             <label
               htmlFor="email"
-              className="text-xs font-medium text-[var(--color-secondary)] uppercase"
+              className="text-secondary text-xs font-medium uppercase"
             >
               Email
             </label>
@@ -75,13 +75,13 @@ export default function Contact() {
               type="email"
               placeholder="james@bond.com"
               required
-              className="rounded-lg border border-[var(--color-secondary)] bg-transparent p-[0.625rem] text-[var(--color-primary)] focus:border-[var(--color-cyan)] focus:outline-none"
+              className="border-secondary text-primary focus:border-cyan rounded-lg border bg-transparent p-2.5 focus:outline-none"
             />
           </div>
-          <div className="mb-[0.625rem] flex flex-col">
+          <div className="mb-2.5 flex flex-col">
             <label
               htmlFor="message"
-              className="text-xs font-medium text-[var(--color-secondary)] uppercase"
+              className="text-secondary text-xs font-medium uppercase"
             >
               Message
             </label>
@@ -90,13 +90,13 @@ export default function Contact() {
               placeholder="How can I help you?"
               rows="4"
               required
-              className="rounded-lg border border-[var(--color-secondary)] bg-transparent p-[0.625rem] text-[var(--color-primary)] focus:border-[var(--color-cyan)] focus:outline-none"
+              className="border-secondary text-primary focus:border-cyan rounded-lg border bg-transparent p-2.5 focus:outline-none"
             />
           </div>
-          <div className="mb-[0.625rem] flex flex-col">
+          <div className="mb-2.5 flex flex-col">
             <button
               type="submit"
-              className="mt-[0.3125rem] cursor-pointer rounded-lg border border-white bg-white p-[0.625rem] text-[var(--color-background)] transition-all duration-200 ease-in-out hover:border-[var(--color-cyan)] hover:bg-transparent hover:text-[var(--color-cyan)] focus:border-[var(--color-cyan)] focus:bg-transparent focus:text-[var(--color-cyan)] focus:outline-none"
+              className="text-background hover:border-cyan hover:text-cyan focus:border-cyan focus:text-cyan mt-1.25 cursor-pointer rounded-lg border border-white bg-white p-2.5 transition-all duration-200 ease-in-out hover:bg-transparent focus:bg-transparent focus:outline-none"
             >
               Send
             </button>

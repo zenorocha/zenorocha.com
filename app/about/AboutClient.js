@@ -24,7 +24,7 @@ export default function AboutClient({ description }) {
   const renderIntro = () => {
     return (
       <div className="flex flex-col justify-between md:flex-row">
-        <div className="mt-0 w-auto md:w-[21rem]">
+        <div className="mt-0 w-auto md:w-84">
           <Image
             alt="Zeno"
             src="/static/images/avatar.jpg"
@@ -36,19 +36,19 @@ export default function AboutClient({ description }) {
           />
         </div>
         <div className="mt-0 w-auto md:w-[48%]">
-          <p className="mt-4 md:my-[0.9375rem] md:mt-[-0.375rem]">
+          <p className="mt-4 md:my-3.75 md:-mt-1.5">
             <strong>Hey, I&apos;m Zeno Rocha</strong>
             <Pronunciation />I started as a software engineer back in 2009,
             working with Flash.
           </p>
-          <p className="md:my-[0.9375rem]">
+          <p className="md:my-3.75">
             I&apos;m the <strong>Founder & CEO</strong> at Resend. Before that,
             I was a VP of Developer Experience at WorkOS and CPO at Liferay
             Cloud. I&apos;m originally from Brazil and now living in{' '}
             <strong>San Francisco, California</strong> with my amazing wife and
             beautiful daughter.
           </p>
-          <p className="md:my-[0.9375rem]">
+          <p className="md:my-3.75">
             <strong>I love dark mode</strong>, open source, and side projects.
             When I&apos;m not working, I like running, watching movies, and{' '}
             <strong>eating cheese</strong>.
@@ -59,17 +59,6 @@ export default function AboutClient({ description }) {
   };
 
   const renderBio = () => {
-    const btnStyle = {
-      display: 'inline-flex',
-      justifyContent: 'center',
-      alignItems: 'center'
-    };
-    const iconStyle = {
-      width: '1.5rem',
-      height: '1.5rem',
-      marginRight: '0.5rem'
-    };
-
     return (
       <div>
         <p>
@@ -82,38 +71,40 @@ export default function AboutClient({ description }) {
         <div className="flex items-center">
           <ButtonPrimary
             as="button"
-            style={btnStyle}
+            className="inline-flex items-center justify-center"
             onClick={copyBio}
             onMouseEnter={() => copyBioRef.current?.play()}
             onMouseLeave={() => copyBioRef.current?.stop()}
           >
-            <Lottie
-              lottieRef={copyBioRef}
-              style={iconStyle}
-              animationData={copyBioIcon}
-              loop={false}
-              autoplay={false}
-            />
+            <div className="mr-2 h-6 w-6">
+              <Lottie
+                lottieRef={copyBioRef}
+                animationData={copyBioIcon}
+                loop={false}
+                autoplay={false}
+              />
+            </div>
             Copy Bio
           </ButtonPrimary>
-          <span style={{ margin: '0 1.25rem 0 0.625rem' }}>•</span>
+          <span className="mt-0 mr-5 mb-0 ml-2.5">•</span>
           <ButtonPrimary
             as="a"
             download
             role="button"
             href="/static/images/avatar.jpg"
-            style={btnStyle}
+            className="inline-flex items-center justify-center"
             onClick={downloadHeadshot}
             onMouseEnter={() => downloadRef.current?.play()}
             onMouseLeave={() => downloadRef.current?.stop()}
           >
-            <Lottie
-              lottieRef={downloadRef}
-              style={iconStyle}
-              animationData={downloadIcon}
-              loop={false}
-              autoplay={false}
-            />
+            <div className="mr-2 h-6 w-6">
+              <Lottie
+                lottieRef={downloadRef}
+                animationData={downloadIcon}
+                loop={false}
+                autoplay={false}
+              />
+            </div>
             Download Headshot
           </ButtonPrimary>
         </div>
@@ -124,18 +115,15 @@ export default function AboutClient({ description }) {
   const renderAll = () => {
     return items.map((item) => {
       return (
-        <div
-          style={{ marginBottom: '2.5rem' }}
-          key={`${item.companyUrl}-${item.startDate}`}
-        >
+        <div className="mb-10" key={`${item.companyUrl}-${item.startDate}`}>
           <h3>{item.jobTitle}</h3>
-          <p style={{ margin: 0 }}>
+          <p className="m-0">
             <a href={item.companyUrl} target="_blank">
               {item.company}
             </a>
             <span> • {item.location}</span>
           </p>
-          <p style={{ margin: 0 }}>
+          <p className="m-0">
             <span>{format(parseISO(item.startDate), 'LLL yyyy')}</span>
             <span> – </span>
             <span>

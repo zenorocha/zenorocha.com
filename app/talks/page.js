@@ -18,7 +18,7 @@ export const metadata = {
 
 export default function Talks() {
   const renderFeatured = () => {
-    const featured = ['Epic Web Conf', 'Nordic.JS', 'SFHTML5'];
+    const featured = ['React Conf', 'Epic Web Conf', 'Nordic.JS'];
 
     return items
       .map((item) => {

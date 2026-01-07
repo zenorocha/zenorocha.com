@@ -1,5 +1,48 @@
 const items = [
   {
+    year: '2025',
+    summary: '',
+    talks: [
+      {
+        title: 'Codecon Summit',
+        url: 'https://eventos.codecon.dev/eventos/codecon-summit-25',
+        date: '2025-10-18',
+        where: 'Curitiba, PR - Brazil',
+        presentations: [
+          {
+            title: 'Hacking Silicon Valley'
+          }
+        ]
+      },
+      {
+        title: 'React Conf',
+        url: 'https://conf.react.dev',
+        cover: '/static/images/talk-react-conf.jpg',
+        date: '2025-10-07',
+        where: 'Las Vegas, Nevada - USA',
+        presentations: [
+          {
+            title: 'Modern emails using React',
+            video:
+              'https://www.youtube.com/watch?v=cQy24szSsBw&feature=youtu.be'
+          }
+        ]
+      },
+      {
+        title: 'Supabase Select',
+        url: 'https://select.supabase.com',
+        date: '2025-10-03',
+        where: 'San Francisco, CA - USA',
+        presentations: [
+          {
+            title: 'How to build a Developer-First Startup',
+            video: 'https://www.youtube.com/watch?v=RTD98J4Zt2s'
+          }
+        ]
+      }
+    ]
+  },
+  {
     year: '2024',
     summary: '',
     talks: [

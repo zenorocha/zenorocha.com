@@ -15,12 +15,6 @@ export const metadata = {
 };
 
 export default function Investing() {
-  const renderAll = () => {
-    return investments.map((investment) => {
-      return <FeaturedProject key={investment.url} project={investment} />;
-    });
-  };
-
   const description =
     "<strong>Angel investing</strong> is how I help other startups to create amazing developer experiences. I'm excited to enable teams to grow and <strong>build world-class products</strong>.";
 
@@ -65,9 +59,30 @@ export default function Investing() {
       </ul>
       <h2>Who took my money</h2>
       <p>
-        I&apos;ve been grateful to work with these companies as an investor.
+        These are the startups that I&apos;m{' '}
+        <strong>actively supporting</strong> as an investor.
       </p>
-      <FeaturedProjects>{renderAll()}</FeaturedProjects>
+      <FeaturedProjects>
+        {investments
+          .filter((investment) => investment.status === 'active')
+          .map((investment) => {
+            return (
+              <FeaturedProject key={investment.url} project={investment} />
+            );
+          })}
+      </FeaturedProjects>
+      <p>
+        And these are the startups that already <strong>got acquired</strong>.
+      </p>
+      <FeaturedProjects>
+        {investments
+          .filter((investment) => investment.status === 'acquired')
+          .map((investment) => {
+            return (
+              <FeaturedProject key={investment.url} project={investment} />
+            );
+          })}
+      </FeaturedProjects>
       <h2>Let&apos;s chat</h2>
       <p>Hit me up if what you read here resonates with you.</p>
     </Base>

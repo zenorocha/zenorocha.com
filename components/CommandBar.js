@@ -66,8 +66,6 @@ export default function CommandBar(props) {
   const [showToast, setShowToast] = useState(false);
 
   const actions = useMemo(() => {
-    const iconSize = { width: '1.5rem', height: '1.5rem' };
-
     return [
       {
         id: 'copy',
@@ -83,7 +81,7 @@ export default function CommandBar(props) {
         icon: (
           <Lottie
             lottieRef={copyLinkRef}
-            style={iconSize}
+            className="h-6 w-6"
             animationData={copyLinkIcon}
             loop={false}
             autoplay={false}
@@ -103,7 +101,7 @@ export default function CommandBar(props) {
         icon: (
           <Lottie
             lottieRef={emailRef}
-            style={iconSize}
+            className="h-6 w-6"
             animationData={emailIcon}
             loop={false}
             autoplay={false}
@@ -123,7 +121,7 @@ export default function CommandBar(props) {
         icon: (
           <Lottie
             lottieRef={sourceRef}
-            style={iconSize}
+            className="h-6 w-6"
             animationData={sourceIcon}
             loop={false}
             autoplay={false}
@@ -143,7 +141,7 @@ export default function CommandBar(props) {
         icon: (
           <Lottie
             lottieRef={homeRef}
-            style={iconSize}
+            className="h-6 w-6"
             animationData={homeIcon}
             loop={false}
             autoplay={false}
@@ -163,7 +161,7 @@ export default function CommandBar(props) {
         icon: (
           <Lottie
             lottieRef={aboutRef}
-            style={iconSize}
+            className="h-6 w-6"
             animationData={aboutIcon}
             loop={false}
             autoplay={false}
@@ -183,7 +181,7 @@ export default function CommandBar(props) {
         icon: (
           <Lottie
             lottieRef={articlesRef}
-            style={iconSize}
+            className="h-6 w-6"
             animationData={articlesIcon}
             loop={false}
             autoplay={false}
@@ -203,7 +201,7 @@ export default function CommandBar(props) {
         icon: (
           <Lottie
             lottieRef={projectsRef}
-            style={iconSize}
+            className="h-6 w-6"
             animationData={projectsIcon}
             loop={false}
             autoplay={false}
@@ -223,7 +221,7 @@ export default function CommandBar(props) {
         icon: (
           <Lottie
             lottieRef={talksRef}
-            style={iconSize}
+            className="h-6 w-6"
             animationData={talksIcon}
             loop={false}
             autoplay={false}
@@ -243,7 +241,7 @@ export default function CommandBar(props) {
         icon: (
           <Lottie
             lottieRef={podcastsRef}
-            style={iconSize}
+            className="h-6 w-6"
             animationData={podcastsIcon}
             loop={false}
             autoplay={false}
@@ -263,7 +261,7 @@ export default function CommandBar(props) {
         icon: (
           <Lottie
             lottieRef={investingRef}
-            style={iconSize}
+            className="h-6 w-6"
             animationData={investingIcon}
             loop={false}
             autoplay={false}
@@ -283,7 +281,7 @@ export default function CommandBar(props) {
         icon: (
           <Lottie
             lottieRef={usesRef}
-            style={iconSize}
+            className="h-6 w-6"
             animationData={usesIcon}
             loop={false}
             autoplay={false}
@@ -303,7 +301,7 @@ export default function CommandBar(props) {
         icon: (
           <Lottie
             lottieRef={reminderRef}
-            style={iconSize}
+            className="h-6 w-6"
             animationData={reminderIcon}
             loop={false}
             autoplay={false}

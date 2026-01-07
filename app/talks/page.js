@@ -73,7 +73,7 @@ export default function Talks() {
       <p dangerouslySetInnerHTML={{ __html: description }} />
 
       <h2>Featured Talks</h2>
-      <Box css={{ margin: '0.625rem 0 0 -1.25rem' }}>{renderFeatured()}</Box>
+      <Box className="mt-2.5 -ml-5">{renderFeatured()}</Box>
 
       <h2>All Talks</h2>
       {renderAll()}

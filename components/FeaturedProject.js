@@ -24,11 +24,7 @@ export default function FeaturedProject(props) {
       <Animation index={props.index}>
         <Lottie
           lottieRef={iconRef}
-          style={{
-            width: '1.5rem',
-            height: '1.5rem',
-            marginBottom: '0.625rem'
-          }}
+          className="mb-2.5 h-6 w-6"
           animationData={icon}
           loop={false}
           autoplay={false}

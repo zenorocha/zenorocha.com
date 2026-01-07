@@ -4,96 +4,54 @@ import { motion } from 'framer-motion';
 import Image from 'next/image';
 import { useState } from 'react';
 
-import { styled } from '../stitches.config';
-
 export default function FeaturedTalk(props) {
   const { talk } = props;
 
   return (
-    <Talk href={talk.presentations[0].video} target="_blank">
+    <a
+      href={talk.presentations[0].video}
+      target="_blank"
+      className="mt-5 border-0 no-underline first:ml-0"
+    >
       <Animation index={props.index}>
-        <Content>
-          <ImageContainer>
+        <div className="flex h-auto flex-col md:h-35 md:flex-row">
+          <div className="mr-5 w-62.5 [&_img]:grayscale">
             <Image src={talk.cover} alt={talk.title} width="250" height="138" />
-          </ImageContainer>
-          <div>
-            <Title css={{ margin: 0 }}>{talk.presentations[0].title}</Title>
-            <Paragraph>{talk.where}</Paragraph>
-            <Paragraph>{talk.title}</Paragraph>
           </div>
-        </Content>
+          <div>
+            <h3 className="text-primary m-0 text-lg">
+              {talk.presentations[0].title}
+            </h3>
+            <p className="text-secondary m-0">{talk.where}</p>
+            <p className="text-secondary m-0">{talk.title}</p>
+          </div>
+        </div>
       </Animation>
-    </Talk>
+    </a>
   );
 }
 
-function Animation(props) {
+function Animation({ index, children }) {
   const [hovered, setHovered] = useState('');
-  const isHovered = hovered === props.index;
+  const isHovered = hovered === index;
 
   return (
-    <AnimContainer
-      onHoverStart={() => setHovered(props.index)}
+    <motion.div
+      onHoverStart={() => setHovered(index)}
       onHoverEnd={() => setHovered('')}
+      className="relative w-full p-5"
     >
       {isHovered && (
-        <AnimHovered
+        <motion.div
           layoutId="featuredTalks"
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
           exit={{ opacity: 0 }}
+          className="bg-hover absolute top-0 right-0 bottom-0 left-0 -z-1 rounded-lg"
         />
       )}
 
-      {props.children}
-    </AnimContainer>
+      {children}
+    </motion.div>
   );
 }
-
-const Talk = styled('a', {
-  marginTop: 20,
-  border: 0,
-  textDecoration: 'none',
-  '&:first-child': { marginLeft: 0 }
-});
-
-const Content = styled('div', {
-  display: 'flex',
-  flexDirection: 'column',
-  height: 'auto',
-  '@bp2': { flexDirection: 'row', height: 140 }
-});
-
-const ImageContainer = styled('div', {
-  marginRight: '20px',
-  width: '250px',
-  '& img': { filter: 'grayscale(1)' }
-});
-
-const Title = styled('h3', {
-  color: '$primary',
-  fontSize: '18px',
-  margin: '0'
-});
-
-const Paragraph = styled('p', {
-  color: '$secondary',
-  margin: '0'
-});
-
-const AnimContainer = styled(motion.div, {
-  padding: '20px',
-  position: 'relative',
-  width: '100%'
-});
-
-const AnimHovered = styled(motion.div, {
-  position: 'absolute',
-  top: '0',
-  left: '0',
-  right: '0',
-  bottom: '0',
-  background: '$hover',
-  borderRadius: '$borderRadius',
-  zIndex: -1
-});

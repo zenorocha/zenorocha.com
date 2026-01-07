@@ -4,125 +4,64 @@ import { motion } from 'framer-motion';
 import Link from 'next/link';
 import { useState } from 'react';
 
-import { styled } from '../stitches.config';
 import BlogDate from './BlogDate';
 
 export default function ListItem(props) {
   // Articles
   if (props.href.charAt(0) === '/') {
     return (
-      <ArticleItem>
-        <Anchor as={Link} href={props.href}>
-          <Animation index={props.index}>
-            <Title>{props.title}</Title>
-            <DateContainer>
+      <li className="border-hover border-b last:border-0">
+        <Link href={props.href} className="no-underline">
+          <Animation index={props.index} isArticle>
+            <span className="block max-w-125 text-left text-lg leading-10 font-bold">
+              {props.title}
+            </span>
+            <span className="text-secondary block min-w-25 text-left text-sm font-medium md:text-right">
               <BlogDate dateString={props.date} />
-            </DateContainer>
+            </span>
           </Animation>
-        </Anchor>
-      </ArticleItem>
+        </Link>
+      </li>
     );
   }
 
   // Podcasts
   return (
-    <Item>
-      <Anchor href={props.href} target="_blank">
+    <li className="border-hover border-b last:border-0">
+      <a href={props.href} target="_blank" className="no-underline">
         <Animation index={props.index}>
-          <Title>{props.title}</Title>
-          <IconContainer>
+          <span className="block max-w-125 text-left text-lg leading-10 font-bold">
+            {props.title}
+          </span>
+          <span className="text-2xl">
             <i className="ri-arrow-right-up-line"></i>
-          </IconContainer>
+          </span>
         </Animation>
-      </Anchor>
-    </Item>
+      </a>
+    </li>
   );
 }
 
-function Animation(props) {
+function Animation({ index, children, isArticle = false }) {
   const [hovered, setHovered] = useState('');
-  const isHovered = hovered === props.index;
+  const isHovered = hovered === index;
 
   return (
-    <AnimContainer
-      onHoverStart={() => setHovered(props.index)}
+    <motion.span
+      onHoverStart={() => setHovered(index)}
       onHoverEnd={() => setHovered('')}
+      className={`transition-all-[0.2s] text-secondary hover:text-primary relative flex w-full cursor-pointer justify-between border-0 py-5 no-underline opacity-100 ease-in-out ${isArticle ? 'flex-col md:flex-row' : ''}`}
     >
       {isHovered && (
-        <AnimHovered
+        <motion.span
           layoutId="listItem"
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
           exit={{ opacity: 0 }}
+          className="bg-hover absolute -top-0.25 -right-5 -bottom-0.25 -left-5 -z-1 rounded-lg"
         />
       )}
-
-      {props.children}
-    </AnimContainer>
+      {children}
+    </motion.span>
   );
 }
-
-const Item = styled('li', {
-  borderBottom: '1px solid $hover',
-  '&:last-child': { border: 0 }
-});
-
-const Anchor = styled('a', {
-  textDecoration: 'none'
-});
-
-const Title = styled('span', {
-  display: 'block',
-  maxWidth: '500px',
-  fontWeight: 700,
-  fontSize: '18px',
-  lineHeight: '40px',
-  textAlign: 'left'
-});
-
-const DateContainer = styled('span', {
-  color: '$secondary',
-  display: 'block',
-  fontWeight: 500,
-  fontSize: '14px',
-  minWidth: '100px',
-  textAlign: 'left',
-  '@bp2': { textAlign: 'right' }
-});
-
-const IconContainer = styled('span', {
-  fontSize: '24px'
-});
-
-const AnimContainer = styled(motion.span, {
-  border: '0',
-  color: '$secondary',
-  cursor: 'pointer',
-  display: 'flex',
-  justifyContent: 'space-between',
-  padding: '20px 0',
-  width: '100%',
-  opacity: 1,
-  transition: 'all $duration ease-in-out',
-  textDecoration: 'none',
-  position: 'relative',
-  '&:hover': { color: '$primary' }
-});
-
-const AnimHovered = styled(motion.span, {
-  position: 'absolute',
-  top: '-1px',
-  left: '-20px',
-  right: '-20px',
-  bottom: '-1px',
-  background: '$hover',
-  borderRadius: '$borderRadius',
-  zIndex: -1
-});
-
-const ArticleItem = styled(Item, {
-  [`& ${AnimContainer}`]: {
-    flexDirection: 'column',
-    '@bp2': { flexDirection: 'row' }
-  }
-});

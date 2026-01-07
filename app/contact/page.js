@@ -5,7 +5,6 @@ import React from 'react';
 import { Box } from '../../components/Box';
 import Toast from '../../components/Toast';
 import Base from '../../layouts/Base';
-import { styled } from '../../stitches.config';
 
 export default function Contact() {
   const description = `<strong>I love chatting</strong> with software engineers, tech founders, students, and creators. <strong>I'm a busy person</strong>, so I can't promise that I'll reply to your email right away, but I'll try my best to respond in a timely manner.`;
@@ -48,33 +47,61 @@ export default function Contact() {
       <Box>
         <p dangerouslySetInnerHTML={{ __html: description }} />
         <h2>Send me an email</h2>
-        <Form onSubmit={onSendEmail}>
-          <FormGroup>
-            <Label htmlFor="name">Name</Label>
-            <Input id="name" type="text" placeholder="James Bond" required />
-          </FormGroup>
-          <FormGroup>
-            <Label htmlFor="email">Email</Label>
-            <Input
+        <form onSubmit={onSendEmail} className="flex max-w-[25rem] flex-col">
+          <div className="mb-[0.625rem] flex flex-col">
+            <label
+              htmlFor="name"
+              className="text-xs font-medium text-[var(--color-secondary)] uppercase"
+            >
+              Name
+            </label>
+            <input
+              id="name"
+              type="text"
+              placeholder="James Bond"
+              required
+              className="rounded-lg border border-[var(--color-secondary)] bg-transparent p-[0.625rem] text-[var(--color-primary)] focus:border-[var(--color-cyan)] focus:outline-none"
+            />
+          </div>
+          <div className="mb-[0.625rem] flex flex-col">
+            <label
+              htmlFor="email"
+              className="text-xs font-medium text-[var(--color-secondary)] uppercase"
+            >
+              Email
+            </label>
+            <input
               id="email"
               type="email"
               placeholder="james@bond.com"
               required
+              className="rounded-lg border border-[var(--color-secondary)] bg-transparent p-[0.625rem] text-[var(--color-primary)] focus:border-[var(--color-cyan)] focus:outline-none"
             />
-          </FormGroup>
-          <FormGroup>
-            <Label htmlFor="message">Message</Label>
-            <Textarea
+          </div>
+          <div className="mb-[0.625rem] flex flex-col">
+            <label
+              htmlFor="message"
+              className="text-xs font-medium text-[var(--color-secondary)] uppercase"
+            >
+              Message
+            </label>
+            <textarea
               id="message"
               placeholder="How can I help you?"
               rows="4"
               required
+              className="rounded-lg border border-[var(--color-secondary)] bg-transparent p-[0.625rem] text-[var(--color-primary)] focus:border-[var(--color-cyan)] focus:outline-none"
             />
-          </FormGroup>
-          <FormGroup>
-            <Button type="submit">Send</Button>
-          </FormGroup>
-        </Form>
+          </div>
+          <div className="mb-[0.625rem] flex flex-col">
+            <button
+              type="submit"
+              className="mt-[0.3125rem] cursor-pointer rounded-lg border border-white bg-white p-[0.625rem] text-[var(--color-background)] transition-all duration-200 ease-in-out hover:border-[var(--color-cyan)] hover:bg-transparent hover:text-[var(--color-cyan)] focus:border-[var(--color-cyan)] focus:bg-transparent focus:text-[var(--color-cyan)] focus:outline-none"
+            >
+              Send
+            </button>
+          </div>
+        </form>
         <Toast
           title={isEmailSent ? 'Email sent :D' : 'Error :('}
           description={
@@ -90,62 +117,3 @@ export default function Contact() {
     </Base>
   );
 }
-
-const Form = styled('form', {
-  display: 'flex',
-  flexDirection: 'column',
-  maxWidth: '400px'
-});
-
-const FormGroup = styled('div', {
-  display: 'flex',
-  flexDirection: 'column',
-  marginBottom: '10px'
-});
-
-const Label = styled('label', {
-  color: '$secondary',
-  textTransform: 'uppercase',
-  fontSize: '12px',
-  fontWeight: '500'
-});
-
-const Input = styled('input', {
-  color: '$primary',
-  background: 'none',
-  border: '1px solid $secondary',
-  borderRadius: '$borderRadius',
-  padding: '10px',
-  '&:focus': { outline: 'none', borderColor: '$cyan' }
-});
-
-const Textarea = styled('textarea', {
-  color: '$primary',
-  background: 'none',
-  border: '1px solid $secondary',
-  borderRadius: '$borderRadius',
-  padding: '10px',
-  '&:focus': { outline: 'none', borderColor: '$cyan' }
-});
-
-const Button = styled('button', {
-  color: '$background',
-  background: '#fff',
-  border: '1px solid #fff',
-  borderRadius: '$borderRadius',
-  cursor: 'pointer',
-  padding: '10px',
-  marginTop: '5px',
-  transition: 'all 0.2s ease-in-out',
-  '&:hover': {
-    background: 'transparent',
-    borderColor: '$cyan',
-    color: '$cyan'
-  },
-  '&:focus': {
-    background: 'transparent',
-    borderColor: '$cyan',
-    color: '$cyan',
-    outline: 'none'
-  }
-});

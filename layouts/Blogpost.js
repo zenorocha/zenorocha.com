@@ -3,160 +3,47 @@ import Footer from '../components/Footer';
 import Navbar from '../components/Navbar';
 import { Post, PostContainer, PostContent, PostMain } from '../components/Post';
 import { Wrapper } from '../components/Wrapper';
-import { styled } from '../stitches.config';
 
 export default function Blogpost({ children, title, image, date }) {
   return (
     <Wrapper>
       <Navbar image={image} />
-      <Main image={image}>
-        {image && (
-          <PostHeader>
-            <PostHeaderTitle>{title}</PostHeaderTitle>
-            <PostImage
-              css={image ? { backgroundImage: `url(${image})` } : {}}
+      {image ? (
+        <Post>
+          <div className="relative -z-[1] flex h-screen min-h-[37.5rem] w-full flex-col items-center justify-center bg-[#141618]">
+            <h1 className="relative z-[3] mx-auto mt-[3.6875rem] px-3 text-center text-4xl leading-[3rem] text-white md:max-w-[60%] md:text-[3.75rem] md:text-[4.5rem] md:leading-[5.625rem] md:leading-[5rem]">
+              {title}
+            </h1>
+            <div
+              className="fixed top-0 left-0 z-[1] h-full w-full bg-[#141618] bg-cover bg-center bg-no-repeat opacity-40 will-change-transform after:absolute after:top-0 after:left-0 after:z-[2] after:h-full after:w-full after:bg-gradient-to-b after:from-[rgba(0,0,0,0.8)] after:via-transparent after:via-[50%] after:via-[90%] after:to-[rgba(0,0,0,0.8)] after:will-change-transform after:content-[''] max-lg:absolute"
+              style={image ? { backgroundImage: `url(${image})` } : {}}
             />
-            <PostHeaderSubtitle>
+            <h2 className="absolute bottom-5 z-[2] m-0 w-full text-center text-base font-medium text-white">
               <BlogDate dateString={date} />
-            </PostHeaderSubtitle>
-          </PostHeader>
-        )}
-        <PostContent
-          css={{
-            '& ::selection': {
-              background: '#ff80bf',
-              color: '#000',
-              WebkitTextFillColor: '#000'
-            }
-          }}
-        >
-          <PostContainer>
-            {!image && (
+            </h2>
+          </div>
+          <PostContent className="[&_::selection]:[-webkit-text-fill-color:black]] [&_::selection]:bg-[#ff80bf] [&_::selection]:text-black">
+            <PostContainer>{children}</PostContainer>
+          </PostContent>
+        </Post>
+      ) : (
+        <PostMain>
+          <PostContent className="[&_::selection]:[-webkit-text-fill-color:black]] [&_::selection]:bg-[#ff80bf] [&_::selection]:text-black">
+            <PostContainer>
               <div>
-                <PostContentTitle>{title}</PostContentTitle>
-                <PostContentSubtitle>
+                <h1 className="mx-auto my-[5.625rem] mt-[5.625rem] max-w-none text-center text-5xl leading-[3.75rem] text-[var(--color-primary)] md:mt-0 md:max-w-[60%] md:text-[4.5rem] md:leading-[5.625rem]">
+                  {title}
+                </h1>
+                <h2 className="m-0 mb-[3.75rem] text-base text-[var(--color-secondary)]">
                   <BlogDate dateString={date} />
-                </PostContentSubtitle>
+                </h2>
               </div>
-            )}
-
-            {children}
-          </PostContainer>
-        </PostContent>
-      </Main>
+              {children}
+            </PostContainer>
+          </PostContent>
+        </PostMain>
+      )}
       <Footer />
     </Wrapper>
   );
 }
-
-function Main(props) {
-  return props.image ? (
-    <Post>{props.children}</Post>
-  ) : (
-    <PostMain>{props.children}</PostMain>
-  );
-}
-
-const PostHeader = styled('div', {
-  backgroundColor: '#141618',
-  minHeight: '600px',
-  height: '100vh',
-  width: '100%',
-  display: 'flex',
-  alignItems: 'center',
-  justifyContent: 'center',
-  position: 'relative',
-  flexDirection: 'column',
-  zIndex: -1
-});
-
-export const PostTitle = styled('h1', {
-  textAlign: 'center',
-  '@bp2': {
-    fontSize: '72px',
-    lineHeight: '90px',
-    maxWidth: '60%'
-  }
-});
-
-export const PostHeaderTitle = styled(PostTitle, {
-  color: '#fff',
-  margin: '59px auto 0',
-  position: 'relative',
-  zIndex: 3,
-  fontSize: '36px',
-  lineHeight: '48px',
-  padding: '0 12px',
-  '@bp2': {
-    fontSize: '60px',
-    lineHeight: '80px'
-  }
-});
-
-export const PostContentTitle = styled(PostTitle, {
-  color: '$primary',
-  margin: '90px auto 0',
-  maxWidth: 'none',
-  fontSize: '48px',
-  lineHeight: '60px',
-  textAlign: 'center',
-  '@bp2': {
-    marginTop: 0
-  }
-});
-
-const PostSubtitle = styled('h2', {
-  color: '#fff',
-  fontSize: '16px',
-  fontWeight: 500,
-  textAlign: 'center'
-});
-
-const PostHeaderSubtitle = styled(PostSubtitle, {
-  position: 'absolute',
-  bottom: '20px',
-  zIndex: 2,
-  margin: '0',
-  width: '100%'
-});
-
-const PostContentSubtitle = styled(PostSubtitle, {
-  color: '$secondary',
-  fontSize: '16px',
-  margin: '0 0 60px'
-});
-
-const PostImage = styled('div', {
-  backgroundColor: '#141618',
-  backgroundRepeat: 'no-repeat',
-  backgroundPosition: 'center',
-  backgroundSize: 'cover',
-  position: 'fixed',
-  opacity: 0.4,
-  width: '100%',
-  height: '100%',
-  top: '0',
-  left: '0',
-  zIndex: 1,
-  willChange: 'transform',
-
-  '&::after': {
-    content: '""',
-    backgroundImage: `linear-gradient(
-      180deg,
-      rgba(0, 0, 0, 0.8) 0,
-      transparent 50%,
-      transparent 90%,
-      rgba(0, 0, 0, 0.8)
-    )`,
-    position: 'absolute',
-    width: '100%',
-    height: '100%',
-    top: '0',
-    left: '0',
-    zIndex: 2,
-    willChange: 'transform'
-  },
-
-  '@bp4': { position: 'absolute' }
-});

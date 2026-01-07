@@ -1,0 +1,120 @@
+@import 'tailwindcss';
+
+@theme inline {
+  --font-sans: var(--font-sans);
+  --font-display: var(--font-display);
+  --font-mono: var(--font-mono);
+}
+
+@theme {
+  --color-*: initial;
+  --color-yellow: oklch(0.975 0.149 108.9);
+  --color-pink: oklch(0.762 0.168 350.8);
+  --color-purple: oklch(0.678 0.181 288.2);
+  --color-red: oklch(0.777 0.132 32.1);
+  --color-orange: oklch(0.87 0.11 74.8);
+  --color-green: oklch(0.903 0.197 142.2);
+  --color-cyan: oklch(0.921 0.118 181.4);
+  --color-primary: oklch(0.961 0 0);
+  --color-secondary: oklch(0.684 0.024 250.3);
+  --color-background: oklch(0.132 0.01 297.6);
+  --color-hover: oklch(0.246 0.008 297.3);
+  --color-command: oklch(100% 0 none / 0.09);
+  --color-command-dialog: oklch(0 0 0 / 0.8);
+}
+
+@layer base {
+  kbd {
+    @apply text-background bg-secondary rounded px-1.25 py-0.25 text-sm transition-colors;
+    font-family: var(--font-mono);
+  }
+
+  svg {
+    @apply h-8 w-8;
+    fill: oklch(100% 0 0);
+  }
+
+  figure {
+    @apply m-0;
+  }
+
+  twitterwidget {
+    @apply mx-auto;
+  }
+
+  code {
+    @apply text-primary rounded-lg text-[0.9375rem];
+    background: oklch(10% 0.01 280);
+    font-family: var(--font-mono);
+  }
+
+  :not(pre) > code {
+    @apply p-1;
+  }
+
+  h1 {
+    @apply text-primary mb-5 text-[3rem] leading-12.5;
+    font-family: var(--font-display);
+  }
+
+  h2 {
+    @apply text-primary mt-15 text-2xl;
+  }
+
+  h3,
+  h3 a {
+    @apply text-primary mt-5 text-lg;
+  }
+
+  ul {
+    @apply m-0;
+  }
+
+  img {
+    @apply max-w-full min-w-full rounded-lg;
+  }
+
+  p {
+    @apply text-secondary my-5;
+  }
+
+  strong {
+    @apply text-primary font-medium;
+  }
+
+  blockquote {
+    @apply border-hover text-secondary m-0 border-l-4 pl-5 italic;
+  }
+
+  a {
+    @apply text-primary no-underline transition-opacity;
+    border-bottom: 0.03125rem solid var(--color-secondary);
+  }
+
+  a:hover,
+  a:focus {
+    @apply opacity-80;
+  }
+}
+
+@keyframes slideUpAndFade {
+  0% {
+    opacity: 0;
+    transform: translateY(1.25rem);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes slideDownAndFade {
+  0% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+  100% {
+    opacity: 0;
+    transform: translateY(1.25rem);
+  }
+}

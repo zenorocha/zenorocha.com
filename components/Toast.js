@@ -2,8 +2,6 @@
 
 import * as ToastPrimitive from '@radix-ui/react-toast';
 
-import { keyframes, styled } from '../stitches.config';
-
 export default function Toast({
   title,
   description,
@@ -18,86 +16,30 @@ export default function Toast({
   return (
     <ToastPrimitive.Provider>
       {children}
-      <Root open={showToast} onOpenChange={setShowToast}>
-        <IconContainer style={{ color: iconColor }}>
+      <ToastPrimitive.Root
+        open={showToast}
+        onOpenChange={setShowToast}
+        className="bg-hover z-2 m-0 flex overflow-hidden rounded border border-[rgb(48,50,54)] p-3 text-sm text-[rgb(138,143,152)] shadow-[rgb(0_0_0/8%)_0_.25rem_.8125rem] data-[state=closed]:animate-[slideDownAndFade_100ms_ease-in_forwards] data-[state=open]:animate-[slideUpAndFade_100ms_ease-in_forwards]"
+      >
+        <div className="-mt-0.5 mr-2 text-base" style={{ color: iconColor }}>
           <i className={`ri-${iconName}-fill`} />
-        </IconContainer>
-        <div>
-          <Title>{title}</Title>
-          <Description>{description}</Description>
         </div>
-        <Close aria-label="Close">
+        <div>
+          <ToastPrimitive.Title className="text-primary leading-7">
+            {title}
+          </ToastPrimitive.Title>
+          <ToastPrimitive.Description className="-mt-1.25 leading-7">
+            {description}
+          </ToastPrimitive.Description>
+        </div>
+        <ToastPrimitive.Close
+          aria-label="Close"
+          className="hover:text-primary absolute top-0 right-0 h-8 w-8 border-0 bg-transparent text-lg text-[rgb(138,143,152)] transition-[color_0.2s_ease-in-out]"
+        >
           <span aria-hidden>×</span>
-        </Close>
-      </Root>
-      <Viewport />
+        </ToastPrimitive.Close>
+      </ToastPrimitive.Root>
+      <ToastPrimitive.Viewport className="fixed right-5 bottom-5 z-2" />
     </ToastPrimitive.Provider>
   );
 }
-
-const slideUpAndFade = keyframes({
-  '0%': { opacity: 0, transform: 'translateY(20px)' },
-  '100%': { opacity: 1, transform: 'translateY(0)' }
-});
-
-const slideDownAndFade = keyframes({
-  '0%': { opacity: 1, transform: 'translateY(0)' },
-  '100%': { opacity: 0, transform: 'translateY(20px)' }
-});
-
-const Root = styled(ToastPrimitive.Root, {
-  background: '$hover',
-  borderRadius: '4px',
-  border: '1px solid rgb(48, 50, 54)',
-  boxShadow: 'rgb(0 0 0 / 8%) 0px 4px 13px',
-  color: 'rgb(138, 143, 152)',
-  fontSize: '14px',
-  overflow: 'hidden',
-  margin: '0px',
-  padding: '12px',
-  display: 'flex',
-  '&[data-state="open"]': {
-    animation: `100ms ease-in forwards ${slideUpAndFade}`
-  },
-  '&[data-state="closed"]': {
-    animation: `100ms ease-in forwards ${slideDownAndFade}`
-  },
-  zIndex: 2
-});
-
-const IconContainer = styled('div', {
-  fontSize: '16px',
-  marginTop: '-2px',
-  marginRight: '8px'
-});
-
-const Title = styled(ToastPrimitive.Title, {
-  color: '$primary',
-  lineHeight: '28px'
-});
-
-const Description = styled(ToastPrimitive.Description, {
-  marginTop: '-5px',
-  lineHeight: '28px'
-});
-
-const Close = styled(ToastPrimitive.Close, {
-  position: 'absolute',
-  right: '0',
-  top: '0',
-  width: '32px',
-  height: '32px',
-  background: 'transparent',
-  border: '0',
-  fontSize: '18px',
-  color: 'rgb(138, 143, 152)',
-  transition: 'color 0.2s ease-in-out',
-  '&:hover': { color: '$primary' }
-});
-
-const Viewport = styled(ToastPrimitive.Viewport, {
-  position: 'fixed',
-  bottom: '20px',
-  right: '20px',
-  zIndex: 2
-});

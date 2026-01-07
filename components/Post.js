@@ -1,92 +1,21 @@
-import { styled } from '../stitches.config';
+export const PostMain = ({ className = '', ...props }) => (
+  <main
+    className={`mx-auto flex w-full max-w-200 flex-1 items-center overflow-hidden py-14 md:py-28 ${className}`}
+    {...props}
+  />
+);
 
-export const PostMain = styled('main', {
-  '@bp2': { padding: '$navHeightDesktop 0' },
-  padding: '$navHeightMobile 0',
-  overflow: 'hidden',
-  flex: '1 1'
-});
+export const Post = ({ className = '', ...props }) => (
+  <main className={`flex-1 overflow-hidden ${className}`} {...props} />
+);
 
-export const Post = styled('main', {
-  overflow: 'hidden',
-  flex: '1 1'
-});
+export const PostContainer = ({ className = '', ...props }) => (
+  <div className={`mx-auto max-w-190 px-5 ${className}`} {...props} />
+);
 
-export const PostContainer = styled('div', {
-  margin: '0 auto',
-  maxWidth: '760px',
-  padding: '0 20px'
-});
-
-export const PostContent = styled('div', {
-  fontSize: '16px',
-  lineHeight: '32px',
-  color: '$secondary',
-  background: '$background',
-  position: 'relative',
-  zIndex: 1,
-  height: '100%',
-  padding: '20px 0',
-  '& .iframe-wrap': {
-    height: '0',
-    marginBottom: '20px',
-    overflow: 'hidden',
-    paddingBottom: '56.25%',
-    paddingTop: '30px',
-    position: 'relative'
-  },
-  '& .iframe-wrap iframe': {
-    border: '0',
-    height: '100%',
-    left: '0',
-    position: 'absolute',
-    top: '0',
-    width: '100%'
-  },
-  '& .post-image-caption': {
-    color: '$secondary',
-    textAlign: 'center',
-    fontStyle: 'italic',
-    fontSize: '14px'
-  },
-  '& .post-image-full': {
-    margin: '20px 0 0',
-    maxWidth: 'initial',
-    width: '70vw',
-    '@bp2': {
-      marginLeft: 'calc(-1 * (70vw - 760px) / 2)'
-    },
-    '@bp4': {
-      marginLeft: 0
-    }
-  },
-  '& .side-by-side': {
-    display: 'flex',
-    width: '90vw',
-    margin: '40px 0',
-    flexDirection: 'row',
-    '@bp2': {
-      marginLeft: 'calc(-1 * (90vw - 760px) / 2)'
-    },
-    '@bp4': {
-      marginLeft: 0,
-      flexDirection: 'column'
-    }
-  },
-  '& .side-by-side-img': {
-    minWidth: '50%',
-    '@bp2': {
-      minWidth: '100%'
-    },
-    '@bp4': {
-      // marginLeft: 0,
-    }
-  },
-  '& .side-by-side-caption': {
-    color: '$secondary',
-    textAlign: 'center',
-    fontStyle: 'italic',
-    fontSize: '14px',
-    marginTop: -30
-  }
-});
+export const PostContent = ({ className = '', ...props }) => (
+  <div
+    className={`bg-background text-secondary [&_.post-image-caption]:text-secondary [&_.side-by-side-caption]:text-secondary relative z-1 h-full py-5 text-base leading-8 [&_.iframe-wrap]:relative [&_.iframe-wrap]:mb-5 [&_.iframe-wrap]:h-0 [&_.iframe-wrap]:overflow-hidden [&_.iframe-wrap]:pt-7.5 [&_.iframe-wrap]:pb-[56.25%] [&_.iframe-wrap_iframe]:absolute [&_.iframe-wrap_iframe]:top-0 [&_.iframe-wrap_iframe]:left-0 [&_.iframe-wrap_iframe]:h-full [&_.iframe-wrap_iframe]:w-full [&_.iframe-wrap_iframe]:border-0 [&_.post-image-caption]:text-center [&_.post-image-caption]:text-sm [&_.post-image-caption]:italic [&_.post-image-full]:my-5 [&_.post-image-full]:mt-5 [&_.post-image-full]:w-[70vw] [&_.post-image-full]:max-w-none max-lg:[&_.post-image-full]:ml-0 md:[&_.post-image-full]:ml-[calc(-1*(70vw-47.5rem)/2)] [&_.side-by-side]:my-10 [&_.side-by-side]:flex [&_.side-by-side]:w-[90vw] [&_.side-by-side]:flex-row max-lg:[&_.side-by-side]:ml-0 max-lg:[&_.side-by-side]:flex-col md:[&_.side-by-side]:ml-[calc(-1*(90vw-47.5rem)/2)] [&_.side-by-side-caption]:-mt-7.5 [&_.side-by-side-caption]:text-center [&_.side-by-side-caption]:text-sm [&_.side-by-side-caption]:italic [&_.side-by-side-img]:min-w-[50%] md:[&_.side-by-side-img]:min-w-full ${className}`}
+    {...props}
+  />
+);

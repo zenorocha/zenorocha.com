@@ -30,14 +30,14 @@ const FOOTER_LINKS = [
 
 const LINK_CLASS =
   'text-secondary hover:text-primary focus:text-primary ml-5 flex items-center border-0 text-[0.9375rem] leading-none lowercase no-underline transition-[color_0.2s_ease-in-out] first:ml-0 hover:opacity-100 focus:opacity-100 [&:hover_i]:opacity-100 [&:hover_i]:transition-[opacity_0.2s_ease-in-out]';
-const ICON_CLASS =
-  'text-primary mt-0.25 ml-1.25 text-2xl leading-none opacity-100 md:text-base md:opacity-0';
 
 const FooterLink = ({ title, url, icon }) => {
   const content = (
     <>
       <span className="hidden md:block">{title}</span>
-      <i className={`${icon} ${ICON_CLASS}`} />
+      <i
+        className={`${icon} text-primary mt-0.25 ml-1.25 text-2xl leading-none opacity-100 md:text-base md:opacity-0`}
+      />
     </>
   );
 

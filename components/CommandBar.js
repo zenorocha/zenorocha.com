@@ -12,14 +12,8 @@ import {
 } from 'cmdk';
 import dynamic from 'next/dynamic';
 import { useRouter } from 'next/navigation';
-import {
-  createContext,
-  useContext,
-  useEffect,
-  useMemo,
-  useRef,
-  useState
-} from 'react';
+import { createContext, useContext, useEffect, useRef, useState } from 'react';
+import { useHotkeys } from 'react-hotkeys-hook';
 
 import aboutIcon from '../public/static/icons/about.json';
 import articlesIcon from '../public/static/icons/articles.json';
@@ -37,7 +31,85 @@ import { Box } from './Box';
 import Toast from './Toast';
 
 const Lottie = dynamic(() => import('lottie-react'), { ssr: false });
+
+const iconMap = {
+  copy: copyLinkIcon,
+  email: emailIcon,
+  source: sourceIcon,
+  home: homeIcon,
+  about: aboutIcon,
+  articles: articlesIcon,
+  projects: projectsIcon,
+  talks: talksIcon,
+  podcasts: podcastsIcon,
+  investing: investingIcon,
+  uses: usesIcon,
+  reminder: reminderIcon
+};
+
 const CommandBarContext = createContext(null);
+
+const hasInputValue = () => {
+  return !!document.querySelector('[cmdk-input]')?.value;
+};
+
+function useSequenceShortcuts(actions, enabled) {
+  const sequenceRef = useRef([]);
+  const timeoutRef = useRef(null);
+
+  useEffect(() => {
+    if (!enabled || actions.length === 0) {
+      sequenceRef.current = [];
+      clearTimeout(timeoutRef.current);
+      return;
+    }
+
+    const clearSequence = () => {
+      sequenceRef.current = [];
+      clearTimeout(timeoutRef.current);
+      timeoutRef.current = null;
+    };
+
+    const handleKeyDown = (e) => {
+      if (
+        e.metaKey ||
+        e.ctrlKey ||
+        e.altKey ||
+        e.shiftKey ||
+        ['ArrowUp', 'ArrowDown', 'ArrowLeft', 'ArrowRight'].includes(e.key) ||
+        hasInputValue()
+      ) {
+        return;
+      }
+
+      const key = e.key.toLowerCase();
+      const newSequence = [...sequenceRef.current, key];
+
+      const matchingAction = actions.find(
+        (action) =>
+          action.shortcut?.length === newSequence.length &&
+          action.shortcut.every((s, i) => s === newSequence[i])
+      );
+
+      if (matchingAction) {
+        e.preventDefault();
+        clearSequence();
+        matchingAction.perform();
+        return;
+      }
+
+      sequenceRef.current = newSequence;
+      clearTimeout(timeoutRef.current);
+      timeoutRef.current = setTimeout(clearSequence, 1000);
+    };
+
+    document.addEventListener('keydown', handleKeyDown);
+    return () => {
+      document.removeEventListener('keydown', handleKeyDown);
+      clearSequence();
+    };
+  }, [enabled, actions]);
+}
 
 export function useCommandBar() {
   const context = useContext(CommandBarContext);
@@ -51,383 +123,153 @@ export default function CommandBar(props) {
   const router = useRouter();
   const [open, setOpen] = useState(false);
   const [showToast, setShowToast] = useState(false);
-  const shortcutSequenceRef = useRef([]);
-  const shortcutTimeoutRef = useRef(null);
+  const iconRefsMap = useRef(new Map());
 
-  const copyLinkRef = useRef();
-  const emailRef = useRef();
-  const sourceRef = useRef();
-  const homeRef = useRef();
-  const aboutRef = useRef();
-  const articlesRef = useRef();
-  const projectsRef = useRef();
-  const talksRef = useRef();
-  const podcastsRef = useRef();
-  const investingRef = useRef();
-  const usesRef = useRef();
-  const reminderRef = useRef();
+  const createAction = (id, name, shortcut, keywords, section, perform) => ({
+    id,
+    name,
+    shortcut,
+    keywords,
+    section,
+    perform,
+    iconId: id
+  });
 
-  const actions = useMemo(() => {
-    return [
-      {
-        id: 'copy',
-        name: 'Copy Link',
-        shortcut: ['l'],
-        keywords: 'copy-link',
-        section: 'General',
-        perform: () => {
-          navigator.clipboard.writeText(window.location.href);
-          setShowToast(true);
-          setOpen(false);
-        },
-        icon: (
-          <Lottie
-            lottieRef={copyLinkRef}
-            className="h-6 w-6"
-            animationData={copyLinkIcon}
-            loop={false}
-            autoplay={false}
-          />
-        )
-      },
-      {
-        id: 'email',
-        name: 'Send Email',
-        shortcut: ['e'],
-        keywords: 'send-email',
-        section: 'General',
-        perform: () => {
-          router.push('/contact');
-          setOpen(false);
-        },
-        icon: (
-          <Lottie
-            lottieRef={emailRef}
-            className="h-6 w-6"
-            animationData={emailIcon}
-            loop={false}
-            autoplay={false}
-          />
-        )
-      },
-      {
-        id: 'source',
-        name: 'View Source',
-        shortcut: ['s'],
-        keywords: 'view-source',
-        section: 'General',
-        perform: () => {
-          window.open('https://github.com/zenorocha/zenorocha.com', '_blank');
-          setOpen(false);
-        },
-        icon: (
-          <Lottie
-            lottieRef={sourceRef}
-            className="h-6 w-6"
-            animationData={sourceIcon}
-            loop={false}
-            autoplay={false}
-          />
-        )
-      },
-      {
-        id: 'home',
-        name: 'Home',
-        shortcut: ['g', 'h'],
-        keywords: 'go-home',
-        section: 'Go To',
-        perform: () => {
-          router.push('/');
-          setOpen(false);
-        },
-        icon: (
-          <Lottie
-            lottieRef={homeRef}
-            className="h-6 w-6"
-            animationData={homeIcon}
-            loop={false}
-            autoplay={false}
-          />
-        )
-      },
-      {
-        id: 'about',
-        name: 'About',
-        shortcut: ['g', 'a'],
-        keywords: 'go-about',
-        section: 'Go To',
-        perform: () => {
-          router.push('/about');
-          setOpen(false);
-        },
-        icon: (
-          <Lottie
-            lottieRef={aboutRef}
-            className="h-6 w-6"
-            animationData={aboutIcon}
-            loop={false}
-            autoplay={false}
-          />
-        )
-      },
-      {
-        id: 'articles',
-        name: 'Articles',
-        shortcut: ['g', 'b'],
-        keywords: 'go-articles',
-        section: 'Go To',
-        perform: () => {
-          router.push('/articles');
-          setOpen(false);
-        },
-        icon: (
-          <Lottie
-            lottieRef={articlesRef}
-            className="h-6 w-6"
-            animationData={articlesIcon}
-            loop={false}
-            autoplay={false}
-          />
-        )
-      },
-      {
-        id: 'projects',
-        name: 'Projects',
-        shortcut: ['g', 'p'],
-        keywords: 'go-projects',
-        section: 'Go To',
-        perform: () => {
-          router.push('/projects');
-          setOpen(false);
-        },
-        icon: (
-          <Lottie
-            lottieRef={projectsRef}
-            className="h-6 w-6"
-            animationData={projectsIcon}
-            loop={false}
-            autoplay={false}
-          />
-        )
-      },
-      {
-        id: 'talks',
-        name: 'Talks',
-        shortcut: ['g', 't'],
-        keywords: 'go-talks',
-        section: 'Go To',
-        perform: () => {
-          router.push('/talks');
-          setOpen(false);
-        },
-        icon: (
-          <Lottie
-            lottieRef={talksRef}
-            className="h-6 w-6"
-            animationData={talksIcon}
-            loop={false}
-            autoplay={false}
-          />
-        )
-      },
-      {
-        id: 'podcasts',
-        name: 'Podcasts',
-        shortcut: ['g', 'c'],
-        keywords: 'go-podcasts',
-        section: 'Go To',
-        perform: () => {
-          router.push('/podcasts');
-          setOpen(false);
-        },
-        icon: (
-          <Lottie
-            lottieRef={podcastsRef}
-            className="h-6 w-6"
-            animationData={podcastsIcon}
-            loop={false}
-            autoplay={false}
-          />
-        )
-      },
-      {
-        id: 'investing',
-        name: 'Investing',
-        shortcut: ['g', 'i'],
-        keywords: 'go-investing',
-        section: 'Go To',
-        perform: () => {
-          router.push('/investing');
-          setOpen(false);
-        },
-        icon: (
-          <Lottie
-            lottieRef={investingRef}
-            className="h-6 w-6"
-            animationData={investingIcon}
-            loop={false}
-            autoplay={false}
-          />
-        )
-      },
-      {
-        id: 'uses',
-        name: 'Uses',
-        shortcut: ['g', 'u'],
-        keywords: 'go-uses',
-        section: 'Go To',
-        perform: () => {
-          router.push('/uses');
-          setOpen(false);
-        },
-        icon: (
-          <Lottie
-            lottieRef={usesRef}
-            className="h-6 w-6"
-            animationData={usesIcon}
-            loop={false}
-            autoplay={false}
-          />
-        )
-      },
-      {
-        id: 'reminder',
-        name: 'Reminder',
-        shortcut: ['g', 'r'],
-        keywords: 'go-reminder',
-        section: 'Go To',
-        perform: () => {
-          router.push('/reminder');
-          setOpen(false);
-        },
-        icon: (
-          <Lottie
-            lottieRef={reminderRef}
-            className="h-6 w-6"
-            animationData={reminderIcon}
-            loop={false}
-            autoplay={false}
-          />
-        )
-      }
-    ];
-  }, [router]);
-
-  const contextValue = useMemo(
-    () => ({
-      toggle: () => setOpen((prev) => !prev),
-      open: () => setOpen(true),
-      close: () => setOpen(false)
+  const actions = [
+    createAction('copy', 'Copy Link', ['l'], 'copy-link', 'General', () => {
+      navigator.clipboard.writeText(window.location.href);
+      setShowToast(true);
+      setOpen(false);
     }),
-    []
-  );
-
-  const groupedActions = useMemo(() => {
-    const groups = {};
-    actions.forEach((action) => {
-      if (!groups[action.section]) {
-        groups[action.section] = [];
-      }
-      groups[action.section].push(action);
-    });
-    return groups;
-  }, [actions]);
-
-  useEffect(() => {
-    const down = (e) => {
-      if (e.key === 'k' && (e.metaKey || e.ctrlKey)) {
-        e.preventDefault();
-        setOpen((open) => !open);
-      }
-    };
-
-    document.addEventListener('keydown', down);
-    return () => document.removeEventListener('keydown', down);
-  }, []);
-
-  useEffect(() => {
-    if (!open) {
-      shortcutSequenceRef.current = [];
-      if (shortcutTimeoutRef.current) {
-        clearTimeout(shortcutTimeoutRef.current);
-        shortcutTimeoutRef.current = null;
-      }
-      return;
-    }
-
-    const clearSequence = () => {
-      shortcutSequenceRef.current = [];
-      if (shortcutTimeoutRef.current) {
-        clearTimeout(shortcutTimeoutRef.current);
-        shortcutTimeoutRef.current = null;
-      }
-    };
-
-    const handleKeyDown = (e) => {
-      if (
-        e.metaKey ||
-        e.ctrlKey ||
-        e.altKey ||
-        e.shiftKey ||
-        ['ArrowUp', 'ArrowDown', 'ArrowLeft', 'ArrowRight'].includes(e.key)
-      ) {
-        return;
-      }
-
-      if (e.key === 'Escape') {
+    createAction('email', 'Send Email', ['e'], 'send-email', 'General', () => {
+      router.push('/contact');
+      setOpen(false);
+    }),
+    createAction(
+      'source',
+      'View Source',
+      ['s'],
+      'view-source',
+      'General',
+      () => {
+        window.open('https://github.com/zenorocha/zenorocha.com', '_blank');
         setOpen(false);
-        return;
       }
-
-      const activeElement = document.activeElement;
-      const target = e.target;
-      const inputElement =
-        activeElement?.tagName === 'INPUT' ||
-        activeElement?.getAttribute('role') === 'combobox'
-          ? activeElement
-          : target?.tagName === 'INPUT' ||
-              target?.getAttribute('role') === 'combobox'
-            ? target
-            : target?.closest('[cmdk-input]');
-      if (inputElement?.value) {
-        return;
+    ),
+    createAction('home', 'Home', ['g', 'h'], 'go-home', 'Go To', () => {
+      router.push('/');
+      setOpen(false);
+    }),
+    createAction('about', 'About', ['g', 'a'], 'go-about', 'Go To', () => {
+      router.push('/about');
+      setOpen(false);
+    }),
+    createAction(
+      'articles',
+      'Articles',
+      ['g', 'b'],
+      'go-articles',
+      'Go To',
+      () => {
+        router.push('/articles');
+        setOpen(false);
       }
-
-      const key = e.key.toLowerCase();
-      const newSequence = [...shortcutSequenceRef.current, key];
-
-      const matchingAction = actions.find((action) => {
-        if (!action.shortcut || action.shortcut.length !== newSequence.length) {
-          return false;
-        }
-        return action.shortcut.every(
-          (shortcut, index) => shortcut === newSequence[index]
-        );
-      });
-
-      if (matchingAction) {
-        e.preventDefault();
-        clearSequence();
-        matchingAction.perform();
-        return;
+    ),
+    createAction(
+      'projects',
+      'Projects',
+      ['g', 'p'],
+      'go-projects',
+      'Go To',
+      () => {
+        router.push('/projects');
+        setOpen(false);
       }
-
-      shortcutSequenceRef.current = newSequence;
-      if (shortcutTimeoutRef.current) {
-        clearTimeout(shortcutTimeoutRef.current);
+    ),
+    createAction('talks', 'Talks', ['g', 't'], 'go-talks', 'Go To', () => {
+      router.push('/talks');
+      setOpen(false);
+    }),
+    createAction(
+      'podcasts',
+      'Podcasts',
+      ['g', 'c'],
+      'go-podcasts',
+      'Go To',
+      () => {
+        router.push('/podcasts');
+        setOpen(false);
       }
-      shortcutTimeoutRef.current = setTimeout(clearSequence, 1000);
-    };
+    ),
+    createAction(
+      'investing',
+      'Investing',
+      ['g', 'i'],
+      'go-investing',
+      'Go To',
+      () => {
+        router.push('/investing');
+        setOpen(false);
+      }
+    ),
+    createAction('uses', 'Uses', ['g', 'u'], 'go-uses', 'Go To', () => {
+      router.push('/uses');
+      setOpen(false);
+    }),
+    createAction(
+      'reminder',
+      'Reminder',
+      ['g', 'r'],
+      'go-reminder',
+      'Go To',
+      () => {
+        router.push('/reminder');
+        setOpen(false);
+      }
+    )
+  ];
 
-    document.addEventListener('keydown', handleKeyDown);
-    return () => {
-      document.removeEventListener('keydown', handleKeyDown);
-      clearSequence();
-    };
-  }, [open, actions]);
+  const groupedActions = actions.reduce((groups, action) => {
+    if (!groups[action.section]) {
+      groups[action.section] = [];
+    }
+    groups[action.section].push(action);
+    return groups;
+  }, {});
+
+  useHotkeys('mod+k', (e) => {
+    e.preventDefault();
+    setOpen((prev) => !prev);
+  });
+
+  useHotkeys('escape', () => setOpen(false), { enabled: open });
+
+  const copyAction = actions.find((a) => a.id === 'copy');
+  const emailAction = actions.find((a) => a.id === 'email');
+  const sourceAction = actions.find((a) => a.id === 'source');
+
+  const handleSingleKey = (action) => (e) => {
+    if (open && !hasInputValue() && action) {
+      e.preventDefault();
+      action.perform();
+    }
+  };
+
+  useHotkeys('l', handleSingleKey(copyAction), { enabled: open });
+  useHotkeys('e', handleSingleKey(emailAction), { enabled: open });
+  useHotkeys('s', handleSingleKey(sourceAction), { enabled: open });
+
+  const sequenceActions = actions.filter((a) => a.shortcut.length > 1);
+  useSequenceShortcuts(sequenceActions, open);
 
   return (
-    <CommandBarContext.Provider value={contextValue}>
+    <CommandBarContext.Provider
+      value={{
+        toggle: () => setOpen((prev) => !prev),
+        open: () => setOpen(true),
+        close: () => setOpen(false)
+      }}
+    >
       <Dialog.Root open={open} onOpenChange={setOpen}>
         <Dialog.Portal>
           <Dialog.Overlay className="data-[state=open]:animate-overlay-show data-[state=closed]:animate-overlay-hide fixed inset-0 bg-[rgba(0,0,0,0.8)]" />
@@ -455,6 +297,8 @@ export default function CommandBar(props) {
                         <ActionCommandItem
                           key={action.id}
                           action={action}
+                          iconId={action.iconId}
+                          iconRefsMap={iconRefsMap}
                           value={`${action.name} ${action.keywords}`}
                           onSelect={() => action.perform()}
                         />
@@ -479,8 +323,21 @@ export default function CommandBar(props) {
   );
 }
 
-function ActionCommandItem({ action, value, onSelect }) {
+function ActionCommandItem({ action, iconId, iconRefsMap, value, onSelect }) {
   const itemRef = useRef(null);
+
+  if (!iconRefsMap.current.has(iconId)) {
+    iconRefsMap.current.set(iconId, { current: null });
+  }
+  const iconRef = iconRefsMap.current.get(iconId);
+  const iconData = iconMap[iconId];
+
+  const playIcon = () => iconRef?.current?.play();
+  const stopIcon = () => {
+    if (itemRef.current?.getAttribute('aria-selected') !== 'true') {
+      iconRef?.current?.stop();
+    }
+  };
 
   useEffect(() => {
     const element = itemRef.current;
@@ -488,62 +345,46 @@ function ActionCommandItem({ action, value, onSelect }) {
       return;
     }
 
-    const observer = new MutationObserver(() => {
-      const isSelected = element.getAttribute('aria-selected') === 'true';
-      if (isSelected) {
-        action.icon?.props?.lottieRef?.current?.play();
+    const handleSelectionChange = () => {
+      if (element.getAttribute('aria-selected') === 'true') {
+        iconRef?.current?.play();
       } else {
-        action.icon?.props?.lottieRef?.current?.stop();
+        iconRef?.current?.stop();
       }
-    });
+    };
+
+    const observer = new MutationObserver(handleSelectionChange);
 
     observer.observe(element, {
       attributes: true,
       attributeFilter: ['aria-selected']
     });
 
-    const isSelected = element.getAttribute('aria-selected') === 'true';
-    if (isSelected) {
-      action.icon?.props?.lottieRef?.current?.play();
-    }
+    handleSelectionChange();
 
     return () => observer.disconnect();
-  }, [action]);
-
-  const handleMouseEnter = () => {
-    action.icon?.props?.lottieRef?.current?.play();
-  };
-
-  const handleMouseLeave = () => {
-    if (itemRef.current?.getAttribute('aria-selected') !== 'true') {
-      action.icon?.props?.lottieRef?.current?.stop();
-    }
-  };
-
-  const handleFocus = () => {
-    action.icon?.props?.lottieRef?.current?.play();
-  };
-
-  const handleBlur = () => {
-    if (itemRef.current?.getAttribute('aria-selected') !== 'true') {
-      action.icon?.props?.lottieRef?.current?.stop();
-    }
-  };
+  }, [iconRef]);
 
   return (
     <CommandItem
       ref={itemRef}
       value={value}
       onSelect={onSelect}
-      onMouseEnter={handleMouseEnter}
-      onMouseLeave={handleMouseLeave}
-      onFocus={handleFocus}
-      onBlur={handleBlur}
+      onMouseEnter={playIcon}
+      onMouseLeave={stopIcon}
+      onFocus={playIcon}
+      onBlur={stopIcon}
       className="text-secondary data-[selected=true]:text-primary m-0 flex cursor-pointer items-center justify-between px-4 py-3 hover:bg-[rgba(255,255,255,0.1)] focus:bg-[rgba(255,255,255,0.1)] data-[selected=true]:bg-[rgba(255,255,255,0.1)]"
     >
       <Box className="flex w-full items-center justify-between">
         <div className="flex items-center gap-2">
-          {action.icon && action.icon}
+          <Lottie
+            lottieRef={iconRef}
+            className="h-6 w-6"
+            animationData={iconData}
+            loop={false}
+            autoplay={false}
+          />
           <div className="flex flex-col">
             <span>{action.name}</span>
           </div>

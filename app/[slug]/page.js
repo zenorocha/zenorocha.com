@@ -118,7 +118,10 @@ export default async function Post({ params }) {
         description={post.description}
       />
       <Blogpost title={post.title} image={post.image} date={post.date}>
-        <div dangerouslySetInnerHTML={{ __html: content }} />
+        <div
+          dangerouslySetInnerHTML={{ __html: content }}
+          className="prose-brand prose-ul:list-disc prose-ul:pl-10"
+        />
       </Blogpost>
     </>
   );

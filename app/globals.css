@@ -1,4 +1,5 @@
 @import 'tailwindcss';
+@plugin '@tailwindcss/typography';
 
 @theme inline {
   --font-sans: var(--font-sans);
@@ -94,6 +95,23 @@
   a:hover,
   a:focus {
     @apply opacity-80;
+  }
+}
+
+@utility prose-brand {
+  @apply prose;
+  --tw-prose-body: var(--color-secondary);
+  --tw-prose-headings: var(--color-primary);
+  --tw-prose-links: var(--color-primary);
+  --tw-prose-bold: var(--color-primary);
+  --tw-prose-italic: var(--color-secondary);
+  --tw-prose-underline: var(--color-primary);
+  --tw-prose-strikethrough: var(--color-secondary);
+  --tw-prose-code: var(--color-primary);
+  --tw-prose-code-bg: var(--color-background);
+
+  a {
+    @apply no-underline;
   }
 }
 

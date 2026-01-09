@@ -53,7 +53,7 @@
   }
 
   h1 {
-    @apply text-primary mb-5 text-[3rem] leading-12.5;
+    @apply text-primary mb-5 text-[3rem] leading-13;
     font-family: var(--font-display);
   }
 

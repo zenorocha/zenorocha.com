@@ -11,12 +11,12 @@ export default function ListItem(props) {
   if (props.href.charAt(0) === '/') {
     return (
       <li className="border-hover border-b last:border-0">
-        <Link href={props.href} className="no-underline">
+        <Link href={props.href} className="hover:text-primary text-inherit">
           <Animation index={props.index} isArticle>
-            <span className="block max-w-125 text-left text-lg leading-10 font-bold">
+            <span className="block max-w-125 text-left text-lg leading-10 font-bold transition-colors">
               {props.title}
             </span>
-            <span className="text-secondary block min-w-25 text-left text-sm font-medium md:text-right">
+            <span className="block min-w-25 text-left text-sm font-medium transition-colors md:text-right">
               <BlogDate dateString={props.date} />
             </span>
           </Animation>

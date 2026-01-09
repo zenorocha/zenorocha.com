@@ -75,11 +75,11 @@ export default async function Articles() {
       secondaryColor="pink"
     >
       <p dangerouslySetInnerHTML={{ __html: description }} />
-      <h2>Featured Articles</h2>
-      <div className="my-2.5 mt-2.5 -ml-5 md:flex md:justify-between">
+      <h2 className="font-bold">Featured Articles</h2>
+      <div className="z-2 my-2.5 mt-2.5 -ml-5 w-[calc(100%+3.375rem)] md:flex md:justify-between">
         {renderFeatured()}
       </div>
-      <h2>All Articles</h2>
+      <h2 className="font-bold">All Articles</h2>
       <ListGroup>{renderAll()}</ListGroup>
     </Base>
   );

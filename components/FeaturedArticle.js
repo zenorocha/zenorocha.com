@@ -14,11 +14,11 @@ export default function FeaturedArticle(props) {
     >
       <Animation index={props.index} className="flex flex-col">
         <div
-          className="mb-5 aspect-video w-full rounded-lg bg-cover bg-center bg-no-repeat grayscale"
+          className="mb-5 min-h-45 w-full rounded-lg bg-cover bg-center bg-no-repeat grayscale"
           style={{ backgroundImage: `url(${props.image})` }}
         />
         <div className="mr-5 max-w-112.5 md:mr-0 md:max-w-full">
-          <h3 className="text-primary m-0">{props.title}</h3>
+          <h3 className="text-primary m-0 font-bold">{props.title}</h3>
           <p className="text-secondary m-0 line-clamp-2">{props.description}</p>
           <p className="text-primary my-1.25 mt-1.25 inline-block text-xs font-medium tracking-[0.075rem] uppercase">
             {stats.text}

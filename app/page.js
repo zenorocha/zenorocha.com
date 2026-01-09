@@ -1,6 +1,6 @@
 import Footer from '../components/Footer';
 import Navbar from '../components/Navbar';
-import { PostContainer, PostContent, PostMain } from '../components/Post';
+import { PostContent, PostMain } from '../components/Post';
 import ShortcutHome from '../components/ShortcutHome';
 import { Wrapper } from '../components/Wrapper';
 import { getPersonJsonLd } from '../lib/json-ld';
@@ -30,24 +30,22 @@ export default function Index() {
         key="person-jsonld"
       />
       <Navbar />
-      <PostMain className="mx-auto flex items-center md:w-200">
-        <PostContent>
-          <PostContainer>
-            <div>
-              <h1>{title}</h1>
-              <p>
-                <strong>
-                  Founder & CEO at{' '}
-                  <a href="https://resend.com" target="blank">
-                    Resend
-                  </a>
-                </strong>
-                <br />
-                {description}
-              </p>
-              <ShortcutHome />
-            </div>
-          </PostContainer>
+      <PostMain className="mx-auto flex items-start md:w-200">
+        <PostContent className="mb-5 p-0!">
+          <div className="mx-5 mt-64 flex w-full max-w-190 flex-col items-start">
+            <h1>{title}</h1>
+            <p className="mt-0">
+              <strong>
+                Founder & CEO at{' '}
+                <a href="https://resend.com" target="blank">
+                  Resend
+                </a>
+              </strong>
+              <br />
+              {description}
+            </p>
+            <ShortcutHome />
+          </div>
         </PostContent>
       </PostMain>
       <Footer />

@@ -38,7 +38,7 @@ const categories = [
       {
         title: 'GMK Dracula',
         description: 'The single most beautiful keycaps ever created :P',
-        url: 'https://omnitype.com/products/gmk-dracula'
+        url: 'https://omnitype.com/products/gmk-dracula-v2-0-keycaps?_pos=1&_psq=dracula&_ss=e&_v=1.0'
       },
       {
         title: 'Keychron K6',
@@ -56,7 +56,7 @@ const categories = [
         title: 'Drink Artisan Keycap',
         description:
           'My favorite drink is <a href="https://en.wikipedia.org/wiki/Caipirinha">caipirinha</a>, so I replaced my ESC key with this.',
-        url: 'https://drop.com/buy/drop-ctrl-mechanical-keyboard'
+        url: 'https://www.millennialengineers.com/products/summer-ice-drink-artisan-keycap?variant=37363919683769'
       }
     ]
   },

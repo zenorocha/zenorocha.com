@@ -22,13 +22,13 @@ export default function Blogpost({ children, title, image, date }) {
               <BlogDate dateString={date} />
             </h2>
           </div>
-          <PostContent className="[&_::selection]:[-webkit-text-fill-color:black]] [&_::selection]:bg-[#ff80bf] [&_::selection]:text-black">
+          <PostContent className="[&_::selection]:bg-[#ff80bf] [&_::selection]:text-[#000] [&_::selection]:[-webkit-text-fill-color:#000]">
             <PostContainer>{children}</PostContainer>
           </PostContent>
         </Post>
       ) : (
         <PostMain>
-          <PostContent className="[&_::selection]:[-webkit-text-fill-color:black]] [&_::selection]:bg-[#ff80bf] [&_::selection]:text-black">
+          <PostContent className="[&_::selection]:bg-[#ff80bf] [&_::selection]:text-[#000] [&_::selection]:[-webkit-text-fill-color:#000]">
             <PostContainer>
               <div>
                 <h1 className="mx-auto my-[5.625rem] mt-[5.625rem] max-w-none text-center text-5xl leading-[3.75rem] text-[var(--color-primary)] md:mt-0 md:max-w-[60%] md:text-[4.5rem] md:leading-[5.625rem]">

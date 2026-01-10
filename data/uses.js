@@ -38,7 +38,7 @@ const categories = [
       {
         title: 'GMK Dracula',
         description: 'The single most beautiful keycaps ever created :P',
-        url: 'https://omnitype.com/products/gmk-dracula'
+        url: 'https://omnitype.com/products/gmk-dracula-v2-0-keycaps?_pos=1&_psq=dracula&_ss=e&_v=1.0'
       },
       {
         title: 'Keychron K6',

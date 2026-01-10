@@ -10,7 +10,6 @@ import {
   CommandItem,
   CommandList
 } from 'cmdk';
-import dynamic from 'next/dynamic';
 import { useRouter } from 'next/navigation';
 import { createContext, useContext, useEffect, useRef, useState } from 'react';
 import { useHotkeys } from 'react-hotkeys-hook';
@@ -27,10 +26,9 @@ import reminderIcon from '../public/static/icons/reminder.json';
 import sourceIcon from '../public/static/icons/source.json';
 import talksIcon from '../public/static/icons/talks.json';
 import usesIcon from '../public/static/icons/uses.json';
+import { AnimatedIcon } from './AnimatedIcon';
 import { Box } from './Box';
 import Toast from './Toast';
-
-const Lottie = dynamic(() => import('lottie-react'), { ssr: false });
 
 const CommandBarContext = createContext(null);
 
@@ -379,12 +377,9 @@ function ActionCommandItem({ action, iconId, iconRefsMap, value, onSelect }) {
     >
       <Box className="flex w-full items-center justify-between">
         <div className="flex items-center gap-2">
-          <Lottie
+          <AnimatedIcon
             lottieRef={iconRef}
-            className="h-6 w-6"
             animationData={iconData}
-            loop={false}
-            autoplay={false}
           />
           <div className="flex flex-col">
             <span>{action.name}</span>

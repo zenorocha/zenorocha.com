@@ -1,10 +1,9 @@
 'use client';
 
 import { motion } from 'framer-motion';
-import dynamic from 'next/dynamic';
 import { useRef, useState } from 'react';
 
-const Lottie = dynamic(() => import('lottie-react'), { ssr: false });
+import { AnimatedIcon } from './AnimatedIcon';
 
 export default function FeaturedProject(props) {
   const { project } = props;
@@ -22,12 +21,12 @@ export default function FeaturedProject(props) {
       className="transition-opacity-[0.3s] flex w-auto rounded-lg border-0 no-underline ease-in-out hover:opacity-100 md:w-45"
     >
       <Animation index={props.index}>
-        <Lottie
+        <AnimatedIcon
           lottieRef={iconRef}
-          className="mb-2.5 h-6 w-6"
           animationData={icon}
           loop={false}
           autoplay={false}
+          className="mb-2.5"
         />
         <div className="flex-[1_1_auto]">
           <p className="text-primary m-0 text-lg">{project.title}</p>

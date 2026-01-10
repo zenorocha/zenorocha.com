@@ -1,18 +1,16 @@
 'use client';
 
 import { format, intervalToDuration, parseISO } from 'date-fns';
-import dynamic from 'next/dynamic';
 import Image from 'next/image';
 import React from 'react';
 
+import { AnimatedIcon } from '../../components/AnimatedIcon';
 import { ButtonPrimary } from '../../components/ButtonPrimary';
 import Pronunciation from '../../components/Pronunciation';
 import Toast from '../../components/Toast';
 import items from '../../data/about';
 import copyBioIcon from '../../public/static/icons/copy-bio.json';
 import downloadIcon from '../../public/static/icons/download.json';
-
-const Lottie = dynamic(() => import('lottie-react'), { ssr: false });
 
 export default function AboutClient({ description }) {
   const [toastTitle, setToastTitle] = React.useState('');
@@ -76,14 +74,13 @@ export default function AboutClient({ description }) {
             onMouseEnter={() => copyBioRef.current?.play()}
             onMouseLeave={() => copyBioRef.current?.stop()}
           >
-            <div className="mr-2 h-6 w-6">
-              <Lottie
-                lottieRef={copyBioRef}
-                animationData={copyBioIcon}
-                loop={false}
-                autoplay={false}
-              />
-            </div>
+          <AnimatedIcon
+            lottieRef={copyBioRef}
+            animationData={copyBioIcon}
+            loop={false}
+            autoplay={false}
+            className="mr-2"
+          />
             Copy Bio
           </ButtonPrimary>
           <span className="mt-0 mr-5 mb-0 ml-2.5">•</span>
@@ -97,14 +94,13 @@ export default function AboutClient({ description }) {
             onMouseEnter={() => downloadRef.current?.play()}
             onMouseLeave={() => downloadRef.current?.stop()}
           >
-            <div className="mr-2 h-6 w-6">
-              <Lottie
-                lottieRef={downloadRef}
-                animationData={downloadIcon}
-                loop={false}
-                autoplay={false}
-              />
-            </div>
+          <AnimatedIcon
+            lottieRef={downloadRef}
+            animationData={downloadIcon}
+            loop={false}
+            autoplay={false}
+            className="mr-2"
+          />
             Download Headshot
           </ButtonPrimary>
         </div>

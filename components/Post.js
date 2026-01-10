@@ -10,7 +10,7 @@ export const Post = ({ className = '', ...props }) => (
 );
 
 export const PostContainer = ({ className = '', ...props }) => (
-  <div className={`mx-auto max-w-190 px-5 ${className}`} {...props} />
+  <div className={`mx-auto max-w-200 px-5 ${className}`} {...props} />
 );
 
 export const PostContent = ({ className = '', ...props }) => (

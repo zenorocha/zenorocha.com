@@ -8,7 +8,7 @@ const items = [
         url: 'https://resend.com',
         active: true,
         icon: 'resend',
-        stats: '400k+ users'
+        stats: '1M+ users'
       }
     ]
   },
@@ -21,7 +21,7 @@ const items = [
         url: 'https://react.email',
         active: true,
         icon: 'email',
-        stats: '500k+ downloads'
+        stats: '1M+ downloads'
       },
       {
         title: 'WorkOS',

@@ -37,8 +37,8 @@ export default function Projects() {
     return items.map((item) => {
       return (
         <div key={item.year}>
-          <h3 className="font-bold">{item.year}</h3>
-          <ul className="list-disc pl-10">
+          <h3>{item.year}</h3>
+          <ul>
             {item.projects.map((project, index) => {
               return (
                 <ProjectItem
@@ -74,10 +74,10 @@ export default function Projects() {
     >
       <p dangerouslySetInnerHTML={{ __html: description }} />
 
-      <h2 className="font-bold">Featured Projects</h2>
+      <h2>Featured Projects</h2>
       <FeaturedProjects>{renderFeatured()}</FeaturedProjects>
 
-      <h2 className="font-bold">All Projects</h2>
+      <h2>All Projects</h2>
       {renderAll()}
     </Base>
   );

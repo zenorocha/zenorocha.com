@@ -58,7 +58,11 @@
   }
 
   h2 {
-    @apply text-primary mt-15 text-2xl;
+    @apply text-primary mt-15 text-2xl font-bold;
+  }
+
+  h3 {
+    @apply font-bold;
   }
 
   h3,
@@ -67,7 +71,7 @@
   }
 
   ul {
-    @apply m-0;
+    @apply m-0 list-disc pl-10;
   }
 
   img {

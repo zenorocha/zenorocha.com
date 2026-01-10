@@ -26,6 +26,7 @@
     "next-seo": "^7.0.1",
     "react": "^19.2.3",
     "react-dom": "^19.2.3",
+    "react-hotkeys-hook": "^5.2.1",
     "reading-time": "^1.5.0",
     "remark": "^15.0.1",
     "remark-html": "^16.0.1",

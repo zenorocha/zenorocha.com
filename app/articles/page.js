@@ -76,7 +76,7 @@ export default async function Articles() {
     >
       <p dangerouslySetInnerHTML={{ __html: description }} />
       <h2>Featured Articles</h2>
-      <div className="my-2.5 mt-2.5 -ml-5 md:flex md:justify-between">
+      <div className="my-2.5 mt-2.5 -ml-5 md:flex md:justify-between md:w-[calc(100%+3.375rem)]">
         {renderFeatured()}
       </div>
       <h2>All Articles</h2>

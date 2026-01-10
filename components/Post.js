@@ -1,6 +1,6 @@
 export const PostMain = ({ className = '', ...props }) => (
   <main
-    className={`mx-auto flex w-full max-w-200 flex-1 items-center overflow-hidden py-14 md:py-28 ${className}`}
+    className={`mx-auto flex w-full max-w-200 flex-1 items-center py-14 md:py-28 ${className}`}
     {...props}
   />
 );

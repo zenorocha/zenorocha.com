@@ -56,7 +56,7 @@ const categories = [
         title: 'Drink Artisan Keycap',
         description:
           'My favorite drink is <a href="https://en.wikipedia.org/wiki/Caipirinha">caipirinha</a>, so I replaced my ESC key with this.',
-        url: 'https://drop.com/buy/drop-ctrl-mechanical-keyboard'
+        url: 'https://www.millennialengineers.com/products/summer-ice-drink-artisan-keycap?variant=37363919683769'
       }
     ]
   },

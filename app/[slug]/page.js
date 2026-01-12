@@ -9,7 +9,7 @@ import {
 } from '../../lib/blog';
 
 export async function generateStaticParams() {
-  const posts = getAllPosts(['slug']);
+  const posts = await getAllPosts(['slug']);
   return posts.map((post) => ({
     slug: post.slug
   }));
@@ -18,7 +18,7 @@ export async function generateStaticParams() {
 export async function generateMetadata({ params }) {
   try {
     const { slug } = await params;
-    const post = getPostBySlug(slug, [
+    const post = await getPostBySlug(slug, [
       'title',
       'description',
       'image',
@@ -73,7 +73,7 @@ export default async function Post({ params }) {
 
   try {
     const { slug } = await params;
-    post = getPostBySlug(slug, [
+    post = await getPostBySlug(slug, [
       'canonical_url',
       'content',
       'date',

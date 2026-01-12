@@ -16,7 +16,7 @@ export const metadata = {
 };
 
 export default async function Articles() {
-  const allPosts = getAllPosts(['date', 'skip', 'slug', 'title']);
+  const allPosts = await getAllPosts(['date', 'skip', 'slug', 'title']);
 
   const featuredParams = [
     'date',
@@ -27,10 +27,10 @@ export default async function Articles() {
     'description'
   ];
 
-  const featuredPosts = [
+  const featuredPosts = await Promise.all([
     getPostBySlug('the-two-types-of-quality', featuredParams),
     getPostBySlug('how-is-life-post-yc', featuredParams)
-  ];
+  ]);
 
   const description = `Here you can find all the <strong>${allPosts.length} articles</strong> I wrote. You can read about web development, software engineering, and tech career in both English and Portuguese.`;
 
@@ -76,7 +76,7 @@ export default async function Articles() {
     >
       <p dangerouslySetInnerHTML={{ __html: description }} />
       <h2>Featured Articles</h2>
-      <div className="my-2.5 mt-2.5 -ml-5 md:flex md:justify-between md:w-[calc(100%+3.375rem)]">
+      <div className="my-2.5 mt-2.5 -ml-5 md:flex md:w-[calc(100%+3.375rem)] md:justify-between">
         {renderFeatured()}
       </div>
       <h2>All Articles</h2>

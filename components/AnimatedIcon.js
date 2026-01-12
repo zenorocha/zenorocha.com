@@ -13,7 +13,10 @@ export function AnimatedIcon({
   ...props
 }) {
   return (
-    <div className={`flex h-6 w-6 shrink-0 items-center justify-center ${className}`} {...props}>
+    <div
+      className={`flex h-6 w-6 shrink-0 items-center justify-center ${className}`}
+      {...props}
+    >
       <Lottie
         lottieRef={lottieRef}
         className="h-full w-full"

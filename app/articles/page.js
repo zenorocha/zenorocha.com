@@ -16,7 +16,7 @@ export const metadata = {
 };
 
 export default async function Articles() {
-  const allPosts = await getAllPosts(['date', 'skip', 'slug', 'title']);
+  const allPosts = getAllPosts(['date', 'skip', 'slug', 'title']);
 
   const featuredParams = [
     'date',
@@ -27,10 +27,10 @@ export default async function Articles() {
     'description'
   ];
 
-  const featuredPosts = await Promise.all([
+  const featuredPosts = [
     getPostBySlug('the-two-types-of-quality', featuredParams),
     getPostBySlug('how-is-life-post-yc', featuredParams)
-  ]);
+  ];
 
   const description = `Here you can find all the <strong>${allPosts.length} articles</strong> I wrote. You can read about web development, software engineering, and tech career in both English and Portuguese.`;
 

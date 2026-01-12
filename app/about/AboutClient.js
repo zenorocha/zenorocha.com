@@ -74,13 +74,13 @@ export default function AboutClient({ description }) {
             onMouseEnter={() => copyBioRef.current?.play()}
             onMouseLeave={() => copyBioRef.current?.stop()}
           >
-          <AnimatedIcon
-            lottieRef={copyBioRef}
-            animationData={copyBioIcon}
-            loop={false}
-            autoplay={false}
-            className="mr-2"
-          />
+            <AnimatedIcon
+              lottieRef={copyBioRef}
+              animationData={copyBioIcon}
+              loop={false}
+              autoplay={false}
+              className="mr-2"
+            />
             Copy Bio
           </ButtonPrimary>
           <span className="mt-0 mr-5 mb-0 ml-2.5">•</span>
@@ -94,13 +94,13 @@ export default function AboutClient({ description }) {
             onMouseEnter={() => downloadRef.current?.play()}
             onMouseLeave={() => downloadRef.current?.stop()}
           >
-          <AnimatedIcon
-            lottieRef={downloadRef}
-            animationData={downloadIcon}
-            loop={false}
-            autoplay={false}
-            className="mr-2"
-          />
+            <AnimatedIcon
+              lottieRef={downloadRef}
+              animationData={downloadIcon}
+              loop={false}
+              autoplay={false}
+              className="mr-2"
+            />
             Download Headshot
           </ButtonPrimary>
         </div>

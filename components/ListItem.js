@@ -1,69 +1,57 @@
 'use client';
 
-import { motion } from 'framer-motion';
 import Link from 'next/link';
-import { useState } from 'react';
 
 import BlogDate from './BlogDate';
+import { HoverAnimation } from './HoverAnimation';
 
 export default function ListItem(props) {
   // Articles
   if (props.href.charAt(0) === '/') {
     return (
-      <li className="border-hover border-b last:border-0">
-        <Link href={props.href} className="hover:text-primary text-inherit">
-          <Animation index={props.index} isArticle>
-            <span className="block max-w-125 text-left text-lg leading-10 font-bold transition-colors">
+      <li className="border-hover relative border-b last:border-0">
+        <HoverAnimation
+          id={props.index}
+          layoutId="listItem"
+          backgroundClassName="-top-0.25 -right-5 -bottom-0.25 -left-5"
+        >
+          <Link
+            href={props.href}
+            className="hover:text-primary relative flex w-full cursor-pointer flex-col justify-between border-0 py-5 text-inherit no-underline transition-colors duration-300 ease-in-out md:flex-row"
+          >
+            <span className="block max-w-125 text-left text-lg leading-10 font-bold">
               {props.title}
             </span>
             <span className="text-secondary block min-w-25 text-left text-sm font-medium md:text-right">
               <BlogDate dateString={props.date} />
             </span>
-          </Animation>
-        </Link>
+          </Link>
+        </HoverAnimation>
       </li>
     );
   }
 
   // Podcasts
   return (
-    <li className="border-hover border-b last:border-0">
-      <a
-        href={props.href}
-        target="_blank"
-        className="hover:text-primary text-inherit"
+    <li className="border-hover relative border-b last:border-0">
+      <HoverAnimation
+        id={props.index}
+        layoutId="listItem"
+        backgroundClassName="-top-0.25 -right-5 -bottom-0.25 -left-5"
       >
-        <Animation index={props.index}>
-          <span className="block max-w-125 text-left text-lg leading-10 font-bold transition-colors">
+        <a
+          href={props.href}
+          target="_blank"
+          className="hover:text-primary relative flex w-full cursor-pointer justify-between border-0 py-5 text-inherit no-underline transition-colors duration-300 ease-in-out"
+        >
+          <span className="block max-w-125 text-left text-lg leading-10 font-bold">
             {props.title}
           </span>
           <span className="text-2xl">
             <i className="ri-arrow-right-up-line"></i>
           </span>
-        </Animation>
-      </a>
+        </a>
+      </HoverAnimation>
     </li>
-  );
-}
-
-function Animation({ index, children, isArticle = false }) {
-  const [hovered, setHovered] = useState('');
-  const isHovered = hovered === index;
-
-  return (
-    <motion.span
-      onHoverStart={() => setHovered(index)}
-      onHoverEnd={() => setHovered('')}
-      className={`relative flex w-full cursor-pointer justify-between border-0 py-5 no-underline ${isArticle ? 'flex-col md:flex-row' : ''}`}
-    >
-      {isHovered && (
-        <motion.span
-          layoutId="listItem"
-          animate={{ opacity: 1 }}
-          className="bg-hover absolute -top-0.25 -right-5 -bottom-0.25 -left-5 -z-1 rounded-lg"
-        />
-      )}
-      {children}
-    </motion.span>
   );
 }

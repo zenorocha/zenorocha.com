@@ -1,3 +1,5 @@
+'use client';
+
 import { Box } from '../components/Box';
 import Navbar from '../components/Navbar';
 import { PostMain } from '../components/Post';

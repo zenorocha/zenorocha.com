@@ -10,15 +10,15 @@ export default function Blogpost({ children, title, image, date }) {
       <Navbar image={image} />
       {image ? (
         <Post>
-          <div className="relative -z-[1] flex h-screen min-h-[37.5rem] w-full flex-col items-center justify-center bg-[#141618]">
-            <h1 className="relative z-[3] mx-auto mt-[3.6875rem] px-3 text-center text-4xl leading-[3rem] text-white md:max-w-[60%] md:text-[3.75rem] md:text-[4.5rem] md:leading-[5.625rem] md:leading-[5rem]">
+          <div className="relative -z-1 flex h-screen min-h-150 w-full flex-col items-center justify-center bg-[#141618]">
+            <h1 className="relative z-3 mx-auto mt-14.75 px-3 text-center text-4xl leading-12 text-white md:max-w-[60%] md:text-[3.75rem] md:leading-20">
               {title}
             </h1>
             <div
-              className="fixed top-0 left-0 z-[1] h-full w-full bg-[#141618] bg-cover bg-center bg-no-repeat opacity-40 will-change-transform after:absolute after:top-0 after:left-0 after:z-[2] after:h-full after:w-full after:bg-gradient-to-b after:from-[rgba(0,0,0,0.8)] after:via-transparent after:via-[50%] after:via-[90%] after:to-[rgba(0,0,0,0.8)] after:will-change-transform after:content-[''] max-lg:absolute"
+              className="fixed top-0 left-0 z-1 h-full w-full bg-[#141618] bg-cover bg-center bg-no-repeat opacity-40 will-change-transform after:absolute after:top-0 after:left-0 after:z-2 after:h-full after:w-full after:bg-linear-to-b after:from-[rgba(0,0,0,0.8)] after:via-transparent after:via-90% after:to-[rgba(0,0,0,0.8)] after:will-change-transform after:content-[''] max-lg:absolute"
               style={image ? { backgroundImage: `url(${image})` } : {}}
             />
-            <h2 className="absolute bottom-5 z-[2] m-0 w-full text-center text-base font-medium text-white">
+            <h2 className="absolute bottom-5 z-2 m-0 w-full text-center text-base font-medium text-white">
               <BlogDate dateString={date} />
             </h2>
           </div>
@@ -31,10 +31,10 @@ export default function Blogpost({ children, title, image, date }) {
           <PostContent className="[&_::selection]:[-webkit-text-fill-color:black]] [&_::selection]:bg-[#ff80bf] [&_::selection]:text-black">
             <PostContainer>
               <div>
-                <h1 className="mx-auto my-[5.625rem] mt-[5.625rem] max-w-none text-center text-5xl leading-[3.75rem] text-[var(--color-primary)] md:mt-0 md:max-w-[60%] md:text-[4.5rem] md:leading-[5.625rem]">
+                <h1 className="text-primary mx-auto mb-0 max-w-none text-center text-5xl leading-15">
                   {title}
                 </h1>
-                <h2 className="m-0 mb-[3.75rem] text-base text-[var(--color-secondary)]">
+                <h2 className="text-secondary m-0 mb-15 text-center text-base">
                   <BlogDate dateString={date} />
                 </h2>
               </div>

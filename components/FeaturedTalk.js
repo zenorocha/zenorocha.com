@@ -1,8 +1,8 @@
 'use client';
 
-import { motion } from 'framer-motion';
 import Image from 'next/image';
-import { useState } from 'react';
+
+import { HoverAnimation } from './HoverAnimation';
 
 export default function FeaturedTalk(props) {
   const { talk } = props;
@@ -13,10 +13,21 @@ export default function FeaturedTalk(props) {
       target="_blank"
       className="border-0 no-underline first:ml-0"
     >
-      <Animation index={props.index}>
+      <HoverAnimation
+        id={props.index}
+        layoutId="featuredTalks"
+        as="div"
+        className="relative w-full p-5"
+      >
         <div className="flex h-auto flex-col md:h-35 md:flex-row">
-          <div className="mr-5 w-62.5 [&_img]:grayscale">
-            <Image src={talk.cover} alt={talk.title} width="250" height="138" />
+          <div className="mr-5 w-62.5">
+            <Image
+              src={talk.cover}
+              alt={talk.title}
+              width="250"
+              height="138"
+              className="grayscale"
+            />
           </div>
           <div>
             <h3 className="text-primary m-0 text-lg">
@@ -26,30 +37,7 @@ export default function FeaturedTalk(props) {
             <p className="text-secondary m-0">{talk.title}</p>
           </div>
         </div>
-      </Animation>
+      </HoverAnimation>
     </a>
-  );
-}
-
-function Animation({ index, children }) {
-  const [hovered, setHovered] = useState('');
-  const isHovered = hovered === index;
-
-  return (
-    <motion.div
-      onHoverStart={() => setHovered(index)}
-      onHoverEnd={() => setHovered('')}
-      className="relative w-full p-5"
-    >
-      {isHovered && (
-        <motion.div
-          layoutId="featuredTalks"
-          animate={{ opacity: 1 }}
-          className="bg-hover absolute top-0 right-0 bottom-0 left-0 -z-1 rounded-lg"
-        />
-      )}
-
-      {children}
-    </motion.div>
   );
 }

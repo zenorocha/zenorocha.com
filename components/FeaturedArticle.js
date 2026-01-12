@@ -1,18 +1,20 @@
 'use client';
 
-import { motion } from 'framer-motion';
-import { useState } from 'react';
 import readingTime from 'reading-time';
+
+import { HoverAnimation } from './HoverAnimation';
 
 export default function FeaturedArticle(props) {
   const stats = readingTime(props.content);
 
   return (
-    <a
-      href={props.href}
-      className="w-full border-0 no-underline first:ml-0 hover:opacity-100"
+    <HoverAnimation
+      id={props.index}
+      layoutId="featuredArticles"
+      as="div"
+      className="relative w-full p-5"
     >
-      <Animation index={props.index} className="flex flex-col">
+      <a href={props.href} className="w-full border-0 no-underline first:ml-0">
         <div
           className="mb-5 aspect-video w-full rounded-lg bg-cover bg-center bg-no-repeat grayscale"
           style={{ backgroundImage: `url(${props.image})` }}
@@ -24,30 +26,7 @@ export default function FeaturedArticle(props) {
             {stats.text}
           </p>
         </div>
-      </Animation>
-    </a>
-  );
-}
-
-function Animation({ index, children }) {
-  const [hovered, setHovered] = useState('');
-  const isHovered = hovered === index;
-
-  return (
-    <motion.div
-      onHoverStart={() => setHovered(index)}
-      onHoverEnd={() => setHovered('')}
-      className="relative w-full p-5"
-    >
-      {isHovered && (
-        <motion.div
-          layoutId="featuredArticles"
-          animate={{ opacity: 1 }}
-          className="bg-hover absolute top-0 right-0 bottom-0 left-0 -z-1 rounded-lg"
-        />
-      )}
-
-      {children}
-    </motion.div>
+      </a>
+    </HoverAnimation>
   );
 }

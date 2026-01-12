@@ -1,9 +1,9 @@
 'use client';
 
-import { motion } from 'framer-motion';
-import { useRef, useState } from 'react';
+import { useRef } from 'react';
 
 import { AnimatedIcon } from './AnimatedIcon';
+import { HoverAnimation } from './HoverAnimation';
 
 export default function FeaturedProject(props) {
   const { project } = props;
@@ -18,9 +18,13 @@ export default function FeaturedProject(props) {
       target="_blank"
       onMouseEnter={() => iconRef.current?.play()}
       onMouseLeave={() => iconRef.current?.stop()}
-      className="transition-opacity-[0.3s] flex w-auto rounded-lg border-0 no-underline ease-in-out hover:opacity-100 md:w-45"
+      className="flex w-auto rounded-lg border-0 no-underline md:w-45"
     >
-      <Animation index={props.index}>
+      <HoverAnimation
+        id={props.index}
+        layoutId="featuredProjects"
+        className="relative w-full p-5"
+      >
         <AnimatedIcon
           lottieRef={iconRef}
           animationData={icon}
@@ -37,30 +41,7 @@ export default function FeaturedProject(props) {
             </p>
           )}
         </div>
-      </Animation>
+      </HoverAnimation>
     </a>
-  );
-}
-
-function Animation({ index, children }) {
-  const [hovered, setHovered] = useState('');
-  const isHovered = hovered === index;
-
-  return (
-    <motion.span
-      onHoverStart={() => setHovered(index)}
-      onHoverEnd={() => setHovered('')}
-      className="relative w-full p-5"
-    >
-      {isHovered && (
-        <motion.span
-          layoutId="featuredProjects"
-          animate={{ opacity: 1 }}
-          className="bg-hover absolute top-0 right-0 bottom-0 left-0 -z-1 rounded-lg"
-        />
-      )}
-
-      {children}
-    </motion.span>
   );
 }

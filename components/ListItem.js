@@ -28,7 +28,11 @@ export default function ListItem(props) {
   // Podcasts
   return (
     <li className="border-hover border-b last:border-0">
-      <a href={props.href} target="_blank" className="hover:text-primary text-inherit">
+      <a
+        href={props.href}
+        target="_blank"
+        className="hover:text-primary text-inherit"
+      >
         <Animation index={props.index}>
           <span className="block max-w-125 text-left text-lg leading-10 font-bold transition-colors">
             {props.title}

@@ -239,27 +239,18 @@ export default function CommandBar(props) {
 
   useHotkeys('escape', () => setOpen(false), { enabled: open });
 
-  const registerActionHotkey = (action, combo) => {
-    useHotkeys(
-      combo,
-      () => {
-        action.perform();
-      }
-    );
-  };
-
-  registerActionHotkey(actionsById.copy, shortcutCombos.copy);
-  registerActionHotkey(actionsById.email, shortcutCombos.email);
-  registerActionHotkey(actionsById.source, shortcutCombos.source);
-  registerActionHotkey(actionsById.home, shortcutCombos.home);
-  registerActionHotkey(actionsById.about, shortcutCombos.about);
-  registerActionHotkey(actionsById.articles, shortcutCombos.articles);
-  registerActionHotkey(actionsById.projects, shortcutCombos.projects);
-  registerActionHotkey(actionsById.talks, shortcutCombos.talks);
-  registerActionHotkey(actionsById.podcasts, shortcutCombos.podcasts);
-  registerActionHotkey(actionsById.investing, shortcutCombos.investing);
-  registerActionHotkey(actionsById.uses, shortcutCombos.uses);
-  registerActionHotkey(actionsById.reminder, shortcutCombos.reminder);
+  useHotkeys(shortcutCombos.copy, () => actionsById.copy.perform());
+  useHotkeys(shortcutCombos.email, () => actionsById.email.perform());
+  useHotkeys(shortcutCombos.source, () => actionsById.source.perform());
+  useHotkeys(shortcutCombos.home, () => actionsById.home.perform());
+  useHotkeys(shortcutCombos.about, () => actionsById.about.perform());
+  useHotkeys(shortcutCombos.articles, () => actionsById.articles.perform());
+  useHotkeys(shortcutCombos.projects, () => actionsById.projects.perform());
+  useHotkeys(shortcutCombos.talks, () => actionsById.talks.perform());
+  useHotkeys(shortcutCombos.podcasts, () => actionsById.podcasts.perform());
+  useHotkeys(shortcutCombos.investing, () => actionsById.investing.perform());
+  useHotkeys(shortcutCombos.uses, () => actionsById.uses.perform());
+  useHotkeys(shortcutCombos.reminder, () => actionsById.reminder.perform());
 
   return (
     <CommandBarContext.Provider
@@ -377,10 +368,7 @@ function ActionCommandItem({ action, iconId, iconRefsMap, value, onSelect }) {
     >
       <Box className="flex w-full items-center justify-between">
         <div className="flex items-center gap-2">
-          <AnimatedIcon
-            lottieRef={iconRef}
-            animationData={iconData}
-          />
+          <AnimatedIcon lottieRef={iconRef} animationData={iconData} />
           <div className="flex flex-col">
             <span>{action.name}</span>
           </div>

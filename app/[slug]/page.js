@@ -1,23 +1,21 @@
+import { notFound } from 'next/navigation';
 import { ArticleJsonLd } from 'next-seo';
 
-import ErrorMessage from '../../components/ErrorMessage';
+import { CustomMDX } from '../../components/shared/mdx';
 import Blogpost from '../../layouts/Blogpost';
-import {
-  convertMarkdownToHtml,
-  getAllPosts,
-  getPostBySlug
-} from '../../lib/blog';
+import { getPostBySlug, getPostSlugs } from '../../lib/blog';
 
 export async function generateStaticParams() {
-  const posts = getAllPosts(['slug']);
-  return posts.map((post) => ({
-    slug: post.slug
+  const slugs = getPostSlugs();
+  return slugs.map((slug) => ({
+    slug
   }));
 }
 
 export async function generateMetadata({ params }) {
+  const { slug } = await params;
+
   try {
-    const { slug } = await params;
     const post = getPostBySlug(slug, [
       'title',
       'description',
@@ -27,10 +25,8 @@ export async function generateMetadata({ params }) {
       'lang'
     ]);
 
-    if (!post || !post.title) {
-      return {
-        title: 'Not Found'
-      };
+    if (!post) {
+      notFound();
     }
 
     const title = `${post.title} // Zeno Rocha`;
@@ -59,7 +55,8 @@ export async function generateMetadata({ params }) {
           }
         : undefined
     };
-  } catch {
+  } catch (error) {
+    console.warn(`Failed to generate metadata for "${slug}": ${error.message}`);
     return {
       title: 'Not Found'
     };
@@ -67,12 +64,11 @@ export async function generateMetadata({ params }) {
 }
 
 export default async function Post({ params }) {
+  const { slug } = await params;
+
   let post;
-  let content;
-  let errorCode = null;
 
   try {
-    const { slug } = await params;
     post = getPostBySlug(slug, [
       'canonical_url',
       'content',
@@ -83,19 +79,13 @@ export default async function Post({ params }) {
       'slug',
       'title'
     ]);
-
-    if (!post || !post.slug) {
-      errorCode = 404;
-    } else {
-      content = await convertMarkdownToHtml(post.content || '');
-    }
   } catch (error) {
-    console.error('Error loading post:', error);
-    errorCode = 404;
+    console.warn(`Failed to load post "${slug}": ${error.message}`);
+    notFound();
   }
 
-  if (errorCode) {
-    return <ErrorMessage code={errorCode} />;
+  if (!post) {
+    notFound();
   }
 
   const title = `${post.title} // Zeno Rocha`;
@@ -118,7 +108,7 @@ export default async function Post({ params }) {
         description={post.description}
       />
       <Blogpost title={post.title} image={post.image} date={post.date}>
-        <div dangerouslySetInnerHTML={{ __html: content }} />
+        <CustomMDX source={post.content || ''} format="md" />
       </Blogpost>
     </>
   );

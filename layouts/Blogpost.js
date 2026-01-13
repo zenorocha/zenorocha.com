@@ -30,14 +30,20 @@ export default function Blogpost({ children, title, image, date }) {
         <PostMain>
           <PostContent className="[&_::selection]:bg-[#ff80bf] [&_::selection]:text-[#000] [&_::selection]:[-webkit-text-fill-color:#000]">
             <PostContainer>
-              <div>
-                <h1 className="text-primary mx-auto mb-0 max-w-none text-center text-5xl leading-15">
-                  {title}
-                </h1>
-                <h2 className="text-secondary m-0 mb-15 text-center text-base">
-                  <BlogDate dateString={date} />
-                </h2>
-              </div>
+              {(title || date) && (
+                <div>
+                  {title && (
+                    <h1 className="text-primary mx-auto mb-0 max-w-none text-center text-5xl leading-15">
+                      {title}
+                    </h1>
+                  )}
+                  {date && (
+                    <h2 className="text-secondary m-0 mb-15 text-center text-base">
+                      <BlogDate dateString={date} />
+                    </h2>
+                  )}
+                </div>
+              )}
               {children}
             </PostContainer>
           </PostContent>

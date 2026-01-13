@@ -18,7 +18,7 @@ export default function FeaturedProject(props) {
       target="_blank"
       onMouseEnter={() => iconRef.current?.play()}
       onMouseLeave={() => iconRef.current?.stop()}
-      className="flex w-auto rounded-lg border-0 no-underline md:w-45"
+      className="flex w-auto rounded-lg border-0 no-underline hover:opacity-100 md:w-45"
     >
       <HoverAnimation
         id={props.index}

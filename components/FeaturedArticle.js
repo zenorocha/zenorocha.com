@@ -8,13 +8,15 @@ export default function FeaturedArticle(props) {
   const stats = readingTime(props.content);
 
   return (
-    <HoverAnimation
-      id={props.index}
-      layoutId="featuredArticles"
-      as="div"
-      className="relative w-full p-5"
+    <a
+      href={props.href}
+      className="w-full border-0 no-underline first:ml-0 hover:opacity-100"
     >
-      <a href={props.href} className="w-full border-0 no-underline first:ml-0">
+      <HoverAnimation
+        id={props.index}
+        layoutId="featuredArticles"
+        className="relative block w-full p-5"
+      >
         <div
           className="mb-5 aspect-video w-full rounded-lg bg-cover bg-center bg-no-repeat grayscale"
           style={{ backgroundImage: `url(${props.image})` }}
@@ -26,7 +28,7 @@ export default function FeaturedArticle(props) {
             {stats.text}
           </p>
         </div>
-      </a>
-    </HoverAnimation>
+      </HoverAnimation>
+    </a>
   );
 }

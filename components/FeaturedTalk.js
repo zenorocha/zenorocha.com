@@ -11,13 +11,12 @@ export default function FeaturedTalk(props) {
     <a
       href={talk.presentations[0].video}
       target="_blank"
-      className="border-0 no-underline first:ml-0"
+      className="border-0 no-underline first:ml-0 hover:opacity-100"
     >
       <HoverAnimation
         id={props.index}
         layoutId="featuredTalks"
-        as="div"
-        className="relative w-full p-5"
+        className="relative block w-full p-5"
       >
         <div className="flex h-auto flex-col md:h-35 md:flex-row">
           <div className="mr-5 w-62.5">

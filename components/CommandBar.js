@@ -239,18 +239,30 @@ export default function CommandBar(props) {
 
   useHotkeys('escape', () => setOpen(false), { enabled: open });
 
-  useHotkeys(shortcutCombos.copy, () => actionsById.copy.perform());
-  useHotkeys(shortcutCombos.email, () => actionsById.email.perform());
-  useHotkeys(shortcutCombos.source, () => actionsById.source.perform());
-  useHotkeys(shortcutCombos.home, () => actionsById.home.perform());
-  useHotkeys(shortcutCombos.about, () => actionsById.about.perform());
-  useHotkeys(shortcutCombos.articles, () => actionsById.articles.perform());
-  useHotkeys(shortcutCombos.projects, () => actionsById.projects.perform());
-  useHotkeys(shortcutCombos.talks, () => actionsById.talks.perform());
-  useHotkeys(shortcutCombos.podcasts, () => actionsById.podcasts.perform());
-  useHotkeys(shortcutCombos.investing, () => actionsById.investing.perform());
-  useHotkeys(shortcutCombos.uses, () => actionsById.uses.perform());
-  useHotkeys(shortcutCombos.reminder, () => actionsById.reminder.perform());
+  useHotkeys(shortcutCombos.copy.join('>'), () => actionsById.copy.perform());
+  useHotkeys(shortcutCombos.email.join('>'), () => actionsById.email.perform());
+  useHotkeys(shortcutCombos.source.join('>'), () =>
+    actionsById.source.perform()
+  );
+  useHotkeys(shortcutCombos.home.join('>'), () => actionsById.home.perform());
+  useHotkeys(shortcutCombos.about.join('>'), () => actionsById.about.perform());
+  useHotkeys(shortcutCombos.articles.join('>'), () =>
+    actionsById.articles.perform()
+  );
+  useHotkeys(shortcutCombos.projects.join('>'), () =>
+    actionsById.projects.perform()
+  );
+  useHotkeys(shortcutCombos.talks.join('>'), () => actionsById.talks.perform());
+  useHotkeys(shortcutCombos.podcasts.join('>'), () =>
+    actionsById.podcasts.perform()
+  );
+  useHotkeys(shortcutCombos.investing.join('>'), () =>
+    actionsById.investing.perform()
+  );
+  useHotkeys(shortcutCombos.uses.join('>'), () => actionsById.uses.perform());
+  useHotkeys(shortcutCombos.reminder.join('>'), () =>
+    actionsById.reminder.perform()
+  );
 
   return (
     <CommandBarContext.Provider

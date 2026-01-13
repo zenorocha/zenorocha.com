@@ -21,15 +21,15 @@ export default function Navbar() {
   const { toggle } = useCommandBar();
 
   return (
-    <header className="text-primary absolute top-0 z-3 mt-3.25 flex min-h-14.75 w-full flex-wrap items-center text-xs md:mt-0">
+    <header className="text-primary absolute top-0 z-3 mt-3.25 flex min-h-14.75 w-full flex-wrap items-center text-xs lg:mt-0">
       <Link
         href="/"
         className="hover:bg-hover font-display text-primary ml-3 flex h-8.5 cursor-pointer appearance-none items-center rounded-lg border-none bg-transparent px-2.5 text-[2rem] leading-none font-bold no-underline transition-all duration-300 ease-in-out"
       >
         <span className="translate-y-0.25">z</span>
       </Link>
-      <nav className="flex-basis-full md:flex-basis-initial order-2 flex-1 text-center max-md:overflow-x-scroll max-md:overflow-y-hidden md:order-0">
-        <ul className="relative top-1.25 m-0 inline-flex list-none p-0 sm:justify-around">
+      <nav className="flex-basis-full lg:flex-basis-initial order-2 flex-1 text-center max-lg:overflow-x-scroll max-lg:overflow-y-hidden lg:order-0">
+        <ul className="relative top-0 m-0 inline-flex list-none p-0 lg:justify-around lg:top-1.25">
           {pages.map((page) => {
             const path = `/${page.toLowerCase()}`;
             const isActive = pathname === path;

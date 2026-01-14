@@ -3,33 +3,10 @@ import { Resend } from 'resend';
 
 const resend = new Resend(process.env.RESEND_API_KEY);
 
-const getForwardAddresses = (toAddress) => {
-  const forwardAddresses = [];
-
-  switch (toAddress) {
-    case 'hi@zenorocha.com':
-      if (process.env.RESEND_DESTINATION_EMAIL) {
-        forwardAddresses.push(process.env.RESEND_DESTINATION_EMAIL);
-      }
-      break;
-    case 'hi@clipboardjs.com':
-      if (process.env.RESEND_DESTINATION_EMAIL) {
-        forwardAddresses.push(process.env.RESEND_DESTINATION_EMAIL);
-      }
-      break;
-    case 'zeno@14habits.com':
-      if (process.env.RESEND_DESTINATION_EMAIL) {
-        forwardAddresses.push(process.env.RESEND_DESTINATION_EMAIL);
-      }
-      break;
-    default:
-      if (process.env.RESEND_DESTINATION_EMAIL) {
-        forwardAddresses.push(process.env.RESEND_DESTINATION_EMAIL);
-      }
-      break;
-  }
-
-  return forwardAddresses;
+const getForwardAddresses = () => {
+  return process.env.RESEND_DESTINATION_EMAIL
+    ? [process.env.RESEND_DESTINATION_EMAIL]
+    : [];
 };
 
 export const POST = async (request) => {
@@ -85,7 +62,7 @@ export const POST = async (request) => {
           : [];
 
       const toAddress = email.to?.[0] || '';
-      const forwardAddresses = getForwardAddresses(toAddress);
+      const forwardAddresses = getForwardAddresses();
 
       if (forwardAddresses.length === 0) {
         return NextResponse.json(

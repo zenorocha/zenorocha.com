@@ -45,7 +45,7 @@ export const POST = async (request) => {
       const { data, error: sendError } = await resend.emails.send({
         from: fromAddress,
         to: process.env.RESEND_DESTINATION_EMAIL,
-        replyTo: event.data.from[0],
+        replyTo: event.data.from,
         subject: event.data.subject,
         html: email?.html || '',
         text: email?.text || ''

@@ -28,8 +28,19 @@ export const POST = async (request) => {
         );
       }
 
+      let fromAddress = 'forward@zenorocha.com';
+
+      switch (email?.to[0]) {
+        case 'hi@zenorocha.com':
+          fromAddress = 'forward@zenorocha.com';
+          break;
+        case 'hi@clipboardjs.com':
+          fromAddress = 'forward@clipboardjs.com';
+          break;
+      }
+
       const { data, error: sendError } = await resend.emails.send({
-        from: 'forward@zenorocha.com',
+        from: fromAddress,
         to: process.env.RESEND_DESTINATION_EMAIL,
         replyTo: event.data.from[0],
         subject: event.data.subject,

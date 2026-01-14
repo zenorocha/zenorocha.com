@@ -28,7 +28,7 @@ export const POST = async (request) => {
         );
       }
 
-      let fromAddress = 'forward@zenorocha.com';
+      let fromAddress = 'catch-all@zenorocha.com';
 
       switch (email?.to[0]) {
         case 'hi@zenorocha.com':
@@ -36,6 +36,9 @@ export const POST = async (request) => {
           break;
         case 'hi@clipboardjs.com':
           fromAddress = 'forward@clipboardjs.com';
+          break;
+        case 'zeno@14habits.com':
+          fromAddress = 'forward@14habits.com';
           break;
       }
 

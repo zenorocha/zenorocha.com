@@ -29,7 +29,7 @@ export default function Navbar() {
         <span className="translate-y-0.25">z</span>
       </Link>
       <nav className="flex-basis-full lg:flex-basis-initial order-2 flex-1 text-center max-lg:overflow-x-scroll max-lg:overflow-y-hidden lg:order-0">
-        <ul className="relative top-0 m-0 inline-flex list-none p-0 lg:justify-around lg:top-1.25">
+        <ul className="relative top-0 m-0 inline-flex list-none p-0 lg:top-1.25 lg:justify-around">
           {pages.map((page) => {
             const path = `/${page.toLowerCase()}`;
             const isActive = pathname === path;

@@ -3,12 +3,6 @@ import { Resend } from 'resend';
 
 const resend = new Resend(process.env.RESEND_API_KEY);
 
-const getForwardAddresses = () => {
-  return process.env.RESEND_DESTINATION_EMAIL
-    ? [process.env.RESEND_DESTINATION_EMAIL]
-    : [];
-};
-
 export const POST = async (request) => {
   try {
     const payload = await request.text();
@@ -61,19 +55,9 @@ export const POST = async (request) => {
               }))
           : [];
 
-      const toAddress = email.to?.[0] || '';
-      const forwardAddresses = getForwardAddresses();
-
-      if (forwardAddresses.length === 0) {
-        return NextResponse.json(
-          { message: 'No forward addresses configured' },
-          { status: 400 }
-        );
-      }
-
       let fromAddress = 'catch-all@zenorocha.com';
 
-      switch (toAddress) {
+      switch (email.to?.[0]) {
         case 'hi@zenorocha.com':
           fromAddress = 'forward@zenorocha.com';
           break;
@@ -87,12 +71,12 @@ export const POST = async (request) => {
 
       const { error: sendError } = await resend.emails.send({
         from: fromAddress,
-        to: forwardAddresses,
+        to: process.env.RESEND_DESTINATION_EMAIL,
         replyTo: event.data.from,
         subject: event.data.subject || email.subject || '',
         html: email.html || '',
         text: email.text || '',
-        attachments: attachments.length > 0 ? attachments : undefined
+        attachments: attachments.length ? attachments : undefined
       });
 
       if (sendError) {

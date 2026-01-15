@@ -40,20 +40,13 @@ export const POST = async (request) => {
         console.error('Failed to retrieve attachments:', attachmentsError);
       }
 
-      const attachmentsList =
-        attachmentsResponse?.data && attachmentsResponse.data.length > 0
-          ? attachmentsResponse.data
-          : [];
+      const attachmentsList = attachmentsResponse?.data ?? [];
 
-      const attachments =
-        attachmentsList.length > 0
-          ? attachmentsList
-              .filter((attachment) => attachment.download_url)
-              .map((attachment) => ({
-                path: attachment.download_url,
-                filename: attachment.filename || 'attachment'
-              }))
-          : [];
+      const attachments = attachmentsList
+        .map((attachment) => ({
+          path: attachment.download_url,
+          filename: attachment.filename
+        }));
 
       let fromAddress = 'catch-all@zenorocha.com';
 

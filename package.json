@@ -20,7 +20,7 @@
     "framer-motion": "^12.23.26",
     "gray-matter": "^4.0.3",
     "lottie-react": "^2.4.1",
-    "next": "^16.0.10",
+    "next": "^16.1.6",
     "next-mdx-remote": "^5.0.0",
     "next-seo": "^7.0.1",
     "react": "^19.2.3",

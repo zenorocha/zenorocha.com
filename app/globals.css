@@ -99,6 +99,19 @@
   a:focus {
     @apply opacity-80;
   }
+
+  .tiptap {
+    @apply border-secondary text-primary focus:border-cyan rounded-lg border bg-transparent p-2.5 leading-none focus:outline-none;
+  }
+  .tiptap p {
+    @apply text-primary;
+  }
+  .tiptap ul {
+    @apply list-disc;
+  }
+  .tiptap ol {
+    @apply list-decimal;
+  }
 }
 
 @keyframes slideUpAndFade {
@@ -106,6 +119,7 @@
     opacity: 0;
     transform: translateY(1.25rem);
   }
+
   100% {
     opacity: 1;
     transform: translateY(0);
@@ -117,6 +131,7 @@
     opacity: 1;
     transform: translateY(0);
   }
+
   100% {
     opacity: 0;
     transform: translateY(1.25rem);
@@ -127,6 +142,7 @@
   from {
     opacity: 0;
   }
+
   to {
     opacity: 1;
   }
@@ -136,6 +152,7 @@
   from {
     opacity: 1;
   }
+
   to {
     opacity: 0;
   }
@@ -146,6 +163,7 @@
     opacity: 0;
     transform: translate(-50%, -48%) scale(0.96);
   }
+
   to {
     opacity: 1;
     transform: translate(-50%, -50%) scale(1);
@@ -157,6 +175,7 @@
     opacity: 1;
     transform: translate(-50%, -50%) scale(1);
   }
+
   to {
     opacity: 0;
     transform: translate(-50%, -48%) scale(0.96);

@@ -1,7 +1,5 @@
 import { Resend } from 'resend';
 
-import EmailTemplate from '../../../components/EmailTemplate';
-
 const resend = new Resend(process.env.RESEND_API_KEY);
 
 export async function POST(request) {
@@ -12,15 +10,14 @@ export async function POST(request) {
     return Response.json({ message: e.message }, { status: 500 });
   }
 
-  const emailTemplate = <EmailTemplate {...data} />;
-
   try {
     const { error } = await resend.emails.send({
-      from: 'zenorocha.com <website@zenorocha.com>',
+      from: 'onboarding@resend.dev',
       to: process.env.RESEND_DESTINATION_EMAIL,
       replyTo: data.email,
       subject: `${data.name} - via zenorocha.com`,
-      react: emailTemplate
+      html: data.html,
+      text: data.text,
     });
 
     if (error) {

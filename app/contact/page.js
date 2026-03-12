@@ -2,6 +2,10 @@
 
 import React from 'react';
 
+import '@react-email/editor/themes/default.css';
+import { StarterKit, SlashCommand, BubbleMenu, composeReactEmail } from '@react-email/editor';
+import { EditorProvider } from '@tiptap/react';
+
 import { Box } from '../../components/Box';
 import Toast from '../../components/Toast';
 import Base from '../../layouts/Base';
@@ -11,6 +15,8 @@ export default function Contact() {
   const [isEmailSent, setIsEmailSent] = React.useState(undefined);
   const [showToast, setShowToast] = React.useState(false);
 
+  const editorRef = React.useRef(null);
+
   const onSendEmail = async (e) => {
     e.preventDefault();
 
@@ -18,13 +24,19 @@ export default function Contact() {
       const isProd = process.env.NODE_ENV === 'production';
       const base = isProd ? 'https://zenorocha.com' : 'http://localhost:3000';
 
+      const { html, text } = await composeReactEmail({
+        editor: editorRef.current,
+        preview: '',
+      });
+
       await fetch(`${base}/api/email`, {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({
           name: e.target.name.value,
           email: e.target.email.value,
-          message: e.target.message.value
+          html,
+          text,
         })
       });
 
@@ -85,13 +97,24 @@ export default function Contact() {
             >
               Message
             </label>
-            <textarea
-              id="message"
-              placeholder="How can I help you?"
-              rows="4"
-              required
-              className="border-secondary text-primary focus:border-cyan rounded-lg border bg-transparent p-2.5 focus:outline-none"
-            />
+
+            <EditorProvider
+              immediatelyRender={false}
+              extensions={[StarterKit, SlashCommand]}
+              onCreate={({ editor }) => {
+                editorRef.current = editor;
+              }}
+            >
+              <BubbleMenu.Default />
+            </EditorProvider>
+
+            {/* <textarea */}
+            {/*   id="message" */}
+            {/*   placeholder="How can I help you?" */}
+            {/*   rows="4" */}
+            {/*   required */}
+            {/*   className="border-secondary text-primary focus:border-cyan rounded-lg border bg-transparent p-2.5 focus:outline-none" */}
+            {/* /> */}
           </div>
           <div className="mb-2.5 flex flex-col">
             <button

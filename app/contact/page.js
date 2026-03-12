@@ -107,14 +107,6 @@ export default function Contact() {
             >
               <BubbleMenu.Default />
             </EditorProvider>
-
-            {/* <textarea */}
-            {/*   id="message" */}
-            {/*   placeholder="How can I help you?" */}
-            {/*   rows="4" */}
-            {/*   required */}
-            {/*   className="border-secondary text-primary focus:border-cyan rounded-lg border bg-transparent p-2.5 focus:outline-none" */}
-            {/* /> */}
           </div>
           <div className="mb-2.5 flex flex-col">
             <button

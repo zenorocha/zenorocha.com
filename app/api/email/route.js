@@ -12,7 +12,7 @@ export async function POST(request) {
 
   try {
     const { error } = await resend.emails.send({
-      from: 'onboarding@resend.dev',
+      from: 'zenorocha.com <website@zenorocha.com>',
       to: process.env.RESEND_DESTINATION_EMAIL,
       replyTo: data.email,
       subject: `${data.name} - via zenorocha.com`,

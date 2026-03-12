@@ -1,10 +1,15 @@
 'use client';
 
-import React from 'react';
-
 import '@react-email/editor/themes/default.css';
-import { StarterKit, SlashCommand, BubbleMenu, composeReactEmail } from '@react-email/editor';
+
+import {
+  BubbleMenu,
+  composeReactEmail,
+  SlashCommand,
+  StarterKit
+} from '@react-email/editor';
 import { EditorProvider } from '@tiptap/react';
+import React from 'react';
 
 import { Box } from '../../components/Box';
 import Toast from '../../components/Toast';
@@ -26,7 +31,7 @@ export default function Contact() {
 
       const { html, text } = await composeReactEmail({
         editor: editorRef.current,
-        preview: '',
+        preview: ''
       });
 
       await fetch(`${base}/api/email`, {
@@ -36,7 +41,7 @@ export default function Contact() {
           name: e.target.name.value,
           email: e.target.email.value,
           html,
-          text,
+          text
         })
       });
 

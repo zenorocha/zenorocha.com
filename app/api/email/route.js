@@ -17,7 +17,7 @@ export async function POST(request) {
       replyTo: data.email,
       subject: `${data.name} - via zenorocha.com`,
       html: data.html,
-      text: data.text,
+      text: data.text
     });
 
     if (error) {

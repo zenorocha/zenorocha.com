@@ -105,7 +105,17 @@ export default function Contact() {
 
             <EditorProvider
               immediatelyRender={false}
-              extensions={[StarterKit, SlashCommand]}
+              extensions={[
+                StarterKit.configure({
+                  Placeholder: { placeholder: 'How can I help you?' },
+                }),
+                SlashCommand,
+              ]}
+              editorProps={{
+                attributes: {
+                  style: 'min-height: 158px',
+                },
+              }}
               onCreate={({ editor }) => {
                 editorRef.current = editor;
               }}

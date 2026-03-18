@@ -29,7 +29,7 @@
     font-family: var(--font-mono);
   }
 
-  svg {
+  svg:not(.tiptap *):not([data-tippy-root] *) {
     @apply h-8 w-8;
     fill: oklch(100% 0 0);
   }
@@ -111,6 +111,11 @@
   }
   .tiptap ol {
     @apply list-decimal;
+  }
+  .tiptap .is-empty::before {
+    @apply pointer-events-none float-left h-0;
+    color: oklch(0.961 0 0 / 0.5);
+    content: attr(data-placeholder);
   }
 }
 

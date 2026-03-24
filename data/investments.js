@@ -1,6 +1,20 @@
 const investments = [
   {
     status: 'active',
+    title: 'Overshoot',
+    description: 'LLM intelligence to live video.',
+    icon: 'overshoot',
+    url: 'https://overshoot.ai'
+  },
+  {
+    status: 'active',
+    title: 'Replicas',
+    description: 'Background coding agent.',
+    icon: 'replicas',
+    url: 'https://www.replicas.dev'
+  },
+  {
+    status: 'active',
     title: 'Skald',
     description: 'Private context layer for AI agents.',
     icon: 'skald',

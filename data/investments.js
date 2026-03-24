@@ -93,16 +93,16 @@ const investments = [
   {
     status: 'acquired',
     title: 'Koala',
-    description: 'Finding qualified leads with data science.',
+    description: 'Acquired by Cursor.',
     icon: 'koala',
-    url: 'https://getkoala.com'
+    url: 'https://techcrunch.com/2025/07/18/cursor-snaps-up-enterprise-startup-koala-in-challenge-to-github-copilot'
   },
   {
     status: 'acquired',
     title: 'Mergent',
-    description: 'Providing schedulers in a reliable way.',
+    description: 'Acquired by Resend.',
     icon: 'mergent',
-    url: 'https://mergent.co'
+    url: 'https://resend.com/blog/resend-acquires-mergent'
   },
   {
     status: 'active',
@@ -114,9 +114,9 @@ const investments = [
   {
     status: 'acquired',
     title: 'Fig',
-    description: 'Reimagining your existing terminal experience.',
+    description: 'Acquired by Amazon.',
     icon: 'fig',
-    url: 'https://fig.io'
+    url: 'https://techcrunch.com/2023/08/29/amazon-fig-command-line-terminal-generative-ai'
   },
   {
     status: 'active',

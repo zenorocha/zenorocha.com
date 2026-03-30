@@ -29,7 +29,7 @@
     font-family: var(--font-mono);
   }
 
-  svg {
+  svg:not(.tiptap *):not([data-tippy-root] *) {
     @apply h-8 w-8;
     fill: oklch(100% 0 0);
   }
@@ -99,6 +99,24 @@
   a:focus {
     @apply opacity-80;
   }
+
+  .tiptap {
+    @apply border-secondary text-primary focus:border-cyan rounded-lg border bg-transparent p-2.5 leading-none focus:outline-none;
+  }
+  .tiptap p {
+    @apply text-primary;
+  }
+  .tiptap ul {
+    @apply list-disc;
+  }
+  .tiptap ol {
+    @apply list-decimal;
+  }
+  .tiptap .is-empty::before {
+    @apply pointer-events-none float-left h-0;
+    color: oklch(0.961 0 0 / 0.5);
+    content: attr(data-placeholder);
+  }
 }
 
 @keyframes slideUpAndFade {
@@ -106,6 +124,7 @@
     opacity: 0;
     transform: translateY(1.25rem);
   }
+
   100% {
     opacity: 1;
     transform: translateY(0);
@@ -117,6 +136,7 @@
     opacity: 1;
     transform: translateY(0);
   }
+
   100% {
     opacity: 0;
     transform: translateY(1.25rem);
@@ -127,6 +147,7 @@
   from {
     opacity: 0;
   }
+
   to {
     opacity: 1;
   }
@@ -136,6 +157,7 @@
   from {
     opacity: 1;
   }
+
   to {
     opacity: 0;
   }
@@ -146,6 +168,7 @@
     opacity: 0;
     transform: translate(-50%, -48%) scale(0.96);
   }
+
   to {
     opacity: 1;
     transform: translate(-50%, -50%) scale(1);
@@ -157,6 +180,7 @@
     opacity: 1;
     transform: translate(-50%, -50%) scale(1);
   }
+
   to {
     opacity: 0;
     transform: translate(-50%, -48%) scale(0.96);

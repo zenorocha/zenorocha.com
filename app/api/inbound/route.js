@@ -42,11 +42,10 @@ export const POST = async (request) => {
 
       const attachmentsList = attachmentsResponse?.data ?? [];
 
-      const attachments = attachmentsList
-        .map((attachment) => ({
-          path: attachment.download_url,
-          filename: attachment.filename
-        }));
+      const attachments = attachmentsList.map((attachment) => ({
+        path: attachment.download_url,
+        filename: attachment.filename
+      }));
 
       let fromAddress = 'catch-all@zenorocha.com';
 

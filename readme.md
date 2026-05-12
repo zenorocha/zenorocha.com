@@ -3,6 +3,7 @@
 > My personal website <3
 
 [![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Fzenorocha%2Fzenorocha.com)
+[![Deploy to PandaStack](https://dashboard.pandastack.io/deploy-button.svg)](https://dashboard.pandastack.io/deploy?repo=zenorocha/zenorocha.com&type=static&buildCmd=npm+run+build&outputDir=dist)
 
 ## Technology stack
 

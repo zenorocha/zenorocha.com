@@ -8,7 +8,7 @@ const items = [
         url: 'https://resend.com',
         active: true,
         icon: 'resend',
-        stats: '1M+ users'
+        stats: '4M+ users'
       }
     ]
   },
@@ -21,7 +21,7 @@ const items = [
         url: 'https://react.email',
         active: true,
         icon: 'email',
-        stats: '1M+ downloads'
+        stats: '3M+ downloads'
       },
       {
         title: 'WorkOS',
@@ -241,7 +241,7 @@ const items = [
         url: 'https://draculatheme.com',
         active: true,
         icon: 'dracula-pro',
-        stats: '9M+ users'
+        stats: '11M+ users'
       },
       {
         title: 'Workflow Collection for Alfred App',

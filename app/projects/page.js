@@ -16,7 +16,7 @@ export const metadata = {
 
 export default function Projects() {
   const renderFeatured = () => {
-    const featured = ['Dracula', 'Clipboard.js', 'Resend', 'React Email'];
+    const featured = ['Resend', 'React Email', 'Dracula', 'Clipboard.js'];
 
     return items
       .map((item) => {
@@ -28,6 +28,7 @@ export default function Projects() {
         return item.length > 0;
       })
       .flat()
+      .sort((a, b) => featured.indexOf(a.title) - featured.indexOf(b.title))
       .map((item) => {
         return <FeaturedProject key={item.url} project={item} />;
       });

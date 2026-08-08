@@ -1,3 +1,11 @@
+const builderStories = [
+  {
+    date: '2026-08-05',
+    title: "Cal.com's CEO Vibe-Coded His Own GTM Platform",
+    url: 'https://youtu.be/ylwFBUnO3I4'
+  }
+];
+
 const bytetalk = [
   {
     date: '2021-08-25',
@@ -89,9 +97,45 @@ const bytetalk = [
 
 const appearances = [
   {
+    date: '2026-01-07',
+    title: 'Zeno Rocha interview at React Conf',
+    url: 'https://youtu.be/rwe2mt1f2HU'
+  },
+  {
+    date: '2025-10-23',
+    title: 'Cutting scope ruthlessly and shipping products fast',
+    url: 'https://youtu.be/THnXhWL-pA0'
+  },
+  {
+    date: '2025-07-24',
+    title:
+      'Brasileiros na YC, Ser Dev ou CEO',
+    url: 'https://youtu.be/YYsknGfd96w'
+  },
+  {
+    date: '2025-03-21',
+    title: 'Automating Developer Email with MCP and AI Agents',
+    url: 'https://youtu.be/8fxX1IuWIek'
+  },
+  {
+    date: '2024-10-14',
+    title: 'Why developers trust Resend',
+    url: 'https://youtu.be/7TXnL10fjZg'
+  },
+  {
+    date: '2024-07-17',
+    title: 'Gaining Traction in Open Source',
+    url: 'https://youtu.be/hky_WSHaoBg'
+  },
+  {
     date: '2024-04-04',
     title: 'Getting to Resend on The Changelog',
     url: 'https://changelog.com/podcast/585'
+  },
+  {
+    date: '2024-03-15',
+    title: 'Building a developer brand and simple API for email',
+    url: 'https://youtu.be/s47Mjt8VAsw'
   },
   {
     date: '2024-03-08',
@@ -235,4 +279,4 @@ const zofe = [
   }
 ];
 
-export { appearances, bytetalk, zofe };
+export { appearances, builderStories, bytetalk, zofe };

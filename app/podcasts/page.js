@@ -1,6 +1,11 @@
 import { ListGroup } from '../../components/ListGroup';
 import ListItem from '../../components/ListItem';
-import { appearances, bytetalk, zofe } from '../../data/podcasts';
+import {
+  appearances,
+  builderStories,
+  bytetalk,
+  zofe
+} from '../../data/podcasts';
 import Base from '../../layouts/Base';
 
 export const metadata = {
@@ -63,6 +68,12 @@ export default function Podcasts() {
       <p dangerouslySetInnerHTML={{ __html: description }} />
       <h2>Featured Podcasts</h2>
       <ListGroup>{renderFeatured(appearances)}</ListGroup>
+      <h2>Builder Stories</h2>
+      <p>
+        My new show where I chat with the people behind the best products in
+        tech.
+      </p>
+      <ListGroup>{renderEpisode(builderStories)}</ListGroup>
       <h2>Appearances</h2>
       <ListGroup>{renderEpisode(appearances)}</ListGroup>
       <h2>ByteTalk</h2>

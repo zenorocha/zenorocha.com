@@ -1,3 +1,5 @@
+import { Box } from '../../components/Box';
+import FeaturedPodcast from '../../components/FeaturedPodcast';
 import { ListGroup } from '../../components/ListGroup';
 import ListItem from '../../components/ListItem';
 import {
@@ -24,21 +26,14 @@ export default function Podcasts() {
     const featured = [
       'Obsessing over every detail',
       'Automating Developer Email with MCP and AI Agents',
-      'Getting to Resend on The Changelog',
+      'Brazilians at YC, being a Dev and CEO',
     ];
 
-    return items
-      .filter((item) => featured.includes(item.title))
-      .map((item, index) => {
-        return (
-          <ListItem
-            key={`${item.title}-${item.date}-${index}`}
-            index={index}
-            href={item.url}
-            title={item.title}
-            date={item.date}
-          />
-        );
+    return featured
+      .map((title) => items.find((item) => item.title === title))
+      .filter(Boolean)
+      .map((item) => {
+        return <FeaturedPodcast key={item.url} podcast={item} />;
       });
   };
 
@@ -67,7 +62,7 @@ export default function Podcasts() {
     >
       <p dangerouslySetInnerHTML={{ __html: description }} />
       <h2>Featured Podcasts</h2>
-      <ListGroup>{renderFeatured(appearances)}</ListGroup>
+      <Box className="mt-2.5 -ml-5">{renderFeatured(appearances)}</Box>
       <h2>Builder Stories</h2>
       <p>
         My new show where I chat with the people behind the best products in

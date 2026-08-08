@@ -104,18 +104,24 @@ const appearances = [
   {
     date: '2025-10-23',
     title: 'Obsessing over every detail',
-    url: 'https://youtu.be/THnXhWL-pA0'
+    url: 'https://youtu.be/THnXhWL-pA0',
+    cover: '/static/images/podcast-evilmartians.jpeg',
+    show: 'Evil Martians'
   },
   {
     date: '2025-07-24',
     title:
-      'Brasileiros na YC, Ser Dev ou CEO',
-    url: 'https://youtu.be/YYsknGfd96w'
+      'Brazilians at YC, being a Dev and CEO',
+    url: 'https://youtu.be/YYsknGfd96w',
+    cover: '/static/images/podcast-contramao.jpeg',
+    show: 'Contramão'
   },
   {
     date: '2025-03-21',
     title: 'Automating Developer Email with MCP and AI Agents',
-    url: 'https://youtu.be/8fxX1IuWIek'
+    url: 'https://youtu.be/8fxX1IuWIek',
+    cover: '/static/images/podcast-a16z.jpeg',
+    show: 'a16z'
   },
   {
     date: '2024-10-14',

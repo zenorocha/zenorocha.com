@@ -42,8 +42,13 @@ export default function ListItem(props) {
           <span className="text-secondary block max-w-125 text-left text-lg leading-10 font-bold">
             {props.title}
           </span>
-          <span className="text-2xl">
-            <i className="ri-arrow-right-up-line"></i>
+          <span className="flex items-center gap-4">
+            <span className="text-secondary hidden min-w-25 text-right text-sm font-medium md:block">
+              <BlogDate dateString={props.date} />
+            </span>
+            <span className="text-2xl">
+              <i className="ri-arrow-right-up-line"></i>
+            </span>
           </span>
         </HoverAnimation>
       </a>

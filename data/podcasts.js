@@ -103,7 +103,7 @@ const appearances = [
   },
   {
     date: '2025-10-23',
-    title: 'Cutting scope ruthlessly and shipping products fast',
+    title: 'Obsessing over every detail',
     url: 'https://youtu.be/THnXhWL-pA0'
   },
   {

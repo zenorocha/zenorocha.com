@@ -22,9 +22,9 @@ export const metadata = {
 export default function Podcasts() {
   const renderFeatured = (items) => {
     const featured = [
+      'Obsessing over every detail',
+      'Automating Developer Email with MCP and AI Agents',
       'Getting to Resend on The Changelog',
-      'Why developers trust Resend on Scaling DevTools',
-      'React.Email, Resend, Dracula Theme on DevTools.fm'
     ];
 
     return items

@@ -1,5 +1,20 @@
 const builderStories = [
   {
+    date: '2026-09-30',
+    title: '8 pivots in the first year!',
+    url: 'https://youtu.be/PRdRxqqkCRQ'
+  },
+  {
+    date: '2026-09-10',
+    title: 'The New World of AI Marketing',
+    url: 'https://youtu.be/a9hqSdOfrPw'
+  },
+  {
+    date: '2026-08-20',
+    title: 'Story behind the most loved CLI brand',
+    url: 'https://youtu.be/rGlltRdJsuA'
+  },
+  {
     date: '2026-08-05',
     title: "Cal.com's CEO Vibe-Coded His Own GTM Platform",
     url: 'https://youtu.be/ylwFBUnO3I4'

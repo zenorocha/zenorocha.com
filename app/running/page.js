@@ -12,7 +12,7 @@ export const metadata = {
   openGraph: {
     title: 'Running // Zeno Rocha',
     url: 'https://zenorocha.com/running',
-    images: ['/static/images/home-bw.jpg']
+    images: ['/static/images/running-bw.jpg']
   }
 };
 

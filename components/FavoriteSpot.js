@@ -18,11 +18,11 @@ export default function FavoriteSpot(props) {
       <HoverAnimation
         id={props.index}
         layoutId="favoriteSpots"
-        className="relative w-full p-5"
+        className="relative flex w-full flex-col p-5"
       >
         <svg
           viewBox="0 0 320 200"
-          className="mb-2.5 block h-auto w-full"
+          className="mt-2.5 block h-auto w-full md:mt-0 md:mb-2.5"
           role="img"
           aria-label={`Running circuit at ${spot.name}`}
         >
@@ -46,8 +46,10 @@ export default function FavoriteSpot(props) {
           />
           <circle cx={startX} cy={startY} r="4" fill="var(--color-green)" />
         </svg>
-        <p className="text-primary m-0 text-lg">{spot.name}</p>
-        <p className="text-secondary m-0 leading-6">{spot.city}</p>
+        <div className="order-first md:order-none">
+          <p className="text-primary m-0 text-lg">{spot.name}</p>
+          <p className="text-secondary m-0 leading-6">{spot.city}</p>
+        </div>
       </HoverAnimation>
     </a>
   );

@@ -15,6 +15,7 @@ export default function Navbar() {
     'Talks',
     'Podcasts',
     'Investing',
+    'Running',
     'Uses',
     'Reminder'
   ];

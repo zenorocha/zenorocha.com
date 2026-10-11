@@ -1,3 +1,4 @@
+// Fallback used when the Strava credentials are missing or the API fails
 const stats = [
   { label: 'Kilometers in 2026', value: '1,071' },
   { label: 'Runs in 2026', value: '107' },

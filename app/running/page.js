@@ -4,6 +4,10 @@ import { ListGroup } from '../../components/ListGroup';
 import ListItem from '../../components/ListItem';
 import { favoriteSpots, races, stats } from '../../data/running';
 import Base from '../../layouts/Base';
+import { getRunningStats } from '../../lib/strava';
+
+// Refresh the Strava stats at most once a day
+export const revalidate = 86400;
 
 export const metadata = {
   title: 'Running',
@@ -16,14 +20,15 @@ export const metadata = {
   }
 };
 
-export default function Running() {
+export default async function Running() {
+  const runningStats = await getRunningStats(stats);
   const description =
     'Remember that feeling of <strong>deep focus</strong> that programming used to give? Hours would disappear and the world would go quiet. I found that again in <strong>running</strong>.';
 
   const renderStats = () => {
     return (
       <div className="my-5 grid grid-cols-2 gap-5 md:grid-cols-4">
-        {stats.map((stat) => (
+        {runningStats.map((stat) => (
           <div key={stat.label}>
             <p className="text-primary m-0 text-3xl font-bold">{stat.value}</p>
             <p className="text-secondary m-0 text-sm">{stat.label}</p>
